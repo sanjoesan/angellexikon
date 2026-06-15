@@ -25,6 +25,9 @@ jobs:
 
       - name: Build mit Astro
         uses: withastro/action@v3
+        with:
+          # Astro 6 benötigt Node >= 22.12 (Action-Default wäre Node 20)
+          node-version: 22
         # site/base werden hier passend zum Repository gesetzt,
         # damit Canonical-URLs & Sitemap korrekt sind.
         env:
