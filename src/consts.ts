@@ -11,7 +11,7 @@ export const SITE = {
 } as const;
 
 // Updated automatically during deploy (gh username). Used for footer / meta.
-export const REPO_URL = 'https://github.com/USERNAME/angellexikon';
+export const REPO_URL = 'https://github.com/sanjoesan/angellexikon';
 
 export type CategoryKey =
   | 'fische'

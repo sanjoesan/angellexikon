@@ -7,7 +7,7 @@ import sitemap from '@astrojs/sitemap';
 // `site`  -> your GitHub Pages origin   (update <USERNAME> after `gh auth login`)
 // `base`  -> the repository name        (keep in sync with the repo "angellexikon")
 // The deploy workflow also injects these via env vars, so CI stays correct.
-const SITE_URL = process.env.SITE_URL || 'https://USERNAME.github.io';
+const SITE_URL = process.env.SITE_URL || 'https://sanjoesan.github.io';
 const BASE = process.env.BASE_PATH || '/angellexikon';
 
 export default defineConfig({
