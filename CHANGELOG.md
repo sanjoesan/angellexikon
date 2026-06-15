@@ -3,6 +3,19 @@
 Alle nennenswerten Änderungen am Angellexikon.
 Format orientiert an [Keep a Changelog](https://keepachangelog.com/de/).
 
+## [1.4.0] – 2026-06-15 · Großes Angel-Quiz
+
+### Hinzugefügt
+- **Angel-Quiz auf 517 Fragen** erweitert, mit **Schwierigkeitsstufen**
+  (Leicht / Mittel / Schwer / Gemischt). Pro Runde werden 12 zufällige Fragen
+  der gewählten Stufe gezogen.
+
+### Geändert / Behoben
+- Die Antwortmöglichkeiten werden jetzt pro Frage **zufällig gemischt** – vorher
+  war immer die erste Antwort die richtige.
+- Fragen werden aus einem JSON-Endpoint (`/quiz-data.json`) geladen, statt im
+  HTML eingebettet zu sein.
+
 ## [1.3.0] – 2026-06-15 · Küche, Werkzeuge & großer Inhalts-Ausbau
 
 ### Hinzugefügt
