@@ -3,6 +3,7 @@ import BaseLayout from '../../layouts/BaseLayout.astro';
 import Breadcrumbs from '../../components/Breadcrumbs.astro';
 import ChipRail from '../../components/ChipRail.astro';
 import EntryCard from '../../components/EntryCard.astro';
+import FishArt from '../../components/FishArt.astro';
 import WaveDivider from '../../components/WaveDivider.astro';
 import { CATEGORIES, getCategory } from '../../consts';
 import { getCollection } from 'astro:content';
@@ -124,11 +125,23 @@ for (let k = 1; k <= 4 && k < sortedAll.length; k++) {
   <section class="entry-hero">
     <div class="container">
       <Breadcrumbs items={[{ label: cat.label, href: withBase('/' + cat.key + '/') }, { label: d.name }]} />
-      <span class="big-emoji" aria-hidden="true">{cat.icon}</span>
+      {catKey === 'fische' ? (
+        <FishArt data={d} class="entry-art" label={d.name} />
+      ) : (
+        <span class="big-emoji" aria-hidden="true">{cat.icon}</span>
+      )}
       {sub && <div class="lat">{sub}</div>}
       <h1>{d.name}</h1>
       <p class="lead">{d.tagline}</p>
       <div class="hero-badges">
+        <button class="fav-btn" type="button" data-fav
+          data-url={withBase('/' + catKey + '/' + id + '/')}
+          data-name={d.name}
+          data-cat={cat.label}
+          data-icon={cat.icon}
+          data-tagline={d.tagline}>
+          <span class="fav-ic" aria-hidden="true">☆</span> <span class="fav-label">Merken</span>
+        </button>
         {d.difficulty && <span class={`badge diff-${d.difficulty}`}>{d.difficulty}</span>}
         {d.habitat && <span class="chip">💧 {d.habitat}</span>}
         {d.type && catKey !== 'fische' && <span class="chip">{cat.icon} {d.type}</span>}
@@ -248,7 +261,9 @@ for (let k = 1; k <= 4 && k < sortedAll.length; k++) {
               tagline={e.data.tagline}
               icon={cat.icon}
               sub={catKey === 'fische' ? e.data.nameLat : undefined}
-            />
+            >
+              {catKey === 'fische' && <FishArt slot="media" data={e.data} />}
+            </EntryCard>
           ))}
         </div>
       </div>

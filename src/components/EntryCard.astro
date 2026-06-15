@@ -11,8 +11,10 @@ interface Props {
 }
 const { href, name, tagline, icon, sub, badge, filter, haystack } = Astro.props;
 const hay = [name, sub, tagline, haystack].filter(Boolean).join(' ').toLowerCase();
+const hasMedia = Astro.slots.has('media');
 ---
 <article class="entry-card reveal" data-entry data-filter={filter} data-haystack={hay}>
+  {hasMedia && <div class="ec-media"><slot name="media" /></div>}
   <div class="ec-top">
     <h3><a href={href} class="stretched">{name}</a></h3>
     {icon && <span class="ec-emoji" aria-hidden="true">{icon}</span>}

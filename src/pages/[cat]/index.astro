@@ -1,6 +1,7 @@
 ---
 import BaseLayout from '../../layouts/BaseLayout.astro';
 import EntryCard from '../../components/EntryCard.astro';
+import FishArt from '../../components/FishArt.astro';
 import WaveDivider from '../../components/WaveDivider.astro';
 import { CATEGORIES, getCategory } from '../../consts';
 import { getCollection } from 'astro:content';
@@ -83,7 +84,9 @@ const facetLabel: Record<string, string> = {
           badge={badgeOf(e.data)}
           filter={facetOf(e.data)}
           haystack={[e.data.nameLat, e.data.nameEn, (e.data.aliases || []).join(' '), (e.data.species || []).join(' '), (e.data.targetFish || []).join(' ')].filter(Boolean).join(' ')}
-        />
+        >
+          {catKey === 'fische' && <FishArt slot="media" data={e.data} />}
+        </EntryCard>
       ))}
     </div>
     <div id="noresults" class="noresults is-hidden">Keine Einträge gefunden – versuche einen anderen Begriff. 🎣</div>

@@ -1,0 +1,139 @@
+---
+import { fishColors, nextUid } from '../utils/fishshape';
+interface Props { data: any; label?: string; class?: string }
+const { data, label, class: cls = '' } = Astro.props;
+const p = fishColors(data);
+const uid = nextUid();
+const gid = `fishgrad-${uid}`;
+const t = p.type;
+---
+<svg class={`fishart ${cls}`} viewBox="0 0 220 120" xmlns="http://www.w3.org/2000/svg" role="img" aria-label={label ?? data?.name ?? 'Fisch'}>
+  <defs>
+    <linearGradient id={gid} x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color={p.body1}></stop>
+      <stop offset="1" stop-color={p.body2}></stop>
+    </linearGradient>
+  </defs>
+
+  {t === 'eel' && (
+    <g>
+      <path d="M14 60 C44 36 74 84 104 60 C134 36 166 84 200 56 C204 60 204 62 200 66 C166 92 134 50 104 70 C74 90 44 50 18 66 C15 64 14 62 14 60 Z" fill={`url(#${gid})`}></path>
+      <circle cx="24" cy="60" r="3.4" fill={p.eye}></circle>
+      <circle cx="25" cy="58.8" r="1.1" fill="#fff"></circle>
+    </g>
+  )}
+
+  {t === 'flat' && (
+    <g>
+      <path d="M34 60 C58 26 150 24 188 50 C198 57 198 63 188 70 C150 96 58 94 34 60 Z" fill={`url(#${gid})`}></path>
+      <path d="M188 60 L210 50 L204 60 L210 70 Z" fill={p.fin}></path>
+      <ellipse cx="74" cy="50" rx="4" ry="4" fill={p.eye}></ellipse>
+      <ellipse cx="90" cy="47" rx="4" ry="4" fill={p.eye}></ellipse>
+      <circle cx="75" cy="49" r="1.2" fill="#fff"></circle>
+      <circle cx="91" cy="46" r="1.2" fill="#fff"></circle>
+      <g fill={p.accent} opacity="0.55">
+        <circle cx="120" cy="44" r="3"></circle><circle cx="150" cy="50" r="3"></circle>
+        <circle cx="120" cy="76" r="3"></circle><circle cx="146" cy="72" r="3"></circle>
+      </g>
+    </g>
+  )}
+
+  {t !== 'eel' && t !== 'flat' && (
+    <g>
+      {/* tail */}
+      {t === 'tuna' ? (
+        <path d="M176 60 C190 44 198 41 212 38 C204 52 204 68 212 82 C198 79 190 76 176 60 Z" fill={p.fin}></path>
+      ) : (
+        <path d="M170 60 L206 43 L197 60 L206 77 Z" fill={p.fin}></path>
+      )}
+
+      {/* dorsal fin */}
+      {t === 'perch' ? (
+        <path d="M68 36 L76 21 L84 34 L92 21 L100 34 L108 21 L116 36 Z" fill={p.fin}></path>
+      ) : t === 'carp' ? (
+        <path d="M70 31 C100 17 138 21 150 34 L147 41 C120 31 92 32 73 39 Z" fill={p.fin}></path>
+      ) : t === 'pike' ? (
+        <path d="M134 44 L156 30 L162 46 Z" fill={p.fin}></path>
+      ) : (
+        <path d="M86 34 L110 17 L130 34 Z" fill={p.fin}></path>
+      )}
+
+      {/* second dorsal / adipose */}
+      {t === 'perch' && <path d="M122 34 L146 27 L150 39 Z" fill={p.fin}></path>}
+      {t === 'salmonid' && <path d="M138 41 q9 -6 15 -1 q-7 4 -15 1 Z" fill={p.fin}></path>}
+
+      {/* body */}
+      {t === 'pike' && (
+        <path d="M170 60 C150 45 110 41 56 49 C40 51 18 54 6 60 C18 66 40 69 56 71 C110 79 150 75 170 60 Z" fill={`url(#${gid})`}></path>
+      )}
+      {t === 'carp' && (
+        <path d="M170 62 C150 28 104 22 58 41 C42 48 22 53 14 62 C22 73 42 82 58 86 C104 100 150 92 170 62 Z" fill={`url(#${gid})`}></path>
+      )}
+      {t === 'perch' && (
+        <path d="M170 62 C150 33 108 31 60 45 C44 50 26 54 16 62 C26 71 44 78 60 82 C108 95 150 89 170 62 Z" fill={`url(#${gid})`}></path>
+      )}
+      {t === 'tuna' && (
+        <path d="M176 60 C152 31 112 31 72 43 C50 50 30 53 22 60 C30 67 50 70 72 78 C112 90 152 89 176 60 Z" fill={`url(#${gid})`}></path>
+      )}
+      {(t === 'salmonid' || t === 'generic') && (
+        <path d="M170 60 C150 36 106 32 58 45 C42 49 24 53 16 60 C24 67 40 70 58 75 C106 88 150 84 170 60 Z" fill={`url(#${gid})`}></path>
+      )}
+
+      {/* pectoral fin */}
+      <path d={t === 'carp' ? 'M64 80 L86 95 L92 80 Z' : 'M66 71 L86 86 L92 71 Z'} fill={p.fin} opacity="0.85"></path>
+
+      {/* anal fin for pike (low, rear) */}
+      {t === 'pike' && <path d="M136 71 L156 84 L160 71 Z" fill={p.fin} opacity="0.85"></path>}
+
+      {/* finlets for tuna */}
+      {t === 'tuna' && (
+        <g fill={p.accent}>
+          <path d="M150 40 l8 -3 -2 5 Z"></path><path d="M160 44 l8 -3 -2 5 Z"></path>
+          <path d="M150 80 l8 3 -2 -5 Z"></path><path d="M160 76 l8 3 -2 -5 Z"></path>
+        </g>
+      )}
+
+      {/* bill for marlin / swordfish */}
+      {p.bill && <path d="M22 59 L-8 57.5 L22 62 Z" fill={p.fin}></path>}
+
+      {/* barbels for carp */}
+      {t === 'carp' && (
+        <g stroke={p.fin} stroke-width="1.6" fill="none" stroke-linecap="round">
+          <path d="M16 61 q -7 2 -11 7"></path>
+          <path d="M17 64 q -6 3 -9 8"></path>
+        </g>
+      )}
+
+      {/* markings */}
+      {t === 'salmonid' && (
+        <g fill={p.accent} opacity="0.55">
+          <circle cx="74" cy="48" r="2"></circle><circle cx="96" cy="45" r="2"></circle>
+          <circle cx="116" cy="47" r="2"></circle><circle cx="88" cy="55" r="2"></circle>
+          <circle cx="110" cy="56" r="2"></circle><circle cx="132" cy="52" r="2"></circle>
+        </g>
+      )}
+      {t === 'perch' && (
+        <g fill={p.fin} opacity="0.32">
+          <rect x="74" y="40" width="5" height="34" rx="2"></rect>
+          <rect x="94" y="38" width="5" height="40" rx="2"></rect>
+          <rect x="114" y="40" width="5" height="38" rx="2"></rect>
+          <rect x="134" y="44" width="5" height="30" rx="2"></rect>
+        </g>
+      )}
+      {t === 'pike' && (
+        <g fill={p.belly} opacity="0.5">
+          <ellipse cx="80" cy="54" rx="5" ry="2"></ellipse><ellipse cx="104" cy="56" rx="5" ry="2"></ellipse>
+          <ellipse cx="128" cy="55" rx="5" ry="2"></ellipse><ellipse cx="92" cy="63" rx="5" ry="2"></ellipse>
+          <ellipse cx="116" cy="63" rx="5" ry="2"></ellipse>
+        </g>
+      )}
+
+      {/* gill line */}
+      <path d={t === 'tuna' ? 'M52 47 C47 58 51 70 53 74' : 'M46 47 C41 58 45 70 47 73'} stroke={p.fin} stroke-width="1.4" fill="none" opacity="0.6"></path>
+
+      {/* eye */}
+      <circle cx={t === 'carp' ? 34 : t === 'tuna' ? 40 : 32} cy={t === 'carp' ? 58 : 57} r="4.4" fill={p.eye}></circle>
+      <circle cx={t === 'carp' ? 35.4 : t === 'tuna' ? 41.4 : 33.4} cy={t === 'carp' ? 56.6 : 55.6} r="1.4" fill="#fff"></circle>
+    </g>
+  )}
+</svg>

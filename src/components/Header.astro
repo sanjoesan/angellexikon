@@ -34,6 +34,11 @@ function isCurrent(key: string): boolean {
         <kbd class="st-key">/</kbd>
       </button>
 
+      <a class="icon-btn fav-link" href={withBase('/merkliste/')} aria-label="Merkliste">
+        <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 20.3 4.7 13a4.6 4.6 0 0 1 6.5-6.5l.8.8.8-.8A4.6 4.6 0 0 1 19.3 13Z"></path></svg>
+        <span class="fav-badge" id="fav-count" hidden>0</span>
+      </a>
+
       <button class="icon-btn theme-toggle" data-theme-toggle type="button" aria-label="Hell-/Dunkelmodus umschalten">
         <svg class="moon" viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 12.8A9 9 0 1 1 11.2 3a7 7 0 0 0 9.8 9.8Z"></path></svg>
         <svg class="sun" viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><circle cx="12" cy="12" r="4.5"></circle><path d="M12 2v2M12 20v2M4.9 4.9l1.4 1.4M17.7 17.7l1.4 1.4M2 12h2M20 12h2M4.9 19.1l1.4-1.4M17.7 6.3l1.4-1.4"></path></svg>
@@ -60,6 +65,18 @@ function isCurrent(key: string): boolean {
       <a href={withBase('/saison/')}>
         <span class="nico" aria-hidden="true">📅</span>
         <span>Saison-Kalender<br /><small class="muted">Wann beißt was?</small></span>
+      </a>
+    </li>
+    <li>
+      <a href={withBase('/rechner/')}>
+        <span class="nico" aria-hidden="true">🧮</span>
+        <span>Fang-Rechner<br /><small class="muted">Gewicht schätzen</small></span>
+      </a>
+    </li>
+    <li>
+      <a href={withBase('/merkliste/')}>
+        <span class="nico" aria-hidden="true">⭐</span>
+        <span>Merkliste<br /><small class="muted">Gemerkte Einträge</small></span>
       </a>
     </li>
   </ul>

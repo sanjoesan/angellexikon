@@ -1,0 +1,139 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import WaveDivider from '../components/WaveDivider.astro';
+import { getCollection } from 'astro:content';
+import { fishBodyType } from '../utils/fishshape';
+
+const fische = await getCollection('fische');
+const species = fische
+  .map((e) => ({
+    name: e.data.name,
+    type: fishBodyType(e.data),
+    maxL: e.data.maxLength_cm ?? null,
+    maxW: e.data.maxWeight_kg ?? null,
+  }))
+  .sort((a, b) => a.name.localeCompare(b.name, 'de'));
+---
+<BaseLayout title="Fang-Rechner" description="Schätze das Gewicht deines Fangs aus Länge (und Umfang) und sieh, wie kapital er ist – der Angel-Gewichtsrechner.">
+  <section class="cat-hero">
+    <div class="container">
+      <span class="big-emoji" aria-hidden="true">🧮</span>
+      <h1>Fang-Rechner</h1>
+      <p class="lead">Wie schwer war dein Fang? Schätze das Gewicht aus der Länge (oder genauer mit dem Umfang) und sieh am Trophäen-Index, wie kapital dein Fisch ist.</p>
+    </div>
+  </section>
+  <WaveDivider />
+
+  <section class="section container narrow">
+    <div class="calc">
+      <div class="calc-methods" role="tablist" aria-label="Berechnungsmethode">
+        <button class="filterbtn active" data-method="length" type="button">📏 Aus Länge</button>
+        <button class="filterbtn" data-method="girth" type="button">📐 Länge + Umfang (genauer)</button>
+      </div>
+
+      <div class="calc-grid">
+        <label class="field" id="field-species">
+          <span>Fischart</span>
+          <select id="r-species" class="localsearch">
+            {species.map((s) => (
+              <option value={s.name} data-type={s.type} data-maxl={s.maxL ?? ''} data-maxw={s.maxW ?? ''}>{s.name}</option>
+            ))}
+          </select>
+        </label>
+        <label class="field">
+          <span>Länge (cm)</span>
+          <input id="r-length" class="localsearch" type="number" min="1" max="600" step="0.5" inputmode="decimal" placeholder="z. B. 75" />
+        </label>
+        <label class="field" id="field-girth" hidden>
+          <span>Umfang an der dicksten Stelle (cm)</span>
+          <input id="r-girth" class="localsearch" type="number" min="1" max="400" step="0.5" inputmode="decimal" placeholder="z. B. 45" />
+        </label>
+      </div>
+
+      <div class="calc-result" id="r-result" hidden>
+        <div class="cr-weight"><span id="r-weight">–</span> <small>kg geschätzt</small></div>
+        <div class="cr-trophy" id="r-trophy-wrap">
+          <div class="trophy-bar"><span id="r-bar"></span></div>
+          <div class="cr-label" id="r-trophy"></div>
+        </div>
+        <p id="r-note" class="muted" style="margin-top:1rem"></p>
+      </div>
+
+      <p class="muted" style="font-size:.85rem;margin-top:1.4rem">
+        ℹ️ Alle Werte sind <strong>grobe Schätzungen</strong>. Das tatsächliche Gewicht hängt von Jahreszeit, Ernährungszustand und Art ab. Setze gehakte Fische, die du nicht entnehmen möchtest, schnell und schonend zurück.
+      </p>
+    </div>
+  </section>
+
+  <script>
+    import { weightCoeff } from '../utils/fishshape';
+
+    const sel = document.getElementById('r-species') as HTMLSelectElement;
+    const len = document.getElementById('r-length') as HTMLInputElement;
+    const gir = document.getElementById('r-girth') as HTMLInputElement;
+    const fieldGirth = document.getElementById('field-girth') as HTMLElement;
+    const result = document.getElementById('r-result') as HTMLElement;
+    const wEl = document.getElementById('r-weight') as HTMLElement;
+    const barEl = document.getElementById('r-bar') as HTMLElement;
+    const trophyEl = document.getElementById('r-trophy') as HTMLElement;
+    const trophyWrap = document.getElementById('r-trophy-wrap') as HTMLElement;
+    const noteEl = document.getElementById('r-note') as HTMLElement;
+    const methodBtns = [...document.querySelectorAll('[data-method]')] as HTMLElement[];
+    let method = 'length';
+
+    function compute() {
+      const L = parseFloat(len.value);
+      if (!L || L <= 0) { result.hidden = true; return; }
+      const opt = sel.options[sel.selectedIndex];
+      const type = opt?.dataset.type || 'generic';
+      const maxL = parseFloat(opt?.dataset.maxl || '');
+      const maxW = parseFloat(opt?.dataset.maxw || '');
+
+      let kg: number; let note: string;
+      if (method === 'girth') {
+        const G = parseFloat(gir.value);
+        if (!G || G <= 0) { result.hidden = true; return; }
+        kg = (L * G * G) / 36000;
+        note = 'Berechnet aus Länge × Umfang² ÷ 36 000 – mit gemessenem Umfang meist am genauesten.';
+      } else {
+        const { a, b } = weightCoeff(type);
+        kg = (a * Math.pow(L, b)) / 1000;
+        note = `Geschätzt aus der Länge anhand der typischen Körperform von ${sel.value}.`;
+      }
+
+      wEl.textContent = kg >= 10 ? kg.toFixed(1) : kg.toFixed(2);
+
+      if (maxL > 0) {
+        trophyWrap.hidden = false;
+        const r = L / maxL;
+        const pct = Math.round(r * 100);
+        barEl.style.width = Math.min(pct, 100) + '%';
+        let label = '🐟 Nachwuchs – bitte schonen';
+        if (r >= 1) label = '👑 Rekordverdächtig!';
+        else if (r >= 0.85) label = '🏆 Ausnahmefisch';
+        else if (r >= 0.65) label = '💪 Kapitaler Fisch';
+        else if (r >= 0.4) label = '🎣 Schöner Fang';
+        trophyEl.textContent = `${label} · ${pct}% der Maximallänge (bis ${maxL} cm)`;
+      } else {
+        trophyWrap.hidden = true;
+      }
+
+      if (maxW > 0 && kg > 0) {
+        note += ` Das entspricht ca. ${Math.round((kg / maxW) * 100)}% des Artenrekords (bis ${maxW} kg).`;
+      }
+      noteEl.textContent = note;
+      result.hidden = false;
+    }
+
+    methodBtns.forEach((b) =>
+      b.addEventListener('click', () => {
+        methodBtns.forEach((x) => x.classList.remove('active'));
+        b.classList.add('active');
+        method = b.dataset.method || 'length';
+        fieldGirth.hidden = method !== 'girth';
+        compute();
+      })
+    );
+    [sel, len, gir].forEach((el) => el.addEventListener('input', compute));
+  </script>
+</BaseLayout>

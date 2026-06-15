@@ -127,6 +127,64 @@ const ogImage = Astro.site ? new URL(ogPath, Astro.site).href : ogPath;
       } else {
         els.forEach((el) => el.classList.add('in'));
       }
+
+      // --- Favoriten / Merkliste (localStorage) ---
+      const FAV_KEY = 'angellexikon:favs';
+      const esc = (s) => (s || '').replace(/[&<>"]/g, (c) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' }[c]));
+      const readFavs = () => { try { return JSON.parse(localStorage.getItem(FAV_KEY) || '[]'); } catch { return []; } };
+      const writeFavs = (a) => { try { localStorage.setItem(FAV_KEY, JSON.stringify(a)); } catch (e) {} };
+      const favHas = (url) => readFavs().some((f) => f.url === url);
+      function favCount() {
+        const n = readFavs().length;
+        document.querySelectorAll('#fav-count').forEach((el) => { el.textContent = String(n); el.hidden = n === 0; });
+      }
+      function paintFavBtn(btn) {
+        const on = favHas(btn.dataset.url);
+        btn.classList.toggle('is-fav', on);
+        const ic = btn.querySelector('.fav-ic'); const lb = btn.querySelector('.fav-label');
+        if (ic) ic.textContent = on ? '★' : '☆';
+        if (lb) lb.textContent = on ? 'Gemerkt' : 'Merken';
+        btn.setAttribute('aria-pressed', String(on));
+      }
+      document.querySelectorAll('[data-fav]').forEach((btn) => {
+        paintFavBtn(btn);
+        btn.addEventListener('click', () => {
+          const d = btn.dataset;
+          const item = { url: d.url, name: d.name, cat: d.cat, icon: d.icon, tagline: d.tagline };
+          const favs = readFavs();
+          const i = favs.findIndex((f) => f.url === item.url);
+          if (i >= 0) favs.splice(i, 1); else favs.unshift(item);
+          writeFavs(favs); paintFavBtn(btn); favCount();
+        });
+      });
+      favCount();
+
+      // --- Merkliste-Seite rendern ---
+      const mlList = document.getElementById('merkliste-list');
+      if (mlList) {
+        const empty = document.getElementById('merkliste-empty');
+        const render = () => {
+          const favs = readFavs();
+          if (empty) empty.hidden = favs.length > 0;
+          mlList.innerHTML = favs.map((f) => `
+            <article class="entry-card">
+              <div class="ec-top">
+                <h3><a href="${esc(f.url)}">${esc(f.name)}</a></h3>
+                <span class="ec-emoji">${esc(f.icon) || '🐟'}</span>
+              </div>
+              <div class="ec-lat">${esc(f.cat)}</div>
+              <p>${esc(f.tagline)}</p>
+              <div class="card-foot"><button class="filterbtn" type="button" data-remove="${esc(f.url)}">✕ Entfernen</button></div>
+            </article>`).join('');
+          mlList.querySelectorAll('[data-remove]').forEach((b) =>
+            b.addEventListener('click', () => {
+              writeFavs(readFavs().filter((f) => f.url !== b.getAttribute('data-remove')));
+              render(); favCount();
+            })
+          );
+        };
+        render();
+      }
     </script>
   </body>
 </html>

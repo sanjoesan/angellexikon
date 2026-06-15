@@ -1,0 +1,28 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import WaveDivider from '../components/WaveDivider.astro';
+import { withBase } from '../utils/url';
+---
+<BaseLayout title="Merkliste" description="Deine gemerkten Fische, Techniken, Köder und Gewässer – lokal in deinem Browser gespeichert.">
+  <section class="cat-hero">
+    <div class="container">
+      <span class="big-emoji" aria-hidden="true">⭐</span>
+      <h1>Deine Merkliste</h1>
+      <p class="lead">Alles, was du dir über den Stern „Merken" gespeichert hast – nur in diesem Browser, ganz ohne Konto.</p>
+    </div>
+  </section>
+  <WaveDivider />
+
+  <section class="section container">
+    <div id="merkliste-empty" class="noresults" hidden>
+      <p style="font-size:2.5rem;margin-bottom:.5rem">🎣</p>
+      <p>Deine Merkliste ist noch leer.</p>
+      <p class="mt-2">Tippe auf einer beliebigen Seite auf <strong>☆ Merken</strong>, um Einträge hier zu sammeln.</p>
+      <div class="hero-cta" style="justify-content:center;margin-top:1.5rem">
+        <a class="btn btn-primary" href={withBase('/fische/')}>🐟 Fische entdecken</a>
+        <a class="btn" href={withBase('/')}>Zur Startseite</a>
+      </div>
+    </div>
+    <div id="merkliste-list" class="card-grid"></div>
+  </section>
+</BaseLayout>
