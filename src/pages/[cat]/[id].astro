@@ -80,6 +80,11 @@ switch (catKey) {
   case 'glossar':
     push('Themengebiet', d.category);
     break;
+  case 'kueche':
+    push('Art', d.category);
+    push('Schwierigkeit', d.difficulty);
+    push('Zeitaufwand', d.time);
+    break;
 }
 
 const paras: string[] = (d.description || '').split(/\n\n+/).map((s: string) => s.trim()).filter(Boolean);
@@ -88,7 +93,7 @@ const paras: string[] = (d.description || '').split(/\n\n+/).map((s: string) => 
 const railAliases = (d.aliases || []).map((a: string) => ({ label: a }));
 const railTechniken = await linkify(d.techniques);
 const railBaits = await linkify(d.baits);
-const railFish = await linkify(d.targetFish || d.species);
+const railFish = await linkify(d.targetFish || d.species || d.forFish);
 const railWaters = await linkify(d.waters);
 const railRegions = await linkify(d.regions);
 const railCountries = (d.countries || []).map((c: string) => ({ label: c }));
@@ -96,7 +101,9 @@ const railSeason = (d.bestSeason || []).map((s: string) => ({ label: s }));
 const railRelated = await linkify(d.related);
 
 const fishRailTitle =
-  catKey === 'gewaesser' || catKey === 'regionen' ? 'Typische Fische' : 'Zielfische';
+  catKey === 'gewaesser' || catKey === 'regionen' ? 'Typische Fische'
+  : catKey === 'kueche' ? 'Passende Fische'
+  : 'Zielfische';
 
 const sub =
   catKey === 'fische' ? d.nameLat
@@ -111,6 +118,7 @@ const sub =
 const stepsTitle =
   catKey === 'knoten' ? "So wird der Knoten geknüpft"
   : catKey === 'techniken' ? 'Schritt für Schritt'
+  : catKey === 'kueche' ? 'Zubereitung'
   : 'Anleitung';
 
 // --- related entries (deterministic neighbours) ---
@@ -157,6 +165,13 @@ for (let k = 1; k <= 4 && k < sortedAll.length; k++) {
         {paras.length > 0 && (
           <div class="prose flow">
             {paras.map((p) => <p set:html={p.replace(/\n/g, '<br>')} />)}
+          </div>
+        )}
+
+        {d.ingredients?.length > 0 && (
+          <div class="block">
+            <h2>Zutaten &amp; Material</h2>
+            <ul class="tiplist check">{d.ingredients.map((t: string) => <li>{t}</li>)}</ul>
           </div>
         )}
 

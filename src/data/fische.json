@@ -441,6 +441,56 @@
     "featured": true
   },
   {
+    "id": "bachneunauge",
+    "name": "Bachneunauge",
+    "nameLat": "Lampetra planeri",
+    "nameEn": "Brook Lamprey",
+    "aliases": [
+      "Kleines Neunauge",
+      "Bachpricke",
+      "Brook Lamprey"
+    ],
+    "family": "Neunaugen (Petromyzontidae)",
+    "order": "Neunaugenartige (Petromyzontiformes)",
+    "habitat": "Süßwasser",
+    "regions": [
+      "Europa",
+      "Deutschland",
+      "Mitteleuropa"
+    ],
+    "waters": [
+      "Bach",
+      "Fluss"
+    ],
+    "maxLength_cm": 20,
+    "maxWeight_kg": 0.01,
+    "lifespan_years": 7,
+    "diet": "im Larvenstadium Schwebstoffe und Algen, adult keine Nahrungsaufnahme",
+    "spawningSeason": "März bis Mai",
+    "bestSeason": [
+      "März",
+      "April",
+      "Mai"
+    ],
+    "techniques": [],
+    "baits": [],
+    "conservation": "Streng geschützt nach FFH-Richtlinie, nicht beangelbar",
+    "minSize_cm": 0,
+    "difficulty": "Profi",
+    "tagline": "Das kleine kieferlose Rundmaul der sauberen Bäche",
+    "description": "Das Bachneunauge ist ein kleines, kieferloses Rundmaul und damit kein echter Fisch, sondern ein urtümlicher Vertreter der Wirbeltiere. Sein aalförmiger, schuppenloser Körper, die sieben seitlichen Kiemenöffnungen und der runde Saugmund sind charakteristisch. Im Gegensatz zum Flussneunauge bleibt es klein und verbringt sein gesamtes Leben im Süßwasser, ohne ins Meer zu wandern.\n\nDen weitaus größten Teil seines Lebens verbringt das Bachneunauge als augenlose Larve, Querder genannt, eingegraben im Feinsediment sauberer Bäche, wo es sich filtrierend von Schwebstoffen und Algen ernährt. Erst nach mehreren Jahren erfolgt die Metamorphose zum erwachsenen Tier. Die adulten Bachneunaugen nehmen keine Nahrung mehr auf, leben also nicht parasitisch, sondern dienen ausschließlich der Fortpflanzung und sterben nach dem Ablaichen.\n\nIn Deutschland ist das Bachneunauge streng geschützt und darf nicht beangelt werden. Sein Vorkommen ist ein verlässlicher Beleg für saubere, naturnahe Fließgewässer mit intakten Sedimentstrukturen.",
+    "tips": [
+      "Streng geschützt, ein gezieltes Fangen ist verboten",
+      "Larven leben jahrelang eingegraben im Feinsediment sauberer Bäche",
+      "Durchgängige, unverbaute Bäche sind für die Fortpflanzung entscheidend",
+      "Beifänge sind unverzüglich und schonend zurückzusetzen"
+    ],
+    "funFacts": [
+      "Erwachsene Bachneunaugen fressen nicht mehr, sondern pflanzen sich nur fort und sterben danach",
+      "Im Gegensatz zum Flussneunauge lebt das Bachneunauge ausschließlich im Süßwasser und wandert nicht ins Meer"
+    ]
+  },
+  {
     "id": "bachsaibling",
     "name": "Bachsaibling",
     "nameLat": "Salvelinus fontinalis",
@@ -499,6 +549,64 @@
     "funFacts": [
       "Die marmorierte Rückenzeichnung des Bachsaiblings wird auch „Wurmzeichnung“ genannt.",
       "Der Bachsaibling ist zoologisch ein Saibling und kein echter Forellen-Verwandter."
+    ]
+  },
+  {
+    "id": "bachschmerle",
+    "name": "Bachschmerle",
+    "nameLat": "Barbatula barbatula",
+    "nameEn": "Stone Loach",
+    "aliases": [
+      "Schmerle",
+      "Bartgrundel",
+      "Grundschmerle"
+    ],
+    "family": "Bachschmerlen (Nemacheilidae)",
+    "order": "Karpfenartige (Cypriniformes)",
+    "habitat": "Süßwasser",
+    "regions": [
+      "Europa",
+      "Deutschland",
+      "Mitteleuropa"
+    ],
+    "waters": [
+      "Bach",
+      "Fluss",
+      "See"
+    ],
+    "maxLength_cm": 18,
+    "maxWeight_kg": 0.03,
+    "lifespan_years": 7,
+    "diet": "Insektenlarven, Würmer, Kleinkrebse, Detritus",
+    "spawningSeason": "April bis Juni",
+    "bestSeason": [
+      "Mai",
+      "Juni",
+      "Juli"
+    ],
+    "techniques": [
+      "Grundangeln",
+      "Stippangeln"
+    ],
+    "baits": [
+      "Wurm",
+      "Made",
+      "Bachflohkrebs"
+    ],
+    "conservation": "Besonders geschützt, Bestände lokal gefährdet",
+    "minSize_cm": 0,
+    "difficulty": "Einsteiger",
+    "tagline": "Der nachtaktive Bartträger vom Bachgrund",
+    "description": "Die Bachschmerle ist ein langgestreckter, drehrunder Bodenfisch mit sechs charakteristischen Barteln rund um das unterständige Maul. Ihr marmoriert braun gefleckter Körper verschmilzt nahezu perfekt mit dem Kies und Geröll ihres Lebensraums. Sie bewohnt klare, sauerstoffreiche Bäche und Flüsse mit steinigem Grund.\n\nTagsüber verbirgt sich die Bachschmerle unter Steinen und in Lücken des Substrats, erst in der Dämmerung und nachts geht sie aktiv auf Nahrungssuche. Mit ihren empfindlichen Barteln ertastet sie Insektenlarven und Würmer am Grund. Sie ist außerdem in der Lage, bei Sauerstoffmangel Luft an der Oberfläche zu schnappen und über den Darm zu verwerten.\n\nFür Angler hat die Bachschmerle kaum Bedeutung, doch sie ist ein wertvoller Bestandteil intakter Bachökosysteme und dient zahlreichen Raubfischen als Nahrung. Als Indikatorart belegt ihr Vorkommen eine gute Wasserqualität.",
+    "tips": [
+      "Versteckt sich tagsüber unter Steinen, daher abends und nachts am aktivsten",
+      "Bevorzugt klare Bäche mit Kies- und Geröllgrund",
+      "Reagiert auf Grundmontagen mit kleinen Wurmstücken nahe dem Substrat",
+      "Empfindlich gegenüber Feinsedimenteintrag, der ihre Verstecke verschlämmt"
+    ],
+    "funFacts": [
+      "Die Bachschmerle kann über eine Darmatmung Luftsauerstoff nutzen und so Sauerstoffmangel überstehen",
+      "Ihre sechs Barteln dienen als hochempfindliche Tast- und Geschmacksorgane"
     ]
   },
   {
@@ -634,6 +742,73 @@
     ]
   },
   {
+    "id": "barramundi",
+    "name": "Barramundi",
+    "nameLat": "Lates calcarifer",
+    "nameEn": "Barramundi",
+    "aliases": [
+      "Riesenbarsch",
+      "Asiatischer Riesenbarsch",
+      "Barra"
+    ],
+    "family": "Riesenbarsche (Latidae)",
+    "order": "Barschartige (Perciformes)",
+    "habitat": "Wandernd",
+    "regions": [
+      "Australien",
+      "Südostasien",
+      "Indopazifik",
+      "Nordaustralien"
+    ],
+    "waters": [
+      "Fluss",
+      "Mündung",
+      "Brackwasser",
+      "Küste",
+      "Riff",
+      "See"
+    ],
+    "maxLength_cm": 200,
+    "maxWeight_kg": 60,
+    "lifespan_years": 20,
+    "diet": "Fische, Krebse, Garnelen, Tintenfische",
+    "spawningSeason": "Regenzeit im Mündungsbereich",
+    "bestSeason": [
+      "September",
+      "Oktober",
+      "November",
+      "März",
+      "April"
+    ],
+    "techniques": [
+      "Spinnfischen",
+      "Fliegenfischen",
+      "Naturköderangeln",
+      "Schleppangeln"
+    ],
+    "baits": [
+      "Oberflächenwobbler",
+      "Gummifisch",
+      "lebende Garnele",
+      "Streamer"
+    ],
+    "conservation": "Nicht akut gefährdet, vielfach in Aquakultur",
+    "minSize_cm": 0,
+    "difficulty": "Fortgeschritten",
+    "tagline": "Der springende Geschlechtswandler der Tropen",
+    "description": "Der Barramundi ist ein kräftiger, silbrig glänzender Raubfisch der tropischen Gewässer Australiens und Südostasiens und einer der bekanntesten Sportfische der Region. Sein langgestreckter Körper, der konkav geschwungene Kopf und die markanten, gelblich schimmernden Augen sind unverwechselbar. Er ist ein wandernder Fisch, der zwischen Süßwasserflüssen und den Brackwasserzonen der Mündungen pendelt.\n\nBarramundi sind protandrische Zwitter: Die Tiere reifen zunächst als Männchen heran und wandeln sich später zu Weibchen um, weshalb große Exemplare fast immer weiblich sind. Sie sind kraftvolle Lauerjäger, die sich an Strukturen wie Mangrovenwurzeln, Felsen und Strömungskanten aufhalten und ihre Beute mit einem explosiven Schlag attackieren. Gehakte Barramundi zeigen spektakuläre, kopfschüttelnde Sprünge aus dem Wasser.\n\nWegen ihres aggressiven Bisses, ihrer Kampfkraft und ihres ausgezeichneten Speisewerts sind Barramundi ein Traumfisch vieler Angler. Sie lassen sich besonders reizvoll mit Oberflächenködern und der Fliege befischen und werden zudem in großem Umfang in Aquakultur gezüchtet.",
+    "tips": [
+      "Steht bevorzugt an Strukturen wie Mangroven, Felsen und Strömungskanten",
+      "Spektakuläre Sprünge nach dem Anhieb erfordern ständig Druck auf der Schnur",
+      "Oberflächenköder und Streamer lösen oft besonders aggressive Attacken aus",
+      "Große Exemplare sind fast immer Weibchen, daher kapitale Fische schonen"
+    ],
+    "funFacts": [
+      "Barramundi beginnen ihr Leben als Männchen und wandeln sich später in Weibchen um",
+      "Der Name Barramundi stammt aus einer Aboriginal-Sprache und bedeutet sinngemäß Fisch mit großen Schuppen"
+    ]
+  },
+  {
     "id": "barsch",
     "name": "Barsch",
     "nameLat": "Perca fluviatilis",
@@ -702,6 +877,124 @@
     ]
   },
   {
+    "id": "bitterling",
+    "name": "Bitterling",
+    "nameLat": "Rhodeus amarus",
+    "nameEn": "European Bitterling",
+    "aliases": [
+      "Schneiderkarpfen",
+      "Bitterfisch"
+    ],
+    "family": "Karpfenfische (Cyprinidae)",
+    "order": "Karpfenartige (Cypriniformes)",
+    "habitat": "Süßwasser",
+    "regions": [
+      "Mitteleuropa",
+      "Osteuropa",
+      "Deutschland",
+      "Frankreich"
+    ],
+    "waters": [
+      "Teich",
+      "See",
+      "Fluss",
+      "Kanal"
+    ],
+    "maxLength_cm": 11,
+    "maxWeight_kg": 0.02,
+    "lifespan_years": 5,
+    "diet": "Algen, pflanzliches Material, Zooplankton, Kleinstlebewesen",
+    "spawningSeason": "April bis Juni",
+    "bestSeason": [
+      "Mai",
+      "Juni",
+      "Juli"
+    ],
+    "techniques": [
+      "Stippangeln",
+      "Posenangeln"
+    ],
+    "baits": [
+      "Made",
+      "Pinkie",
+      "Brotflocke"
+    ],
+    "conservation": "Streng geschützt nach FFH-Richtlinie, darf nicht beangelt werden",
+    "minSize_cm": 0,
+    "difficulty": "Einsteiger",
+    "tagline": "Der schillernde Symbiosekünstler unter Naturschutz",
+    "description": "Der Bitterling ist ein kleiner, hochrückiger Karpfenfisch, der zur Laichzeit in prächtigen Regenbogenfarben schillert. Die Männchen entwickeln einen rosa bis violett glänzenden Bauch und einen grünlich blauen Rücken, während sich auf der Schnauze ein perlmuttartiger Laichausschlag bildet.\n\nEinzigartig ist seine Fortpflanzung in Symbiose mit Großmuscheln: Das Weibchen legt mit einer langen Legeröhre seine Eier in die Kiemenhöhle lebender Teich- oder Malermuscheln ab, wo sie geschützt heranwachsen. Im Gegenzug heften sich die Muschellarven, sogenannte Glochidien, an den Fisch und werden von ihm verbreitet. Ohne lebende Muscheln kann sich der Bitterling nicht fortpflanzen.\n\nIn Deutschland steht der Bitterling unter strengem Schutz und darf weder gefangen noch entnommen werden. Er gilt als Indikatorart für saubere, muschelreiche Gewässer und ist ein beliebter Pflegling in heimischen Kaltwasseraquarien.",
+    "tips": [
+      "Streng geschützt, jeder Beifang muss sofort schonend zurückgesetzt werden",
+      "Das Vorkommen lebender Großmuscheln ist Voraussetzung für seine Anwesenheit",
+      "An warmen Flachwasserzonen mit Sandgrund am ehesten zu beobachten",
+      "Reagiert sehr empfindlich auf Gewässerverschmutzung und Strukturverlust"
+    ],
+    "funFacts": [
+      "Sein bitterer Geschmack gab dem Fisch den Namen und schützt ihn vor manchen Fressfeinden",
+      "Ein einzelnes Weibchen kann seine Eier auf mehrere Muscheln verteilen, um das Risiko zu streuen"
+    ]
+  },
+  {
+    "id": "blaubandbaerbling",
+    "name": "Blaubandbärbling",
+    "nameLat": "Pseudorasbora parva",
+    "nameEn": "Topmouth Gudgeon",
+    "aliases": [
+      "Bärbling",
+      "Pseudorasbora"
+    ],
+    "family": "Karpfenfische (Cyprinidae)",
+    "order": "Karpfenartige (Cypriniformes)",
+    "habitat": "Süßwasser",
+    "regions": [
+      "Ostasien (Ursprung)",
+      "Europa (invasiv)",
+      "Deutschland"
+    ],
+    "waters": [
+      "Teich",
+      "See",
+      "Fluss",
+      "Kanal"
+    ],
+    "maxLength_cm": 11,
+    "maxWeight_kg": 0.02,
+    "lifespan_years": 5,
+    "diet": "Zooplankton, Fischeier, Insektenlarven, Anflugnahrung",
+    "spawningSeason": "April bis Juni",
+    "bestSeason": [
+      "Mai",
+      "Juni",
+      "Juli",
+      "August"
+    ],
+    "techniques": [
+      "Stippangeln",
+      "Posenangeln"
+    ],
+    "baits": [
+      "Made",
+      "Pinkie",
+      "Brotflocke"
+    ],
+    "conservation": "Invasive Art, Entnahme empfohlen, kein Schutzstatus",
+    "minSize_cm": 0,
+    "difficulty": "Einsteiger",
+    "tagline": "Der invasive Winzling mit gefährlicher Fracht",
+    "description": "Der Blaubandbärbling ist ein kleiner, ursprünglich aus Ostasien stammender Karpfenfisch, der über den Besatzfischhandel nach Europa gelangte und sich invasiv ausgebreitet hat. Er trägt einen dunklen Längsstreifen, der bei jüngeren Tieren bläulich schimmert und ihm den Namen gab. Sein oberständiges Maul verweist auf die Nahrungsaufnahme nahe der Oberfläche.\n\nProblematisch ist der Blaubandbärbling vor allem als Überträger eines parasitären Erregers, der für heimische Fischarten gefährlich werden kann, ohne dass der Bärbling selbst erkrankt. Durch seine hohe Vermehrungsrate, sein aggressives Fressverhalten an Laich und seine Anspruchslosigkeit verdrängt er heimische Kleinfische und stört das ökologische Gleichgewicht.\n\nIn Deutschland gilt er als invasive Art, deren Ausbreitung unerwünscht ist. Gefangene Exemplare sollten nicht zurückgesetzt, sondern fachgerecht entnommen werden. Ein Verbringen in andere Gewässer ist strikt zu unterlassen.",
+    "tips": [
+      "Als invasive Art nicht zurücksetzen, sondern fachgerecht entnehmen",
+      "Niemals lebend in andere Gewässer verbringen, auch nicht als Köderfisch",
+      "Hält sich gern in flachen, warmen Uferzonen nahe der Oberfläche auf",
+      "Massenhaftes Vorkommen deutet auf eine Verdrängung heimischer Kleinfische hin"
+    ],
+    "funFacts": [
+      "Der Blaubandbärbling kann einen für andere Fische gefährlichen Parasiten übertragen, ohne selbst zu erkranken",
+      "Er gilt als eine der am erfolgreichsten ausgebreiteten invasiven Süßwasserfischarten Europas"
+    ]
+  },
+  {
     "id": "blauer-marlin",
     "name": "Blauer Marlin",
     "nameLat": "Makaira nigricans",
@@ -757,6 +1050,69 @@
     "funFacts": [
       "Die größten Blauen Marline sind fast ausnahmslos Weibchen.",
       "Mit dem Schwert betäuben Marline ihre Beute, bevor sie sie verschlingen."
+    ]
+  },
+  {
+    "id": "blauhai",
+    "name": "Blauhai",
+    "nameLat": "Prionace glauca",
+    "nameEn": "Blue Shark",
+    "aliases": [
+      "Blauer Hai",
+      "Großer Blauhai",
+      "Blue Shark"
+    ],
+    "family": "Requiemhaie (Carcharhinidae)",
+    "order": "Grundhaie (Carcharhiniformes)",
+    "habitat": "Salzwasser",
+    "regions": [
+      "Atlantik",
+      "Pazifik",
+      "Indischer Ozean",
+      "Mittelmeer",
+      "weltweit"
+    ],
+    "waters": [
+      "Ozean",
+      "Meer",
+      "Küste"
+    ],
+    "maxLength_cm": 380,
+    "maxWeight_kg": 200,
+    "lifespan_years": 20,
+    "diet": "Schwarmfische, Tintenfische, kleinere Haie, Aas",
+    "spawningSeason": "lebendgebärend, ganzjährig",
+    "bestSeason": [
+      "Juni",
+      "Juli",
+      "August",
+      "September",
+      "Oktober"
+    ],
+    "techniques": [
+      "Naturköderangeln",
+      "Schleppangeln"
+    ],
+    "baits": [
+      "Makrele",
+      "Tintenfish",
+      "Heringsschwarm-Fetzen",
+      "ganzer Köderfisch"
+    ],
+    "conservation": "Potenziell gefährdet durch Beifang und Finning",
+    "minSize_cm": 0,
+    "difficulty": "Profi",
+    "tagline": "Der elegante Hochsee-Wanderer der Ozeane",
+    "description": "Der Blauhai ist ein schlanker, eleganter Hochseehai mit auffallend langen, spitzen Brustflossen und einer prächtig kobaltblauen Oberseite, die in einen weißen Bauch übergeht. Diese Färbung sorgt im offenen Wasser für eine ausgezeichnete Tarnung. Mit seinem stromlinienförmigen Körper zählt er zu den weitwandernden Haien und legt auf seinen Routen quer durch die Ozeane enorme Strecken zurück.\n\nBlauhaie sind neugierige, aber meist wenig aggressive Jäger, die sich vor allem von Schwarmfischen und Tintenfischen ernähren. Sie folgen oft Strömungen und Beutekonzentrationen über tausende Kilometer und gehören zu den am weitesten verbreiteten Haien der Welt. Die Weibchen sind lebendgebärend und können sehr große Würfe zur Welt bringen.\n\nIm Big-Game-Angeln ist der Blauhai vor europäischen Atlantikküsten ein begehrter sportlicher Gegner, der heute fast ausschließlich nach dem Prinzip Fangen und Zurücksetzen befischt wird. Durch Beifang in der Fischerei und das Abtrennen der Flossen sind seine Bestände unter Druck geraten.",
+    "tips": [
+      "Wird beim Big-Game-Angeln meist mit Anfütterspur aus Fischresten angelockt",
+      "Heute überwiegend schonend nach dem Fangen-und-Zurücksetzen-Prinzip befischt",
+      "Kräftiges Hochseegerät und ein langes Stahlvorfach sind unverzichtbar",
+      "Beim Handling am Boot Vorsicht, auch ein erschöpfter Hai bleibt gefährlich"
+    ],
+    "funFacts": [
+      "Blauhaie gehören zu den am weitesten wandernden Haien und durchqueren ganze Ozeane",
+      "Die kobaltblaue Färbung verblasst nach dem Tod rasch zu einem matten Grau"
     ]
   },
   {
@@ -950,6 +1306,68 @@
     ]
   },
   {
+    "id": "brauner-zwergwels",
+    "name": "Brauner Zwergwels",
+    "nameLat": "Ameiurus nebulosus",
+    "nameEn": "Brown Bullhead",
+    "aliases": [
+      "Zwergwels",
+      "Katzenwels",
+      "Amerikanischer Zwergwels"
+    ],
+    "family": "Katzenwelse (Ictaluridae)",
+    "order": "Welsartige (Siluriformes)",
+    "habitat": "Süßwasser",
+    "regions": [
+      "Nordamerika (Ursprung)",
+      "Europa (eingebürgert)",
+      "Deutschland"
+    ],
+    "waters": [
+      "Teich",
+      "See",
+      "Fluss",
+      "Kanal"
+    ],
+    "maxLength_cm": 50,
+    "maxWeight_kg": 2.5,
+    "lifespan_years": 10,
+    "diet": "Würmer, Insektenlarven, Schnecken, Fischeier, kleine Fische, Aas",
+    "spawningSeason": "Mai bis Juli",
+    "bestSeason": [
+      "Mai",
+      "Juni",
+      "Juli",
+      "August"
+    ],
+    "techniques": [
+      "Grundangeln",
+      "Posenangeln",
+      "Naturköderangeln"
+    ],
+    "baits": [
+      "Wurm",
+      "Tauwurm",
+      "Fischfetzen",
+      "Leber"
+    ],
+    "conservation": "Eingebürgerte invasive Art, kein Schutzstatus",
+    "minSize_cm": 0,
+    "difficulty": "Einsteiger",
+    "tagline": "Der bärtige Allesfresser aus Nordamerika",
+    "description": "Der Braune Zwergwels ist ein kleiner, robuster Katzenwels nordamerikanischer Herkunft, der im 19. Jahrhundert nach Europa eingeführt wurde und sich in vielen Gewässern eingebürgert hat. Sein schuppenloser, dunkelbraun marmorierter Körper trägt acht lange Barteln rund um das breite Maul. In Brust- und Rückenflosse sitzen kräftige, gezähnte Stachelstrahlen, die beim Hantieren schmerzhafte Stiche verursachen können.\n\nAls anspruchsloser Allesfresser kommt der Zwergwels selbst mit sauerstoffarmem, warmem und schlammigem Wasser zurecht, in dem heimische Fische nicht mehr existieren können. Er ist überwiegend dämmerungs- und nachtaktiv und sucht den Grund nach Würmern, Schnecken, Insektenlarven und Aas ab. Aufgrund seiner hohen Vermehrungsrate kann er kleinere Gewässer regelrecht überbevölkern und verkrauten lassen.\n\nFür Angler ist er ein leicht zu fangender Fisch, der bissfreudig auf Grundmontagen mit Naturködern reagiert. Als gebietsfremde Art sollte er entnommen und nicht in andere Gewässer verbracht werden.",
+    "tips": [
+      "Beißt am besten in der Dämmerung und nachts auf Wurm oder Fischfetzen am Grund",
+      "Vorsicht beim Abhaken, die gezähnten Flossenstacheln verursachen schmerzhafte Stiche",
+      "Übersteht auch warmes, sauerstoffarmes Wasser, in dem kaum andere Fische leben",
+      "Als gebietsfremde Art entnehmen und nicht in andere Gewässer umsetzen"
+    ],
+    "funFacts": [
+      "Der Braune Zwergwels betreibt Brutpflege und führt seine Jungfischschwärme wie eine schwarze Wolke durchs Wasser",
+      "Er kann bei Sauerstoffmangel Luft an der Oberfläche schnappen und so extreme Bedingungen überleben"
+    ]
+  },
+  {
     "id": "cobia",
     "name": "Cobia",
     "nameLat": "Rachycentron canadum",
@@ -1075,6 +1493,70 @@
     ]
   },
   {
+    "id": "dornhai",
+    "name": "Dornhai",
+    "nameLat": "Squalus acanthias",
+    "nameEn": "Spurdog",
+    "aliases": [
+      "Dornfisch",
+      "Spurdog",
+      "Speyhai",
+      "Schillerlocke"
+    ],
+    "family": "Dornhaie (Squalidae)",
+    "order": "Dornhaiartige (Squaliformes)",
+    "habitat": "Salzwasser",
+    "regions": [
+      "Nordatlantik",
+      "Nordpazifik",
+      "Nordsee",
+      "Mittelmeer"
+    ],
+    "waters": [
+      "Meer",
+      "Ozean",
+      "Küste"
+    ],
+    "maxLength_cm": 160,
+    "maxWeight_kg": 9,
+    "lifespan_years": 50,
+    "diet": "Schwarmfische, Krebse, Tintenfische, Würmer",
+    "spawningSeason": "lebendgebärend, sehr lange Tragzeit",
+    "bestSeason": [
+      "Mai",
+      "Juni",
+      "September",
+      "Oktober",
+      "November"
+    ],
+    "techniques": [
+      "Grundangeln",
+      "Naturköderangeln",
+      "Brandungsangeln"
+    ],
+    "baits": [
+      "Makrelenfetzen",
+      "Hering",
+      "Wurm",
+      "Tintenfisch"
+    ],
+    "conservation": "Stark gefährdet, Fischerei stark reguliert",
+    "minSize_cm": 0,
+    "difficulty": "Fortgeschritten",
+    "tagline": "Der kleine Hai mit den giftigen Stacheln",
+    "description": "Der Dornhai ist ein schlanker, kleiner Hai, der seinen Namen den beiden kräftigen Stacheln verdankt, die jeweils vor den Rückenflossen sitzen. Diese Stacheln tragen ein leichtes Gift und dienen der Verteidigung, weshalb beim Hantieren Vorsicht geboten ist. Sein grauer Rücken ist mit kleinen weißen Flecken übersät, der Bauch ist hell.\n\nDornhaie leben gesellig in oft riesigen Schwärmen, die nach Geschlecht und Größe getrennt sind, und unternehmen ausgedehnte Wanderungen. Sie jagen am und über dem Grund nach Schwarmfischen, Krebsen und Tintenfischen. Bemerkenswert ist ihre extrem lange Tragzeit von bis zu zwei Jahren, eine der längsten im gesamten Tierreich, und ihre hohe Lebenserwartung.\n\nDer Dornhai wurde lange intensiv befischt und gelangte als Schillerlocke oder als Seeaal in den Handel, was seine Bestände stark dezimierte. Heute ist die Fischerei streng reguliert. Für Brandungs- und Bootsangler ist er ein kämpferischer Fang, der schonend behandelt werden sollte.",
+    "tips": [
+      "Vorsicht beim Abhaken, die giftigen Stacheln vor den Rückenflossen können verletzen",
+      "Tritt häufig in großen Schwärmen auf, sodass auf einen Fang oft viele folgen",
+      "Beißt zuverlässig auf Makrelen- und Heringsfetzen am Grund",
+      "Wegen rückläufiger Bestände möglichst schonend behandeln und zurücksetzen"
+    ],
+    "funFacts": [
+      "Der Dornhai hat mit bis zu zwei Jahren eine der längsten Tragzeiten aller Wirbeltiere",
+      "Unter dem Namen Schillerlocke wurde der geräucherte Bauchlappen des Dornhais zur Delikatesse"
+    ]
+  },
+  {
     "id": "dorsch",
     "name": "Dorsch",
     "nameLat": "Gadus morhua",
@@ -1142,6 +1624,190 @@
     ]
   },
   {
+    "id": "dreistachliger-stichling",
+    "name": "Dreistachliger Stichling",
+    "nameLat": "Gasterosteus aculeatus",
+    "nameEn": "Three-spined Stickleback",
+    "aliases": [
+      "Stichling",
+      "Stachelfisch",
+      "Dornfisch"
+    ],
+    "family": "Stichlinge (Gasterosteidae)",
+    "order": "Stichlingsartige (Gasterosteiformes)",
+    "habitat": "Wandernd",
+    "regions": [
+      "Europa",
+      "Nordamerika",
+      "Deutschland",
+      "Nordseeküste"
+    ],
+    "waters": [
+      "Bach",
+      "See",
+      "Teich",
+      "Brackwasser",
+      "Küste",
+      "Mündung"
+    ],
+    "maxLength_cm": 11,
+    "maxWeight_kg": 0.01,
+    "lifespan_years": 3,
+    "diet": "Kleinkrebse, Insektenlarven, Würmer, Fischeier",
+    "spawningSeason": "April bis Juli",
+    "bestSeason": [
+      "April",
+      "Mai",
+      "Juni",
+      "Juli"
+    ],
+    "techniques": [
+      "Stippangeln"
+    ],
+    "baits": [
+      "Made",
+      "kleiner Wurm",
+      "Mückenlarve"
+    ],
+    "conservation": "Nicht gefährdet, weit verbreitet",
+    "minSize_cm": 0,
+    "difficulty": "Einsteiger",
+    "tagline": "Der nestbauende Mini-Krieger mit drei Rückenstacheln",
+    "description": "Der Dreistachlige Stichling ist ein kleiner, anpassungsfähiger Fisch, der durch drei freistehende Stacheln vor der Rückenflosse und einen seitlich gepanzerten Körper unverwechselbar ist. Er besiedelt nahezu jeden Gewässertyp vom Süßwasserbach über Brackwasser bis ins Meer und kommt sowohl in stationären als auch in wandernden Formen vor.\n\nWeltberühmt ist der Stichling für sein Brutverhalten: Die Männchen färben sich zur Laichzeit mit leuchtend rotem Bauch und blauen Augen, bauen aus Pflanzenteilen ein verklebtes Nest und locken mit einem ritualisierten Zickzacktanz mehrere Weibchen zur Eiablage. Anschließend bewacht das Männchen das Gelege und fächert ihm Frischwasser zu. Dieses Verhalten machte ihn zu einem Klassiker der Verhaltensforschung.\n\nFür Angler ist der Stichling ohne Bedeutung, ökologisch aber ein wichtiger Bestandteil der Nahrungskette und ein beliebtes Studienobjekt. Seine aufstellbaren Stacheln schützen ihn wirksam vor vielen Fressfeinden.",
+    "tips": [
+      "In nahezu jedem Gewässertyp anzutreffen, von Bächen bis ins Brackwasser",
+      "Zur Laichzeit zeigen die Männchen leuchtend rote Bäuche an flachen Uferzonen",
+      "Mit feinstem Stippgerät und winzigem Haken leicht zu fangen",
+      "Die aufstellbaren Stacheln machen das Hantieren etwas heikel"
+    ],
+    "funFacts": [
+      "Das berühmte Balzverhalten des Stichlings war zentrales Forschungsobjekt des Nobelpreisträgers Niko Tinbergen",
+      "Manche Populationen wandern zum Laichen vom Meer ins Süßwasser, andere bleiben ortstreu"
+    ]
+  },
+  {
+    "id": "elritze",
+    "name": "Elritze",
+    "nameLat": "Phoxinus phoxinus",
+    "nameEn": "Eurasian Minnow",
+    "aliases": [
+      "Pfrille",
+      "Bachelritze",
+      "Maipiere"
+    ],
+    "family": "Karpfenfische (Cyprinidae)",
+    "order": "Karpfenartige (Cypriniformes)",
+    "habitat": "Süßwasser",
+    "regions": [
+      "Europa",
+      "Sibirien",
+      "Deutschland",
+      "Alpenraum"
+    ],
+    "waters": [
+      "Bach",
+      "Fluss",
+      "Bergsee",
+      "See"
+    ],
+    "maxLength_cm": 14,
+    "maxWeight_kg": 0.02,
+    "lifespan_years": 6,
+    "diet": "Insektenlarven, Anflugnahrung, Algen, Kleinkrebse",
+    "spawningSeason": "April bis Juli",
+    "bestSeason": [
+      "Mai",
+      "Juni",
+      "Juli",
+      "August"
+    ],
+    "techniques": [
+      "Stippangeln",
+      "Posenangeln",
+      "Fliegenfischen"
+    ],
+    "baits": [
+      "Made",
+      "kleine Trockenfliege",
+      "Mückenlarve"
+    ],
+    "conservation": "Besonders geschützt, in manchen Regionen rückläufig",
+    "minSize_cm": 0,
+    "difficulty": "Einsteiger",
+    "tagline": "Der bunte Bachschwärmer aus klarem, kühlem Wasser",
+    "description": "Die Elritze ist ein kleiner, lebhafter Schwarmfisch klarer, sauerstoffreicher Bäche und der Forellenregion. Ihr spindelförmiger Körper trägt ein marmoriertes braungrünes Muster, das im Wasser eine erstaunliche Tarnung bietet. Zur Laichzeit verwandeln sich die Männchen mit leuchtend rotem Bauch und schwarzgrüner Zeichnung in regelrechte Farbjuwelen.\n\nElritzen leben in dichten Schwärmen, die sich blitzschnell synchron bewegen, um Fressfeinde zu verwirren. Sie reagieren äußerst empfindlich auf Verschmutzung und Sauerstoffmangel und gelten daher als verlässliche Indikatoren für eine intakte Gewässergüte. Ihr Vorhandensein spricht für ein gesundes Bachsystem.\n\nAls Nahrung für Bachforellen und Äschen sind Elritzen ökologisch bedeutsam. Angler nutzen sie traditionell als Köderfisch, wo es die Bestimmungen erlauben. Heute genießen sie in vielen Gewässern Schutz und sollten geschont werden.",
+    "tips": [
+      "Bevorzugt flache, schnell überströmte Kiesbereiche in Forellenbächen",
+      "Lässt sich mit winzigen Trockenfliegen beim Übungsfischen überlisten",
+      "Beliebter Köderfisch, jedoch in vielen Gewässern geschützt oder limitiert",
+      "An sonnigen Tagen stehen die Schwärme oft dicht unter der Oberfläche"
+    ],
+    "funFacts": [
+      "Elritzen besitzen einen ausgeprägten Schreckstoff, der bei Verletzung den ganzen Schwarm flüchten lässt",
+      "Die rote Laichfärbung der Männchen brachte ihnen mancherorts den Namen Maipiere ein"
+    ]
+  },
+  {
+    "id": "finte",
+    "name": "Finte",
+    "nameLat": "Alosa fallax",
+    "nameEn": "Twaite Shad",
+    "aliases": [
+      "Maifisch-Verwandte",
+      "Alse",
+      "Twaite Shad"
+    ],
+    "family": "Heringe (Clupeidae)",
+    "order": "Heringsartige (Clupeiformes)",
+    "habitat": "Wandernd",
+    "regions": [
+      "Westeuropa",
+      "Nordsee",
+      "Deutschland",
+      "Elbe"
+    ],
+    "waters": [
+      "Fluss",
+      "Mündung",
+      "Brackwasser",
+      "Küste",
+      "Meer"
+    ],
+    "maxLength_cm": 55,
+    "maxWeight_kg": 1.5,
+    "lifespan_years": 10,
+    "diet": "Zooplankton, kleine Fische, Garnelen",
+    "spawningSeason": "Mai bis Juni",
+    "bestSeason": [
+      "Mai",
+      "Juni"
+    ],
+    "techniques": [
+      "Spinnfischen",
+      "Fliegenfischen"
+    ],
+    "baits": [
+      "kleiner Blinker",
+      "Streamer",
+      "kleiner Spinner"
+    ],
+    "conservation": "Streng geschützt nach FFH-Richtlinie, geschont",
+    "minSize_cm": 0,
+    "difficulty": "Profi",
+    "tagline": "Der wandernde Hering der Flussmündungen",
+    "description": "Die Finte ist ein wandernder Heringsfisch, der den Großteil seines Lebens im Küstenbereich der Nordsee verbringt und zum Laichen in die Unterläufe großer Flüsse wie der Elbe aufsteigt. Ihr seitlich abgeflachter, silbriger Körper trägt hinter dem Kiemendeckel eine Reihe dunkler Flecken, an denen sie sich vom nah verwandten Maifisch unterscheiden lässt.\n\nDie Laichwanderung im Frühsommer ist ein beeindruckendes Naturschauspiel: Große Schwärme dringen in die Brackwasserzonen der Tideflüsse vor und laichen meist nachts an der Oberfläche ab, was mit deutlich hörbarem Platschen einhergeht. Die Eier treiben frei im Wasser, die Jungfische wandern im Sommer flussabwärts ins Meer.\n\nIn Deutschland ist die Finte streng geschützt und darf nicht entnommen werden. Sie gilt als Erfolgsindikator für die ökologische Sanierung der Tideflüsse, deren Bestände sich nach jahrzehntelangem Niedergang wieder erholt haben.",
+    "tips": [
+      "Streng geschützt, Beifänge müssen sofort schonend zurückgesetzt werden",
+      "Die Laichwanderung in die Tideflüsse findet konzentriert im Mai und Juni statt",
+      "Reagiert während der Wanderung auf kleine, schnell geführte Blinker und Streamer",
+      "An dunklen Flecken hinter dem Kiemendeckel sicher vom Maifisch zu unterscheiden"
+    ],
+    "funFacts": [
+      "Beim nächtlichen Ablaichen an der Oberfläche verursachen die Schwärme ein weithin hörbares Platschen",
+      "Die Rückkehr der Finte in die Elbe gilt als Zeichen der erfolgreichen Gewässersanierung"
+    ]
+  },
+  {
     "id": "flunder",
     "name": "Flunder",
     "nameLat": "Platichthys flesus",
@@ -1201,6 +1867,64 @@
     "funFacts": [
       "Flundern können kilometerweit in Flüsse hineinwandern.",
       "Manche Exemplare haben die Augen ausnahmsweise auf der linken Körperseite."
+    ]
+  },
+  {
+    "id": "flussneunauge",
+    "name": "Flussneunauge",
+    "nameLat": "Lampetra fluviatilis",
+    "nameEn": "European River Lamprey",
+    "aliases": [
+      "Neunauge",
+      "Pricke",
+      "Flusspricke"
+    ],
+    "family": "Neunaugen (Petromyzontidae)",
+    "order": "Neunaugenartige (Petromyzontiformes)",
+    "habitat": "Wandernd",
+    "regions": [
+      "Nordeuropa",
+      "Mitteleuropa",
+      "Deutschland",
+      "Nordsee",
+      "Ostsee"
+    ],
+    "waters": [
+      "Fluss",
+      "Bach",
+      "Mündung",
+      "Brackwasser",
+      "Küste"
+    ],
+    "maxLength_cm": 50,
+    "maxWeight_kg": 0.15,
+    "lifespan_years": 7,
+    "diet": "Parasitisch an Fischen, im Larvenstadium Schwebstoffe und Algen",
+    "spawningSeason": "März bis Mai",
+    "bestSeason": [
+      "Oktober",
+      "November",
+      "März",
+      "April"
+    ],
+    "techniques": [
+      "Grundangeln"
+    ],
+    "baits": [],
+    "conservation": "Streng geschützt nach FFH-Richtlinie, nicht beangelbar",
+    "minSize_cm": 0,
+    "difficulty": "Profi",
+    "tagline": "Der kieferlose Saugjäger auf Wanderschaft",
+    "description": "Das Flussneunauge ist kein echter Fisch, sondern gehört zu den ursprünglichen, kieferlosen Rundmäulern. Statt eines Kiefers besitzt es einen runden Saugmund mit Hornzähnen, mit dem es sich an Wirtsfischen festsaugt und deren Blut und Gewebe aufnimmt. Der Name Neunauge rührt von den sieben Kiemenöffnungen, dem Auge und dem Nasenloch, die hintereinander wie neun Augen erscheinen.\n\nNeunaugen haben einen komplexen Lebenszyklus. Mehrere Jahre verbringen die augenlosen Larven, Querder genannt, eingegraben im Sediment von Bächen, wo sie sich filtrierend ernähren. Nach der Metamorphose wandern die erwachsenen Tiere ins Meer, leben dort parasitisch und kehren zum Laichen in die Oberläufe zurück, wo sie nach der Fortpflanzung sterben.\n\nIn Deutschland ist das Flussneunauge streng geschützt und darf nicht beangelt werden. Querverbauungen und Gewässerverschmutzung haben die Bestände stark dezimiert, weshalb es als gefährdet gilt.",
+    "tips": [
+      "Streng geschützt, ein gezieltes Beangeln ist verboten",
+      "Larven leben jahrelang eingegraben im Feinsediment sauberer Bäche",
+      "Durchgängige Flüsse ohne Wehre sind für die Laichwanderung überlebenswichtig",
+      "Beifänge sind unverzüglich und schonend zurückzusetzen"
+    ],
+    "funFacts": [
+      "Neunaugen besitzen keinen Kiefer und keine paarigen Flossen und zählen zu den urtümlichsten Wirbeltieren",
+      "Die erwachsenen Tiere stellen das Fressen vor der Laichwanderung ein und sterben nach dem Ablaichen"
     ]
   },
   {
@@ -1582,6 +2306,71 @@
     ]
   },
   {
+    "id": "goldmaraene",
+    "name": "Goldmaräne",
+    "nameLat": "Coregonus maraena",
+    "nameEn": "Maraene Whitefish",
+    "aliases": [
+      "Große Maräne",
+      "Wandermaräne",
+      "Ostseeschnäpel-Verwandte"
+    ],
+    "family": "Lachsfische (Salmonidae)",
+    "order": "Lachsartige (Salmoniformes)",
+    "habitat": "Wandernd",
+    "regions": [
+      "Norddeutschland",
+      "Ostseeraum",
+      "Mecklenburgische Seen",
+      "Pommern"
+    ],
+    "waters": [
+      "See",
+      "Fluss",
+      "Brackwasser",
+      "Küste",
+      "Talsperre"
+    ],
+    "maxLength_cm": 70,
+    "maxWeight_kg": 5,
+    "lifespan_years": 12,
+    "diet": "Zooplankton, Insektenlarven, Kleinkrebse, kleine Fische",
+    "spawningSeason": "November bis Dezember",
+    "bestSeason": [
+      "Mai",
+      "Juni",
+      "September",
+      "Oktober"
+    ],
+    "techniques": [
+      "Schleppangeln",
+      "Spinnfischen",
+      "Fliegenfischen",
+      "Posenangeln"
+    ],
+    "baits": [
+      "kleiner Blinker",
+      "Hegene",
+      "Mückenlarve",
+      "Nymphe"
+    ],
+    "conservation": "Geschützt, regional gefährdet",
+    "minSize_cm": 30,
+    "difficulty": "Fortgeschritten",
+    "tagline": "Die wandernde Edelmaräne der norddeutschen Seen",
+    "description": "Die Goldmaräne, auch Große Maräne genannt, ist eine wertvolle Coregonen-Art aus der Familie der Lachsfische, die wie alle Maränen eine kleine Fettflosse trägt. Ihr schlanker, silbrig glänzender Körper schimmert je nach Lichteinfall golden, was ihr den Namen einbrachte. Sie ist größer als die nah verwandte Kleine Maräne und kann ein beachtliches Gewicht erreichen.\n\nDie Goldmaräne tritt in unterschiedlichen Formen auf, von reinen Binnenpopulationen in tiefen, kühlen Seen bis hin zu wandernden Formen, die zwischen Brackwasser und Süßwasser pendeln. Sie ernährt sich überwiegend von Zooplankton und kleinen Wirbellosen, die sie im freien Wasser erbeutet. Zur Laichzeit im Spätherbst und Frühwinter zieht sie auf flache Kiesgründe oder in die Zuflüsse.\n\nFür Angler ist die Goldmaräne ein geschätzter Edelfisch mit vorzüglichem Speisewert, der mit feinen Methoden wie der Hegene, kleinen Blinkern oder der Fliege befischt wird. Wegen rückläufiger Bestände und ihres Schutzstatus sind Schonzeiten und Mindestmaße strikt zu beachten.",
+    "tips": [
+      "Hält sich oft in tieferen, kühlen Wasserschichten im freien Wasser auf",
+      "Mit feiner Hegene und winzigen Kunstködern besonders erfolgreich zu befischen",
+      "Reagiert empfindlich auf zu grobes Gerät, daher dünne Vorfächer verwenden",
+      "Schonzeiten im Spätherbst und Mindestmaße unbedingt einhalten"
+    ],
+    "funFacts": [
+      "Der goldene Schimmer ihres Körpers bei bestimmtem Lichteinfall gab der Goldmaräne ihren Namen",
+      "Es gibt sowohl reine Seeformen als auch wandernde Formen, die ins Brackwasser der Ostsee ziehen"
+    ]
+  },
+  {
     "id": "graskarpfen",
     "name": "Graskarpfen",
     "nameLat": "Ctenopharyngodon idella",
@@ -1641,6 +2430,67 @@
     "funFacts": [
       "Ein großer Graskarpfen frisst täglich Pflanzenmasse von etwa seinem eigenen Körpergewicht.",
       "In Mitteleuropa vermehrt er sich praktisch nie auf natürlichem Weg."
+    ]
+  },
+  {
+    "id": "groppe",
+    "name": "Groppe",
+    "nameLat": "Cottus gobio",
+    "nameEn": "Bullhead",
+    "aliases": [
+      "Mühlkoppe",
+      "Kaulkopf",
+      "Dickkopf",
+      "Westgroppe"
+    ],
+    "family": "Groppen (Cottidae)",
+    "order": "Barschartige (Perciformes)",
+    "habitat": "Süßwasser",
+    "regions": [
+      "Europa",
+      "Deutschland",
+      "Alpenraum",
+      "Mitteleuropa"
+    ],
+    "waters": [
+      "Bach",
+      "Fluss",
+      "Bergsee",
+      "See"
+    ],
+    "maxLength_cm": 18,
+    "maxWeight_kg": 0.1,
+    "lifespan_years": 6,
+    "diet": "Insektenlarven, Bachflohkrebse, Fischeier, kleine Fische",
+    "spawningSeason": "Februar bis Mai",
+    "bestSeason": [
+      "April",
+      "Mai",
+      "Juni"
+    ],
+    "techniques": [
+      "Grundangeln",
+      "Fliegenfischen"
+    ],
+    "baits": [
+      "Wurm",
+      "Bachflohkrebs",
+      "Nymphe"
+    ],
+    "conservation": "Streng geschützt nach FFH-Richtlinie, nicht beangelbar",
+    "minSize_cm": 0,
+    "difficulty": "Einsteiger",
+    "tagline": "Der breitköpfige Lauerjäger der Forellenregion",
+    "description": "Die Groppe ist ein bodenlebender Fisch mit massivem, breitem Kopf, großen Brustflossen und einem nach hinten schlanker werdenden, schuppenlosen Körper. Ihre marmoriert braungraue Färbung verschafft ihr eine perfekte Tarnung zwischen den Steinen kühler, sauerstoffreicher Bäche. Eine Schwimmblase fehlt ihr, weshalb sie sich überwiegend am Grund aufhält und mit den großen Brustflossen über die Sohle stützt.\n\nAls dämmerungs- und nachtaktiver Lauerjäger ernährt sich die Groppe von Insektenlarven, Bachflohkrebsen und gelegentlich Fischeiern und Jungfischen. Die Männchen betreiben eine ausgeprägte Brutpflege und bewachen das unter Steinen abgelegte Gelege bis zum Schlupf. Die Groppe gilt als klassischer Begleitfisch der Bachforelle in der oberen Forellenregion.\n\nIn Deutschland ist die Groppe streng geschützt und darf nicht gezielt beangelt werden. Ihr Vorkommen zeigt eine hohe Gewässergüte und naturnahe Bachstrukturen an.",
+    "tips": [
+      "Streng geschützt, jeder Beifang muss sofort schonend zurückgesetzt werden",
+      "Hält sich fast ausschließlich am steinigen Grund kühler Bäche auf",
+      "Benötigt durchgängige Gewässer, da Querbauwerke ihre Ausbreitung verhindern",
+      "Empfindlich gegenüber Verschlammung und Erwärmung des Wassers"
+    ],
+    "funFacts": [
+      "Der Groppe fehlt die Schwimmblase, daher liegt sie meist regungslos am Grund",
+      "Die Männchen fächern dem Gelege frisches Wasser zu und verteidigen es vehement"
     ]
   },
   {
@@ -1765,6 +2615,70 @@
     "funFacts": [
       "Güstern bilden häufig Hybriden mit dem Brassen.",
       "Im Vergleich zum Brassen hat die Güster auffällig große Augen."
+    ]
+  },
+  {
+    "id": "hausen-beluga-stoer",
+    "name": "Hausen",
+    "nameLat": "Huso huso",
+    "nameEn": "Beluga Sturgeon",
+    "aliases": [
+      "Beluga-Stör",
+      "Belugastör",
+      "Europäischer Hausen",
+      "Beluga"
+    ],
+    "family": "Störe (Acipenseridae)",
+    "order": "Störartige (Acipenseriformes)",
+    "habitat": "Wandernd",
+    "regions": [
+      "Schwarzes Meer",
+      "Kaspisches Meer",
+      "Donau",
+      "Wolga"
+    ],
+    "waters": [
+      "Meer",
+      "Fluss",
+      "Brackwasser",
+      "Mündung",
+      "Küste"
+    ],
+    "maxLength_cm": 700,
+    "maxWeight_kg": 1500,
+    "lifespan_years": 100,
+    "diet": "Fische, Heringe, kleinere Störe, Weichtiere",
+    "spawningSeason": "Frühjahr nach Flussaufstieg",
+    "bestSeason": [
+      "April",
+      "Mai",
+      "September",
+      "Oktober"
+    ],
+    "techniques": [
+      "Grundangeln",
+      "Naturköderangeln"
+    ],
+    "baits": [
+      "Fischfetzen",
+      "Wurm",
+      "ganzer Köderfisch",
+      "Tauwurmbündel"
+    ],
+    "conservation": "Vom Aussterben bedroht, streng geschützt",
+    "minSize_cm": 0,
+    "difficulty": "Profi",
+    "tagline": "Der gigantische Urfisch des Schwarzen Meeres",
+    "description": "Der Hausen, auch Beluga-Stör genannt, ist der größte Stör der Welt und einer der größten Süßwasser- und Wanderfische überhaupt. Historisch belegte Exemplare erreichten mehrere Meter Länge und ein Gewicht von über einer Tonne. Sein langgestreckter, von Knochenplatten gepanzerter Körper, das große, sichelförmige Maul und die langen Barteln verleihen ihm das urtümliche Aussehen eines lebenden Fossils.\n\nIm Gegensatz zu vielen anderen Stören ist der Hausen ein ausgesprochener Raubfisch, der sich überwiegend von Fischen ernährt. Er lebt im Schwarzen und Kaspischen Meer und steigt zum Laichen weit in die großen Flüsse wie Donau und Wolga auf. Die Tiere werden außerordentlich alt und erst sehr spät geschlechtsreif, was sie extrem anfällig für Überfischung macht.\n\nDer Hausen ist vor allem als Lieferant des berühmten Beluga-Kaviars bekannt, dessen hoher Wert zu massiver Überfischung und Wilderei führte. Heute ist die Art vom Aussterben bedroht und streng geschützt. Wildbestände dürfen nicht befischt werden, Angelmöglichkeiten bestehen nur an besetzten Zuchtgewässern.",
+    "tips": [
+      "Wildbestände sind streng geschützt, gezieltes Beangeln ist nur an Besatzgewässern möglich",
+      "Frisst als Raubfisch bevorzugt Fischköder, anders als die meisten anderen Störarten",
+      "Sehr kräftiges Grundgerät ist nötig, um die enorme Kraft zu beherrschen",
+      "Beim Handling den knochengepanzerten Körper und das Maul vorsichtig stützen"
+    ],
+    "funFacts": [
+      "Historische Hausen sollen über eine Tonne gewogen und mehr als fünf Meter gemessen haben",
+      "Der Hausen liefert den berühmten und kostbaren Beluga-Kaviar, was ihn fast ausrottete"
     ]
   },
   {
@@ -1956,6 +2870,66 @@
     "funFacts": [
       "Heringe verständigen sich vermutlich über feine Lautäußerungen aus der Schwimmblase.",
       "Aus jungen Heringen wird der traditionelle Matjes hergestellt."
+    ]
+  },
+  {
+    "id": "heringshai",
+    "name": "Heringshai",
+    "nameLat": "Lamna nasus",
+    "nameEn": "Porbeagle",
+    "aliases": [
+      "Kalbfisch",
+      "Porbeagle",
+      "Lachshai"
+    ],
+    "family": "Heringshaie (Lamnidae)",
+    "order": "Makrelenhaie (Lamniformes)",
+    "habitat": "Salzwasser",
+    "regions": [
+      "Nordatlantik",
+      "Südliche Ozeane",
+      "Nordsee",
+      "Britische Inseln"
+    ],
+    "waters": [
+      "Ozean",
+      "Meer",
+      "Küste"
+    ],
+    "maxLength_cm": 350,
+    "maxWeight_kg": 230,
+    "lifespan_years": 45,
+    "diet": "Schwarmfische, Heringe, Makrelen, Tintenfische, kleinere Haie",
+    "spawningSeason": "lebendgebärend, im Frühjahr",
+    "bestSeason": [
+      "Juli",
+      "August",
+      "September",
+      "Oktober"
+    ],
+    "techniques": [
+      "Naturköderangeln",
+      "Schleppangeln"
+    ],
+    "baits": [
+      "Makrele",
+      "Hering",
+      "ganzer Köderfisch"
+    ],
+    "conservation": "Stark gefährdet, streng geschützt und reguliert",
+    "minSize_cm": 0,
+    "difficulty": "Profi",
+    "tagline": "Der kräftige Kaltwasserhai der Nordmeere",
+    "description": "Der Heringshai ist ein kräftig gebauter, gedrungener Hochseehai aus der Familie der Heringshaie, der vor allem in den kühleren Gewässern des Nordatlantiks und der Südhalbkugel vorkommt. Sein robuster, dunkelblaugrauer Körper mit der scharf abgesetzten weißen Unterseite und die ausgeprägten Kiele am Schwanzstiel verleihen ihm eine unverkennbare Gestalt. Wie der Mako kann er seine Körpertemperatur über die Wassertemperatur anheben.\n\nDiese Fähigkeit erlaubt es dem Heringshai, auch in kaltem Wasser ein aktiver und kräftiger Jäger zu bleiben, der vorwiegend Schwarmfischen wie Heringen und Makrelen nachstellt. Er ist ein ausdauernder Schwimmer und wandert mit den Beutefischen über große Distanzen. Die Weibchen sind lebendgebärend und sehr langsam in der Vermehrung.\n\nFrüher kommerziell stark befischt, sind die Bestände des Heringshais drastisch eingebrochen, weshalb er heute streng geschützt ist. Im Sportfischen vor den Britischen Inseln gilt er als kapitaler Gegner, der nach dem Fang schonend zurückgesetzt werden sollte.",
+    "tips": [
+      "Stark gefährdet, Fang und Entnahme sind streng reguliert oder verboten",
+      "Bevorzugt kühlere Gewässer und folgt den Herings- und Makrelenschwärmen",
+      "Schweres Big-Game-Gerät mit Stahlvorfach ist Voraussetzung",
+      "Nach erfolgreichem Drill möglichst rasch und schonend zurücksetzen"
+    ],
+    "funFacts": [
+      "Der Heringshai kann seine Körpertemperatur über die des kalten Meerwassers anheben und bleibt so leistungsfähig",
+      "Mit bis zu mehreren Jahrzehnten zählt er zu den langlebigen, aber sehr langsam wachsenden Haien"
     ]
   },
   {
@@ -2517,6 +3491,134 @@
     ]
   },
   {
+    "id": "koenigsmakrele",
+    "name": "Königsmakrele",
+    "nameLat": "Scomberomorus cavalla",
+    "nameEn": "King Mackerel",
+    "aliases": [
+      "King Mackerel",
+      "Kingfish",
+      "Kingmakrele"
+    ],
+    "family": "Makrelen und Thunfische (Scombridae)",
+    "order": "Makrelenartige (Scombriformes)",
+    "habitat": "Salzwasser",
+    "regions": [
+      "Westatlantik",
+      "Golf von Mexiko",
+      "Karibik",
+      "Südostküste USA"
+    ],
+    "waters": [
+      "Meer",
+      "Ozean",
+      "Riff",
+      "Küste"
+    ],
+    "maxLength_cm": 180,
+    "maxWeight_kg": 45,
+    "lifespan_years": 14,
+    "diet": "Schwarmfische, Sardinen, Heringe, Tintenfische",
+    "spawningSeason": "Frühjahr bis Sommer",
+    "bestSeason": [
+      "April",
+      "Mai",
+      "Juni",
+      "Oktober",
+      "November"
+    ],
+    "techniques": [
+      "Schleppangeln",
+      "Spinnfischen",
+      "Naturköderangeln"
+    ],
+    "baits": [
+      "lebender Köderfisch",
+      "Sardine",
+      "Schleppwobbler",
+      "Federvorfach"
+    ],
+    "conservation": "Bewirtschaftet, Bestände reguliert",
+    "minSize_cm": 0,
+    "difficulty": "Fortgeschritten",
+    "tagline": "Der reißende Tempojäger der warmen Westatlantik-Küsten",
+    "description": "Die Königsmakrele ist ein großer, schlanker und stromlinienförmiger Raubfisch aus der Familie der Makrelen und Thunfische, der die warmen Gewässer des westlichen Atlantiks und des Golfs von Mexiko bewohnt. Ihr silbriger, torpedoförmiger Körper ist auf Geschwindigkeit ausgelegt, und ihr Maul ist mit rasiermesserscharfen Zähnen besetzt, mit denen sie ihre Beute regelrecht zerteilt.\n\nAls schneller und ausdauernder Schwimmer jagt die Königsmakrele in lockeren Verbänden den Schwärmen kleiner Beutefische nach und unternimmt entlang der Küsten saisonale Wanderungen. Beim Angriff auf einen Köder schießt sie oft mit einem spektakulären Tempolauf davon, der die Bremse einer Angelrolle bis zum Anschlag fordert. Genau dieser fulminante Erstlauf macht sie zu einem äußerst beliebten Sportfisch.\n\nIn den USA und der Karibik gehört die Königsmakrele zu den begehrtesten Zielen beim Schleppangeln. Wegen ihrer scharfen Zähne ist beim Hantieren Vorsicht geboten, und ein kurzes Stahlvorfach ist beim Angeln unverzichtbar.",
+    "tips": [
+      "Berüchtigt für einen extrem schnellen Erstlauf, daher gut gefüllte Rolle und feine Bremseinstellung",
+      "Ein kurzes Stahlvorfach schützt vor den rasiermesserscharfen Zähnen",
+      "Lässt sich hervorragend mit lebenden Köderfischen im Schlepp überlisten",
+      "Folgt saisonal den Schwärmen kleiner Beutefische entlang der Küsten"
+    ],
+    "funFacts": [
+      "Die Königsmakrele kann mit ihren scharfen Zähnen Beutefische mit einem einzigen Biss zerteilen",
+      "Ihr blitzartiger Erstlauf nach dem Anbiss zählt zu den schnellsten unter den Sportfischen"
+    ]
+  },
+  {
+    "id": "kurzflossen-mako",
+    "name": "Kurzflossen-Mako",
+    "nameLat": "Isurus oxyrinchus",
+    "nameEn": "Shortfin Mako Shark",
+    "aliases": [
+      "Mako",
+      "Makohai",
+      "Kurzflossenmako",
+      "Shortfin Mako"
+    ],
+    "family": "Heringshaie (Lamnidae)",
+    "order": "Makrelenhaie (Lamniformes)",
+    "habitat": "Salzwasser",
+    "regions": [
+      "Atlantik",
+      "Pazifik",
+      "Indischer Ozean",
+      "Mittelmeer",
+      "weltweit"
+    ],
+    "waters": [
+      "Ozean",
+      "Meer",
+      "Küste"
+    ],
+    "maxLength_cm": 400,
+    "maxWeight_kg": 570,
+    "lifespan_years": 30,
+    "diet": "Schwarmfische, Thunfische, Schwertfische, Tintenfische, kleinere Haie",
+    "spawningSeason": "lebendgebärend, mehrjähriger Zyklus",
+    "bestSeason": [
+      "Juni",
+      "Juli",
+      "August",
+      "September",
+      "Oktober"
+    ],
+    "techniques": [
+      "Naturköderangeln",
+      "Schleppangeln"
+    ],
+    "baits": [
+      "Makrele",
+      "Thunfischfetzen",
+      "Bonito",
+      "ganzer Köderfisch"
+    ],
+    "conservation": "Stark gefährdet, international geschützt und reguliert",
+    "minSize_cm": 0,
+    "difficulty": "Profi",
+    "tagline": "Der schnellste Hai der Weltmeere",
+    "description": "Der Kurzflossen-Mako gilt als der schnellste aller Haie und einer der schnellsten Fische überhaupt. Sein torpedoförmiger, metallisch blau glänzender Körper, die sichelförmige Schwanzflosse und die langen, gebogenen Zähne machen ihn zu einem perfekten Hochseejäger. Wie seine Verwandten aus der Familie der Heringshaie kann er seine Körpertemperatur über die des umgebenden Wassers anheben, was seine Muskelleistung enorm steigert.\n\nMakos jagen schnelle Beute wie Thunfische und Schwertfische und sind zu spektakulären Sprüngen aus dem Wasser fähig. Genau diese Kombination aus Tempo, Kraft und Akrobatik machte den Mako zur Legende des Big-Game-Angelns, wo er als einer der härtesten und spektakulärsten Gegner gilt. Die Weibchen sind lebendgebärend und werden erst spät geschlechtsreif.\n\nDurch Überfischung und Beifang sind die Bestände des Kurzflossen-Makos weltweit stark zurückgegangen, weshalb er heute streng geschützt ist. Wo das Angeln noch erlaubt ist, wird der schonende Umgang nach dem Prinzip Fangen und Zurücksetzen dringend empfohlen.",
+    "tips": [
+      "Stark gefährdet, internationale Schutz- und Entnahmeregeln unbedingt beachten",
+      "Berüchtigt für hohe, akrobatische Sprünge nach dem Anhieb, daher genügend Schnurreserve",
+      "Sehr schwere Hochseeausrüstung und erfahrene Crew sind zwingend erforderlich",
+      "Beim Handling extreme Vorsicht, der Mako ist schnell, kräftig und gefährlich"
+    ],
+    "funFacts": [
+      "Der Kurzflossen-Mako kann im Sprint Geschwindigkeiten erreichen, die ihn zum schnellsten Hai machen",
+      "Als Heringshai hält er seine Körpertemperatur über der des Meerwassers und steigert so seine Leistung"
+    ]
+  },
+  {
     "id": "leng",
     "name": "Leng",
     "nameLat": "Molva molva",
@@ -2832,6 +3934,70 @@
     ]
   },
   {
+    "id": "meeraal-conger",
+    "name": "Meeraal",
+    "nameLat": "Conger conger",
+    "nameEn": "European Conger",
+    "aliases": [
+      "Conger",
+      "Congeraal",
+      "Seeaal"
+    ],
+    "family": "Meeraale (Congridae)",
+    "order": "Aalartige (Anguilliformes)",
+    "habitat": "Salzwasser",
+    "regions": [
+      "Nordostatlantik",
+      "Mittelmeer",
+      "Nordsee",
+      "Britische Inseln"
+    ],
+    "waters": [
+      "Meer",
+      "Küste",
+      "Riff",
+      "Ozean"
+    ],
+    "maxLength_cm": 300,
+    "maxWeight_kg": 110,
+    "lifespan_years": 15,
+    "diet": "Fische, Tintenfische, Krebse, Kraken",
+    "spawningSeason": "Sommer im tiefen Atlantik",
+    "bestSeason": [
+      "Juni",
+      "Juli",
+      "August",
+      "September",
+      "Oktober"
+    ],
+    "techniques": [
+      "Grundangeln",
+      "Naturköderangeln",
+      "Brandungsangeln"
+    ],
+    "baits": [
+      "Makrelenfetzen",
+      "Tintenfisch",
+      "Heringsfetzen",
+      "ganzer Köderfisch"
+    ],
+    "conservation": "Nicht gefährdet, weit verbreitet",
+    "minSize_cm": 0,
+    "difficulty": "Profi",
+    "tagline": "Der kraftstrotzende Riesenaal der Wracks und Riffe",
+    "description": "Der Meeraal oder Conger ist ein gewaltiger, schuppenloser Raubfisch, der mit über drei Metern Länge und mehr als hundert Kilogramm Gewicht zu den größten aalartigen Fischen Europas zählt. Sein muskulöser, dunkelgrauer bis schwärzlicher Körper, das breite Maul mit kräftigen Zähnen und die ohne Unterbrechung in die Schwanzflosse übergehenden Rücken- und Afterflossen machen ihn unverwechselbar.\n\nMeeraale sind dämmerungs- und nachtaktive Bewohner felsiger Küsten, Riffe und besonders gern von Schiffswracks, wo sie sich tagsüber in Höhlen und Spalten verstecken. Sie sind außergewöhnlich kräftige Kämpfer, die einen gehakten Angler an die Grenze seiner Ausrüstung bringen und gefangene Beute mit einer Drehbewegung zerreißen können. Anders als der Flussaal pflanzen sie sich nur einmal im Leben im tiefen Atlantik fort und sterben danach.\n\nDas Angeln auf Meeraal vom Wrack oder von felsigen Küsten gilt als anspruchsvolle Spezialdisziplin, die kräftiges Gerät und Erfahrung erfordert. Vorsicht ist beim Hantieren geboten, denn die Bisse sind schmerzhaft.",
+    "tips": [
+      "Beißt überwiegend in der Dämmerung und nachts, oft direkt an Wracks und Riffen",
+      "Sehr kräftiges Gerät und ein Stahl- oder dickes Hardmono-Vorfach sind Pflicht",
+      "Frische, blutige Fischfetzen wie Makrele oder Tintenfisch wirken am besten",
+      "Beim Landen und Abhaken größte Vorsicht, das bezahnte Maul ist gefährlich"
+    ],
+    "funFacts": [
+      "Meeraale verstecken sich tagsüber bevorzugt in Schiffswracks, die ideale Verstecke und Jagdreviere bieten",
+      "Wie der Flussaal laicht der Meeraal nur ein einziges Mal in der Tiefsee und stirbt danach"
+    ]
+  },
+  {
     "id": "meerforelle",
     "name": "Meerforelle",
     "nameLat": "Salmo trutta trutta",
@@ -2894,6 +4060,193 @@
     "funFacts": [
       "Meerforelle und Bachforelle sind dieselbe Art mit unterschiedlicher Wanderstrategie.",
       "Im Winter trotzen viele Küstenangler eisigem Wasser der „kalten“ Meerforellensaison."
+    ]
+  },
+  {
+    "id": "moderlieschen",
+    "name": "Moderlieschen",
+    "nameLat": "Leucaspius delineatus",
+    "nameEn": "Sunbleak",
+    "aliases": [
+      "Mutterloser",
+      "Schneiderkarpfen",
+      "Motherless Minnow"
+    ],
+    "family": "Karpfenfische (Cyprinidae)",
+    "order": "Karpfenartige (Cypriniformes)",
+    "habitat": "Süßwasser",
+    "regions": [
+      "Mitteleuropa",
+      "Osteuropa",
+      "Deutschland",
+      "Polen"
+    ],
+    "waters": [
+      "Teich",
+      "See",
+      "Kanal",
+      "Fluss"
+    ],
+    "maxLength_cm": 12,
+    "maxWeight_kg": 0.02,
+    "lifespan_years": 5,
+    "diet": "Zooplankton, Anflugnahrung, kleine Insektenlarven, Algen",
+    "spawningSeason": "April bis Juni",
+    "bestSeason": [
+      "Mai",
+      "Juni",
+      "Juli",
+      "August"
+    ],
+    "techniques": [
+      "Stippangeln",
+      "Posenangeln"
+    ],
+    "baits": [
+      "Made",
+      "Pinkie",
+      "kleines Brotstück",
+      "Mückenlarve"
+    ],
+    "conservation": "In einigen Bundesländern gefährdet, lokal rückläufig durch Lebensraumverlust",
+    "minSize_cm": 0,
+    "difficulty": "Einsteiger",
+    "tagline": "Der winzige Schwarmfisch der verkrauteten Kleingewässer",
+    "description": "Das Moderlieschen ist einer der kleinsten heimischen Karpfenfische und erreicht selten mehr als acht Zentimeter. Sein schlanker, silbrig glänzender Körper mit einem charakteristischen blauen Längsstreifen macht es im Wasser fast durchsichtig. Es bevorzugt stehende oder langsam fließende, gut bewachsene Gewässer und bildet dort große Schwärme nahe der Oberfläche.\n\nBemerkenswert ist die Brutpflege der Männchen, die nach der Eiablage die in Spiralen an Pflanzenstängeln abgelegten Gelege bewachen und mit Flossenschlägen mit frischem Wasser versorgen. Diese für Karpfenfische ungewöhnliche Fürsorge sicherte ihm den Namensteil „Mutterloser, da die Weibchen sich nach dem Ablaichen nicht weiter kümmern.\n\nAls Angelfisch spielt das Moderlieschen keine Rolle, dafür ist es ein wichtiger Futterfisch für Raubfische und ein Indikator für intakte Kleingewässer. Aquarianer schätzen die anspruchslose und gesellige Art als heimischen Kaltwasserfisch.",
+    "tips": [
+      "Nur mit feinstem Stippgerät und winzigen Haken der Größe 20 bis 24 zu beangeln",
+      "Eignet sich hervorragend als lebender Köderfisch für Barsch und Hecht, wo erlaubt",
+      "In verkrauteten Tümpeln und Altarmen am dichtesten anzutreffen",
+      "Reagiert empfindlich auf Wasserverschmutzung und verschwindet als Erstes"
+    ],
+    "funFacts": [
+      "Die Männchen färben sich zur Laichzeit intensiver und verteidigen ihr Gelege aktiv gegen Fressfeinde",
+      "Trotz seiner geringen Größe kann ein Moderlieschen-Schwarm aus mehreren tausend Tieren bestehen"
+    ]
+  },
+  {
+    "id": "murray-cod",
+    "name": "Murray-Cod",
+    "nameLat": "Maccullochella peelii",
+    "nameEn": "Murray Cod",
+    "aliases": [
+      "Murray Cod",
+      "Cod",
+      "Australischer Süßwasserdorsch"
+    ],
+    "family": "Australische Raubbarsche (Percichthyidae)",
+    "order": "Barschartige (Perciformes)",
+    "habitat": "Süßwasser",
+    "regions": [
+      "Australien",
+      "Murray-Darling-Becken",
+      "Südostaustralien"
+    ],
+    "waters": [
+      "Fluss",
+      "See",
+      "Talsperre",
+      "Bach"
+    ],
+    "maxLength_cm": 180,
+    "maxWeight_kg": 113,
+    "lifespan_years": 48,
+    "diet": "Fische, Krebse, Frösche, Wasservögel, Reptilien",
+    "spawningSeason": "Frühjahr im Süßwasser",
+    "bestSeason": [
+      "September",
+      "Oktober",
+      "November",
+      "Dezember"
+    ],
+    "techniques": [
+      "Spinnfischen",
+      "Naturköderangeln",
+      "Schleppangeln"
+    ],
+    "baits": [
+      "großer Wobbler",
+      "Spinnerbait",
+      "lebender Köderfisch",
+      "Garnele"
+    ],
+    "conservation": "Gefährdet, streng reguliert und geschützt",
+    "minSize_cm": 0,
+    "difficulty": "Profi",
+    "tagline": "Der gigantische Süßwasserkönig Australiens",
+    "description": "Der Murray-Cod ist der größte rein im Süßwasser lebende Fisch Australiens und eine Ikone des Murray-Darling-Flusssystems. Trotz seines Namens ist er kein echter Dorsch, sondern ein australischer Raubbarsch. Sein massiger, langgestreckter Körper mit dem breiten Maul ist marmoriert grün, gelblich und cremefarben gemustert, was ihm im trüben Flusswasser eine gute Tarnung verleiht.\n\nMurray-Cods sind standorttreue Lauerjäger, die sich an Unterständen wie versunkenen Bäumen, Felsen und Uferunterspülungen aufhalten und von dort alles attackieren, was in ihre Reichweite gerät, von Fischen über Krebse bis hin zu Fröschen und sogar Wasservögeln. Sie wachsen langsam, werden außergewöhnlich alt und erreichen ein gewaltiges Gewicht. Die Männchen bewachen das an festem Untergrund abgelegte Gelege.\n\nAls Symbolfisch australischer Binnengewässer ist der Murray-Cod ein begehrtes, aber streng geschütztes Ziel mit Schonzeiten und Fangbeschränkungen. Angler schätzen ihn für seine rohe Kraft und attackieren ihn vorzugsweise mit großen Wobblern und Oberflächenködern.",
+    "tips": [
+      "Hält sich eng an Unterständen wie versunkenem Holz und Felsen auf",
+      "Große, kräftig laufende Wobbler und Spinnerbaits provozieren die heftigsten Attacken",
+      "Wächst sehr langsam, daher kapitale Fische unbedingt schonend zurücksetzen",
+      "Schonzeiten und Fangbeschränkungen sind streng einzuhalten"
+    ],
+    "funFacts": [
+      "Der Murray-Cod kann über hundert Kilogramm schwer und mehrere Jahrzehnte alt werden",
+      "Trotz seines Namens ist er kein Dorsch, sondern gehört zu den australischen Raubbarschen"
+    ]
+  },
+  {
+    "id": "nagelrochen",
+    "name": "Nagelrochen",
+    "nameLat": "Raja clavata",
+    "nameEn": "Thornback Ray",
+    "aliases": [
+      "Keulenrochen",
+      "Dornrochen",
+      "Thornback Ray"
+    ],
+    "family": "Echte Rochen (Rajidae)",
+    "order": "Rochen (Rajiformes)",
+    "habitat": "Salzwasser",
+    "regions": [
+      "Nordostatlantik",
+      "Mittelmeer",
+      "Nordsee",
+      "Britische Inseln"
+    ],
+    "waters": [
+      "Meer",
+      "Küste",
+      "Ozean"
+    ],
+    "maxLength_cm": 120,
+    "maxWeight_kg": 18,
+    "lifespan_years": 15,
+    "diet": "Krebse, Würmer, Muscheln, kleine Fische, Garnelen",
+    "spawningSeason": "eierlegend, Frühjahr bis Sommer",
+    "bestSeason": [
+      "April",
+      "Mai",
+      "Juni",
+      "September",
+      "Oktober"
+    ],
+    "techniques": [
+      "Grundangeln",
+      "Naturköderangeln",
+      "Brandungsangeln"
+    ],
+    "baits": [
+      "Wattwurm",
+      "Makrelenfetzen",
+      "Krabbe",
+      "Tintenfisch"
+    ],
+    "conservation": "Gefährdet, Fischerei reguliert",
+    "minSize_cm": 0,
+    "difficulty": "Fortgeschritten",
+    "tagline": "Der dornenbewehrte Bodenbewohner der Küstenmeere",
+    "description": "Der Nagelrochen ist ein flacher, rautenförmiger Knorpelfisch, der seinen Namen den kräftigen, nagelartigen Dornen verdankt, die in einer Reihe über Rücken und Schwanz verlaufen und ihn vor Fressfeinden schützen. Seine Oberseite ist marmoriert braun mit hellen und dunklen Flecken gemustert, was ihm auf sandigem und kiesigem Grund eine gute Tarnung verleiht.\n\nNagelrochen leben am Meeresboden in moderaten Tiefen und suchen mit ihrem zur Unterseite gerichteten Maul nach Krebsen, Würmern und Muscheln, die sie im Sediment aufstöbern. Sie sind eierlegend und legen ihre Eier in den bekannten, hornigen Eikapseln ab, die als Seemäuse oft leer an den Strand gespült werden. Die Tiere wachsen langsam und werden erst spät geschlechtsreif.\n\nFür Brandungs- und Bootsangler an europäischen Küsten ist der Nagelrochen ein beliebter Zielfisch, der mit Naturködern am Grund gefangen wird. Beim Hantieren ist wegen der scharfen Dornen Vorsicht geboten. Aufgrund rückläufiger Bestände sollte schonend mit ihm umgegangen werden.",
+    "tips": [
+      "Wird mit Naturködern wie Wattwurm oder Fischfetzen direkt am Grund gefangen",
+      "Beim Anfassen Vorsicht, die Rückendornen sind scharf und können verletzen",
+      "Hält sich bevorzugt über sandigen und kiesigen Gründen in moderaten Tiefen auf",
+      "Wegen langsamen Wachstums kapitale Tiere möglichst schonend zurücksetzen"
+    ],
+    "funFacts": [
+      "Die leeren Eikapseln des Nagelrochens werden an Stränden als Seemäuse oder Meerjungfrauen-Beutel gefunden",
+      "Die nagelartigen Dornen auf dem Rücken gaben dem Nagelrochen seinen Namen"
     ]
   },
   {
@@ -3021,6 +4374,130 @@
     ]
   },
   {
+    "id": "pacu",
+    "name": "Pacu",
+    "nameLat": "Piaractus brachypomus",
+    "nameEn": "Pacu",
+    "aliases": [
+      "Rotbauch-Pacu",
+      "Tambaqui-Verwandter",
+      "Pirapitinga"
+    ],
+    "family": "Sägesalmler (Serrasalmidae)",
+    "order": "Salmlerartige (Characiformes)",
+    "habitat": "Süßwasser",
+    "regions": [
+      "Südamerika",
+      "Amazonasbecken",
+      "Orinoco",
+      "Brasilien"
+    ],
+    "waters": [
+      "Fluss",
+      "See",
+      "Mündung"
+    ],
+    "maxLength_cm": 90,
+    "maxWeight_kg": 25,
+    "lifespan_years": 28,
+    "diet": "Früchte, Nüsse, Samen, Wasserpflanzen, gelegentlich kleine Tiere",
+    "spawningSeason": "Regenzeit bei Hochwasser",
+    "bestSeason": [
+      "Mai",
+      "Juni",
+      "Juli",
+      "November",
+      "Dezember"
+    ],
+    "techniques": [
+      "Posenangeln",
+      "Grundangeln",
+      "Naturköderangeln"
+    ],
+    "baits": [
+      "Früchte",
+      "Nüsse",
+      "Mais",
+      "Teig"
+    ],
+    "conservation": "Nicht akut gefährdet, vielfach in Aquakultur",
+    "minSize_cm": 0,
+    "difficulty": "Fortgeschritten",
+    "tagline": "Der kräftige Fruchtfresser mit den menschenähnlichen Zähnen",
+    "description": "Der Pacu ist ein großer, hochrückiger Verwandter der Piranhas aus den Flüssen Südamerikas, der trotz dieser Verwandtschaft überwiegend pflanzliche Kost zu sich nimmt. Sein seitlich abgeflachter, kräftiger Körper kann ein beachtliches Gewicht erreichen. Besonders bemerkenswert ist sein Gebiss mit breiten, flachen Mahlzähnen, die verblüffend an menschliche Backenzähne erinnern.\n\nMit diesen kräftigen Zähnen knackt der Pacu harte Nüsse, Samen und Früchte, die während der Regenzeit von den überfluteten Uferwäldern ins Wasser fallen. Er spielt damit eine wichtige Rolle bei der Verbreitung von Pflanzensamen im Ökosystem des Amazonas. In der Hochwasserzeit zieht er in die überschwemmten Wälder, um dort Nahrung zu finden und abzulaichen.\n\nFür Angler ist der Pacu ein kräftiger und ausdauernder Gegner, der mit pflanzlichen Ködern wie Früchten und Nüssen überlistet wird. Er gilt zudem als geschätzter Speisefisch und wird in vielen tropischen Ländern in Aquakultur gehalten.",
+    "tips": [
+      "Lässt sich am besten mit pflanzlichen Ködern wie Früchten und Nüssen fangen",
+      "Steht in der Hochwasserzeit oft im überfluteten Uferwald unter fruchttragenden Bäumen",
+      "Vorsicht beim Hantieren, die kräftigen Mahlzähne können schmerzhaft zubeißen",
+      "Kämpft kraftvoll und ausdauernd, daher stabiles Gerät verwenden"
+    ],
+    "funFacts": [
+      "Der Pacu besitzt breite Mahlzähne, die verblüffend an menschliche Backenzähne erinnern",
+      "Als Verwandter der Piranhas ernährt er sich dennoch vorwiegend von Früchten und Nüssen"
+    ]
+  },
+  {
+    "id": "payara",
+    "name": "Payara",
+    "nameLat": "Hydrolycus scomberoides",
+    "nameEn": "Payara",
+    "aliases": [
+      "Vampirfisch",
+      "Säbelzahn-Salmler",
+      "Dracula-Fisch"
+    ],
+    "family": "Hundssalmler (Cynodontidae)",
+    "order": "Salmlerartige (Characiformes)",
+    "habitat": "Süßwasser",
+    "regions": [
+      "Südamerika",
+      "Amazonasbecken",
+      "Orinoco",
+      "Venezuela"
+    ],
+    "waters": [
+      "Fluss",
+      "See"
+    ],
+    "maxLength_cm": 120,
+    "maxWeight_kg": 18,
+    "lifespan_years": 15,
+    "diet": "Fische, vor allem Piranhas und andere Salmler",
+    "spawningSeason": "Regenzeit",
+    "bestSeason": [
+      "Januar",
+      "Februar",
+      "März",
+      "April"
+    ],
+    "techniques": [
+      "Spinnfischen",
+      "Naturköderangeln",
+      "Schleppangeln"
+    ],
+    "baits": [
+      "lebender Köderfisch",
+      "großer Wobbler",
+      "Gummifisch",
+      "Löffelblinker"
+    ],
+    "conservation": "Nicht akut gefährdet, regional bewirtschaftet",
+    "minSize_cm": 0,
+    "difficulty": "Profi",
+    "tagline": "Der Vampirfisch mit den dolchartigen Fangzähnen",
+    "description": "Die Payara, auch Vampirfisch genannt, ist ein furchteinflößend wirkender Raubsalmler aus den schnell fließenden Flüssen Südamerikas. Ihr silbriger, langgestreckter und muskulöser Körper ist ganz auf das Jagen ausgelegt. Das auffälligste Merkmal sind zwei lange, dolchartige Fangzähne im Unterkiefer, die bei geschlossenem Maul in spezielle Aussparungen im Oberkiefer gleiten und ausgewachsen mehrere Zentimeter lang werden.\n\nMit diesen Zähnen durchbohrt die Payara ihre Beute, vor allem andere Salmler und sogar Piranhas, mit einer einzigen kraftvollen Attacke. Sie bevorzugt sauerstoffreiche, turbulente Wasserbereiche unterhalb von Stromschnellen und Wasserfällen, wo sie auf vorbeitreibende Beutefische lauert. Ihre Kraft und Ausdauer im Wasser sind beachtlich.\n\nUnter Sportanglern gilt die Payara als einer der spektakulärsten Süßwasser-Raubfische überhaupt, der mit harten Schlägen und wilden Fluchten kämpft. Sie wird mit kräftigem Spinngerät und robusten Ködern befischt, wobei ein stabiles Vorfach unerlässlich ist.",
+    "tips": [
+      "Steht bevorzugt in sauerstoffreichem, turbulentem Wasser unterhalb von Stromschnellen",
+      "Reißt hart an, schlägt aber oft fehl, daher sehr scharfe Haken und kräftiger Anschlag",
+      "Ein robustes Stahlvorfach schützt vor den dolchartigen Fangzähnen",
+      "Lebende Köderfische und große Wobbler gehören zu den fängigsten Ködern"
+    ],
+    "funFacts": [
+      "Die unteren Fangzähne der Payara können mehrere Zentimeter lang werden und gleiten beim Schließen in den Oberkiefer",
+      "Ihr Spitzname Vampirfisch leitet sich direkt von diesen auffälligen Eckzähnen ab"
+    ]
+  },
+  {
     "id": "permit",
     "name": "Permit",
     "nameLat": "Trachinotus falcatus",
@@ -3140,6 +4617,69 @@
     "funFacts": [
       "Die Giftstacheln des Petermännchens zählen zu den gefährlichsten der heimischen Küstenfauna.",
       "Es vergräbt sich so vollständig im Sand, dass nur die Augen herausschauen."
+    ]
+  },
+  {
+    "id": "petersfisch",
+    "name": "Petersfisch",
+    "nameLat": "Zeus faber",
+    "nameEn": "John Dory",
+    "aliases": [
+      "Heringskönig",
+      "Sankt Petersfisch",
+      "John Dory"
+    ],
+    "family": "Petersfische (Zeidae)",
+    "order": "Petersfischartige (Zeiformes)",
+    "habitat": "Salzwasser",
+    "regions": [
+      "Nordostatlantik",
+      "Mittelmeer",
+      "Nordsee",
+      "Westafrika"
+    ],
+    "waters": [
+      "Meer",
+      "Küste",
+      "Ozean"
+    ],
+    "maxLength_cm": 65,
+    "maxWeight_kg": 8,
+    "lifespan_years": 12,
+    "diet": "kleine Schwarmfische, Tintenfische, Krebse",
+    "spawningSeason": "Frühjahr bis Sommer",
+    "bestSeason": [
+      "Mai",
+      "Juni",
+      "Juli",
+      "August",
+      "September"
+    ],
+    "techniques": [
+      "Naturköderangeln",
+      "Spinnfischen",
+      "Schleppangeln"
+    ],
+    "baits": [
+      "lebender Köderfisch",
+      "Sandaal",
+      "kleiner Pilker",
+      "Gummifisch"
+    ],
+    "conservation": "Nicht akut gefährdet, regional bewirtschaftet",
+    "minSize_cm": 0,
+    "difficulty": "Fortgeschritten",
+    "tagline": "Der hochrückige Jäger mit dem heiligen Fleck",
+    "description": "Der Petersfisch ist ein außergewöhnlich hochrückiger, seitlich extrem stark abgeflachter Meeresfisch mit einem stark vorstülpbaren Maul. Sein bekanntestes Merkmal ist ein großer, dunkler, hell umrandeter Fleck auf jeder Körperseite, der einer Legende nach vom Daumenabdruck des Apostels Petrus stammen soll, daher die Namen Petersfisch und Sankt Petersfisch.\n\nTrotz seines wenig stromlinienförmigen Körperbaus ist der Petersfisch ein erfolgreicher Pirschjäger. Er nähert sich seiner Beute langsam von vorn, sodass sein schmaler Körper kaum sichtbar ist, und schnellt dann das röhrenartig vorstülpbare Maul blitzschnell vor, um kleine Schwarmfische einzusaugen. Er lebt einzelgängerisch über sandigen und felsigen Gründen in moderaten Tiefen.\n\nDer Petersfisch gilt als hervorragender Speisefisch mit festem, weißem Fleisch und ist in der Spitzengastronomie sehr begehrt. Für Angler ist er ein seltener, aber besonders geschätzter Fang vor europäischen Küsten.",
+    "tips": [
+      "Pirscht sich langsam an Schwarmfische heran, daher gut mit kleinen Köderfischen zu fangen",
+      "Hält sich einzelgängerisch über sandigen und felsigen Gründen auf",
+      "Das vorstülpbare Maul saugt Köder förmlich ein, ein zügiger Anschlag ist nötig",
+      "An den charakteristischen Augenflecken auf beiden Körperseiten leicht zu erkennen"
+    ],
+    "funFacts": [
+      "Der dunkle Fleck auf der Körperseite gilt der Legende nach als Daumenabdruck des Apostels Petrus",
+      "Sein röhrenförmig vorstülpbares Maul kann Beute aus erstaunlicher Entfernung einsaugen"
     ]
   },
   {
@@ -3717,6 +5257,69 @@
     ]
   },
   {
+    "id": "roter-piranha",
+    "name": "Roter Piranha",
+    "nameLat": "Pygocentrus nattereri",
+    "nameEn": "Red-bellied Piranha",
+    "aliases": [
+      "Rotbauch-Piranha",
+      "Natterers Piranha",
+      "Red Piranha"
+    ],
+    "family": "Sägesalmler (Serrasalmidae)",
+    "order": "Salmlerartige (Characiformes)",
+    "habitat": "Süßwasser",
+    "regions": [
+      "Südamerika",
+      "Amazonasbecken",
+      "Orinoco",
+      "Paraguay-Becken"
+    ],
+    "waters": [
+      "Fluss",
+      "See",
+      "Teich",
+      "Mündung"
+    ],
+    "maxLength_cm": 50,
+    "maxWeight_kg": 4,
+    "lifespan_years": 15,
+    "diet": "Fische, Insekten, Krebse, Aas, gelegentlich Früchte",
+    "spawningSeason": "Regenzeit",
+    "bestSeason": [
+      "Juni",
+      "Juli",
+      "August",
+      "September"
+    ],
+    "techniques": [
+      "Posenangeln",
+      "Naturköderangeln",
+      "Grundangeln"
+    ],
+    "baits": [
+      "Fischfetzen",
+      "Fleischstück",
+      "Wurm",
+      "ganzer Köderfisch"
+    ],
+    "conservation": "Nicht gefährdet, weit verbreitet",
+    "minSize_cm": 0,
+    "difficulty": "Einsteiger",
+    "tagline": "Der berüchtigte Schwarmjäger mit den scharfen Zähnen",
+    "description": "Der Rote Piranha ist die bekannteste Piranha-Art und ein hochrückiger, seitlich abgeflachter Salmler aus den Flüssen Südamerikas. Sein silbrig glänzender Körper mit der namensgebenden roten bis orangeroten Kehle und Bauchpartie ist unverwechselbar. Sein kräftiges Gebiss aus dreieckigen, rasiermesserscharfen Zähnen und der kraftvolle Unterkiefer machen ihn zu einem effizienten Fleischfresser.\n\nEntgegen dem von Filmen geprägten Bild blutrünstiger Monster sind Rote Piranhas in erster Linie opportunistische Allesfresser, die Fische, Insekten, Krebse und Aas vertilgen. Sie bilden Schwärme, die vor allem dem Schutz vor größeren Räubern dienen. Zu Fressorgien kommt es meist nur unter besonderen Bedingungen wie Nahrungsmangel oder in der Trockenzeit eingeschlossenen Gewässern.\n\nFür Angler in Südamerika ist der Rote Piranha ein häufiger und leicht zu fangender Fisch, der bissig auf Fleisch- und Fischköder reagiert. Beim Abhaken ist allerdings äußerste Vorsicht geboten, denn die Zähne sind außerordentlich scharf.",
+    "tips": [
+      "Beißt äußerst bissfreudig auf Fleisch- und Fischfetzen, ideal für Einsteiger in den Tropen",
+      "Beim Abhaken extreme Vorsicht, die Zähne sind rasiermesserscharf",
+      "Ein kurzes Stahl- oder dickes Hardmono-Vorfach verhindert das Durchbeißen der Schnur",
+      "Steht oft in ruhigeren Buchten und Nebenarmen mit ausreichend Deckung"
+    ],
+    "funFacts": [
+      "Die roten Piranhas bilden Schwärme vor allem zum Schutz vor größeren Räubern, nicht zum gemeinsamen Jagen",
+      "Ihr Kiefer ist so kräftig, dass sie mit einem Biss ein Stück aus harter Beute herausschneiden können"
+    ]
+  },
+  {
     "id": "roter-trommler",
     "name": "Roter Trommler",
     "nameLat": "Sciaenops ocellatus",
@@ -3841,6 +5444,67 @@
     "funFacts": [
       "Rotfeder und Rotauge können fruchtbare Hybriden bilden, was die Bestimmung erschwert.",
       "Das nach oben gerichtete Maul ist das sicherste Unterscheidungsmerkmal zum Rotauge."
+    ]
+  },
+  {
+    "id": "rotschwanzwels",
+    "name": "Rotschwanzwels",
+    "nameLat": "Phractocephalus hemioliopterus",
+    "nameEn": "Redtail Catfish",
+    "aliases": [
+      "Redtail Catfish",
+      "Pirarara",
+      "Rotschwanzkatzenwels"
+    ],
+    "family": "Antennenwelse (Pimelodidae)",
+    "order": "Welsartige (Siluriformes)",
+    "habitat": "Süßwasser",
+    "regions": [
+      "Südamerika",
+      "Amazonasbecken",
+      "Orinoco",
+      "Brasilien"
+    ],
+    "waters": [
+      "Fluss",
+      "See"
+    ],
+    "maxLength_cm": 180,
+    "maxWeight_kg": 80,
+    "lifespan_years": 20,
+    "diet": "Fische, Krebse, Früchte, Aas, kleine Wirbeltiere",
+    "spawningSeason": "Regenzeit",
+    "bestSeason": [
+      "Juni",
+      "Juli",
+      "August",
+      "September"
+    ],
+    "techniques": [
+      "Grundangeln",
+      "Naturköderangeln",
+      "Wallerangeln"
+    ],
+    "baits": [
+      "ganzer Köderfisch",
+      "Fischfetzen",
+      "Fleischstück",
+      "Innereien"
+    ],
+    "conservation": "Nicht akut gefährdet, beliebter Aquarienfisch",
+    "minSize_cm": 0,
+    "difficulty": "Fortgeschritten",
+    "tagline": "Der bunte Riesenwels mit der feuerroten Flosse",
+    "description": "Der Rotschwanzwels ist ein eindrucksvoller Riesenwels aus den großen Flüssen Südamerikas und einer der farbenprächtigsten Vertreter seiner Verwandtschaft. Sein massiger, dunkelgrau bis schwarz gefärbter Rücken und der weiße Bauch werden durch eine leuchtend orangerote bis feuerrote Schwanzflosse kontrastiert, die ihm den Namen gab. Drei Paar lange Barteln umrahmen sein breites Maul.\n\nAls dämmerungs- und nachtaktiver Allesfresser durchstreift der Rotschwanzwels den Gewässergrund auf der Suche nach Fischen, Krebsen, Früchten und Aas. Mit seinem dehnbaren Maul kann er erstaunlich große Beute verschlingen. Er wächst zu beachtlicher Größe heran und zählt zu den größten Welsen des Amazonas. Jungtiere werden wegen ihrer Färbung oft als Aquarienfische gehalten, sprengen aber rasch jedes Becken.\n\nFür Angler in Südamerika ist der Rotschwanzwels ein starker und ausdauernder Gegner, der mit kräftigem Grundgerät und großen Naturködern befischt wird. Sein kraftvoller Drill und seine imposante Erscheinung machen ihn zu einem begehrten Zielfisch.",
+    "tips": [
+      "Am aktivsten in der Dämmerung und nachts, dann mit großen Naturködern am Grund fischen",
+      "Verschlingt sehr große Köder, daher ruhig ganze Köderfische anbieten",
+      "Kräftiges Wallergerät ist nötig, um den ausdauernden Drill zu bewältigen",
+      "Jungtiere aus dem Aquarienhandel niemals in Gewässer aussetzen"
+    ],
+    "funFacts": [
+      "Die leuchtend orangerote Schwanzflosse machte den Rotschwanzwels zu einem begehrten, aber riesenwüchsigen Aquarienfisch",
+      "Mit seinem dehnbaren Maul kann der Rotschwanzwels überraschend große Beutetiere verschlingen"
     ]
   },
   {
@@ -4151,6 +5815,72 @@
     ]
   },
   {
+    "id": "schwarzmundgrundel",
+    "name": "Schwarzmundgrundel",
+    "nameLat": "Neogobius melanostomus",
+    "nameEn": "Round Goby",
+    "aliases": [
+      "Grundel",
+      "Round Goby",
+      "Kesslergrundel-Verwandte"
+    ],
+    "family": "Grundeln (Gobiidae)",
+    "order": "Grundelartige (Gobiiformes)",
+    "habitat": "Brackwasser",
+    "regions": [
+      "Schwarzmeerraum (Ursprung)",
+      "Europa (invasiv)",
+      "Deutschland",
+      "Ostsee",
+      "Rhein"
+    ],
+    "waters": [
+      "Fluss",
+      "Kanal",
+      "Brackwasser",
+      "Küste",
+      "See"
+    ],
+    "maxLength_cm": 25,
+    "maxWeight_kg": 0.2,
+    "lifespan_years": 5,
+    "diet": "Muscheln, Krebse, Fischeier, kleine Fische, Insektenlarven",
+    "spawningSeason": "April bis September",
+    "bestSeason": [
+      "Mai",
+      "Juni",
+      "Juli",
+      "August",
+      "September"
+    ],
+    "techniques": [
+      "Grundangeln",
+      "Posenangeln",
+      "Naturköderangeln"
+    ],
+    "baits": [
+      "Wurm",
+      "Fischfetzen",
+      "Made",
+      "Garnele"
+    ],
+    "conservation": "Invasive Art, Entnahme empfohlen, kein Schutzstatus",
+    "minSize_cm": 0,
+    "difficulty": "Einsteiger",
+    "tagline": "Die invasive Grundel mit dem schwarzen Fleck",
+    "description": "Die Schwarzmundgrundel ist ein bodenlebender, kräftig gebauter Fisch aus dem Schwarz- und Kaspischen Meer, der sich über Ballastwasser und Wasserstraßen invasiv in Europa ausgebreitet hat. Kennzeichnend ist ein deutlicher schwarzer Fleck am hinteren Ende der ersten Rückenflosse. Wie alle Grundeln besitzt sie zu einer Saugscheibe verwachsene Bauchflossen, mit denen sie sich am Substrat festhält.\n\nDie Schwarzmundgrundel ist äußerst anpassungsfähig und besiedelt Süß-, Brack- und Salzwasser gleichermaßen. Sie ernährt sich aggressiv von Muscheln, Krebsen, Fischeiern und Jungfischen und steht damit in direkter Konkurrenz zu heimischen Arten, die sie vielerorts verdrängt. Ihre rasante Ausbreitung in Rhein, Donau und Ostsee gilt als Musterbeispiel einer biologischen Invasion.\n\nAngler fangen sie häufig als unbeabsichtigten Beifang beim Grundangeln. Als invasive Art sollte sie entnommen und nicht zurückgesetzt werden. Ihr festes Fleisch ist durchaus genießbar.",
+    "tips": [
+      "Beißt bissig auf Grundmontagen mit Wurm oder Fischfetzen am steinigen Grund",
+      "Als invasive Art entnehmen und verwerten statt zurücksetzen",
+      "Hält sich bevorzugt zwischen Steinpackungen und Buhnen auf",
+      "Verschluckt Köder oft tief, daher kleine Haken und schnelles Anschlagen"
+    ],
+    "funFacts": [
+      "Die zur Saugscheibe verwachsenen Bauchflossen erlauben ihr, sich auch in starker Strömung festzusaugen",
+      "Sie kann mehrmals pro Saison ablaichen, was ihre explosionsartige Ausbreitung begünstigt"
+    ]
+  },
+  {
     "id": "schwertfisch",
     "name": "Schwertfisch",
     "nameLat": "Xiphias gladius",
@@ -4335,6 +6065,69 @@
     "funFacts": [
       "Der Seesaibling lebt weiter im Norden als jeder andere Süßwasserfisch.",
       "In manchen Seen existieren mehrere genetisch getrennte Formen nebeneinander."
+    ]
+  },
+  {
+    "id": "seeteufel",
+    "name": "Seeteufel",
+    "nameLat": "Lophius piscatorius",
+    "nameEn": "Anglerfish",
+    "aliases": [
+      "Anglerfisch",
+      "Lotte",
+      "Monkfish",
+      "Baudroie"
+    ],
+    "family": "Seeteufel (Lophiidae)",
+    "order": "Armflosser (Lophiiformes)",
+    "habitat": "Salzwasser",
+    "regions": [
+      "Nordostatlantik",
+      "Mittelmeer",
+      "Nordsee",
+      "Britische Inseln"
+    ],
+    "waters": [
+      "Meer",
+      "Ozean",
+      "Küste"
+    ],
+    "maxLength_cm": 200,
+    "maxWeight_kg": 60,
+    "lifespan_years": 24,
+    "diet": "Fische, Tintenfische, Krebse, gelegentlich Seevögel",
+    "spawningSeason": "Frühjahr im tiefen Wasser",
+    "bestSeason": [
+      "April",
+      "Mai",
+      "Juni",
+      "September",
+      "Oktober"
+    ],
+    "techniques": [
+      "Grundangeln",
+      "Naturköderangeln",
+      "Pilken"
+    ],
+    "baits": [
+      "ganzer Köderfisch",
+      "Makrelenfetzen",
+      "Tintenfisch"
+    ],
+    "conservation": "Bewirtschaftet, regional unter Befischungsdruck",
+    "minSize_cm": 0,
+    "difficulty": "Profi",
+    "tagline": "Der getarnte Lauerjäger mit der lebenden Angel",
+    "description": "Der Seeteufel ist ein bizarrer, abgeflachter Raubfisch mit einem riesigen, von zahlreichen spitzen Zähnen besetzten Maul, das nahezu die gesamte Körperbreite einnimmt. Sein flacher, fransiger und marmorierter Körper verschmilzt am Meeresgrund perfekt mit dem Substrat. Der erste Strahl der Rückenflosse ist zu einer beweglichen Angel mit fleischigem Köderfortsatz umgebildet, mit der er Beute direkt vor sein Maul lockt.\n\nAls Meister der Tarnung gräbt sich der Seeteufel halb in den Grund ein und wartet regungslos, bis ein neugieriger Fisch dem zappelnden Köder zu nahe kommt. Dann reißt er das gewaltige Maul auf und saugt die Beute mit einem schlagartigen Sog ein. Er verschlingt selbst Beutetiere, die fast seine eigene Größe erreichen.\n\nDer Seeteufel ist ein hochgeschätzter Speisefisch, dessen festes, grätenfreies Schwanzfleisch unter dem Namen Lotte oder Monkfish in der Küche begehrt ist. Für Angler ist er ein seltener Beifang beim Grundangeln in tieferem Wasser.",
+    "tips": [
+      "Lauert eingegraben am Grund, daher mit Naturködern dicht über dem Substrat fischen",
+      "Verschlingt sehr große Köder, kleine Happen werden oft ignoriert",
+      "Beim Hantieren ist das bezahnte Maul äußerst gefährlich",
+      "Vor allem in tieferem Wasser über weichem Grund als Beifang zu erwarten"
+    ],
+    "funFacts": [
+      "Der zur Angel umgebildete Flossenstrahl trägt einen Köderfortsatz, mit dem der Seeteufel Beute anlockt",
+      "Sein dehnbarer Magen erlaubt es ihm, Beute von nahezu eigener Körpergröße zu verschlingen"
     ]
   },
   {
@@ -4578,6 +6371,128 @@
     ]
   },
   {
+    "id": "sonnenbarsch",
+    "name": "Sonnenbarsch",
+    "nameLat": "Lepomis gibbosus",
+    "nameEn": "Pumpkinseed",
+    "aliases": [
+      "Kürbiskernbarsch",
+      "Gemeiner Sonnenbarsch",
+      "Pumpkinseed"
+    ],
+    "family": "Sonnenbarsche (Centrarchidae)",
+    "order": "Barschartige (Perciformes)",
+    "habitat": "Süßwasser",
+    "regions": [
+      "Nordamerika (Ursprung)",
+      "Europa (eingebürgert)",
+      "Deutschland"
+    ],
+    "waters": [
+      "Teich",
+      "See",
+      "Fluss",
+      "Kanal",
+      "Talsperre"
+    ],
+    "maxLength_cm": 25,
+    "maxWeight_kg": 0.6,
+    "lifespan_years": 10,
+    "diet": "Insektenlarven, Kleinkrebse, Schnecken, Fischeier, kleine Fische",
+    "spawningSeason": "Mai bis August",
+    "bestSeason": [
+      "Mai",
+      "Juni",
+      "Juli",
+      "August",
+      "September"
+    ],
+    "techniques": [
+      "Posenangeln",
+      "Stippangeln",
+      "Spinnfischen"
+    ],
+    "baits": [
+      "Made",
+      "Wurm",
+      "kleiner Spinner",
+      "Mückenlarve"
+    ],
+    "conservation": "Eingebürgerte invasive Art, kein Schutzstatus",
+    "minSize_cm": 0,
+    "difficulty": "Einsteiger",
+    "tagline": "Der farbenprächtige Einwanderer aus Amerika",
+    "description": "Der Sonnenbarsch ist ein kleiner, hochrückiger und seitlich stark abgeflachter Barschverwandter aus Nordamerika, der wegen seiner prächtigen Färbung als Zierfisch nach Europa kam und seither in vielen Gewässern verwildert ist. Sein Körper schillert in Grün-, Blau- und Orangetönen, durchzogen von türkisen Linien am Kopf und einem leuchtend roten Saum am Kiemendeckelfleck, der ihm den englischen Namen Pumpkinseed einbrachte.\n\nSonnenbarsche bevorzugen warme, krautreiche und stehende oder langsam fließende Gewässer. Sie sind tagaktiv, neugierig und äußerst bissfreudig, weshalb sie für Kinder und Einsteiger ein dankbarer Fang sind. Die Männchen legen flache Laichgruben an, bewachen das Gelege und betreiben Brutpflege. In kleinen Gewässern neigen sie zur Massenvermehrung und bleiben dann verbutten klein.\n\nAls gebietsfremde Art kann der Sonnenbarsch heimische Fische verdrängen. Gefangene Exemplare sollten entnommen und keinesfalls in andere Gewässer ausgesetzt werden.",
+    "tips": [
+      "Extrem bissfreudig, ideal für Kinder und Einsteiger an warmen Sommertagen",
+      "Hält sich gern in krautigen Flachwasserzonen und an Hindernissen auf",
+      "Verschluckt kleine Köder schnell, daher feine Haken verwenden",
+      "Als gebietsfremde Art entnehmen und nicht in andere Gewässer umsetzen"
+    ],
+    "funFacts": [
+      "Der orangerote Fleck am Kiemendeckel erinnert an einen Kürbiskern und gab dem Fisch seinen englischen Namen",
+      "In nahrungsarmen Kleingewässern bilden Sonnenbarsche oft verbuttete Zwergpopulationen"
+    ]
+  },
+  {
+    "id": "steinbeisser",
+    "name": "Steinbeißer",
+    "nameLat": "Cobitis taenia",
+    "nameEn": "Spined Loach",
+    "aliases": [
+      "Dorngrundel",
+      "Steinpicker",
+      "Bartgrundel"
+    ],
+    "family": "Steinbeißer (Cobitidae)",
+    "order": "Karpfenartige (Cypriniformes)",
+    "habitat": "Süßwasser",
+    "regions": [
+      "Europa",
+      "Deutschland",
+      "Mitteleuropa"
+    ],
+    "waters": [
+      "Fluss",
+      "See",
+      "Bach",
+      "Kanal"
+    ],
+    "maxLength_cm": 13,
+    "maxWeight_kg": 0.02,
+    "lifespan_years": 5,
+    "diet": "Detritus, Kleinkrebse, Insektenlarven, Algen",
+    "spawningSeason": "April bis Juni",
+    "bestSeason": [
+      "Mai",
+      "Juni",
+      "Juli"
+    ],
+    "techniques": [
+      "Stippangeln",
+      "Grundangeln"
+    ],
+    "baits": [
+      "Made",
+      "kleiner Wurm"
+    ],
+    "conservation": "Streng geschützt nach FFH-Richtlinie, nicht beangelbar",
+    "minSize_cm": 0,
+    "difficulty": "Einsteiger",
+    "tagline": "Der gefleckte Sandgräber mit dem Augendorn",
+    "description": "Der Steinbeißer ist ein schlanker, seitlich abgeflachter Bodenfisch mit einer auffälligen Reihe dunkler Flecken entlang der Körperseite. Sein wissenschaftlicher Name und der deutsche Trivialname führen leicht in die Irre, denn er beißt keine Steine, sondern siebt feinen Sand nach Nahrung. Unter jedem Auge trägt er einen aufrichtbaren Dorn, der ihm in der Kehle von Räubern Schutz bietet.\n\nTagsüber gräbt sich der Steinbeißer oft vollständig in den Sand ein, sodass nur die Augen herausschauen. Bei der Nahrungssuche nimmt er Sand ins Maul, filtert die enthaltenen Kleinstlebewesen heraus und stößt das Substrat durch die Kiemen wieder aus. Er bevorzugt langsam fließende und stehende Gewässer mit sandigem bis schlammigem Grund.\n\nIn Deutschland ist der Steinbeißer streng geschützt und darf nicht gezielt befischt werden. Sein Vorkommen weist auf naturnahe Gewässer mit intakten Sandbänken hin.",
+    "tips": [
+      "Streng geschützt, ein Beifang ist umgehend zurückzusetzen",
+      "Gräbt sich gern vollständig in Sand ein und ist daher schwer zu entdecken",
+      "Benötigt feinsandige bis schlammige Gründe in ruhigen Gewässerabschnitten",
+      "Der aufstellbare Augendorn kann sich beim Hantieren in Netzmaschen verhaken"
+    ],
+    "funFacts": [
+      "Der Steinbeißer kann Sand durch das Maul aufnehmen und gefiltert wieder durch die Kiemen ausstoßen",
+      "Sein lateinischer Artname taenia bedeutet Band und verweist auf die Fleckenreihe"
+    ]
+  },
+  {
     "id": "steinbutt",
     "name": "Steinbutt",
     "nameLat": "Scophthalmus maximus",
@@ -4697,6 +6612,70 @@
     "funFacts": [
       "Der Sterlet ist der einzige Stör, der nie ins Meer wandert.",
       "Aus seinem Rogen wird ein hochwertiger, kleinkörniger Kaviar gewonnen."
+    ]
+  },
+  {
+    "id": "stint",
+    "name": "Stint",
+    "nameLat": "Osmerus eperlanus",
+    "nameEn": "European Smelt",
+    "aliases": [
+      "Spierling",
+      "Gurkenkönig",
+      "Europäischer Stint"
+    ],
+    "family": "Stinte (Osmeridae)",
+    "order": "Stintartige (Osmeriformes)",
+    "habitat": "Wandernd",
+    "regions": [
+      "Nordeuropa",
+      "Nordsee",
+      "Ostsee",
+      "Deutschland",
+      "Elbe"
+    ],
+    "waters": [
+      "Fluss",
+      "Mündung",
+      "Brackwasser",
+      "Küste",
+      "Meer",
+      "See"
+    ],
+    "maxLength_cm": 30,
+    "maxWeight_kg": 0.1,
+    "lifespan_years": 6,
+    "diet": "Zooplankton, kleine Krebse, Fischlarven, kleine Fische",
+    "spawningSeason": "Februar bis April",
+    "bestSeason": [
+      "Februar",
+      "März",
+      "April"
+    ],
+    "techniques": [
+      "Posenangeln",
+      "Stippangeln",
+      "Grundangeln"
+    ],
+    "baits": [
+      "Wurmstück",
+      "kleiner Fischfetzen",
+      "Made"
+    ],
+    "conservation": "Nicht akut gefährdet, regional schwankende Bestände",
+    "minSize_cm": 0,
+    "difficulty": "Einsteiger",
+    "tagline": "Der nach Gurke duftende Frühjahrswanderer",
+    "description": "Der Stint ist ein schlanker, silbrig glänzender Wanderfisch aus der Verwandtschaft der Lachsfische, der eine kleine Fettflosse trägt. Sein wohl auffälligstes Merkmal ist der Geruch frisch gefangener Tiere, der deutlich an frische Gurken erinnert und ihm den Spitznamen Gurkenkönig einbrachte. Die meisten Stinte leben im Brack- und Küstenwasser und steigen zum Laichen in die Flüsse auf.\n\nIm zeitigen Frühjahr ziehen riesige Stintschwärme die Tideflüsse hinauf, um über Sand- und Kiesbänken abzulaichen. Diese Wanderung ist an der Unterelbe ein traditionelles Ereignis, das zahlreiche Angler und kulinarische Liebhaber anlockt. Es gibt auch Binnenformen, die ihr ganzes Leben in großen Seen verbringen und dort kleiner bleiben.\n\nFür Angler ist der Stint ein beliebter Frühjahrsfisch, der in Massen gefangen und traditionell mehlbestäubt in der Pfanne gebraten verzehrt wird. Ökologisch ist er ein wichtiger Futterfisch für Raubfische und Seevögel.",
+    "tips": [
+      "Die Hauptwanderung in die Tideflüsse findet im zeitigen Frühjahr statt",
+      "Mit leichter Posenmontage und kleinem Köderstück in Massen zu fangen",
+      "Frisch gefangen am typischen Gurkengeruch eindeutig zu erkennen",
+      "Schmeckt traditionell mehlbestäubt und gebraten am besten"
+    ],
+    "funFacts": [
+      "Frisch gefangene Stinte verströmen einen intensiven Geruch nach frischen Gurken",
+      "Neben den wandernden Meeresstinten gibt es auch reine Binnenformen in großen Seen"
     ]
   },
   {
@@ -5396,6 +7375,69 @@
     ]
   },
   {
+    "id": "zackenbarsch",
+    "name": "Zackenbarsch",
+    "nameLat": "Epinephelus marginatus",
+    "nameEn": "Dusky Grouper",
+    "aliases": [
+      "Brauner Zackenbarsch",
+      "Mittelmeer-Zackenbarsch",
+      "Dusky Grouper",
+      "Mero"
+    ],
+    "family": "Sägebarsche (Serranidae)",
+    "order": "Barschartige (Perciformes)",
+    "habitat": "Salzwasser",
+    "regions": [
+      "Mittelmeer",
+      "Ostatlantik",
+      "Westafrika",
+      "Südatlantik"
+    ],
+    "waters": [
+      "Meer",
+      "Riff",
+      "Küste"
+    ],
+    "maxLength_cm": 150,
+    "maxWeight_kg": 60,
+    "lifespan_years": 50,
+    "diet": "Kraken, Krebse, Fische, Tintenfische",
+    "spawningSeason": "Sommer",
+    "bestSeason": [
+      "Juni",
+      "Juli",
+      "August",
+      "September"
+    ],
+    "techniques": [
+      "Naturköderangeln",
+      "Grundangeln",
+      "Spinnfischen"
+    ],
+    "baits": [
+      "Tintenfisch",
+      "Krake",
+      "Sardine",
+      "lebender Köderfisch"
+    ],
+    "conservation": "Stark gefährdet, geschützt und reguliert",
+    "minSize_cm": 45,
+    "difficulty": "Profi",
+    "tagline": "Der majestätische Höhlenwächter der Felsriffe",
+    "description": "Der Zackenbarsch ist ein massiger, kräftiger Raubfisch mit großem Kopf, dickem Maul und gedrungenem, dunkelbraun bis graubraun gefärbtem Körper, der oft mit helleren Flecken übersät ist. Er bewohnt felsige Küsten und Riffe des Mittelmeers und Ostatlantiks, wo er ein festes Revier mit Höhlen und Spalten besetzt und dieses über lange Zeit verteidigt.\n\nZackenbarsche sind standorttreue Lauerjäger, die mit einem kraftvollen Sog ihre Beute einsaugen. Bemerkenswert ist ihre Biologie als sogenannte Zwitter: Die Tiere reifen zunächst als Weibchen heran und wandeln sich erst im höheren Alter zu Männchen um. Diese späte Geschlechtsumwandlung und ihr langsames Wachstum machen die Art besonders anfällig für Überfischung.\n\nFür Angler ist der Zackenbarsch ein kraftvoller Gegner, der nach dem Biss sofort in seine Felshöhle flüchtet und dort kaum noch zu bewegen ist. Wegen stark zurückgegangener Bestände steht er unter Schutz, und ein schonender, verantwortungsvoller Umgang ist geboten.",
+    "tips": [
+      "Flüchtet nach dem Biss blitzschnell in seine Felshöhle, daher kräftiges Gerät und sofortiger Druck",
+      "Hält sich extrem standorttreu an felsigen Riffen mit Höhlen und Spalten auf",
+      "Tintenfisch und Krake gehören zu den fängigsten Naturködern",
+      "Bestände stark gefährdet, Schonzeiten und Mindestmaße strikt einhalten"
+    ],
+    "funFacts": [
+      "Zackenbarsche beginnen ihr Leben als Weibchen und wandeln sich erst im Alter zu Männchen um",
+      "Ein einzelner Zackenbarsch kann jahrzehntelang dieselbe Felshöhle als Revier bewohnen"
+    ]
+  },
+  {
     "id": "zander",
     "name": "Zander",
     "nameLat": "Sander lucioperca",
@@ -5461,5 +7503,68 @@
       "Trotz hechtähnlichem Aussehen ist der Zander zoologisch ein Barsch."
     ],
     "featured": true
+  },
+  {
+    "id": "zope",
+    "name": "Zope",
+    "nameLat": "Ballerus ballerus",
+    "nameEn": "Zope",
+    "aliases": [
+      "Spitzpleinzen",
+      "Pleinzen",
+      "Blicke"
+    ],
+    "family": "Karpfenfische (Cyprinidae)",
+    "order": "Karpfenartige (Cypriniformes)",
+    "habitat": "Süßwasser",
+    "regions": [
+      "Mitteleuropa",
+      "Osteuropa",
+      "Deutschland",
+      "Donauraum"
+    ],
+    "waters": [
+      "Fluss",
+      "See",
+      "Talsperre",
+      "Kanal"
+    ],
+    "maxLength_cm": 45,
+    "maxWeight_kg": 1.2,
+    "lifespan_years": 15,
+    "diet": "Zooplankton, Insektenlarven, kleine Wirbellose",
+    "spawningSeason": "April bis Mai",
+    "bestSeason": [
+      "Mai",
+      "Juni",
+      "September",
+      "Oktober"
+    ],
+    "techniques": [
+      "Feederangeln",
+      "Posenangeln",
+      "Stippangeln"
+    ],
+    "baits": [
+      "Made",
+      "Wurm",
+      "Mückenlarve",
+      "Mais"
+    ],
+    "conservation": "In Teilen Deutschlands gefährdet, regional rückläufig",
+    "minSize_cm": 0,
+    "difficulty": "Fortgeschritten",
+    "tagline": "Der hochrückige Planktonfresser mit langer Afterflosse",
+    "description": "Die Zope ist ein silbriger, stark seitlich abgeflachter Karpfenfisch, der dem Brassen ähnelt, sich aber durch eine auffallend lange Afterflosse und ein oberständiges Maul unterscheidet. Dieses zur Oberseite gerichtete Maul verrät ihre Spezialisierung auf Zooplankton, das sie im freien Wasser erbeutet. Die großen Augen unterstreichen ihre Anpassung an das Leben im Pelagial.\n\nZopen leben gesellig in großen Schwärmen in tieferen Bereichen von Flüssen, Seen und Talsperren. Im Gegensatz zum gründelnden Brassen suchen sie ihre Nahrung überwiegend in der freien Wassersäule. Zur Laichzeit ziehen sie in flachere, strömungsberuhigte Bereiche und legen ihre Eier an Pflanzen ab.\n\nFür Friedfischangler ist die Zope ein interessanter, aber nicht alltäglicher Fang, der vor allem mit feinem Feeder- und Posengerät in tieferem Wasser gelingt. In mehreren Bundesländern gilt sie als gefährdet und sollte mit Bedacht behandelt werden.",
+    "tips": [
+      "Hält sich oft in tieferen, freien Wasserschichten auf, nicht am Grund wie der Brassen",
+      "Feines Feedergerät mit Made oder Mückenlarve bringt die besten Ergebnisse",
+      "Große Schwärme verraten sich an Sonartechnik im Freiwasser von Talsperren",
+      "An der langen Afterflosse und dem oberständigen Maul sicher vom Brassen zu trennen"
+    ],
+    "funFacts": [
+      "Das oberständige Maul der Zope ist ideal an das Aufsammeln von Plankton von unten angepasst",
+      "Ihre extrem lange Afterflosse macht die Zope unter den heimischen Cypriniden unverwechselbar"
+    ]
   }
 ]

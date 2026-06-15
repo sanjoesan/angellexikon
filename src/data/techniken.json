@@ -1,307 +1,420 @@
 [
   {
-    "id": "fliegenfischen",
-    "name": "Fliegenfischen",
-    "nameEn": "Fly Fishing",
+    "id": "belly-boat-angeln",
+    "name": "Belly-Boat-Angeln",
+    "nameEn": "Float Tube Fishing",
+    "category": "Allround",
+    "difficulty": "Fortgeschritten",
+    "tagline": "Angeln vom aufblasbaren Einmannboot direkt auf dem Wasser sitzend",
+    "description": "Das Belly-Boat-Angeln, auch Float-Tube-Fishing genannt, ist eine einzigartige Art des Wasserangelns, bei der der Angler in einem aufblasbaren, hufeisenförmigen oder u-förmigen Schwimmring sitzt und sich mit Flossen rückwärts über das Wasser bewegt. Diese Methode ermöglicht es, Bereiche zu erreichen, die vom Ufer oder vom Boot aus nicht zugänglich sind, und dabei lautlos und wenig störend zu agieren.\n\nDer Angler befindet sich direkt auf Wasserniveau, was eine eindrucksvolle und intensive Naturerfahrung bietet. Belly-Boats sind für den Transport zusammenfaltbar und deutlich günstiger als konventionelle Boote. Der Einsatz ist vielseitig: Fliegenfischen auf Forellen, Spinnen auf Hechte und Barsche oder das Angeln auf Barben in langsamen Flussbereichen – alles ist möglich.\n\nSicherheit ist beim Belly-Boat-Angeln oberstes Gebot. Eine Schwimmweste ist Pflicht, und das Fischen sollte nur in ruhigen, überschaubaren Gewässern ohne Motorbootverkehr erfolgen. Neoprenanzug oder wärmende Unterbekleidung sind essentiell, da das Sitzen im Wasser schnell auskühlt. Trotz dieser Einschränkungen schätzen viele Angler die einmalige Perspektive und die Freiheit dieser Methode.",
+    "targetFish": [
+      "Hecht",
+      "Barsch",
+      "Forelle",
+      "Zander",
+      "Barbe"
+    ],
+    "waters": [
+      "Seen",
+      "Baggerseen",
+      "Stauseen",
+      "Langsame Flüsse",
+      "Teiche"
+    ],
+    "gear": [
+      "Belly Boat (Float Tube)",
+      "Schwimmflossen",
+      "Schwimmweste",
+      "Neoprenanzug",
+      "Spinnrute oder Fliegenrute",
+      "Rutengurt"
+    ],
+    "baits": [
+      "Kunstköder (Gummifische, Wobbler)",
+      "Fliegen",
+      "Naturköder",
+      "Jigs"
+    ],
+    "bestSeason": [
+      "Mai",
+      "Juni",
+      "Juli",
+      "August",
+      "September"
+    ],
+    "steps": [
+      "Geeignetes, ruhiges Gewässer wählen und auf Motorbootverbot und Zugänglichkeit prüfen",
+      "Belly Boat aufpumpen, Ausrüstung in Taschen verstauen und Flossen anlegen",
+      "Vorsichtig rückwärts ins Wasser gehen und einsteigen",
+      "Mit Flossenantrieb lautlos zu vielversprechenden Stellen paddeln",
+      "Köder von der Wasseroberfläche aus auswerfen und führen",
+      "Bei Biss sofort anschlagen und Fisch zum Boot führen",
+      "Nach dem Angeln sicher an ruhiger Stelle aussteigen und Ausrüstung säubern"
+    ],
+    "tips": [
+      "Nie alleine im Belly Boat angeln – immer einen Begleiter am Ufer informieren",
+      "Gut befestigte Ruten-Halterungen am Boot verhindern Verlust beim Drill",
+      "Im Frühjahr und Herbst wegen Kältegefahr immer Neoprenanzug tragen"
+    ],
+    "pros": [
+      "Zugang zu Stellen, die vom Ufer oder größerem Boot nicht erreichbar sind",
+      "Lautloser Antrieb verschreckt keine Fische",
+      "Kostengünstig und platzsparend im Transport"
+    ],
+    "cons": [
+      "Kältegefahr bei langen Ausflügen – gute Isolierung zwingend nötig",
+      "Nicht für große Gewässer mit Wellengang oder Motorbootbetrieb geeignet",
+      "Eingeschränkte Beweglichkeit beim Drill großer Fische"
+    ],
+    "featured": false
+  },
+  {
+    "id": "bolognese-angeln",
+    "name": "Bolognese-Angeln",
+    "nameEn": "Bolognese Fishing",
+    "category": "Friedfischangeln",
+    "difficulty": "Fortgeschritten",
+    "tagline": "Elegantes Posenfischen mit langer Wurfrute im fließenden Wasser",
+    "description": "Das Bolognese-Angeln ist eine italienische Fischereimethode, die speziell für das Angeln in Flüssen und Kanälen entwickelt wurde. Namensgebend ist die Stadt Bologna, aus deren Umgebung diese Technik stammt. Charakteristisch ist die lange, leichte Rute von 6 bis 9 Metern kombiniert mit einer kleinen Stationärrolle, die ein präzises Auswerfen der Pose auch gegen Wind ermöglicht.\n\nDie Montage besteht aus einer schlanken, stromlinienförmigen Pose, die bei Strömung ideal treibt und die natürliche Abdrift des Köders unterstützt. Im Gegensatz zur Steckrute kann beim Bolognese-Angeln auch auf mittlere und große Distanzen geworfen werden, was es vielseitiger macht. Der Angler führt die Pose aktiv durch die Strömung, indem er die Leine kontrolliert freigibt oder leicht bremst.\n\nBesonders effektiv ist diese Methode beim Fischen auf Döbel, Barben und Nasen in Fließgewässern. Die lange Rute erlaubt eine gute Linienführung über Hindernisse hinweg und ermöglicht ein sauberes Anschlagen auch auf Distanz. Mit etwas Übung lässt sich die Pose über weite Strecken des Flusses präzise führen.",
+    "targetFish": [
+      "Döbel",
+      "Barbe",
+      "Nase",
+      "Rotauge",
+      "Aitel",
+      "Hasel"
+    ],
+    "waters": [
+      "Flüsse",
+      "Kanäle",
+      "Bäche",
+      "Strömungsreiche Gewässer"
+    ],
+    "gear": [
+      "Bolognese-Rute 6–9 m",
+      "Stationärrolle",
+      "Monofile Hauptschnur 0,16–0,22 mm",
+      "Bolognese-Posen",
+      "Olivenblei",
+      "Kleinhaken"
+    ],
+    "baits": [
+      "Maden",
+      "Würmer",
+      "Caster",
+      "Brot",
+      "Mais",
+      "Pellets"
+    ],
+    "bestSeason": [
+      "April",
+      "Mai",
+      "Juni",
+      "Juli",
+      "August",
+      "September"
+    ],
+    "steps": [
+      "Geeignete Stelle mit gleichmäßiger Strömung und nicht zu großer Tiefe wählen",
+      "Pose auf die richtige Tiefe einstellen – Köder sollte knapp über dem Grund treiben",
+      "Fütterungspunkt etwas oberhalb der Angelstelle vorbauen",
+      "Montage mit einem weiten Schwung auswerfen und Pose bei Strömung abdriften lassen",
+      "Leine beim Abdriften leicht kontrollieren, um natürliche Köderführung zu gewährleisten",
+      "Biss durch Posentauchen oder -abweichen erkennen und sofort anschlagen",
+      "Fisch entlang der Rute zur Seite führen und mit Kescher sichern"
+    ],
+    "tips": [
+      "Immer mit der Strömung füttern, damit Grundfutter und Köder zur gleichen Stelle gelangen",
+      "Die Pose leicht schneller als die Strömung laufen lassen für aktiven Köderreiz",
+      "Im Sommer morgens früh angeln, wenn die Fische aktiver sind"
+    ],
+    "pros": [
+      "Natürliche Köderführung in der Strömung",
+      "Vielseitig auf Distanz und kurz einsetzbar",
+      "Elegante, sportliche Angelmethode mit hohem Erfolgserlebnis"
+    ],
+    "cons": [
+      "Lange Rute erfordert Übung beim Auswerfen",
+      "Wind macht die Linienführung deutlich schwieriger",
+      "Weniger geeignet für breite, tiefe Gewässer"
+    ],
+    "featured": false
+  },
+  {
+    "id": "bombarda-angeln",
+    "name": "Bombarda-Angeln",
+    "nameEn": "Bombarda Fishing",
+    "category": "Spinnfischen",
+    "difficulty": "Fortgeschritten",
+    "tagline": "Weitwurfmethode mit Sbirolino-Schwimmer, um leichte Köder weit hinaus zu befördern und langsam zu führen.",
+    "description": "Beim Bombarda-Angeln dient ein spezieller Wurfschwimmer, die Bombarda oder Sbirolino, als Wurfgewicht für sehr leichte Köder. So lassen sich kleine Fliegen, Teigköder oder zarte Naturköder weit hinauswerfen, die sonst kaum geworfen werden könnten. Hinter der Bombarda läuft ein langes Vorfach mit dem eigentlichen Köder.\n\nBombardas gibt es schwimmend, langsam oder schnell sinkend, sodass sich der Köder in jeder gewünschten Wasserschicht führen lässt. Durch langsames Einholen wird der Köder verführerisch durch das Wasser gezogen, oft mit kleinen Pausen und Variationen. Diese Kombination aus Reichweite und feiner Präsentation macht die Methode sehr vielseitig.\n\nBesonders verbreitet ist das Bombarda-Angeln auf Forellen in Seen und Forellenteichen, es fängt aber auch Rapfen, Döbel und andere oberflächennahe Fische. Es schlägt die Brücke zwischen Spinnfischen und der feinen Köderpräsentation des Fliegenfischens.",
+    "targetFish": [
+      "Regenbogenforelle",
+      "Bachforelle",
+      "Rapfen",
+      "Döbel",
+      "Renke"
+    ],
+    "waters": [
+      "See",
+      "Teich",
+      "Talsperre",
+      "Fluss",
+      "Bergsee"
+    ],
+    "gear": [
+      "lange Bombardarute",
+      "Stationärrolle",
+      "Bombarda oder Sbirolino",
+      "langes Vorfach",
+      "kleine Haken",
+      "Wirbel"
+    ],
+    "baits": [
+      "Forellenteig",
+      "Fliegen",
+      "Bienenmaden",
+      "kleine Spinner",
+      "Wurmstücke"
+    ],
+    "bestSeason": [
+      "März",
+      "April",
+      "Mai",
+      "September",
+      "Oktober",
+      "November"
+    ],
+    "steps": [
+      "Wähle eine schwimmende oder sinkende Bombarda passend zur gewünschten Köderschicht.",
+      "Fädle die Bombarda auf die Hauptschnur und sichere sie mit Wirbel und Perle.",
+      "Knote ein langes Vorfach an und befestige den leichten Köder.",
+      "Wirf die Montage mit der schweren Bombarda weit hinaus.",
+      "Lass die Montage je nach Bombardatyp die gewünschte Tiefe erreichen.",
+      "Hole langsam und mit kleinen Pausen ein und setze beim Biss einen sauberen Anhieb."
+    ],
+    "tips": [
+      "Wähle den Bombardatyp gezielt nach der Tiefe, in der die Fische stehen.",
+      "Verwende ein langes Vorfach, damit der Köder weit entfernt vom Schwimmer läuft.",
+      "Variiere das Einholtempo und lege Pausen ein, um zögerliche Fische zu reizen."
+    ],
+    "pros": [
+      "Sehr leichte Köder lassen sich weit auswerfen.",
+      "Köderführung in jeder Wasserschicht möglich.",
+      "Verbindet Reichweite mit feiner Präsentation."
+    ],
+    "cons": [
+      "Lange Montage erfordert sorgfältiges Werfen ohne Verhedderungen.",
+      "Spezielle Rute und Wurfschwimmer nötig."
+    ],
+    "origin": "Die Bombarda stammt aus Italien und verbreitete sich als Wurfschwimmer vor allem beim Forellenangeln in ganz Europa.",
+    "featured": false
+  },
+  {
+    "id": "brandungsangeln",
+    "name": "Brandungsangeln",
+    "nameEn": "Surf Fishing",
+    "category": "Meeresangeln",
+    "difficulty": "Fortgeschritten",
+    "tagline": "Weitwurfangeln vom Strand auf Plattfische und andere Küstenfische in der Brandungszone.",
+    "description": "Beim Brandungsangeln wird vom Strand aus mit langen Ruten und schweren Bleien weit in die Brandung geworfen. Krallenbleie verankern die Montage am Grund, sodass sie auch in Strömung und Wellengang an Ort und Stelle bleibt. Ziel ist es, die im Flachwasser jagenden Fische zu erreichen.\n\nDie Montagen tragen meist mehrere Vorfächer mit Naturködern, um verschiedene Fische gleichzeitig anzubieten. Bissanzeige erfolgt über die Rutenspitze, oft mit Knicklicht für die Dämmerung und Nacht. Gerade in den dunklen Stunden und bei auflandigem Wind sind die Fänge häufig am besten.\n\nGefangen werden vor allem Plattfische wie Scholle und in der Ostsee auch Dorsch sowie Wolfsbarsch. Brandungsangeln ist ein geselliges Strandvergnügen, das robuste Ausrüstung und etwas Wurftechnik verlangt.",
+    "targetFish": [
+      "Scholle",
+      "Dorsch",
+      "Wolfsbarsch",
+      "Steinbutt",
+      "Hornhecht"
+    ],
+    "waters": [
+      "Küste",
+      "Meer",
+      "Brackwasser",
+      "Mündung"
+    ],
+    "gear": [
+      "lange Brandungsrute",
+      "Weitwurfrolle",
+      "Krallenblei",
+      "Brandungsvorfach",
+      "Rutenständer",
+      "Knicklichter"
+    ],
+    "baits": [
+      "Wattwurm",
+      "Seeringelwurm",
+      "Krabben",
+      "Fischfetzen"
+    ],
+    "bestSeason": [
+      "September",
+      "Oktober",
+      "November",
+      "März",
+      "April"
+    ],
+    "steps": [
+      "Suche einen Strandabschnitt mit Rinnen und Sandbänken, an denen Fische ziehen.",
+      "Baue ein Brandungsvorfach mit mehreren Haken und einem Krallenblei.",
+      "Beködere die Haken mit frischen Würmern und sichere sie mit Bait-Stops.",
+      "Wirf die Montage mit weitem Schwung in die Brandung hinaus.",
+      "Stelle die Rute in den Ständer, spanne die Schnur und befestige ein Knicklicht.",
+      "Schlage bei deutlichem Zupfen der Spitze an und kurbele den Fisch durch die Brandung ein."
+    ],
+    "tips": [
+      "Angle bevorzugt in der Dämmerung und nachts, wenn die Fische ins Flachwasser ziehen.",
+      "Nutze auflandigen Wind, da aufgewühltes Wasser oft bessere Fänge bringt.",
+      "Verwende frische Köder, denn sie sind deutlich fängiger als alte."
+    ],
+    "pros": [
+      "Kein Boot nötig, vom Strand aus möglich.",
+      "Mehrere Köder gleichzeitig im Wasser.",
+      "Geselliges Angeln mit besonderem Reiz bei Nacht."
+    ],
+    "cons": [
+      "Weite Würfe erfordern Technik und Kraft.",
+      "Wetterabhängig und bei Sturm unangenehm bis unmöglich."
+    ],
+    "origin": "Das Brandungsangeln entwickelte sich entlang der europäischen Küsten als feststehende Methode des Strandfischens auf Plattfische.",
+    "featured": false
+  },
+  {
+    "id": "downrigger-schleppen",
+    "name": "Downrigger-Schleppen",
+    "nameEn": "Downrigger Trolling",
+    "category": "Meeresangeln",
+    "difficulty": "Profi",
+    "tagline": "Tiefenwassertrollern mit elektrischer Absenkvorrichtung für Lachs und Seeforelle",
+    "description": "Das Downrigger-Schleppen ist eine hochentwickelte Trollingtechnik, bei der ein elektrisch oder manuell absenkbares Gewicht (der Downrigger) den Köder auf exakt definierte Tiefe bringt, unabhängig von Schleppgeschwindigkeit und Strömung. Während beim klassischen Schleppen mit Bleigewichten oder Rollbleien die Tiefe nur grob kontrollierbar ist, ermöglicht der Downrigger millimetergenaues Positionieren des Köders in bestimmten Tiefenzonen.\n\nAm Downrigger-Ball wird eine spezielle Schnurklammer befestigt, die die Angelschnur hält. Beim Biss wird die Schnur aus der Klammer gerissen, und der Angler hat direkten Kontakt zum Fisch ohne das Gewicht des Downriggers. Dies ermöglicht einen sportlichen Drill ohne störendes Zusatzgewicht. Downrigger werden vor allem auf Seen für Seeforelle, Seesaibling und Lachs sowie im Meerbereich für Atlantischen Lachs und Meerforelle eingesetzt.\n\nDie Ausrüstung ist aufwendig: Neben dem eigentlichen Downrigger-Gerät benötigt man ein stabiles Boot, Echolot zur Fischortung, spezielle Schleppköder (Wobbler, Blinker, Naturköder) und ausreichend Angelruten in Halterungen. Trotz des hohen technischen Aufwands ist die Methode bei erfahrenen Angelführern und Tourismusanbietern auf alpinen Seen sehr beliebt.",
+    "targetFish": [
+      "Seeforelle",
+      "Seesaibling",
+      "Atlantischer Lachs",
+      "Meerforelle",
+      "Maräne"
+    ],
+    "waters": [
+      "Tiefe Seen",
+      "Alpen-Seen",
+      "Ostsee",
+      "Nordsee",
+      "Fjorde"
+    ],
+    "gear": [
+      "Downrigger (elektrisch oder manuell)",
+      "Stabiles Angelboot",
+      "Echolot",
+      "Schleppru­ten 2–2,7 m",
+      "Rollen mit großem Schnurvorrat",
+      "Schnurklammern"
+    ],
+    "baits": [
+      "Tiefentaucher-Wobbler",
+      "Blinker 20–60 g",
+      "Naturköder (Heringen, Makrele)",
+      "Gummifische mit Bleikopf"
+    ],
+    "bestSeason": [
+      "Januar",
+      "Februar",
+      "März",
+      "Oktober",
+      "November",
+      "Dezember"
+    ],
+    "steps": [
+      "Echolot einsetzen, um Thermokline und Fischschwärme in der jeweiligen Tiefe zu orten",
+      "Schleppköder montieren und Ruten in den Halterungen am Boot befestigen",
+      "Downrigger-Ball mit befestigter Schnurklammer auf die gewünschte Tiefe absenken",
+      "Boot gleichmäßig mit 2–5 km/h im GPS-Autopiloten schleppend manövrieren",
+      "Bei Biss springt Schnur aus der Klammer – Rute sofort aus der Halterung nehmen",
+      "Fisch direkt und ohne Zusatzgewicht abdrillen",
+      "Fisch mit großem Kescher oder Gaff (im Meerwasserbereich) sichern"
+    ],
+    "tips": [
+      "Immer Schleppköder testen: Kurz neben dem Boot führen und sehen, ob die Aktion stimmt",
+      "Thermokline auf dem Echolot finden und knapp darunter angeln – dort stehen die Seeforellen",
+      "Langsames Schleppen ist meist effektiver als schnelles – Geschwindigkeit immer anpassen"
+    ],
+    "pros": [
+      "Extrem präzise Tiefenkontrolle für schwer erreichbare Tiefenwasserfische",
+      "Sportlicher Drill ohne störendes Bleigewicht nach dem Biss",
+      "Hoher Fangerfolg auf große Seeforellen und Lachs"
+    ],
+    "cons": [
+      "Sehr hohe Anschaffungskosten für Downrigger, Boot und Echolot",
+      "Erfordert umfangreiches Gewässer- und Technikwissen",
+      "Nur für größere Gewässer mit ausreichender Tiefe sinnvoll einsetzbar"
+    ],
+    "featured": false
+  },
+  {
+    "id": "driftfischen",
+    "name": "Driftfischen",
+    "nameEn": "Drift Fishing",
     "category": "Fliegenfischen",
     "difficulty": "Fortgeschritten",
-    "tagline": "Die wohl eleganteste Angelmethode, bei der das Gewicht der Schnur eine kunstvolle Köderpräsentation ermöglicht.",
-    "description": "Beim Fliegenfischen wirft der Angler nicht den Köder, sondern die schwere Fliegenschnur. Die nahezu gewichtslose künstliche Fliege wird durch die Wurfdynamik der Schnur an den gewünschten Platz befördert. Diese Technik verlangt Übung und Gefühl, belohnt aber mit einer faszinierenden und naturnahen Art der Fischerei.\n\nUnterschieden wird vor allem zwischen Trockenfliege, Nassfliege, Nymphe und Streamer. Während die Trockenfliege auf der Wasseroberfläche schwimmt und ein geschlüpftes Insekt imitiert, wird die Nymphe unter Wasser geführt und ahmt eine Insektenlarve nach. Streamer imitieren kleine Beutefische und reizen vor allem Raubfische zum Biss.\n\nDas Fliegenfischen ist eng mit dem Salmonidenfang an klaren Fließgewässern verbunden, lässt sich aber auch erfolgreich auf viele andere Arten und sogar im Meer anwenden. Es gilt als Königsdisziplin der Angelei und entwickelt für viele eine besondere meditative Anziehungskraft.",
-    "targetFish": ["Bachforelle", "Regenbogenforelle", "Äsche", "Renke", "Döbel", "Rapfen", "Meerforelle"],
-    "waters": ["Fluss", "Bach", "Bergsee", "See", "Küste"],
-    "gear": ["Fliegenrute", "Fliegenrolle", "Fliegenschnur", "Vorfach mit Tippet", "Wathose", "Watkescher"],
-    "baits": ["Trockenfliegen", "Nymphen", "Nassfliegen", "Streamer"],
-    "bestSeason": ["April", "Mai", "Juni", "Juli", "August", "September", "Oktober"],
+    "tagline": "Natürliche Köderführung mit der Strömung für wählerische Forellen",
+    "description": "Das Driftfischen ist eine Angeltechnik, bei der Köder oder Kunstköder ohne aktive Führung mit der natürlichen Strömung eines Flusses treiben gelassen werden. Diese Methode ahmt das Verhalten von Insekten, Larven oder kleinen Fischen nach, die von der Strömung mitgerissen werden, und ist besonders wirkungsvoll für standortgebundene Fische wie Forellen und Äschen.\n\nDie Kunst des Driftfischens liegt in der perfekten Schnurführung: Kein unnatürliches „Schleifen“ (Drag) der Leine darf den freien Treib des Köders beeinträchtigen. Dazu muss der Angler ständig Leine nachgeben, die Rutenspitze führen und idealerweise mit einer leicht gebogenen Leine arbeiten. Fliegenfischer bezeichnen dieses Prinzip als „dead drift“ – der Köder verhält sich wie ein toter, treibender Organismus.\n\nNeben der klassischen Anwendung mit der Fliegenrute funktioniert Driftfischen auch mit Spinnrute und Naturködern wie Würmern oder Eiersäcken im Posenwurf. Besonders in klaren Bergbächen und Voralpenflüssen ist diese Technik unverzichtbar, da die scheuen Fische jede unnatürliche Bewegung sofort erkennen.",
+    "targetFish": [
+      "Bachforelle",
+      "Regenbogenforelle",
+      "Aeschen",
+      "Huchen"
+    ],
+    "waters": [
+      "Bäche",
+      "Flüsse",
+      "Voralpenflüsse",
+      "Berggewässer"
+    ],
+    "gear": [
+      "Fliegenrute 3–6 m",
+      "Schwimmschnur oder Streifenrute",
+      "Leader und Tippet",
+      "Driftschwimmer",
+      "Stationärrolle"
+    ],
+    "baits": [
+      "Nymphen",
+      "Trockenfliegen",
+      "Würmer",
+      "Lachseier",
+      "Eiersäcke"
+    ],
+    "bestSeason": [
+      "März",
+      "April",
+      "Mai",
+      "Juni",
+      "Juli",
+      "August",
+      "September",
+      "Oktober"
+    ],
     "steps": [
-      "Wähle eine zur Zielfischgröße passende Rutenklasse und montiere Schnur, Vorfach und Fliege.",
-      "Beobachte das Wasser auf steigende Fische und auf Insekten, um die passende Fliege zu wählen.",
-      "Baue mit gleichmäßigen Vor- und Rückschwüngen die nötige Schnur in der Luft auf.",
-      "Lege die Fliege möglichst sanft oberhalb des vermuteten Standplatzes ab.",
-      "Führe die Fliege drag-frei mit der Strömung oder zupfe den Streamer in kurzen Stößen.",
-      "Setze beim Biss durch leichtes Anheben der Rute den Anhieb und drille kontrolliert."
+      "Strömungsmuster beobachten und vielversprechende Einstände (Kehrwasser, Strömungskanten) identifizieren",
+      "Positionierung leicht seitlich oder unterhalb des Zielbereichs, möglichst verdeckt angehen",
+      "Köder oder Fliege möglichst präzise in die Strömung einbringen",
+      "Leine sofort nach dem Eintauchen menden (anheben), um Drag zu vermeiden",
+      "Köder frei mit der Strömung treiben lassen, dabei Rutenspitze der Drift folgen",
+      "Bei Biss oder Posenbewegung scharf anschlagen",
+      "Fisch strömungsabwärts drillen und in ruhigem Wasser landen"
     ],
     "tips": [
-      "Trainiere den Wurf zunächst auf einer Wiese, bevor du ans Wasser gehst.",
-      "Achte auf einen drag-freien Lauf der Trockenfliege, da Fische unnatürliche Bewegungen sofort erkennen.",
-      "Passe Fliegengröße und Muster dem aktuellen Insektenschlupf am Gewässer an."
+      "Gegen die Sonne angeln, um den eigenen Schatten nicht auf das Wasser zu werfen",
+      "Kurze Tippet-Längen erhöhen die Biss-Übertragung beim Anschlagen",
+      "Nach Regen ist das Wasser trüber – dann können kräftigere Köder gewählt werden"
     ],
     "pros": [
-      "Sehr naturnahe und selektive Köderpräsentation.",
-      "Schonend für den Fisch dank Einzelhaken ohne Widerhaken.",
-      "Faszinierende und vielseitig einsetzbare Methode."
+      "Höchst natürliche Köderführung, die wählerische Fische überzeugt",
+      "Vielseitig einsetzbar mit Fliegen- und Spinnrute",
+      "Entwickelt ein tiefes Verständnis für Strömung und Fischverhalten"
     ],
     "cons": [
-      "Hoher Lernaufwand für eine saubere Wurftechnik.",
-      "Bei starkem Wind nur eingeschränkt einsetzbar."
+      "Drag-Vermeidung erfordert viel Übung und Erfahrung",
+      "In breiten, tiefen Gewässern schwer umzusetzen",
+      "Stark windige Bedingungen machen präzises Menden kaum möglich"
     ],
-    "origin": "Schon in der Antike beschrieben, wurde das Fliegenfischen vor allem in England und Schottland ab dem 19. Jahrhundert verfeinert und zum Sport entwickelt.",
-    "featured": true
-  },
-  {
-    "id": "spinnfischen",
-    "name": "Spinnfischen",
-    "nameEn": "Spin Fishing",
-    "category": "Spinnfischen",
-    "difficulty": "Einsteiger",
-    "tagline": "Aktives Angeln mit Kunstködern, bei dem durch ständiges Einholen ein flüchtendes Beutetier nachgeahmt wird.",
-    "description": "Spinnfischen ist die wohl populärste Methode des Raubfischangelns. Der Angler wirft einen Kunstköder aus und holt ihn mit der Rolle wieder ein, wobei Spinner, Blinker, Wobbler oder Gummiköder durch ihre Bewegung und Vibration einen flüchtenden Fisch imitieren.\n\nDie Methode ist mobil und abwechslungsreich, da der Angler das Gewässer aktiv absucht und immer wieder neue Stellen anwirft. Durch Variation von Einholgeschwindigkeit, Köderlauftiefe und Ködertyp lässt sich die Technik flexibel an Zielfisch und Bedingungen anpassen.\n\nSpinnfischen eignet sich für nahezu alle Raubfische und ist sowohl an kleinen Bächen als auch an großen Seen und im Meer erfolgreich. Wegen des überschaubaren Geräteaufwands ist es ein idealer Einstieg in das Raubfischangeln.",
-    "targetFish": ["Hecht", "Zander", "Barsch", "Rapfen", "Döbel", "Forellenbarsch"],
-    "waters": ["Fluss", "See", "Talsperre", "Kanal", "Teich", "Küste"],
-    "gear": ["Spinnrute", "Stationärrolle", "geflochtene Schnur", "Stahl- oder Fluorocarbonvorfach", "Snap und Wirbel"],
-    "baits": ["Spinner", "Blinker", "Wobbler", "Gummifische", "Spinnerbaits"],
-    "bestSeason": ["März", "April", "Mai", "September", "Oktober", "November"],
-    "steps": [
-      "Stelle eine zur Ködergröße passende Spinnrute mit Rolle und geeigneter Schnur zusammen.",
-      "Montiere ein Vorfach und befestige den Kunstköder über einen Snap.",
-      "Wirf den Köder gezielt an vielversprechende Strukturen wie Kanten, Krautfelder oder Hindernisse.",
-      "Lass den Köder je nach gewünschter Tiefe kurz absinken.",
-      "Hole gleichmäßig oder mit Variationen ein und imitiere so ein flüchtendes Beutetier.",
-      "Setze bei einem Biss sofort einen kräftigen Anhieb und drille den Fisch aus."
-    ],
-    "tips": [
-      "Wechsle bei Misserfolg Ködertyp, Farbe und Einholtempo, bis du den Reiz findest.",
-      "Suche aktiv neue Stellen ab, statt lange an einem Platz zu verharren.",
-      "Verwende beim Hechtangeln immer ein Stahlvorfach, um Abrisse zu vermeiden."
-    ],
-    "pros": [
-      "Aktive, abwechslungsreiche und spannende Angelei.",
-      "Geringer Geräteaufwand und schnelle Einsatzbereitschaft.",
-      "Auf viele Raubfischarten und Gewässer anwendbar."
-    ],
-    "cons": [
-      "Erfordert ständige Aufmerksamkeit und Bewegung.",
-      "Köderverluste an Hindernissen können ins Geld gehen."
-    ],
-    "origin": "Mit der Entwicklung leistungsfähiger Rollen und Kunstköder im 20. Jahrhundert entwickelte sich das Spinnfischen zur verbreitetsten Form des Raubfischangelns.",
-    "featured": true
-  },
-  {
-    "id": "grundangeln",
-    "name": "Grundangeln",
-    "nameEn": "Bottom Fishing",
-    "category": "Allround",
-    "difficulty": "Einsteiger",
-    "tagline": "Klassische Methode, bei der der Köder mit einem Gewicht am Gewässergrund angeboten wird.",
-    "description": "Beim Grundangeln wird der Köder mithilfe eines Bleis am Boden des Gewässers präsentiert. Die Montage liegt ruhig auf dem Grund, während der Angler auf den Biss eines grundnah suchenden Fisches wartet. Bissanzeige erfolgt klassisch über die Rutenspitze, einen Bissanzeiger oder eine Glocke.\n\nDie Technik ist denkbar einfach aufgebaut und damit ideal für Einsteiger, lässt sich aber auch sehr gezielt einsetzen. Über die Wahl von Bleigewicht, Vorfachlänge und Köder passt man die Montage an Strömung, Gewässertiefe und Zielfisch an.\n\nGrundangeln ist eine echte Allroundmethode und fängt sowohl Friedfische wie Brassen und Karpfen als auch Raubfische wie Aal oder Quappe. Es eignet sich für stehende und fließende Gewässer gleichermaßen.",
-    "targetFish": ["Karpfen", "Brassen", "Schleie", "Aal", "Quappe", "Barbe", "Döbel"],
-    "waters": ["Fluss", "See", "Teich", "Kanal", "Talsperre"],
-    "gear": ["Grundrute", "Stationärrolle", "Laufblei oder Grundblei", "Wirbel", "Haken", "Bissanzeiger oder Glocke"],
-    "baits": ["Tauwurm", "Mais", "Made", "Boilie", "Köderfisch"],
-    "bestSeason": ["April", "Mai", "Juni", "Juli", "August", "September", "Oktober"],
-    "steps": [
-      "Baue eine Grundmontage mit Laufblei, Wirbel und einem an die Zielfischgröße angepassten Haken.",
-      "Bestücke den Haken mit dem passenden Köder für den gewünschten Fisch.",
-      "Wirf die Montage an die ausgewählte Stelle und lass das Blei auf den Grund sinken.",
-      "Spanne die Schnur leicht und stelle die Bissanzeige an Rutenspitze oder über einen Bissanzeiger ein.",
-      "Lege die Rute sicher ab und beobachte die Bissanzeige aufmerksam.",
-      "Setze bei einem deutlichen Biss den Anhieb und drille den Fisch vorsichtig ein."
-    ],
-    "tips": [
-      "Wähle das Bleigewicht so, dass die Montage auch in Strömung an Ort und Stelle bleibt.",
-      "Füttere die Stelle an, um Fische gezielt anzulocken und zu halten.",
-      "Verwende ein Laufblei, damit der Fisch beim Biss möglichst wenig Widerstand spürt."
-    ],
-    "pros": [
-      "Einfacher Aufbau und gut für Einsteiger geeignet.",
-      "Vielseitig auf zahlreiche Fischarten einsetzbar.",
-      "Auch nachts und bei schwierigen Bedingungen erfolgreich."
-    ],
-    "cons": [
-      "Eher passive Angelei mit langen Wartezeiten.",
-      "In stark verkrautetem Grund hängt die Montage leicht fest."
-    ],
-    "origin": "Das Grundangeln zählt zu den ältesten Angelmethoden überhaupt und ist in unzähligen regionalen Varianten verbreitet.",
-    "featured": true
-  },
-  {
-    "id": "posenangeln",
-    "name": "Posenangeln",
-    "nameEn": "Float Fishing",
-    "category": "Friedfischangeln",
-    "difficulty": "Einsteiger",
-    "tagline": "Klassisches Angeln mit der Pose, die den Köder in der gewünschten Tiefe hält und jeden Biss optisch anzeigt.",
-    "description": "Beim Posenangeln trägt eine schwimmende Pose den Köder in einer einstellbaren Tiefe und dient zugleich als feiner Bissanzeiger. Taucht oder zieht die Pose ab, ist dies das Signal für den Anhieb. Die Methode gehört zu den anschaulichsten und beliebtesten Formen des Angelns.\n\nDurch das Verschieben des Lotpunkts lässt sich der Köder vom Grund bis knapp unter die Oberfläche in jeder Tiefe anbieten. So findet man die Fische dort, wo sie gerade stehen. Bebleiung und Posenform werden an Wassertiefe, Strömung und Köder angepasst.\n\nPosenangeln ist vor allem beim Friedfischangeln zu Hause, fängt aber auch Barsche und kleinere Raubfische. Es ist einfach zu erlernen und vermittelt durch die direkte optische Bissanzeige besonderen Reiz.",
-    "targetFish": ["Rotauge", "Brassen", "Schleie", "Karpfen", "Barsch", "Döbel"],
-    "waters": ["See", "Teich", "Fluss", "Kanal", "Talsperre"],
-    "gear": ["Matchrute oder Stipprute", "Stationärrolle", "Pose", "Schrotblei", "Haken", "Lotblei"],
-    "baits": ["Made", "Wurm", "Mais", "Teig", "Brotflocke"],
-    "bestSeason": ["April", "Mai", "Juni", "Juli", "August", "September", "Oktober"],
-    "steps": [
-      "Wähle eine zur Wassertiefe und Strömung passende Pose und montiere sie auf der Schnur.",
-      "Verteile die Schrotbleie so, dass die Pose sauber austariert nur knapp aus dem Wasser ragt.",
-      "Lote mit einem Lotblei die Wassertiefe aus und stelle die gewünschte Köderhöhe ein.",
-      "Beködere den Haken und wirf die Montage an den gefütterten Platz.",
-      "Beobachte die Pose und füttere regelmäßig kleine Portionen nach.",
-      "Schlage bei eindeutigem Abtauchen oder Wegziehen der Pose zügig an."
-    ],
-    "tips": [
-      "Tariere die Pose genau aus, damit auch vorsichtige Bisse sichtbar werden.",
-      "Beginne mit dem Köder knapp über Grund und variiere die Tiefe bei ausbleibenden Bissen.",
-      "Füttere sparsam, aber regelmäßig, um die Fische am Platz zu halten."
-    ],
-    "pros": [
-      "Sehr anschauliche und feine Bissanzeige.",
-      "Köder kann in jeder Wassertiefe präsentiert werden.",
-      "Leicht zu erlernen und ideal für Einsteiger."
-    ],
-    "cons": [
-      "Bei starkem Wind und Wellen schwieriger zu kontrollieren.",
-      "Weite Würfe sind nur eingeschränkt möglich."
-    ],
-    "origin": "Die Pose ist seit Jahrhunderten fester Bestandteil des Angelns und wurde im Laufe der Zeit für unterschiedlichste Bedingungen weiterentwickelt.",
-    "featured": false
-  },
-  {
-    "id": "feederangeln",
-    "name": "Feederangeln",
-    "nameEn": "Feeder Fishing",
-    "category": "Friedfischangeln",
-    "difficulty": "Fortgeschritten",
-    "tagline": "Modernes Grundangeln mit Futterkorb und feinfühliger Schwingspitze für gezieltes Anfüttern und präzise Bissanzeige.",
-    "description": "Beim Feederangeln kommt ein Futterkorb zum Einsatz, der bei jedem Wurf eine kleine Portion Futter direkt an den Angelplatz transportiert. So entsteht am Haken ein konzentrierter Futterteppich, der Friedfische anlockt und hält. Die Bissanzeige erfolgt über eine empfindliche, auswechselbare Spitze der Feederrute.\n\nDie Methode verbindet präzises Anfüttern mit weiten und genauen Würfen und ist daher sehr fängig. Über die Wahl von Korbgröße, Futterkonsistenz und Vorfachlänge passt man die Montage an Gewässer und Zielfisch an. Die feine Schwingspitze zeigt selbst zaghafte Bisse zuverlässig an.\n\nFeederangeln ist besonders an Flüssen, Kanälen und großen Seen verbreitet und fängt vor allem Brassen, Rotaugen und Barben. Es gilt als anspruchsvolle, aber sehr ertragreiche Form des Friedfischangelns.",
-    "targetFish": ["Brassen", "Rotauge", "Barbe", "Schleie", "Döbel", "Karpfen"],
-    "waters": ["Fluss", "Kanal", "See", "Talsperre"],
-    "gear": ["Feederrute mit Wechselspitzen", "Stationärrolle", "Futterkorb", "Wirbel", "feine Haken", "Rutenhalter"],
-    "baits": ["Maden", "Caster", "Mais", "Pellets", "Wurm"],
-    "bestSeason": ["April", "Mai", "Juni", "Juli", "August", "September", "Oktober"],
-    "steps": [
-      "Montiere einen passenden Futterkorb über ein Anti-Tangle-System oder eine Schlaufenmontage.",
-      "Mische ein Grundfutter an und befülle den Korb fest genug für den Wurf.",
-      "Suche mit einigen Probewürfen einen klaren Zielpunkt am Gewässer und merke dir die Distanz.",
-      "Wirf zu Beginn mehrmals ohne Haken, um einen Futterteppich aufzubauen.",
-      "Beködere nun den Haken und lege die Rute in den Halter, sodass die Spitze leicht gespannt ist.",
-      "Schlage bei einem deutlichen Zucken oder Durchziehen der Schwingspitze sofort an."
-    ],
-    "tips": [
-      "Wirf möglichst immer denselben Punkt an, um den Futterplatz konzentriert zu halten.",
-      "Passe die Festigkeit des Futters an die Wurfweite und die gewünschte Auflösezeit an.",
-      "Wähle eine feinere Spitze für vorsichtig beißende Fische in stillem Wasser."
-    ],
-    "pros": [
-      "Sehr präzises Anfüttern direkt am Angelplatz.",
-      "Feinfühlige Bissanzeige auch bei zaghaften Bissen.",
-      "Erlaubt weite und punktgenaue Würfe."
-    ],
-    "cons": [
-      "Erfordert etwas Übung beim Wurf und beim Futtermischen.",
-      "Höherer Geräteaufwand als beim einfachen Grundangeln."
-    ],
-    "origin": "Das Feederangeln entwickelte sich in Großbritannien aus dem Wettkampfangeln und verbreitete sich von dort über ganz Europa.",
-    "featured": false
-  },
-  {
-    "id": "method-feeder",
-    "name": "Method-Feeder",
-    "nameEn": "Method Feeder",
-    "category": "Friedfischangeln",
-    "difficulty": "Fortgeschritten",
-    "tagline": "Selbsthakmethode mit kompaktem Futterkorb, bei der der kurze Köder direkt im Futterballen liegt.",
-    "description": "Der Method-Feeder ist eine moderne Weiterentwicklung des Feederangelns. Ein flacher Korb wird mit klebrigem Futter umpresst, in dem der kurze Hakenköder eingebettet liegt. Der Fisch saugt beim Fressen den Köder mit auf und hakt sich am festen Blei meist selbst.\n\nDie kurze, straffe Montage sorgt für eine effektive Selbsthakwirkung und ist daher besonders fängig auf kräftige Friedfische. Häufig kommt ein Inline-Korb zum Einsatz, bei dem die Schnur durch den Korb läuft. Als Köder eignen sich Pellets, Mais oder besonders gut sichtbare Kunstköder.\n\nDie Methode ist vor allem an Karpfen- und Schleienseen sehr beliebt und liefert oft hervorragende Fänge. Sie ist einfacher zu handhaben als das klassische Feedern, erfordert aber das richtige Futter und kurze Vorfächer.",
-    "targetFish": ["Karpfen", "Schleie", "Brassen", "Rotauge"],
-    "waters": ["See", "Teich", "Talsperre", "Kanal"],
-    "gear": ["Method-Feederrute", "Stationärrolle", "Method-Korb", "kurzes Vorfach", "Haken", "Rutenhalter"],
-    "baits": ["Pellets", "Mais", "Boilies", "Pop-ups", "Maden"],
-    "bestSeason": ["April", "Mai", "Juni", "Juli", "August", "September", "Oktober"],
-    "steps": [
-      "Fädle den Inline-Method-Korb auf die Hauptschnur und sichere ihn mit dem kurzen Vorfach.",
-      "Mische ein klebriges, leicht bindendes Method-Futter an.",
-      "Presse das Futter mit einer Form fest um den Korb herum.",
-      "Bette den beköderten Haken direkt in den Futterballen ein.",
-      "Wirf die Montage präzise an die immer gleiche Stelle und lege die Rute in den Halter.",
-      "Lasse die Selbsthakmontage arbeiten und greife erst bei klarer Bissanzeige zur Rute."
-    ],
-    "tips": [
-      "Halte das Vorfach sehr kurz, damit die Selbsthakwirkung zuverlässig greift.",
-      "Verwende einen auffälligen Köder, der aus dem Futterballen hervorsticht.",
-      "Achte auf die richtige Futterkonsistenz, damit der Ballen erst am Grund zerfällt."
-    ],
-    "pros": [
-      "Effektive Selbsthakwirkung mit hoher Hakquote.",
-      "Köder liegt verlockend mitten im Futter.",
-      "Einfache und schnelle Handhabung am Wasser."
-    ],
-    "cons": [
-      "Funktioniert am besten an nährstoffreichen Gewässern.",
-      "Bei sehr vorsichtigen Fischen kann die kurze Montage misstrauisch machen."
-    ],
-    "origin": "Der Method-Feeder stammt aus der englischen Karpfenszene und gehört heute zu den fängigsten Friedfischmethoden.",
-    "featured": false
-  },
-  {
-    "id": "karpfenangeln",
-    "name": "Karpfenangeln",
-    "nameEn": "Carp Fishing",
-    "category": "Friedfischangeln",
-    "difficulty": "Fortgeschritten",
-    "tagline": "Spezialisiertes Ansitzangeln auf Karpfen mit Boilies, Haarmontage und elektronischer Bissanzeige.",
-    "description": "Das moderne Karpfenangeln ist eine eigene Disziplin mit spezialisiertem Gerät und durchdachter Taktik. Charakteristisch sind die Haarmontage, bei der der Köder frei am Haken hängt, sowie Boilies als selektiver Köder. Elektronische Bissanzeiger melden auch über lange Ansitze hinweg jeden Run zuverlässig.\n\nErfolgreiches Karpfenangeln beginnt mit der Wahl des richtigen Platzes und einer durchdachten Futterstrategie. Oft wird über Tage hinweg angefüttert, um die scheuen und lernfähigen Fische an einen Platz zu gewöhnen. Robuste Ruten und Rollen sind nötig, um die kräftigen Fische sicher zu landen.\n\nDie Methode lebt von Geduld und Vorbereitung und wird häufig als mehrtägiger Ansitz mit Zelt und voller Ausrüstung betrieben. Schonender Umgang mit dem Fisch über Abhakmatte und Wiegesack ist dabei fester Bestandteil der Karpfenszene.",
-    "targetFish": ["Karpfen", "Schleie", "Brassen"],
-    "waters": ["See", "Teich", "Talsperre", "Kanal", "Fluss"],
-    "gear": ["Karpfenrute", "Freilaufrolle", "elektronischer Bissanzeiger", "Rod Pod", "Abhakmatte", "Kescher", "Boilienadel"],
-    "baits": ["Boilies", "Mais", "Tigernüsse", "Pellets", "Partikel"],
-    "bestSeason": ["Mai", "Juni", "Juli", "August", "September", "Oktober"],
-    "steps": [
-      "Suche einen erfolgversprechenden Platz mit Karpfenaktivität oder Strukturen am Grund.",
-      "Füttere den Platz mit Boilies und Partikeln gezielt an.",
-      "Binde eine Haarmontage, bei der der Boilie frei unter dem Haken hängt.",
-      "Bringe die Montage präzise am Futterplatz aus, vom Ufer geworfen oder per Futterboot abgelegt.",
-      "Stelle die Ruten auf den Rod Pod und schalte die elektronischen Bissanzeiger ein.",
-      "Reagiere beim Run sofort, drille ausdauernd und versorge den Fisch schonend auf der Abhakmatte."
-    ],
-    "tips": [
-      "Investiere Zeit in eine gute Platzwahl und konsequentes Anfüttern.",
-      "Verwende eine Abhakmatte und halte den Fisch nass, um ihn zu schonen.",
-      "Passe Boiliegröße und Aroma an den Befischungsdruck des Gewässers an."
-    ],
-    "pros": [
-      "Gezielter Fang großer, kampfstarker Fische.",
-      "Selektive Köder reduzieren Beifänge unerwünschter Arten.",
-      "Selbsthakmontagen ermöglichen entspannte lange Ansitze."
-    ],
-    "cons": [
-      "Hoher Geräte- und Zeitaufwand.",
-      "Oft lange Wartezeiten bis zum Biss.",
-      "Anschaffung der Spezialausrüstung ist kostspielig."
-    ],
-    "origin": "Das spezialisierte Karpfenangeln entstand ab den 1980er Jahren in England und prägte mit Haarmontage und Boilies eine eigene Anglerkultur.",
-    "featured": true
-  },
-  {
-    "id": "vertikalangeln",
-    "name": "Vertikalangeln",
-    "nameEn": "Vertical Jigging",
-    "category": "Raubfischangeln",
-    "difficulty": "Fortgeschritten",
-    "tagline": "Senkrechtes Führen des Köders direkt unter dem Boot, ideal zum gezielten Beangeln tiefer Standplätze.",
-    "description": "Beim Vertikalangeln wird der Köder vom Boot aus senkrecht unter der Rute angeboten und durch Heben und Senken der Rutenspitze verführerisch in Bewegung gehalten. Diese Technik erlaubt es, Fische punktgenau in der Tiefe und an Kanten zu beangeln, die vom Ufer aus kaum erreichbar sind.\n\nUnverzichtbar ist meist ein Echolot, mit dem Standplätze und einzelne Fische lokalisiert und der Köderlauf kontrolliert werden. Das Boot wird langsam über die Struktur treiben gelassen oder mit einem Elektromotor positioniert. Bisse werden durch den direkten Kontakt zum Köder sehr feinfühlig wahrgenommen.\n\nVertikalangeln ist besonders auf Zander und Barsch in tiefen Flüssen und Seen erfolgreich, fängt aber auch Hechte. Es zählt zu den effektivsten modernen Methoden des Raubfischangelns vom Boot.",
-    "targetFish": ["Zander", "Barsch", "Hecht", "Quappe"],
-    "waters": ["Fluss", "See", "Talsperre", "Kanal"],
-    "gear": ["kurze Vertikalrute", "Stationär- oder Baitcastrolle", "geflochtene Schnur", "Echolot", "Bootspositionierung"],
-    "baits": ["Gummifische", "Jigs", "Twister", "Vertikalköder"],
-    "bestSeason": ["Oktober", "November", "Dezember", "Januar", "Februar", "März"],
-    "steps": [
-      "Lokalisiere mit dem Echolot Fische oder vielversprechende Strukturen am Grund.",
-      "Positioniere das Boot ruhig über dem Standplatz oder lasse es langsam darüber treiben.",
-      "Lasse den Köder senkrecht bis zum Grund ab und nimm den Bodenkontakt auf.",
-      "Halte den Köder knapp über Grund und führe ihn mit kleinen Hebebewegungen der Rute.",
-      "Beobachte das Echolot und passe die Köderhöhe an die angezeigten Fische an.",
-      "Setze bei jedem Zupfen oder plötzlicher Entlastung sofort den Anhieb."
-    ],
-    "tips": [
-      "Halte den ständigen Kontakt zum Köder, um auch feine Bisse zu erkennen.",
-      "Nutze einen Elektromotor, um das Boot langsam und leise über die Struktur zu führen.",
-      "Variiere Hubhöhe und Tempo, bis du die fangende Bewegung gefunden hast."
-    ],
-    "pros": [
-      "Sehr präzises Beangeln tiefer und schwer erreichbarer Stellen.",
-      "Extrem feinfühlige Bissanzeige durch direkten Köderkontakt.",
-      "Hohe Effektivität auf Zander und Barsch."
-    ],
-    "cons": [
-      "Nur vom Boot aus möglich.",
-      "Echolot und Bootsführung erfordern Erfahrung."
-    ],
-    "origin": "Vertikalangeln verbreitete sich mit dem Aufkommen erschwinglicher Echolote und gehört heute zum festen Repertoire der Bootsangler.",
     "featured": false
   },
   {
@@ -312,11 +425,42 @@
     "difficulty": "Fortgeschritten",
     "tagline": "Finesse-Methode, bei der der Köder über dem am Schnurende sitzenden Blei verführerisch im Wasser steht.",
     "description": "Beim Dropshot-Angeln sitzt das Blei am Ende der Schnur, während der Köder darüber an einem abstehenden Haken befestigt ist. So schwebt der leichte Gummiköder frei über Grund und kann durch feine Bewegungen der Rutenspitze nahezu auf der Stelle verführerisch animiert werden.\n\nDiese Finesse-Technik ist besonders dann erfolgreich, wenn die Fische passiv sind und kräftige Köder verschmähen. Da der Köder lange im Sichtfeld des Fisches gehalten werden kann, lassen sich auch zögerliche Räuber zum Biss reizen. Über die Länge zwischen Blei und Haken bestimmt man die Schwebehöhe des Köders.\n\nDropshot eignet sich hervorragend für Barsch und Zander und funktioniert sowohl vom Ufer als auch vom Boot. Wegen des leichten Geräts und der feinen Präsentation gilt es als sehr fängige Methode bei schwierigen Bedingungen.",
-    "targetFish": ["Barsch", "Zander", "Forellenbarsch", "Rotauge", "Döbel"],
-    "waters": ["See", "Fluss", "Kanal", "Talsperre", "Teich"],
-    "gear": ["sensible Spinnrute", "Stationärrolle", "dünne geflochtene Schnur", "Fluorocarbonvorfach", "Dropshot-Blei", "Dropshot-Haken"],
-    "baits": ["kleine Gummiköder", "Gummiwürmer", "Creature Baits", "Naturköderimitate"],
-    "bestSeason": ["April", "Mai", "Juni", "September", "Oktober", "November"],
+    "targetFish": [
+      "Barsch",
+      "Zander",
+      "Forellenbarsch",
+      "Rotauge",
+      "Döbel"
+    ],
+    "waters": [
+      "See",
+      "Fluss",
+      "Kanal",
+      "Talsperre",
+      "Teich"
+    ],
+    "gear": [
+      "sensible Spinnrute",
+      "Stationärrolle",
+      "dünne geflochtene Schnur",
+      "Fluorocarbonvorfach",
+      "Dropshot-Blei",
+      "Dropshot-Haken"
+    ],
+    "baits": [
+      "kleine Gummiköder",
+      "Gummiwürmer",
+      "Creature Baits",
+      "Naturköderimitate"
+    ],
+    "bestSeason": [
+      "April",
+      "Mai",
+      "Juni",
+      "September",
+      "Oktober",
+      "November"
+    ],
     "steps": [
       "Binde den Haken mit einem Palomarknoten so ein, dass die Hakenspitze nach oben absteht.",
       "Befestige am unteren Schnurende ein passendes Dropshot-Blei.",
@@ -343,44 +487,6 @@
     "featured": false
   },
   {
-    "id": "jiggen",
-    "name": "Jiggen",
-    "nameEn": "Jigging",
-    "category": "Spinnfischen",
-    "difficulty": "Fortgeschritten",
-    "tagline": "Köderführung in Sprüngen über Grund, bei der der bebleite Gummiköder durch Absinken und Anziehen verführt.",
-    "description": "Beim Jiggen wird ein mit einem Bleikopf beschwerter Gummiköder in einer charakteristischen Sprungbewegung über den Grund geführt. Durch das Anheben der Rute steigt der Köder auf, beim Absenken taumelt er wieder zum Boden. Gerade in der Absinkphase erfolgen die meisten Bisse.\n\nDie Jigge ist eine der grundlegenden Techniken im modernen Gummiködereinsatz und besonders auf Grundräuber abgestimmt. Über das Gewicht des Jigkopfes steuert man die Sinkgeschwindigkeit und passt sie an Tiefe und Strömung an. Ein straffer Kontakt zur Schnur ist entscheidend, um die feinen Bisse zu erkennen.\n\nGejiggt wird vor allem auf Zander, Barsch und Hecht in tieferen Flüssen und Seen. Die Methode ist sehr effektiv und bildet die Grundlage vieler weiterführender Gummiködertechniken.",
-    "targetFish": ["Zander", "Barsch", "Hecht", "Rapfen"],
-    "waters": ["Fluss", "See", "Kanal", "Talsperre"],
-    "gear": ["Spinnrute mit straffer Spitze", "Stationärrolle", "geflochtene Schnur", "Jigköpfe", "Stahlvorfach bei Hecht"],
-    "baits": ["Gummifische", "Twister", "Shads", "Creature Baits"],
-    "bestSeason": ["April", "Mai", "September", "Oktober", "November", "Dezember"],
-    "steps": [
-      "Wähle einen Jigkopf, dessen Gewicht zu Tiefe und Strömung passt.",
-      "Köder den Gummifisch gerade auf den Haken, damit er sauber läuft.",
-      "Wirf den Köder aus und lasse ihn an gespannter Schnur bis zum Grund sinken.",
-      "Hebe die Rute zügig an, sodass der Köder vom Grund aufsteigt.",
-      "Senke die Rutenspitze kontrolliert und folge dem absinkenden Köder mit der Schnur.",
-      "Schlage beim kleinsten Zupfer oder Ausbleiben des Bodenkontakts sofort an."
-    ],
-    "tips": [
-      "Achte genau auf die Absinkphase, denn dort beißen die Fische am häufigsten.",
-      "Wähle das Jiggewicht so leicht wie möglich, aber so schwer wie nötig.",
-      "Halte stets Kontakt zur Schnur, um auch feine Bisse zu spüren."
-    ],
-    "pros": [
-      "Sehr fängige und grundnahe Köderführung.",
-      "Gewicht und Tempo flexibel anpassbar.",
-      "Grundlage für viele weitere Gummiködertechniken."
-    ],
-    "cons": [
-      "Erfordert Gefühl für die richtige Köderführung.",
-      "Hängergefahr an steinigem oder verkrautetem Grund."
-    ],
-    "origin": "Das Jiggen mit Bleikopf und Gummiköder setzte sich mit dem Siegeszug der Softbaits als Standardmethode auf Grundräuber durch.",
-    "featured": false
-  },
-  {
     "id": "eisangeln",
     "name": "Eisangeln",
     "nameEn": "Ice Fishing",
@@ -388,11 +494,39 @@
     "difficulty": "Fortgeschritten",
     "tagline": "Winterliches Angeln durch ein Loch in der Eisdecke zugefrorener Gewässer.",
     "description": "Beim Eisangeln wird durch ein in die Eisdecke gebohrtes Loch direkt unter den Füßen geangelt. Mit kurzen Spezialruten oder einfachen Handleinen bietet man den Köder senkrecht im Wasser an. Die Methode ist in nordischen Ländern weit verbreitet und auch in kalten Wintern hierzulande möglich.\n\nDer Köder wird meist sanft auf und ab bewegt, um Fische anzulocken, oder ruhig mit kleiner Pose angeboten. Wegen der niedrigen Wassertemperaturen sind die Fische träge, sodass eine feine und langsame Präsentation entscheidend ist. Oft werden mehrere Löcher gebohrt, um aktiv die Fische zu suchen.\n\nGefangen werden vor allem Barsch, Quappe und in nordischen Gewässern auch Renke und Forelle. Beim Eisangeln steht die Sicherheit an erster Stelle, denn nur ausreichend tragfähiges Eis darf betreten werden.",
-    "targetFish": ["Barsch", "Quappe", "Renke", "Bachforelle", "Rotauge"],
-    "waters": ["See", "Bergsee", "Talsperre", "Teich"],
-    "gear": ["kurze Eisangelrute", "Eisbohrer", "Schöpfkelle", "kleine Posen oder Mormyschka", "warme Kleidung", "Sitzkiste"],
-    "baits": ["Maden", "Bienenmaden", "kleine Gummiköder", "Mormyschka", "Wurmstücke"],
-    "bestSeason": ["Dezember", "Januar", "Februar"],
+    "targetFish": [
+      "Barsch",
+      "Quappe",
+      "Renke",
+      "Bachforelle",
+      "Rotauge"
+    ],
+    "waters": [
+      "See",
+      "Bergsee",
+      "Talsperre",
+      "Teich"
+    ],
+    "gear": [
+      "kurze Eisangelrute",
+      "Eisbohrer",
+      "Schöpfkelle",
+      "kleine Posen oder Mormyschka",
+      "warme Kleidung",
+      "Sitzkiste"
+    ],
+    "baits": [
+      "Maden",
+      "Bienenmaden",
+      "kleine Gummiköder",
+      "Mormyschka",
+      "Wurmstücke"
+    ],
+    "bestSeason": [
+      "Dezember",
+      "Januar",
+      "Februar"
+    ],
     "steps": [
       "Prüfe sorgfältig die Tragfähigkeit des Eises, bevor du die Fläche betrittst.",
       "Bohre mit dem Eisbohrer ein Loch und entferne das Eis mit der Schöpfkelle.",
@@ -420,117 +554,698 @@
     "featured": false
   },
   {
-    "id": "brandungsangeln",
-    "name": "Brandungsangeln",
-    "nameEn": "Surf Fishing",
-    "category": "Meeresangeln",
+    "id": "faulenzermethode",
+    "name": "Faulenzermethode",
+    "nameEn": "Faulenzer Method",
+    "category": "Spinnfischen",
     "difficulty": "Fortgeschritten",
-    "tagline": "Weitwurfangeln vom Strand auf Plattfische und andere Küstenfische in der Brandungszone.",
-    "description": "Beim Brandungsangeln wird vom Strand aus mit langen Ruten und schweren Bleien weit in die Brandung geworfen. Krallenbleie verankern die Montage am Grund, sodass sie auch in Strömung und Wellengang an Ort und Stelle bleibt. Ziel ist es, die im Flachwasser jagenden Fische zu erreichen.\n\nDie Montagen tragen meist mehrere Vorfächer mit Naturködern, um verschiedene Fische gleichzeitig anzubieten. Bissanzeige erfolgt über die Rutenspitze, oft mit Knicklicht für die Dämmerung und Nacht. Gerade in den dunklen Stunden und bei auflandigem Wind sind die Fänge häufig am besten.\n\nGefangen werden vor allem Plattfische wie Scholle und in der Ostsee auch Dorsch sowie Wolfsbarsch. Brandungsangeln ist ein geselliges Strandvergnügen, das robuste Ausrüstung und etwas Wurftechnik verlangt.",
-    "targetFish": ["Scholle", "Dorsch", "Wolfsbarsch", "Steinbutt", "Hornhecht"],
-    "waters": ["Küste", "Meer", "Brackwasser", "Mündung"],
-    "gear": ["lange Brandungsrute", "Weitwurfrolle", "Krallenblei", "Brandungsvorfach", "Rutenständer", "Knicklichter"],
-    "baits": ["Wattwurm", "Seeringelwurm", "Krabben", "Fischfetzen"],
-    "bestSeason": ["September", "Oktober", "November", "März", "April"],
+    "tagline": "Gummiköderführung über Kurbelumdrehungen statt Rutenbewegung, bei der die Rute ruhig bleibt.",
+    "description": "Die Faulenzermethode ist eine Variante der Gummiköderführung, bei der der Köder nicht über die Rute, sondern allein über definierte Kurbelumdrehungen angehoben wird. Nach jeder kurzen Kurbelphase senkt sich der Köder wieder zum Grund, wo wie beim Jiggen die meisten Bisse erfolgen. Die Rute bleibt dabei ruhig in einer Position.\n\nDer große Vorteil liegt in der gleichmäßigen, gut kontrollierbaren Führung und der entspannten Handhabung, die der Methode ihren Namen gibt. Über die Anzahl der Kurbelumdrehungen steuert man Sprunghöhe und Tempo des Köders sehr präzise. Bisse werden über die straffe Schnur und die ruhige Rutenspitze sicher erkannt.\n\nDie Faulenzermethode wird vor allem auf Zander, Barsch und Hecht in tieferen Gewässern eingesetzt. Sie gilt als leicht erlernbare und zugleich sehr fängige Alternative zur klassischen Jigge.",
+    "targetFish": [
+      "Zander",
+      "Barsch",
+      "Hecht",
+      "Rapfen"
+    ],
+    "waters": [
+      "Fluss",
+      "See",
+      "Kanal",
+      "Talsperre"
+    ],
+    "gear": [
+      "Spinnrute mit straffer Spitze",
+      "Stationärrolle",
+      "geflochtene Schnur",
+      "Jigköpfe",
+      "Gummiköder"
+    ],
+    "baits": [
+      "Gummifische",
+      "Shads",
+      "Twister"
+    ],
+    "bestSeason": [
+      "April",
+      "Mai",
+      "September",
+      "Oktober",
+      "November",
+      "Dezember"
+    ],
     "steps": [
-      "Suche einen Strandabschnitt mit Rinnen und Sandbänken, an denen Fische ziehen.",
-      "Baue ein Brandungsvorfach mit mehreren Haken und einem Krallenblei.",
-      "Beködere die Haken mit frischen Würmern und sichere sie mit Bait-Stops.",
-      "Wirf die Montage mit weitem Schwung in die Brandung hinaus.",
-      "Stelle die Rute in den Ständer, spanne die Schnur und befestige ein Knicklicht.",
-      "Schlage bei deutlichem Zupfen der Spitze an und kurbele den Fisch durch die Brandung ein."
+      "Wähle einen Jigkopf passend zu Tiefe und Strömung und köder den Gummifisch sauber an.",
+      "Wirf den Köder aus und lasse ihn an gespannter Schnur bis zum Grund sinken.",
+      "Halte die Rute ruhig und drehe ein bis zwei zügige Kurbelumdrehungen.",
+      "Stoppe das Kurbeln und lasse den Köder kontrolliert wieder zum Grund absinken.",
+      "Erkenne das Aufsetzen am Durchhang der Schnur und beginne die nächste Kurbelphase.",
+      "Setze bei jedem Zupfer oder ausbleibendem Bodenkontakt sofort den Anhieb."
     ],
     "tips": [
-      "Angle bevorzugt in der Dämmerung und nachts, wenn die Fische ins Flachwasser ziehen.",
-      "Nutze auflandigen Wind, da aufgewühltes Wasser oft bessere Fänge bringt.",
-      "Verwende frische Köder, denn sie sind deutlich fängiger als alte."
+      "Zähle die Kurbelumdrehungen, um die fängige Sprunghöhe gezielt zu wiederholen.",
+      "Achte auf den Moment des Absinkens, denn dort beißen die meisten Fische.",
+      "Halte die Rute ruhig und überlasse die Köderführung der Rolle."
     ],
     "pros": [
-      "Kein Boot nötig, vom Strand aus möglich.",
-      "Mehrere Köder gleichzeitig im Wasser.",
-      "Geselliges Angeln mit besonderem Reiz bei Nacht."
+      "Sehr gleichmäßige und kontrollierte Köderführung.",
+      "Leicht zu erlernen und ermüdungsarm.",
+      "Sehr fängig auf Grundräuber wie Zander."
     ],
     "cons": [
-      "Weite Würfe erfordern Technik und Kraft.",
-      "Wetterabhängig und bei Sturm unangenehm bis unmöglich."
+      "Wirkt am besten in tieferem Wasser mit klarem Bodenkontakt.",
+      "Hängergefahr an stark strukturiertem Grund."
     ],
-    "origin": "Das Brandungsangeln entwickelte sich entlang der europäischen Küsten als feststehende Methode des Strandfischens auf Plattfische.",
+    "origin": "Die Faulenzermethode wurde im deutschsprachigen Raum populär gemacht und ist nach der entspannten, rutenruhigen Führung benannt.",
     "featured": false
   },
   {
-    "id": "schleppangeln",
-    "name": "Schleppangeln",
-    "nameEn": "Trolling",
-    "category": "Raubfischangeln",
+    "id": "feederangeln",
+    "name": "Feederangeln",
+    "nameEn": "Feeder Fishing",
+    "category": "Friedfischangeln",
     "difficulty": "Fortgeschritten",
-    "tagline": "Köderführung hinter dem fahrenden Boot, um große Wasserflächen effektiv nach Raubfischen abzusuchen.",
-    "description": "Beim Schleppangeln werden ein oder mehrere Köder hinter dem langsam fahrenden Boot durch das Wasser gezogen. Auf diese Weise lassen sich große Flächen und Suchtiefen systematisch absuchen, was besonders an weitläufigen Seen und im Meer von Vorteil ist. Geschwindigkeit und Schlepptiefe werden gezielt an den Zielfisch angepasst.\n\nUm verschiedene Tiefen abzudecken, kommen oft Downrigger, Tiefläuferwobbler oder Planerboards zum Einsatz. Mehrere Ruten werden gleichzeitig geführt, um unterschiedliche Köder und Laufwege gleichzeitig anzubieten. So erhöht man die Trefferquote beim Absuchen unbekannter Bereiche.\n\nGeschleppt wird auf Hecht, große Forellen und Renken in Binnenseen sowie auf zahlreiche Meeresfische bis hin zu kapitalen Raubfischen. Die Methode verbindet aktives Suchen mit der Chance auf besonders große Fische.",
-    "targetFish": ["Hecht", "Seeforelle", "Renke", "Dorsch", "Makrele", "Thunfisch"],
-    "waters": ["See", "Talsperre", "Bergsee", "Meer", "Hochsee", "Ozean"],
-    "gear": ["Schlepprute", "Multirolle", "Downrigger oder Planerboards", "Schleppwobbler", "Echolot", "Rutenhalter"],
-    "baits": ["Schleppwobbler", "Blinker", "Löffel", "Köderfische", "Pilker"],
-    "bestSeason": ["April", "Mai", "Juni", "September", "Oktober", "November"],
+    "tagline": "Modernes Grundangeln mit Futterkorb und feinfühliger Schwingspitze für gezieltes Anfüttern und präzise Bissanzeige.",
+    "description": "Beim Feederangeln kommt ein Futterkorb zum Einsatz, der bei jedem Wurf eine kleine Portion Futter direkt an den Angelplatz transportiert. So entsteht am Haken ein konzentrierter Futterteppich, der Friedfische anlockt und hält. Die Bissanzeige erfolgt über eine empfindliche, auswechselbare Spitze der Feederrute.\n\nDie Methode verbindet präzises Anfüttern mit weiten und genauen Würfen und ist daher sehr fängig. Über die Wahl von Korbgröße, Futterkonsistenz und Vorfachlänge passt man die Montage an Gewässer und Zielfisch an. Die feine Schwingspitze zeigt selbst zaghafte Bisse zuverlässig an.\n\nFeederangeln ist besonders an Flüssen, Kanälen und großen Seen verbreitet und fängt vor allem Brassen, Rotaugen und Barben. Es gilt als anspruchsvolle, aber sehr ertragreiche Form des Friedfischangelns.",
+    "targetFish": [
+      "Brassen",
+      "Rotauge",
+      "Barbe",
+      "Schleie",
+      "Döbel",
+      "Karpfen"
+    ],
+    "waters": [
+      "Fluss",
+      "Kanal",
+      "See",
+      "Talsperre"
+    ],
+    "gear": [
+      "Feederrute mit Wechselspitzen",
+      "Stationärrolle",
+      "Futterkorb",
+      "Wirbel",
+      "feine Haken",
+      "Rutenhalter"
+    ],
+    "baits": [
+      "Maden",
+      "Caster",
+      "Mais",
+      "Pellets",
+      "Wurm"
+    ],
+    "bestSeason": [
+      "April",
+      "Mai",
+      "Juni",
+      "Juli",
+      "August",
+      "September",
+      "Oktober"
+    ],
     "steps": [
-      "Wähle Köder und Schlepptiefe passend zum Zielfisch und zur Wassertemperatur.",
-      "Bringe die Köder hinter dem Boot aus und stelle über Downrigger oder Wobblertyp die Tiefe ein.",
-      "Setze die Ruten in die Halter und fahre eine gleichmäßige, langsame Geschwindigkeit.",
-      "Suche entlang von Kanten, Krautfeldern und Schwärmen, die dir das Echolot anzeigt.",
-      "Variiere Tempo und Tiefe, bis du auf beißende Fische triffst.",
-      "Nimm bei einem Biss die Rute auf, drille den Fisch aus und kesche ihn sicher."
+      "Montiere einen passenden Futterkorb über ein Anti-Tangle-System oder eine Schlaufenmontage.",
+      "Mische ein Grundfutter an und befülle den Korb fest genug für den Wurf.",
+      "Suche mit einigen Probewürfen einen klaren Zielpunkt am Gewässer und merke dir die Distanz.",
+      "Wirf zu Beginn mehrmals ohne Haken, um einen Futterteppich aufzubauen.",
+      "Beködere nun den Haken und lege die Rute in den Halter, sodass die Spitze leicht gespannt ist.",
+      "Schlage bei einem deutlichen Zucken oder Durchziehen der Schwingspitze sofort an."
     ],
     "tips": [
-      "Decke mit mehreren Ruten verschiedene Tiefen gleichzeitig ab.",
-      "Passe die Schleppgeschwindigkeit an den Köderlauf und das Verhalten des Zielfisches an.",
-      "Nutze das Echolot, um produktive Tiefen und Strukturen gezielt abzufahren."
+      "Wirf möglichst immer denselben Punkt an, um den Futterplatz konzentriert zu halten.",
+      "Passe die Festigkeit des Futters an die Wurfweite und die gewünschte Auflösezeit an.",
+      "Wähle eine feinere Spitze für vorsichtig beißende Fische in stillem Wasser."
     ],
     "pros": [
-      "Große Wasserflächen werden effektiv abgesucht.",
-      "Gute Chancen auf besonders große Fische.",
-      "Mehrere Köder und Tiefen gleichzeitig im Einsatz."
+      "Sehr präzises Anfüttern direkt am Angelplatz.",
+      "Feinfühlige Bissanzeige auch bei zaghaften Bissen.",
+      "Erlaubt weite und punktgenaue Würfe."
     ],
     "cons": [
-      "Boot und teils Spezialgerät wie Downrigger nötig.",
-      "An vielen Binnengewässern bestehen Einschränkungen oder Verbote."
+      "Erfordert etwas Übung beim Wurf und beim Futtermischen.",
+      "Höherer Geräteaufwand als beim einfachen Grundangeln."
     ],
-    "origin": "Das Schleppangeln ist eine traditionsreiche Bootsmethode, die sich von der Berufsfischerei bis zur modernen Sportfischerei entwickelt hat.",
+    "origin": "Das Feederangeln entwickelte sich in Großbritannien aus dem Wettkampfangeln und verbreitete sich von dort über ganz Europa.",
     "featured": false
   },
   {
-    "id": "pilken",
-    "name": "Pilken",
-    "nameEn": "Pilking",
-    "category": "Meeresangeln",
+    "id": "fliegenfischen",
+    "name": "Fliegenfischen",
+    "nameEn": "Fly Fishing",
+    "category": "Fliegenfischen",
+    "difficulty": "Fortgeschritten",
+    "tagline": "Die wohl eleganteste Angelmethode, bei der das Gewicht der Schnur eine kunstvolle Köderpräsentation ermöglicht.",
+    "description": "Beim Fliegenfischen wirft der Angler nicht den Köder, sondern die schwere Fliegenschnur. Die nahezu gewichtslose künstliche Fliege wird durch die Wurfdynamik der Schnur an den gewünschten Platz befördert. Diese Technik verlangt Übung und Gefühl, belohnt aber mit einer faszinierenden und naturnahen Art der Fischerei.\n\nUnterschieden wird vor allem zwischen Trockenfliege, Nassfliege, Nymphe und Streamer. Während die Trockenfliege auf der Wasseroberfläche schwimmt und ein geschlüpftes Insekt imitiert, wird die Nymphe unter Wasser geführt und ahmt eine Insektenlarve nach. Streamer imitieren kleine Beutefische und reizen vor allem Raubfische zum Biss.\n\nDas Fliegenfischen ist eng mit dem Salmonidenfang an klaren Fließgewässern verbunden, lässt sich aber auch erfolgreich auf viele andere Arten und sogar im Meer anwenden. Es gilt als Königsdisziplin der Angelei und entwickelt für viele eine besondere meditative Anziehungskraft.",
+    "targetFish": [
+      "Bachforelle",
+      "Regenbogenforelle",
+      "Äsche",
+      "Renke",
+      "Döbel",
+      "Rapfen",
+      "Meerforelle"
+    ],
+    "waters": [
+      "Fluss",
+      "Bach",
+      "Bergsee",
+      "See",
+      "Küste"
+    ],
+    "gear": [
+      "Fliegenrute",
+      "Fliegenrolle",
+      "Fliegenschnur",
+      "Vorfach mit Tippet",
+      "Wathose",
+      "Watkescher"
+    ],
+    "baits": [
+      "Trockenfliegen",
+      "Nymphen",
+      "Nassfliegen",
+      "Streamer"
+    ],
+    "bestSeason": [
+      "April",
+      "Mai",
+      "Juni",
+      "Juli",
+      "August",
+      "September",
+      "Oktober"
+    ],
+    "steps": [
+      "Wähle eine zur Zielfischgröße passende Rutenklasse und montiere Schnur, Vorfach und Fliege.",
+      "Beobachte das Wasser auf steigende Fische und auf Insekten, um die passende Fliege zu wählen.",
+      "Baue mit gleichmäßigen Vor- und Rückschwüngen die nötige Schnur in der Luft auf.",
+      "Lege die Fliege möglichst sanft oberhalb des vermuteten Standplatzes ab.",
+      "Führe die Fliege drag-frei mit der Strömung oder zupfe den Streamer in kurzen Stößen.",
+      "Setze beim Biss durch leichtes Anheben der Rute den Anhieb und drille kontrolliert."
+    ],
+    "tips": [
+      "Trainiere den Wurf zunächst auf einer Wiese, bevor du ans Wasser gehst.",
+      "Achte auf einen drag-freien Lauf der Trockenfliege, da Fische unnatürliche Bewegungen sofort erkennen.",
+      "Passe Fliegengröße und Muster dem aktuellen Insektenschlupf am Gewässer an."
+    ],
+    "pros": [
+      "Sehr naturnahe und selektive Köderpräsentation.",
+      "Schonend für den Fisch dank Einzelhaken ohne Widerhaken.",
+      "Faszinierende und vielseitig einsetzbare Methode."
+    ],
+    "cons": [
+      "Hoher Lernaufwand für eine saubere Wurftechnik.",
+      "Bei starkem Wind nur eingeschränkt einsetzbar."
+    ],
+    "origin": "Schon in der Antike beschrieben, wurde das Fliegenfischen vor allem in England und Schottland ab dem 19. Jahrhundert verfeinert und zum Sport entwickelt.",
+    "featured": true
+  },
+  {
+    "id": "grundangeln",
+    "name": "Grundangeln",
+    "nameEn": "Bottom Fishing",
+    "category": "Allround",
     "difficulty": "Einsteiger",
-    "tagline": "Vertikales Führen schwerer Metallköder vom Boot auf dem Meer, klassisch auf Dorsch und Köhler.",
-    "description": "Beim Pilken wird ein schwerer, blanker Metallköder, der Pilker, vom driftenden oder ankernden Boot senkrecht in die Tiefe abgelassen und durch ruckartiges Anheben und Absenken geführt. Das Funkeln und Taumeln des Köders ahmt einen verletzten Fisch nach und reizt Raubfische zum Biss. Oft werden über dem Pilker zusätzlich Beifänger angeboten.\n\nDie Methode ist einfach zu erlernen und gehört zu den Klassikern des Meeresangelns von Kuttern und Booten. Das Pilkergewicht wird an Wassertiefe, Strömung und Drift angepasst, damit der Köder den Grund erreicht und kontrolliert geführt werden kann. Die meisten Bisse erfolgen kurz über Grund.\n\nGepilkt wird vor allem auf Dorsch und Köhler in Nord- und Ostsee sowie im Atlantik. Mit kräftigem Gerät und etwas Kondition lassen sich so auch größere Fische aus der Tiefe holen.",
-    "targetFish": ["Dorsch", "Köhler", "Makrele", "Wolfsbarsch", "Heilbutt"],
-    "waters": ["Meer", "Hochsee", "Ozean", "Küste"],
-    "gear": ["Pilkrute", "Multi- oder Stationärrolle", "geflochtene Schnur", "Pilker", "Beifänger", "Rutenhalter"],
-    "baits": ["Pilker", "Gummimakk", "Twister als Beifänger", "Naturköderfetzen"],
-    "bestSeason": ["April", "Mai", "Juni", "September", "Oktober", "November"],
+    "tagline": "Klassische Methode, bei der der Köder mit einem Gewicht am Gewässergrund angeboten wird.",
+    "description": "Beim Grundangeln wird der Köder mithilfe eines Bleis am Boden des Gewässers präsentiert. Die Montage liegt ruhig auf dem Grund, während der Angler auf den Biss eines grundnah suchenden Fisches wartet. Bissanzeige erfolgt klassisch über die Rutenspitze, einen Bissanzeiger oder eine Glocke.\n\nDie Technik ist denkbar einfach aufgebaut und damit ideal für Einsteiger, lässt sich aber auch sehr gezielt einsetzen. Über die Wahl von Bleigewicht, Vorfachlänge und Köder passt man die Montage an Strömung, Gewässertiefe und Zielfisch an.\n\nGrundangeln ist eine echte Allroundmethode und fängt sowohl Friedfische wie Brassen und Karpfen als auch Raubfische wie Aal oder Quappe. Es eignet sich für stehende und fließende Gewässer gleichermaßen.",
+    "targetFish": [
+      "Karpfen",
+      "Brassen",
+      "Schleie",
+      "Aal",
+      "Quappe",
+      "Barbe",
+      "Döbel"
+    ],
+    "waters": [
+      "Fluss",
+      "See",
+      "Teich",
+      "Kanal",
+      "Talsperre"
+    ],
+    "gear": [
+      "Grundrute",
+      "Stationärrolle",
+      "Laufblei oder Grundblei",
+      "Wirbel",
+      "Haken",
+      "Bissanzeiger oder Glocke"
+    ],
+    "baits": [
+      "Tauwurm",
+      "Mais",
+      "Made",
+      "Boilie",
+      "Köderfisch"
+    ],
+    "bestSeason": [
+      "April",
+      "Mai",
+      "Juni",
+      "Juli",
+      "August",
+      "September",
+      "Oktober"
+    ],
     "steps": [
-      "Wähle das Pilkergewicht passend zu Wassertiefe, Strömung und Drift des Bootes.",
-      "Montiere über dem Pilker bei Bedarf ein oder zwei Beifänger.",
-      "Lasse den Pilker bis zum Grund absinken und nimm den Bodenkontakt auf.",
-      "Hebe die Rute ruckartig an und lasse den Pilker anschließend kontrolliert zurück taumeln.",
-      "Wiederhole das Pilken knapp über Grund und passe die Tiefe der Drift an.",
-      "Schlage bei einem Biss an und kurbele den Fisch zügig aus der Tiefe nach oben."
+      "Baue eine Grundmontage mit Laufblei, Wirbel und einem an die Zielfischgröße angepassten Haken.",
+      "Bestücke den Haken mit dem passenden Köder für den gewünschten Fisch.",
+      "Wirf die Montage an die ausgewählte Stelle und lass das Blei auf den Grund sinken.",
+      "Spanne die Schnur leicht und stelle die Bissanzeige an Rutenspitze oder über einen Bissanzeiger ein.",
+      "Lege die Rute sicher ab und beobachte die Bissanzeige aufmerksam.",
+      "Setze bei einem deutlichen Biss den Anhieb und drille den Fisch vorsichtig ein."
     ],
     "tips": [
-      "Halte den Köder häufig knapp über Grund, wo die meisten Bisse erfolgen.",
-      "Passe das Pilkergewicht so an, dass du trotz Drift Bodenkontakt behältst.",
-      "Variiere die Pilkbewegung von hart bis sanft, bis die Fische reagieren."
+      "Wähle das Bleigewicht so, dass die Montage auch in Strömung an Ort und Stelle bleibt.",
+      "Füttere die Stelle an, um Fische gezielt anzulocken und zu halten.",
+      "Verwende ein Laufblei, damit der Fisch beim Biss möglichst wenig Widerstand spürt."
     ],
     "pros": [
-      "Einfach zu erlernen und sehr fängig auf dem Meer.",
-      "Köder und Beifänger sprechen mehrere Fische an.",
-      "Gute Chancen auf kräftige Dorsche und Köhler."
+      "Einfacher Aufbau und gut für Einsteiger geeignet.",
+      "Vielseitig auf zahlreiche Fischarten einsetzbar.",
+      "Auch nachts und bei schwierigen Bedingungen erfolgreich."
     ],
     "cons": [
-      "Nur vom Boot oder Kutter möglich.",
-      "Bei starker Drift und Tiefe kraftraubend."
+      "Eher passive Angelei mit langen Wartezeiten.",
+      "In stark verkrautetem Grund hängt die Montage leicht fest."
     ],
-    "origin": "Das Pilken ist die klassische Methode der Kutterangelei in Nord- und Ostsee und seit Jahrzehnten fester Bestandteil des Meeresangelns.",
+    "origin": "Das Grundangeln zählt zu den ältesten Angelmethoden überhaupt und ist in unzähligen regionalen Varianten verbreitet.",
+    "featured": true
+  },
+  {
+    "id": "jiggen",
+    "name": "Jiggen",
+    "nameEn": "Jigging",
+    "category": "Spinnfischen",
+    "difficulty": "Fortgeschritten",
+    "tagline": "Köderführung in Sprüngen über Grund, bei der der bebleite Gummiköder durch Absinken und Anziehen verführt.",
+    "description": "Beim Jiggen wird ein mit einem Bleikopf beschwerter Gummiköder in einer charakteristischen Sprungbewegung über den Grund geführt. Durch das Anheben der Rute steigt der Köder auf, beim Absenken taumelt er wieder zum Boden. Gerade in der Absinkphase erfolgen die meisten Bisse.\n\nDie Jigge ist eine der grundlegenden Techniken im modernen Gummiködereinsatz und besonders auf Grundräuber abgestimmt. Über das Gewicht des Jigkopfes steuert man die Sinkgeschwindigkeit und passt sie an Tiefe und Strömung an. Ein straffer Kontakt zur Schnur ist entscheidend, um die feinen Bisse zu erkennen.\n\nGejiggt wird vor allem auf Zander, Barsch und Hecht in tieferen Flüssen und Seen. Die Methode ist sehr effektiv und bildet die Grundlage vieler weiterführender Gummiködertechniken.",
+    "targetFish": [
+      "Zander",
+      "Barsch",
+      "Hecht",
+      "Rapfen"
+    ],
+    "waters": [
+      "Fluss",
+      "See",
+      "Kanal",
+      "Talsperre"
+    ],
+    "gear": [
+      "Spinnrute mit straffer Spitze",
+      "Stationärrolle",
+      "geflochtene Schnur",
+      "Jigköpfe",
+      "Stahlvorfach bei Hecht"
+    ],
+    "baits": [
+      "Gummifische",
+      "Twister",
+      "Shads",
+      "Creature Baits"
+    ],
+    "bestSeason": [
+      "April",
+      "Mai",
+      "September",
+      "Oktober",
+      "November",
+      "Dezember"
+    ],
+    "steps": [
+      "Wähle einen Jigkopf, dessen Gewicht zu Tiefe und Strömung passt.",
+      "Köder den Gummifisch gerade auf den Haken, damit er sauber läuft.",
+      "Wirf den Köder aus und lasse ihn an gespannter Schnur bis zum Grund sinken.",
+      "Hebe die Rute zügig an, sodass der Köder vom Grund aufsteigt.",
+      "Senke die Rutenspitze kontrolliert und folge dem absinkenden Köder mit der Schnur.",
+      "Schlage beim kleinsten Zupfer oder Ausbleiben des Bodenkontakts sofort an."
+    ],
+    "tips": [
+      "Achte genau auf die Absinkphase, denn dort beißen die Fische am häufigsten.",
+      "Wähle das Jiggewicht so leicht wie möglich, aber so schwer wie nötig.",
+      "Halte stets Kontakt zur Schnur, um auch feine Bisse zu spüren."
+    ],
+    "pros": [
+      "Sehr fängige und grundnahe Köderführung.",
+      "Gewicht und Tempo flexibel anpassbar.",
+      "Grundlage für viele weitere Gummiködertechniken."
+    ],
+    "cons": [
+      "Erfordert Gefühl für die richtige Köderführung.",
+      "Hängergefahr an steinigem oder verkrautetem Grund."
+    ],
+    "origin": "Das Jiggen mit Bleikopf und Gummiköder setzte sich mit dem Siegeszug der Softbaits als Standardmethode auf Grundräuber durch.",
+    "featured": false
+  },
+  {
+    "id": "karpfenangeln",
+    "name": "Karpfenangeln",
+    "nameEn": "Carp Fishing",
+    "category": "Friedfischangeln",
+    "difficulty": "Fortgeschritten",
+    "tagline": "Spezialisiertes Ansitzangeln auf Karpfen mit Boilies, Haarmontage und elektronischer Bissanzeige.",
+    "description": "Das moderne Karpfenangeln ist eine eigene Disziplin mit spezialisiertem Gerät und durchdachter Taktik. Charakteristisch sind die Haarmontage, bei der der Köder frei am Haken hängt, sowie Boilies als selektiver Köder. Elektronische Bissanzeiger melden auch über lange Ansitze hinweg jeden Run zuverlässig.\n\nErfolgreiches Karpfenangeln beginnt mit der Wahl des richtigen Platzes und einer durchdachten Futterstrategie. Oft wird über Tage hinweg angefüttert, um die scheuen und lernfähigen Fische an einen Platz zu gewöhnen. Robuste Ruten und Rollen sind nötig, um die kräftigen Fische sicher zu landen.\n\nDie Methode lebt von Geduld und Vorbereitung und wird häufig als mehrtägiger Ansitz mit Zelt und voller Ausrüstung betrieben. Schonender Umgang mit dem Fisch über Abhakmatte und Wiegesack ist dabei fester Bestandteil der Karpfenszene.",
+    "targetFish": [
+      "Karpfen",
+      "Schleie",
+      "Brassen"
+    ],
+    "waters": [
+      "See",
+      "Teich",
+      "Talsperre",
+      "Kanal",
+      "Fluss"
+    ],
+    "gear": [
+      "Karpfenrute",
+      "Freilaufrolle",
+      "elektronischer Bissanzeiger",
+      "Rod Pod",
+      "Abhakmatte",
+      "Kescher",
+      "Boilienadel"
+    ],
+    "baits": [
+      "Boilies",
+      "Mais",
+      "Tigernüsse",
+      "Pellets",
+      "Partikel"
+    ],
+    "bestSeason": [
+      "Mai",
+      "Juni",
+      "Juli",
+      "August",
+      "September",
+      "Oktober"
+    ],
+    "steps": [
+      "Suche einen erfolgversprechenden Platz mit Karpfenaktivität oder Strukturen am Grund.",
+      "Füttere den Platz mit Boilies und Partikeln gezielt an.",
+      "Binde eine Haarmontage, bei der der Boilie frei unter dem Haken hängt.",
+      "Bringe die Montage präzise am Futterplatz aus, vom Ufer geworfen oder per Futterboot abgelegt.",
+      "Stelle die Ruten auf den Rod Pod und schalte die elektronischen Bissanzeiger ein.",
+      "Reagiere beim Run sofort, drille ausdauernd und versorge den Fisch schonend auf der Abhakmatte."
+    ],
+    "tips": [
+      "Investiere Zeit in eine gute Platzwahl und konsequentes Anfüttern.",
+      "Verwende eine Abhakmatte und halte den Fisch nass, um ihn zu schonen.",
+      "Passe Boiliegröße und Aroma an den Befischungsdruck des Gewässers an."
+    ],
+    "pros": [
+      "Gezielter Fang großer, kampfstarker Fische.",
+      "Selektive Köder reduzieren Beifänge unerwünschter Arten.",
+      "Selbsthakmontagen ermöglichen entspannte lange Ansitze."
+    ],
+    "cons": [
+      "Hoher Geräte- und Zeitaufwand.",
+      "Oft lange Wartezeiten bis zum Biss.",
+      "Anschaffung der Spezialausrüstung ist kostspielig."
+    ],
+    "origin": "Das spezialisierte Karpfenangeln entstand ab den 1980er Jahren in England und prägte mit Haarmontage und Boilies eine eigene Anglerkultur.",
+    "featured": true
+  },
+  {
+    "id": "kopfrutenangeln",
+    "name": "Kopfrutenangeln",
+    "nameEn": "Pole Fishing",
+    "category": "Friedfischangeln",
+    "difficulty": "Fortgeschritten",
+    "tagline": "Präzises Angeln auf kurze Distanz mit langer Steckrute ohne Rolle",
+    "description": "Das Kopfrutenangeln ist eine der präzisesten Angelmethoden für Stillgewässer und langsam fließende Gewässer. Mit einer langen, rollenfreien Steckrute von 8 bis 16 Metern wird die Schnur direkt an der Rutenspitze befestigt, was eine außergewöhnlich feinfühlige Bisserkennung ermöglicht. Der Angler kann die Pose und den Köder millimetergenau positionieren und jederzeit kontrolliert versetzen.\n\nDiese Technik stammt ursprünglich aus dem britischen Matchfischen und erfordert ein gewisses Maß an Koordination beim Aus- und Einschwingen der langen Rute. Das Tackle ist hochspezialisiert: Polelastik, das in der Rutenspitze eingebaut ist, federt den Drill ab und verhindert Schnurbrüche. Die Kombination aus feiner Vorfachmontage und empfindlicher Pose macht diese Methode besonders effektiv beim Fang von Weißfischen wie Rotaugen, Brachsen und Güstern.\n\nObwohl die Grundausstattung kostspielig ist, überzeugt das Kopfrutenangeln durch seine Überlegenheit auf kurze bis mittlere Distanzen. Wettbewerbs- und Hobbyangler schätzen gleichermaßen die Möglichkeit, Fische schnell und effizient zu landen, ohne lange Einholzeiten durch Kurbelarbeit.",
+    "targetFish": [
+      "Rotauge",
+      "Rotfeder",
+      "Brachse",
+      "Güster",
+      "Karpfen",
+      "Schleie"
+    ],
+    "waters": [
+      "Stillgewässer",
+      "Kanäle",
+      "Langsame Flüsse",
+      "Baggerseen"
+    ],
+    "gear": [
+      "Steckrute (Pole) 11–16 m",
+      "Polelastik",
+      "Spezialposen",
+      "Kleinhaken",
+      "Rutenständer",
+      "Rollenlos"
+    ],
+    "baits": [
+      "Maden",
+      "Pinkies",
+      "Caster",
+      "Mais",
+      "Brot",
+      "Pellets"
+    ],
+    "bestSeason": [
+      "März",
+      "April",
+      "Mai",
+      "Juni",
+      "Juli",
+      "August",
+      "September",
+      "Oktober"
+    ],
+    "steps": [
+      "Rute am Gewässer aufbauen und die gewünschte Länge durch Zusammenstecken der Segmente einstellen",
+      "Poselinie mit passender Pose, Blei und Vorfach für die Zielfischart montieren",
+      "Fütterungszone mit Grundfutter und Einzelködern einpütschern",
+      "Rute mit ausgestreckten Armen über die Futterstelle schwingen und Pose ins Wasser senken",
+      "Biss abwarten und bei Posenreaktion sofort anschlagen",
+      "Fisch über das Polelastik abdrillen und mit dem Kescher landen",
+      "Zwischen den Würfen regelmäßig nachfüttern, um Fische in der Zone zu halten"
+    ],
+    "tips": [
+      "Das Elastik muss zur Zielfischgröße passen: weiches Elastik (Nr. 4–8) für Weißfische, hartes Elastik (Nr. 12–20) für Karpfen",
+      "Die Pose immer etwas übertauchen lassen, damit Bisse klar erkennbar sind",
+      "Bei starkem Wind kürzere Rutensegmente verwenden, um Kontrolle zu behalten",
+      "Futterstellen immer auf demselben Punkt halten – Konsistenz ist entscheidend"
+    ],
+    "pros": [
+      "Extrem präzise Köderplatzierung auf kurze Distanz",
+      "Sehr schnelles Landen von Fischen ohne Einholzeit",
+      "Hervorragende Bisserkennung durch direkte Schnurführung"
+    ],
+    "cons": [
+      "Hohe Anschaffungskosten für hochwertige Poleruten",
+      "Bei starkem Wind oder großen Fischen schwer zu kontrollieren",
+      "Begrenzte Reichweite durch die feste Schnurlänge"
+    ],
+    "featured": false
+  },
+  {
+    "id": "matchangeln",
+    "name": "Matchangeln",
+    "nameEn": "Match Fishing",
+    "category": "Friedfischangeln",
+    "difficulty": "Fortgeschritten",
+    "tagline": "Posenangeln auf Distanz mit der Matchrute, optimiert für weite Würfe und feine Präsentation.",
+    "description": "Das Matchangeln ist eine spezialisierte Form des Posenangelns mit der langen, feinen Matchrute und kleiner Rolle. Mit speziellen Waggler-Posen lassen sich weite und präzise Würfe erzielen, um auch entfernte Futterplätze sauber zu beangeln. Die Methode verbindet die feine Bissanzeige der Pose mit der Reichweite einer Rolle.\n\nCharakteristisch ist die durchdachte Futterstrategie, bei der der Platz mit Futterkugeln oder über ein Futterrohr regelmäßig versorgt wird. Über die Wahl und Bebleiung des Wagglers steuert man Wurfweite und Sinkverhalten des Köders. So lassen sich Friedfische gezielt in jeder Wasserschicht beangeln.\n\nMatchangeln stammt aus dem englischen Wettkampfangeln und wird heute auf Rotaugen, Brassen und andere Weißfische an Seen und Kanälen betrieben. Es verlangt Übung im Wurf und beim Anfüttern, ist aber sehr effektiv und sportlich.",
+    "targetFish": [
+      "Rotauge",
+      "Brassen",
+      "Schleie",
+      "Barsch",
+      "Karpfen"
+    ],
+    "waters": [
+      "See",
+      "Kanal",
+      "Talsperre",
+      "Teich"
+    ],
+    "gear": [
+      "Matchrute",
+      "Matchrolle",
+      "Waggler-Posen",
+      "feine Schnur",
+      "Schrotblei",
+      "kleine Haken"
+    ],
+    "baits": [
+      "Maden",
+      "Caster",
+      "Mais",
+      "Pinkies",
+      "Hanf"
+    ],
+    "bestSeason": [
+      "April",
+      "Mai",
+      "Juni",
+      "Juli",
+      "August",
+      "September",
+      "Oktober"
+    ],
+    "steps": [
+      "Wähle einen Waggler passend zu Wurfweite und Wassertiefe und montiere ihn fest.",
+      "Tariere die Pose über die Bebleiung exakt aus.",
+      "Suche einen klaren Zielpunkt und merke dir die Wurfdistanz.",
+      "Füttere die Stelle mit Futterkugeln oder über ein Futterrohr an.",
+      "Wirf zielgenau an den Futterplatz und tauche die Schnur unter, um Wind und Strömung auszugleichen.",
+      "Schlage bei sauberem Abtauchen des Wagglers mit gestreckter Schnur zügig an."
+    ],
+    "tips": [
+      "Tauche nach dem Wurf die Schnur unter, damit Wind und Oberflächendrift sie nicht verziehen.",
+      "Wirf konsequent denselben Punkt an, um den Futterplatz zu konzentrieren.",
+      "Passe die Wagglergröße an Wurfweite und Wind an."
+    ],
+    "pros": [
+      "Feine Posenpräsentation auch auf große Distanz.",
+      "Weite und präzise Würfe möglich.",
+      "Sehr effektiv und sportlich anspruchsvoll."
+    ],
+    "cons": [
+      "Wurf und Schnurkontrolle erfordern Übung.",
+      "Bei starkem Wind anspruchsvoll zu handhaben."
+    ],
+    "origin": "Das Matchangeln entstand im englischen Wettkampfangeln und ist nach den dort ausgetragenen Matches benannt.",
+    "featured": false
+  },
+  {
+    "id": "meerforellenangeln",
+    "name": "Meerforellenangeln",
+    "nameEn": "Sea Trout Fishing",
+    "category": "Spinnfischen",
+    "difficulty": "Fortgeschritten",
+    "tagline": "Spinnfischen auf die silberne Meerforelle entlang der Küste, oft als ausdauernde Watangelei.",
+    "description": "Das Meerforellenangeln gilt vielen Küstenanglern als faszinierende Königsdisziplin. Watend oder vom Ufer aus wirft man Küstenwobbler, Blinker oder Fliegen entlang der flachen Küstenabschnitte und sucht die blanken Fische über weite Strecken. Die silberne Meerforelle ist ein kampfstarker und anspruchsvoller Gegner.\n\nErfolg verlangt Ausdauer und das Wissen um die richtigen Plätze, denn die Fische ziehen entlang von Steinfeldern, Sandbänken und Strömungskanten. Lange Würfe, eine variantenreiche Köderführung und das Absuchen vieler Stellen sind entscheidend. Häufig sind die Übergangszeiten im Frühjahr und Herbst sowie kühlere Wassertemperaturen besonders fängig.\n\nGeangelt wird vor allem an der Ostseeküste, sowohl mit der Spinnrute als auch mit der Fliege. Die Kombination aus Naturerlebnis, Bewegung und der Aussicht auf einen kapitalen Fisch macht den besonderen Reiz dieser Methode aus.",
+    "targetFish": [
+      "Meerforelle",
+      "Hornhecht"
+    ],
+    "waters": [
+      "Küste",
+      "Brackwasser",
+      "Mündung",
+      "Meer"
+    ],
+    "gear": [
+      "lange Küstenspinnrute",
+      "Stationärrolle",
+      "Wathose",
+      "Watjacke",
+      "Küstenwobbler und Blinker",
+      "Polarisationsbrille"
+    ],
+    "baits": [
+      "Küstenwobbler",
+      "Küstenblinker",
+      "Springer",
+      "Fliegen"
+    ],
+    "bestSeason": [
+      "März",
+      "April",
+      "Mai",
+      "Oktober",
+      "November"
+    ],
+    "steps": [
+      "Suche aussichtsreiche Küstenabschnitte mit Steinfeldern, Sandbänken und Strömungskanten.",
+      "Wate vorsichtig so weit ein, dass du die Fischzonen mit weiten Würfen erreichst.",
+      "Wirf den Köder fächerförmig aus, um den Bereich systematisch abzusuchen.",
+      "Variiere Einholtempo und führe den Köder mit gelegentlichen Stopps und Spins.",
+      "Wechsle regelmäßig die Stelle und suche so aktiv die ziehenden Fische.",
+      "Setze beim Biss einen sicheren Anhieb und drille die kampfstarke Forelle vorsichtig aus."
+    ],
+    "tips": [
+      "Sei mobil und suche viele Stellen ab, denn die Fische ziehen entlang der Küste.",
+      "Eine Polarisationsbrille hilft, Strukturen und Fische im Wasser zu erkennen.",
+      "Passe Köderfarbe und Tempo an Licht, Wasserfarbe und Jahreszeit an."
+    ],
+    "pros": [
+      "Aktive, naturnahe Angelei mit viel Bewegung.",
+      "Chance auf einen kampfstarken Edelfisch.",
+      "Vom Ufer beziehungsweise watend ohne Boot möglich."
+    ],
+    "cons": [
+      "Oft viele Würfe und Stellenwechsel bis zum Erfolg.",
+      "Watangeln verlangt geeignete Ausrüstung und Vorsicht."
+    ],
+    "origin": "Das Meerforellenangeln hat besonders an der Ostseeküste eine starke Tradition und entwickelte sich zur populären Küstendisziplin.",
+    "featured": false
+  },
+  {
+    "id": "method-feeder",
+    "name": "Method-Feeder",
+    "nameEn": "Method Feeder",
+    "category": "Friedfischangeln",
+    "difficulty": "Fortgeschritten",
+    "tagline": "Selbsthakmethode mit kompaktem Futterkorb, bei der der kurze Köder direkt im Futterballen liegt.",
+    "description": "Der Method-Feeder ist eine moderne Weiterentwicklung des Feederangelns. Ein flacher Korb wird mit klebrigem Futter umpresst, in dem der kurze Hakenköder eingebettet liegt. Der Fisch saugt beim Fressen den Köder mit auf und hakt sich am festen Blei meist selbst.\n\nDie kurze, straffe Montage sorgt für eine effektive Selbsthakwirkung und ist daher besonders fängig auf kräftige Friedfische. Häufig kommt ein Inline-Korb zum Einsatz, bei dem die Schnur durch den Korb läuft. Als Köder eignen sich Pellets, Mais oder besonders gut sichtbare Kunstköder.\n\nDie Methode ist vor allem an Karpfen- und Schleienseen sehr beliebt und liefert oft hervorragende Fänge. Sie ist einfacher zu handhaben als das klassische Feedern, erfordert aber das richtige Futter und kurze Vorfächer.",
+    "targetFish": [
+      "Karpfen",
+      "Schleie",
+      "Brassen",
+      "Rotauge"
+    ],
+    "waters": [
+      "See",
+      "Teich",
+      "Talsperre",
+      "Kanal"
+    ],
+    "gear": [
+      "Method-Feederrute",
+      "Stationärrolle",
+      "Method-Korb",
+      "kurzes Vorfach",
+      "Haken",
+      "Rutenhalter"
+    ],
+    "baits": [
+      "Pellets",
+      "Mais",
+      "Boilies",
+      "Pop-ups",
+      "Maden"
+    ],
+    "bestSeason": [
+      "April",
+      "Mai",
+      "Juni",
+      "Juli",
+      "August",
+      "September",
+      "Oktober"
+    ],
+    "steps": [
+      "Fädle den Inline-Method-Korb auf die Hauptschnur und sichere ihn mit dem kurzen Vorfach.",
+      "Mische ein klebriges, leicht bindendes Method-Futter an.",
+      "Presse das Futter mit einer Form fest um den Korb herum.",
+      "Bette den beköderten Haken direkt in den Futterballen ein.",
+      "Wirf die Montage präzise an die immer gleiche Stelle und lege die Rute in den Halter.",
+      "Lasse die Selbsthakmontage arbeiten und greife erst bei klarer Bissanzeige zur Rute."
+    ],
+    "tips": [
+      "Halte das Vorfach sehr kurz, damit die Selbsthakwirkung zuverlässig greift.",
+      "Verwende einen auffälligen Köder, der aus dem Futterballen hervorsticht.",
+      "Achte auf die richtige Futterkonsistenz, damit der Ballen erst am Grund zerfällt."
+    ],
+    "pros": [
+      "Effektive Selbsthakwirkung mit hoher Hakquote.",
+      "Köder liegt verlockend mitten im Futter.",
+      "Einfache und schnelle Handhabung am Wasser."
+    ],
+    "cons": [
+      "Funktioniert am besten an nährstoffreichen Gewässern.",
+      "Bei sehr vorsichtigen Fischen kann die kurze Montage misstrauisch machen."
+    ],
+    "origin": "Der Method-Feeder stammt aus der englischen Karpfenszene und gehört heute zu den fängigsten Friedfischmethoden.",
     "featured": false
   },
   {
@@ -541,11 +1256,45 @@
     "difficulty": "Einsteiger",
     "tagline": "Angeln mit lebenden oder toten natürlichen Ködern, die Fische über Geruch und Geschmack überzeugen.",
     "description": "Das Naturköderangeln setzt auf echte Beute wie Würmer, Maden, Köderfische oder Krebstiere, die für viele Fische unwiderstehlich sind. Im Gegensatz zu Kunstködern wirken natürliche Köder zusätzlich über Geruch und Geschmack und überzeugen daher auch vorsichtige oder beißfaule Fische.\n\nNaturköder lassen sich mit nahezu allen Montagen kombinieren, ob am Grund, unter der Pose oder freischwimmend. Die Wahl des Köders richtet sich nach dem Zielfisch, von der zarten Made für Friedfische bis zum Köderfisch für große Räuber. Gerade beim Angeln auf Aal, Quappe oder Wels sind Naturköder oft die erste Wahl.\n\nDie Methode ist vielseitig, traditionsreich und für Einsteiger leicht zugänglich. Beim Einsatz lebender Köder sind allerdings die jeweiligen gesetzlichen Vorgaben zu beachten.",
-    "targetFish": ["Aal", "Quappe", "Wels", "Barsch", "Karpfen", "Döbel", "Hecht"],
-    "waters": ["Fluss", "See", "Teich", "Kanal", "Talsperre"],
-    "gear": ["Grund- oder Posenrute", "Stationärrolle", "passende Haken", "Wirbel", "Blei oder Pose"],
-    "baits": ["Tauwurm", "Made", "Köderfisch", "Bienenmade", "Krebs"],
-    "bestSeason": ["April", "Mai", "Juni", "Juli", "August", "September", "Oktober"],
+    "targetFish": [
+      "Aal",
+      "Quappe",
+      "Wels",
+      "Barsch",
+      "Karpfen",
+      "Döbel",
+      "Hecht"
+    ],
+    "waters": [
+      "Fluss",
+      "See",
+      "Teich",
+      "Kanal",
+      "Talsperre"
+    ],
+    "gear": [
+      "Grund- oder Posenrute",
+      "Stationärrolle",
+      "passende Haken",
+      "Wirbel",
+      "Blei oder Pose"
+    ],
+    "baits": [
+      "Tauwurm",
+      "Made",
+      "Köderfisch",
+      "Bienenmade",
+      "Krebs"
+    ],
+    "bestSeason": [
+      "April",
+      "Mai",
+      "Juni",
+      "Juli",
+      "August",
+      "September",
+      "Oktober"
+    ],
     "steps": [
       "Wähle den Naturköder passend zu Zielfisch und Gewässer aus.",
       "Baue eine geeignete Montage am Grund oder unter der Pose auf.",
@@ -572,6 +1321,494 @@
     "featured": false
   },
   {
+    "id": "nymphenfischen",
+    "name": "Nymphenfischen (Czech Nymphing)",
+    "nameEn": "Czech Nymphing",
+    "category": "Fliegenfischen",
+    "difficulty": "Fortgeschritten",
+    "tagline": "Effektives Tiefenwasserfischen mit schweren Nymphen direkt unter der Rutenspitze",
+    "description": "Das Czech Nymphing ist eine Technik aus dem Wettbewerbsfliegenfischen, die in den 1980er Jahren von tschechischen Anglern entwickelt wurde und seither international verbreitet ist. Im Gegensatz zum klassischen Fliegenfischen wird hier kein weites Auswerfen benötigt: Die schweren, gelenkigen Nymphen werden direkt unter der Rutenspitze nahe am Körper des Anglers durch die Strömung geführt.\n\nKennzeichnend ist die Verwendung von zwei oder drei Nymphen auf einer Wurfschnur, die durch einen bunten Indicator-Abschnitt (Leader) voneinander getrennt sind. Der Angler führt die Rute ständig mit der Strömung, während er den Indicator auf Zucken oder Pausieren beobachtet. Da keine Schnur auf dem Wasser liegt, ist Drag praktisch ausgeschlossen – die Nymphen sinken rasch auf den Grund, wo Bachforellen und Aeschen stehen.\n\nDiese Methode ist in strömungsreichen, klaren Gewässern mit Kiesböden besonders erfolgreich. Sie erlaubt das Absuchen eines Gewässerabschnitts in kurzer Zeit und ermöglicht dem Angler, seine Nymphen in genau der Tiefe zu führen, in der die Fische fressen. Czech Nymphing ist für seinen hohen Fangerfolg bekannt und wird heute auf Fliegenfischwettbewerben weltweit eingesetzt.",
+    "targetFish": [
+      "Bachforelle",
+      "Regenbogenforelle",
+      "Aeschen",
+      "Huchen"
+    ],
+    "waters": [
+      "Flüsse",
+      "Bäche",
+      "Voralpenflüsse",
+      "Schnelle Strömungen"
+    ],
+    "gear": [
+      "Fliegenrute 9–10 ft Klasse 3–5",
+      "Monofile Führungsschnur",
+      "Schwere Nymphen (Tungsten-Kopf)",
+      "Leader mit Bissanzeiger-Segment"
+    ],
+    "baits": [
+      "Schwerblei-Nymphen",
+      "Hare's Ear Nymphe",
+      "PTN (Pheasant Tail Nymph)",
+      "Gammarus-Imitation"
+    ],
+    "bestSeason": [
+      "März",
+      "April",
+      "Mai",
+      "September",
+      "Oktober",
+      "November"
+    ],
+    "steps": [
+      "Strömungsabschnitt mit kiesigem Grund und gleichmäßiger Tiefe von 50–150 cm wählen",
+      "Montage mit zwei bis drei Nymphen in abgestuften Gewichten aufbauen",
+      "Nymphen seitlich oder leicht aufwärts einbringen und sofort absinken lassen",
+      "Rute mit der Strömungsgeschwindigkeit mitführen, Schnur gespannt halten",
+      "Indicator beobachten – kleinste Abweichungen im Driften signalisieren einen Biss",
+      "Sofort anschlagen und Fisch mit ruhiger Hand führen",
+      "Gewässerabschnitt systematisch abschwingen und danach weitergehen"
+    ],
+    "tips": [
+      "Das schwerste Nymph immer am weitesten unterhalb montieren, damit die Montage schnell absinkt",
+      "Im Stehen angeln und langsam stromabwärts waten, um ungestörte Bereiche zu erreichen",
+      "Kontrastfarbene Indicator-Segmente erleichtern die Bisserkennung in Richtlicht erheblich"
+    ],
+    "pros": [
+      "Extrem hoher Fangerfolg in strömungsreichen Gewässern",
+      "Kein weites Auswerfen nötig – ideal für enge Bachabschnitte",
+      "Erlaubt präzises Absuchen aller Wassertiefen"
+    ],
+    "cons": [
+      "Nur auf kurze Distanz direkt unter der Rutenspitze effektiv",
+      "Erfordert feines Gefühl für Strömungsgeschwindigkeit und Bisserkennung",
+      "Bei klarem flachem Wasser werden Fische durch den Angler leicht gestört"
+    ],
+    "featured": false
+  },
+  {
+    "id": "oberflaechenangeln",
+    "name": "Oberflächenangeln (Popper)",
+    "nameEn": "Surface Fishing (Popper)",
+    "category": "Raubfischangeln",
+    "difficulty": "Fortgeschritten",
+    "tagline": "Spektakuläres Oberflächenangeln mit Poppers und Topperwaters für explosive Bisse",
+    "description": "Das Oberflächenangeln mit Poppers und anderen Topwater-Ködern gehört zu den aufregendsten Angelmethoden überhaupt. Der Köder bleibt an der Wasseroberfläche und erzeugt durch seine konkave Front-Öffnung beim Anziehen der Schnur ein lautes, spritzendes „Pop“-Geräusch. Diese akustische und visuelle Reizung lockt Raubfische von unten an die Oberfläche und provoziert explosive, sichtbare Bisse, die für unvergessliche Angelerlebnisse sorgen.\n\nPopper sind vor allem in den Sommermonaten in den frühen Morgen- und späten Abendstunden wirkungsvoll, wenn Hechte, Barsche und Zander auf Beutefische jagen, die sich im Oberflächenbereich aufhalten. Für das Meeresfischen auf Meeräschen, Makrelen und Thunfische sind Popper ebenfalls unverzichtbar. Die Köderführung variiert von gleichmäßigen, rhythmischen Pops mit kurzen Pausen bis zu aggressivem Walk-the-Dog-Spiel.\n\nNeben klassischen Poppers gibt es weitere Topwater-Lures: Stickbaits, Frösche für das Fischen in Deckung, Propellerbaits und Weedless-Gurken. Wichtig ist die richtige Rutenführung: Die Rute sollte beim Führen leicht nach unten zeigen, damit der Zug der Leine den Popper aktiviert und nicht von der Rute abgefedert wird. Bisse passieren oft in der Pause nach dem Pop – Geduld ist gefragt.",
+    "targetFish": [
+      "Hecht",
+      "Barsch",
+      "Zander",
+      "Forelle",
+      "Meeräsche",
+      "Makrele"
+    ],
+    "waters": [
+      "Seen",
+      "Flüsse",
+      "Uferbereiche",
+      "Stillgewässer",
+      "Küstengewässer"
+    ],
+    "gear": [
+      "Spinnrute 2,1–2,4 m (10–40 g)",
+      "Stationärrolle oder Multirolle",
+      "Geflochtene Schnur 15–25 lb",
+      "Stahlvorfach oder starkes Fluorocarbon",
+      "Popper 5–20 cm"
+    ],
+    "baits": [
+      "Popper (Oberflächenköder)",
+      "Stickbaits",
+      "Propeller-Baits",
+      "Weedless-Frösche",
+      "Topwater-Wobbler"
+    ],
+    "bestSeason": [
+      "Mai",
+      "Juni",
+      "Juli",
+      "August",
+      "September"
+    ],
+    "steps": [
+      "Aktive Fische an der Oberfläche oder Bereiche mit Beutefischaktivität suchen",
+      "Popper in Richtung vielversprechender Strukturen auswerfen",
+      "Durch kurze, ruckartige Züge mit der Rutenspitze den Popper aktivieren",
+      "Zwischen den Pops kurze Pausen einlegen – Bisse oft in der Stillphase",
+      "Bei Biss kurz Pause machen, bis man den Widerstand spürt, dann anschlagen",
+      "Hecht oder Barsch an der Oberfläche drillen und nicht abtauchen lassen",
+      "Fisch mit Kescher oder Zange sichern und Haken vorsichtig entfernen"
+    ],
+    "tips": [
+      "Nie sofort bei der Attacke anschlagen – erst fühlen wenn die Schnur straff läuft",
+      "Im Schilf und zwischen Seerosen Weedless-Frösche verwenden, um Hakenverhänger zu vermeiden",
+      "An wolkigen, warmen Tagen mit leichtem Wind funktionieren Popper oft ganztägig"
+    ],
+    "pros": [
+      "Spektakuläre, sichtbare Bisse für maximales Angelerlebnis",
+      "Sehr effektiv bei aktiven Raubfischen im Sommerhalbjahr",
+      "Vielseitig einsetzbar in Süß- und Salzwasser"
+    ],
+    "cons": [
+      "Weniger effektiv bei kaltem Wasser und passiven Fischen",
+      "Erfordert aktive Köderführung und Konzentration über lange Zeiträume",
+      "Mehrhakige Popper können beim Drill zu gefährlichen Drillingsverwicklungen führen"
+    ],
+    "featured": false
+  },
+  {
+    "id": "pilken",
+    "name": "Pilken",
+    "nameEn": "Pilking",
+    "category": "Meeresangeln",
+    "difficulty": "Einsteiger",
+    "tagline": "Vertikales Führen schwerer Metallköder vom Boot auf dem Meer, klassisch auf Dorsch und Köhler.",
+    "description": "Beim Pilken wird ein schwerer, blanker Metallköder, der Pilker, vom driftenden oder ankernden Boot senkrecht in die Tiefe abgelassen und durch ruckartiges Anheben und Absenken geführt. Das Funkeln und Taumeln des Köders ahmt einen verletzten Fisch nach und reizt Raubfische zum Biss. Oft werden über dem Pilker zusätzlich Beifänger angeboten.\n\nDie Methode ist einfach zu erlernen und gehört zu den Klassikern des Meeresangelns von Kuttern und Booten. Das Pilkergewicht wird an Wassertiefe, Strömung und Drift angepasst, damit der Köder den Grund erreicht und kontrolliert geführt werden kann. Die meisten Bisse erfolgen kurz über Grund.\n\nGepilkt wird vor allem auf Dorsch und Köhler in Nord- und Ostsee sowie im Atlantik. Mit kräftigem Gerät und etwas Kondition lassen sich so auch größere Fische aus der Tiefe holen.",
+    "targetFish": [
+      "Dorsch",
+      "Köhler",
+      "Makrele",
+      "Wolfsbarsch",
+      "Heilbutt"
+    ],
+    "waters": [
+      "Meer",
+      "Hochsee",
+      "Ozean",
+      "Küste"
+    ],
+    "gear": [
+      "Pilkrute",
+      "Multi- oder Stationärrolle",
+      "geflochtene Schnur",
+      "Pilker",
+      "Beifänger",
+      "Rutenhalter"
+    ],
+    "baits": [
+      "Pilker",
+      "Gummimakk",
+      "Twister als Beifänger",
+      "Naturköderfetzen"
+    ],
+    "bestSeason": [
+      "April",
+      "Mai",
+      "Juni",
+      "September",
+      "Oktober",
+      "November"
+    ],
+    "steps": [
+      "Wähle das Pilkergewicht passend zu Wassertiefe, Strömung und Drift des Bootes.",
+      "Montiere über dem Pilker bei Bedarf ein oder zwei Beifänger.",
+      "Lasse den Pilker bis zum Grund absinken und nimm den Bodenkontakt auf.",
+      "Hebe die Rute ruckartig an und lasse den Pilker anschließend kontrolliert zurück taumeln.",
+      "Wiederhole das Pilken knapp über Grund und passe die Tiefe der Drift an.",
+      "Schlage bei einem Biss an und kurbele den Fisch zügig aus der Tiefe nach oben."
+    ],
+    "tips": [
+      "Halte den Köder häufig knapp über Grund, wo die meisten Bisse erfolgen.",
+      "Passe das Pilkergewicht so an, dass du trotz Drift Bodenkontakt behältst.",
+      "Variiere die Pilkbewegung von hart bis sanft, bis die Fische reagieren."
+    ],
+    "pros": [
+      "Einfach zu erlernen und sehr fängig auf dem Meer.",
+      "Köder und Beifänger sprechen mehrere Fische an.",
+      "Gute Chancen auf kräftige Dorsche und Köhler."
+    ],
+    "cons": [
+      "Nur vom Boot oder Kutter möglich.",
+      "Bei starker Drift und Tiefe kraftraubend."
+    ],
+    "origin": "Das Pilken ist die klassische Methode der Kutterangelei in Nord- und Ostsee und seit Jahrzehnten fester Bestandteil des Meeresangelns.",
+    "featured": false
+  },
+  {
+    "id": "posenangeln",
+    "name": "Posenangeln",
+    "nameEn": "Float Fishing",
+    "category": "Friedfischangeln",
+    "difficulty": "Einsteiger",
+    "tagline": "Klassisches Angeln mit der Pose, die den Köder in der gewünschten Tiefe hält und jeden Biss optisch anzeigt.",
+    "description": "Beim Posenangeln trägt eine schwimmende Pose den Köder in einer einstellbaren Tiefe und dient zugleich als feiner Bissanzeiger. Taucht oder zieht die Pose ab, ist dies das Signal für den Anhieb. Die Methode gehört zu den anschaulichsten und beliebtesten Formen des Angelns.\n\nDurch das Verschieben des Lotpunkts lässt sich der Köder vom Grund bis knapp unter die Oberfläche in jeder Tiefe anbieten. So findet man die Fische dort, wo sie gerade stehen. Bebleiung und Posenform werden an Wassertiefe, Strömung und Köder angepasst.\n\nPosenangeln ist vor allem beim Friedfischangeln zu Hause, fängt aber auch Barsche und kleinere Raubfische. Es ist einfach zu erlernen und vermittelt durch die direkte optische Bissanzeige besonderen Reiz.",
+    "targetFish": [
+      "Rotauge",
+      "Brassen",
+      "Schleie",
+      "Karpfen",
+      "Barsch",
+      "Döbel"
+    ],
+    "waters": [
+      "See",
+      "Teich",
+      "Fluss",
+      "Kanal",
+      "Talsperre"
+    ],
+    "gear": [
+      "Matchrute oder Stipprute",
+      "Stationärrolle",
+      "Pose",
+      "Schrotblei",
+      "Haken",
+      "Lotblei"
+    ],
+    "baits": [
+      "Made",
+      "Wurm",
+      "Mais",
+      "Teig",
+      "Brotflocke"
+    ],
+    "bestSeason": [
+      "April",
+      "Mai",
+      "Juni",
+      "Juli",
+      "August",
+      "September",
+      "Oktober"
+    ],
+    "steps": [
+      "Wähle eine zur Wassertiefe und Strömung passende Pose und montiere sie auf der Schnur.",
+      "Verteile die Schrotbleie so, dass die Pose sauber austariert nur knapp aus dem Wasser ragt.",
+      "Lote mit einem Lotblei die Wassertiefe aus und stelle die gewünschte Köderhöhe ein.",
+      "Beködere den Haken und wirf die Montage an den gefütterten Platz.",
+      "Beobachte die Pose und füttere regelmäßig kleine Portionen nach.",
+      "Schlage bei eindeutigem Abtauchen oder Wegziehen der Pose zügig an."
+    ],
+    "tips": [
+      "Tariere die Pose genau aus, damit auch vorsichtige Bisse sichtbar werden.",
+      "Beginne mit dem Köder knapp über Grund und variiere die Tiefe bei ausbleibenden Bissen.",
+      "Füttere sparsam, aber regelmäßig, um die Fische am Platz zu halten."
+    ],
+    "pros": [
+      "Sehr anschauliche und feine Bissanzeige.",
+      "Köder kann in jeder Wassertiefe präsentiert werden.",
+      "Leicht zu erlernen und ideal für Einsteiger."
+    ],
+    "cons": [
+      "Bei starkem Wind und Wellen schwieriger zu kontrollieren.",
+      "Weite Würfe sind nur eingeschränkt möglich."
+    ],
+    "origin": "Die Pose ist seit Jahrhunderten fester Bestandteil des Angelns und wurde im Laufe der Zeit für unterschiedlichste Bedingungen weiterentwickelt.",
+    "featured": false
+  },
+  {
+    "id": "schleppangeln",
+    "name": "Schleppangeln",
+    "nameEn": "Trolling",
+    "category": "Raubfischangeln",
+    "difficulty": "Fortgeschritten",
+    "tagline": "Köderführung hinter dem fahrenden Boot, um große Wasserflächen effektiv nach Raubfischen abzusuchen.",
+    "description": "Beim Schleppangeln werden ein oder mehrere Köder hinter dem langsam fahrenden Boot durch das Wasser gezogen. Auf diese Weise lassen sich große Flächen und Suchtiefen systematisch absuchen, was besonders an weitläufigen Seen und im Meer von Vorteil ist. Geschwindigkeit und Schlepptiefe werden gezielt an den Zielfisch angepasst.\n\nUm verschiedene Tiefen abzudecken, kommen oft Downrigger, Tiefläuferwobbler oder Planerboards zum Einsatz. Mehrere Ruten werden gleichzeitig geführt, um unterschiedliche Köder und Laufwege gleichzeitig anzubieten. So erhöht man die Trefferquote beim Absuchen unbekannter Bereiche.\n\nGeschleppt wird auf Hecht, große Forellen und Renken in Binnenseen sowie auf zahlreiche Meeresfische bis hin zu kapitalen Raubfischen. Die Methode verbindet aktives Suchen mit der Chance auf besonders große Fische.",
+    "targetFish": [
+      "Hecht",
+      "Seeforelle",
+      "Renke",
+      "Dorsch",
+      "Makrele",
+      "Thunfisch"
+    ],
+    "waters": [
+      "See",
+      "Talsperre",
+      "Bergsee",
+      "Meer",
+      "Hochsee",
+      "Ozean"
+    ],
+    "gear": [
+      "Schlepprute",
+      "Multirolle",
+      "Downrigger oder Planerboards",
+      "Schleppwobbler",
+      "Echolot",
+      "Rutenhalter"
+    ],
+    "baits": [
+      "Schleppwobbler",
+      "Blinker",
+      "Löffel",
+      "Köderfische",
+      "Pilker"
+    ],
+    "bestSeason": [
+      "April",
+      "Mai",
+      "Juni",
+      "September",
+      "Oktober",
+      "November"
+    ],
+    "steps": [
+      "Wähle Köder und Schlepptiefe passend zum Zielfisch und zur Wassertemperatur.",
+      "Bringe die Köder hinter dem Boot aus und stelle über Downrigger oder Wobblertyp die Tiefe ein.",
+      "Setze die Ruten in die Halter und fahre eine gleichmäßige, langsame Geschwindigkeit.",
+      "Suche entlang von Kanten, Krautfeldern und Schwärmen, die dir das Echolot anzeigt.",
+      "Variiere Tempo und Tiefe, bis du auf beißende Fische triffst.",
+      "Nimm bei einem Biss die Rute auf, drille den Fisch aus und kesche ihn sicher."
+    ],
+    "tips": [
+      "Decke mit mehreren Ruten verschiedene Tiefen gleichzeitig ab.",
+      "Passe die Schleppgeschwindigkeit an den Köderlauf und das Verhalten des Zielfisches an.",
+      "Nutze das Echolot, um produktive Tiefen und Strukturen gezielt abzufahren."
+    ],
+    "pros": [
+      "Große Wasserflächen werden effektiv abgesucht.",
+      "Gute Chancen auf besonders große Fische.",
+      "Mehrere Köder und Tiefen gleichzeitig im Einsatz."
+    ],
+    "cons": [
+      "Boot und teils Spezialgerät wie Downrigger nötig.",
+      "An vielen Binnengewässern bestehen Einschränkungen oder Verbote."
+    ],
+    "origin": "Das Schleppangeln ist eine traditionsreiche Bootsmethode, die sich von der Berufsfischerei bis zur modernen Sportfischerei entwickelt hat.",
+    "featured": false
+  },
+  {
+    "id": "spinnfischen",
+    "name": "Spinnfischen",
+    "nameEn": "Spin Fishing",
+    "category": "Spinnfischen",
+    "difficulty": "Einsteiger",
+    "tagline": "Aktives Angeln mit Kunstködern, bei dem durch ständiges Einholen ein flüchtendes Beutetier nachgeahmt wird.",
+    "description": "Spinnfischen ist die wohl populärste Methode des Raubfischangelns. Der Angler wirft einen Kunstköder aus und holt ihn mit der Rolle wieder ein, wobei Spinner, Blinker, Wobbler oder Gummiköder durch ihre Bewegung und Vibration einen flüchtenden Fisch imitieren.\n\nDie Methode ist mobil und abwechslungsreich, da der Angler das Gewässer aktiv absucht und immer wieder neue Stellen anwirft. Durch Variation von Einholgeschwindigkeit, Köderlauftiefe und Ködertyp lässt sich die Technik flexibel an Zielfisch und Bedingungen anpassen.\n\nSpinnfischen eignet sich für nahezu alle Raubfische und ist sowohl an kleinen Bächen als auch an großen Seen und im Meer erfolgreich. Wegen des überschaubaren Geräteaufwands ist es ein idealer Einstieg in das Raubfischangeln.",
+    "targetFish": [
+      "Hecht",
+      "Zander",
+      "Barsch",
+      "Rapfen",
+      "Döbel",
+      "Forellenbarsch"
+    ],
+    "waters": [
+      "Fluss",
+      "See",
+      "Talsperre",
+      "Kanal",
+      "Teich",
+      "Küste"
+    ],
+    "gear": [
+      "Spinnrute",
+      "Stationärrolle",
+      "geflochtene Schnur",
+      "Stahl- oder Fluorocarbonvorfach",
+      "Snap und Wirbel"
+    ],
+    "baits": [
+      "Spinner",
+      "Blinker",
+      "Wobbler",
+      "Gummifische",
+      "Spinnerbaits"
+    ],
+    "bestSeason": [
+      "März",
+      "April",
+      "Mai",
+      "September",
+      "Oktober",
+      "November"
+    ],
+    "steps": [
+      "Stelle eine zur Ködergröße passende Spinnrute mit Rolle und geeigneter Schnur zusammen.",
+      "Montiere ein Vorfach und befestige den Kunstköder über einen Snap.",
+      "Wirf den Köder gezielt an vielversprechende Strukturen wie Kanten, Krautfelder oder Hindernisse.",
+      "Lass den Köder je nach gewünschter Tiefe kurz absinken.",
+      "Hole gleichmäßig oder mit Variationen ein und imitiere so ein flüchtendes Beutetier.",
+      "Setze bei einem Biss sofort einen kräftigen Anhieb und drille den Fisch aus."
+    ],
+    "tips": [
+      "Wechsle bei Misserfolg Ködertyp, Farbe und Einholtempo, bis du den Reiz findest.",
+      "Suche aktiv neue Stellen ab, statt lange an einem Platz zu verharren.",
+      "Verwende beim Hechtangeln immer ein Stahlvorfach, um Abrisse zu vermeiden."
+    ],
+    "pros": [
+      "Aktive, abwechslungsreiche und spannende Angelei.",
+      "Geringer Geräteaufwand und schnelle Einsatzbereitschaft.",
+      "Auf viele Raubfischarten und Gewässer anwendbar."
+    ],
+    "cons": [
+      "Erfordert ständige Aufmerksamkeit und Bewegung.",
+      "Köderverluste an Hindernissen können ins Geld gehen."
+    ],
+    "origin": "Mit der Entwicklung leistungsfähiger Rollen und Kunstköder im 20. Jahrhundert entwickelte sich das Spinnfischen zur verbreitetsten Form des Raubfischangelns.",
+    "featured": true
+  },
+  {
+    "id": "spodding",
+    "name": "Spodding",
+    "nameEn": "Spodding",
+    "category": "Karpfenangeln",
+    "difficulty": "Fortgeschritten",
+    "tagline": "Präzises Großdistanz-Anfüttern mit dem Spod für Karpfenangler",
+    "description": "Spodding ist eine Anfütterungstechnik aus dem britischen Karpfenangeln, bei der eine raketenaeroförmige Metall- oder Kunststoffkapsel, der sogenannte „Spod“, mit Futter befüllt und auf weite Distanzen geworfen wird. Im Wasser öffnet sich der Spod automatisch und gibt das Futter punktgenau auf dem gewählten Futterpunkt frei. Diese Methode ist unverzichtbar, wenn größere Futtermengen auf Distanzen jenseits von 60 Metern platziert werden sollen.\n\nDie Spod-Technik erfordert eine speziell verstärkte Rute, da das Gesamtgewicht des gefüllten Spods erheblich ist und beim Aufprall auf das Wasser enorme Kräfte entstehen können. Geflochtene Schnur auf einer robusten Freerolle gewährleistet maximale Wurfweite und Präzision. Entscheidend ist, immer auf denselben Punkt zu werfen: Dazu wird die Schnur nach dem ersten Wurf markiert, um jeden weiteren Wurf auf genau dieselbe Distanz zu bringen.\n\nDas Futter für den Spod ist frei wählbar: Partikelmischungen aus Hanf, Tigernüssen, Mais und Pellets sind besonders beliebt. Spodding wird in der Regel vor dem eigentlichen Angeln eingesetzt, um zunächst eine attraktive Futterzone zu etablieren, dann die Montagen zu platzieren und die Karpfen auf den Punkt zu locken.",
+    "targetFish": [
+      "Karpfen",
+      "Graskarpfen",
+      "Schleie"
+    ],
+    "waters": [
+      "Große Seen",
+      "Karpfengewässer",
+      "Baggerseen",
+      "Stauseen"
+    ],
+    "gear": [
+      "Spod-Rute (3,9–4,2 m, bis 5+ oz Wurfgewicht)",
+      "Große Freirolle",
+      "Geflochtene Schnur 30–50 lb",
+      "Spod oder Marker-Spod",
+      "Schnurclip zur Distanzmarkierung"
+    ],
+    "baits": [
+      "Hanfsamen",
+      "Mais",
+      "Tigernüsse",
+      "Pellets",
+      "Boilies (zerkleinert)",
+      "Partikelmischungen"
+    ],
+    "bestSeason": [
+      "April",
+      "Mai",
+      "Juni",
+      "Juli",
+      "August",
+      "September",
+      "Oktober"
+    ],
+    "steps": [
+      "Angelplatz peilen und mit Bleiköder die Gewässerstruktur ertasten",
+      "Spod befüllen und den ersten Testwurf auf den gewählten Punkt ausführen",
+      "Schnur nach dem ersten Wurf mit Schnurclip an der Rolle markieren",
+      "Spod fünf bis zwanzig Mal auf denselben Punkt werfen, um Futterzone aufzubauen",
+      "Angelruten mit passenden Montagen auf exakt denselben Punkt werfen",
+      "Bissen abwarten und zwischendurch nachfüttern, um Karpfen in der Zone zu halten",
+      "Im Drill starke Karpfen ruhig führen und mit Landungsnetz sichern"
+    ],
+    "tips": [
+      "Immer zuerst mit einem Marker-Float die Tiefe und den Bodenuntergrund prüfen",
+      "Den Schnurclip immer am selben Rollenpunkt befestigen für reproduzierbare Distanz",
+      "Spod nicht zu voll füllen, um Wurfweite und Genauigkeit zu erhalten"
+    ],
+    "pros": [
+      "Ermöglicht präzises Anfüttern auf sehr große Distanzen",
+      "Große Futtermengen können effizient eingebracht werden",
+      "Schafft konzentrierte Futterzonen, die Karpfen zuverlässig anlocken"
+    ],
+    "cons": [
+      "Spezialausrüstung (Spod-Rute, Schnur) notwendig",
+      "Kann bei unruhigem Wasser oder Wind sehr anspruchsvoll werden",
+      "Häufiges Spodden kann Fische bei zu viel Lärm vorübergehend vergrämen"
+    ],
+    "featured": false
+  },
+  {
     "id": "stippangeln",
     "name": "Stippangeln",
     "nameEn": "Pole Fishing",
@@ -579,11 +1816,42 @@
     "difficulty": "Einsteiger",
     "tagline": "Angeln mit der Kopfrute ohne Rolle, bei dem der Köder punktgenau und feinfühlig präsentiert wird.",
     "description": "Beim Stippangeln wird mit einer langen Kopfrute ohne Rolle geangelt, an deren Spitze die Schnur direkt befestigt ist. Der Köder wird so sehr präzise an einen festen Punkt geführt und mit feinster Montage angeboten. Die direkte Verbindung zur Rute erlaubt eine äußerst sensible Bissanzeige und Köderkontrolle.\n\nKlassisch kommt eine leichte Pose zum Einsatz, deren feine Bebleiung selbst zaghafteste Bisse sichtbar macht. Da keine Rolle vorhanden ist, wird der Fisch über die elastische Rute und bei Wettkampfruten über ein eingebautes Gummi gedrillt. Diese Methode ist besonders beim gezielten Fang vieler kleiner Friedfische beliebt.\n\nStippangeln eignet sich hervorragend für Rotaugen, Brassen und andere Weißfische an ruhigen Gewässern und Kanälen. Es ist leicht zugänglich für Einsteiger und zugleich Grundlage des sportlichen Wettkampfangelns.",
-    "targetFish": ["Rotauge", "Brassen", "Barsch", "Schleie", "Döbel"],
-    "waters": ["Kanal", "See", "Teich", "Fluss"],
-    "gear": ["Stipp- oder Kopfrute", "feine Schnur", "leichte Pose", "Schrotblei", "kleine Haken", "Köderdose"],
-    "baits": ["Maden", "Caster", "Pinkies", "Mais", "Hanf"],
-    "bestSeason": ["April", "Mai", "Juni", "Juli", "August", "September"],
+    "targetFish": [
+      "Rotauge",
+      "Brassen",
+      "Barsch",
+      "Schleie",
+      "Döbel"
+    ],
+    "waters": [
+      "Kanal",
+      "See",
+      "Teich",
+      "Fluss"
+    ],
+    "gear": [
+      "Stipp- oder Kopfrute",
+      "feine Schnur",
+      "leichte Pose",
+      "Schrotblei",
+      "kleine Haken",
+      "Köderdose"
+    ],
+    "baits": [
+      "Maden",
+      "Caster",
+      "Pinkies",
+      "Mais",
+      "Hanf"
+    ],
+    "bestSeason": [
+      "April",
+      "Mai",
+      "Juni",
+      "Juli",
+      "August",
+      "September"
+    ],
     "steps": [
       "Wähle eine Stipprute, deren Länge zur gewünschten Angeldistanz passt.",
       "Montiere eine feine Pose und tariere sie mit Schrotbleien sorgfältig aus.",
@@ -610,6 +1878,340 @@
     "featured": false
   },
   {
+    "id": "streetfishing",
+    "name": "Streetfishing",
+    "nameEn": "Street Fishing",
+    "category": "Spinnfischen",
+    "difficulty": "Einsteiger",
+    "tagline": "Urban angeln – Raubfische in Stadtgewässern mit leichtem Spinngerät",
+    "description": "Streetfishing, zu Deutsch „Stadtangeln“, ist eine moderne Angelmethode, die das Angeln mit ultraleichtem Spinngerät (UL-Angeln) in städtischen Umgebungen beschreibt. Stadtkanäle, Hafenbecken, Flussufer in Innenstädten und Parkteiche werden zu attraktiven Angelrevieren. Die Methode erfordert wenig Ausrüstung, ist schnell zu erlernen und macht das Angeln auch für Menschen attraktiv, die keinen Zugang zu ländlichen Gewässern haben.\n\nTypisch für Streetfishing ist das Wandern: Angler bewegen sich zu Fuß am Gewässer entlang, probieren verschiedene Stellen und Köder aus und reagieren flexibel auf das, was das städtische Gewässer bietet. Kleine Gummifische, Micro-Jigs, Spinner und kleine Wobbler sind die Hauptköder. Zielarten sind vor allem Barsche, Döbel und Forellen, die überraschend häufig auch in städtischen Gewässern vorkommen.\n\nStreetfishing hat eine eigene Subkultur entwickelt, die Wert auf Mobilität, modisches Auftreten und das Finden unentdeckter Spots legt. Die Szene ist jung und wächst rasant – zahlreiche YouTube-Kanäle, Influencer und Wettbewerbe widmen sich ausschließlich dem Streetfishing. Für Stadtbewohner ist es ein idealer Einstieg in die Welt des Angelns.",
+    "targetFish": [
+      "Barsch",
+      "Döbel",
+      "Zander",
+      "Bachforelle",
+      "Rotauge"
+    ],
+    "waters": [
+      "Stadtkanäle",
+      "Stadtflüsse",
+      "Hafenbecken",
+      "Parkteiche",
+      "Bäche"
+    ],
+    "gear": [
+      "UL-Spinnrute 1,8–2,1 m (0,5–7 g)",
+      "Kleine Stationärrolle",
+      "Geflochtene Schnur 4–8 lb + Fluorocarbon-Vorfach",
+      "Kleiner Köderbox"
+    ],
+    "baits": [
+      "Micro-Jigs 1–5 g",
+      "Kleine Gummifische 2–5 cm",
+      "Mini-Wobbler",
+      "Micro-Spinner",
+      "Kleine Twister"
+    ],
+    "bestSeason": [
+      "März",
+      "April",
+      "Mai",
+      "Juni",
+      "Juli",
+      "August",
+      "September",
+      "Oktober"
+    ],
+    "steps": [
+      "Gewässer in der Stadt erkunden und auf Barschsprünge, Strukturen oder sichtbare Fische achten",
+      "Leichtes Spinnset aufbauen und passendes UL-Lure auswählen",
+      "Köder in Wassernähe von Brücken, Stegen, Uferkanten oder zwischen Strukturen einwerfen",
+      "Verschiedene Führungsgeschwindigkeiten und Pausen ausprobieren",
+      "Bei Biss sofort anschlagen und Fisch mit leichtem Gerät genießen",
+      "Spot wechseln, wenn nach 5–10 Würfen kein Erfolg eintritt",
+      "Stadtgewässer stets sauber hinterlassen und Müll mitnehmen"
+    ],
+    "tips": [
+      "Morgens früh oder abends spät angeln, wenn Stadtlärm geringer ist und Fische aktiver sind",
+      "Unter Brücken und neben Einleitstellen sind oft besonders viele Fische zu finden",
+      "Immer den aktuellen Angelschein mitführen – auch in Stadtgewässern ist er Pflicht"
+    ],
+    "pros": [
+      "Kein Auto oder weite Anreise nötig – Gewässer direkt vor der Haustür",
+      "Minimale Ausrüstung, geringes Gewicht, hohe Mobilität",
+      "Begeistert auch Nicht-Angler und Kinder für das Angeln"
+    ],
+    "cons": [
+      "Stadtgewässer können stärker mit Schadstoffen belastet sein",
+      "Öffentliche Zugangsbereiche sind oft begrenzt oder eingezäunt",
+      "Stadtlärm und Trubel können das klassische Naturerlebnis mindern"
+    ],
+    "featured": false
+  },
+  {
+    "id": "tenkara",
+    "name": "Tenkara",
+    "nameEn": "Tenkara",
+    "category": "Fliegenfischen",
+    "difficulty": "Einsteiger",
+    "tagline": "Traditionelles japanisches Bergbachfischen mit Steckrute ohne Rolle",
+    "description": "Tenkara ist eine jahrhundertealte japanische Angeltechnik, die ihren Ursprung in den Bergregionen Japans hat, wo Fischer in klaren, schnellen Bächen auf Forellen angelten. Das Grundprinzip ist bestechend einfach: Eine leichte Teleskopsteckrute von 3 bis 5 Metern, eine festgelegte Schnurlänge ohne Rolle und eine einzige Fliege – das ist die gesamte Ausrüstung.\n\nDie Schlichtheit ist dabei gleichzeitig Stärke und Philosophie. Ohne Rolle entfällt das komplexe Schnurmanagement des klassischen Fliegenfischens. Der Angler konzentriert sich vollständig auf die Wasserlesung, die Köderführung und das Präsentieren der Fliege. Die typische Tenkara-Technik beinhaltet ein leichtes Pulsieren der Rutenspitze, das der Fliege eine lebendige, tanzende Bewegung verleiht.\n\nTenkara ist in Japan als eigenständige Kunstform und Meditationspraxis verankert. Weltweit gewinnt die Methode unter Backpacking-Anglern und Minimalisten an Beliebtheit, da die gesamte Ausrüstung in eine kleine Hülle passt und praktisch kein Gewicht hat. Für Einsteiger im Fliegenfischen bietet Tenkara einen charmanten und unkomplizierten Einstieg.",
+    "targetFish": [
+      "Bachforelle",
+      "Regenbogenforelle",
+      "Aeschen",
+      "Bergforellen"
+    ],
+    "waters": [
+      "Bergbäche",
+      "Kleine Flüsse",
+      "Klare Bäche"
+    ],
+    "gear": [
+      "Tenkara-Rute 3–4,5 m (Teleskop)",
+      "Tenkara-Schnur (Furled Line oder Level Line)",
+      "Tippet",
+      "Keine Rolle"
+    ],
+    "baits": [
+      "Kebari (Tenkara-Fliege)",
+      "Sakasa Kebari",
+      "Nassen Fliegen",
+      "Trockenfliegen"
+    ],
+    "bestSeason": [
+      "April",
+      "Mai",
+      "Juni",
+      "Juli",
+      "August",
+      "September"
+    ],
+    "steps": [
+      "Rute auseinanderziehen und Schnur an der Rutenspitze befestigen",
+      "Tippet und Fliege an das Schnurende knoten",
+      "Position unterhalb eines vielversprechenden Einstandsbereichs einnehmen",
+      "Fliege mit einem weichen Handgelenkswurf an die Zielstelle befördern",
+      "Fliege durch leichtes Wippen der Rute lebendig führen oder frei driften lassen",
+      "Biss durch Ziehen der Schnur oder Zucken der Rutenspitze erkennen und anschlagen",
+      "Kleinen Fisch direkt an die Hand heben und behutsam zurücksetzen"
+    ],
+    "tips": [
+      "Die Schnurlänge sollte der Rutenläng entsprechen – zu lange Schnur macht die Kontrolle schwierig",
+      "Im Bergbach immer strömungsaufwärts vorgehen, um keine Fische zu verschrecken",
+      "Weniger ist mehr: eine einzige vertrauenswürdige Fliegenmuster reicht für einen ganzen Tag"
+    ],
+    "pros": [
+      "Minimale Ausrüstung – ideal für Wandertouren und Rucksackreisen",
+      "Einfacher Einstieg in das Fliegenfischen ohne komplexes Schnurmanagement",
+      "Tiefe Verbindung zur japanischen Fischereitradition"
+    ],
+    "cons": [
+      "Begrenzte Reichweite durch feste Schnurlänge ohne Rolle",
+      "Nicht für große oder tiefe Gewässer geeignet",
+      "Große Fische lassen sich ohne Rollenbremse schwer abdrillen"
+    ],
+    "featured": false
+  },
+  {
+    "id": "twitchen",
+    "name": "Twitchen",
+    "nameEn": "Twitching",
+    "category": "Spinnfischen",
+    "difficulty": "Fortgeschritten",
+    "tagline": "Köderführung mit kurzen Rutenschlägen, die dem Wobbler ein unregelmäßiges, ausbrechendes Laufverhalten verleiht.",
+    "description": "Beim Twitchen wird ein meist flach laufender Wobbler durch kurze, ruckartige Schläge mit der Rutenspitze in Bewegung gesetzt. Anders als beim gleichmäßigen Einholen bricht der Köder dabei seitlich aus, dreht ab und verharrt zwischendurch, was einen verletzten, orientierungslosen Beutefisch täuschend echt nachahmt. Gerade in den Stoppphasen erfolgen viele Bisse.\n\nBesonders gut geeignet sind Suspending- oder Jerk-ähnliche Wobbler, die nach dem Twitch in der Schwebe verharren. Die Rute wird tief geführt und mit dem Handgelenk kurz angeschlagen, während mit der Rolle nur die durchhängende Schnur aufgenommen wird. Tempo und Härte der Schläge bestimmen das Laufbild des Köders.\n\nGetwitcht wird vor allem auf Hecht, Barsch und Rapfen im Flachwasser und an Kanten. Die Methode ist sehr reizstark und überzeugt oft Fische, die auf gleichförmig geführte Köder nicht reagieren.",
+    "targetFish": [
+      "Hecht",
+      "Barsch",
+      "Rapfen",
+      "Zander",
+      "Forellenbarsch"
+    ],
+    "waters": [
+      "See",
+      "Fluss",
+      "Kanal",
+      "Talsperre",
+      "Teich"
+    ],
+    "gear": [
+      "Spinnrute mit straffer Spitze",
+      "Stationärrolle",
+      "geflochtene Schnur",
+      "Twitchbaits",
+      "Stahlvorfach bei Hecht"
+    ],
+    "baits": [
+      "Suspending-Wobbler",
+      "Minnows",
+      "Jerkbaits",
+      "Twitchbaits"
+    ],
+    "bestSeason": [
+      "April",
+      "Mai",
+      "Juni",
+      "September",
+      "Oktober",
+      "November"
+    ],
+    "steps": [
+      "Wähle einen twitchbaren Wobbler, idealerweise mit Suspending-Eigenschaft.",
+      "Wirf den Köder an Strukturen wie Krautkanten, Hindernisse oder Flachwasser.",
+      "Führe die Rute tief und gib mit dem Handgelenk kurze, ruckartige Schläge.",
+      "Nimm zwischen den Schlägen mit der Rolle nur die durchhängende Schnur auf.",
+      "Lege immer wieder kurze Stopps ein, in denen der Köder verführerisch verharrt.",
+      "Schlage bei einem Biss sofort an, da dieser oft genau in der Stoppphase erfolgt."
+    ],
+    "tips": [
+      "Plane bewusst Stopps ein, denn viele Bisse erfolgen im Stillstand des Köders.",
+      "Passe Härte und Tempo der Schläge an, bis der Köder attraktiv ausbricht.",
+      "Verwende beim Hechtangeln ein Stahlvorfach, um Abrisse zu verhindern."
+    ],
+    "pros": [
+      "Sehr reizstarkes, unregelmäßiges Laufbild.",
+      "Überzeugt oft Fische, die gleichförmige Köder ignorieren.",
+      "Spannende und abwechslungsreiche aktive Führung."
+    ],
+    "cons": [
+      "Köderführung erfordert Übung und Konzentration.",
+      "Auf Dauer für das Handgelenk ermüdend."
+    ],
+    "origin": "Das Twitchen entwickelte sich aus dem amerikanischen Schwarzbarschangeln und verbreitete sich als reizstarke Wobblerführung auf viele Raubfische.",
+    "featured": false
+  },
+  {
+    "id": "vertikalangeln",
+    "name": "Vertikalangeln",
+    "nameEn": "Vertical Jigging",
+    "category": "Raubfischangeln",
+    "difficulty": "Fortgeschritten",
+    "tagline": "Senkrechtes Führen des Köders direkt unter dem Boot, ideal zum gezielten Beangeln tiefer Standplätze.",
+    "description": "Beim Vertikalangeln wird der Köder vom Boot aus senkrecht unter der Rute angeboten und durch Heben und Senken der Rutenspitze verführerisch in Bewegung gehalten. Diese Technik erlaubt es, Fische punktgenau in der Tiefe und an Kanten zu beangeln, die vom Ufer aus kaum erreichbar sind.\n\nUnverzichtbar ist meist ein Echolot, mit dem Standplätze und einzelne Fische lokalisiert und der Köderlauf kontrolliert werden. Das Boot wird langsam über die Struktur treiben gelassen oder mit einem Elektromotor positioniert. Bisse werden durch den direkten Kontakt zum Köder sehr feinfühlig wahrgenommen.\n\nVertikalangeln ist besonders auf Zander und Barsch in tiefen Flüssen und Seen erfolgreich, fängt aber auch Hechte. Es zählt zu den effektivsten modernen Methoden des Raubfischangelns vom Boot.",
+    "targetFish": [
+      "Zander",
+      "Barsch",
+      "Hecht",
+      "Quappe"
+    ],
+    "waters": [
+      "Fluss",
+      "See",
+      "Talsperre",
+      "Kanal"
+    ],
+    "gear": [
+      "kurze Vertikalrute",
+      "Stationär- oder Baitcastrolle",
+      "geflochtene Schnur",
+      "Echolot",
+      "Bootspositionierung"
+    ],
+    "baits": [
+      "Gummifische",
+      "Jigs",
+      "Twister",
+      "Vertikalköder"
+    ],
+    "bestSeason": [
+      "Oktober",
+      "November",
+      "Dezember",
+      "Januar",
+      "Februar",
+      "März"
+    ],
+    "steps": [
+      "Lokalisiere mit dem Echolot Fische oder vielversprechende Strukturen am Grund.",
+      "Positioniere das Boot ruhig über dem Standplatz oder lasse es langsam darüber treiben.",
+      "Lasse den Köder senkrecht bis zum Grund ab und nimm den Bodenkontakt auf.",
+      "Halte den Köder knapp über Grund und führe ihn mit kleinen Hebebewegungen der Rute.",
+      "Beobachte das Echolot und passe die Köderhöhe an die angezeigten Fische an.",
+      "Setze bei jedem Zupfen oder plötzlicher Entlastung sofort den Anhieb."
+    ],
+    "tips": [
+      "Halte den ständigen Kontakt zum Köder, um auch feine Bisse zu erkennen.",
+      "Nutze einen Elektromotor, um das Boot langsam und leise über die Struktur zu führen.",
+      "Variiere Hubhöhe und Tempo, bis du die fangende Bewegung gefunden hast."
+    ],
+    "pros": [
+      "Sehr präzises Beangeln tiefer und schwer erreichbarer Stellen.",
+      "Extrem feinfühlige Bissanzeige durch direkten Köderkontakt.",
+      "Hohe Effektivität auf Zander und Barsch."
+    ],
+    "cons": [
+      "Nur vom Boot aus möglich.",
+      "Echolot und Bootsführung erfordern Erfahrung."
+    ],
+    "origin": "Vertikalangeln verbreitete sich mit dem Aufkommen erschwinglicher Echolote und gehört heute zum festen Repertoire der Bootsangler.",
+    "featured": false
+  },
+  {
+    "id": "waller-klopfen",
+    "name": "Waller-Klopfen",
+    "nameEn": "Catfish Calling (Clooping)",
+    "category": "Raubfischangeln",
+    "difficulty": "Fortgeschritten",
+    "tagline": "Akustisches Anlocken von Welsen durch rhythmisches Klopfen an der Wasseroberfläche",
+    "description": "Das Waller-Klopfen ist eine faszinierende und uralte Fangtechnik speziell für Europäische Welse, die auf dem akustischen Sinnesorgan dieser Fische basiert. Mit einem keulenförmigen Holzklotz, dem sogenannten „Klopfholz“, werden rhythmische, blasige Schläge auf die Wasseroberfläche ausgeführt, die einen Sog und ein charakteristisches Blubb-Geräusch erzeugen. Dieses Geräusch ahmt das Platschen von Fröschen nach, die ins Wasser springen – eine natürliche Beute des Welses.\n\nWelse nehmen diese niederfrequenten Schallwellen über ihr hochentwickeltes Seitenlinienorgan wahr und werden dadurch aus größerer Entfernung angelockt. Der Köder – meist ein lebender Frosch (wo erlaubt), ein toter Frosch, eine Gummifrosch-Imitation oder ein großer Wobbler – wird direkt an der Oberfläche präsentiert. Die Kombination aus Geräusch und sichtbarem Köder provoziert selbst tagsüber starke Bisse.\n\nDiese Technik eignet sich besonders in den Sommermonaten, wenn Welse aktiv auf Nahrungssuche sind. Typischerweise wird sie vom Boot aus in flachen Uferbereichen, unter Weidenbäumen oder neben Seerosen angewendet. Waller-Klopfen gilt als sportlich anspruchsvoll und erfordert Fingerspitzengefühl beim Klopfrhythmus sowie Geduld.",
+    "targetFish": [
+      "Wels",
+      "Europäischer Wels"
+    ],
+    "waters": [
+      "Flüsse",
+      "Seen",
+      "Altwasser",
+      "Stillgewässer mit Struktur"
+    ],
+    "gear": [
+      "Waller-Klopfholz",
+      "Schwere Spinnrute oder Wallrute 2,4–3 m",
+      "Multirolle",
+      "Starke Schnur 0,5–0,8 mm oder Geflochtene",
+      "Großhaken Gr. 2/0–5/0"
+    ],
+    "baits": [
+      "Gummifrosch",
+      "Toter Frosch",
+      "Großer Wobbler",
+      "Gummiköder in Froschfarben"
+    ],
+    "bestSeason": [
+      "Mai",
+      "Juni",
+      "Juli",
+      "August",
+      "September"
+    ],
+    "steps": [
+      "Boot lautlos in Uferstrukturgewässer positionieren – Weiden, Seerosen, überhängende Bäume",
+      "Klopfholz mit flacher, nach vorne kippender Bewegung rhythmisch auf die Oberfläche schlagen (ca. 1 Schlag/Sekunde)",
+      "Köder direkt am Boot oder zwischen den Schlägen nahe der Oberfläche präsentieren",
+      "Pause einlegen und beobachten, ob Wels zur Oberfläche aufsteigt",
+      "Bei Biss Schnur straff nehmen und kraftvoll anschlagen",
+      "Großen Wels ruhig und gleichmäßig drillen, keinen abrupten Zug ausüben",
+      "Fisch mit Wallersack oder großem Kescher sichern"
+    ],
+    "tips": [
+      "Der Rhythmus des Klopfens ist entscheidend – zu schnell schreckt Welse ab, zu langsam bleibt ohne Wirkung",
+      "An warmen Sommerabenden kurz nach Sonnenuntergang sind die Ergebnisse am besten",
+      "Leiser Motorstart vermeiden – Außenborderlärm vertreibt Welse sofort"
+    ],
+    "pros": [
+      "Einzigartige, aktive Methode mit hohem Adrenalingehalt",
+      "Wirksam auch tagsüber für sonst scheue Großwelse",
+      "Kein aufwendiges Grundfuttern nötig"
+    ],
+    "cons": [
+      "Lärm kann andere Angler am Gewässer stören",
+      "Frösche als Lebendköder in Deutschland verboten",
+      "Benötigt Bootsausstattung und ruhige Gewässerverhältnisse"
+    ],
+    "featured": false
+  },
+  {
     "id": "wallerangeln",
     "name": "Wallerangeln",
     "nameEn": "Catfish Fishing",
@@ -617,11 +2219,37 @@
     "difficulty": "Profi",
     "tagline": "Spezialisiertes Angeln auf den Wels, den größten heimischen Raubfisch, mit kräftigem Gerät und besonderen Methoden.",
     "description": "Das Wallerangeln richtet sich auf den Wels, der als größter heimischer Raubfisch beeindruckende Ausmaße erreichen kann. Entsprechend kräftig fällt das Gerät aus, denn nur stabile Ruten, starke Rollen und dicke Schnüre halten den enormen Kräften eines kapitalen Welses stand. Die Fische jagen vorwiegend in der Dämmerung und nachts.\n\nZum Einsatz kommen Methoden wie das Ansitzangeln mit Köderfisch am Grund, das Vertikalangeln vom Boot oder das Klopfen mit dem Holz, das gezielt akustische Reize setzt. Als Köder dienen große Köderfische, Tauwurmbündel oder Kalmare. Wegen der Größe und Kampfkraft der Fische ist eine durchdachte Ausrüstung unverzichtbar.\n\nGeangelt wird vor allem in großen Flüssen, Stauseen und tiefen Seen. Das Wallerangeln verlangt Erfahrung, Geduld und Respekt vor dem Fisch, belohnt aber mit dem Drill außergewöhnlich großer Gegner.",
-    "targetFish": ["Wels"],
-    "waters": ["Fluss", "See", "Talsperre", "Kanal"],
-    "gear": ["kräftige Wallerrute", "starke Multirolle", "dicke geflochtene Schnur", "Hardmono-Vorfach", "große Haken", "U-Pose oder Unterwasserpose", "Klopfholz"],
-    "baits": ["große Köderfische", "Tauwurmbündel", "Kalmare", "Leber"],
-    "bestSeason": ["Mai", "Juni", "Juli", "August", "September"],
+    "targetFish": [
+      "Wels"
+    ],
+    "waters": [
+      "Fluss",
+      "See",
+      "Talsperre",
+      "Kanal"
+    ],
+    "gear": [
+      "kräftige Wallerrute",
+      "starke Multirolle",
+      "dicke geflochtene Schnur",
+      "Hardmono-Vorfach",
+      "große Haken",
+      "U-Pose oder Unterwasserpose",
+      "Klopfholz"
+    ],
+    "baits": [
+      "große Köderfische",
+      "Tauwurmbündel",
+      "Kalmare",
+      "Leber"
+    ],
+    "bestSeason": [
+      "Mai",
+      "Juni",
+      "Juli",
+      "August",
+      "September"
+    ],
     "steps": [
       "Suche tiefe Gumpen, Kolke oder unterspülte Bereiche, an denen Welse stehen.",
       "Wähle eine Methode wie Grundmontage mit Köderfisch, Unterwasserpose oder Vertikalangeln.",
@@ -649,193 +2277,72 @@
     "featured": false
   },
   {
-    "id": "matchangeln",
-    "name": "Matchangeln",
-    "nameEn": "Match Fishing",
-    "category": "Friedfischangeln",
-    "difficulty": "Fortgeschritten",
-    "tagline": "Posenangeln auf Distanz mit der Matchrute, optimiert für weite Würfe und feine Präsentation.",
-    "description": "Das Matchangeln ist eine spezialisierte Form des Posenangelns mit der langen, feinen Matchrute und kleiner Rolle. Mit speziellen Waggler-Posen lassen sich weite und präzise Würfe erzielen, um auch entfernte Futterplätze sauber zu beangeln. Die Methode verbindet die feine Bissanzeige der Pose mit der Reichweite einer Rolle.\n\nCharakteristisch ist die durchdachte Futterstrategie, bei der der Platz mit Futterkugeln oder über ein Futterrohr regelmäßig versorgt wird. Über die Wahl und Bebleiung des Wagglers steuert man Wurfweite und Sinkverhalten des Köders. So lassen sich Friedfische gezielt in jeder Wasserschicht beangeln.\n\nMatchangeln stammt aus dem englischen Wettkampfangeln und wird heute auf Rotaugen, Brassen und andere Weißfische an Seen und Kanälen betrieben. Es verlangt Übung im Wurf und beim Anfüttern, ist aber sehr effektiv und sportlich.",
-    "targetFish": ["Rotauge", "Brassen", "Schleie", "Barsch", "Karpfen"],
-    "waters": ["See", "Kanal", "Talsperre", "Teich"],
-    "gear": ["Matchrute", "Matchrolle", "Waggler-Posen", "feine Schnur", "Schrotblei", "kleine Haken"],
-    "baits": ["Maden", "Caster", "Mais", "Pinkies", "Hanf"],
-    "bestSeason": ["April", "Mai", "Juni", "Juli", "August", "September", "Oktober"],
+    "id": "zocken",
+    "name": "Zocken",
+    "nameEn": "Jig Fishing (German Style)",
+    "category": "Raubfischangeln",
+    "difficulty": "Einsteiger",
+    "tagline": "Klassisches Hecht- und Zanderangeln mit großen Gummifischen am Jighaken",
+    "description": "Das Zocken ist eine im deutschen Sprachraum verbreitete Bezeichnung für das Angeln mit großen Gummifischen, die auf einem Jighaken oder Bleikopf montiert werden. Im Unterschied zum Jigg­en – das eher tänzelnde, aktive Führungssequenzen meint – steht beim Zocken die langsame, bodennah geführte Präsentation im Vordergrund. Der Name leitet sich vom langsamen „Zuckeln“ oder „Zocken“ der Rute ab.\n\nZielarten sind in erster Linie Hecht und Zander, die große Gummifische als wirkungsvolle Beute ansehen. Typische Köder sind Shads von 12 bis 25 cm Länge auf Bleikopf-Jighaken von 20 bis 60 Gramm, je nach Gewässertiefe und Strömung. Der Köder wird ausgeworfen, absinken gelassen und dann in langsamen, gleichmäßigen Zügen am Boden entlang geführt – mit kurzen Pausen, in denen er auf den Grund absinkt.\n\nZocken ist eine der erfolgreichsten Methoden für das Zanderangeln in der Dämmerung und Nacht, wenn diese Fische aktiv auf Beutesuche gehen. Die Technik erfordert keine hohe Grundangel-Erfahrung und ist damit auch für Einsteiger im Spinnfischen gut geeignet. Entscheidend sind die Gewässerkenntnisse und das Wissen über Strukturen, an denen Raubfische stehen.",
+    "targetFish": [
+      "Zander",
+      "Hecht",
+      "Barsch",
+      "Wels"
+    ],
+    "waters": [
+      "Seen",
+      "Flüsse",
+      "Kanäle",
+      "Stauseen",
+      "Baggerseen"
+    ],
+    "gear": [
+      "Spinnrute 2,4–2,7 m (10–50 g)",
+      "Multirolle oder Stationärrolle",
+      "Geflochtene Schnur 15–30 lb",
+      "Stahlvorfach oder Fluorocarbon",
+      "Jigköpfe 15–50 g"
+    ],
+    "baits": [
+      "Große Shads 12–20 cm",
+      "Twister",
+      "Paddle-Tail-Shads",
+      "Krebs-Imitationen"
+    ],
+    "bestSeason": [
+      "März",
+      "April",
+      "Oktober",
+      "November",
+      "Dezember",
+      "Januar",
+      "Februar"
+    ],
     "steps": [
-      "Wähle einen Waggler passend zu Wurfweite und Wassertiefe und montiere ihn fest.",
-      "Tariere die Pose über die Bebleiung exakt aus.",
-      "Suche einen klaren Zielpunkt und merke dir die Wurfdistanz.",
-      "Füttere die Stelle mit Futterkugeln oder über ein Futterrohr an.",
-      "Wirf zielgenau an den Futterplatz und tauche die Schnur unter, um Wind und Strömung auszugleichen.",
-      "Schlage bei sauberem Abtauchen des Wagglers mit gestreckter Schnur zügig an."
+      "Strukturreiche Bereiche peilen: Kanten, Gräben, Strömungsschatten, Brückenpfeiler",
+      "Jig mit passendem Gewicht für die Gewässertiefe wählen",
+      "Köder weitwürfig auswerfen und vollständig absinken lassen",
+      "Rute langsam anheben und Jig damit vom Boden lösen, dann absinken lassen",
+      "Bisse häufig im Absinken ertasten – bei Ruck oder Widerstand anschlagen",
+      "Fisch mit gleichmäßigem Drill zum Boot oder Ufer führen",
+      "Beißholz oder Muilkorb verwenden, wenn Hecht gelandet wird"
     ],
     "tips": [
-      "Tauche nach dem Wurf die Schnur unter, damit Wind und Oberflächendrift sie nicht verziehen.",
-      "Wirf konsequent denselben Punkt an, um den Futterplatz zu konzentrieren.",
-      "Passe die Wagglergröße an Wurfweite und Wind an."
+      "Beim Zander nachts und in der Dämmerung angeln, wenn die Fische aktiver und kühner sind",
+      "Jig nicht zu schnell führen – Zander reagieren am besten auf sehr langsame Präsentation",
+      "Wechsel der Shad-Farbe nach 20 Minuten ohne Biss kann die Situation verändern"
     ],
     "pros": [
-      "Feine Posenpräsentation auch auf große Distanz.",
-      "Weite und präzise Würfe möglich.",
-      "Sehr effektiv und sportlich anspruchsvoll."
+      "Einfach zu erlernende Grundtechnik für viele Raubfischarten",
+      "Großer Köder selektiert gezielt große Raubfische",
+      "Günstige Ausrüstungskosten im Vergleich zu anderen Spinnmethoden"
     ],
     "cons": [
-      "Wurf und Schnurkontrolle erfordern Übung.",
-      "Bei starkem Wind anspruchsvoll zu handhaben."
+      "Bei starker Strömung schwer den richtigen Jig-Kontakt am Boden zu halten",
+      "Häufige Hakenver­luste an steinigem oder verholztem Boden",
+      "Weniger effektiv in klarem Wasser und bei Hoch­druck-Wetterlage"
     ],
-    "origin": "Das Matchangeln entstand im englischen Wettkampfangeln und ist nach den dort ausgetragenen Matches benannt.",
-    "featured": false
-  },
-  {
-    "id": "faulenzermethode",
-    "name": "Faulenzermethode",
-    "nameEn": "Faulenzer Method",
-    "category": "Spinnfischen",
-    "difficulty": "Fortgeschritten",
-    "tagline": "Gummiköderführung über Kurbelumdrehungen statt Rutenbewegung, bei der die Rute ruhig bleibt.",
-    "description": "Die Faulenzermethode ist eine Variante der Gummiköderführung, bei der der Köder nicht über die Rute, sondern allein über definierte Kurbelumdrehungen angehoben wird. Nach jeder kurzen Kurbelphase senkt sich der Köder wieder zum Grund, wo wie beim Jiggen die meisten Bisse erfolgen. Die Rute bleibt dabei ruhig in einer Position.\n\nDer große Vorteil liegt in der gleichmäßigen, gut kontrollierbaren Führung und der entspannten Handhabung, die der Methode ihren Namen gibt. Über die Anzahl der Kurbelumdrehungen steuert man Sprunghöhe und Tempo des Köders sehr präzise. Bisse werden über die straffe Schnur und die ruhige Rutenspitze sicher erkannt.\n\nDie Faulenzermethode wird vor allem auf Zander, Barsch und Hecht in tieferen Gewässern eingesetzt. Sie gilt als leicht erlernbare und zugleich sehr fängige Alternative zur klassischen Jigge.",
-    "targetFish": ["Zander", "Barsch", "Hecht", "Rapfen"],
-    "waters": ["Fluss", "See", "Kanal", "Talsperre"],
-    "gear": ["Spinnrute mit straffer Spitze", "Stationärrolle", "geflochtene Schnur", "Jigköpfe", "Gummiköder"],
-    "baits": ["Gummifische", "Shads", "Twister"],
-    "bestSeason": ["April", "Mai", "September", "Oktober", "November", "Dezember"],
-    "steps": [
-      "Wähle einen Jigkopf passend zu Tiefe und Strömung und köder den Gummifisch sauber an.",
-      "Wirf den Köder aus und lasse ihn an gespannter Schnur bis zum Grund sinken.",
-      "Halte die Rute ruhig und drehe ein bis zwei zügige Kurbelumdrehungen.",
-      "Stoppe das Kurbeln und lasse den Köder kontrolliert wieder zum Grund absinken.",
-      "Erkenne das Aufsetzen am Durchhang der Schnur und beginne die nächste Kurbelphase.",
-      "Setze bei jedem Zupfer oder ausbleibendem Bodenkontakt sofort den Anhieb."
-    ],
-    "tips": [
-      "Zähle die Kurbelumdrehungen, um die fängige Sprunghöhe gezielt zu wiederholen.",
-      "Achte auf den Moment des Absinkens, denn dort beißen die meisten Fische.",
-      "Halte die Rute ruhig und überlasse die Köderführung der Rolle."
-    ],
-    "pros": [
-      "Sehr gleichmäßige und kontrollierte Köderführung.",
-      "Leicht zu erlernen und ermüdungsarm.",
-      "Sehr fängig auf Grundräuber wie Zander."
-    ],
-    "cons": [
-      "Wirkt am besten in tieferem Wasser mit klarem Bodenkontakt.",
-      "Hängergefahr an stark strukturiertem Grund."
-    ],
-    "origin": "Die Faulenzermethode wurde im deutschsprachigen Raum populär gemacht und ist nach der entspannten, rutenruhigen Führung benannt.",
-    "featured": false
-  },
-  {
-    "id": "meerforellenangeln",
-    "name": "Meerforellenangeln",
-    "nameEn": "Sea Trout Fishing",
-    "category": "Spinnfischen",
-    "difficulty": "Fortgeschritten",
-    "tagline": "Spinnfischen auf die silberne Meerforelle entlang der Küste, oft als ausdauernde Watangelei.",
-    "description": "Das Meerforellenangeln gilt vielen Küstenanglern als faszinierende Königsdisziplin. Watend oder vom Ufer aus wirft man Küstenwobbler, Blinker oder Fliegen entlang der flachen Küstenabschnitte und sucht die blanken Fische über weite Strecken. Die silberne Meerforelle ist ein kampfstarker und anspruchsvoller Gegner.\n\nErfolg verlangt Ausdauer und das Wissen um die richtigen Plätze, denn die Fische ziehen entlang von Steinfeldern, Sandbänken und Strömungskanten. Lange Würfe, eine variantenreiche Köderführung und das Absuchen vieler Stellen sind entscheidend. Häufig sind die Übergangszeiten im Frühjahr und Herbst sowie kühlere Wassertemperaturen besonders fängig.\n\nGeangelt wird vor allem an der Ostseeküste, sowohl mit der Spinnrute als auch mit der Fliege. Die Kombination aus Naturerlebnis, Bewegung und der Aussicht auf einen kapitalen Fisch macht den besonderen Reiz dieser Methode aus.",
-    "targetFish": ["Meerforelle", "Hornhecht"],
-    "waters": ["Küste", "Brackwasser", "Mündung", "Meer"],
-    "gear": ["lange Küstenspinnrute", "Stationärrolle", "Wathose", "Watjacke", "Küstenwobbler und Blinker", "Polarisationsbrille"],
-    "baits": ["Küstenwobbler", "Küstenblinker", "Springer", "Fliegen"],
-    "bestSeason": ["März", "April", "Mai", "Oktober", "November"],
-    "steps": [
-      "Suche aussichtsreiche Küstenabschnitte mit Steinfeldern, Sandbänken und Strömungskanten.",
-      "Wate vorsichtig so weit ein, dass du die Fischzonen mit weiten Würfen erreichst.",
-      "Wirf den Köder fächerförmig aus, um den Bereich systematisch abzusuchen.",
-      "Variiere Einholtempo und führe den Köder mit gelegentlichen Stopps und Spins.",
-      "Wechsle regelmäßig die Stelle und suche so aktiv die ziehenden Fische.",
-      "Setze beim Biss einen sicheren Anhieb und drille die kampfstarke Forelle vorsichtig aus."
-    ],
-    "tips": [
-      "Sei mobil und suche viele Stellen ab, denn die Fische ziehen entlang der Küste.",
-      "Eine Polarisationsbrille hilft, Strukturen und Fische im Wasser zu erkennen.",
-      "Passe Köderfarbe und Tempo an Licht, Wasserfarbe und Jahreszeit an."
-    ],
-    "pros": [
-      "Aktive, naturnahe Angelei mit viel Bewegung.",
-      "Chance auf einen kampfstarken Edelfisch.",
-      "Vom Ufer beziehungsweise watend ohne Boot möglich."
-    ],
-    "cons": [
-      "Oft viele Würfe und Stellenwechsel bis zum Erfolg.",
-      "Watangeln verlangt geeignete Ausrüstung und Vorsicht."
-    ],
-    "origin": "Das Meerforellenangeln hat besonders an der Ostseeküste eine starke Tradition und entwickelte sich zur populären Küstendisziplin.",
-    "featured": false
-  },
-  {
-    "id": "twitchen",
-    "name": "Twitchen",
-    "nameEn": "Twitching",
-    "category": "Spinnfischen",
-    "difficulty": "Fortgeschritten",
-    "tagline": "Köderführung mit kurzen Rutenschlägen, die dem Wobbler ein unregelmäßiges, ausbrechendes Laufverhalten verleiht.",
-    "description": "Beim Twitchen wird ein meist flach laufender Wobbler durch kurze, ruckartige Schläge mit der Rutenspitze in Bewegung gesetzt. Anders als beim gleichmäßigen Einholen bricht der Köder dabei seitlich aus, dreht ab und verharrt zwischendurch, was einen verletzten, orientierungslosen Beutefisch täuschend echt nachahmt. Gerade in den Stoppphasen erfolgen viele Bisse.\n\nBesonders gut geeignet sind Suspending- oder Jerk-ähnliche Wobbler, die nach dem Twitch in der Schwebe verharren. Die Rute wird tief geführt und mit dem Handgelenk kurz angeschlagen, während mit der Rolle nur die durchhängende Schnur aufgenommen wird. Tempo und Härte der Schläge bestimmen das Laufbild des Köders.\n\nGetwitcht wird vor allem auf Hecht, Barsch und Rapfen im Flachwasser und an Kanten. Die Methode ist sehr reizstark und überzeugt oft Fische, die auf gleichförmig geführte Köder nicht reagieren.",
-    "targetFish": ["Hecht", "Barsch", "Rapfen", "Zander", "Forellenbarsch"],
-    "waters": ["See", "Fluss", "Kanal", "Talsperre", "Teich"],
-    "gear": ["Spinnrute mit straffer Spitze", "Stationärrolle", "geflochtene Schnur", "Twitchbaits", "Stahlvorfach bei Hecht"],
-    "baits": ["Suspending-Wobbler", "Minnows", "Jerkbaits", "Twitchbaits"],
-    "bestSeason": ["April", "Mai", "Juni", "September", "Oktober", "November"],
-    "steps": [
-      "Wähle einen twitchbaren Wobbler, idealerweise mit Suspending-Eigenschaft.",
-      "Wirf den Köder an Strukturen wie Krautkanten, Hindernisse oder Flachwasser.",
-      "Führe die Rute tief und gib mit dem Handgelenk kurze, ruckartige Schläge.",
-      "Nimm zwischen den Schlägen mit der Rolle nur die durchhängende Schnur auf.",
-      "Lege immer wieder kurze Stopps ein, in denen der Köder verführerisch verharrt.",
-      "Schlage bei einem Biss sofort an, da dieser oft genau in der Stoppphase erfolgt."
-    ],
-    "tips": [
-      "Plane bewusst Stopps ein, denn viele Bisse erfolgen im Stillstand des Köders.",
-      "Passe Härte und Tempo der Schläge an, bis der Köder attraktiv ausbricht.",
-      "Verwende beim Hechtangeln ein Stahlvorfach, um Abrisse zu verhindern."
-    ],
-    "pros": [
-      "Sehr reizstarkes, unregelmäßiges Laufbild.",
-      "Überzeugt oft Fische, die gleichförmige Köder ignorieren.",
-      "Spannende und abwechslungsreiche aktive Führung."
-    ],
-    "cons": [
-      "Köderführung erfordert Übung und Konzentration.",
-      "Auf Dauer für das Handgelenk ermüdend."
-    ],
-    "origin": "Das Twitchen entwickelte sich aus dem amerikanischen Schwarzbarschangeln und verbreitete sich als reizstarke Wobblerführung auf viele Raubfische.",
-    "featured": false
-  },
-  {
-    "id": "bombarda-angeln",
-    "name": "Bombarda-Angeln",
-    "nameEn": "Bombarda Fishing",
-    "category": "Spinnfischen",
-    "difficulty": "Fortgeschritten",
-    "tagline": "Weitwurfmethode mit Sbirolino-Schwimmer, um leichte Köder weit hinaus zu befördern und langsam zu führen.",
-    "description": "Beim Bombarda-Angeln dient ein spezieller Wurfschwimmer, die Bombarda oder Sbirolino, als Wurfgewicht für sehr leichte Köder. So lassen sich kleine Fliegen, Teigköder oder zarte Naturköder weit hinauswerfen, die sonst kaum geworfen werden könnten. Hinter der Bombarda läuft ein langes Vorfach mit dem eigentlichen Köder.\n\nBombardas gibt es schwimmend, langsam oder schnell sinkend, sodass sich der Köder in jeder gewünschten Wasserschicht führen lässt. Durch langsames Einholen wird der Köder verführerisch durch das Wasser gezogen, oft mit kleinen Pausen und Variationen. Diese Kombination aus Reichweite und feiner Präsentation macht die Methode sehr vielseitig.\n\nBesonders verbreitet ist das Bombarda-Angeln auf Forellen in Seen und Forellenteichen, es fängt aber auch Rapfen, Döbel und andere oberflächennahe Fische. Es schlägt die Brücke zwischen Spinnfischen und der feinen Köderpräsentation des Fliegenfischens.",
-    "targetFish": ["Regenbogenforelle", "Bachforelle", "Rapfen", "Döbel", "Renke"],
-    "waters": ["See", "Teich", "Talsperre", "Fluss", "Bergsee"],
-    "gear": ["lange Bombardarute", "Stationärrolle", "Bombarda oder Sbirolino", "langes Vorfach", "kleine Haken", "Wirbel"],
-    "baits": ["Forellenteig", "Fliegen", "Bienenmaden", "kleine Spinner", "Wurmstücke"],
-    "bestSeason": ["März", "April", "Mai", "September", "Oktober", "November"],
-    "steps": [
-      "Wähle eine schwimmende oder sinkende Bombarda passend zur gewünschten Köderschicht.",
-      "Fädle die Bombarda auf die Hauptschnur und sichere sie mit Wirbel und Perle.",
-      "Knote ein langes Vorfach an und befestige den leichten Köder.",
-      "Wirf die Montage mit der schweren Bombarda weit hinaus.",
-      "Lass die Montage je nach Bombardatyp die gewünschte Tiefe erreichen.",
-      "Hole langsam und mit kleinen Pausen ein und setze beim Biss einen sauberen Anhieb."
-    ],
-    "tips": [
-      "Wähle den Bombardatyp gezielt nach der Tiefe, in der die Fische stehen.",
-      "Verwende ein langes Vorfach, damit der Köder weit entfernt vom Schwimmer läuft.",
-      "Variiere das Einholtempo und lege Pausen ein, um zögerliche Fische zu reizen."
-    ],
-    "pros": [
-      "Sehr leichte Köder lassen sich weit auswerfen.",
-      "Köderführung in jeder Wasserschicht möglich.",
-      "Verbindet Reichweite mit feiner Präsentation."
-    ],
-    "cons": [
-      "Lange Montage erfordert sorgfältiges Werfen ohne Verhedderungen.",
-      "Spezielle Rute und Wurfschwimmer nötig."
-    ],
-    "origin": "Die Bombarda stammt aus Italien und verbreitete sich als Wurfschwimmer vor allem beim Forellenangeln in ganz Europa.",
     "featured": false
   }
 ]

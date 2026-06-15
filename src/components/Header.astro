@@ -1,5 +1,5 @@
 ---
-import { NAV, SITE } from '../consts';
+import { NAV, CATEGORIES, SITE } from '../consts';
 import { withBase } from '../utils/url';
 
 const path = Astro.url.pathname.replace(/\/+$/, '');
@@ -53,7 +53,7 @@ function isCurrent(key: string): boolean {
 
 <nav class="mobile-nav" aria-label="Mobile Navigation">
   <ul>
-    {NAV.map((c) => (
+    {CATEGORIES.map((c) => (
       <li>
         <a href={withBase('/' + c.key + '/')}>
           <span class="nico" aria-hidden="true">{c.icon}</span>
@@ -61,29 +61,14 @@ function isCurrent(key: string): boolean {
         </a>
       </li>
     ))}
-    <li>
-      <a href={withBase('/saison/')}>
-        <span class="nico" aria-hidden="true">📅</span>
-        <span>Saison-Kalender<br /><small class="muted">Wann beißt was?</small></span>
-      </a>
-    </li>
-    <li>
-      <a href={withBase('/karte/')}>
-        <span class="nico" aria-hidden="true">🗺️</span>
-        <span>Revier-Karte<br /><small class="muted">Reviere weltweit</small></span>
-      </a>
-    </li>
-    <li>
-      <a href={withBase('/rechner/')}>
-        <span class="nico" aria-hidden="true">🧮</span>
-        <span>Fang-Rechner<br /><small class="muted">Gewicht schätzen</small></span>
-      </a>
-    </li>
-    <li>
-      <a href={withBase('/merkliste/')}>
-        <span class="nico" aria-hidden="true">⭐</span>
-        <span>Merkliste<br /><small class="muted">Gemerkte Einträge</small></span>
-      </a>
-    </li>
+    <li><a href={withBase('/saison/')}><span class="nico" aria-hidden="true">📅</span><span>Saison-Kalender<br /><small class="muted">Wann beißt was?</small></span></a></li>
+    <li><a href={withBase('/karte/')}><span class="nico" aria-hidden="true">🗺️</span><span>Revier-Karte<br /><small class="muted">Reviere weltweit</small></span></a></li>
+    <li><a href={withBase('/rechner/')}><span class="nico" aria-hidden="true">🧮</span><span>Fang-Rechner<br /><small class="muted">Gewicht schätzen</small></span></a></li>
+    <li><a href={withBase('/fangbuch/')}><span class="nico" aria-hidden="true">📓</span><span>Fangbuch<br /><small class="muted">Fänge notieren</small></span></a></li>
+    <li><a href={withBase('/quiz/')}><span class="nico" aria-hidden="true">❓</span><span>Angel-Quiz<br /><small class="muted">Wissen testen</small></span></a></li>
+    <li><a href={withBase('/rekorde/')}><span class="nico" aria-hidden="true">🏆</span><span>Rekorde<br /><small class="muted">Die Größten</small></span></a></li>
+    <li><a href={withBase('/montagen/')}><span class="nico" aria-hidden="true">🪝</span><span>Montagen<br /><small class="muted">Mit Grafik</small></span></a></li>
+    <li><a href={withBase('/merkliste/')}><span class="nico" aria-hidden="true">⭐</span><span>Merkliste<br /><small class="muted">Gemerktes</small></span></a></li>
+    <li><a href={withBase('/sicherheit/')}><span class="nico" aria-hidden="true">🚑</span><span>Sicherheit<br /><small class="muted">Erste Hilfe</small></span></a></li>
   </ul>
 </nav>

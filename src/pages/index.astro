@@ -72,7 +72,7 @@ const highlights = [
     <div class="section-head center">
       <span class="eyebrow">Themen</span>
       <h2>Entdecke das Lexikon</h2>
-      <p>Acht große Wissensbereiche – tauche dort ein, wo dich das Angeln am meisten packt.</p>
+      <p>Neun große Wissensbereiche – tauche dort ein, wo dich das Angeln am meisten packt.</p>
     </div>
     <div class="card-grid">
       {CATEGORIES.map((c) => <Card cat={c} count={counts[c.key]} />)}
@@ -121,6 +121,36 @@ const highlights = [
         <span class="card-icon" aria-hidden="true">⭐</span>
         <h3><a href={withBase('/merkliste/')} class="stretched">Merkliste</a></h3>
         <p>Speichere deine Lieblingseinträge lokal und finde sie jederzeit wieder.</p>
+        <div class="card-foot"><span class="chip" style="margin-left:auto">Öffnen →</span></div>
+      </article>
+      <article class="card reveal">
+        <span class="card-icon" aria-hidden="true">📓</span>
+        <h3><a href={withBase('/fangbuch/')} class="stretched">Fangbuch</a></h3>
+        <p>Protokolliere deine Fänge mit Maßen, Datum und Gewässer – inklusive Statistik.</p>
+        <div class="card-foot"><span class="chip" style="margin-left:auto">Öffnen →</span></div>
+      </article>
+      <article class="card reveal">
+        <span class="card-icon" aria-hidden="true">❓</span>
+        <h3><a href={withBase('/quiz/')} class="stretched">Angel-Quiz</a></h3>
+        <p>Teste dein Angelwissen in einem kurzen Quiz mit Auswertung.</p>
+        <div class="card-foot"><span class="chip" style="margin-left:auto">Öffnen →</span></div>
+      </article>
+      <article class="card reveal">
+        <span class="card-icon" aria-hidden="true">🏆</span>
+        <h3><a href={withBase('/rekorde/')} class="stretched">Rekorde</a></h3>
+        <p>Die größten Fischarten – sortierbar nach Gewicht und Länge.</p>
+        <div class="card-foot"><span class="chip" style="margin-left:auto">Öffnen →</span></div>
+      </article>
+      <article class="card reveal">
+        <span class="card-icon" aria-hidden="true">🪝</span>
+        <h3><a href={withBase('/montagen/')} class="stretched">Montagen</a></h3>
+        <p>Die wichtigsten Montagen mit Schema-Grafik und Anleitung.</p>
+        <div class="card-foot"><span class="chip" style="margin-left:auto">Öffnen →</span></div>
+      </article>
+      <article class="card reveal">
+        <span class="card-icon" aria-hidden="true">🚑</span>
+        <h3><a href={withBase('/sicherheit/')} class="stretched">Sicherheit</a></h3>
+        <p>Erste Hilfe und Sicherheit am Wasser – damit nichts schiefgeht.</p>
         <div class="card-foot"><span class="chip" style="margin-left:auto">Öffnen →</span></div>
       </article>
     </div>

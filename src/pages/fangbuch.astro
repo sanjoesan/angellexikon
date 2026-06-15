@@ -1,0 +1,122 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import WaveDivider from '../components/WaveDivider.astro';
+import { getCollection } from 'astro:content';
+
+const fische = await getCollection('fische');
+const fishNames = fische.map((e) => e.data.name).sort((a, b) => a.localeCompare(b, 'de'));
+---
+<BaseLayout title="Fangbuch" description="Dein digitales Fangtagebuch – protokolliere Fänge mit Art, Länge, Gewicht, Datum und Gewässer. Lokal in deinem Browser gespeichert.">
+  <section class="cat-hero">
+    <div class="container">
+      <span class="big-emoji" aria-hidden="true">📓</span>
+      <h1>Fangbuch</h1>
+      <p class="lead">Halte deine Fänge fest – Art, Maße, Datum und Gewässer. Alles bleibt lokal in deinem Browser, ganz ohne Konto.</p>
+    </div>
+  </section>
+  <WaveDivider />
+
+  <section class="section container">
+    <div class="calc" style="margin-bottom:2rem">
+      <form id="fb-form">
+        <div class="calc-grid">
+          <label class="field" style="grid-column:1/-1">
+            <span>Fischart *</span>
+            <input id="fb-art" class="localsearch" list="fb-fish" autocomplete="off" placeholder="z. B. Hecht" required />
+            <datalist id="fb-fish">{fishNames.map((n) => <option value={n}></option>)}</datalist>
+          </label>
+          <label class="field"><span>Länge (cm)</span><input id="fb-l" class="localsearch" type="number" min="0" step="0.5" inputmode="decimal" placeholder="z. B. 78" /></label>
+          <label class="field"><span>Gewicht (kg)</span><input id="fb-w" class="localsearch" type="number" min="0" step="0.05" inputmode="decimal" placeholder="z. B. 4.2" /></label>
+          <label class="field"><span>Datum</span><input id="fb-date" class="localsearch" type="date" /></label>
+          <label class="field"><span>Gewässer</span><input id="fb-water" class="localsearch" autocomplete="off" placeholder="z. B. Vereinssee" /></label>
+          <label class="field" style="grid-column:1/-1"><span>Notiz</span><input id="fb-note" class="localsearch" autocomplete="off" placeholder="Köder, Wetter, Uhrzeit …" /></label>
+        </div>
+        <div style="margin-top:1.2rem"><button class="btn btn-primary" type="submit">＋ Fang eintragen</button></div>
+      </form>
+    </div>
+
+    <div class="card-grid" id="fb-stats" style="margin-bottom:2rem"></div>
+
+    <h2 style="font-family:var(--font-display);margin-bottom:1rem">Deine Fänge</h2>
+    <div id="fb-empty" class="noresults" hidden>
+      <p style="font-size:2.5rem;margin-bottom:.5rem">🐟</p>
+      <p>Noch keine Fänge eingetragen. Trage oben deinen ersten Fang ein – Petri Heil!</p>
+    </div>
+    <div id="fb-list" class="card-grid"></div>
+  </section>
+
+  <script>
+    const KEY = 'angellexikon:fangbuch';
+    const $ = (id: string) => document.getElementById(id) as HTMLInputElement;
+    const esc = (s: string) => (s || '').replace(/[&<>"]/g, (c) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' }[c] as string));
+    const read = () => { try { return JSON.parse(localStorage.getItem(KEY) || '[]'); } catch { return []; } };
+    const write = (a: any[]) => { try { localStorage.setItem(KEY, JSON.stringify(a)); } catch (e) {} };
+    const fmtDate = (s: string) => { if (!s) return ''; const d = new Date(s); return isNaN(+d) ? s : d.toLocaleDateString('de-DE'); };
+
+    const form = document.getElementById('fb-form') as HTMLFormElement;
+    const listEl = document.getElementById('fb-list') as HTMLElement;
+    const statsEl = document.getElementById('fb-stats') as HTMLElement;
+    const emptyEl = document.getElementById('fb-empty') as HTMLElement;
+    const dateInput = $('fb-date');
+    if (dateInput && !dateInput.value) dateInput.value = new Date().toISOString().slice(0, 10);
+
+    function renderStats(items: any[]) {
+      const n = items.length;
+      const arten = new Set(items.map((i) => i.art)).size;
+      const bigW = items.filter((i) => i.w).sort((a, b) => b.w - a.w)[0];
+      const bigL = items.filter((i) => i.l).sort((a, b) => b.l - a.l)[0];
+      const box = (v: string, l: string) => `<article class="card statbox"><span class="sv">${v}</span><span class="sl">${l}</span></article>`;
+      statsEl.innerHTML =
+        box(String(n), n === 1 ? 'Fang' : 'Fänge') +
+        box(String(arten), arten === 1 ? 'Art' : 'Arten') +
+        box(bigW ? bigW.w + ' kg' : '—', bigW ? 'Schwerster · ' + esc(bigW.art) : 'Schwerster') +
+        box(bigL ? bigL.l + ' cm' : '—', bigL ? 'Längster · ' + esc(bigL.art) : 'Längster');
+    }
+
+    function render() {
+      const items = read().sort((a: any, b: any) => (b.date || '').localeCompare(a.date || '') || b.id - a.id);
+      emptyEl.hidden = items.length > 0;
+      statsEl.style.display = items.length ? '' : 'none';
+      renderStats(items);
+      listEl.innerHTML = items.map((it: any) => {
+        const chips = [it.l ? `${it.l} cm` : '', it.w ? `${it.w} kg` : '', it.water ? '📍 ' + esc(it.water) : '']
+          .filter(Boolean).map((c) => `<span class="chip">${c}</span>`).join('');
+        return `<article class="entry-card fb-entry">
+          <button class="filterbtn fb-del" type="button" data-del="${it.id}" aria-label="Löschen">✕</button>
+          <div class="ec-top"><h3 style="margin:0">${esc(it.art)}</h3></div>
+          <div class="ec-lat">${fmtDate(it.date)}</div>
+          ${chips ? `<div class="fb-meta">${chips}</div>` : ''}
+          ${it.note ? `<p>${esc(it.note)}</p>` : ''}
+        </article>`;
+      }).join('');
+      listEl.querySelectorAll('[data-del]').forEach((b) =>
+        b.addEventListener('click', () => {
+          write(read().filter((i: any) => String(i.id) !== b.getAttribute('data-del')));
+          render();
+        })
+      );
+    }
+
+    form?.addEventListener('submit', (e) => {
+      e.preventDefault();
+      const art = $('fb-art').value.trim();
+      if (!art) return;
+      const item = {
+        id: Date.now(),
+        art,
+        l: parseFloat($('fb-l').value) || null,
+        w: parseFloat($('fb-w').value) || null,
+        date: $('fb-date').value || new Date().toISOString().slice(0, 10),
+        water: $('fb-water').value.trim(),
+        note: $('fb-note').value.trim(),
+      };
+      write([item, ...read()]);
+      form.reset();
+      $('fb-date').value = new Date().toISOString().slice(0, 10);
+      $('fb-art').focus();
+      render();
+    });
+
+    render();
+  </script>
+</BaseLayout>

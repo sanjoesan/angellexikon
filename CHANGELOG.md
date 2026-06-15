@@ -3,6 +3,23 @@
 Alle nennenswerten Änderungen am Angellexikon.
 Format orientiert an [Keep a Changelog](https://keepachangelog.com/de/).
 
+## [1.3.0] – 2026-06-15 · Küche, Werkzeuge & großer Inhalts-Ausbau
+
+### Hinzugefügt
+- **Neue Kategorie 🍽️ Küche & Rezepte** (16 Einträge: filetieren, räuchern,
+  beizen, braten, Backfisch, Gravlax …) mit Zutaten-Block und Zubereitungs-Stepper.
+- **📓 Fangbuch** (`/fangbuch`): eigene Fänge lokal protokollieren, inkl. Statistik.
+- **❓ Angel-Quiz** (`/quiz`): 18 Fragen mit Auswertung und Bewertung.
+- **🚑 Erste Hilfe & Sicherheit** (`/sicherheit`): Hakenverletzungen, Wassersicherheit u. v. m.
+- **🏆 Rekorde** (`/rekorde`): sortierbare Bestenliste der größten Fischarten.
+- **🪝 Montagen** (`/montagen`): 6 Montagen mit selbstgezeichneten Schema-Grafiken.
+- **Großer Inhalts-Ausbau:** Fische 87→121, Gewässer 29→48 (neue Reviere auch auf
+  der Karte), Glossar 50→85, Köder 45→55, Techniken 22→34, Ausrüstung 21→35,
+  Regionen 17→25 – insgesamt **447 Einträge**.
+
+### Geändert
+- Navigation, Footer und Startseite um alle neuen Seiten erweitert. 468 Seiten im Build.
+
 ## [1.2.0] – 2026-06-15 · Schritt-Slider, Revier-Karte & mehr Köder/Knoten
 
 ### Hinzugefügt

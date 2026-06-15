@@ -1,341 +1,31 @@
 [
   {
-    "id": "spinnrute",
-    "name": "Spinnrute",
-    "category": "Rute",
-    "tagline": "Die vielseitige Allrounderin fuer das aktive Angeln mit Kunstkoedern.",
-    "description": "Die Spinnrute ist eine der populaersten Ruten ueberhaupt und wird zum aktiven Fischen mit Kunstkoedern wie Wobblern, Blinkern, Spinnern und Gummifischen eingesetzt. Charakteristisch ist ihr meist semiparaboler bis spitzenaktioner Blank, der praezise Wuerfe und eine direkte Koederkontrolle ermoeglicht. Das Wurfgewicht (WG) ist auf dem Blank angegeben und sollte zum geplanten Koedergewicht passen.\n\nSpinnruten gibt es in unzaehligen Laengen und Wurfgewichtsklassen, vom leichten 1,80 m Ultralight-Stock fuer Barsch und Forelle bis zur kraeftigen 3,00 m Rute fuer Hecht und Zander vom Boot oder Ufer. Die richtige Wahl haengt stark vom Zielfisch, Gewaesser und der bevorzugten Koederfuehrung ab.\n\nWer nur eine einzige Rute kaufen moechte, faehrt mit einer mittleren Spinnrute um 2,40 m und einem WG von etwa 10 bis 40 g am breitesten aufgestellt. Damit lassen sich die meisten heimischen Raubfische beangeln.",
+    "id": "abhakmatte",
+    "name": "Abhakmatte",
+    "category": "Zubehör",
+    "tagline": "Schonende Unterlage zum sicheren Abmachen und Fotografieren von Fischen",
+    "description": "Die Abhakmatte, auch Unhooking Mat genannt, ist eine gepolsterte Matte, auf der gefangene Fische sicher und schonend abgehakt, vermessen und fotografiert werden können. Sie verhindert, dass der Fisch auf hartem Untergrund aufschlägt oder sich an Steinen und Ästen verletzt, was besonders beim Karpfenangeln zum Standard gehört.\n\nModerne Abhakmatte sind mit wasserfestem, gummiertem Schaumstoff gefüllt, der die Erschütterungen beim Aufsetzen des Fisches dämpft und die empfindliche Schleimschicht schützt. Viele Modelle verfügen über hochgezogene Seitenränder, die ein Herausrollen des Fisches verhindern, sowie über eine abwischbare Oberfläche für einfache Reinigung. Einige Ausführungen sind faltbar oder aufrollbar und lassen sich platzsparend verstauen.\n\nDie Verwendung einer Abhakmatte ist in vielen Fischereivereinen beim Karpfenangeln Pflicht und Ausdruck eines verantwortungsvollen Umgangs mit dem Fang. Wer regelmäßig auf große Fische angelt, sollte in ein stabiles Modell mit ausreichend Polsterung investieren. Die Matte sollte vor dem Ablegen des Fisches stets angefeuchtet werden.",
     "types": [
-      "Ultralight (UL) bis ca. 7 g WG",
-      "Light/Medium-Light (10 bis 25 g WG)",
-      "Medium/Heavy (bis 60 g WG und mehr)",
-      "Reiseruten in mehrteiliger Steckbauweise",
-      "Spitzenaktion vs. semiparabolische Aktion"
+      "Flache Abhakmatte (Standard, leichtgewichtig)",
+      "Karpfenwiege mit hochgezogenen Rändern",
+      "Faltbare Abhakmatte für unterwegs",
+      "XXL-Abhakmatte für sehr große Fische"
     ],
     "criteria": [
-      "Wurfgewicht passend zum geplanten Koedergewicht waehlen",
-      "Laenge nach Gewaesser und Wurfdistanz (kurz am Bach, lang am See)",
-      "Aktion: spitzenaktiv fuer Jig-Angeln, parabolisch fuer Wobbler",
-      "Gewicht und Balance fuer ermuedungsfreies Dauerfischen"
+      "Polsterstärke: dicker Schaum schützt besser bei großen Fischen",
+      "Seitenränder: verhindert Herausrollen des Fisches",
+      "Größe: ausreichend Platz für erwartete Zielfische",
+      "Pflegeleichtigkeit: abwischbare, schnell trocknende Oberfläche"
     ],
     "forTechniques": [
-      "Spinnfischen",
-      "Jiggen",
-      "Dropshot-Angeln",
-      "Twitchen"
-    ],
-    "tips": [
-      "Das reale Koedergewicht sollte im oberen Drittel des angegebenen Wurfgewichts liegen, dann laedt sich der Blank optimal auf.",
-      "Eine zu schwere Rute fuer kleine Koeder nimmt jedes Gefuehl fuer den Koeder und die Bisse.",
-      "Fuer den Einstieg ist eine mittlere Klasse vielseitiger als ein Spezialstock."
-    ],
-    "featured": true
-  },
-  {
-    "id": "stationaerrolle",
-    "name": "Stationaerrolle",
-    "category": "Rolle",
-    "tagline": "Die meistgenutzte Rollenbauart fuer nahezu alle Angeltechniken.",
-    "description": "Die Stationaerrolle (auch Spinnrolle genannt) ist der Standard fuer die allermeisten Angelmethoden. Bei ihr steht die Spule fest, waehrend ein Schnurfangbuegel die Schnur bei jeder Kurbelumdrehung um die Spule legt. Das macht sie unkompliziert in der Handhabung, wurffreudig und perlonschonend.\n\nEntscheidend ist die Groessenangabe, die meist im Tausenderschritt erfolgt (z. B. 1000, 2500, 4000, 6000). Kleine Groessen bis 2500 eignen sich fuer feines Angeln auf Forelle und Barsch, mittlere Groessen um 3000 bis 4000 sind echte Allrounder fuer Zander und Hecht, grosse Groessen ab 5000 kommen beim Karpfen-, Wels- und Meeresangeln zum Einsatz.\n\nWichtige Qualitaetsmerkmale sind eine sauber arbeitende Bremse, ein ruhiger Lauf und eine gute Schnurverlegung. Die Anzahl der Kugellager ist weniger aussagekraeftig als ihre Qualitaet.",
-    "types": [
-      "Frontbremsrollen (Bremse oben an der Spule)",
-      "Heckbremsrollen (Bremse am Rollenfuss)",
-      "Freilaufrollen fuer Karpfen- und Grundangeln",
-      "Match-/Stipprollen mit flacher Spule",
-      "Salzwasserfeste Modelle mit Dichtungen"
-    ],
-    "criteria": [
-      "Groesse passend zu Rute und Zielfisch waehlen",
-      "Bremse muss feinfuehlig und ruckfrei einsetzen",
-      "Uebersetzung: hoch fuer schnelles Einholen, niedrig fuer mehr Kraft",
-      "Verarbeitung und Korrosionsschutz besonders im Salzwasser"
-    ],
-    "forTechniques": [
-      "Spinnfischen",
-      "Grundangeln",
-      "Posenangeln",
-      "Feederangeln",
       "Karpfenangeln",
-      "Matchangeln"
-    ],
-    "tips": [
-      "Die Spule nur bis etwa 1 bis 2 mm unter den Rand fuellen, sonst springt die Schnur in Schlaufen ab.",
-      "Die Bremse vor dem Drill so einstellen, dass sie bei kraeftigem Zug an der Schnur nachgibt.",
-      "Nach dem Salzwassereinsatz die Rolle aussen mit suessem Wasser abspuelen und trocknen lassen."
-    ],
-    "featured": true
-  },
-  {
-    "id": "monofile-schnur",
-    "name": "Monofile Schnur",
-    "category": "Schnur",
-    "tagline": "Die dehnbare, gutmuetige Einsteigerschnur aus einem einzigen Nylonfaden.",
-    "description": "Monofile Schnur besteht aus einem einzelnen Kunststofffaden, meist Nylon. Sie ist preiswert, abriebfest, knotenfreundlich und besitzt eine gewisse Eigendehnung, die Fehler im Drill verzeiht und Schlaege beim Biss abfedert. Genau diese Dehnung macht sie zur idealen Schnur fuer Einsteiger und fuer Techniken, bei denen ein Puffer erwuenscht ist.\n\nDie Tragkraft wird ueber den Durchmesser gesteuert. Im Vergleich zur geflochtenen Schnur hat Mono bei gleicher Tragkraft einen deutlich groesseren Durchmesser, dafuer ist sie nahezu unsichtbar gegenueber der oft farbigen Geflochtenen und sinkt langsamer.\n\nTypische Einsatzgebiete sind das Posen- und Grundangeln, das Karpfenangeln sowie alle Situationen, in denen die Dehnung als Stossdaempfer dient. Zum feinen Jiggen mit direkter Bisserkennung ist sie wegen der Dehnung weniger geeignet.",
-    "types": [
-      "Klassisches Nylon-Monofil",
-      "Copolymer-Schnuere mit verbesserten Eigenschaften",
-      "Sinkende Varianten fuer Grund- und Karpfenangeln",
-      "Tarnfarben (grau, braun, gruen, klar)"
-    ],
-    "criteria": [
-      "Durchmesser und Tragkraft zum Zielfisch passend waehlen",
-      "Abriebfestigkeit bei hindernisreichen Gewaessern",
-      "Dehnung: gewuenscht als Puffer oder unerwuenscht fuer Bisserkennung",
-      "Farbe nach Gewaesser und Wassertruebung"
-    ],
-    "forTechniques": [
-      "Posenangeln",
       "Grundangeln",
-      "Karpfenangeln",
-      "Naturkoederangeln",
       "Feederangeln"
     ],
     "tips": [
-      "Monofile altert unter UV-Licht und Belastung, daher die Hauptschnur regelmaessig erneuern.",
-      "Knoten vor dem Festziehen anfeuchten, damit die Schnur durch Reibungshitze nicht geschwaecht wird.",
-      "Als Schlagschnur oder Vorfach kann Mono die stossempfindliche Geflochtene sinnvoll ergaenzen."
-    ],
-    "featured": false
-  },
-  {
-    "id": "geflochtene-schnur",
-    "name": "Geflochtene Schnur",
-    "category": "Schnur",
-    "tagline": "Nahezu dehnungsfrei und extrem tragstark bei duennem Durchmesser.",
-    "description": "Geflochtene Schnur (Geflecht, Braid) besteht aus mehreren verwobenen Kunststofffasern, meist auf Basis von Dyneema oder aehnlichen Hochleistungsfasern. Sie hat praktisch keine Dehnung, wodurch selbst feinste Bisse und Grundkontakt direkt in die Hand uebertragen werden. Bei gleicher Tragkraft ist sie deutlich duenner als monofile Schnur.\n\nDie fehlende Dehnung ist ihre groesste Staerke und zugleich Schwaeche: Sie liefert maximale Sensibilitaet und kraftvolle Anhiebe auf grosse Distanz, verzeiht aber kaum Fehler im Drill. Daher kombiniert man Geflecht oft mit einem monofilen oder fluorocarbonen Vorfach als Puffer und Tarnung.\n\nGeflochtene Schnur ist die erste Wahl beim modernen Spinnfischen, beim Jiggen, beim Vertikal- und Dropshot-Angeln sowie beim Feedern, wo direkter Kontakt und Wurfweite zaehlen.",
-    "types": [
-      "4-fach geflochten (rauer, guenstiger)",
-      "8-fach geflochten (runder, leiser, weiter werfend)",
-      "Beschichtete Varianten fuer mehr Abriebfestigkeit",
-      "Signalfarben fuer bessere Schnurkontrolle"
-    ],
-    "criteria": [
-      "Tragkraft realistisch zum Zielfisch waehlen (Angaben variieren)",
-      "Anzahl der Fasern: 8-fach laeuft leiser und wirft weiter",
-      "Farbe: auffaellig fuer Kontrolle, getarnt fuer scheue Fische",
-      "Abriebfestigkeit bei steinigem oder muschelbesetztem Grund"
-    ],
-    "forTechniques": [
-      "Spinnfischen",
-      "Jiggen",
-      "Vertikalangeln",
-      "Dropshot-Angeln",
-      "Feederangeln",
-      "Twitchen"
-    ],
-    "tips": [
-      "Immer ein Fluorocarbon- oder Mono-Vorfach vorschalten, um die sichtbare und stossempfindliche Geflochtene zu entschaerfen.",
-      "Spezielle Knoten wie Palomar oder FG-Knoten verwenden, da glatte Geflechte leicht rutschen.",
-      "Eine duenne Mono-Unterfuetterung auf der Spule verhindert, dass das Geflecht durchrutscht."
-    ],
-    "featured": true
-  },
-  {
-    "id": "fluorocarbon",
-    "name": "Fluorocarbon",
-    "category": "Schnur",
-    "tagline": "Das nahezu unsichtbare, abriebfeste Material fuer Vorfaecher.",
-    "description": "Fluorocarbon ist ein Schnurmaterial, dessen Lichtbrechungsindex dem von Wasser sehr nahekommt, wodurch es unter Wasser kaum sichtbar ist. Es wird vor allem als Vorfach eingesetzt, besonders an geflochtener Hauptschnur, um scheue Fische nicht zu verschrecken. Zudem ist es sehr abriebfest und nimmt kaum Wasser auf.\n\nIm Vergleich zu Nylon ist Fluorocarbon steifer, sinkt schneller und ist deutlich resistenter gegen Abrieb an Steinen, Muscheln und Hechtzaehnen. Es besitzt nur eine geringe Dehnung, weniger als Mono, aber mehr als Geflecht. Diese Eigenschaften machen es zum bevorzugten Vorfachmaterial vieler Angler.\n\nAls komplette Hauptschnur wird Fluorocarbon seltener genutzt, da es teurer und steifer ist. Beim feinen Forellen- und Barschangeln sowie als Hechtvorfach in der Tragkraftvariante leistet es jedoch hervorragende Dienste.",
-    "types": [
-      "Vorfachmaterial in Spulen verschiedener Staerken",
-      "Fertige Fluorocarbon-Vorfaecher mit Wirbel",
-      "Hartes FC fuer Hechtvorfaecher",
-      "Weicheres FC fuer naturnahe Koederpraesentation"
-    ],
-    "criteria": [
-      "Durchmesser passend zur Vorfachklasse und Sichtbarkeit",
-      "Steifigkeit: weich fuer Koederfuehrung, hart fuer Hechtschutz",
-      "Abriebfestigkeit bei zahnbewehrten Fischen",
-      "Markenqualitaet, da es minderwertige Faelschungen gibt"
-    ],
-    "forTechniques": [
-      "Spinnfischen",
-      "Dropshot-Angeln",
-      "Vertikalangeln",
-      "Meerforellenangeln",
-      "Naturkoederangeln"
-    ],
-    "tips": [
-      "Knoten besonders sorgfaeltig anfeuchten und langsam zuziehen, da FC empfindlich auf Reibungshitze reagiert.",
-      "Fuer Hecht reicht duennes Fluorocarbon nicht als Bissschutz, hier ist ein Stahl- oder dickes Hard-FC-Vorfach noetig.",
-      "Ein FC-Vorfach von 50 bis 100 cm schuetzt die Geflochtene und tarnt den Koeder."
-    ],
-    "featured": false
-  },
-  {
-    "id": "fliegenrute",
-    "name": "Fliegenrute",
-    "category": "Rute",
-    "tagline": "Die feine, schnurwurfbasierte Rute fuer das Fliegenfischen.",
-    "description": "Die Fliegenrute unterscheidet sich grundlegend von anderen Ruten: Beim Fliegenfischen wirft nicht das Koedergewicht, sondern das Gewicht der speziellen Fliegenschnur die nahezu gewichtslose Fliege ans Ziel. Die Rute muss daher die Wurfenergie sauber aufbauen und abgeben.\n\nFliegenruten werden in Schnurklassen (AFTMA-Klasse) eingeteilt, die zur passenden Fliegenschnur abgestimmt sind. Niedrige Klassen (#2 bis #4) eignen sich fuer Bachforelle und Aesche am kleinen Gewaesser, mittlere Klassen (#5 bis #6) sind Allrounder, hoehere Klassen (#7 und mehr) kommen fuer Hecht, Lachs und das Meeresfliegenfischen zum Einsatz.\n\nNeben der Klasse spielt die Aktion eine grosse Rolle: parabolische Ruten arbeiten gefuehlvoll auf kurze Distanz, schnelle Spitzenaktionen bringen Weite und meistern Wind.",
-    "types": [
-      "Einhandruten fuer die meisten Suesswassersituationen",
-      "Zweihand-/Speyruten fuer grosse Fluesse und Lachs",
-      "Schnurklassen von #2 bis #10 und darueber",
-      "Mehrteilige Reiseruten"
-    ],
-    "criteria": [
-      "Schnurklasse passend zu Zielfisch und Gewaessergroesse",
-      "Abstimmung von Rute, Schnur und Rolle als Einheit",
-      "Aktion: langsam fuer Praesentation, schnell fuer Weite und Wind",
-      "Laenge: kurz am verwachsenen Bach, lang am offenen Fluss"
-    ],
-    "forTechniques": [
-      "Fliegenfischen"
-    ],
-    "tips": [
-      "Rute, Schnur und Rolle muessen in der Klasse zusammenpassen, sonst leidet das Wurfverhalten.",
-      "Eine #5er Einhandrute um 9 Fuss ist der klassische, vielseitige Einstieg.",
-      "Beim Werfen aus dem Handgelenk arbeiten und der Schnur Zeit zum Strecken geben."
-    ],
-    "featured": false
-  },
-  {
-    "id": "fliegenrolle",
-    "name": "Fliegenrolle",
-    "category": "Rolle",
-    "tagline": "Schnurspeicher und Bremse fuer das Fliegenfischen.",
-    "description": "Die Fliegenrolle dient beim Fliegenfischen in erster Linie als Schnurspeicher und Gegengewicht zur Rute. Anders als bei der Spinnrolle wird die Schnur beim Wurf nicht von der Rolle abgezogen, sondern von Hand gefuehrt. Bei groesseren Fischen kommt jedoch die Bremse ins Spiel, wenn der Fisch Schnur nimmt.\n\nFliegenrollen werden passend zur Schnurklasse der Rute gewaehlt und in entsprechenden Groessenbereichen angeboten. Wichtig ist eine ausreichende Spulenkapazitaet fuer Fliegenschnur plus Backing, die zusaetzliche Schnurreserve fuer lange Fluchten.\n\nBei kleinen Fischen genuegt eine einfache Klickbremse, bei kraeftigen Fischen wie Lachs, Hecht oder Meeresfischen ist eine starke, gleichmaessige Scheibenbremse entscheidend.",
-    "types": [
-      "Rollen mit einfacher Klick-/Sperrbremse",
-      "Rollen mit Scheibenbremse (Disc Drag)",
-      "Large-Arbor-Rollen mit grossem Spulendurchmesser",
-      "Salzwasserfeste, korrosionsbestaendige Modelle"
-    ],
-    "criteria": [
-      "Groesse passend zur Schnurklasse der Rute",
-      "Spulenkapazitaet fuer Schnur plus ausreichend Backing",
-      "Bremsentyp: Klick fuer Kleinfisch, Scheibenbremse fuer Grossfisch",
-      "Gewicht zur Balance der Rute"
-    ],
-    "forTechniques": [
-      "Fliegenfischen"
-    ],
-    "tips": [
-      "Genug Backing aufspulen, denn starke Fische koennen die gesamte Fliegenschnur und mehr nehmen.",
-      "Die Rolle so waehlen, dass sie die Rute ausbalanciert und nicht kopflastig macht.",
-      "Im Salzwasser unbedingt eine gedichtete Bremse waehlen und nach dem Einsatz spuelen."
-    ],
-    "featured": false
-  },
-  {
-    "id": "baitcaster",
-    "name": "Baitcaster (Multirolle)",
-    "category": "Rolle",
-    "tagline": "Die praezise Multirolle fuer direkte Koederkontrolle und schwere Koeder.",
-    "description": "Die Baitcaster ist eine Multirolle, die oben auf der Rute montiert wird und bei der die Spule beim Wurf mitdreht. Sie bietet eine sehr direkte Kraftuebertragung, hohe Praezision und eignet sich hervorragend fuer schwerere Koeder und kraeftiges Geraet, etwa beim Hecht- und Welsangeln oder beim Twitchen grosser Wobbler.\n\nDer grosse Vorteil liegt in der direkten Koederkontrolle und der Kraft beim Drill. Der Nachteil ist die anspruchsvollere Bedienung: Ohne richtig eingestellte Bremssysteme (Magnet- oder Fliehkraftbremse) kommt es leicht zur gefuerchteten Perueckenbildung der Schnur (Backlash). Daher ist sie eher fuer fortgeschrittene Angler geeignet.\n\nBaitcaster werden ueberwiegend mit geflochtener Schnur gefischt und kommen vor allem dort zum Einsatz, wo gezielt und kraftvoll mit groesseren Koedern gearbeitet wird.",
-    "types": [
-      "Low-Profile-Modelle fuer leichtes bis mittleres Fischen",
-      "Round-Baitcaster fuer schwere Koeder und Wels",
-      "Modelle mit Magnetbremse",
-      "Modelle mit Fliehkraftbremse"
-    ],
-    "criteria": [
-      "Bremssystem: einsteigerfreundliche Magnetbremse erleichtert den Start",
-      "Uebersetzung passend zur Koederfuehrung",
-      "Spulenkapazitaet fuer die geplante Schnurstaerke",
-      "Linkshand- oder Rechtshandkurbel je nach Wurfhand"
-    ],
-    "forTechniques": [
-      "Spinnfischen",
-      "Twitchen",
-      "Jiggen",
-      "Wallerangeln",
-      "Schleppangeln"
-    ],
-    "tips": [
-      "Bremssysteme anfangs eher straff einstellen und mit dem Daumen die Spule kontrollieren, um Peruecken zu vermeiden.",
-      "Mit etwas schwereren Koedern ueben, sie lassen sich leichter kontrolliert werfen.",
-      "Geflochtene Schnur ist die uebliche Wahl, ein Fluorocarbon-Vorfach schuetzt und tarnt."
-    ],
-    "featured": false
-  },
-  {
-    "id": "karpfenrute",
-    "name": "Karpfenrute",
-    "category": "Rute",
-    "tagline": "Kraftvolle Wurf- und Drillrute fuer das gezielte Karpfenangeln.",
-    "description": "Die Karpfenrute ist eine kraeftige, meist 3,60 m (12 Fuss) lange Rute, die auf weite Wuerfe schwerer Montagen und den Drill grosser Fische ausgelegt ist. Ihre Power wird in Lbs (Testkurve) angegeben, typischerweise zwischen 2,75 und 3,5 Lbs. Je hoeher der Wert, desto schwerer die Montage, die sich werfen laesst, und desto kraftvoller die Rute.\n\nKarpfenruten werden meist im Mehrfachset auf Rod Pods oder Banksticks abgelegt und mit Bissanzeigern kombiniert. Der Blank ist auf grosse Wurfweiten und Reserven im Drill ausgelegt, ohne dabei die Bremse der Rolle und das Vorfach zu ueberlasten.\n\nFuer kurze Distanzen und kleinere Gewaesser reichen 2,75 bis 3,0 Lbs, fuer grosse Seen und weite Wuerfe sind 3,25 bis 3,5 Lbs sinnvoll. Die richtige Wahl haengt von Gewaessergroesse und Wurfdistanz ab.",
-    "types": [
-      "Testkurven von 2,75 bis 3,5 Lbs",
-      "Standardlaenge 12 Fuss, dazu 10 und 13 Fuss",
-      "Spod-/Markerruten fuer Futter und Auslotung",
-      "Mehrteilige Travel-Modelle"
-    ],
-    "criteria": [
-      "Testkurve passend zu Wurfweite und Fischgroesse",
-      "Laenge nach Gewaessergroesse (laenger fuer mehr Weite)",
-      "Blankqualitaet fuer Wurfweite und Drillreserven",
-      "Beringung passend zur verwendeten Schnur"
-    ],
-    "forTechniques": [
-      "Karpfenangeln"
-    ],
-    "tips": [
-      "Fuer das Anfuettern und Markern lohnt sich eine separate, robustere Spod-/Markerrute.",
-      "Die Rute im Drill nicht zu steil aufrichten, damit der Blank die Kraft abfedern kann.",
-      "Mehrere identische Ruten erleichtern abgestimmtes Mehrrutenangeln."
-    ],
-    "featured": false
-  },
-  {
-    "id": "feederrute",
-    "name": "Feederrute",
-    "category": "Rute",
-    "tagline": "Sensible Grundrute mit Wechselspitzen fuer praezises Futterkorbangeln.",
-    "description": "Die Feederrute ist eine spezialisierte Grundrute fuer das Angeln mit dem Futterkorb (Feeder). Ihr Markenzeichen sind die feinen, auswechselbaren Bissspitzen (Quivertips), die jeden Zupfer sichtbar machen. Je nach Stroemung und Korbgewicht waehlt man eine weichere oder haertere Spitze.\n\nFeederruten werden nach ihrer Wurfgewichtsklasse eingeteilt, von leichten Picker- und Light-Feeder-Ruten fuer ruhige Gewaesser bis zu schweren Heavy- und Big-River-Feedern fuer starke Stroemung und weite Distanzen. Die Laenge liegt meist zwischen 3,0 und 4,2 m.\n\nDas Feederangeln verbindet praezises Anfuettern mit feiner Bisserkennung und ist eine sehr faengige Methode auf Friedfische wie Brassen, Rotaugen und Karpfen.",
-    "types": [
-      "Picker und Light Feeder fuer kurze Distanz",
-      "Medium Feeder als Allrounder",
-      "Heavy und Extra Heavy Feeder fuer Stroemung",
-      "Method Feeder Ruten mit kraeftigerem Blank"
-    ],
-    "criteria": [
-      "Wurfgewichtsklasse passend zu Korbgewicht und Distanz",
-      "Mehrere Wechselspitzen unterschiedlicher Haerte im Lieferumfang",
-      "Laenge nach Wurfweite und Gewaesser",
-      "Feinfuehliger Blank fuer gute Bisserkennung"
-    ],
-    "forTechniques": [
-      "Feederangeln",
-      "Method-Feeder",
-      "Grundangeln"
-    ],
-    "tips": [
-      "Die Bissspitze so waehlen, dass die Stroemung sie leicht vorspannt, ohne sie zu ueberlasten.",
-      "Den Korb in der Stroemung schwer genug waehlen, damit er die Position haelt.",
-      "Regelmaessiges, praezises Nachfuettern an dieselbe Stelle bringt die Fische zusammen."
-    ],
-    "featured": false
-  },
-  {
-    "id": "teleskoprute",
-    "name": "Teleskoprute",
-    "category": "Rute",
-    "tagline": "Platzsparende, schnell einsatzbereite Rute fuer unterwegs.",
-    "description": "Die Teleskoprute besteht aus ineinander schiebbaren Segmenten und laesst sich auf eine sehr kurze Transportlaenge zusammenschieben. Das macht sie ideal fuer Reisen, Wanderungen und alle, die wenig Stauraum haben. In Sekunden ist sie ausgezogen und einsatzbereit.\n\nDer Kompromiss liegt in der Aktion: Durch die vielen Steckverbindungen ist die Aktion oft weniger praezise als bei einer zwei- oder dreiteiligen Steckrute. Fuer viele Einsaetze, etwa Grund- und Posenangeln auf Friedfische oder als robuste Allzweckrute, ist das jedoch zu vernachlaessigen.\n\nTeleskopruten gibt es in vielen Varianten, von der leichten Forellenrute ueber Grundruten bis zur kraeftigen Reise-Spinnrute. Als unkomplizierte Zweitrute oder Reisebegleiter sind sie sehr beliebt.",
-    "types": [
-      "Teleskop-Grundruten fuer Friedfisch",
-      "Teleskop-Posenruten",
-      "Teleskop-Spinnruten fuer die Reise",
-      "Robuste Allround-Teleskopruten"
-    ],
-    "criteria": [
-      "Transportlaenge passend zum Gepaeck",
-      "Wurfgewicht und Laenge zum Einsatzzweck",
-      "Saubere, klemmfreie Auszuege und stabile Ringe",
-      "Gewicht und Aktion als Kompromiss bedenken"
-    ],
-    "forTechniques": [
-      "Grundangeln",
-      "Posenangeln",
-      "Spinnfischen",
-      "Naturkoederangeln"
-    ],
-    "tips": [
-      "Die Segmente beim Ausziehen so drehen, dass die Ringe in einer Linie stehen.",
-      "Sand und Schmutz aus den Steckverbindungen fernhalten, damit sich die Rute leicht schliessen laesst.",
-      "Als Notfall- oder Reiserute im Auto immer griffbereit."
+      "Matte immer zuerst anfeuchten, bevor der Fisch abgelegt wird.",
+      "Den Fisch nie unbeaufsichtigt auf der Matte lassen, besonders bei Wind.",
+      "Nach jeder Session die Matte reinigen und desinfizieren."
     ],
     "featured": false
   },
@@ -374,66 +64,95 @@
     "featured": false
   },
   {
-    "id": "wirbel",
-    "name": "Wirbel",
-    "category": "Kleinteil",
-    "tagline": "Kleines Verbindungselement gegen Schnurdrall und fuer schnellen Koederwechsel.",
-    "description": "Der Wirbel ist ein kleines, drehbares Verbindungsstueck, das vor allem den Schnurdrall ausgleicht, der beim Spinnfischen oder durch die Stroemung entsteht. Ohne Wirbel verdrallt die Schnur, wird steif und neigt zu Schlaufen und Verhedderungen.\n\nWirbel gibt es in vielen Bauformen und Tragkraftklassen. Oft sind sie mit einem Karabiner (Snap) kombiniert, der einen schnellen, knotenlosen Koederwechsel ermoeglicht. Fuer scheue Fische und feines Angeln waehlt man moeglichst kleine, unauffaellige Modelle.\n\nWichtig ist, die Tragkraft des Wirbels nicht zum schwaechsten Glied der Montage werden zu lassen. Billige Wirbel koennen aufbiegen, daher lohnt sich bei Raubfisch und Grossfisch eine solide Qualitaet, etwa Tonnen- oder Kugellagerwirbel.",
+    "id": "baitcaster",
+    "name": "Baitcaster (Multirolle)",
+    "category": "Rolle",
+    "tagline": "Die praezise Multirolle fuer direkte Koederkontrolle und schwere Koeder.",
+    "description": "Die Baitcaster ist eine Multirolle, die oben auf der Rute montiert wird und bei der die Spule beim Wurf mitdreht. Sie bietet eine sehr direkte Kraftuebertragung, hohe Praezision und eignet sich hervorragend fuer schwerere Koeder und kraeftiges Geraet, etwa beim Hecht- und Welsangeln oder beim Twitchen grosser Wobbler.\n\nDer grosse Vorteil liegt in der direkten Koederkontrolle und der Kraft beim Drill. Der Nachteil ist die anspruchsvollere Bedienung: Ohne richtig eingestellte Bremssysteme (Magnet- oder Fliehkraftbremse) kommt es leicht zur gefuerchteten Perueckenbildung der Schnur (Backlash). Daher ist sie eher fuer fortgeschrittene Angler geeignet.\n\nBaitcaster werden ueberwiegend mit geflochtener Schnur gefischt und kommen vor allem dort zum Einsatz, wo gezielt und kraftvoll mit groesseren Koedern gearbeitet wird.",
     "types": [
-      "Tonnenwirbel (Standard)",
-      "Kugellagerwirbel fuer hohe Belastung und rotierende Koeder",
-      "Wirbel mit Karabiner (Snap Swivel)",
-      "Dreiwege-Wirbel fuer Seitenarmmontagen"
+      "Low-Profile-Modelle fuer leichtes bis mittleres Fischen",
+      "Round-Baitcaster fuer schwere Koeder und Wels",
+      "Modelle mit Magnetbremse",
+      "Modelle mit Fliehkraftbremse"
     ],
     "criteria": [
-      "Tragkraft passend zur Montage, nicht zur Sollbruchstelle machen",
-      "Bauform: Kugellager bei stark rotierenden Koedern",
-      "Groesse moeglichst klein und unauffaellig",
-      "Korrosionsbestaendigkeit, vor allem im Salzwasser"
+      "Bremssystem: einsteigerfreundliche Magnetbremse erleichtert den Start",
+      "Uebersetzung passend zur Koederfuehrung",
+      "Spulenkapazitaet fuer die geplante Schnurstaerke",
+      "Linkshand- oder Rechtshandkurbel je nach Wurfhand"
     ],
     "forTechniques": [
       "Spinnfischen",
-      "Grundangeln",
-      "Schleppangeln",
-      "Naturkoederangeln",
-      "Brandungsangeln"
+      "Twitchen",
+      "Jiggen",
+      "Wallerangeln",
+      "Schleppangeln"
     ],
     "tips": [
-      "Bei rotierenden Koedern wie Spinnern unbedingt einen Kugellagerwirbel verwenden.",
-      "Den Karabiner nach jedem harten Drill auf saubere Verriegelung pruefen.",
-      "Im Zweifel etwas hoehere Tragkraft waehlen, der Wirbel soll nie zuerst nachgeben."
+      "Bremssysteme anfangs eher straff einstellen und mit dem Daumen die Spule kontrollieren, um Peruecken zu vermeiden.",
+      "Mit etwas schwereren Koedern ueben, sie lassen sich leichter kontrolliert werfen.",
+      "Geflochtene Schnur ist die uebliche Wahl, ein Fluorocarbon-Vorfach schuetzt und tarnt."
     ],
     "featured": false
   },
   {
-    "id": "pose",
-    "name": "Pose / Schwimmer",
-    "category": "Kleinteil",
-    "tagline": "Schwimmender Bissanzeiger und Koederpraesentierer fuer die Wasseroberflaeche.",
-    "description": "Die Pose (Schwimmer, Float) ist ein klassischer, optischer Bissanzeiger. Sie haelt den Koeder in der gewuenschten Tiefe, zeigt Bisse durch Eintauchen oder Aufsteigen an und hilft, den Koeder kontrolliert treiben zu lassen. Posenangeln gehoert zu den schoensten und traditionsreichsten Methoden.\n\nPosen unterscheiden sich in Form, Tragkraft (in Gramm) und Befestigung. Schlanke Posen sind feinfuehlig fuer stehende Gewaesser, bauchige und stabilisierte Modelle eignen sich fuer Wind und Stroemung. Die Tragkraft muss zur Bebleiung passen, damit die Pose korrekt austariert im Wasser steht.\n\nVon der feinen Stippose ueber die Laufpose fuer grosse Tiefen bis zur Waggler- und Knicklichtpose fuer die Daemmerung gibt es fuer jede Situation die passende Bauform.",
+    "id": "bankstick",
+    "name": "Bankstick",
+    "category": "Zubehör",
+    "tagline": "Eingespießter Einzelhalter für Rute und Bissanzeiger am Ufer",
+    "description": "Der Bankstick ist ein einfacher, aber überaus bewährter Rutenhalter, der durch eine Spitze am unteren Ende in weichen Untergrund eingesteckt wird. Er trägt am oberen Ende einen Rutenhalter oder Bissanzeiger und bildet so die günstigste und flexibelste Möglichkeit, eine Angelrute am Ufer ruhig abzulegen. Im Karpfenangeln gehört er zur Grundausstattung.\n\nModerne Banksticks bestehen aus Aluminium oder Edelstahl und sind meist teleskopierbar, sodass sie auf verschiedene Höhen eingestellt werden können. Das Standardgewinde beträgt 16 mm und ist kompatibel mit den meisten Bissanzeigern und Rutenablagen auf dem Markt. Manche Modelle besitzen einen T-förmigen Griff oben, der das Eindrehen in den Boden erleichtert.\n\nBanksticks sind deutlich leichter und günstiger als ein Rod-Pod und bieten mehr Flexibilität bei der Positionierung der einzelnen Ruten zueinander. Sie eignen sich ideal für weiche Ufer am Teich oder See, sind jedoch bei steinigem oder hartem Untergrund nicht einsetzbar. In diesem Fall empfiehlt sich der Einsatz eines Rod-Pods.",
     "types": [
-      "Feststehende Posen fuer geringe Tiefen",
-      "Laufposen fuer tiefe Gewaesser",
-      "Waggler fuer Wind und weite Wuerfe",
-      "Stipp-/Match-Posen",
-      "Posen mit Knicklichthalter fuer die Daemmerung"
+      "Einfacher Bankstick (Fixlänge)",
+      "Teleskop-Bankstick (verstellbare Länge)",
+      "Bankstick mit T-Griff",
+      "Kurzer Bankstick für flaches Terrain"
     ],
     "criteria": [
-      "Tragkraft passend zur geplanten Bebleiung",
-      "Form nach Gewaesser: schlank fuer Stillwasser, stabil fuer Stroemung",
-      "Befestigung: fest oder laufend je nach Tiefe",
-      "Gute Sichtbarkeit der Antenne bei jedem Licht"
+      "Material: Aluminium (leicht) oder Edelstahl (robust)",
+      "Verstellbarkeit: Teleskopmodelle für verschiedene Höhen",
+      "Gewinde: 16 mm Standard für universelle Kompatibilität",
+      "Länge und Spitzenform für unterschiedliche Böden"
     ],
     "forTechniques": [
-      "Posenangeln",
-      "Stippangeln",
-      "Matchangeln",
+      "Karpfenangeln",
+      "Grundangeln",
+      "Feederangeln"
+    ],
+    "tips": [
+      "Bankstick immer senkrecht eindrehen, nicht schräg einschlagen, um das Material zu schonen.",
+      "Bei sehr hartem Boden mit Schraubverlängerung oder Rod-Pod arbeiten.",
+      "Rutenablagegabel und Bissanzeiger auf gleicher Höhe ausrichten für optimale Schnurführung."
+    ],
+    "featured": false
+  },
+  {
+    "id": "bissanzeiger",
+    "name": "Bissanzeiger",
+    "category": "Elektronik",
+    "tagline": "Akustischer und optischer Signalgeber fuer das Ansitzangeln.",
+    "description": "Der elektronische Bissanzeiger meldet per Ton und Leuchtsignal, wenn ein Fisch Schnur nimmt. Er ist besonders beim Karpfen- und Welsangeln im Einsatz, wo mit mehreren abgelegten Ruten und ueber lange Zeit gefischt wird. So muss der Angler nicht permanent die Spitzen beobachten.\n\nDie Schnur laeuft ueber ein Raedchen im Anzeiger, dessen Bewegung das Signal ausloest. Hochwertige Modelle bieten einstellbare Lautstaerke, Tonhoehe und Empfindlichkeit sowie eine Funkuebertragung an eine Empfaengereinheit (Receiver), die der Angler bei sich traegt. Ergaenzt werden sie oft durch Swinger oder Hanger, die auch feinste Fallbisse anzeigen.\n\nFuer den naechtlichen Ansitz sind Bissanzeiger nahezu unverzichtbar. Auch beim Grundangeln auf andere Arten erhoehen sie den Komfort und die Bissausbeute deutlich.",
+    "types": [
+      "Einzelne Bissanzeiger mit Ton und Licht",
+      "Sets mit Funkempfaenger (Receiver)",
+      "Modelle mit einstellbarer Empfindlichkeit und Lautstaerke",
+      "Ergaenzung durch Swinger/Hanger fuer Fallbisse"
+    ],
+    "criteria": [
+      "Zuverlaessige Erkennung beider Laufrichtungen der Schnur",
+      "Einstellbare Lautstaerke, Tonhoehe und Empfindlichkeit",
+      "Funkreichweite des Empfaengers fuer mobile Angler",
+      "Wetterfestigkeit und Akkulaufzeit"
+    ],
+    "forTechniques": [
+      "Karpfenangeln",
+      "Wallerangeln",
+      "Grundangeln",
       "Naturkoederangeln"
     ],
     "tips": [
-      "Die Pose sauber ausbleien, sodass nur die Spitze der Antenne aus dem Wasser ragt, dann sind feinste Bisse sichtbar.",
-      "Bei Wind eine bauchigere, schwerere Pose waehlen, sie liegt ruhiger.",
-      "Ein Knicklicht in der Antenne verlaengert das Posenangeln in die Daemmerung."
+      "Einen Swinger oder Hanger ergaenzen, damit auch Fallbisse (Schnur kommt entgegen) sicher angezeigt werden.",
+      "Die Empfindlichkeit an Wind und Stroemung anpassen, um Fehlalarme zu vermeiden.",
+      "Ersatzbatterien und einen Funkempfaenger erhoehen die Sicherheit beim Nachtansitz."
     ],
     "featured": false
   },
@@ -471,65 +190,30 @@
     "featured": false
   },
   {
-    "id": "kescher",
-    "name": "Kescher",
-    "category": "Zubehoer",
-    "tagline": "Unverzichtbare Landehilfe fuer ein sicheres und schonendes Anlanden.",
-    "description": "Der Kescher (Unterfangkescher) dient dazu, den gehakten Fisch sicher zu landen, ohne dass im letzten Moment Schnur oder Haken nachgeben. Gerade bei groesseren Fischen ist er Pflicht und schont zugleich den Fisch, der nicht aufs Trockene gezerrt werden muss.\n\nKescher unterscheiden sich in Kopfgroesse, Stiellaenge und Netzmaterial. Fuer Karpfen und grosse Raubfische werden weite, tiefe Koepfe mit knotenlosem, gummiertem Netz verwendet, das Schleimhaut und Flossen schont. Beim Wandern und Spinnfischen sind kompakte Klapp- oder Watkescher praktisch.\n\nWichtig ist eine ausreichende Stiellaenge fuer hohe oder steile Ufer sowie ein gummiertes Netz, in dem sich Haken und Drillinge nicht verfangen. Ein guter Kescher erhoeht die Landequote spuerbar.",
+    "id": "boilienadel",
+    "name": "Boilienadel",
+    "category": "Kleinteil",
+    "tagline": "Unverzichtbares Werkzeug zum Aufziehen von Boilies auf Hakenvolumen und Schnüre",
+    "description": "Die Boilienadel ist ein schlankes, spitzes Werkzeug aus Metall oder Kunststoff, das speziell dafür entwickelt wurde, Boilies, Pellets, Mais oder andere Partikelköder auf Haarsnoods, Schnüre oder Boilienadel-Rigverbindungen aufzuziehen. Sie besitzt eine feine Spitze zum Durchstechen des Köders und einen kleinen Haken oder ein Öhr am Ende, in das die Schlaufe des Haarsnood eingehängt wird.\n\nOhne eine Boilienadel ist das Aufziehen eines Boilies auf einen Haarsnodd nur mit großem Aufwand und Fingerfertigkeit möglich. Mit der Nadel gelingt es in Sekunden: Man sticht durch den Boilie, hängt die Schnurschlaufe ein und zieht den Boilie auf das gewünschte Niveau. Daneben gibt es Angaben, die als Stoppnadel zum Festhalten des Boilies auf dem Haar dienen.\n\nEin gutes Boilienadel-Set enthält in der Regel verschiedene Nadelformen: gerade Nadeln für Standardboilies, gebogene Nadeln für schwer erreichbare Stellen sowie eine Splicing-Nadel für Flechtschnurarbeiten. Viele Angler bewahren ihre Boilienadeln im Rutentaschengilet oder in einer Tackle-Box auf. Hochwertige Modelle besitzen einen Schutzclip oder eine Kappe, um Verletzungen zu verhindern.",
     "types": [
-      "Karpfenkescher mit weitem Kopf",
-      "Spinn- und Watkescher (kompakt, klappbar)",
-      "Teleskop-Kescher mit langem Stiel",
-      "Gummierte, knotenlose Netze"
+      "Gerade Boilienadel (Standard)",
+      "Gebogene Boilienadel",
+      "Splicing-Nadel für Flechtschnur",
+      "Boilienadel-Set (3–5-teilig)"
     ],
     "criteria": [
-      "Kopfgroesse passend zum erwarteten Zielfisch",
-      "Stiellaenge ausreichend fuer Ufer und Wassertiefe",
-      "Gummiertes, knotenloses Netz schont Fisch und haelt Haken fern",
-      "Packmass und Gewicht beim mobilen Angeln"
+      "Nadelform: gerade oder gebogen je nach Anwendung",
+      "Materialgüte: stabiles Metall, bricht nicht beim Durchstechen",
+      "Hakenmechanismus: sicheres Einführen und Lösen der Schnurschlaufe",
+      "Schutzkappe: verhindert Verletzungen beim Transport"
     ],
     "forTechniques": [
-      "Karpfenangeln",
-      "Spinnfischen",
-      "Grundangeln",
-      "Feederangeln",
-      "Naturkoederangeln"
+      "Karpfenangeln"
     ],
     "tips": [
-      "Den Kescher vor dem Drill bereitlegen und ins Wasser halten, dann den Fisch hineinfuehren statt ihn zu jagen.",
-      "Gummierte Netze verhindern, dass sich Drillinge verheddern und schonen die Schleimhaut.",
-      "Den Fisch nicht am Stiel aus dem Wasser hebeln, sondern den Rahmen mit der Hand greifen."
-    ],
-    "featured": false
-  },
-  {
-    "id": "bissanzeiger",
-    "name": "Bissanzeiger",
-    "category": "Elektronik",
-    "tagline": "Akustischer und optischer Signalgeber fuer das Ansitzangeln.",
-    "description": "Der elektronische Bissanzeiger meldet per Ton und Leuchtsignal, wenn ein Fisch Schnur nimmt. Er ist besonders beim Karpfen- und Welsangeln im Einsatz, wo mit mehreren abgelegten Ruten und ueber lange Zeit gefischt wird. So muss der Angler nicht permanent die Spitzen beobachten.\n\nDie Schnur laeuft ueber ein Raedchen im Anzeiger, dessen Bewegung das Signal ausloest. Hochwertige Modelle bieten einstellbare Lautstaerke, Tonhoehe und Empfindlichkeit sowie eine Funkuebertragung an eine Empfaengereinheit (Receiver), die der Angler bei sich traegt. Ergaenzt werden sie oft durch Swinger oder Hanger, die auch feinste Fallbisse anzeigen.\n\nFuer den naechtlichen Ansitz sind Bissanzeiger nahezu unverzichtbar. Auch beim Grundangeln auf andere Arten erhoehen sie den Komfort und die Bissausbeute deutlich.",
-    "types": [
-      "Einzelne Bissanzeiger mit Ton und Licht",
-      "Sets mit Funkempfaenger (Receiver)",
-      "Modelle mit einstellbarer Empfindlichkeit und Lautstaerke",
-      "Ergaenzung durch Swinger/Hanger fuer Fallbisse"
-    ],
-    "criteria": [
-      "Zuverlaessige Erkennung beider Laufrichtungen der Schnur",
-      "Einstellbare Lautstaerke, Tonhoehe und Empfindlichkeit",
-      "Funkreichweite des Empfaengers fuer mobile Angler",
-      "Wetterfestigkeit und Akkulaufzeit"
-    ],
-    "forTechniques": [
-      "Karpfenangeln",
-      "Wallerangeln",
-      "Grundangeln",
-      "Naturkoederangeln"
-    ],
-    "tips": [
-      "Einen Swinger oder Hanger ergaenzen, damit auch Fallbisse (Schnur kommt entgegen) sicher angezeigt werden.",
-      "Die Empfindlichkeit an Wind und Stroemung anpassen, um Fehlalarme zu vermeiden.",
-      "Ersatzbatterien und einen Funkempfaenger erhoehen die Sicherheit beim Nachtansitz."
+      "Beim Durchstechen des Boilies die Nadel gerade und fest führen, um Abrutschen zu vermeiden.",
+      "Gefrorene Boilies kurz antauen lassen, damit die Nadel leichter hindurchgeht.",
+      "Nadelspitze regelmäßig auf Scharfheit und Verbiegung prüfen."
     ],
     "featured": false
   },
@@ -566,6 +250,373 @@
     "featured": false
   },
   {
+    "id": "feederrute",
+    "name": "Feederrute",
+    "category": "Rute",
+    "tagline": "Sensible Grundrute mit Wechselspitzen fuer praezises Futterkorbangeln.",
+    "description": "Die Feederrute ist eine spezialisierte Grundrute fuer das Angeln mit dem Futterkorb (Feeder). Ihr Markenzeichen sind die feinen, auswechselbaren Bissspitzen (Quivertips), die jeden Zupfer sichtbar machen. Je nach Stroemung und Korbgewicht waehlt man eine weichere oder haertere Spitze.\n\nFeederruten werden nach ihrer Wurfgewichtsklasse eingeteilt, von leichten Picker- und Light-Feeder-Ruten fuer ruhige Gewaesser bis zu schweren Heavy- und Big-River-Feedern fuer starke Stroemung und weite Distanzen. Die Laenge liegt meist zwischen 3,0 und 4,2 m.\n\nDas Feederangeln verbindet praezises Anfuettern mit feiner Bisserkennung und ist eine sehr faengige Methode auf Friedfische wie Brassen, Rotaugen und Karpfen.",
+    "types": [
+      "Picker und Light Feeder fuer kurze Distanz",
+      "Medium Feeder als Allrounder",
+      "Heavy und Extra Heavy Feeder fuer Stroemung",
+      "Method Feeder Ruten mit kraeftigerem Blank"
+    ],
+    "criteria": [
+      "Wurfgewichtsklasse passend zu Korbgewicht und Distanz",
+      "Mehrere Wechselspitzen unterschiedlicher Haerte im Lieferumfang",
+      "Laenge nach Wurfweite und Gewaesser",
+      "Feinfuehliger Blank fuer gute Bisserkennung"
+    ],
+    "forTechniques": [
+      "Feederangeln",
+      "Method-Feeder",
+      "Grundangeln"
+    ],
+    "tips": [
+      "Die Bissspitze so waehlen, dass die Stroemung sie leicht vorspannt, ohne sie zu ueberlasten.",
+      "Den Korb in der Stroemung schwer genug waehlen, damit er die Position haelt.",
+      "Regelmaessiges, praezises Nachfuettern an dieselbe Stelle bringt die Fische zusammen."
+    ],
+    "featured": false
+  },
+  {
+    "id": "fischwaage",
+    "name": "Fischwaage",
+    "category": "Zubehör",
+    "tagline": "Präzises Wiegen von Fangergebnissen für Rekorde und Catch-and-Release",
+    "description": "Die Fischwaage ist ein unverzichtbares Werkzeug für alle Angler, die das Gewicht ihrer Fänge festhalten möchten, sei es für persönliche Rekorde, Angelwettbewerbe oder die Dokumentation beim Catch-and-Release-Angeln. Sie hängt den Fisch in einem Wiegesack oder direkt am Maul auf und zeigt das Gewicht digital oder analog an.\n\nDigitale Fischwaagen sind heute Standard und bieten Präzision von 10–50 g Genauigkeit bei Maximumgewichten von 25–100 kg. Viele Modelle besitzen eine Hold-Funktion, die das Gewicht einfriert, sobald der Fisch aufgehört hat, sich zu bewegen. Eine Tara-Funktion erlaubt das Nullstellen mit dem Wiegesack, um dessen Eigengewicht herauszurechnen. Gute Fischwaagen sind spritzwassergeschützt und haben ein ablesbar großes Display.\n\nFür das Karpfenangeln sind Waagen bis 50–60 kg sinnvoll, während im Hechtangeln oder Meeresangeln auch höhere Kapazitäten gefragt sein können. Die Fischwaage sollte immer zusammen mit einem Wiegesack und Maßband verwendet werden. Kurze Waagezeiten schonen den Fisch, weshalb man alles vorbereiten sollte, bevor der Fisch aus dem Wasser genommen wird.",
+    "types": [
+      "Digitale Fischwaage (bis 30 kg)",
+      "Digitale Grosswild-Waage (bis 60 kg)",
+      "Analogwaage (Federwaage, robuste Alternative)",
+      "Kombi-Waage mit integriertem Maßband"
+    ],
+    "criteria": [
+      "Messbereich: passend zur erwarteten Fischgröße",
+      "Genauigkeit: mindestens 20 g Auflösung für genaue Ergebnisse",
+      "Hold-Funktion: zeigt Gewicht an, auch wenn Fisch zappelt",
+      "Spritzwasserschutz und Displaylesbarkeit bei Sonnenlicht"
+    ],
+    "forTechniques": [
+      "Karpfenangeln",
+      "Spinnfischen",
+      "Grundangeln",
+      "Brandungsangeln",
+      "Meerforellenangeln"
+    ],
+    "tips": [
+      "Fisch immer im feuchten Wiegesack wiegen und so kurz wie möglich ausserhalb des Wassers halten.",
+      "Waage vor jeder Session auf Nullpunkt prüfen und kalibrieren.",
+      "Batterien regelmäßig wechseln, Kälte kann die Akku-Leistung schnell reduzieren."
+    ],
+    "featured": false
+  },
+  {
+    "id": "fliegenrolle",
+    "name": "Fliegenrolle",
+    "category": "Rolle",
+    "tagline": "Schnurspeicher und Bremse fuer das Fliegenfischen.",
+    "description": "Die Fliegenrolle dient beim Fliegenfischen in erster Linie als Schnurspeicher und Gegengewicht zur Rute. Anders als bei der Spinnrolle wird die Schnur beim Wurf nicht von der Rolle abgezogen, sondern von Hand gefuehrt. Bei groesseren Fischen kommt jedoch die Bremse ins Spiel, wenn der Fisch Schnur nimmt.\n\nFliegenrollen werden passend zur Schnurklasse der Rute gewaehlt und in entsprechenden Groessenbereichen angeboten. Wichtig ist eine ausreichende Spulenkapazitaet fuer Fliegenschnur plus Backing, die zusaetzliche Schnurreserve fuer lange Fluchten.\n\nBei kleinen Fischen genuegt eine einfache Klickbremse, bei kraeftigen Fischen wie Lachs, Hecht oder Meeresfischen ist eine starke, gleichmaessige Scheibenbremse entscheidend.",
+    "types": [
+      "Rollen mit einfacher Klick-/Sperrbremse",
+      "Rollen mit Scheibenbremse (Disc Drag)",
+      "Large-Arbor-Rollen mit grossem Spulendurchmesser",
+      "Salzwasserfeste, korrosionsbestaendige Modelle"
+    ],
+    "criteria": [
+      "Groesse passend zur Schnurklasse der Rute",
+      "Spulenkapazitaet fuer Schnur plus ausreichend Backing",
+      "Bremsentyp: Klick fuer Kleinfisch, Scheibenbremse fuer Grossfisch",
+      "Gewicht zur Balance der Rute"
+    ],
+    "forTechniques": [
+      "Fliegenfischen"
+    ],
+    "tips": [
+      "Genug Backing aufspulen, denn starke Fische koennen die gesamte Fliegenschnur und mehr nehmen.",
+      "Die Rolle so waehlen, dass sie die Rute ausbalanciert und nicht kopflastig macht.",
+      "Im Salzwasser unbedingt eine gedichtete Bremse waehlen und nach dem Einsatz spuelen."
+    ],
+    "featured": false
+  },
+  {
+    "id": "fliegenrute",
+    "name": "Fliegenrute",
+    "category": "Rute",
+    "tagline": "Die feine, schnurwurfbasierte Rute fuer das Fliegenfischen.",
+    "description": "Die Fliegenrute unterscheidet sich grundlegend von anderen Ruten: Beim Fliegenfischen wirft nicht das Koedergewicht, sondern das Gewicht der speziellen Fliegenschnur die nahezu gewichtslose Fliege ans Ziel. Die Rute muss daher die Wurfenergie sauber aufbauen und abgeben.\n\nFliegenruten werden in Schnurklassen (AFTMA-Klasse) eingeteilt, die zur passenden Fliegenschnur abgestimmt sind. Niedrige Klassen (#2 bis #4) eignen sich fuer Bachforelle und Aesche am kleinen Gewaesser, mittlere Klassen (#5 bis #6) sind Allrounder, hoehere Klassen (#7 und mehr) kommen fuer Hecht, Lachs und das Meeresfliegenfischen zum Einsatz.\n\nNeben der Klasse spielt die Aktion eine grosse Rolle: parabolische Ruten arbeiten gefuehlvoll auf kurze Distanz, schnelle Spitzenaktionen bringen Weite und meistern Wind.",
+    "types": [
+      "Einhandruten fuer die meisten Suesswassersituationen",
+      "Zweihand-/Speyruten fuer grosse Fluesse und Lachs",
+      "Schnurklassen von #2 bis #10 und darueber",
+      "Mehrteilige Reiseruten"
+    ],
+    "criteria": [
+      "Schnurklasse passend zu Zielfisch und Gewaessergroesse",
+      "Abstimmung von Rute, Schnur und Rolle als Einheit",
+      "Aktion: langsam fuer Praesentation, schnell fuer Weite und Wind",
+      "Laenge: kurz am verwachsenen Bach, lang am offenen Fluss"
+    ],
+    "forTechniques": [
+      "Fliegenfischen"
+    ],
+    "tips": [
+      "Rute, Schnur und Rolle muessen in der Klasse zusammenpassen, sonst leidet das Wurfverhalten.",
+      "Eine #5er Einhandrute um 9 Fuss ist der klassische, vielseitige Einstieg.",
+      "Beim Werfen aus dem Handgelenk arbeiten und der Schnur Zeit zum Strecken geben."
+    ],
+    "featured": false
+  },
+  {
+    "id": "fluorocarbon",
+    "name": "Fluorocarbon",
+    "category": "Schnur",
+    "tagline": "Das nahezu unsichtbare, abriebfeste Material fuer Vorfaecher.",
+    "description": "Fluorocarbon ist ein Schnurmaterial, dessen Lichtbrechungsindex dem von Wasser sehr nahekommt, wodurch es unter Wasser kaum sichtbar ist. Es wird vor allem als Vorfach eingesetzt, besonders an geflochtener Hauptschnur, um scheue Fische nicht zu verschrecken. Zudem ist es sehr abriebfest und nimmt kaum Wasser auf.\n\nIm Vergleich zu Nylon ist Fluorocarbon steifer, sinkt schneller und ist deutlich resistenter gegen Abrieb an Steinen, Muscheln und Hechtzaehnen. Es besitzt nur eine geringe Dehnung, weniger als Mono, aber mehr als Geflecht. Diese Eigenschaften machen es zum bevorzugten Vorfachmaterial vieler Angler.\n\nAls komplette Hauptschnur wird Fluorocarbon seltener genutzt, da es teurer und steifer ist. Beim feinen Forellen- und Barschangeln sowie als Hechtvorfach in der Tragkraftvariante leistet es jedoch hervorragende Dienste.",
+    "types": [
+      "Vorfachmaterial in Spulen verschiedener Staerken",
+      "Fertige Fluorocarbon-Vorfaecher mit Wirbel",
+      "Hartes FC fuer Hechtvorfaecher",
+      "Weicheres FC fuer naturnahe Koederpraesentation"
+    ],
+    "criteria": [
+      "Durchmesser passend zur Vorfachklasse und Sichtbarkeit",
+      "Steifigkeit: weich fuer Koederfuehrung, hart fuer Hechtschutz",
+      "Abriebfestigkeit bei zahnbewehrten Fischen",
+      "Markenqualitaet, da es minderwertige Faelschungen gibt"
+    ],
+    "forTechniques": [
+      "Spinnfischen",
+      "Dropshot-Angeln",
+      "Vertikalangeln",
+      "Meerforellenangeln",
+      "Naturkoederangeln"
+    ],
+    "tips": [
+      "Knoten besonders sorgfaeltig anfeuchten und langsam zuziehen, da FC empfindlich auf Reibungshitze reagiert.",
+      "Fuer Hecht reicht duennes Fluorocarbon nicht als Bissschutz, hier ist ein Stahl- oder dickes Hard-FC-Vorfach noetig.",
+      "Ein FC-Vorfach von 50 bis 100 cm schuetzt die Geflochtene und tarnt den Koeder."
+    ],
+    "featured": false
+  },
+  {
+    "id": "funkbissanzeiger-swinger",
+    "name": "Funkbissanzeiger (Swinger)",
+    "category": "Elektronik",
+    "tagline": "Elektronisches Biss-Alarmsystem mit Fernempfänger für den Karpfenangler",
+    "description": "Der Funkbissanzeiger, oft in Kombination mit einem Swinger (einem pendelnden Schnurspannungsindikator) verwendet, ist ein elektronisches System, das den Angler bei einem Biss durch akustische und visuelle Signale alarmiert, auch wenn er sich nicht direkt an der Rute befindet. Ein drahtloser Empfänger, den man im Angelzelt oder in der Tasche trägt, übermittelt den Alarm per Funk.\n\nModerne Systeme bestehen aus einem oder mehreren Bissanzeigern, die am Bankstick oder Rod-Pod montiert werden, und einem Basisempfänger (Receiver). Bei einem Biss löst der Bissanzeiger einen Ton und eine LED-Anzeige aus, die auch per Funk an den Empfänger gesendet wird. Swinger werden unterhalb des Bissanzeigers an der Schnur eingehängt und zeigen zusätzlich die Schnurbewegung visuell an und unterscheiden Karpfenbisse vom einfachen Schnurtreiben.\n\nBeim Kauf sollte man auf Reichweite (mindestens 100 m), Akkustandsanzeige, Tonvolumen und Empfindlichkeitseinstellung achten. Sets mit drei oder vier Bissanzeigern plus Receiver sind für Karpfenangler die gängige Wahl. Hochwertigen Herstellern sollte man den Vorzug geben, da günstige Modelle zu Fehlalarmen neigen oder eine kurze Akkulaufzeit haben.",
+    "types": [
+      "Einzelbissanzeiger (ohne Funk)",
+      "Funk-Bissanzeiger-Set (2–4 Anzeiger + Receiver)",
+      "Swinger-Set (mechanisch, ohne Elektronik)",
+      "Hanger (Pendel-Indikator, günstige Alternative)"
+    ],
+    "criteria": [
+      "Funkreichweite: mind. 100 m für grosse Angelplaetze",
+      "Akkulaufzeit: langer Betrieb ohne Nachladen",
+      "Empfindlichkeitseinstellung: vermeidet Fehlalarme durch Wellen",
+      "Lautstärke und LED-Sichtbarkeit bei Tageslicht"
+    ],
+    "forTechniques": [
+      "Karpfenangeln",
+      "Grundangeln"
+    ],
+    "tips": [
+      "Empfindlichkeit je nach Wasserströmung und Wind anpassen, um Fehlalarme zu minimieren.",
+      "Receiver immer in Reichweite halten, besonders beim Schlafen im Zelt.",
+      "Vor jeder Session Akkustand aller Geräte prüfen."
+    ],
+    "featured": false
+  },
+  {
+    "id": "futterschleuder",
+    "name": "Futterschleuder",
+    "category": "Zubehör",
+    "tagline": "Präzises Anfüttern auf größere Entfernungen mit der Schleuder",
+    "description": "Die Futterschleuder, auch Katapult oder Schleudergabel genannt, ermöglicht es Anglern, Boilies, Pellets, Mais oder Groundbait gezielt und auf weite Distanzen in den Angelbereich zu werfen. Sie besteht aus einer Gabel aus Holz oder Kunststoff mit elastischen Bändern und einem kleinen Korb oder Pouch, in den das Futter gelegt wird.\n\nJe nach Gummidicke und Pouchgröße lassen sich unterschiedliche Futtermengen und Distanzen realisieren. Dünne, weiche Gummibänder eignen sich für empfindliche Partikel wie Mais oder Pellets, die nicht zerdrückt werden sollen. Dickere Bänder erzeugen mehr Spannung und ermöglichen das Verschießen von Boilies auf über 50 m Entfernung. Das regelmäßige Wechseln der Gummibänder verlängert die Lebensdauer der Schleuder erheblich.\n\nFür das präzise Anfüttern im Karpfen- und Feederangeln ist die Futterschleuder unverzichtbar. Wer häufig auf mittlere Distanzen fischt, erzielt mit einer hochwertigen Schleuder und etwas Übung sehr konstante Wurfweiten und -genauigkeit. Einige Modelle besitzen ergonomische Griffe oder Handgelenksstützen für ermüdungsfreies Schleudern bei längerem Einsatz.",
+    "types": [
+      "Gabelschleuder aus Holz (klassisch)",
+      "Kunststoffschleuder mit austauschbaren Gummis",
+      "Schleuder mit grossem Pouch für Groundbait",
+      "Boilies-Schleuder mit verstärkten Gummibändern"
+    ],
+    "criteria": [
+      "Gummistärke: dünner für Partikel, dicker für Boilies und weite Distanzen",
+      "Pouchgröße: bestimmt die pro Schuss mögliche Futtermenge",
+      "Ergonomie: Griffform für ermüdungsfreies Schleudern",
+      "Austauschbarkeit der Gummibänder"
+    ],
+    "forTechniques": [
+      "Karpfenangeln",
+      "Feederangeln",
+      "Posenangeln",
+      "Grundangeln"
+    ],
+    "tips": [
+      "Gummibänder regelmäßig auf Risse prüfen und vor dem Reißen austauschen.",
+      "Zum Eingewöhnen auf kurze Distanzen trainieren und erst danach Reichweite steigern.",
+      "Den Pouch niemals überladen, da sonst die Präzision leidet."
+    ],
+    "featured": false
+  },
+  {
+    "id": "geflochtene-schnur",
+    "name": "Geflochtene Schnur",
+    "category": "Schnur",
+    "tagline": "Nahezu dehnungsfrei und extrem tragstark bei duennem Durchmesser.",
+    "description": "Geflochtene Schnur (Geflecht, Braid) besteht aus mehreren verwobenen Kunststofffasern, meist auf Basis von Dyneema oder aehnlichen Hochleistungsfasern. Sie hat praktisch keine Dehnung, wodurch selbst feinste Bisse und Grundkontakt direkt in die Hand uebertragen werden. Bei gleicher Tragkraft ist sie deutlich duenner als monofile Schnur.\n\nDie fehlende Dehnung ist ihre groesste Staerke und zugleich Schwaeche: Sie liefert maximale Sensibilitaet und kraftvolle Anhiebe auf grosse Distanz, verzeiht aber kaum Fehler im Drill. Daher kombiniert man Geflecht oft mit einem monofilen oder fluorocarbonen Vorfach als Puffer und Tarnung.\n\nGeflochtene Schnur ist die erste Wahl beim modernen Spinnfischen, beim Jiggen, beim Vertikal- und Dropshot-Angeln sowie beim Feedern, wo direkter Kontakt und Wurfweite zaehlen.",
+    "types": [
+      "4-fach geflochten (rauer, guenstiger)",
+      "8-fach geflochten (runder, leiser, weiter werfend)",
+      "Beschichtete Varianten fuer mehr Abriebfestigkeit",
+      "Signalfarben fuer bessere Schnurkontrolle"
+    ],
+    "criteria": [
+      "Tragkraft realistisch zum Zielfisch waehlen (Angaben variieren)",
+      "Anzahl der Fasern: 8-fach laeuft leiser und wirft weiter",
+      "Farbe: auffaellig fuer Kontrolle, getarnt fuer scheue Fische",
+      "Abriebfestigkeit bei steinigem oder muschelbesetztem Grund"
+    ],
+    "forTechniques": [
+      "Spinnfischen",
+      "Jiggen",
+      "Vertikalangeln",
+      "Dropshot-Angeln",
+      "Feederangeln",
+      "Twitchen"
+    ],
+    "tips": [
+      "Immer ein Fluorocarbon- oder Mono-Vorfach vorschalten, um die sichtbare und stossempfindliche Geflochtene zu entschaerfen.",
+      "Spezielle Knoten wie Palomar oder FG-Knoten verwenden, da glatte Geflechte leicht rutschen.",
+      "Eine duenne Mono-Unterfuetterung auf der Spule verhindert, dass das Geflecht durchrutscht."
+    ],
+    "featured": true
+  },
+  {
+    "id": "hakenloeserzange",
+    "name": "Hakenlöser (Arterienklemme)",
+    "category": "Zubehör",
+    "tagline": "Präzises Werkzeug zum sicheren Entfernen tief sitzender Haken",
+    "description": "Der Hakenlöser, oft in Form einer Arterienklemme (auch Haemostats oder Schnabelzange genannt), ist ein feines Zangenwerkzeug mit gebogener oder gerader Spitze und einer Arretierung, das aus der Medizin adaptiert wurde. Er dient dazu, tief verschluckte Haken sicher aus dem Fischmaul zu entfernen, ohne den Fisch zusätzlich zu verletzen oder die eigenen Finger zu gefährden.\n\nBesonders beim Angeln auf Raubfische wie Hecht oder Zander, deren Zähne gefährlich sein können, ist ein Hakenlöser unverzichtbar. Auch beim Angeln auf Forellen oder Weißfische, die Haken tief schlucken, hilft er enorm. Die Arretierung der Klemme hält den Haken sicher fest, während man ihn mit einer kontrollierten Drehbewegung löst. Geeignete Längen liegen zwischen 14 und 25 cm.\n\nNeben der klassischen geraden Arterienklemme gibt es auch speziell für Angler entwickelte Hakenlöser mit Hakenrückdrücker-Funktion oder kombinierten Schneid- und Griffelementen. Für das Forellen- und Meerforellenangeln an der Küste empfehlen sich korrosionsbeständige Edelstahlmodelle. Eine Sicherungsleine am Griff verhindert Verlust beim Boot- oder Watangeln.",
+    "types": [
+      "Gerade Arterienklemme (14 cm)",
+      "Gebogene Arterienklemme (18 cm)",
+      "Langer Hakenlöser (25 cm) für Raubfische",
+      "Kombi-Zange mit Schneidfunktion"
+    ],
+    "criteria": [
+      "Länge: kurze Modelle für kleine Fische, lange für Raubfische",
+      "Material: Edelstahl für Salzwasser und Langlebigkeit",
+      "Arretierungsmechanismus: sicheres Halten des Hakens",
+      "Griffqualität: rutschfeste, handschmeichlerische Griffe"
+    ],
+    "forTechniques": [
+      "Spinnfischen",
+      "Posenangeln",
+      "Feederangeln",
+      "Meerforellenangeln",
+      "Grundangeln"
+    ],
+    "tips": [
+      "Niemals blindlings in ein Fischmaul greifen, immer Hakenlöser oder Zange verwenden.",
+      "Den Fisch sicher auf der Abhakmatte ablegen, bevor der Haken gelöst wird.",
+      "Gebogene Klemmen erleichtern das Erreichen tief sitzender Haken."
+    ],
+    "featured": false
+  },
+  {
+    "id": "karpfenrute",
+    "name": "Karpfenrute",
+    "category": "Rute",
+    "tagline": "Kraftvolle Wurf- und Drillrute fuer das gezielte Karpfenangeln.",
+    "description": "Die Karpfenrute ist eine kraeftige, meist 3,60 m (12 Fuss) lange Rute, die auf weite Wuerfe schwerer Montagen und den Drill grosser Fische ausgelegt ist. Ihre Power wird in Lbs (Testkurve) angegeben, typischerweise zwischen 2,75 und 3,5 Lbs. Je hoeher der Wert, desto schwerer die Montage, die sich werfen laesst, und desto kraftvoller die Rute.\n\nKarpfenruten werden meist im Mehrfachset auf Rod Pods oder Banksticks abgelegt und mit Bissanzeigern kombiniert. Der Blank ist auf grosse Wurfweiten und Reserven im Drill ausgelegt, ohne dabei die Bremse der Rolle und das Vorfach zu ueberlasten.\n\nFuer kurze Distanzen und kleinere Gewaesser reichen 2,75 bis 3,0 Lbs, fuer grosse Seen und weite Wuerfe sind 3,25 bis 3,5 Lbs sinnvoll. Die richtige Wahl haengt von Gewaessergroesse und Wurfdistanz ab.",
+    "types": [
+      "Testkurven von 2,75 bis 3,5 Lbs",
+      "Standardlaenge 12 Fuss, dazu 10 und 13 Fuss",
+      "Spod-/Markerruten fuer Futter und Auslotung",
+      "Mehrteilige Travel-Modelle"
+    ],
+    "criteria": [
+      "Testkurve passend zu Wurfweite und Fischgroesse",
+      "Laenge nach Gewaessergroesse (laenger fuer mehr Weite)",
+      "Blankqualitaet fuer Wurfweite und Drillreserven",
+      "Beringung passend zur verwendeten Schnur"
+    ],
+    "forTechniques": [
+      "Karpfenangeln"
+    ],
+    "tips": [
+      "Fuer das Anfuettern und Markern lohnt sich eine separate, robustere Spod-/Markerrute.",
+      "Die Rute im Drill nicht zu steil aufrichten, damit der Blank die Kraft abfedern kann.",
+      "Mehrere identische Ruten erleichtern abgestimmtes Mehrrutenangeln."
+    ],
+    "featured": false
+  },
+  {
+    "id": "kescher",
+    "name": "Kescher",
+    "category": "Zubehoer",
+    "tagline": "Unverzichtbare Landehilfe fuer ein sicheres und schonendes Anlanden.",
+    "description": "Der Kescher (Unterfangkescher) dient dazu, den gehakten Fisch sicher zu landen, ohne dass im letzten Moment Schnur oder Haken nachgeben. Gerade bei groesseren Fischen ist er Pflicht und schont zugleich den Fisch, der nicht aufs Trockene gezerrt werden muss.\n\nKescher unterscheiden sich in Kopfgroesse, Stiellaenge und Netzmaterial. Fuer Karpfen und grosse Raubfische werden weite, tiefe Koepfe mit knotenlosem, gummiertem Netz verwendet, das Schleimhaut und Flossen schont. Beim Wandern und Spinnfischen sind kompakte Klapp- oder Watkescher praktisch.\n\nWichtig ist eine ausreichende Stiellaenge fuer hohe oder steile Ufer sowie ein gummiertes Netz, in dem sich Haken und Drillinge nicht verfangen. Ein guter Kescher erhoeht die Landequote spuerbar.",
+    "types": [
+      "Karpfenkescher mit weitem Kopf",
+      "Spinn- und Watkescher (kompakt, klappbar)",
+      "Teleskop-Kescher mit langem Stiel",
+      "Gummierte, knotenlose Netze"
+    ],
+    "criteria": [
+      "Kopfgroesse passend zum erwarteten Zielfisch",
+      "Stiellaenge ausreichend fuer Ufer und Wassertiefe",
+      "Gummiertes, knotenloses Netz schont Fisch und haelt Haken fern",
+      "Packmass und Gewicht beim mobilen Angeln"
+    ],
+    "forTechniques": [
+      "Karpfenangeln",
+      "Spinnfischen",
+      "Grundangeln",
+      "Feederangeln",
+      "Naturkoederangeln"
+    ],
+    "tips": [
+      "Den Kescher vor dem Drill bereitlegen und ins Wasser halten, dann den Fisch hineinfuehren statt ihn zu jagen.",
+      "Gummierte Netze verhindern, dass sich Drillinge verheddern und schonen die Schleimhaut.",
+      "Den Fisch nicht am Stiel aus dem Wasser hebeln, sondern den Rahmen mit der Hand greifen."
+    ],
+    "featured": false
+  },
+  {
+    "id": "monofile-schnur",
+    "name": "Monofile Schnur",
+    "category": "Schnur",
+    "tagline": "Die dehnbare, gutmuetige Einsteigerschnur aus einem einzigen Nylonfaden.",
+    "description": "Monofile Schnur besteht aus einem einzelnen Kunststofffaden, meist Nylon. Sie ist preiswert, abriebfest, knotenfreundlich und besitzt eine gewisse Eigendehnung, die Fehler im Drill verzeiht und Schlaege beim Biss abfedert. Genau diese Dehnung macht sie zur idealen Schnur fuer Einsteiger und fuer Techniken, bei denen ein Puffer erwuenscht ist.\n\nDie Tragkraft wird ueber den Durchmesser gesteuert. Im Vergleich zur geflochtenen Schnur hat Mono bei gleicher Tragkraft einen deutlich groesseren Durchmesser, dafuer ist sie nahezu unsichtbar gegenueber der oft farbigen Geflochtenen und sinkt langsamer.\n\nTypische Einsatzgebiete sind das Posen- und Grundangeln, das Karpfenangeln sowie alle Situationen, in denen die Dehnung als Stossdaempfer dient. Zum feinen Jiggen mit direkter Bisserkennung ist sie wegen der Dehnung weniger geeignet.",
+    "types": [
+      "Klassisches Nylon-Monofil",
+      "Copolymer-Schnuere mit verbesserten Eigenschaften",
+      "Sinkende Varianten fuer Grund- und Karpfenangeln",
+      "Tarnfarben (grau, braun, gruen, klar)"
+    ],
+    "criteria": [
+      "Durchmesser und Tragkraft zum Zielfisch passend waehlen",
+      "Abriebfestigkeit bei hindernisreichen Gewaessern",
+      "Dehnung: gewuenscht als Puffer oder unerwuenscht fuer Bisserkennung",
+      "Farbe nach Gewaesser und Wassertruebung"
+    ],
+    "forTechniques": [
+      "Posenangeln",
+      "Grundangeln",
+      "Karpfenangeln",
+      "Naturkoederangeln",
+      "Feederangeln"
+    ],
+    "tips": [
+      "Monofile altert unter UV-Licht und Belastung, daher die Hauptschnur regelmaessig erneuern.",
+      "Knoten vor dem Festziehen anfeuchten, damit die Schnur durch Reibungshitze nicht geschwaecht wird.",
+      "Als Schlagschnur oder Vorfach kann Mono die stossempfindliche Geflochtene sinnvoll ergaenzen."
+    ],
+    "featured": false
+  },
+  {
     "id": "polarisationsbrille",
     "name": "Polarisationsbrille",
     "category": "Bekleidung",
@@ -593,6 +644,382 @@
       "Braune Glaeser bieten an den meisten Tagen den besten Kontrast zum Erkennen von Fischen.",
       "Die Brille schuetzt die Augen vor fehlgeleiteten Haken, daher beim Werfen immer tragen.",
       "Mit der Sonne im Ruecken laesst sich durch die polarisierte Oberflaeche am besten ins Wasser blicken."
+    ],
+    "featured": false
+  },
+  {
+    "id": "pose",
+    "name": "Pose / Schwimmer",
+    "category": "Kleinteil",
+    "tagline": "Schwimmender Bissanzeiger und Koederpraesentierer fuer die Wasseroberflaeche.",
+    "description": "Die Pose (Schwimmer, Float) ist ein klassischer, optischer Bissanzeiger. Sie haelt den Koeder in der gewuenschten Tiefe, zeigt Bisse durch Eintauchen oder Aufsteigen an und hilft, den Koeder kontrolliert treiben zu lassen. Posenangeln gehoert zu den schoensten und traditionsreichsten Methoden.\n\nPosen unterscheiden sich in Form, Tragkraft (in Gramm) und Befestigung. Schlanke Posen sind feinfuehlig fuer stehende Gewaesser, bauchige und stabilisierte Modelle eignen sich fuer Wind und Stroemung. Die Tragkraft muss zur Bebleiung passen, damit die Pose korrekt austariert im Wasser steht.\n\nVon der feinen Stippose ueber die Laufpose fuer grosse Tiefen bis zur Waggler- und Knicklichtpose fuer die Daemmerung gibt es fuer jede Situation die passende Bauform.",
+    "types": [
+      "Feststehende Posen fuer geringe Tiefen",
+      "Laufposen fuer tiefe Gewaesser",
+      "Waggler fuer Wind und weite Wuerfe",
+      "Stipp-/Match-Posen",
+      "Posen mit Knicklichthalter fuer die Daemmerung"
+    ],
+    "criteria": [
+      "Tragkraft passend zur geplanten Bebleiung",
+      "Form nach Gewaesser: schlank fuer Stillwasser, stabil fuer Stroemung",
+      "Befestigung: fest oder laufend je nach Tiefe",
+      "Gute Sichtbarkeit der Antenne bei jedem Licht"
+    ],
+    "forTechniques": [
+      "Posenangeln",
+      "Stippangeln",
+      "Matchangeln",
+      "Naturkoederangeln"
+    ],
+    "tips": [
+      "Die Pose sauber ausbleien, sodass nur die Spitze der Antenne aus dem Wasser ragt, dann sind feinste Bisse sichtbar.",
+      "Bei Wind eine bauchigere, schwerere Pose waehlen, sie liegt ruhiger.",
+      "Ein Knicklicht in der Antenne verlaengert das Posenangeln in die Daemmerung."
+    ],
+    "featured": false
+  },
+  {
+    "id": "rod-pod",
+    "name": "Rod-Pod",
+    "category": "Zubehör",
+    "tagline": "Stabiler Rutenständer für mehrere Ruten gleichzeitig am Ufer",
+    "description": "Der Rod-Pod ist ein freistehender Rutenständer aus Metall, der es ermöglicht, mehrere Angelruten gleichzeitig sicher und parallel abzulegen, ohne dass sie einzeln im Boden befestigt werden müssen. Dies ist besonders dann vorteilhaft, wenn der Untergrund steinig, sehr hart oder anderweitig nicht geeignet ist, um einzelne Banksticks einzuschlagen.\n\nEin typischer Rod-Pod besteht aus einem Rahmen mit zwei vorderen und zwei hinteren Auflagen, an denen Rutenhalter oder Bissanzeiger befestigt werden können. Die meisten Modelle sind aus Aluminium oder Edelstahl gefertigt und besitzen verstellbare Beine, um auch auf unebenem Untergrund waagerecht ausgerichtet werden zu können. Viele Karpfenangler setzen Rod-Pods mit integrierten Swingern oder elektronischen Bissanzeigern ein.\n\nBeim Kauf sollte man auf Stabilität und einfachen Aufbau achten. Günstiger Einstieg gelingt mit einem Zwei-Ruten-Pod, wer aber mit drei oder vier Ruten fischt, benötigt entsprechende Modelle. Hochwertige Rod-Pods lassen sich auch für Feeder- oder Grundangeln einsetzen und sind in der Regel durch Zubehör wie Verlängerungen oder zusätzliche Halter erweiterbar.",
+    "types": [
+      "Standard-Rod-Pod (2 Ruten)",
+      "Drei- oder Vier-Ruten-Pod",
+      "Kompakt-Pod für den Tagesausflug",
+      "Deluxe-Pod mit integrierten Rutenablagehaltern"
+    ],
+    "criteria": [
+      "Anzahl der Rutenplätze: abhängig von der geplanten Rutenzahl",
+      "Materialqualität: Aluminium leichter, Edelstahl robuster",
+      "Verstellbarkeit der Beine: wichtig für unebenes Terrain",
+      "Kompatibilität mit Bissanzeigern und Schwingarmen"
+    ],
+    "forTechniques": [
+      "Karpfenangeln",
+      "Grundangeln",
+      "Feederangeln"
+    ],
+    "tips": [
+      "Rod-Pods aus Aluminium sind leichter, können aber weniger Druck vertragen als Edelstahlmodelle.",
+      "Bei Wind immer Erdspieße oder Sandsäcke zur Stabilisierung verwenden.",
+      "Auf Kompatibilität der Gewinde (16 mm Standard) mit eigenen Bissanzeigern achten."
+    ],
+    "featured": false
+  },
+  {
+    "id": "rutenhalter",
+    "name": "Rutenhalter",
+    "category": "Zubehoer",
+    "tagline": "Haelt die Rute sicher in Position waehrend des Ansitzes.",
+    "description": "Der Rutenhalter fixiert die Rute in der gewuenschten Position, sodass der Angler die Haende frei hat und die Bisserkennung dem Anzeiger oder der Rutenspitze ueberlassen kann. Er ist beim Grund-, Karpfen-, Feeder- und Brandungsangeln im Einsatz, ueberall dort, wo die Rute laengere Zeit abgelegt wird.\n\nDie einfachste Form ist der Bankstick (Erdspiess), der in den Boden gesteckt wird und eine Auflage traegt. Mehrere Ruten lassen sich komfortabel auf einem Rod Pod ablegen, einem freistehenden Gestell, das auch auf hartem oder steinigem Untergrund funktioniert. Beim Brandungsangeln kommen lange, stabile Sandspiesse oder Dreibeine (Tripods) zum Einsatz.\n\nWichtig ist ein fester Stand und eine schonende Auflage fuer die Rute. Beim Feederangeln erlaubt ein gut positionierter Halter zudem das praezise Beobachten der feinen Bissspitze.",
+    "types": [
+      "Banksticks (Erdspiesse) mit Auflage",
+      "Rod Pods fuer mehrere Ruten",
+      "Sandspiesse fuer die Brandung",
+      "Dreibeine (Tripods) fuer harten Untergrund",
+      "Bootsrutenhalter zur Montage am Boot"
+    ],
+    "criteria": [
+      "Standfestigkeit auf dem jeweiligen Untergrund",
+      "Anzahl der aufzunehmenden Ruten",
+      "Schonende, klemmfreie Auflage fuer den Blank",
+      "Hoehen- und Winkelverstellung fuer die Bisserkennung"
+    ],
+    "forTechniques": [
+      "Karpfenangeln",
+      "Grundangeln",
+      "Feederangeln",
+      "Brandungsangeln",
+      "Naturkoederangeln"
+    ],
+    "tips": [
+      "Auf hartem oder steinigem Boden ist ein freistehendes Rod Pod stabiler als einzelne Banksticks.",
+      "Die Rute beim Feedern moeglichst hoch ablegen, damit die Bissspitze gut sichtbar ist.",
+      "Beim Brandungsangeln den Sandspiess tief und schraeg gegen die Wellen setzen."
+    ],
+    "featured": false
+  },
+  {
+    "id": "rutentasche-holdall",
+    "name": "Rutentasche (Holdall)",
+    "category": "Zubehör",
+    "tagline": "Schutztragetasche für mehrere montierte Ruten mit Rollen und Ködern",
+    "description": "Die Rutentasche, im Karpfenangeln oft als Holdall bezeichnet, ist eine langgestreckte Schutztasche aus Cordura, Canvas oder Nylon, die speziell dafür konzipiert ist, mehrere komplett montierte Angelruten (mit Rollen und aufgewickelter Schnur) sicher und transportbereit zu verstauen. Sie schützt Blank, Ringe und Rollen vor Beschädigung während des Transports.\n\nEin typischer Holdall fasst zwei bis fünf Ruten und ist in mehrere gepolsterte Kammern unterteilt. Viele Modelle haben zusätzlich Außentaschen für Rutenständer, Banksticks und Pods sowie Tragegriffe und Schulterriemen für komfortablen Transport. Einige Designs ermöglichen das Aufrollen und Verstauen von bis zu 13-Fuß-Ruten, ohne diese zerlegen zu müssen.\n\nBei der Auswahl ist die maximale Rutenlänge entscheidend: Für kurze Reise- oder Teleskopruten reichen kompakte Modelle, für lange Karpfen- und Spod-Ruten benötigt man 160–200 cm lange Taschen. Wasserdichte oder -abweisende Materialien sind wichtig, um die empfindliche Ausrüstung trocken zu halten. Stabilität der Reißverschlüsse und Nähte entscheiden über die Langlebigkeit.",
+    "types": [
+      "Kompakter Holdall (2–3 Ruten, bis 12 Fuß)",
+      "Standard-Holdall (3–5 Ruten, bis 13 Fuß)",
+      "Modular-Holdall mit abnehmbaren Kammern",
+      "Rucksack-Holdall-Kombination"
+    ],
+    "criteria": [
+      "Kapazität: Anzahl und Länge der aufzunehmenden Ruten",
+      "Material: wasserdicht oder wasserabweisend für Outdoor-Einsatz",
+      "Polsterung: schützt Blank und Ringe vor Stößen",
+      "Tragkomfort: Schulterriemen, Tragegriffe und Gewicht"
+    ],
+    "forTechniques": [
+      "Karpfenangeln",
+      "Feederangeln",
+      "Spinnfischen",
+      "Meerforellenangeln"
+    ],
+    "tips": [
+      "Ruten immer mit Schutzdeckeln an den Rutenringen einlagern, um Schäden zu vermeiden.",
+      "Holdall nicht überladen, da zu viele Ruten das Material belasten.",
+      "Nach dem Einsatz bei Regen trocknen, um Schimmelbildung in Nähten zu verhindern."
+    ],
+    "featured": false
+  },
+  {
+    "id": "schwimmweste",
+    "name": "Schwimmweste",
+    "category": "Bekleidung",
+    "tagline": "Lebensrettende Sicherheitsausrüstung auf dem Wasser und im Belly-Boat",
+    "description": "Die Schwimmweste, auch Rettungsweste oder Personal Flotation Device (PFD) genannt, ist beim Angeln vom Boot, Belly-Boat oder Kajak eine absolut unverzichtbare Sicherheitsausrüstung. Sie sorgt dafür, dass der Träger im Wasser über Wasser gehalten wird, selbst wenn dieser bewusstlos ist oder nicht mehr schwimmen kann.\n\nAngelvesten sind speziell für den Angler konzipiert und vereinen Auftrieb mit praktischen Eigenschaften wie Taschen für Kleinteile, D-Ringen für Werkzeug und einem schlankeren Schnitt, der die Wurfbewegung weniger behindert als klassische Rettungswesten. Es gibt selbstaufblasende Modelle (Autoinflatable), die bei Wasserkontakt automatisch aktiviert werden, sowie manuelle und Feststoffwesten.\n\nFür das Angeln vom Belly-Boat oder Kajak empfehlen sich Westen der Klasse ISO 150 oder höher, die auch einen bewusstlosen Träger mit dem Gesicht nach oben halten. Auf die CE-Kennzeichnung und regelmäßige Wartung der Aktivierungseinheiten bei Autoinflatable-Westen sollte geachtet werden. Kinder benötigen stets eine eigene, passend sitzende Weste.",
+    "types": [
+      "Feststoff-Anglerweste (ISO 50)",
+      "Selbstaufblasende Weste Automatik (ISO 150)",
+      "Manuelle Rettungsweste mit Angeltaschen",
+      "Kinder-Schwimmweste für junge Angler"
+    ],
+    "criteria": [
+      "Auftriebsklasse: ISO 150 für Belly-Boat und Boot empfohlen",
+      "Passform: eng anliegend, Wurfbewegung nicht einschränkend",
+      "Ausstattung: Taschen, D-Ringe, Pfeife",
+      "Wartungsfreundlichkeit: einfach prüfbare und tauschbare Aktivierungseinheit"
+    ],
+    "forTechniques": [
+      "Spinnfischen",
+      "Vertikalangeln",
+      "Fliegenfischen",
+      "Meerforellenangeln"
+    ],
+    "tips": [
+      "Schwimmweste immer tragen, nicht nur mitführen.",
+      "Autoinflatable-Westen mindestens einmal jährlich auf Dichtheit und Aktivierungspatrone prüfen.",
+      "Eine Pfeife oder Signallampe an der Weste befestigen für den Notfall."
+    ],
+    "featured": false
+  },
+  {
+    "id": "setzkescher",
+    "name": "Setzkescher",
+    "category": "Zubehör",
+    "tagline": "Lebendiger Fischspeicher für schonende Hälterung am Wasser",
+    "description": "Der Setzkescher ist ein unverzichtbares Hilfsmittel für alle Angler, die Fische während einer Angelsitzung schonend im Wasser halten möchten. Er besteht aus einem langen, zylindrischen Netz aus feinem Kunststoffgarn oder Nylongewebe, das an mehreren Reifen aufgespannt ist und so einen röhrenförmigen Lebendraum für den Fisch bildet.\n\nBesonders im Wettbewerbsangeln und beim Posenangeln auf Weißfisch kommt der Setzkescher häufig zum Einsatz. Die Maschenweite und der Durchmesser spielen dabei eine entscheidende Rolle: Grobe Maschen ermöglichen eine bessere Wasserströmung und Sauerstoffversorgung, während engere Maschen Verletzungen der Flossen verhindern. Moderne Setzkescher haben oft gummierte Maschen, die die Schleimschicht der Fische schützen.\n\nBeim Kauf sollte man auf ausreichende Länge (mindestens 2,5 m) und stabiles Material achten. Viele Modelle besitzen eine Teleskopstange zum einfachen Ausbringen im Uferbereich. Nach der Verwendung muss der Setzkescher gründlich gereinigt und getrocknet werden, um die Übertragung von Krankheitserregern zwischen Gewässern zu verhindern.",
+    "types": [
+      "Standard-Setzkescher (Nylon, 2,5–4 m)",
+      "Gummierter Setzkescher (schleimhautschonend)",
+      "Faltbarer Setzkescher mit Tragetasche",
+      "XXL-Setzkescher für Karpfen (großer Durchmesser)"
+    ],
+    "criteria": [
+      "Länge: mindestens 2,5 m für komfortables Hältern",
+      "Maschenweite und Material: gummiert schützt Schleimhaut",
+      "Durchmesser der Reifen: mind. 40 cm für größere Fische",
+      "Verarbeitungsqualität der Reifen und Befestigung"
+    ],
+    "forTechniques": [
+      "Posenangeln",
+      "Feederangeln",
+      "Grundangeln"
+    ],
+    "tips": [
+      "Den Setzkescher niemals in der prallen Sonne ausbringen, da warmes Wasser den Sauerstoffgehalt senkt.",
+      "Nach jeder Verwendung in einem anderen Gewässer den Kescher trocknen, um Seuchenübertragung zu verhindern.",
+      "Große Raubfische besser nicht im Setzkescher halten, sondern sofort zurücksetzen."
+    ],
+    "featured": false
+  },
+  {
+    "id": "spinnrute",
+    "name": "Spinnrute",
+    "category": "Rute",
+    "tagline": "Die vielseitige Allrounderin fuer das aktive Angeln mit Kunstkoedern.",
+    "description": "Die Spinnrute ist eine der populaersten Ruten ueberhaupt und wird zum aktiven Fischen mit Kunstkoedern wie Wobblern, Blinkern, Spinnern und Gummifischen eingesetzt. Charakteristisch ist ihr meist semiparaboler bis spitzenaktioner Blank, der praezise Wuerfe und eine direkte Koederkontrolle ermoeglicht. Das Wurfgewicht (WG) ist auf dem Blank angegeben und sollte zum geplanten Koedergewicht passen.\n\nSpinnruten gibt es in unzaehligen Laengen und Wurfgewichtsklassen, vom leichten 1,80 m Ultralight-Stock fuer Barsch und Forelle bis zur kraeftigen 3,00 m Rute fuer Hecht und Zander vom Boot oder Ufer. Die richtige Wahl haengt stark vom Zielfisch, Gewaesser und der bevorzugten Koederfuehrung ab.\n\nWer nur eine einzige Rute kaufen moechte, faehrt mit einer mittleren Spinnrute um 2,40 m und einem WG von etwa 10 bis 40 g am breitesten aufgestellt. Damit lassen sich die meisten heimischen Raubfische beangeln.",
+    "types": [
+      "Ultralight (UL) bis ca. 7 g WG",
+      "Light/Medium-Light (10 bis 25 g WG)",
+      "Medium/Heavy (bis 60 g WG und mehr)",
+      "Reiseruten in mehrteiliger Steckbauweise",
+      "Spitzenaktion vs. semiparabolische Aktion"
+    ],
+    "criteria": [
+      "Wurfgewicht passend zum geplanten Koedergewicht waehlen",
+      "Laenge nach Gewaesser und Wurfdistanz (kurz am Bach, lang am See)",
+      "Aktion: spitzenaktiv fuer Jig-Angeln, parabolisch fuer Wobbler",
+      "Gewicht und Balance fuer ermuedungsfreies Dauerfischen"
+    ],
+    "forTechniques": [
+      "Spinnfischen",
+      "Jiggen",
+      "Dropshot-Angeln",
+      "Twitchen"
+    ],
+    "tips": [
+      "Das reale Koedergewicht sollte im oberen Drittel des angegebenen Wurfgewichts liegen, dann laedt sich der Blank optimal auf.",
+      "Eine zu schwere Rute fuer kleine Koeder nimmt jedes Gefuehl fuer den Koeder und die Bisse.",
+      "Fuer den Einstieg ist eine mittlere Klasse vielseitiger als ein Spezialstock."
+    ],
+    "featured": true
+  },
+  {
+    "id": "spod-rute",
+    "name": "Spod-Rute",
+    "category": "Rute",
+    "tagline": "Speziell verstärkte Rute für das wurfweitenstarke Anfüttern mit dem Spod",
+    "description": "Die Spod-Rute ist eine speziell für das Anfüttern mit einem Spod (einem raketen- oder bombenförmigen Futtercontainer) konzipierte Angelrute. Sie ist in der Regel länger und kräftiger als normale Karpfenruten, um das hohe Gewicht eines gefüllten Spods von 100 g und mehr auf große Distanzen werfen zu können, ohne die Rute zu beschädigen.\n\nTypische Spod-Ruten haben eine Länge von 12–13 Fuß (3,60–3,96 m) und eine Wurfgewichtsangabe von bis zu 5–8 oz (ca. 140–230 g). Der Blank ist meist sehr steif und aus hochwertigem Carbon gefertigt, um die enormen Belastungen beim wiederholten Werfen zu verkraften. Eine schnelle Aktion sorgt dafür, dass der Spod präzise und weit geworfen werden kann.\n\nIm modernen Karpfenangeln ist die Spod-Rute ein unverzichtbares Werkzeug, wenn man größere Futterdepots auf 80 m und mehr anlegen möchte. Sie wird auf einer robusten Freilaufrolle mit dicker Geflechtschnur verwendet. Nach dem Anfüttern wird die Spod-Rute beiseitegelegt und die eigentlichen Angelruten kommen zum Einsatz.",
+    "types": [
+      "Standard-Spod-Rute (12 Fuß, bis 5 oz)",
+      "Heavy-Spod-Rute (13 Fuß, bis 8 oz)",
+      "Marker- und Spod-Kombirute",
+      "Kurze Spod-Rute für begrenzte Platzverhältnisse"
+    ],
+    "criteria": [
+      "Wurfgewicht: muss das Gewicht des gefüllten Spods abdecken",
+      "Länge: längere Ruten ermöglichen mehr Distanz",
+      "Blank-Steifigkeit: wichtig für präzises, weites Werfen",
+      "Ringgröße und -qualität: große Ringe für dicke Geflechtschnur"
+    ],
+    "forTechniques": [
+      "Karpfenangeln"
+    ],
+    "tips": [
+      "Niemals eine normale Karpfenrute als Spod-Rute verwenden, da dies zur Beschädigung führt.",
+      "Beim Anfüttern auf Marker-Pose oder markierte Stelle ausrichten und immer die gleiche Wurfrichtung halten.",
+      "Geflechtschnur mit mindestens 30 lb Tragkraft für den Spod verwenden."
+    ],
+    "featured": false
+  },
+  {
+    "id": "stationaerrolle",
+    "name": "Stationaerrolle",
+    "category": "Rolle",
+    "tagline": "Die meistgenutzte Rollenbauart fuer nahezu alle Angeltechniken.",
+    "description": "Die Stationaerrolle (auch Spinnrolle genannt) ist der Standard fuer die allermeisten Angelmethoden. Bei ihr steht die Spule fest, waehrend ein Schnurfangbuegel die Schnur bei jeder Kurbelumdrehung um die Spule legt. Das macht sie unkompliziert in der Handhabung, wurffreudig und perlonschonend.\n\nEntscheidend ist die Groessenangabe, die meist im Tausenderschritt erfolgt (z. B. 1000, 2500, 4000, 6000). Kleine Groessen bis 2500 eignen sich fuer feines Angeln auf Forelle und Barsch, mittlere Groessen um 3000 bis 4000 sind echte Allrounder fuer Zander und Hecht, grosse Groessen ab 5000 kommen beim Karpfen-, Wels- und Meeresangeln zum Einsatz.\n\nWichtige Qualitaetsmerkmale sind eine sauber arbeitende Bremse, ein ruhiger Lauf und eine gute Schnurverlegung. Die Anzahl der Kugellager ist weniger aussagekraeftig als ihre Qualitaet.",
+    "types": [
+      "Frontbremsrollen (Bremse oben an der Spule)",
+      "Heckbremsrollen (Bremse am Rollenfuss)",
+      "Freilaufrollen fuer Karpfen- und Grundangeln",
+      "Match-/Stipprollen mit flacher Spule",
+      "Salzwasserfeste Modelle mit Dichtungen"
+    ],
+    "criteria": [
+      "Groesse passend zu Rute und Zielfisch waehlen",
+      "Bremse muss feinfuehlig und ruckfrei einsetzen",
+      "Uebersetzung: hoch fuer schnelles Einholen, niedrig fuer mehr Kraft",
+      "Verarbeitung und Korrosionsschutz besonders im Salzwasser"
+    ],
+    "forTechniques": [
+      "Spinnfischen",
+      "Grundangeln",
+      "Posenangeln",
+      "Feederangeln",
+      "Karpfenangeln",
+      "Matchangeln"
+    ],
+    "tips": [
+      "Die Spule nur bis etwa 1 bis 2 mm unter den Rand fuellen, sonst springt die Schnur in Schlaufen ab.",
+      "Die Bremse vor dem Drill so einstellen, dass sie bei kraeftigem Zug an der Schnur nachgibt.",
+      "Nach dem Salzwassereinsatz die Rolle aussen mit suessem Wasser abspuelen und trocknen lassen."
+    ],
+    "featured": true
+  },
+  {
+    "id": "stirnlampe",
+    "name": "Stirnlampe",
+    "category": "Elektronik",
+    "tagline": "Freihändige Beleuchtung für Nachtangler und frühe Morgensessions",
+    "description": "Die Stirnlampe ist für den Nachtangler ein absolut notwendiges Hilfsmittel, das beide Hände freilässt und den Arbeitsbereich direkt beleuchtet. Sie wird per Kopfband am Kopf oder an einem Anglerhut befestigt und ermöglicht es, Haken zu knüpfen, Köder zu wechseln und Fische abzuhaken, ohne eine Taschenlampe halten zu müssen.\n\nModerne Angel-Stirnlampen bieten mehrere Leuchtmodi, darunter weißes Licht für allgemeine Arbeiten, rotes Licht zur Schonung des Nachtauges sowie gedimmte Modi für schonendes Arbeiten bei Fischen. Die Rot-Licht-Funktion ist besonders wichtig, da rotes Licht das Nachtsehen des Anglers nicht beeinträchtigt und zudem Fische weniger erschreckt als grelles weißes Licht. Reichweiten von 50–100 m sind für die meisten Situationen ausreichend.\n\nBeim Kauf sollte man auf Wasserdichtigkeit (IPX4 oder besser), Leuchtdauer (mindestens 6–10 Stunden im Normalmodus) und die Art der Batterie oder des Akkus achten. Aufladbare Modelle via USB-C sind langfristig günstiger und umweltfreundlicher als Batteriemodelle. Für Karpfenangler, die Nächte am Wasser verbringen, ist eine helle Hauptfunktion (300+ Lumen) empfehlenswert.",
+    "types": [
+      "Basis-Stirnlampe mit weißem und rotem Licht",
+      "Aufladbare USB-Stirnlampe (High-Lumen)",
+      "Kompakte Stirnlampe für kurze Sessions",
+      "Winterstirnlampe mit externem Akkupack"
+    ],
+    "criteria": [
+      "Leuchtmodi: weißes und rotes Licht mindestens vorhanden",
+      "Wasserdichtigkeit: mind. IPX4 für den Outdoor-Einsatz",
+      "Leuchtdauer: ausreichend für Nachtangeln (6+ Stunden)",
+      "Ladekonzept: USB-C wiederaufladbar oder lange Batterielaufzeit"
+    ],
+    "forTechniques": [
+      "Karpfenangeln",
+      "Grundangeln",
+      "Brandungsangeln",
+      "Meerforellenangeln"
+    ],
+    "tips": [
+      "Im Roten-Licht-Modus arbeiten, um das Nachtauge und die Fische zu schonen.",
+      "Ersatzbatterien oder Powerbank bei Nachtangeln immer dabei haben.",
+      "Stirnband auf die richtige Kopfgröße einstellen, damit die Lampe nicht verrutscht."
+    ],
+    "featured": false
+  },
+  {
+    "id": "tackle-box",
+    "name": "Tackle-Box",
+    "category": "Zubehör",
+    "tagline": "Übersichtliche Aufbewahrung für Kleinteil, Rigmaterial und Zubehör",
+    "description": "Die Tackle-Box ist eine Aufbewahrungsbox mit mehreren Fächern und Trennern, in der Angler ihre Kleinteile wie Haken, Wirbel, Karabiner, Blei, Posen und Rigmaterial ordentlich und griffbereit verstauen. Sie ist das organisatorische Herzstück jeder Angelausrüstung und verhindert das mühsame Suchen nach einzelnen Kleinteilen.\n\nTackle-Boxen gibt es in zahlreichen Größen und Ausführungen: von kleinen, flachen Spinnfisch-Boxen für Kunstköder über mittlere Allround-Boxen mit variablen Fächern bis hin zu großen, mehrstöckigen Systemboxen mit herausnehmbaren Einsätzen. Viele Modelle sind wasserdicht oder zumindest spritzwassergeschützt. Variable Trennstege ermöglichen die individuelle Anpassung der Fächergröße an den aktuellen Bedarf.\n\nFür den Karpfenblei und Wirbel bieten sich tiefe, modulare Boxen an, während Kunstköder oft in flachen Boxen mit vielen kleinen Fächern besser aufgehoben sind. Beim Kauf auf Scharnierqualität, Verschlussfestigkeit und UV-Beständigkeit achten, da viele Materialien bei Sonneneinstrahlung verspröden. Ein Tragesystem oder kompatible Befestigung an einem Angel-Rucksack kann die Handlichkeit erheblich steigern.",
+    "types": [
+      "Kleine Kunstköder-Box (flach, viele Fächer)",
+      "Mittelgrosse Allround-Tackle-Box",
+      "Grosses Tackle-System mit mehreren Einsätzen",
+      "Wasserdichte Hartschalen-Box (IP67)"
+    ],
+    "criteria": [
+      "Fächeranzahl und Variabilität: anpassbar an eigene Kleinteil-Vielfalt",
+      "Größe: kompakt für unterwegs oder groß für die stationäre Session",
+      "Wasserdichtigkeit: wichtig bei Regen oder Boot-Einsatz",
+      "Materialqualität: UV-beständiger Kunststoff, robuste Scharniere"
+    ],
+    "forTechniques": [
+      "Karpfenangeln",
+      "Spinnfischen",
+      "Feederangeln",
+      "Posenangeln",
+      "Grundangeln",
+      "Meerforellenangeln"
+    ],
+    "tips": [
+      "Verwandte Kleinteile immer in denselben Fächern aufbewahren, um Suchzeiten zu minimieren.",
+      "Tackle-Box regelmäßig nach der Session sortieren und aufräumen.",
+      "Fächer nie überfüllen, da sonst beim Öffnen Teile herausfallen."
+    ],
+    "featured": false
+  },
+  {
+    "id": "teleskoprute",
+    "name": "Teleskoprute",
+    "category": "Rute",
+    "tagline": "Platzsparende, schnell einsatzbereite Rute fuer unterwegs.",
+    "description": "Die Teleskoprute besteht aus ineinander schiebbaren Segmenten und laesst sich auf eine sehr kurze Transportlaenge zusammenschieben. Das macht sie ideal fuer Reisen, Wanderungen und alle, die wenig Stauraum haben. In Sekunden ist sie ausgezogen und einsatzbereit.\n\nDer Kompromiss liegt in der Aktion: Durch die vielen Steckverbindungen ist die Aktion oft weniger praezise als bei einer zwei- oder dreiteiligen Steckrute. Fuer viele Einsaetze, etwa Grund- und Posenangeln auf Friedfische oder als robuste Allzweckrute, ist das jedoch zu vernachlaessigen.\n\nTeleskopruten gibt es in vielen Varianten, von der leichten Forellenrute ueber Grundruten bis zur kraeftigen Reise-Spinnrute. Als unkomplizierte Zweitrute oder Reisebegleiter sind sie sehr beliebt.",
+    "types": [
+      "Teleskop-Grundruten fuer Friedfisch",
+      "Teleskop-Posenruten",
+      "Teleskop-Spinnruten fuer die Reise",
+      "Robuste Allround-Teleskopruten"
+    ],
+    "criteria": [
+      "Transportlaenge passend zum Gepaeck",
+      "Wurfgewicht und Laenge zum Einsatzzweck",
+      "Saubere, klemmfreie Auszuege und stabile Ringe",
+      "Gewicht und Aktion als Kompromiss bedenken"
+    ],
+    "forTechniques": [
+      "Grundangeln",
+      "Posenangeln",
+      "Spinnfischen",
+      "Naturkoederangeln"
+    ],
+    "tips": [
+      "Die Segmente beim Ausziehen so drehen, dass die Ringe in einer Linie stehen.",
+      "Sand und Schmutz aus den Steckverbindungen fernhalten, damit sich die Rute leicht schliessen laesst.",
+      "Als Notfall- oder Reiserute im Auto immer griffbereit."
     ],
     "featured": false
   },
@@ -628,35 +1055,34 @@
     "featured": false
   },
   {
-    "id": "rutenhalter",
-    "name": "Rutenhalter",
-    "category": "Zubehoer",
-    "tagline": "Haelt die Rute sicher in Position waehrend des Ansitzes.",
-    "description": "Der Rutenhalter fixiert die Rute in der gewuenschten Position, sodass der Angler die Haende frei hat und die Bisserkennung dem Anzeiger oder der Rutenspitze ueberlassen kann. Er ist beim Grund-, Karpfen-, Feeder- und Brandungsangeln im Einsatz, ueberall dort, wo die Rute laengere Zeit abgelegt wird.\n\nDie einfachste Form ist der Bankstick (Erdspiess), der in den Boden gesteckt wird und eine Auflage traegt. Mehrere Ruten lassen sich komfortabel auf einem Rod Pod ablegen, einem freistehenden Gestell, das auch auf hartem oder steinigem Untergrund funktioniert. Beim Brandungsangeln kommen lange, stabile Sandspiesse oder Dreibeine (Tripods) zum Einsatz.\n\nWichtig ist ein fester Stand und eine schonende Auflage fuer die Rute. Beim Feederangeln erlaubt ein gut positionierter Halter zudem das praezise Beobachten der feinen Bissspitze.",
+    "id": "wirbel",
+    "name": "Wirbel",
+    "category": "Kleinteil",
+    "tagline": "Kleines Verbindungselement gegen Schnurdrall und fuer schnellen Koederwechsel.",
+    "description": "Der Wirbel ist ein kleines, drehbares Verbindungsstueck, das vor allem den Schnurdrall ausgleicht, der beim Spinnfischen oder durch die Stroemung entsteht. Ohne Wirbel verdrallt die Schnur, wird steif und neigt zu Schlaufen und Verhedderungen.\n\nWirbel gibt es in vielen Bauformen und Tragkraftklassen. Oft sind sie mit einem Karabiner (Snap) kombiniert, der einen schnellen, knotenlosen Koederwechsel ermoeglicht. Fuer scheue Fische und feines Angeln waehlt man moeglichst kleine, unauffaellige Modelle.\n\nWichtig ist, die Tragkraft des Wirbels nicht zum schwaechsten Glied der Montage werden zu lassen. Billige Wirbel koennen aufbiegen, daher lohnt sich bei Raubfisch und Grossfisch eine solide Qualitaet, etwa Tonnen- oder Kugellagerwirbel.",
     "types": [
-      "Banksticks (Erdspiesse) mit Auflage",
-      "Rod Pods fuer mehrere Ruten",
-      "Sandspiesse fuer die Brandung",
-      "Dreibeine (Tripods) fuer harten Untergrund",
-      "Bootsrutenhalter zur Montage am Boot"
+      "Tonnenwirbel (Standard)",
+      "Kugellagerwirbel fuer hohe Belastung und rotierende Koeder",
+      "Wirbel mit Karabiner (Snap Swivel)",
+      "Dreiwege-Wirbel fuer Seitenarmmontagen"
     ],
     "criteria": [
-      "Standfestigkeit auf dem jeweiligen Untergrund",
-      "Anzahl der aufzunehmenden Ruten",
-      "Schonende, klemmfreie Auflage fuer den Blank",
-      "Hoehen- und Winkelverstellung fuer die Bisserkennung"
+      "Tragkraft passend zur Montage, nicht zur Sollbruchstelle machen",
+      "Bauform: Kugellager bei stark rotierenden Koedern",
+      "Groesse moeglichst klein und unauffaellig",
+      "Korrosionsbestaendigkeit, vor allem im Salzwasser"
     ],
     "forTechniques": [
-      "Karpfenangeln",
+      "Spinnfischen",
       "Grundangeln",
-      "Feederangeln",
-      "Brandungsangeln",
-      "Naturkoederangeln"
+      "Schleppangeln",
+      "Naturkoederangeln",
+      "Brandungsangeln"
     ],
     "tips": [
-      "Auf hartem oder steinigem Boden ist ein freistehendes Rod Pod stabiler als einzelne Banksticks.",
-      "Die Rute beim Feedern moeglichst hoch ablegen, damit die Bissspitze gut sichtbar ist.",
-      "Beim Brandungsangeln den Sandspiess tief und schraeg gegen die Wellen setzen."
+      "Bei rotierenden Koedern wie Spinnern unbedingt einen Kugellagerwirbel verwenden.",
+      "Den Karabiner nach jedem harten Drill auf saubere Verriegelung pruefen.",
+      "Im Zweifel etwas hoehere Tragkraft waehlen, der Wirbel soll nie zuerst nachgeben."
     ],
     "featured": false
   }

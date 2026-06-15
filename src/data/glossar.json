@@ -1,452 +1,1385 @@
 [
   {
-    "id": "schonzeit",
-    "name": "Schonzeit",
-    "aliases": ["Schonfrist"],
-    "category": "Recht & Naturschutz",
-    "tagline": "Zeitraum, in dem eine Fischart nicht beangelt werden darf.",
-    "description": "Die Schonzeit schützt Fische während der Laichzeit. In diesem Zeitraum dürfen die betroffenen Arten nicht gefangen oder müssen sofort zurückgesetzt werden. Schonzeiten sind je nach Bundesland und Gewässer unterschiedlich geregelt und dienen dem nachhaltigen Erhalt der Bestände.\n\nWer in der Schonzeit gezielt auf eine geschützte Art angelt, begeht eine Ordnungswidrigkeit. Die genauen Daten stehen in der Fischereiverordnung des Bundeslandes und oft zusätzlich in den Bestimmungen zum Erlaubnisschein.",
-    "related": ["Schonmaß", "Mindestmaß", "Laichzeit", "Schonzeit-Ausnahme", "Fischereischein"]
-  },
-  {
-    "id": "schonmass",
-    "name": "Schonmaß",
-    "aliases": ["Mindestmaß"],
-    "category": "Recht & Naturschutz",
-    "tagline": "Mindestlänge, ab der ein Fisch entnommen werden darf.",
-    "description": "Das Schonmaß (oder Mindestmaß) legt fest, wie groß ein Fisch sein muss, damit er entnommen werden darf. Untermaßige Fische müssen schonend zurückgesetzt werden, damit sie sich mindestens einmal fortpflanzen können. Manche Gewässer kennen zusätzlich ein Höchstmaß (das sogenannte Küchenfenster), um große Laichfische zu schützen.\n\nGemessen wird in der Regel vom Maul bis zur Schwanzflossenspitze. Das Maß gilt unabhängig davon, ob der Fisch verletzt ist – ein untermaßiger Fisch gehört grundsätzlich zurück ins Wasser.",
-    "related": ["Schonzeit", "Mindestmaß", "Catch and Release", "Waidgerecht"]
-  },
-  {
-    "id": "mindestmass",
-    "name": "Mindestmaß",
-    "aliases": ["Schonmaß", "Brittelmaß"],
-    "category": "Recht & Naturschutz",
-    "tagline": "Gesetzlich vorgeschriebene Mindestlänge für die Entnahme eines Fisches.",
-    "description": "Das Mindestmaß ist die kleinste erlaubte Länge, ab der ein gefangener Fisch behalten werden darf. Es ist in den Fischereiverordnungen der Bundesländer geregelt und kann je nach Gewässer durch den Bewirtschafter strenger gefasst sein.\n\nDer Begriff wird häufig synonym zum Schonmaß verwendet. Ziel ist immer, dass Jungfische heranwachsen und sich vermehren können, bevor sie entnommen werden.",
-    "related": ["Schonmaß", "Schonzeit", "Erlaubnisschein"]
-  },
-  {
-    "id": "catch-and-release",
-    "name": "Catch and Release",
-    "aliases": ["C&R", "Fangen und Zurücksetzen"],
-    "category": "Recht & Naturschutz",
-    "tagline": "Das gezielte Zurücksetzen gefangener Fische.",
-    "description": "Catch and Release bezeichnet das Zurücksetzen gefangener Fische ins Gewässer. In Deutschland ist das gezielte Zurücksetzen fangfähiger und verwertbarer Fische rechtlich heikel, weil das Tierschutzgesetz einen vernünftigen Grund für das Fangen verlangt. Erlaubt und sogar geboten ist das Zurücksetzen dagegen bei geschützten Arten, untermaßigen Fischen oder während der Schonzeit.\n\nWird ein Fisch zurückgesetzt, sollte das möglichst schonend geschehen: nasse Hände, kurze Drillzeit, Haken mit angedrücktem Widerhaken und eine Abhakmatte schonen den Fisch.",
-    "related": ["Waidgerecht", "Schonmaß", "Abhakmatte", "Widerhaken"]
-  },
-  {
-    "id": "waidgerecht",
-    "name": "Waidgerecht",
-    "aliases": ["Weidgerecht", "Waidgerechtigkeit"],
-    "category": "Recht & Naturschutz",
-    "tagline": "Der respektvolle, tierschutzgerechte Umgang mit Fisch und Natur.",
-    "description": "Waidgerecht zu handeln bedeutet, Fische schonend zu behandeln, unnötiges Leiden zu vermeiden und die Natur zu respektieren. Dazu gehören das schnelle und fachgerechte Betäuben und Töten entnommener Fische, das vorsichtige Zurücksetzen geschonter Tiere sowie ein verantwortungsvoller Umgang mit dem Gewässer.\n\nDie Waidgerechtigkeit ist Grundlage der Ausbildung zur Fischerprüfung und prägt das Selbstverständnis der Angler als Heger und Pfleger der Gewässer.",
-    "related": ["Catch and Release", "Abhakmatte", "Fischereischein", "Setzkescher"]
-  },
-  {
-    "id": "drill",
-    "name": "Drill",
-    "aliases": ["Fischdrill"],
-    "category": "Technik",
-    "tagline": "Das kontrollierte Ermüden und Einholen eines gehakten Fisches.",
-    "description": "Als Drill bezeichnet man die Phase zwischen Anhieb und Landung, in der der Angler den gehakten Fisch bändigt. Mit der Rutenspannung und einer richtig eingestellten Bremse wird die Kraft des Fisches abgefangen, bis er ermüdet und sicher gekeschert werden kann.\n\nEin guter Drill ist möglichst kurz, um den Fisch zu schonen, aber kontrolliert genug, dass weder Schnur noch Vorfach reißen. Die Rute zeigt dabei nach oben, damit ihre Federwirkung die Stöße des Fisches dämpft.",
-    "related": ["Bremse", "Anhieb", "Vorfach", "Tragkraft"]
-  },
-  {
-    "id": "petri-heil",
-    "name": "Petri Heil",
-    "aliases": ["Petri", "Petri Dank"],
-    "category": "Technik",
-    "tagline": "Traditioneller Anglergruß für einen guten Fang.",
-    "description": "„Petri Heil“ ist der klassische Gruß und Glückwunsch unter Anglern und wünscht einen erfolgreichen Fang. Er geht auf den Apostel Petrus zurück, den Schutzpatron der Fischer. Die übliche Antwort darauf lautet „Petri Dank“.\n\nDer Gruß wird sowohl zur Begrüßung am Wasser als auch als Glückwunsch nach einem gefangenen Fisch verwendet und gehört zur gelebten Anglerkultur.",
-    "related": ["Waidgerecht"]
-  },
-  {
-    "id": "fischereischein",
-    "name": "Fischereischein",
-    "aliases": ["Angelschein", "Fischerprüfung"],
-    "category": "Recht & Naturschutz",
-    "tagline": "Amtlicher Nachweis der Berechtigung zum Angeln.",
-    "description": "Der Fischereischein ist in Deutschland in den meisten Bundesländern Voraussetzung, um angeln zu dürfen. Er wird nach bestandener Fischerprüfung von der Behörde ausgestellt und bescheinigt das nötige Grundwissen über Fischkunde, Gewässer, Gerät, Recht und Tierschutz.\n\nDer Fischereischein allein berechtigt aber noch nicht zum Angeln an einem bestimmten Gewässer – dafür ist zusätzlich ein Erlaubnisschein nötig. Beide Dokumente müssen am Wasser mitgeführt werden.",
-    "related": ["Erlaubnisschein", "Waidgerecht", "Schonzeit"]
-  },
-  {
-    "id": "erlaubnisschein",
-    "name": "Erlaubnisschein",
-    "aliases": ["Angelkarte", "Gewässerkarte", "Tageskarte"],
-    "category": "Recht & Naturschutz",
-    "tagline": "Erlaubnis des Gewässerbesitzers, an einem bestimmten Gewässer zu angeln.",
-    "description": "Der Erlaubnisschein – umgangssprachlich Angelkarte – erlaubt das Angeln an einem konkreten Gewässer und wird vom Fischereiberechtigten oder bewirtschaftenden Verein ausgegeben. Er gibt es als Tages-, Wochen- oder Jahreskarte und nennt meist auch die geltenden Bestimmungen wie Fangbegrenzungen und erlaubte Methoden.\n\nZusammen mit dem Fischereischein bildet er die rechtliche Grundlage für das Angeln. Wer ohne gültigen Erlaubnisschein angelt, begeht Fischwilderei.",
-    "related": ["Fischereischein", "Schonzeit", "Mindestmaß"]
-  },
-  {
-    "id": "bissanzeiger",
-    "name": "Bissanzeiger",
-    "aliases": ["Bissmelder", "Swinger", "Pieper"],
+    "id": "abhakmatte",
+    "name": "Abhakmatte",
+    "aliases": [
+      "Abhakmatte",
+      "Unhooking Mat"
+    ],
     "category": "Gerät",
-    "tagline": "Gerät, das einen Biss optisch oder akustisch meldet.",
-    "description": "Ein Bissanzeiger signalisiert dem Angler, dass ein Fisch am Köder zupft oder abzieht. Beim Ansitzangeln auf Karpfen oder Raubfisch kommen elektronische Bissanzeiger zum Einsatz, die per Ton und Leuchtdiode warnen, sobald sich die Schnur bewegt. Einfache Varianten sind Glöckchen oder Schwimmer an der Schnur.\n\nIn Kombination mit einem Swinger oder Hänger lässt sich auch ein zaghafter Fallbiss erkennen, bei dem der Fisch den Köder zur Rute hin bewegt und die Schnur erschlafft.",
-    "related": ["Selbsthakmontage", "Grundblei", "Anhieb"]
-  },
-  {
-    "id": "koederfisch",
-    "name": "Köderfisch",
-    "aliases": ["Köfi"],
-    "category": "Köder",
-    "tagline": "Kleiner Fisch, der als Naturköder für Raubfische dient.",
-    "description": "Ein Köderfisch ist ein kleiner Beutefisch, der zum Fang von Raubfischen wie Hecht, Zander oder Wels verwendet wird. Er kann tot oder – wo erlaubt – lebend angeboten werden, etwa an einer Pose, am Grund oder beim Spinnfischen am System. In Deutschland ist das Angeln mit lebendem Köderfisch aus Tierschutzgründen weitgehend verboten.\n\nKöderfische werden meist selbst gefangen, etwa mit einer Köderfischsenke oder feinem Gerät, und müssen dabei dem geltenden Schonmaß und der Schonzeit entsprechen. Beliebte Köderfische sind Rotaugen, Lauben und andere Weißfische.",
-    "related": ["Köderfischsenke", "Naturköder", "Raubfisch", "Selbsthakmontage"]
-  },
-  {
-    "id": "selbsthakmontage",
-    "name": "Selbsthakmontage",
-    "aliases": ["Self-Hooking-Rig", "Festblei-Montage"],
-    "category": "Montage",
-    "tagline": "Montage, bei der sich der Fisch durch das Gewicht selbst hakt.",
-    "description": "Bei einer Selbsthakmontage hakt sich der Fisch beim Abziehen am Widerstand des Bleis von selbst. Sie wird vor allem beim Karpfen- und Grundangeln eingesetzt: Nimmt der Fisch den Köder auf und schwimmt los, treibt das schwere Festblei den Haken in das Maul.\n\nDamit das zuverlässig funktioniert, sind ein scharfer Haken, ein ausreichend schweres Blei und meist eine Haarmontage nötig. Der eigentliche Anhieb dient dann nur noch dazu, den Sitz des Hakens zu sichern.",
-    "related": ["Haarmontage", "Grundblei", "Bissanzeiger", "Anhieb"]
-  },
-  {
-    "id": "haarmontage",
-    "name": "Haarmontage",
-    "aliases": ["Hair Rig", "Haar-Rig"],
-    "category": "Montage",
-    "tagline": "Montage, bei der der Köder an einem Haar neben dem Haken sitzt.",
-    "description": "Bei der Haarmontage hängt der Köder nicht direkt am Haken, sondern an einem dünnen Faden – dem Haar – kurz hinter dem Hakenbogen. Dadurch bleibt der Hakenbogen frei, was die Hakrate deutlich erhöht. Saugt der Karpfen den Köder ein, rutscht der freiliegende Haken mit ins Maul und fasst sicher.\n\nDie Haarmontage wurde in der englischen Karpfenszene entwickelt und gehört heute zum Standard beim Boilie-Angeln. Sie wird fast immer mit einer Selbsthakmontage kombiniert.",
-    "related": ["Selbsthakmontage", "Naturköder", "Grundblei"]
-  },
-  {
-    "id": "wurfgewicht",
-    "name": "Wurfgewicht",
-    "aliases": ["WG", "Casting Weight"],
-    "category": "Gerät",
-    "tagline": "Gewichtsbereich, für den eine Rute optimal ausgelegt ist.",
-    "description": "Das Wurfgewicht gibt an, welche Köder- und Bleigewichte sich mit einer Rute sauber und sicher werfen lassen. Es ist meist als Spanne in Gramm auf dem Rutenblank aufgedruckt, zum Beispiel 20–60 g. Innerhalb dieses Bereichs entfaltet die Rute ihre beste Wurfleistung, ohne überlastet zu werden.\n\nWird das Wurfgewicht deutlich überschritten, droht ein Rutenbruch; bei zu leichten Ködern fehlt die nötige Spannung für einen weiten Wurf. Das Wurfgewicht ist daher ein zentrales Auswahlkriterium beim Rutenkauf.",
-    "related": ["Aktion (Rute)", "Tragkraft", "Wobbler-Tauchtiefe"]
+    "tagline": "Gepolsterte Unterlage, die den Fisch beim Abhaken schützt.",
+    "description": "Eine Abhakmatte ist eine weiche, gepolsterte Unterlage, auf die gefangene Fische zum Abhaken, Wiegen und Fotografieren gelegt werden. Sie schützt die empfindliche Schleimhaut und die Flossen vor Verletzungen am harten oder steinigen Untergrund.\n\nGerade beim Angeln auf große Karpfen und beim Zurücksetzen ist die Abhakmatte ein wichtiges Stück Ausrüstung für waidgerechtes Handeln. Vor dem Gebrauch sollte sie angefeuchtet werden, damit kein Schleim am Fisch hängen bleibt.",
+    "related": [
+      "Waidgerecht",
+      "Catch and Release",
+      "Widerhaken",
+      "Setzkescher"
+    ]
   },
   {
     "id": "aktion-rute",
     "name": "Aktion (Rute)",
-    "aliases": ["Rutenaktion", "Taper"],
+    "aliases": [
+      "Rutenaktion",
+      "Taper"
+    ],
     "category": "Gerät",
     "tagline": "Beschreibt, wo und wie stark sich eine Rute unter Last biegt.",
     "description": "Die Aktion einer Rute beschreibt ihr Biegeverhalten unter Belastung. Eine Rute mit schneller (spitzenbetonter) Aktion biegt sich nur im oberen Drittel und überträgt Bisse direkt, während eine parabolische Rute über die gesamte Länge nachgibt und Fluchten weich abfängt.\n\nDie passende Aktion hängt von der Methode ab: Spinnfischer schätzen eine straffe, schnelle Aktion für den direkten Köderkontakt, beim Drill kapitaler Fische sorgt eine weichere Aktion für mehr Sicherheit. Aktion und Wurfgewicht zusammen bestimmen den Charakter einer Rute.",
-    "related": ["Wurfgewicht", "Drill", "Bremse"]
-  },
-  {
-    "id": "bremse",
-    "name": "Bremse",
-    "aliases": ["Schnurbremse", "Drag"],
-    "category": "Gerät",
-    "tagline": "Mechanismus der Rolle, der Schnur unter Zug kontrolliert freigibt.",
-    "description": "Die Bremse einer Angelrolle gibt bei zu starkem Zug Schnur frei, damit Vorfach oder Schnur im Drill nicht reißen. Bei der Stationärrolle wird sie als Frontbremse (oben an der Spule) oder Heckbremse eingestellt; Freilaufrollen besitzen zusätzlich eine separate Freilaufbremse für den Ansitz.\n\nRichtig eingestellt gibt die Bremse erst bei kräftigen Fluchten nach. Eine zu fest eingestellte Bremse führt zu Schnurbruch, eine zu lockere zu einem unkontrollierten Drill. Viele Angler stellen sie auf etwa ein Drittel bis die Hälfte der Schnurtragkraft ein.",
-    "related": ["Drill", "Tragkraft", "Schnurfangbügel"]
-  },
-  {
-    "id": "schnurfangbuegel",
-    "name": "Schnurfangbügel",
-    "aliases": ["Bügel", "Rollenbügel"],
-    "category": "Gerät",
-    "tagline": "Klappbarer Bügel der Stationärrolle, der die Schnur führt und sichert.",
-    "description": "Der Schnurfangbügel ist das bewegliche Drahtteil an einer Stationärrolle, das die Schnur beim Einkurbeln auf die Spule legt. Zum Werfen wird er aufgeklappt, sodass die Schnur frei abläuft; nach dem Wurf legt er sich beim ersten Kurbeln (oder von Hand) wieder um und fängt die Schnur ein.\n\nWird der Bügel zu früh oder ruckartig geschlossen, kann das einen Schnursalat begünstigen. Viele Angler schließen ihn deshalb bewusst von Hand, statt sich auf den Kurbelmechanismus zu verlassen.",
-    "related": ["Bremse", "Perücke (Schnursalat)", "Wurfgewicht"]
-  },
-  {
-    "id": "peruecke-schnursalat",
-    "name": "Perücke (Schnursalat)",
-    "aliases": ["Schnursalat", "Perücke", "Vogelnest", "Backlash"],
-    "category": "Technik",
-    "tagline": "Wirrer Schnurknäuel, der beim Wurf oder Ablassen entsteht.",
-    "description": "Als Perücke oder Schnursalat bezeichnen Angler ein unentwirrbar wirkendes Schnurknäuel. Bei Stationärrollen entsteht es oft durch lockere Wicklungen, die sich beim nächsten Wurf in Schlaufen lösen; bei Multi- und Baitcastrollen durch eine überdrehende Spule beim Wurf (Backlash).\n\nVorbeugen lässt sich durch eine gleichmäßig und nicht zu voll bespulte Rolle, das richtige Schließen des Schnurfangbügels und – bei Baitcastern – durch eine korrekt eingestellte Spulenbremse.",
-    "related": ["Schnurfangbügel", "Bremse", "Wurfgewicht"]
-  },
-  {
-    "id": "koederfuehrung",
-    "name": "Köderführung",
-    "aliases": ["Köderpräsentation"],
-    "category": "Technik",
-    "tagline": "Die Art, wie ein Köder im Wasser bewegt und angeboten wird.",
-    "description": "Die Köderführung beschreibt, wie der Angler einen Köder durchs Wasser bewegt, um Fische zum Biss zu reizen. Beim Spinnfischen sind das etwa gleichmäßiges Einholen, ruckartiges Zupfen (Jiggen, Twitchen) oder Absinkphasen; beim Naturköder eher ein langsames, unauffälliges Anbieten.\n\nDie richtige Köderführung orientiert sich am Beuteverhalten des Zielfisches und an den Bedingungen wie Strömung, Wassertemperatur und Aktivität der Fische. Oft entscheidet sie über Erfolg oder Misserfolg eines Angeltages.",
-    "related": ["Kunstköder", "Wobbler-Tauchtiefe", "Streamer", "Hotspot"]
-  },
-  {
-    "id": "naturkoeder",
-    "name": "Naturköder",
-    "aliases": ["Naturköder", "Lebendköder", "Organischer Köder"],
-    "category": "Köder",
-    "tagline": "Köder natürlichen Ursprungs wie Wurm, Made oder Köderfisch.",
-    "description": "Naturköder sind Köder tierischer oder pflanzlicher Herkunft, etwa Tauwurm, Maden, Mais, Teig oder Köderfische. Sie sprechen Fische über natürlichen Geruch, Geschmack und Aussehen an und sind besonders beim Friedfisch- und Grundangeln verbreitet.\n\nIm Gegensatz zum Kunstköder muss der Naturköder meist ruhig angeboten werden und wirkt vor allem durch seine Authentizität. Beim Einsatz lebender Köderfische sind die strengen tierschutzrechtlichen Vorgaben zu beachten.",
-    "related": ["Kunstköder", "Köderfisch", "Friedfisch", "Anfüttern"]
-  },
-  {
-    "id": "kunstkoeder",
-    "name": "Kunstköder",
-    "aliases": ["Künstlicher Köder", "Lure"],
-    "category": "Köder",
-    "tagline": "Künstlicher Köder, der Beutetiere durch Form, Farbe und Bewegung imitiert.",
-    "description": "Kunstköder sind künstlich gefertigte Köder, die durch Aussehen und Lauf eine Beute nachahmen und so vor allem Raubfische zum Biss reizen. Typische Vertreter sind Wobbler, Gummifische, Blinker, Spinner und Jigs. Sie werden aktiv geführt und leben von der richtigen Köderführung.\n\nGegenüber Naturködern haben Kunstköder den Vorteil, dass sie wiederverwendbar sind, gezielt bestimmte Tiefen abfischen und ein schnelles Absuchen großer Wasserflächen ermöglichen.",
-    "related": ["Naturköder", "Köderführung", "Wobbler-Tauchtiefe", "Raubfisch"]
-  },
-  {
-    "id": "raubfisch",
-    "name": "Raubfisch",
-    "aliases": ["Räuber", "Prädator"],
-    "category": "Fischkunde",
-    "tagline": "Fisch, der sich überwiegend von anderen Fischen und Beutetieren ernährt.",
-    "description": "Raubfische ernähren sich räuberisch von anderen Fischen, Krebsen oder Insekten. Zu ihnen zählen in heimischen Gewässern unter anderem Hecht, Zander, Barsch, Wels und Forelle. Sie haben oft ein bezahntes Maul und jagen aktiv oder lauern ihrer Beute auf.\n\nGeangelt werden Raubfische vorwiegend mit Kunstködern oder Köderfischen. Wegen ihrer Zähne ist beim Hecht ein stabiles Vorfach – oft aus Stahl oder Hardmono – nötig.",
-    "related": ["Friedfisch", "Kunstköder", "Köderfisch", "Vorfach"]
-  },
-  {
-    "id": "friedfisch",
-    "name": "Friedfisch",
-    "aliases": ["Weißfisch"],
-    "category": "Fischkunde",
-    "tagline": "Fisch, der sich überwiegend nicht räuberisch ernährt.",
-    "description": "Friedfische ernähren sich hauptsächlich von Pflanzen, Kleinlebewesen, Würmern und Insektenlarven und jagen keine anderen Fische. Zu ihnen gehören viele Cypriniden wie Karpfen, Brassen, Rotaugen und Schleien. Der Begriff steht im Gegensatz zum Raubfisch.\n\nFriedfische werden meist mit Naturködern wie Maden, Würmern oder Mais beangelt, häufig in Verbindung mit Anfüttern und feinem Gerät. Viele kleinere Friedfische werden auch als Weißfische bezeichnet.",
-    "related": ["Raubfisch", "Weißfisch", "Cypriniden", "Anfüttern", "Naturköder"]
-  },
-  {
-    "id": "weissfisch",
-    "name": "Weißfisch",
-    "aliases": ["Weißfische", "Silberfisch"],
-    "category": "Fischkunde",
-    "tagline": "Sammelbegriff für silbrig glänzende, kleinere Friedfische.",
-    "description": "Als Weißfische bezeichnet man umgangssprachlich viele silbrig gefärbte, meist kleinere Friedfische aus der Familie der Karpfenfische. Dazu zählen unter anderem Rotauge, Rotfeder, Laube, Brachse und Güster. Der Name leitet sich von ihrer hellen, silbrigen Schuppenfärbung ab.\n\nWeißfische sind verbreitet und oft in großen Schwärmen anzutreffen. Sie sind beliebte Zielfische beim Stippen und Posenangeln und dienen zugleich als wichtige Nahrungsgrundlage für Raubfische sowie als Köderfische.",
-    "related": ["Friedfisch", "Cypriniden", "Köderfisch", "Posenangeln-Stopper"]
-  },
-  {
-    "id": "salmoniden",
-    "name": "Salmoniden",
-    "aliases": ["Lachsfische", "Forellenartige"],
-    "category": "Fischkunde",
-    "tagline": "Familie der lachsartigen Fische wie Forelle, Lachs und Äsche.",
-    "description": "Salmoniden sind die Familie der lachsartigen Fische. Zu ihnen gehören Forellen, Lachs, Saibling, Renke und – im weiteren Sinne – die nah verwandte Äsche. Kennzeichnend ist die kleine Fettflosse zwischen Rücken- und Schwanzflosse.\n\nSalmoniden bevorzugen kühles, sauerstoffreiches und sauberes Wasser und gelten als anspruchsvolle Indikatoren für die Gewässergüte. Sie sind klassische Zielfische des Fliegenfischens und unterliegen oft strengen Schonzeiten und Mindestmaßen.",
-    "related": ["Cypriniden", "Laichzeit", "Trockenfliege", "Nymphe", "Streamer"]
-  },
-  {
-    "id": "cypriniden",
-    "name": "Cypriniden",
-    "aliases": ["Karpfenfische", "Karpfenartige"],
-    "category": "Fischkunde",
-    "tagline": "Familie der karpfenartigen Fische, die meisten heimischen Friedfische.",
-    "description": "Cypriniden sind die Familie der Karpfenfische und stellen einen großen Teil der heimischen Friedfische. Dazu gehören Karpfen, Brachse, Rotauge, Schleie, Döbel und viele Weißfische. Sie besitzen keine echten Zähne im Maul, sondern Schlundzähne zum Zerkleinern der Nahrung.\n\nCypriniden sind meist anpassungsfähig und kommen in vielen Still- und Fließgewässern vor. Sie ernähren sich überwiegend von pflanzlicher Kost, Kleintieren und Insektenlarven und sind beliebte Ziele des Friedfischangelns.",
-    "related": ["Salmoniden", "Friedfisch", "Weißfisch", "Anfüttern"]
-  },
-  {
-    "id": "brackwasser",
-    "name": "Brackwasser",
-    "aliases": ["Brackwasserzone"],
-    "category": "Gewässerkunde",
-    "tagline": "Mischwasser aus Süß- und Salzwasser mit geringem Salzgehalt.",
-    "description": "Brackwasser entsteht dort, wo Süßwasser und Meerwasser aufeinandertreffen, etwa in Flussmündungen, Förden und in der Ostsee. Sein Salzgehalt liegt zwischen dem von Süß- und Meerwasser und schwankt je nach Zufluss, Gezeiten und Wind.\n\nBrackwasserzonen sind besonders artenreich, weil hier Süßwasser- und Meeresfische zusammentreffen. Sie sind außerdem wichtige Wanderwege für anadrome und katadrome Arten wie Lachs, Meerforelle und Aal.",
-    "related": ["anadrom", "katadrom", "Gewässerkunde"]
+    "related": [
+      "Wurfgewicht",
+      "Drill",
+      "Bremse"
+    ]
   },
   {
     "id": "anadrom",
     "name": "anadrom",
-    "aliases": ["anadrome Wanderfische"],
+    "aliases": [
+      "anadrome Wanderfische"
+    ],
     "category": "Fischkunde",
     "tagline": "Fische, die zum Laichen aus dem Meer in Flüsse aufsteigen.",
     "description": "Anadrome Fische leben überwiegend im Meer, wandern zum Laichen aber in die Flüsse und Bäche ihres Ursprungs auf. Bekannte Beispiele sind Lachs, Meerforelle und Stör. Die Tiere durchqueren dabei das Brackwasser und passen ihren Körper an den Wechsel vom Salz- ins Süßwasser an.\n\nDamit anadrome Arten ihre Laichgebiete erreichen, sind durchgängige Gewässer ohne unüberwindbare Hindernisse wichtig. Wehre und Staustufen werden deshalb zunehmend mit Fischtreppen ausgestattet.",
-    "related": ["katadrom", "Brackwasser", "Laichzeit", "Salmoniden"]
-  },
-  {
-    "id": "katadrom",
-    "name": "katadrom",
-    "aliases": ["katadrome Wanderfische"],
-    "category": "Fischkunde",
-    "tagline": "Fische, die zum Laichen aus dem Süßwasser ins Meer abwandern.",
-    "description": "Katadrome Fische leben überwiegend im Süßwasser, wandern zum Laichen aber ins Meer ab. Das bekannteste heimische Beispiel ist der Europäische Aal, der zum Ablaichen bis in die Sargassosee im Atlantik zieht.\n\nKatadrome Arten sind damit das Gegenstück zu den anadromen Fischen. Auch sie sind auf durchgängige Gewässer angewiesen, um zwischen Süßwasser und Meer wandern zu können.",
-    "related": ["anadrom", "Brackwasser", "Laichzeit"]
-  },
-  {
-    "id": "laichzeit",
-    "name": "Laichzeit",
-    "aliases": ["Laichperiode", "Fortpflanzungszeit"],
-    "category": "Fischkunde",
-    "tagline": "Zeitraum, in dem Fische ablaichen und sich fortpflanzen.",
-    "description": "Die Laichzeit ist der Zeitraum, in dem eine Fischart ihre Eier (den Laich) ablegt. Sie ist je nach Art unterschiedlich: Hechte laichen früh im Frühjahr, viele Cypriniden im späten Frühjahr bis Sommer, Forellen und Lachse dagegen im Herbst und Winter. Auslöser sind vor allem Wassertemperatur und Tageslänge.\n\nWeil Fische während der Fortpflanzung besonders empfindlich sind, fallen die gesetzlichen Schonzeiten meist in die Laichzeit der jeweiligen Art. So sollen ungestörte Reproduktion und der Bestand gesichert werden.",
-    "related": ["Schonzeit", "anadrom", "katadrom", "Salmoniden"]
-  },
-  {
-    "id": "sprungschicht",
-    "name": "Sprungschicht",
-    "aliases": ["Thermokline"],
-    "category": "Gewässerkunde",
-    "tagline": "Wasserschicht, in der die Temperatur im See sprunghaft abnimmt.",
-    "description": "Die Sprungschicht (Thermokline) ist die Übergangszone in einem geschichteten See, in der die Wassertemperatur mit der Tiefe rasch abfällt. Über ihr liegt das warme, sauerstoffreiche Oberflächenwasser, darunter das kühle, oft sauerstoffärmere Tiefenwasser.\n\nIm Sommer halten sich viele Fische bevorzugt knapp über oder in der Sprungschicht auf, weil hier Temperatur und Sauerstoffgehalt günstig sind. Wer ihre Tiefe kennt – etwa über das Echolot –, findet leichter aktive Fische.",
-    "related": ["Echolot", "Hotspot", "Gewässerkunde"]
-  },
-  {
-    "id": "hotspot",
-    "name": "Hotspot",
-    "aliases": ["Fangplatz", "Heißer Punkt"],
-    "category": "Gewässerkunde",
-    "tagline": "Besonders fängiger Bereich eines Gewässers.",
-    "description": "Ein Hotspot ist eine Stelle im Gewässer, an der sich Fische bevorzugt aufhalten oder fressen. Solche Plätze entstehen durch Strukturen wie Kanten, Krautfelder, versunkene Bäume, Einläufe, Brückenpfeiler oder Plateaus, die Schutz und Nahrung bieten.\n\nDas Aufspüren von Hotspots – durch Beobachtung, Echolot oder Erfahrung am Wasser – ist oft der Schlüssel zum Erfolg. An einem guten Hotspot lohnt sich konzentriertes Angeln und gezieltes Anfüttern.",
-    "related": ["Futterplatz", "Sprungschicht", "Echolot", "Anfüttern"]
-  },
-  {
-    "id": "futterplatz",
-    "name": "Futterplatz",
-    "aliases": ["Futterstelle"],
-    "category": "Technik",
-    "tagline": "Gezielt angefütterte Stelle, an der sich Fische sammeln sollen.",
-    "description": "Ein Futterplatz ist eine Stelle, die der Angler durch Anfüttern attraktiv macht, um Fische anzulocken und zum Verweilen zu bringen. An einem gut etablierten Futterplatz gewöhnen sich die Fische an die Nahrung und nehmen den Köder besonders bereitwillig auf.\n\nWichtig ist, den Futterplatz präzise zu treffen und die Futtermenge an Fischbestand und Beißlaune anzupassen. Beim Karpfenangeln werden Futterplätze teils über mehrere Tage vorbereitet.",
-    "related": ["Anfüttern", "Hotspot", "Naturköder"]
+    "related": [
+      "katadrom",
+      "Brackwasser",
+      "Laichzeit",
+      "Salmoniden"
+    ]
   },
   {
     "id": "anfuettern",
     "name": "Anfüttern",
-    "aliases": ["Füttern", "Anlocken"],
+    "aliases": [
+      "Füttern",
+      "Anlocken"
+    ],
     "category": "Technik",
     "tagline": "Das gezielte Ausbringen von Futter, um Fische anzulocken.",
     "description": "Anfüttern bezeichnet das Einbringen von Lockfutter ins Gewässer, um Fische an einen Platz zu locken und in Fresslaune zu versetzen. Verwendet werden Grundfutter, Partikel wie Mais oder Hanf, Pellets oder Boilies – je nach Zielfisch und Methode.\n\nMaßvolles Anfüttern erhöht die Fangchancen, während zu viel Futter die Fische sättigen kann. Viele Gewässerordnungen begrenzen daher die erlaubte Futtermenge, um die Wasserqualität zu schützen.",
-    "related": ["Futterplatz", "Hotspot", "Naturköder", "Friedfisch"]
+    "related": [
+      "Futterplatz",
+      "Hotspot",
+      "Naturköder",
+      "Friedfisch"
+    ]
   },
   {
-    "id": "tragkraft",
-    "name": "Tragkraft",
-    "aliases": ["Tragkraft der Schnur", "Schnurtragkraft", "Breaking Strain"],
-    "category": "Gerät",
-    "tagline": "Die Belastung, der eine Schnur standhält, bevor sie reißt.",
-    "description": "Die Tragkraft gibt an, welche Zugkraft eine Angelschnur aushält, bevor sie reißt – meist angegeben in Kilogramm oder lbs. Sie hängt von Material und Durchmesser ab: Geflochtene Schnüre haben bei gleichem Durchmesser eine deutlich höhere Tragkraft als monofile.\n\nDie Tragkraft sollte zum Zielfisch und zur Bremseinstellung passen. Häufig wählt man das Vorfach etwas schwächer als die Hauptschnur, damit im Hänger nur das Vorfach reißt und nicht die gesamte Montage verloren geht.",
-    "related": ["Bremse", "Vorfach", "Vorfachschnur", "Wurfgewicht"]
+    "id": "anti-tangle-boom",
+    "name": "Anti-Tangle-Boom",
+    "aliases": [
+      "Tangle-Boom",
+      "Ausleger"
+    ],
+    "category": "Montage",
+    "tagline": "Starrer Ausleger an der Montage, der verhindert, dass sich Vorfach und Hauptschnur beim Wurf verknoten.",
+    "description": "Der Anti-Tangle-Boom ist ein starres oder halbstarres Rohrstück, das zwischen Blei und Vorfach in die Montage eingebaut wird. Er hält das Vorfach beim Wurf und beim Absinken der Montage auf Abstand von der Hauptschnur und verhindert so das Verknoten, das die Hakenstellung verderben würde.\n\nBesonders bei langen Vorfachen oder dünnen Fluorcarbon-Schnüren, die zu Perückenbildung neigen, ist der Anti-Tangle-Boom ein nützliches Hilfsmittel. Er existiert in verschiedenen Längen und Materialien und wird sowohl beim Karpfen- als auch beim Meeresangeln eingesetzt.",
+    "related": [
+      "peruecke-schnursalat",
+      "vorfach",
+      "haarmontage"
+    ]
   },
   {
-    "id": "nymphe",
-    "name": "Nymphe",
-    "aliases": ["Nassfliege (Nymphe)"],
-    "category": "Köder",
-    "tagline": "Unter Wasser geführte Kunstfliege, die eine Insektenlarve imitiert.",
-    "description": "Die Nymphe ist ein Fliegenmuster, das eine im Wasser lebende Insektenlarve nachahmt und unter der Oberfläche geführt wird. Da sich Salmoniden den Großteil ihrer Nahrung unter Wasser holen, ist die Nymphe ein äußerst fängiges Muster beim Fliegenfischen.\n\nNymphen werden oft beschwert (etwa mit einem Goldkopf), um in die richtige Tiefe zu kommen, und drag-frei mit der Strömung präsentiert. Das Nymphenfischen gilt als besonders effektive, aber auch anspruchsvolle Spielart der Fliegenfischerei.",
-    "related": ["Trockenfliege", "Streamer", "Salmoniden", "Köderführung"]
-  },
-  {
-    "id": "trockenfliege",
-    "name": "Trockenfliege",
-    "aliases": ["Dry Fly"],
-    "category": "Köder",
-    "tagline": "Schwimmende Kunstfliege, die ein Insekt auf der Wasseroberfläche imitiert.",
-    "description": "Die Trockenfliege schwimmt auf der Wasseroberfläche und ahmt ein angeschwemmtes oder geschlüpftes Insekt nach. Sie wird vor allem dann eingesetzt, wenn Fische sichtbar an der Oberfläche steigen und Insekten von der Oberfläche nehmen.\n\nDamit sie überzeugend wirkt, muss die Trockenfliege drag-frei treiben, also ohne von der Schnur unnatürlich über das Wasser gezogen zu werden. Der Anblick eines steigenden Fisches macht das Trockenfliegenfischen für viele zur schönsten Form des Angelns.",
-    "related": ["Nymphe", "Streamer", "Salmoniden", "Anhieb"]
-  },
-  {
-    "id": "streamer",
-    "name": "Streamer",
-    "aliases": ["Streamerfliege"],
-    "category": "Köder",
-    "tagline": "Große Kunstfliege, die einen kleinen Beutefisch imitiert.",
-    "description": "Ein Streamer ist ein großes Fliegenmuster, das einen kleinen Beutefisch oder ein anderes größeres Beutetier nachahmt. Er wird unter Wasser in Zügen und Stößen geführt und reizt vor allem Raubfische wie Forellen, Hechte oder Rapfen zum Biss.\n\nIm Gegensatz zur ruhig präsentierten Trockenfliege oder Nymphe lebt der Streamer von der aktiven Köderführung. Er erweitert das Fliegenfischen auf größere Räuber und kommt sowohl im Süßwasser als auch an der Küste zum Einsatz.",
-    "related": ["Nymphe", "Trockenfliege", "Raubfisch", "Köderführung"]
-  },
-  {
-    "id": "trolling",
-    "name": "Trolling",
-    "aliases": ["Schleppangeln", "Schleppfischen"],
+    "id": "aussteiger",
+    "name": "Aussteiger",
+    "aliases": [
+      "Ausgestiegen"
+    ],
     "category": "Technik",
-    "tagline": "Schleppen von Ködern hinter einem fahrenden Boot.",
-    "description": "Beim Trolling – dem Schleppangeln – werden ein oder mehrere Köder hinter einem langsam fahrenden Boot durch das Wasser gezogen. So lassen sich große Flächen absuchen und Raubfische in der freien Wasserwelle finden, etwa Hecht, Zander, Lachs oder Meerforelle.\n\nÜber die Bootsgeschwindigkeit, die Schnurlänge und Hilfsmittel wie Downrigger, Planerboards oder Tauchschaufeln steuert man die Lauftiefe der Köder. Ein Echolot hilft, Fische und die richtige Tiefe aufzuspüren.",
-    "related": ["Echolot", "Wobbler-Tauchtiefe", "Raubfisch", "Köderführung"]
+    "tagline": "Fisch, der sich während des Drills aus dem Haken löst und verloren geht.",
+    "description": "Als Aussteiger bezeichnet man einen Fisch, der nach dem Anhieb und während des Einholens aus dem Haken entkommen ist. Dies kann verschiedene Ursachen haben: ein zu weites Maul des Hakens, Überdrehen beim Drill, Tauchen des Fisches in Deckung, ein ausgebrochener Widerhaken oder ein schlecht sitzender Haken bei kurzem Biss.\n\nUm Aussteiger zu minimieren, sollte der Haken regelmäßig auf Schärfe kontrolliert werden, die Bremseinstellung der Rolle während des Drills angepasst werden und der Kescher rechtzeitig bereitgehalten werden. Erfahrene Angler wissen, dass Aussteiger zum Angeln gehören und als Lernmöglichkeit genutzt werden sollten.",
+    "related": [
+      "drill",
+      "widerhaken",
+      "bremse"
+    ]
   },
   {
     "id": "backing",
     "name": "Backing",
-    "aliases": ["Unterfütterung", "Backingschnur"],
+    "aliases": [
+      "Unterfütterung",
+      "Backingschnur"
+    ],
     "category": "Gerät",
     "tagline": "Reserveschnur unter der eigentlichen Hauptschnur auf der Rolle.",
     "description": "Das Backing ist eine dünne, reißfeste Schnur, die zuerst auf die Rolle gewickelt wird und unter der eigentlichen Hauptschnur liegt. Beim Fliegenfischen dient es als Reserve für lange Fluchten großer Fische, wenn die kurze Fliegenschnur nicht ausreicht.\n\nDarüber hinaus füllt das Backing die Spule so weit auf, dass die Hauptschnur in großen Wicklungen liegt. Das verbessert die Wurfweite und verringert das Risiko von Drallschlaufen.",
-    "related": ["Tragkraft", "Bremse", "Drill"]
+    "related": [
+      "Tragkraft",
+      "Bremse",
+      "Drill"
+    ]
   },
   {
-    "id": "widerhaken",
-    "name": "Widerhaken",
-    "aliases": ["Schonhaken", "barbless", "Haken ohne Widerhaken"],
+    "id": "bissanzeiger",
+    "name": "Bissanzeiger",
+    "aliases": [
+      "Bissmelder",
+      "Swinger",
+      "Pieper"
+    ],
     "category": "Gerät",
-    "tagline": "Kleine Sperre am Haken, die das Aushaken verhindert – Schonhaken haben keine.",
-    "description": "Der Widerhaken ist die nach hinten gerichtete kleine Spitze am Hakenbogen, die verhindert, dass der Haken aus dem Fischmaul herausrutscht. Er sorgt für sicheren Halt im Drill, erschwert aber das schonende Lösen des Hakens.\n\nSchonhaken sind Haken ohne Widerhaken (barbless) oder mit angedrücktem Widerhaken. Sie lassen sich leichter und schonender entfernen und sind an vielen Gewässern, besonders bei Catch and Release, vorgeschrieben oder empfohlen.",
-    "related": ["Catch and Release", "Waidgerecht", "Abhakmatte", "Anhieb"]
+    "tagline": "Gerät, das einen Biss optisch oder akustisch meldet.",
+    "description": "Ein Bissanzeiger signalisiert dem Angler, dass ein Fisch am Köder zupft oder abzieht. Beim Ansitzangeln auf Karpfen oder Raubfisch kommen elektronische Bissanzeiger zum Einsatz, die per Ton und Leuchtdiode warnen, sobald sich die Schnur bewegt. Einfache Varianten sind Glöckchen oder Schwimmer an der Schnur.\n\nIn Kombination mit einem Swinger oder Hänger lässt sich auch ein zaghafter Fallbiss erkennen, bei dem der Fisch den Köder zur Rute hin bewegt und die Schnur erschlafft.",
+    "related": [
+      "Selbsthakmontage",
+      "Grundblei",
+      "Anhieb"
+    ]
   },
   {
-    "id": "setzkescher",
-    "name": "Setzkescher",
-    "aliases": ["Hälterkescher", "Keepnet"],
+    "id": "bivvy",
+    "name": "Bivvy",
+    "aliases": [
+      "Angelzelt",
+      "Karpfenzelt"
+    ],
     "category": "Gerät",
-    "tagline": "Langer Netzkescher zum lebenden Aufbewahren gefangener Fische.",
-    "description": "Ein Setzkescher ist ein langer, im Wasser hängender Netzschlauch, in dem entnommene Fische bis zum Ende des Angelns lebend gehältert werden. Er kommt vor allem beim Friedfisch- und Wettangeln zum Einsatz.\n\nDer Einsatz des Setzkeschers ist in Deutschland aus Tierschutzgründen umstritten und je nach Bundesland unterschiedlich geregelt oder verboten. Wo er erlaubt ist, muss er knotenlos und ausreichend groß sein und so platziert werden, dass die Fische genug Sauerstoff und Bewegungsraum haben.",
-    "related": ["Waidgerecht", "Abhakmatte", "Catch and Release"]
+    "tagline": "Kleines, kompaktes Angelzelt für Karpfenangler bei mehrtägigen Sitzungen am Gewässer.",
+    "description": "Ein Bivvy ist ein speziell für das Karpfenangeln entwickeltes, niedrig gebautes Zelt, das schnellen Auf- und Abbau ermöglicht. Es bietet dem Angler Schutz vor Wind, Regen und Kälte während langer Nacht- oder Mehrtagesangeln. Moderne Bivvys sind mit Vorhallen, Moskitonetzen und wasserdichten Böden ausgestattet.\n\nKomfort und Gewicht spielen bei der Wahl des Bivvys eine große Rolle: Leichtzelte für Mobilfischer, große Systemzelte für stationäre Plätze. Ein gut organisierter Bivvy-Aufbau mit Liege, Schlafsack und Bissanzeigeranlage gehört zur Grundausrüstung des modernen Karpfenfischers.",
+    "related": [
+      "bissanzeiger",
+      "swinger",
+      "standplatz"
+    ]
   },
   {
-    "id": "abhakmatte",
-    "name": "Abhakmatte",
-    "aliases": ["Abhakmatte", "Unhooking Mat"],
+    "id": "bolognese",
+    "name": "Bolognese",
+    "aliases": [
+      "Bolognese-Rute",
+      "Bolo-Rute"
+    ],
     "category": "Gerät",
-    "tagline": "Gepolsterte Unterlage, die den Fisch beim Abhaken schützt.",
-    "description": "Eine Abhakmatte ist eine weiche, gepolsterte Unterlage, auf die gefangene Fische zum Abhaken, Wiegen und Fotografieren gelegt werden. Sie schützt die empfindliche Schleimhaut und die Flossen vor Verletzungen am harten oder steinigen Untergrund.\n\nGerade beim Angeln auf große Karpfen und beim Zurücksetzen ist die Abhakmatte ein wichtiges Stück Ausrüstung für waidgerechtes Handeln. Vor dem Gebrauch sollte sie angefeuchtet werden, damit kein Schleim am Fisch hängen bleibt.",
-    "related": ["Waidgerecht", "Catch and Release", "Widerhaken", "Setzkescher"]
+    "tagline": "Lange, mehrgliedrige Steckrute mit Rolle für das Treibangeln in Fließgewässern.",
+    "description": "Die Bolognese-Rute ist eine lange, schlanke und leichte Steckrute, die im Gegensatz zur Kopfrute mit einer Rolle (meist Stationär- oder Freilaufrolle) kombiniert wird. Typische Längen betragen 5 bis 9 Meter, was eine Kontrolle der Pose über weite Treibstrecken ermöglicht.\n\nDie Rute stammt aus der norditalienischen Angeltradition rund um Bologna und ist besonders für das Treibangeln und Trotten auf Döbel, Alet, Barbe und Äsche in großen Flüssen geeignet. Durch die Rolle können bei Bedarf auch weitere Distanzen erreicht werden. Die Rute ist leicht und für stundenlangen aktiven Einsatz ausbalanciert.",
+    "related": [
+      "trotten",
+      "kopfrute",
+      "waggler"
+    ]
   },
   {
-    "id": "posenangeln-stopper",
-    "name": "Posenangeln-Stopper",
-    "aliases": ["Schnurstopper", "Stopperknoten", "Stopper"],
+    "id": "brackwasser",
+    "name": "Brackwasser",
+    "aliases": [
+      "Brackwasserzone"
+    ],
+    "category": "Gewässerkunde",
+    "tagline": "Mischwasser aus Süß- und Salzwasser mit geringem Salzgehalt.",
+    "description": "Brackwasser entsteht dort, wo Süßwasser und Meerwasser aufeinandertreffen, etwa in Flussmündungen, Förden und in der Ostsee. Sein Salzgehalt liegt zwischen dem von Süß- und Meerwasser und schwankt je nach Zufluss, Gezeiten und Wind.\n\nBrackwasserzonen sind besonders artenreich, weil hier Süßwasser- und Meeresfische zusammentreffen. Sie sind außerdem wichtige Wanderwege für anadrome und katadrome Arten wie Lachs, Meerforelle und Aal.",
+    "related": [
+      "anadrom",
+      "katadrom",
+      "Gewässerkunde"
+    ]
+  },
+  {
+    "id": "bremse",
+    "name": "Bremse",
+    "aliases": [
+      "Schnurbremse",
+      "Drag"
+    ],
+    "category": "Gerät",
+    "tagline": "Mechanismus der Rolle, der Schnur unter Zug kontrolliert freigibt.",
+    "description": "Die Bremse einer Angelrolle gibt bei zu starkem Zug Schnur frei, damit Vorfach oder Schnur im Drill nicht reißen. Bei der Stationärrolle wird sie als Frontbremse (oben an der Spule) oder Heckbremse eingestellt; Freilaufrollen besitzen zusätzlich eine separate Freilaufbremse für den Ansitz.\n\nRichtig eingestellt gibt die Bremse erst bei kräftigen Fluchten nach. Eine zu fest eingestellte Bremse führt zu Schnurbruch, eine zu lockere zu einem unkontrollierten Drill. Viele Angler stellen sie auf etwa ein Drittel bis die Hälfte der Schnurtragkraft ein.",
+    "related": [
+      "Drill",
+      "Tragkraft",
+      "Schnurfangbügel"
+    ]
+  },
+  {
+    "id": "catch-and-release",
+    "name": "Catch and Release",
+    "aliases": [
+      "C&R",
+      "Fangen und Zurücksetzen"
+    ],
+    "category": "Recht & Naturschutz",
+    "tagline": "Das gezielte Zurücksetzen gefangener Fische.",
+    "description": "Catch and Release bezeichnet das Zurücksetzen gefangener Fische ins Gewässer. In Deutschland ist das gezielte Zurücksetzen fangfähiger und verwertbarer Fische rechtlich heikel, weil das Tierschutzgesetz einen vernünftigen Grund für das Fangen verlangt. Erlaubt und sogar geboten ist das Zurücksetzen dagegen bei geschützten Arten, untermaßigen Fischen oder während der Schonzeit.\n\nWird ein Fisch zurückgesetzt, sollte das möglichst schonend geschehen: nasse Hände, kurze Drillzeit, Haken mit angedrücktem Widerhaken und eine Abhakmatte schonen den Fisch.",
+    "related": [
+      "Waidgerecht",
+      "Schonmaß",
+      "Abhakmatte",
+      "Widerhaken"
+    ]
+  },
+  {
+    "id": "chod-rig",
+    "name": "Chod-Rig",
+    "aliases": [
+      "Chod"
+    ],
     "category": "Montage",
-    "tagline": "Kleiner Stopper, der die Lauftiefe einer Laufpose begrenzt.",
-    "description": "Der Stopper begrenzt beim Posenangeln, wie weit die Schnur durch eine Laufpose gleiten kann, und legt damit die Angeltiefe fest. Verwendet werden kleine Stopperknoten aus Garn oder Gummistopper, die sich auf der Schnur verschieben lassen.\n\nWeil der Stopper durch die Rollenringe und den Spitzenring passt, lässt sich so auch in großer Tiefe komfortabel werfen: Die Pose rutscht erst beim Absinken bis zum Stopper hoch. So verbindet die Laufposenmontage tiefes Fischen mit guter Wurfbarkeit.",
-    "related": ["Vorfach", "Weißfisch", "Grundblei"]
+    "tagline": "Selbstjustierende Karpfenmontage für schlammige oder unebene Gewässerböden.",
+    "description": "Das Chod-Rig besteht aus einem kurzen, gebogenen Vorfach mit einem auftriebsstarken Köder, das auf einem Inline-Blei oder einem Freilauf-System frei gleiten kann. Durch den Auftrieb des Köders richtet sich das Rig automatisch auf, egal wie uneben oder mit Schlamm bedeckt der Boden ist.\n\nDiese Eigenschaft macht das Chod-Rig ideal für Gewässer mit starker Krautentwicklung oder tiefen Schlammschichten, wo konventionelle Montagen im Untergrund verschwinden würden. Der Hakenköder bleibt stets sichtbar und zugänglich für den Karpfen.",
+    "related": [
+      "haarmontage",
+      "helikoptermontage",
+      "inline-blei"
+    ]
   },
   {
-    "id": "grundblei",
-    "name": "Grundblei",
-    "aliases": ["Grundgewicht", "Sinker", "Bleigewicht"],
-    "category": "Montage",
-    "tagline": "Gewicht, das den Köder am Gewässergrund hält.",
-    "description": "Das Grundblei hält Köder und Montage am Gewässergrund und sorgt zugleich für die nötige Wurfweite. Es gibt verschiedene Formen wie Birnen-, Sarg- oder Krallenblei, die je nach Untergrund und Strömung mehr oder weniger Halt bieten.\n\nBeim Grundangeln und besonders bei Selbsthakmontagen ist das Bleigewicht entscheidend: Ein ausreichend schweres, fixiertes Blei treibt beim Abziehen des Fisches den Haken ins Maul. In strömendem Wasser verhindern Krallenbleie ein Abtreiben der Montage.",
-    "related": ["Selbsthakmontage", "Bissanzeiger", "Tragkraft", "Köderführung"]
+    "id": "curly-tail",
+    "name": "Curly-Tail",
+    "aliases": [
+      "Curly-Tail-Gummifisch",
+      "Kurbelschwanz"
+    ],
+    "category": "Köder",
+    "tagline": "Gummiköder mit eingerolltem Schwanz, der durch Wasserwiderstand eine verführerische Eigenbewegung erzeugt.",
+    "description": "Der Curly-Tail ist ein Gummiköder, dessen Schwanzende spiralförmig oder stark gebogen gestaltet ist. Beim Einholn oder Durch-das-Wasser-Führen erzeugt der Schwanz durch den Wasserwiderstand eine wellenförmige Schaukelbewegung, die den Anschein eines schwimmenden Kleinfisches imitiert.\n\nCurly-Tails sind vielseitig einsetzbar: auf Jigköpfen montiert, als Texas- oder Carolina-Rig, oder in Kombination mit Bleiköpfen. Zielfische sind Barsch, Zander, Hecht und andere Raubfische. Die Farbe des Köders wird dem Beutespektrum und den Wasserverhältnissen angepasst; bei klarem Wasser natürliche Farben, bei trübem Wasser leuchtende Töne.",
+    "related": [
+      "kunstkoeder",
+      "raubfisch",
+      "gufi"
+    ]
+  },
+  {
+    "id": "cypriniden",
+    "name": "Cypriniden",
+    "aliases": [
+      "Karpfenfische",
+      "Karpfenartige"
+    ],
+    "category": "Fischkunde",
+    "tagline": "Familie der karpfenartigen Fische, die meisten heimischen Friedfische.",
+    "description": "Cypriniden sind die Familie der Karpfenfische und stellen einen großen Teil der heimischen Friedfische. Dazu gehören Karpfen, Brachse, Rotauge, Schleie, Döbel und viele Weißfische. Sie besitzen keine echten Zähne im Maul, sondern Schlundzähne zum Zerkleinern der Nahrung.\n\nCypriniden sind meist anpassungsfähig und kommen in vielen Still- und Fließgewässern vor. Sie ernähren sich überwiegend von pflanzlicher Kost, Kleintieren und Insektenlarven und sind beliebte Ziele des Friedfischangelns.",
+    "related": [
+      "Salmoniden",
+      "Friedfisch",
+      "Weißfisch",
+      "Anfüttern"
+    ]
+  },
+  {
+    "id": "drill",
+    "name": "Drill",
+    "aliases": [
+      "Fischdrill"
+    ],
+    "category": "Technik",
+    "tagline": "Das kontrollierte Ermüden und Einholen eines gehakten Fisches.",
+    "description": "Als Drill bezeichnet man die Phase zwischen Anhieb und Landung, in der der Angler den gehakten Fisch bändigt. Mit der Rutenspannung und einer richtig eingestellten Bremse wird die Kraft des Fisches abgefangen, bis er ermüdet und sicher gekeschert werden kann.\n\nEin guter Drill ist möglichst kurz, um den Fisch zu schonen, aber kontrolliert genug, dass weder Schnur noch Vorfach reißen. Die Rute zeigt dabei nach oben, damit ihre Federwirkung die Stöße des Fisches dämpft.",
+    "related": [
+      "Bremse",
+      "Anhieb",
+      "Vorfach",
+      "Tragkraft"
+    ]
+  },
+  {
+    "id": "drilling",
+    "name": "Drilling",
+    "aliases": [
+      "Drillhaken",
+      "Dreihakenverbund"
+    ],
+    "category": "Gerät",
+    "tagline": "Dreifachhaken mit drei Hakenspitzen an einem gemeinsamen Hakenschaft für bessere Hakungsquote.",
+    "description": "Ein Drilling ist ein Haken, der aus drei einzelnen Haken besteht, die an einem gemeinsamen Schaft zusammengeführt sind und jeweils um 120 Grad versetzt sitzen. Diese Konstruktion erhöht die Hakungswahrscheinlichkeit erheblich, besonders beim Angeln mit Kunstködern wie Wobblern oder Blinker, bei denen der Fisch aus verschiedenen Winkeln angreift.\n\nDrillings werden standardmäßig an Kunstködern für Raubfische verbaut und können nachträglich ausgetauscht werden. Bei manchen Gewässerregeln und Fischereizonen sind Drillings nicht erlaubt oder es gelten besondere Regelungen bezüglich Widerhaken; daher sollte die lokale Fischereiordnung beachtet werden.",
+    "related": [
+      "widerhaken",
+      "wobbler-tauchtiefe",
+      "raubfisch"
+    ]
   },
   {
     "id": "echolot",
     "name": "Echolot",
-    "aliases": ["Fischfinder", "Sonar"],
+    "aliases": [
+      "Fischfinder",
+      "Sonar"
+    ],
     "category": "Technik",
     "tagline": "Gerät, das mit Schallwellen Tiefe, Grund und Fische sichtbar macht.",
     "description": "Ein Echolot sendet Schallimpulse ins Wasser und misst aus deren Rücklaufzeit die Wassertiefe sowie die Beschaffenheit von Grund und Wassersäule. Auf dem Display erscheinen Tiefe, Grundstruktur, Kraut, Sprungschicht und einzelne Fische oder Fischschwärme.\n\nFür das Angeln vom Boot ist das Echolot ein wertvolles Hilfsmittel, um Hotspots, Kanten und die bevorzugte Tiefe der Fische zu finden. Moderne Geräte bieten zusätzlich Funktionen wie Side- und Downscan oder Kartendarstellung.",
-    "related": ["Sprungschicht", "Hotspot", "Trolling", "Gewässerkunde"]
+    "related": [
+      "Sprungschicht",
+      "Hotspot",
+      "Trolling",
+      "Gewässerkunde"
+    ]
   },
   {
-    "id": "wobbler-tauchtiefe",
-    "name": "Wobbler-Tauchtiefe",
-    "aliases": ["Lauftiefe", "Tauchtiefe"],
-    "category": "Köder",
-    "tagline": "Die Tiefe, in der ein Wobbler beim Einholen läuft.",
-    "description": "Die Tauchtiefe gibt an, wie tief ein Wobbler beim Einholen abtaucht. Sie wird vor allem von der Größe und dem Winkel der Tauchschaufel bestimmt: Eine große, flach stehende Schaufel bringt den Köder tief, eine kleine hält ihn flach unter der Oberfläche. Hersteller geben die Tauchtiefe meist auf Verpackung oder Köder an.\n\nDie passende Lauftiefe richtet sich nach der Wassertiefe und dem Standplatz der Fische. Daneben beeinflussen auch Schnurstärke, Wurfweite und Einholgeschwindigkeit, wie tief der Wobbler tatsächlich läuft.",
-    "related": ["Kunstköder", "Köderführung", "Trolling", "Wurfgewicht"]
-  },
-  {
-    "id": "schonzeit-ausnahme",
-    "name": "Schonzeit-Ausnahme",
-    "aliases": ["Ausnahmegenehmigung", "Schonzeitausnahme"],
+    "id": "erlaubnisschein",
+    "name": "Erlaubnisschein",
+    "aliases": [
+      "Angelkarte",
+      "Gewässerkarte",
+      "Tageskarte"
+    ],
     "category": "Recht & Naturschutz",
-    "tagline": "Behördlich erlaubte Abweichung von einer geltenden Schonzeit.",
-    "description": "Eine Schonzeit-Ausnahme erlaubt unter bestimmten Voraussetzungen, eine Art trotz laufender Schonzeit zu befischen oder zu entnehmen. Solche Ausnahmen können von der Fischereibehörde etwa zur Bestandsregulierung, für Hege- und Abfischmaßnahmen oder bei invasiven Arten erteilt werden.\n\nAuch der unvermeidbare Beifang einer geschonten Art beim erlaubten Angeln auf andere Fische ist von der reinen Schonzeitregel abzugrenzen: Solche Fische sind unverzüglich und schonend zurückzusetzen. Eigenmächtige Ausnahmen gibt es nicht – maßgeblich sind stets die behördlichen Vorgaben.",
-    "related": ["Schonzeit", "Laichzeit", "Erlaubnisschein", "Waidgerecht"]
+    "tagline": "Erlaubnis des Gewässerbesitzers, an einem bestimmten Gewässer zu angeln.",
+    "description": "Der Erlaubnisschein – umgangssprachlich Angelkarte – erlaubt das Angeln an einem konkreten Gewässer und wird vom Fischereiberechtigten oder bewirtschaftenden Verein ausgegeben. Er gibt es als Tages-, Wochen- oder Jahreskarte und nennt meist auch die geltenden Bestimmungen wie Fangbegrenzungen und erlaubte Methoden.\n\nZusammen mit dem Fischereischein bildet er die rechtliche Grundlage für das Angeln. Wer ohne gültigen Erlaubnisschein angelt, begeht Fischwilderei.",
+    "related": [
+      "Fischereischein",
+      "Schonzeit",
+      "Mindestmaß"
+    ]
+  },
+  {
+    "id": "fehlbiss",
+    "name": "Fehlbiss",
+    "aliases": [
+      "Aufnehmer",
+      "Kurznipper"
+    ],
+    "category": "Technik",
+    "tagline": "Bissvorgang, bei dem der Fisch den Köder aufnimmt, aber nicht gehakt wird.",
+    "description": "Ein Fehlbiss bezeichnet das Ereignis, bei dem ein Fisch den Hakenköder in den Mund nimmt und dabei den Bissanzeiger auslöst oder die Schnur bewegt, der Anhieb des Anglers jedoch ins Leere geht. Ursachen können ein zu früher oder zu später Anhieb, ein stumpfer Haken, eine falsch eingestellte Montage oder das vorsichtige Abnehmen des Köders durch den Fisch sein.\n\nFehlbisse sind Hinweise auf Anpassungsbedarf: Hakenröße, Köderart, Vorlachlänge oder Präsentation sollten überprüft werden. Beim Karpfenangeln mit Selbsthakungsmontagen sind Fehlbisse seltener, da der Fisch sich beim Wegschwimmen oft selbst hakt.",
+    "related": [
+      "anhieb",
+      "selbsthakmontage",
+      "bissanzeiger"
+    ]
+  },
+  {
+    "id": "fischereischein",
+    "name": "Fischereischein",
+    "aliases": [
+      "Angelschein",
+      "Fischerprüfung"
+    ],
+    "category": "Recht & Naturschutz",
+    "tagline": "Amtlicher Nachweis der Berechtigung zum Angeln.",
+    "description": "Der Fischereischein ist in Deutschland in den meisten Bundesländern Voraussetzung, um angeln zu dürfen. Er wird nach bestandener Fischerprüfung von der Behörde ausgestellt und bescheinigt das nötige Grundwissen über Fischkunde, Gewässer, Gerät, Recht und Tierschutz.\n\nDer Fischereischein allein berechtigt aber noch nicht zum Angeln an einem bestimmten Gewässer – dafür ist zusätzlich ein Erlaubnisschein nötig. Beide Dokumente müssen am Wasser mitgeführt werden.",
+    "related": [
+      "Erlaubnisschein",
+      "Waidgerecht",
+      "Schonzeit"
+    ]
+  },
+  {
+    "id": "freilauf",
+    "name": "Freilauf",
+    "aliases": [
+      "Baitrunner",
+      "Freilaufsystem",
+      "Free-Spool"
+    ],
+    "category": "Gerät",
+    "tagline": "Funktion an Angelrollen, die dem Fisch das Abziehen von Schnur ohne Widerstand ermöglicht.",
+    "description": "Das Freilaufsystem ist eine Sonderfunktion an Stationärrollen, die auf Knopfdruck einen zweiten, sehr leichten Bremsmechanismus aktiviert. Im Freilauf kann der Fisch Schnur abziehen, ohne auf den Hauptbremswiderstand zu treffen. Dies verhindert, dass die Rute beim Anbiss ins Wasser gezogen wird.\n\nBeim Karpfenangeln ist die Freilaufrolle (oft als „Baitrunner“ bezeichnet) Standard. Der Angler schaltet den Freilauf ab, sobald er die Rute in die Hand nimmt und den Anhieb setzt. Das System eignet sich auch beim Angeln auf Aale und andere Arten, die beim Anbiss Schnur ziehen, bevor der Angler reagieren kann.",
+    "related": [
+      "bremse",
+      "bissanzeiger",
+      "swinger"
+    ]
+  },
+  {
+    "id": "friedfisch",
+    "name": "Friedfisch",
+    "aliases": [
+      "Weißfisch"
+    ],
+    "category": "Fischkunde",
+    "tagline": "Fisch, der sich überwiegend nicht räuberisch ernährt.",
+    "description": "Friedfische ernähren sich hauptsächlich von Pflanzen, Kleinlebewesen, Würmern und Insektenlarven und jagen keine anderen Fische. Zu ihnen gehören viele Cypriniden wie Karpfen, Brassen, Rotaugen und Schleien. Der Begriff steht im Gegensatz zum Raubfisch.\n\nFriedfische werden meist mit Naturködern wie Maden, Würmern oder Mais beangelt, häufig in Verbindung mit Anfüttern und feinem Gerät. Viele kleinere Friedfische werden auch als Weißfische bezeichnet.",
+    "related": [
+      "Raubfisch",
+      "Weißfisch",
+      "Cypriniden",
+      "Anfüttern",
+      "Naturköder"
+    ]
+  },
+  {
+    "id": "futterplatz",
+    "name": "Futterplatz",
+    "aliases": [
+      "Futterstelle"
+    ],
+    "category": "Technik",
+    "tagline": "Gezielt angefütterte Stelle, an der sich Fische sammeln sollen.",
+    "description": "Ein Futterplatz ist eine Stelle, die der Angler durch Anfüttern attraktiv macht, um Fische anzulocken und zum Verweilen zu bringen. An einem gut etablierten Futterplatz gewöhnen sich die Fische an die Nahrung und nehmen den Köder besonders bereitwillig auf.\n\nWichtig ist, den Futterplatz präzise zu treffen und die Futtermenge an Fischbestand und Beißlaune anzupassen. Beim Karpfenangeln werden Futterplätze teils über mehrere Tage vorbereitet.",
+    "related": [
+      "Anfüttern",
+      "Hotspot",
+      "Naturköder"
+    ]
+  },
+  {
+    "id": "grundblei",
+    "name": "Grundblei",
+    "aliases": [
+      "Grundgewicht",
+      "Sinker",
+      "Bleigewicht"
+    ],
+    "category": "Montage",
+    "tagline": "Gewicht, das den Köder am Gewässergrund hält.",
+    "description": "Das Grundblei hält Köder und Montage am Gewässergrund und sorgt zugleich für die nötige Wurfweite. Es gibt verschiedene Formen wie Birnen-, Sarg- oder Krallenblei, die je nach Untergrund und Strömung mehr oder weniger Halt bieten.\n\nBeim Grundangeln und besonders bei Selbsthakmontagen ist das Bleigewicht entscheidend: Ein ausreichend schweres, fixiertes Blei treibt beim Abziehen des Fisches den Haken ins Maul. In strömendem Wasser verhindern Krallenbleie ein Abtreiben der Montage.",
+    "related": [
+      "Selbsthakmontage",
+      "Bissanzeiger",
+      "Tragkraft",
+      "Köderführung"
+    ]
+  },
+  {
+    "id": "gufi",
+    "name": "Gufi",
+    "aliases": [
+      "Gummifisch",
+      "Softlure"
+    ],
+    "category": "Köder",
+    "tagline": "Weichelastischer Kunstköder aus Gummi oder Silikon, der lebende Fische imitiert.",
+    "description": "Gufi ist die umgangssprachliche Kurzform für Gummifisch, ein Weichkunstköder aus Gummi, Silikon oder Latex. Gummifische werden in zahlreichen Formen und Größen gefertigt: als naturgetreue Fischnachbildungen, als Twister, als Curly-Tails, als Paddle-Tails oder als Shads. Sie können mit oder ohne eingearbeiteten Jigkopf verwendet werden.\n\nGummifische sind heute die meistgenutzten Kunstköder für Raubfische wie Hecht, Zander, Barsch und Forelle. Ihre Stärke liegt in der natürlichen Bewegung und der variablen Einsatzmöglichkeit. Durch das Einarbeiten von Aromen oder Salz in das Material kann die Attraktivität gesteigert werden.",
+    "related": [
+      "curly-tail",
+      "kunstkoeder",
+      "raubfisch"
+    ]
+  },
+  {
+    "id": "gumpe",
+    "name": "Gumpe",
+    "aliases": [
+      "Kolke",
+      "Tiefstelle"
+    ],
+    "category": "Gewässerkunde",
+    "tagline": "Tiefe, strömungsarme Stelle im Fließgewässer, die als Winterlager und Einstandsort für Fische dient.",
+    "description": "Eine Gumpe ist eine lokal begrenzte Vertiefung im Gewässerbett eines Flusses oder Baches, die durch Strömungserosion oder natürliche Gegebenheiten entstanden ist. Das Wasser in der Gumpe ist ruhiger und oft deutlich tiefer als in der Umgebung, was sie zu einem bevorzugten Einstandsort macht.\n\nIm Winter suchen viele Fischarten Gumpen als Überwinterungsplatz auf, da die Wassertemperatur dort stabiler ist und weniger Energie für das Stehen in der Strömung aufgewendet werden muss. Im Sommer bieten Gumpen Kühle und Sauerstoff. Das Befischen einer Gumpe erfordert das gezielte Absuchen mit Pose oder Grundmontage.",
+    "related": [
+      "kehrwasser",
+      "standplatz",
+      "thermokline"
+    ]
+  },
+  {
+    "id": "haarmontage",
+    "name": "Haarmontage",
+    "aliases": [
+      "Hair Rig",
+      "Haar-Rig"
+    ],
+    "category": "Montage",
+    "tagline": "Montage, bei der der Köder an einem Haar neben dem Haken sitzt.",
+    "description": "Bei der Haarmontage hängt der Köder nicht direkt am Haken, sondern an einem dünnen Faden – dem Haar – kurz hinter dem Hakenbogen. Dadurch bleibt der Hakenbogen frei, was die Hakrate deutlich erhöht. Saugt der Karpfen den Köder ein, rutscht der freiliegende Haken mit ins Maul und fasst sicher.\n\nDie Haarmontage wurde in der englischen Karpfenszene entwickelt und gehört heute zum Standard beim Boilie-Angeln. Sie wird fast immer mit einer Selbsthakmontage kombiniert.",
+    "related": [
+      "Selbsthakmontage",
+      "Naturköder",
+      "Grundblei"
+    ]
+  },
+  {
+    "id": "helikoptermontage",
+    "name": "Helikoptermontage",
+    "aliases": [
+      "Heli-Rig",
+      "Helikopter-Rig"
+    ],
+    "category": "Montage",
+    "tagline": "Karpfenmontage, bei der das Vorfach frei um die Hauptschnur rotiert und sich so optimal über dem Boden ausrichtet.",
+    "description": "Bei der Helikoptermontage ist das Vorfach mit einem Wirbel versehen, der sich frei auf der Hauptschnur dreht, ähnlich einem Hubschrauberrotor. Das Blei ist am Ende der Schnur befestigt; der Köder schwingt beim Fall frei aus und landet optimal auf dem Gewässergrund.\n\nDas Rig eignet sich besonders für unebene, verkrautete oder schlammige Böden, da der Köder nach dem Aufsetzen des Bleies immer in einer sauberen Position liegt. In Kombination mit dem Chod-Rig wird die Helikoptermontage häufig bei extremen Bodenverhältnissen eingesetzt.",
+    "related": [
+      "chod-rig",
+      "inline-blei",
+      "haarmontage"
+    ]
+  },
+  {
+    "id": "hotspot",
+    "name": "Hotspot",
+    "aliases": [
+      "Fangplatz",
+      "Heißer Punkt"
+    ],
+    "category": "Gewässerkunde",
+    "tagline": "Besonders fängiger Bereich eines Gewässers.",
+    "description": "Ein Hotspot ist eine Stelle im Gewässer, an der sich Fische bevorzugt aufhalten oder fressen. Solche Plätze entstehen durch Strukturen wie Kanten, Krautfelder, versunkene Bäume, Einläufe, Brückenpfeiler oder Plateaus, die Schutz und Nahrung bieten.\n\nDas Aufspüren von Hotspots – durch Beobachtung, Echolot oder Erfahrung am Wasser – ist oft der Schlüssel zum Erfolg. An einem guten Hotspot lohnt sich konzentriertes Angeln und gezieltes Anfüttern.",
+    "related": [
+      "Futterplatz",
+      "Sprungschicht",
+      "Echolot",
+      "Anfüttern"
+    ]
+  },
+  {
+    "id": "inline-blei",
+    "name": "Inline-Blei",
+    "aliases": [
+      "Inline-Gewicht"
+    ],
+    "category": "Montage",
+    "tagline": "Angelblei, durch das die Schnur zentral hindurchgeführt wird, für direkte Bisssignalübertragung.",
+    "description": "Beim Inline-Blei verläuft die Schnur oder ein Verbindungsschlauch durch die Mittelachse des Bleis, anders als beim herkömmlichen Blei, das seitlich befestigt wird. Diese Konstruktion führt zu einer direkten und unmittelbaren Übertragung des Bisses auf die Angelrute, da kein seitliches Spiel entsteht.\n\nInline-Bleie werden häufig beim Karpfenangeln eingesetzt und ermöglichen eine sichere Selbsthakung, da das Blei beim Anhieb des Fisches am Boden bleibt und als Widerstand dient. Sie sind in verschiedenen Gewichten und Formen erhältlich, darunter flache Formen für strömungsreiche Gewässer.",
+    "related": [
+      "helikoptermontage",
+      "selbsthakmontage",
+      "grundblei"
+    ]
+  },
+  {
+    "id": "katadrom",
+    "name": "katadrom",
+    "aliases": [
+      "katadrome Wanderfische"
+    ],
+    "category": "Fischkunde",
+    "tagline": "Fische, die zum Laichen aus dem Süßwasser ins Meer abwandern.",
+    "description": "Katadrome Fische leben überwiegend im Süßwasser, wandern zum Laichen aber ins Meer ab. Das bekannteste heimische Beispiel ist der Europäische Aal, der zum Ablaichen bis in die Sargassosee im Atlantik zieht.\n\nKatadrome Arten sind damit das Gegenstück zu den anadromen Fischen. Auch sie sind auf durchgängige Gewässer angewiesen, um zwischen Süßwasser und Meer wandern zu können.",
+    "related": [
+      "anadrom",
+      "Brackwasser",
+      "Laichzeit"
+    ]
+  },
+  {
+    "id": "kehrwasser",
+    "name": "Kehrwasser",
+    "aliases": [
+      "Ruhigwasser",
+      "Totwasser"
+    ],
+    "category": "Gewässerkunde",
+    "tagline": "Strömungsarmer Bereich hinter einem Hindernis im Fließgewässer, der Fischen Rast ermöglicht.",
+    "description": "Als Kehrwasser bezeichnet man einen strömungsarmen oder rückströmenden Bereich im Fließgewässer, der sich unmittelbar hinter Hindernissen wie Felsen, Baumstämmen, Brückenpfeilern oder Flussbiegungen bildet. Die Hauptströmung fließt um das Hindernis herum; hinter dem Hindernis entsteht ein Wirbel oder eine Ruhezone.\n\nFische nutzen das Kehrwasser als Energiesparzone, da sie dort ohne große Mühe stehen können und dennoch von vorbeischwimmendem Futter profitieren, das aus der Hauptströmung abgelenkt wird. Das Kehrwasser ist ein klassischer Standplatz für Äsche, Bachforelle, Döbel und Barbe in Fließgewässern.",
+    "related": [
+      "standplatz",
+      "gumpe",
+      "trotten"
+    ]
+  },
+  {
+    "id": "koederfisch",
+    "name": "Köderfisch",
+    "aliases": [
+      "Köfi"
+    ],
+    "category": "Köder",
+    "tagline": "Kleiner Fisch, der als Naturköder für Raubfische dient.",
+    "description": "Ein Köderfisch ist ein kleiner Beutefisch, der zum Fang von Raubfischen wie Hecht, Zander oder Wels verwendet wird. Er kann tot oder – wo erlaubt – lebend angeboten werden, etwa an einer Pose, am Grund oder beim Spinnfischen am System. In Deutschland ist das Angeln mit lebendem Köderfisch aus Tierschutzgründen weitgehend verboten.\n\nKöderfische werden meist selbst gefangen, etwa mit einer Köderfischsenke oder feinem Gerät, und müssen dabei dem geltenden Schonmaß und der Schonzeit entsprechen. Beliebte Köderfische sind Rotaugen, Lauben und andere Weißfische.",
+    "related": [
+      "Köderfischsenke",
+      "Naturköder",
+      "Raubfisch",
+      "Selbsthakmontage"
+    ]
   },
   {
     "id": "koederfischsenke",
     "name": "Köderfischsenke",
-    "aliases": ["Senke", "Hebenetz", "Senknetz"],
+    "aliases": [
+      "Senke",
+      "Hebenetz",
+      "Senknetz"
+    ],
     "category": "Gerät",
     "tagline": "Quadratisches Netz zum Fang kleiner Köderfische.",
     "description": "Die Köderfischsenke ist ein an einem Gestell aufgespanntes, meist quadratisches Netz, das ins Wasser abgesenkt und nach kurzer Wartezeit wieder gehoben wird, um kleine Köderfische zu fangen. Oft wird sie mit etwas Futter beködert, um Fische über das Netz zu locken.\n\nDer Einsatz der Senke ist rechtlich geregelt: Vielerorts sind Maschenweite, Netzgröße und der Eigenbedarf für Köderfische vorgeschrieben, und ein gültiger Fischereischein sowie Erlaubnisschein sind erforderlich. Die so gefangenen Fische unterliegen ebenfalls Schonmaß und Schonzeit.",
-    "related": ["Köderfisch", "Naturköder", "Erlaubnisschein", "Weißfisch"]
+    "related": [
+      "Köderfisch",
+      "Naturköder",
+      "Erlaubnisschein",
+      "Weißfisch"
+    ]
+  },
+  {
+    "id": "koederfuehrung",
+    "name": "Köderführung",
+    "aliases": [
+      "Köderpräsentation"
+    ],
+    "category": "Technik",
+    "tagline": "Die Art, wie ein Köder im Wasser bewegt und angeboten wird.",
+    "description": "Die Köderführung beschreibt, wie der Angler einen Köder durchs Wasser bewegt, um Fische zum Biss zu reizen. Beim Spinnfischen sind das etwa gleichmäßiges Einholen, ruckartiges Zupfen (Jiggen, Twitchen) oder Absinkphasen; beim Naturköder eher ein langsames, unauffälliges Anbieten.\n\nDie richtige Köderführung orientiert sich am Beuteverhalten des Zielfisches und an den Bedingungen wie Strömung, Wassertemperatur und Aktivität der Fische. Oft entscheidet sie über Erfolg oder Misserfolg eines Angeltages.",
+    "related": [
+      "Kunstköder",
+      "Wobbler-Tauchtiefe",
+      "Streamer",
+      "Hotspot"
+    ]
+  },
+  {
+    "id": "kopfrute",
+    "name": "Kopfrute",
+    "aliases": [
+      "Matchrute",
+      "Teleskopkopfrute"
+    ],
+    "category": "Gerät",
+    "tagline": "Lange, meist teleskopierbare Rute ohne Rolle für das Pose- und Kopfrutenangeln.",
+    "description": "Eine Kopfrute ist eine lange, starre oder teleskopierbare Angelrute, die ohne Rolle betrieben wird. Die Schnur ist direkt an der Rutenspitze befestigt und hat eine Länge, die der Rute entspricht oder wenig kürzer ist. Typische Längen liegen zwischen 5 und 13 Metern.\n\nKopfruten werden hauptsächlich beim Posenangeln in Flussnähe und Stillgewässern eingesetzt, wo große Wurfweiten nicht erforderlich sind. Sie erlauben durch ihre Länge ein präzises Setzen der Pose und ein feinfühliges Führen des Köders. Kopfruten gibt es als einteilige Ruten (Steckrute) oder als Teleskopmodelle.",
+    "related": [
+      "trotten",
+      "bolognese",
+      "stickpose"
+    ]
+  },
+  {
+    "id": "kunstkoeder",
+    "name": "Kunstköder",
+    "aliases": [
+      "Künstlicher Köder",
+      "Lure"
+    ],
+    "category": "Köder",
+    "tagline": "Künstlicher Köder, der Beutetiere durch Form, Farbe und Bewegung imitiert.",
+    "description": "Kunstköder sind künstlich gefertigte Köder, die durch Aussehen und Lauf eine Beute nachahmen und so vor allem Raubfische zum Biss reizen. Typische Vertreter sind Wobbler, Gummifische, Blinker, Spinner und Jigs. Sie werden aktiv geführt und leben von der richtigen Köderführung.\n\nGegenüber Naturködern haben Kunstköder den Vorteil, dass sie wiederverwendbar sind, gezielt bestimmte Tiefen abfischen und ein schnelles Absuchen großer Wasserflächen ermöglichen.",
+    "related": [
+      "Naturköder",
+      "Köderführung",
+      "Wobbler-Tauchtiefe",
+      "Raubfisch"
+    ]
+  },
+  {
+    "id": "laichzeit",
+    "name": "Laichzeit",
+    "aliases": [
+      "Laichperiode",
+      "Fortpflanzungszeit"
+    ],
+    "category": "Fischkunde",
+    "tagline": "Zeitraum, in dem Fische ablaichen und sich fortpflanzen.",
+    "description": "Die Laichzeit ist der Zeitraum, in dem eine Fischart ihre Eier (den Laich) ablegt. Sie ist je nach Art unterschiedlich: Hechte laichen früh im Frühjahr, viele Cypriniden im späten Frühjahr bis Sommer, Forellen und Lachse dagegen im Herbst und Winter. Auslöser sind vor allem Wassertemperatur und Tageslänge.\n\nWeil Fische während der Fortpflanzung besonders empfindlich sind, fallen die gesetzlichen Schonzeiten meist in die Laichzeit der jeweiligen Art. So sollen ungestörte Reproduktion und der Bestand gesichert werden.",
+    "related": [
+      "Schonzeit",
+      "anadrom",
+      "katadrom",
+      "Salmoniden"
+    ]
+  },
+  {
+    "id": "lotblei",
+    "name": "Lotblei",
+    "aliases": [
+      "Ausloten",
+      "Tiefenlot"
+    ],
+    "category": "Technik",
+    "tagline": "Schweres Blei zum Ausloten der Gewässertiefe und Bodenbeschaffenheit vor dem Angeln.",
+    "description": "Das Lotblei ist ein spezielles, schweres Bleistück, das am Haken befestigt wird, um die genaue Wassertiefe an einem Angelplatz zu ermitteln. Durch Auswerfen und Einholen bei verschiedenen Positionen der Pose kann der Angler ein Tiefenprofil des Grundes erstellen und Strukturen wie Hänger, Kanten und Plateaus erkennen.\n\nDas Ausloten ist vor allem beim Posenangeln und beim Karpfenangeln eine wichtige Vorbereitung, um die Pose korrekt auf die exakte Wassertiefe einzustellen und Futterstellen gezielt anzulegen. Lotbleie gibt es in verschiedenen Formen; manche haben eine raue Unterseite zum Ertasten der Bodenbeschaffenheit (Sand, Schlamm, Kies, Kraut).",
+    "related": [
+      "posenangeln-stopper",
+      "echolot",
+      "standplatz"
+    ]
+  },
+  {
+    "id": "mending",
+    "name": "Mending",
+    "aliases": [
+      "Schnurkorrektur",
+      "Bogenwurf-Korrektur"
+    ],
+    "category": "Technik",
+    "tagline": "Technik beim Fliegenfischen, bei der die Schnur nach dem Wurf auf dem Wasser neu positioniert wird.",
+    "description": "Mending bezeichnet das Umwerfen oder Hochheben der auf dem Wasser liegenden Fliegenschnur nach dem Wurf, um den Einfluss der Strömung auf das Driften der Fliege zu kontrollieren. Durch das Umlegen der Schnur stromaufwärts (Upstream-Mending) wird das Vor-Driften der Schnur verhindert, sodass die Fliege langsamer und natürlicher treibt.\n\nDownstream-Mending (Schnur wird stromabwärts gelegt) beschleunigt hingegen die Fliege für bestimmte Präsentationstechniken. Mending ist eine der wichtigsten Fertigkeiten beim Fliegenfischen in Fließgewässern und muss erlernt werden, da ein schlechtes Mending zu unnatürlichem Driften (Dragging) führt, das Fische verschreckt.",
+    "related": [
+      "roll-cast",
+      "trockenfliege",
+      "nymphe"
+    ]
+  },
+  {
+    "id": "method-mix",
+    "name": "Method-Mix",
+    "aliases": [
+      "Method Feeder Mix",
+      "Methodfutter"
+    ],
+    "category": "Köder",
+    "tagline": "Spezielles Anfütterungsgemisch für Feeder- und Methodfederangler, das eng am Köder geformt wird.",
+    "description": "Ein Method-Mix ist ein feuchtes, klebriges Futtergemisch, das um einen Method-Feeder oder direkt um die Montage geformt wird. Das Futter soll sich langsam im Wasser auflösen und Fische an den Hakenköder heranlocken. Typische Zutaten sind Pellets, Mehle, Aromen und Bindemittel.\n\nDie Konsistenz des Method-Mix ist entscheidend: zu trocken zerfällt er beim Wurf, zu feucht haftet er nicht an der Montage. Die Methode ist besonders effektiv beim Karpfen- und Brassen-Angeln und erlaubt präzises Anfüttern ohne Spod oder Schleuder.",
+    "related": [
+      "pva",
+      "spod",
+      "anfuettern"
+    ]
+  },
+  {
+    "id": "mindestmass",
+    "name": "Mindestmaß",
+    "aliases": [
+      "Schonmaß",
+      "Brittelmaß"
+    ],
+    "category": "Recht & Naturschutz",
+    "tagline": "Gesetzlich vorgeschriebene Mindestlänge für die Entnahme eines Fisches.",
+    "description": "Das Mindestmaß ist die kleinste erlaubte Länge, ab der ein gefangener Fisch behalten werden darf. Es ist in den Fischereiverordnungen der Bundesländer geregelt und kann je nach Gewässer durch den Bewirtschafter strenger gefasst sein.\n\nDer Begriff wird häufig synonym zum Schonmaß verwendet. Ziel ist immer, dass Jungfische heranwachsen und sich vermehren können, bevor sie entnommen werden.",
+    "related": [
+      "Schonmaß",
+      "Schonzeit",
+      "Erlaubnisschein"
+    ]
+  },
+  {
+    "id": "naturkoeder",
+    "name": "Naturköder",
+    "aliases": [
+      "Naturköder",
+      "Lebendköder",
+      "Organischer Köder"
+    ],
+    "category": "Köder",
+    "tagline": "Köder natürlichen Ursprungs wie Wurm, Made oder Köderfisch.",
+    "description": "Naturköder sind Köder tierischer oder pflanzlicher Herkunft, etwa Tauwurm, Maden, Mais, Teig oder Köderfische. Sie sprechen Fische über natürlichen Geruch, Geschmack und Aussehen an und sind besonders beim Friedfisch- und Grundangeln verbreitet.\n\nIm Gegensatz zum Kunstköder muss der Naturköder meist ruhig angeboten werden und wirkt vor allem durch seine Authentizität. Beim Einsatz lebender Köderfische sind die strengen tierschutzrechtlichen Vorgaben zu beachten.",
+    "related": [
+      "Kunstköder",
+      "Köderfisch",
+      "Friedfisch",
+      "Anfüttern"
+    ]
+  },
+  {
+    "id": "nymphe",
+    "name": "Nymphe",
+    "aliases": [
+      "Nassfliege (Nymphe)"
+    ],
+    "category": "Köder",
+    "tagline": "Unter Wasser geführte Kunstfliege, die eine Insektenlarve imitiert.",
+    "description": "Die Nymphe ist ein Fliegenmuster, das eine im Wasser lebende Insektenlarve nachahmt und unter der Oberfläche geführt wird. Da sich Salmoniden den Großteil ihrer Nahrung unter Wasser holen, ist die Nymphe ein äußerst fängiges Muster beim Fliegenfischen.\n\nNymphen werden oft beschwert (etwa mit einem Goldkopf), um in die richtige Tiefe zu kommen, und drag-frei mit der Strömung präsentiert. Das Nymphenfischen gilt als besonders effektive, aber auch anspruchsvolle Spielart der Fliegenfischerei.",
+    "related": [
+      "Trockenfliege",
+      "Streamer",
+      "Salmoniden",
+      "Köderführung"
+    ]
+  },
+  {
+    "id": "peruecke-schnursalat",
+    "name": "Perücke (Schnursalat)",
+    "aliases": [
+      "Schnursalat",
+      "Perücke",
+      "Vogelnest",
+      "Backlash"
+    ],
+    "category": "Technik",
+    "tagline": "Wirrer Schnurknäuel, der beim Wurf oder Ablassen entsteht.",
+    "description": "Als Perücke oder Schnursalat bezeichnen Angler ein unentwirrbar wirkendes Schnurknäuel. Bei Stationärrollen entsteht es oft durch lockere Wicklungen, die sich beim nächsten Wurf in Schlaufen lösen; bei Multi- und Baitcastrollen durch eine überdrehende Spule beim Wurf (Backlash).\n\nVorbeugen lässt sich durch eine gleichmäßig und nicht zu voll bespulte Rolle, das richtige Schließen des Schnurfangbügels und – bei Baitcastern – durch eine korrekt eingestellte Spulenbremse.",
+    "related": [
+      "Schnurfangbügel",
+      "Bremse",
+      "Wurfgewicht"
+    ]
+  },
+  {
+    "id": "petri-heil",
+    "name": "Petri Heil",
+    "aliases": [
+      "Petri",
+      "Petri Dank"
+    ],
+    "category": "Technik",
+    "tagline": "Traditioneller Anglergruß für einen guten Fang.",
+    "description": "„Petri Heil“ ist der klassische Gruß und Glückwunsch unter Anglern und wünscht einen erfolgreichen Fang. Er geht auf den Apostel Petrus zurück, den Schutzpatron der Fischer. Die übliche Antwort darauf lautet „Petri Dank“.\n\nDer Gruß wird sowohl zur Begrüßung am Wasser als auch als Glückwunsch nach einem gefangenen Fisch verwendet und gehört zur gelebten Anglerkultur.",
+    "related": [
+      "Waidgerecht"
+    ]
+  },
+  {
+    "id": "posenangeln-stopper",
+    "name": "Posenangeln-Stopper",
+    "aliases": [
+      "Schnurstopper",
+      "Stopperknoten",
+      "Stopper"
+    ],
+    "category": "Montage",
+    "tagline": "Kleiner Stopper, der die Lauftiefe einer Laufpose begrenzt.",
+    "description": "Der Stopper begrenzt beim Posenangeln, wie weit die Schnur durch eine Laufpose gleiten kann, und legt damit die Angeltiefe fest. Verwendet werden kleine Stopperknoten aus Garn oder Gummistopper, die sich auf der Schnur verschieben lassen.\n\nWeil der Stopper durch die Rollenringe und den Spitzenring passt, lässt sich so auch in großer Tiefe komfortabel werfen: Die Pose rutscht erst beim Absinken bis zum Stopper hoch. So verbindet die Laufposenmontage tiefes Fischen mit guter Wurfbarkeit.",
+    "related": [
+      "Vorfach",
+      "Weißfisch",
+      "Grundblei"
+    ]
+  },
+  {
+    "id": "pva",
+    "name": "PVA",
+    "aliases": [
+      "PVA-Beutel",
+      "PVA-Netz",
+      "PVA-Strumpf"
+    ],
+    "category": "Montage",
+    "tagline": "In Wasser auflösliches Material zur Präsentation von Köder und Lockfutter direkt an der Montage.",
+    "description": "PVA (Polyvinylalkohol) ist ein wasserlösliches Material, das Angler in Form von Beuteln, Netzen oder Strümpfen verwenden, um Lockfutter und Köder präzise an einem Ort zu platzieren. Sobald die Montage den Gewässergrund erreicht, löst sich das PVA-Material vollständig in Wasser auf und hinterlässt einen attraktiven Futterhaufen direkt am Hakenköder.\n\nBesonders beim Karpfenangeln ist PVA unverzichtbar, da es ermöglicht, selbst klebrige oder feuchte Futtermittel wie Pellets oder Boilies gebündelt auszuwerfen. Ölhaltige Substanzen zerstören PVA jedoch, weshalb solche Zusätze vermieden werden müssen.",
+    "related": [
+      "method-mix",
+      "stringer",
+      "haarmontage"
+    ]
+  },
+  {
+    "id": "quivertip",
+    "name": "Quivertip",
+    "aliases": [
+      "Zitterspitze",
+      "Federspitze"
+    ],
+    "category": "Gerät",
+    "tagline": "Biegsame Rutenspitze beim Feederangeln, die als visueller Bissanzeiger dient.",
+    "description": "Der Quivertip ist eine feine, hochsensible Rutenspitze, die bei Feeder- und Grundruten als optischer Bissanzeiger fungiert. Sie ist entweder fest in die Rute eingebaut oder steckbar und austauschbar, um verschiedene Empfindlichkeiten für unterschiedliche Strömungen und Ködergewichte nutzen zu können.\n\nEin Biss zeigt sich durch eine Abbiegung, ein Zucken oder ein Entspannen des Quivertips. Die Angabe der Steifigkeit erfolgt in Unzen (oz): weiche Spitzen (0,5–1 oz) für stehende Gewässer und leichte Montagen, steifere Spitzen (2–4 oz) für starke Strömungen. Der Quivertip ist das wichtigste Erkennungsmerkmal einer Feederrute.",
+    "related": [
+      "schwingspitze",
+      "posenangeln-stopper",
+      "grundblei"
+    ]
+  },
+  {
+    "id": "raubfisch",
+    "name": "Raubfisch",
+    "aliases": [
+      "Räuber",
+      "Prädator"
+    ],
+    "category": "Fischkunde",
+    "tagline": "Fisch, der sich überwiegend von anderen Fischen und Beutetieren ernährt.",
+    "description": "Raubfische ernähren sich räuberisch von anderen Fischen, Krebsen oder Insekten. Zu ihnen zählen in heimischen Gewässern unter anderem Hecht, Zander, Barsch, Wels und Forelle. Sie haben oft ein bezahntes Maul und jagen aktiv oder lauern ihrer Beute auf.\n\nGeangelt werden Raubfische vorwiegend mit Kunstködern oder Köderfischen. Wegen ihrer Zähne ist beim Hecht ein stabiles Vorfach – oft aus Stahl oder Hardmono – nötig.",
+    "related": [
+      "Friedfisch",
+      "Kunstköder",
+      "Köderfisch",
+      "Vorfach"
+    ]
+  },
+  {
+    "id": "roll-cast",
+    "name": "Roll-Cast",
+    "aliases": [
+      "Rollwurf"
+    ],
+    "category": "Technik",
+    "tagline": "Fliegenwerftechnik ohne Rückwurf, die bei Hindernissen hinter dem Angler unverzichtbar ist.",
+    "description": "Der Roll-Cast ist eine fundamentale Fliegenwerftechnik, bei der kein Rückwurf durch die Luft ausgeführt wird. Stattdessen lässt der Angler die Schnur auf dem Wasser liegen und führt eine kreisförmige Vorwärtsbewegung mit der Rute aus. Die Oberflächenspannung des Wassers bietet dabei den notwendigen Widerstand für den Aufbau der Schnurkraft.\n\nDer Roll-Cast ist unverzichtbar, wenn Büsche, Bäume oder Felsen einen normalen Rückwurf verhindern. Er kann auch als Vorbereitungswurf genutzt werden, um eine schlecht liegende Schnur in die richtige Position zu bringen. Die Technik erfordert weniger Platz als ein klassischer Überkopfwurf und wird daher an engen Bachläufen häufig angewendet.",
+    "related": [
+      "mending",
+      "trockenfliege",
+      "nymphe"
+    ]
+  },
+  {
+    "id": "rutenring",
+    "name": "Rutenring",
+    "aliases": [
+      "Schnurring",
+      "Guide"
+    ],
+    "category": "Gerät",
+    "tagline": "An der Rute befestigte Öse, durch die die Angelschnur geführt wird und die den Wurf optimiert.",
+    "description": "Rutenringe sind an der Angelrute in regelmäßigen Abständen montierte Ringe, durch die die Schnur vom Rollenhalter bis zur Rutenspitze geführt wird. Sie übertragen die Kraft des werfenden Anglers gleichmäßig auf die Schnur und schützen die Rute selbst vor direkter Schnurreibung. Die Größe der Ringe nimmt von der Rolle zur Spitze hin ab.\n\nRutenringe werden aus verschiedenen Materialien hergestellt: Keramik-Einlagen (SiC, Aluminiumoxid) für geringen Reibungswiderstand, Hartchrom für robustere Anforderungen. Die Einlage muss glatt und rissfrei sein, da rauhe Ringe die Schnur beschädigen können. Die Anzahl und Platzierung der Ringe beeinflusst das Wurfverhalten und das Gefühl beim Drillen.",
+    "related": [
+      "schockschnur",
+      "wurfgewicht",
+      "aktion-rute"
+    ]
+  },
+  {
+    "id": "salmoniden",
+    "name": "Salmoniden",
+    "aliases": [
+      "Lachsfische",
+      "Forellenartige"
+    ],
+    "category": "Fischkunde",
+    "tagline": "Familie der lachsartigen Fische wie Forelle, Lachs und Äsche.",
+    "description": "Salmoniden sind die Familie der lachsartigen Fische. Zu ihnen gehören Forellen, Lachs, Saibling, Renke und – im weiteren Sinne – die nah verwandte Äsche. Kennzeichnend ist die kleine Fettflosse zwischen Rücken- und Schwanzflosse.\n\nSalmoniden bevorzugen kühles, sauerstoffreiches und sauberes Wasser und gelten als anspruchsvolle Indikatoren für die Gewässergüte. Sie sind klassische Zielfische des Fliegenfischens und unterliegen oft strengen Schonzeiten und Mindestmaßen.",
+    "related": [
+      "Cypriniden",
+      "Laichzeit",
+      "Trockenfliege",
+      "Nymphe",
+      "Streamer"
+    ]
+  },
+  {
+    "id": "schnurfangbuegel",
+    "name": "Schnurfangbügel",
+    "aliases": [
+      "Bügel",
+      "Rollenbügel"
+    ],
+    "category": "Gerät",
+    "tagline": "Klappbarer Bügel der Stationärrolle, der die Schnur führt und sichert.",
+    "description": "Der Schnurfangbügel ist das bewegliche Drahtteil an einer Stationärrolle, das die Schnur beim Einkurbeln auf die Spule legt. Zum Werfen wird er aufgeklappt, sodass die Schnur frei abläuft; nach dem Wurf legt er sich beim ersten Kurbeln (oder von Hand) wieder um und fängt die Schnur ein.\n\nWird der Bügel zu früh oder ruckartig geschlossen, kann das einen Schnursalat begünstigen. Viele Angler schließen ihn deshalb bewusst von Hand, statt sich auf den Kurbelmechanismus zu verlassen.",
+    "related": [
+      "Bremse",
+      "Perücke (Schnursalat)",
+      "Wurfgewicht"
+    ]
+  },
+  {
+    "id": "schockschnur",
+    "name": "Schockschnur",
+    "aliases": [
+      "Shock-Leader",
+      "Schlagschnur"
+    ],
+    "category": "Montage",
+    "tagline": "Verstärkte Schnur zwischen Hauptschnur und Montage, die beim Weitwurf die Belastungsspitze abfängt.",
+    "description": "Eine Schockschnur ist ein kurzes Stück einer deutlich stärkeren Schnur, das mit der dünnen Hauptschnur verbunden wird und am Ende die schwere Montage trägt. Beim Weitwurf entstehen durch Beschleunigung und plötzlichen Stopp enorme Kräfte, die eine dünne Hauptschnur reißen lassen würden. Die Schockschnur fängt diese Belastung ab.\n\nAls Faustformel gilt: die Schockschnur sollte in Kilogramm (Tragkraft) mindestens das Zehnfache des Bleizgewichts in Gramm betragen. Sie muss lang genug sein, um beim Wurf mehrere Windungen auf der Rolle zu haben. Monofil oder Geflecht werden verwendet; der Verbindungsknoten zum Geflecht muss klein und glatt sein, um die Rutenringe nicht zu beschädigen.",
+    "related": [
+      "wurfgewicht",
+      "tragkraft",
+      "vorfachschnur"
+    ]
+  },
+  {
+    "id": "schonmass",
+    "name": "Schonmaß",
+    "aliases": [
+      "Mindestmaß"
+    ],
+    "category": "Recht & Naturschutz",
+    "tagline": "Mindestlänge, ab der ein Fisch entnommen werden darf.",
+    "description": "Das Schonmaß (oder Mindestmaß) legt fest, wie groß ein Fisch sein muss, damit er entnommen werden darf. Untermaßige Fische müssen schonend zurückgesetzt werden, damit sie sich mindestens einmal fortpflanzen können. Manche Gewässer kennen zusätzlich ein Höchstmaß (das sogenannte Küchenfenster), um große Laichfische zu schützen.\n\nGemessen wird in der Regel vom Maul bis zur Schwanzflossenspitze. Das Maß gilt unabhängig davon, ob der Fisch verletzt ist – ein untermaßiger Fisch gehört grundsätzlich zurück ins Wasser.",
+    "related": [
+      "Schonzeit",
+      "Mindestmaß",
+      "Catch and Release",
+      "Waidgerecht"
+    ]
+  },
+  {
+    "id": "schonzeit",
+    "name": "Schonzeit",
+    "aliases": [
+      "Schonfrist"
+    ],
+    "category": "Recht & Naturschutz",
+    "tagline": "Zeitraum, in dem eine Fischart nicht beangelt werden darf.",
+    "description": "Die Schonzeit schützt Fische während der Laichzeit. In diesem Zeitraum dürfen die betroffenen Arten nicht gefangen oder müssen sofort zurückgesetzt werden. Schonzeiten sind je nach Bundesland und Gewässer unterschiedlich geregelt und dienen dem nachhaltigen Erhalt der Bestände.\n\nWer in der Schonzeit gezielt auf eine geschützte Art angelt, begeht eine Ordnungswidrigkeit. Die genauen Daten stehen in der Fischereiverordnung des Bundeslandes und oft zusätzlich in den Bestimmungen zum Erlaubnisschein.",
+    "related": [
+      "Schonmaß",
+      "Mindestmaß",
+      "Laichzeit",
+      "Schonzeit-Ausnahme",
+      "Fischereischein"
+    ]
+  },
+  {
+    "id": "schonzeit-ausnahme",
+    "name": "Schonzeit-Ausnahme",
+    "aliases": [
+      "Ausnahmegenehmigung",
+      "Schonzeitausnahme"
+    ],
+    "category": "Recht & Naturschutz",
+    "tagline": "Behördlich erlaubte Abweichung von einer geltenden Schonzeit.",
+    "description": "Eine Schonzeit-Ausnahme erlaubt unter bestimmten Voraussetzungen, eine Art trotz laufender Schonzeit zu befischen oder zu entnehmen. Solche Ausnahmen können von der Fischereibehörde etwa zur Bestandsregulierung, für Hege- und Abfischmaßnahmen oder bei invasiven Arten erteilt werden.\n\nAuch der unvermeidbare Beifang einer geschonten Art beim erlaubten Angeln auf andere Fische ist von der reinen Schonzeitregel abzugrenzen: Solche Fische sind unverzüglich und schonend zurückzusetzen. Eigenmächtige Ausnahmen gibt es nicht – maßgeblich sind stets die behördlichen Vorgaben.",
+    "related": [
+      "Schonzeit",
+      "Laichzeit",
+      "Erlaubnisschein",
+      "Waidgerecht"
+    ]
+  },
+  {
+    "id": "schwingspitze",
+    "name": "Schwingspitze",
+    "aliases": [
+      "Springtip",
+      "Swingtip"
+    ],
+    "category": "Gerät",
+    "tagline": "Beweglich an der Rutenspitze angelenkte Spitze, die schon kleinste Bisse anzeigt.",
+    "description": "Die Schwingspitze ist eine an der Rutenspitze über ein flexibles Gelenk hängende Verlängerung, die auf Schnurbewegungen in jede Richtung reagiert. Beim Biss hebt oder senkt sie sich deutlich sichtbar. Im Gegensatz zum starren Quivertip erlaubt das Gelenk eine freiere Bewegung auch bei Gegenwind oder seitlicher Schnurführung.\n\nDie Schwingspitze ist besonders in der traditionellen englischen Friedfischangelei verbreitet und eignet sich hervorragend für stehende Gewässer, wo kaum Strömungsdruck auf der Schnur lastet. Bisse von scheuen Fischen, die den Köder kurz anheben, sind mit der Schwingspitze deutlich erkennbar.",
+    "related": [
+      "quivertip",
+      "fehlbiss",
+      "friedfisch"
+    ]
+  },
+  {
+    "id": "selbsthakmontage",
+    "name": "Selbsthakmontage",
+    "aliases": [
+      "Self-Hooking-Rig",
+      "Festblei-Montage"
+    ],
+    "category": "Montage",
+    "tagline": "Montage, bei der sich der Fisch durch das Gewicht selbst hakt.",
+    "description": "Bei einer Selbsthakmontage hakt sich der Fisch beim Abziehen am Widerstand des Bleis von selbst. Sie wird vor allem beim Karpfen- und Grundangeln eingesetzt: Nimmt der Fisch den Köder auf und schwimmt los, treibt das schwere Festblei den Haken in das Maul.\n\nDamit das zuverlässig funktioniert, sind ein scharfer Haken, ein ausreichend schweres Blei und meist eine Haarmontage nötig. Der eigentliche Anhieb dient dann nur noch dazu, den Sitz des Hakens zu sichern.",
+    "related": [
+      "Haarmontage",
+      "Grundblei",
+      "Bissanzeiger",
+      "Anhieb"
+    ]
+  },
+  {
+    "id": "setzkescher",
+    "name": "Setzkescher",
+    "aliases": [
+      "Hälterkescher",
+      "Keepnet"
+    ],
+    "category": "Gerät",
+    "tagline": "Langer Netzkescher zum lebenden Aufbewahren gefangener Fische.",
+    "description": "Ein Setzkescher ist ein langer, im Wasser hängender Netzschlauch, in dem entnommene Fische bis zum Ende des Angelns lebend gehältert werden. Er kommt vor allem beim Friedfisch- und Wettangeln zum Einsatz.\n\nDer Einsatz des Setzkeschers ist in Deutschland aus Tierschutzgründen umstritten und je nach Bundesland unterschiedlich geregelt oder verboten. Wo er erlaubt ist, muss er knotenlos und ausreichend groß sein und so platziert werden, dass die Fische genug Sauerstoff und Bewegungsraum haben.",
+    "related": [
+      "Waidgerecht",
+      "Abhakmatte",
+      "Catch and Release"
+    ]
+  },
+  {
+    "id": "shooting-head",
+    "name": "Shooting-Head",
+    "aliases": [
+      "Schussleine",
+      "Shooting Head"
+    ],
+    "category": "Gerät",
+    "tagline": "Kurze, schwere Fliegenschnur, die auf einer dünnen Schussleine für maximale Wurfweite sitzt.",
+    "description": "Ein Shooting-Head ist ein kurzes, meist 8 bis 12 Meter langes schweres Schnurstück, das an einer deutlich dünneren und leichteren Schussleine befestigt ist. Beim Abwurf beschleunigt der Angler den schweren Kopf und lässt die leichte Schussleine durch die Rutenringe schießen, was erheblich größere Wurfweiten als mit einer normalen Fliegenschnur ermöglicht.\n\nShooting-Heads werden beim Lachs-, Meerforellen- und Streamerangeln auf große Distanzen eingesetzt. Sie sind in verschiedenen Dichten erhältlich: schwimmend, intermediär oder sinkend, um verschiedene Wassertiefen befischen zu können. Der Wechsel des Kopfes erlaubt schnelle Anpassung an die Bedingungen.",
+    "related": [
+      "backing",
+      "streamer",
+      "mending"
+    ]
+  },
+  {
+    "id": "spod",
+    "name": "Spod/Spomb",
+    "aliases": [
+      "Spod",
+      "Spomb",
+      "Futterrakete"
+    ],
+    "category": "Gerät",
+    "tagline": "Wurfrakete aus Kunststoff zum präzisen Anfüttern größerer Futtermengn auf Distanz.",
+    "description": "Ein Spod ist eine raketenförmige, wasserdichte Kapsel, die mit Lockfutter befüllt und auf eine starke Rute montiert wird. Beim Einschlag auf der Wasseroberfläche öffnet sich der Spod und gibt das Futter an der gewünschten Stelle frei. Der Spomb ist eine Weiterentwicklung mit Klappklappen, die sich erst beim Aufprall öffnen und so Futterverlust beim Flug minimieren.\n\nDer Einsatz eines Spods setzt eine spezielle, steife Spod-Rute sowie eine robuste Schnur voraus, da die Belastung durch das Gewicht der gefüllten Rakete erheblich ist. Die Technik erlaubt es, auch auf große Distanzen von 60 Metern und mehr treffsicher anfüttern zu können.",
+    "related": [
+      "anfuettern",
+      "method-mix",
+      "stringer"
+    ]
+  },
+  {
+    "id": "sprungschicht",
+    "name": "Sprungschicht",
+    "aliases": [
+      "Thermokline"
+    ],
+    "category": "Gewässerkunde",
+    "tagline": "Wasserschicht, in der die Temperatur im See sprunghaft abnimmt.",
+    "description": "Die Sprungschicht (Thermokline) ist die Übergangszone in einem geschichteten See, in der die Wassertemperatur mit der Tiefe rasch abfällt. Über ihr liegt das warme, sauerstoffreiche Oberflächenwasser, darunter das kühle, oft sauerstoffärmere Tiefenwasser.\n\nIm Sommer halten sich viele Fische bevorzugt knapp über oder in der Sprungschicht auf, weil hier Temperatur und Sauerstoffgehalt günstig sind. Wer ihre Tiefe kennt – etwa über das Echolot –, findet leichter aktive Fische.",
+    "related": [
+      "Echolot",
+      "Hotspot",
+      "Gewässerkunde"
+    ]
+  },
+  {
+    "id": "standplatz",
+    "name": "Standplatz",
+    "aliases": [
+      "Angelplatz",
+      "Stand"
+    ],
+    "category": "Gewässerkunde",
+    "tagline": "Bevorzugter Aufenthaltsort eines Fisches oder einer Fischart in einem Gewässer.",
+    "description": "Als Standplatz bezeichnet man den typischen Aufenthaltsort bestimmter Fischarten oder Einzelfische in einem Gewässer. Dabei spielen Faktoren wie Strömungsverhältnisse, Wassertiefe, Sauerstoffgehalt, Nahrungsverfügbarkeit und Deckung eine entscheidende Rolle. Raubfische suchen Standplätze mit guter Sicht auf Freiwasser, aus dem sie Beute angreifen können.\n\nDas Auffinden des Standplatzes ist oft der entscheidende Schritt zum Angelerfolg. Hilfsmittel wie Echolot, Lotrute und Kenntnis der Gewässerstruktur helfen bei der Standplatzerkundung. Standplätze können saisonal wechseln, wenn sich Wassertemperatur, Nahrungsangebot oder Strömungsverhältnisse verändern.",
+    "related": [
+      "hotspot",
+      "kehrwasser",
+      "echolot"
+    ]
+  },
+  {
+    "id": "stickpose",
+    "name": "Stickpose",
+    "aliases": [
+      "Stick Float"
+    ],
+    "category": "Gerät",
+    "tagline": "Oben und unten befestigte, schlanke Pose für das Trottenangeln in mittelstarken Strömungen.",
+    "description": "Die Stickpose ist eine klassische englische Strömungspose, die sowohl am oberen als auch am unteren Ende an der Schnur befestigt wird. Ihr schlanker Körper aus Holz oder Kunststoff ermöglicht ein natürliches Driften mit der Strömung (Trotten), wobei sie der Angler durch leichtes Bremsen der Schnur kontrolliert hält.\n\nDie Methode mit der Stickpose ist eine der effektivsten Techniken für Ströme und Flüsse, da der Köder auf Augenhöhe und in natürlicher Geschwindigkeit präsentiert wird. Typische Zielfische sind Alet, Rotauge, Döbel und Äsche. Die Beschwerung mit kleinen Schrotkügelchen wird der Wassertiefe und Strömungsgeschwindigkeit angepasst.",
+    "related": [
+      "waggler",
+      "trotten",
+      "posenangeln-stopper"
+    ]
+  },
+  {
+    "id": "stinger",
+    "name": "Stinger",
+    "aliases": [
+      "Korrektionshaken",
+      "Drillings-Stinger"
+    ],
+    "category": "Montage",
+    "tagline": "Zusatzhaken an einem Kunstköder, der kurz bissige Raubfische sicher hakt.",
+    "description": "Ein Stinger ist ein kleiner Zusatzhaken, der mit einer kurzen Schnur oder einem Stahldraht am Haupthaken oder am Ende eines Kunstköders befestigt wird. Er soll Fische fassen, die den Köder nur kurz attackieren und dabei den Haupthaken verfehlen, was besonders bei Hechten häufig vorkommt.\n\nDer Stinger wird meist aus einem kleinen Drilling oder einem Einzelhaken gefertigt und so positioniert, dass er am Ende des Köders sitzt, wo Raubfische bevorzugt zuschnappen. In einigen Gewässern oder bei bestimmten Turnieren sind Stinger aus Tierschutzgründen verboten.",
+    "related": [
+      "drilling",
+      "widerhaken",
+      "raubfisch"
+    ]
+  },
+  {
+    "id": "streamer",
+    "name": "Streamer",
+    "aliases": [
+      "Streamerfliege"
+    ],
+    "category": "Köder",
+    "tagline": "Große Kunstfliege, die einen kleinen Beutefisch imitiert.",
+    "description": "Ein Streamer ist ein großes Fliegenmuster, das einen kleinen Beutefisch oder ein anderes größeres Beutetier nachahmt. Er wird unter Wasser in Zügen und Stößen geführt und reizt vor allem Raubfische wie Forellen, Hechte oder Rapfen zum Biss.\n\nIm Gegensatz zur ruhig präsentierten Trockenfliege oder Nymphe lebt der Streamer von der aktiven Köderführung. Er erweitert das Fliegenfischen auf größere Räuber und kommt sowohl im Süßwasser als auch an der Küste zum Einsatz.",
+    "related": [
+      "Nymphe",
+      "Trockenfliege",
+      "Raubfisch",
+      "Köderführung"
+    ]
+  },
+  {
+    "id": "stringer",
+    "name": "Stringer",
+    "aliases": [
+      "PVA-Stringer"
+    ],
+    "category": "Montage",
+    "tagline": "Schnur aus PVA-Material, auf die Boilies oder Pellets aufgefädelt und mit dem Blei ausgeworfen werden.",
+    "description": "Ein Stringer ist ein kurzes Stück PVA-Schnur, auf das mehrere Boilies oder Pellets aufgefädelt werden. Der fertige Stringer wird am Blei der Karpfenmontage befestigt und gemeinsam ausgeworfen. Beim Aufprall ins Wasser löst sich das PVA auf und hinterlässt die Lockköder in einem direkten Kreis um den Hakenköder.\n\nDer Vorteil gegenüber einem PVA-Beutel liegt im geringeren Luftwiderstand beim Wurf, was größere Distanzen ermöglicht. Stringer sind einfach herzustellen und besonders bei einzelnen Angeleinheiten ohne Spod sehr effektiv.",
+    "related": [
+      "pva",
+      "spod",
+      "haarmontage"
+    ]
+  },
+  {
+    "id": "swinger",
+    "name": "Swinger",
+    "aliases": [
+      "Hänger-Bissanzeiger"
+    ],
+    "category": "Gerät",
+    "tagline": "Mechanischer Bissanzeiger, der an der Schnur zwischen Rute und elektronischem Bissanzeiger hängt.",
+    "description": "Ein Swinger ist ein bewegliches Gewicht, das per Clip an der Angelschnur zwischen Rute und dem fest montierten elektronischen Bissanzeiger befestigt wird. Bewegt sich die Schnur durch einen Biss oder Schnurspannung, schwingt der Swinger sichtbar aus und zeigt so die Aktivität an.\n\nDer Swinger reagiert sowohl auf Auszüge (Schnur wird straff) als auch auf Hinläufer (Schnur wird schlaff). Im Gegensatz zum klassischen Hänger bietet der Swinger durch sein Eigengewicht eine justierbare Grundspannung, was besonders bei starker Strömung oder Wind vorteilhaft ist.",
+    "related": [
+      "bissanzeiger",
+      "freilauf",
+      "bivvy"
+    ]
+  },
+  {
+    "id": "thermokline",
+    "name": "Thermokline",
+    "aliases": [
+      "Sprungschicht"
+    ],
+    "category": "Gewässerkunde",
+    "tagline": "Scharfe Temperaturgrenze im See, die wärmeres Oberflächenwasser von kaltem Tiefenwasser trennt.",
+    "description": "Die Thermokline ist eine horizontale Schicht im Stillgewässer, an der die Wassertemperatur innerhalb weniger Meter stark abfällt. Im Sommer erwärmt sich das Oberflächenwasser, während das Tiefenwasser kalt bleibt; an der Grenzschicht entsteht ein steiler Temperaturgradient.\n\nFür Angler ist die Thermokline bedeutsam, weil sich Fische je nach Art und Wetterlage über oder unter ihr aufhalten. Raubfische wie Hecht und Zander jagen oft an der Thermokline, wo es ein Nahrungsangebot gibt. Die Thermokline ist saisonal und löst sich bei herbstlicher Abkühlung oder Stürmen auf, was als „Herbstumschichtung“ bezeichnet wird.",
+    "related": [
+      "sprungschicht",
+      "hotspot",
+      "echolot"
+    ]
+  },
+  {
+    "id": "tragkraft",
+    "name": "Tragkraft",
+    "aliases": [
+      "Tragkraft der Schnur",
+      "Schnurtragkraft",
+      "Breaking Strain"
+    ],
+    "category": "Gerät",
+    "tagline": "Die Belastung, der eine Schnur standhält, bevor sie reißt.",
+    "description": "Die Tragkraft gibt an, welche Zugkraft eine Angelschnur aushält, bevor sie reißt – meist angegeben in Kilogramm oder lbs. Sie hängt von Material und Durchmesser ab: Geflochtene Schnüre haben bei gleichem Durchmesser eine deutlich höhere Tragkraft als monofile.\n\nDie Tragkraft sollte zum Zielfisch und zur Bremseinstellung passen. Häufig wählt man das Vorfach etwas schwächer als die Hauptschnur, damit im Hänger nur das Vorfach reißt und nicht die gesamte Montage verloren geht.",
+    "related": [
+      "Bremse",
+      "Vorfach",
+      "Vorfachschnur",
+      "Wurfgewicht"
+    ]
+  },
+  {
+    "id": "trockenfliege",
+    "name": "Trockenfliege",
+    "aliases": [
+      "Dry Fly"
+    ],
+    "category": "Köder",
+    "tagline": "Schwimmende Kunstfliege, die ein Insekt auf der Wasseroberfläche imitiert.",
+    "description": "Die Trockenfliege schwimmt auf der Wasseroberfläche und ahmt ein angeschwemmtes oder geschlüpftes Insekt nach. Sie wird vor allem dann eingesetzt, wenn Fische sichtbar an der Oberfläche steigen und Insekten von der Oberfläche nehmen.\n\nDamit sie überzeugend wirkt, muss die Trockenfliege drag-frei treiben, also ohne von der Schnur unnatürlich über das Wasser gezogen zu werden. Der Anblick eines steigenden Fisches macht das Trockenfliegenfischen für viele zur schönsten Form des Angelns.",
+    "related": [
+      "Nymphe",
+      "Streamer",
+      "Salmoniden",
+      "Anhieb"
+    ]
+  },
+  {
+    "id": "trolling",
+    "name": "Trolling",
+    "aliases": [
+      "Schleppangeln",
+      "Schleppfischen"
+    ],
+    "category": "Technik",
+    "tagline": "Schleppen von Ködern hinter einem fahrenden Boot.",
+    "description": "Beim Trolling – dem Schleppangeln – werden ein oder mehrere Köder hinter einem langsam fahrenden Boot durch das Wasser gezogen. So lassen sich große Flächen absuchen und Raubfische in der freien Wasserwelle finden, etwa Hecht, Zander, Lachs oder Meerforelle.\n\nÜber die Bootsgeschwindigkeit, die Schnurlänge und Hilfsmittel wie Downrigger, Planerboards oder Tauchschaufeln steuert man die Lauftiefe der Köder. Ein Echolot hilft, Fische und die richtige Tiefe aufzuspüren.",
+    "related": [
+      "Echolot",
+      "Wobbler-Tauchtiefe",
+      "Raubfisch",
+      "Köderführung"
+    ]
+  },
+  {
+    "id": "trotten",
+    "name": "Trotten",
+    "aliases": [
+      "Treibangeln",
+      "Stromangeln mit Pose"
+    ],
+    "category": "Technik",
+    "tagline": "Angeltechnik, bei der die Montage mit der Strömung frei driftet und so einen natürlichen Köder darstellt.",
+    "description": "Beim Trotten lässt der Angler eine Strömungspose mit dem Hakenköder natürlich mit der Fließgewässerströmung treiben, ohne aktiv einzuholen. Durch leichtes Halten der Schnur kann die Pose verlangsamt werden, sodass der Köder der Pose vorausläuft und besonders natürlich aussieht.\n\nDiese klassische Fließwassertechnik eignet sich für Arten wie Alet, Döbel, Rotauge, Äsche und Barbe. Der Angler steht oft im Wasser oder an der Uferkante und nutzt eine lange Kopfrute oder Bolognese-Rute für maximale Kontrolle über die treibende Montage.",
+    "related": [
+      "stickpose",
+      "kopfrute",
+      "bolognese"
+    ]
   },
   {
     "id": "vorfachschnur",
     "name": "Vorfachschnur",
-    "aliases": ["Vorfachmaterial", "Leadermaterial"],
+    "aliases": [
+      "Vorfachmaterial",
+      "Leadermaterial"
+    ],
     "category": "Montage",
     "tagline": "Spezielle Schnur, aus der das Vorfach gefertigt wird.",
     "description": "Die Vorfachschnur ist das Material, aus dem das Vorfach besteht. Je nach Zielfisch und Methode kommen unterschiedliche Materialien zum Einsatz: nahezu unsichtbares Fluorocarbon für scheue Fische, weiches Monofil für viele Friedfischmontagen oder bissfester Stahl und Hardmono gegen die Zähne von Hecht und Co.\n\nDie Vorfachschnur wird oft etwas schwächer gewählt als die Hauptschnur, damit im Hänger nur das Vorfach reißt. Material, Durchmesser und Tragkraft sind daher sorgfältig auf die jeweilige Angelei abzustimmen.",
-    "related": ["Vorfach", "Tragkraft", "Raubfisch", "Drill"]
+    "related": [
+      "Vorfach",
+      "Tragkraft",
+      "Raubfisch",
+      "Drill"
+    ]
+  },
+  {
+    "id": "waggler",
+    "name": "Waggler",
+    "aliases": [
+      "Waggler-Pose",
+      "Waggler-Float"
+    ],
+    "category": "Gerät",
+    "tagline": "Unten befestigte Angelpose für stehende und langsam fließende Gewässer, die mit Schrot beschwert wird.",
+    "description": "Ein Waggler ist eine schlanke Pose, die nur am unteren Ende an der Schnur befestigt wird, im Gegensatz zu oben und unten befestigten Steckposen. Die Hauptbeschwerung in Form von Schrotkügelchen sitzt direkt neben der Befestigung am unteren Ende der Pose; weiteres Schrot verteilt sich am Vorfach. Diese Gewichtsverteilung macht den Waggler sehr wurfstabil und windresistent.\n\nWaggler werden beim Angeln auf Karpfen, Brassen, Rotaugen und andere Friedfische in stehenden oder leicht strömenden Gewässern eingesetzt. Es gibt sie in verschiedenen Ausführungen: durchlaufende Waggler, Bodywaggler mit Verdickung für mehr Tragkraft, und Insert-Waggler mit feiner Spitze für empfindliche Bisse.",
+    "related": [
+      "posenangeln-stopper",
+      "stickpose",
+      "friedfisch"
+    ]
+  },
+  {
+    "id": "waidgerecht",
+    "name": "Waidgerecht",
+    "aliases": [
+      "Weidgerecht",
+      "Waidgerechtigkeit"
+    ],
+    "category": "Recht & Naturschutz",
+    "tagline": "Der respektvolle, tierschutzgerechte Umgang mit Fisch und Natur.",
+    "description": "Waidgerecht zu handeln bedeutet, Fische schonend zu behandeln, unnötiges Leiden zu vermeiden und die Natur zu respektieren. Dazu gehören das schnelle und fachgerechte Betäuben und Töten entnommener Fische, das vorsichtige Zurücksetzen geschonter Tiere sowie ein verantwortungsvoller Umgang mit dem Gewässer.\n\nDie Waidgerechtigkeit ist Grundlage der Ausbildung zur Fischerprüfung und prägt das Selbstverständnis der Angler als Heger und Pfleger der Gewässer.",
+    "related": [
+      "Catch and Release",
+      "Abhakmatte",
+      "Fischereischein",
+      "Setzkescher"
+    ]
+  },
+  {
+    "id": "weissfisch",
+    "name": "Weißfisch",
+    "aliases": [
+      "Weißfische",
+      "Silberfisch"
+    ],
+    "category": "Fischkunde",
+    "tagline": "Sammelbegriff für silbrig glänzende, kleinere Friedfische.",
+    "description": "Als Weißfische bezeichnet man umgangssprachlich viele silbrig gefärbte, meist kleinere Friedfische aus der Familie der Karpfenfische. Dazu zählen unter anderem Rotauge, Rotfeder, Laube, Brachse und Güster. Der Name leitet sich von ihrer hellen, silbrigen Schuppenfärbung ab.\n\nWeißfische sind verbreitet und oft in großen Schwärmen anzutreffen. Sie sind beliebte Zielfische beim Stippen und Posenangeln und dienen zugleich als wichtige Nahrungsgrundlage für Raubfische sowie als Köderfische.",
+    "related": [
+      "Friedfisch",
+      "Cypriniden",
+      "Köderfisch",
+      "Posenangeln-Stopper"
+    ]
+  },
+  {
+    "id": "widerhaken",
+    "name": "Widerhaken",
+    "aliases": [
+      "Schonhaken",
+      "barbless",
+      "Haken ohne Widerhaken"
+    ],
+    "category": "Gerät",
+    "tagline": "Kleine Sperre am Haken, die das Aushaken verhindert – Schonhaken haben keine.",
+    "description": "Der Widerhaken ist die nach hinten gerichtete kleine Spitze am Hakenbogen, die verhindert, dass der Haken aus dem Fischmaul herausrutscht. Er sorgt für sicheren Halt im Drill, erschwert aber das schonende Lösen des Hakens.\n\nSchonhaken sind Haken ohne Widerhaken (barbless) oder mit angedrücktem Widerhaken. Sie lassen sich leichter und schonender entfernen und sind an vielen Gewässern, besonders bei Catch and Release, vorgeschrieben oder empfohlen.",
+    "related": [
+      "Catch and Release",
+      "Waidgerecht",
+      "Abhakmatte",
+      "Anhieb"
+    ]
+  },
+  {
+    "id": "wobbler-tauchtiefe",
+    "name": "Wobbler-Tauchtiefe",
+    "aliases": [
+      "Lauftiefe",
+      "Tauchtiefe"
+    ],
+    "category": "Köder",
+    "tagline": "Die Tiefe, in der ein Wobbler beim Einholen läuft.",
+    "description": "Die Tauchtiefe gibt an, wie tief ein Wobbler beim Einholen abtaucht. Sie wird vor allem von der Größe und dem Winkel der Tauchschaufel bestimmt: Eine große, flach stehende Schaufel bringt den Köder tief, eine kleine hält ihn flach unter der Oberfläche. Hersteller geben die Tauchtiefe meist auf Verpackung oder Köder an.\n\nDie passende Lauftiefe richtet sich nach der Wassertiefe und dem Standplatz der Fische. Daneben beeinflussen auch Schnurstärke, Wurfweite und Einholgeschwindigkeit, wie tief der Wobbler tatsächlich läuft.",
+    "related": [
+      "Kunstköder",
+      "Köderführung",
+      "Trolling",
+      "Wurfgewicht"
+    ]
+  },
+  {
+    "id": "wurfgewicht",
+    "name": "Wurfgewicht",
+    "aliases": [
+      "WG",
+      "Casting Weight"
+    ],
+    "category": "Gerät",
+    "tagline": "Gewichtsbereich, für den eine Rute optimal ausgelegt ist.",
+    "description": "Das Wurfgewicht gibt an, welche Köder- und Bleigewichte sich mit einer Rute sauber und sicher werfen lassen. Es ist meist als Spanne in Gramm auf dem Rutenblank aufgedruckt, zum Beispiel 20–60 g. Innerhalb dieses Bereichs entfaltet die Rute ihre beste Wurfleistung, ohne überlastet zu werden.\n\nWird das Wurfgewicht deutlich überschritten, droht ein Rutenbruch; bei zu leichten Ködern fehlt die nötige Spannung für einen weiten Wurf. Das Wurfgewicht ist daher ein zentrales Auswahlkriterium beim Rutenkauf.",
+    "related": [
+      "Aktion (Rute)",
+      "Tragkraft",
+      "Wobbler-Tauchtiefe"
+    ]
+  },
+  {
+    "id": "zig-rig",
+    "name": "Zig-Rig",
+    "aliases": [
+      "Zig"
+    ],
+    "category": "Montage",
+    "tagline": "Karpfenmontage, bei der der Hakenköder frei im Wasser schwebt und Fische in der Mittelwasserzone anspricht.",
+    "description": "Das Zig-Rig ist eine spezielle Montage beim Karpfenangeln, bei der ein leichter oder schaumstoffbasierter Köder an einem langen Vorfach (oft 50 cm bis zur vollen Wassertiefe) über dem Blei präsentiert wird. Durch die Auftriebseigenschaft des Köders schwebt dieser in einer bestimmten Wassertiefe, anstatt auf dem Boden zu liegen.\n\nDiese Methode ist besonders effektiv, wenn Karpfen in Wärmeperioden im Mittelwasser oder knapp unter der Oberfläche stehen und sich nicht für Bodenköder interessieren. Schaumstoffwürfel in verschiedenen Farben sind die klassischen Zig-Köder; auch Kunstmais oder kleine Kunstköder werden eingesetzt.",
+    "related": [
+      "haarmontage",
+      "sprungschicht",
+      "hotspot"
+    ]
   }
 ]

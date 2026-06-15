@@ -1,10 +1,20 @@
 ---
-import { NAV, SITE, REPO_URL } from '../consts';
+import { CATEGORIES, SITE, REPO_URL } from '../consts';
 import { withBase } from '../utils/url';
 import WaveDivider from './WaveDivider.astro';
 const year = 2026;
-const left = NAV.slice(0, 4);
-const right = NAV.slice(4);
+const tools = [
+  { href: '/saison/', label: '📅 Saison-Kalender' },
+  { href: '/karte/', label: '🗺️ Revier-Karte' },
+  { href: '/rechner/', label: '🧮 Fang-Rechner' },
+  { href: '/fangbuch/', label: '📓 Fangbuch' },
+  { href: '/quiz/', label: '❓ Angel-Quiz' },
+  { href: '/rekorde/', label: '🏆 Rekorde' },
+  { href: '/montagen/', label: '🪝 Montagen' },
+  { href: '/merkliste/', label: '⭐ Merkliste' },
+  { href: '/sicherheit/', label: '🚑 Sicherheit' },
+  { href: '/ueber/', label: 'ℹ️ Über das Projekt' },
+];
 ---
 <footer class="site-footer">
   <WaveDivider flip />
@@ -22,25 +32,20 @@ const right = NAV.slice(4);
       </div>
 
       <div>
-        <h4>Entdecken</h4>
+        <h4>Lexikon</h4>
         <ul>
-          {left.map((c) => (
+          {CATEGORIES.map((c) => (
             <li><a href={withBase('/' + c.key + '/')}>{c.icon} {c.label}</a></li>
           ))}
-          <li><a href={withBase('/saison/')}>📅 Saison-Kalender</a></li>
-          <li><a href={withBase('/karte/')}>🗺️ Revier-Karte</a></li>
-          <li><a href={withBase('/rechner/')}>🧮 Fang-Rechner</a></li>
-          <li><a href={withBase('/merkliste/')}>⭐ Merkliste</a></li>
         </ul>
       </div>
 
       <div>
-        <h4>Wissen</h4>
+        <h4>Werkzeuge &amp; mehr</h4>
         <ul>
-          {right.map((c) => (
-            <li><a href={withBase('/' + c.key + '/')}>{c.icon} {c.label}</a></li>
+          {tools.map((t) => (
+            <li><a href={withBase(t.href)}>{t.label}</a></li>
           ))}
-          <li><a href={withBase('/ueber/')}>ℹ️ Über das Projekt</a></li>
         </ul>
       </div>
     </div>

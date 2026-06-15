@@ -125,6 +125,99 @@
     "featured": true
   },
   {
+    "id": "brot",
+    "name": "Brot",
+    "type": "Naturköder",
+    "tagline": "Der Klassiker vom Küchentisch – einfach, günstig und erstaunlich effektiv",
+    "description": "Brot gehört zu den ältesten und zugänglichsten Angelködern überhaupt. Ob Weißbrot, Toastbrot oder Graubrot – das weiche Innere lässt sich zu kleinen Teigkugeln formen, die am Haken gut halten und im Wasser einen verführerischen Geruchsschleier erzeugen. Karpfen, Brachsen und Rotaugen nehmen Brot mit großer Regelmäßigkeit, besonders in städtischen Gewässern, wo die Fische an Fütterung gewöhnt sind.\n\nEin bewährter Trick ist das sogenannte „Bread-Flake“: Ein größeres Stück Weißbrot wird an den Haken gedrückt, sodass die Ränder locker abflottern und eine natürliche, verlockende Bewegung erzeugen. Alternativ kann man Brotkruste am Haken befestigen und als Oberflächenköder einsetzen – bei windstillem Wetter und sichtbar steigenden Karpfen oft der effektivste Ansatz. Auch als Anfütterungsköder entfaltet Brot im zerkrümelten Zustand große Wirkung.\n\nFür beste Ergebnisse sollte frisches oder leicht angetrocknetes Weißbrot verwendet werden. Sehr altes, hartes Brot bleibt schwer am Haken und nimmt die richtige Konsistenz nicht mehr an. Bei starker Strömung empfiehlt sich eine festere Teigkugel, die dem Druck standhält.",
+    "targetFish": [
+      "Karpfen",
+      "Brachse",
+      "Rotauge",
+      "Döbel",
+      "Schleie"
+    ],
+    "techniques": [
+      "Pose angeln",
+      "Grundangeln",
+      "Oberflächenangelei"
+    ],
+    "waters": [
+      "Teiche",
+      "Seen",
+      "Flüsse",
+      "Kanäle"
+    ],
+    "bestSeason": [
+      "April",
+      "Mai",
+      "Juni",
+      "Juli",
+      "August",
+      "September",
+      "Oktober"
+    ],
+    "howto": [
+      "Weißbrot in kleine Kugeln von 1–2 cm Durchmesser formen oder ein Stück Brotkrume locker um den Haken pressen",
+      "Beim Bread-Flake-Verfahren ein großzügiges Stück Innenbrot einseitig fest auf den Hakenschenkel drücken, damit die Ränder frei abstehen",
+      "Für die Oberflächenangelei ein Stück Brotkruste aufhaken und ohne Blei an windstillen Stellen anbieten",
+      "Den Angelplatz mit zerkrümeltem Brot anfüttern und 15–30 Minuten warten, bevor der Köder eingebracht wird",
+      "Die Leine locker lassen und den Biss am Leinenruck oder an der Pose erkennen"
+    ],
+    "tips": [
+      "Frisches Toastbrot klebt besser am Haken als Graubrot und quillt im Wasser langsam auf – ideal für Karpfen",
+      "Brotkruste eignet sich hervorragend als Oberflächenköder für Karpfen in den frühen Morgenstunden",
+      "Mit einem Spritzer Anis- oder Erdbeergeschmack auf das Brot kann die Lockwirkung deutlich gesteigert werden"
+    ],
+    "featured": false
+  },
+  {
+    "id": "buttloeffel",
+    "name": "Buttlöffel",
+    "type": "Kunstköder",
+    "tagline": "Der bewährte Metalllöffel – bewegt wie ein Fisch, glänzt wie ein Traumköder",
+    "description": "Der Buttlöffel ist ein einfacher, löffelförmiger Metallköder, der eine der beständigsten Kunstköder-Konstruktionen der Angelhistorie darstellt. Durch seine konvexe Form dreht und taumelt der Löffel beim Einholen im Wasser und erzeugt sowohl Licht- als auch Druckwellensignale, die Raubfische über größere Distanzen anziehen. Im Gegensatz zum Blinker oder Spinner ist der Buttlöffel ruhiger in seiner Bewegung und eignet sich daher besonders für widerwillige oder bereits bekannte Fischbestände.\n\nButtlöffel sind in verschiedenen Größen und Gewichten erhältlich: Leichte Modelle (2–5 g) für Forellen und Barsche in flachen Gewässern, schwere Ausführungen (15–30 g) für das Tiefenangeln auf Hecht und Zander. Die Oberfläche ist meist versilbert oder vergoldet; einige Modelle haben eine lackierte Innenseite mit naturalistischen Farbgebungen. Als Drillinge bestückt oder mit einem Einzelhaken kombiniert, passen Buttlöffel zu einer breiten Vielfalt von Zielfischen.\n\nBesonders effektiv ist der Buttlöffel beim „Schlepp“ hinter einem Ruder- oder Motorboot: Das gleichmäßige Vorbeiziehen in 2–5 m Tiefe imitiert einen Kleinfisch im offenen Wasser und verleitet Hechte und Seeforellen zu spektakulären Bissattacken. In der Hand geführt überzeugt er durch langsames, unregelmäßiges Einrollen.",
+    "targetFish": [
+      "Hecht",
+      "Zander",
+      "Barsch",
+      "Forelle",
+      "Seeforelle"
+    ],
+    "techniques": [
+      "Schleppen",
+      "Spinnangeln",
+      "Casting"
+    ],
+    "waters": [
+      "Seen",
+      "Flüsse",
+      "Talsperren",
+      "Küstengewässer"
+    ],
+    "bestSeason": [
+      "März",
+      "April",
+      "Mai",
+      "September",
+      "Oktober",
+      "November"
+    ],
+    "howto": [
+      "Buttlöffel über ein solides Stahlvorfach oder Fluorocarbon-Vorfach an die Hauptschnur binden, um Abbeißer zu vermeiden",
+      "Den Löffel hinter dem Boot einsetzen: Schnur 20–50 m abgeben und gleichmäßig im Schritttempo über das Wasser fahren",
+      "Beim Casting den Löffel weit auswerfen und langsam bis mittelschnell einholen – gelegentlich kurze Pausen einlegen",
+      "Die Tiefe durch unterschiedlich schwere Modelle oder durch die Einholgeschwindigkeit regulieren",
+      "Nach dem Einholen den Haken auf Verformungen oder stumpfe Spitzen prüfen und bei Bedarf austauschen"
+    ],
+    "tips": [
+      "Versilberte Buttlöffel an sonnigen Tagen und in klarem Wasser einsetzen; goldene oder kupferfarbene Modelle bei bewölktem Himmel",
+      "Beim Schleppen unregelmäßig Gas geben und wegnehmen, um die Ködergeschwindigkeit zu variieren und Fluchtbewegungen zu imitieren",
+      "Einen einzelnen großen Drilling durch zwei kleinere Einzelhaken ersetzen – dies verbessert die Bissüberführung bei zögernd beißenden Fischen"
+    ],
+    "featured": false
+  },
+  {
     "id": "carolina-rig",
     "name": "Carolina-Rig",
     "type": "Montage",
@@ -161,6 +254,55 @@
       "Die Vorfachlänge bestimmt, wie hoch der Köder über Grund schwebt.",
       "Langsames, schleifendes Führen über Sandgrund ist besonders fängig."
     ]
+  },
+  {
+    "id": "caster",
+    "name": "Caster",
+    "type": "Naturköder",
+    "tagline": "Die vergoldete Verpuppung – Rotauge und Brachse können nicht widerstehen",
+    "description": "Caster sind die Puppen der Schmeißfliege (Calliphora spec.) und entstehen, wenn Maden sich einpuppen. Sie gelten bei Friedfischanglern als einer der besten Selektivköder für Rotauge, Güster und Brachse, da die meisten Weißfische Maden problemlos kennen, Caster aber als besondere Delikatesse betrachten. Die harte, bernsteinfarbene Schale enthält ein saftiges, proteinreiches Inneres, das beim Kauen einen intensiven Reiz entfaltet.\n\nFrische Caster sind hellgelb bis hellbraun gefärbt; ältere, schwimmende Caster sind dunkelbraun bis schwarz und eignen sich als Posenköder an der Oberfläche oder in mittleren Wasserschichten. Am Haken werden sie vorsichtig am spitzeren Ende aufgehakt, ohne die Hülle zu zerstechen. Für das Grundangeln mit Feeder oder Sbirolino-Rig sind sinkende, helle Caster besonders geeignet.\n\nDie Anfütterung mit Castern ist entscheidend: Regelmäßig kleine Mengen ins Wasser geben zieht Rotaugen und Brachsen an und hält sie im Angelbereich. Da Caster sehr empfindlich auf Wärme reagieren, sollten sie stets in einem feuchten Tuch oder einer Kühltasche aufbewahrt werden, damit sie nicht zu schnell dunkel und schwimmend werden.",
+    "targetFish": [
+      "Rotauge",
+      "Brachse",
+      "Güster",
+      "Rotfeder",
+      "Schleie",
+      "Karpfen"
+    ],
+    "techniques": [
+      "Posenangeln",
+      "Feederangeln",
+      "Grundangeln"
+    ],
+    "waters": [
+      "Flüsse",
+      "Kanäle",
+      "Seen",
+      "Teiche"
+    ],
+    "bestSeason": [
+      "März",
+      "April",
+      "Mai",
+      "Juni",
+      "Juli",
+      "August",
+      "September",
+      "Oktober"
+    ],
+    "howto": [
+      "Caster aus frischen Maden selbst herstellen: Maden kühl lagern, bis sie sich braun verfärben und einpuppen",
+      "Sinkende, helle Caster für das Grundangeln und schwimmende, dunkle Caster für Posenköder auswählen",
+      "Den Caster vorsichtig am spitzen Ende auf einen kleinen Haken (Größe 16–20) aufhaken, ohne die Schale zu zerstechen",
+      "Regelmäßig kleine Mengen Caster als Anfütterung ins Wasser werfen oder in den Feeder-Korb füllen",
+      "Bei schlechtem Biss Caster mit einer Made kombinieren (Cocktailköder) für zusätzlichen Reiz"
+    ],
+    "tips": [
+      "Caster immer kühl und leicht feucht lagern – Wärme lässt sie zu schnell schwimmen und unbrauchbar werden",
+      "Dunkle, schwimmende Caster direkt unter der Oberfläche präsentieren – Rotaugen greifen oft aus dem Mittelwasser an",
+      "Kleine Casternmengen mit Grundfutter mischen, um einen kontinuierlichen Lockstoff-Schleier zu erzeugen"
+    ],
+    "featured": false
   },
   {
     "id": "chatterbait",
@@ -585,6 +727,56 @@
     "featured": false
   },
   {
+    "id": "gummiwurm",
+    "name": "Gummiwurm",
+    "type": "Kunstköder",
+    "tagline": "Der ewige Klassiker – täuschend echt, extrem vielseitig, von Barsch bis Zander",
+    "description": "Der Gummiwurm zählt zu den meistgenutzten Weichgummi-Kunstködern weltweit. Mit seinen typischen 7–15 cm und einer naturgetreuen, segmentierten Körperform ahmt er Regen- oder Mistwürmer perfekt nach. Im Wasser erzeugt der Gummiwurm durch seine biegsame Konsistenz eine verführerisch natürliche Schwimmbewegung, die Raubfische ebenso anspricht wie Friedfische. Besonders Barsch, Zander und Hecht können dem langsam sinkenden oder geführten Gummiwurm nur selten widerstehen.\n\nGummiwürmer werden je nach Angelmethode unterschiedlich geriggt: Auf einem Offset-Haken (Texas-Rig oder Carolina-Rig) sind sie nahezu hindernisfrei und können dicht über Grund oder in Krautfeldern geführt werden. Auf einem Jigkopf montiert sinken sie schnell und eignen sich für das Vertikalangeln. Für das sogenannte „Drop-Shot“ wird der Wurm waagerecht am Haken befestigt, sodass er in der freien Wasserschicht verführerisch wackelt.\n\nDie Farb- und Duftvielfalt ist enorm: Naturtöne wie Braun oder Grün ahmen echte Würmer nach, während leuchtendes Rot, Orange oder Chartreuse in trübem Wasser die Aufmerksamkeit wecken. Viele Hersteller bieten zudem mit Salz oder Attractants getränkte Varianten an, die den Biss gegenüber klassischen Kunstködern deutlich verlängern.",
+    "targetFish": [
+      "Barsch",
+      "Zander",
+      "Hecht",
+      "Döbel",
+      "Forelle"
+    ],
+    "techniques": [
+      "Texas-Rig",
+      "Carolina-Rig",
+      "Dropshot",
+      "Jigkopfmontage",
+      "Vertikalangeln"
+    ],
+    "waters": [
+      "Seen",
+      "Flüsse",
+      "Teiche",
+      "Talsperren"
+    ],
+    "bestSeason": [
+      "März",
+      "April",
+      "Mai",
+      "Juni",
+      "Juli",
+      "August",
+      "September",
+      "Oktober"
+    ],
+    "howto": [
+      "Gummiwurm auf einem Offset-Haken aufziehen: Haken an der Kopfseite einstechen, 1 cm vorführen, aus dem Körper herausstechen und dann hakenkonform zurückstechen",
+      "Für Texas-Rig ein Birnenblei auf die Hauptschnur fädeln, danach den Offset-Haken mit dem Gummiwurm binden",
+      "Für Drop-Shot das Blei am Schnurende befestigen und den Haken 20–40 cm darüber mit einem Palomar-Knoten anbinden – den Gummiwurm waagerecht aufhaken",
+      "Den Köder auf Grund sinken lassen und durch kurze Zupfbewegungen lebendig animieren",
+      "Bei Strömung den Gummiwurm langsam mit dem Strom driften lassen und die Schnur auf Spannung halten"
+    ],
+    "tips": [
+      "In klarem Wasser natürliche Farben wie Braun oder Grün verwenden; in trübem Wasser leuchtendes Chartreuse oder Orange wählen",
+      "Salzgetränkte Gummiwürmer werden von Barschen länger gehalten – das erhöht die Anhieb-Rate deutlich",
+      "Langsames Anheben und freies Absinken lassen ist oft effektiver als kontinuierliches Kurbeln"
+    ],
+    "featured": false
+  },
+  {
     "id": "haarmontage",
     "name": "Haarmontage",
     "type": "Montage",
@@ -666,6 +858,54 @@
       "Ein Schuss Natron im Kochwasser fördert das Aufplatzen der Körner.",
       "Sparsam, aber regelmäßig füttern hält die Fische in Bewegung am Platz.",
       "Das Kochwasser nicht wegschütten, es ist ein hervorragender Lockstoff."
+    ],
+    "featured": false
+  },
+  {
+    "id": "heringsfetzen",
+    "name": "Heringsfetzen",
+    "type": "Naturköder",
+    "tagline": "Fettige Lockwirkung aus dem Meer – unschlagbar für Raubfische und Grundräuber",
+    "description": "Heringsfetzen sind ein preisgünstiger und hochwirksamer Meeresköder, der sich aus frischem oder tiefgefrorenem Hering gewinnen lässt. Hering enthält viel natürliches Fischöl, das sich im Wasser rasch verteilt und einen intensiven Lockstoff-Schleier erzeugt, dem Raubfische kaum widerstehen können. Besonders Dorsch, Aal und Meerforelle werden von der Kombination aus Geruch und der flatternden Bewegung der Filetstücke zuverlässig angelockt.\n\nFür die Herstellung schneidet man den Hering in unregelmäßige Streifen oder Filetabschnitte von 5–10 cm Länge. Die Haut sollte dabei möglichst an den Stücken verbleiben, da sie zusätzlichen Halt am Haken bietet. An der Küste werden Heringsfetzen oft an einfachen Pilker-Rigs oder am Grundblei eingesetzt; im Binnenland eignen sie sich hervorragend als Aalköder in stehenden Gewässern.\n\nDer starke Geruch macht Heringsfetzen auch zum idealen Anfütterungsköder: Kleine Stücke werden ins Wasser geworfen oder in einem Futterkorb befestigt, um Fische an den Angelplatz zu locken. Bei der Lagerung ist auf ausreichende Kühlung zu achten, da Hering schnell verdirbt und die Fleischstruktur verliert.",
+    "targetFish": [
+      "Dorsch",
+      "Aal",
+      "Meerforelle",
+      "Zander",
+      "Wels"
+    ],
+    "techniques": [
+      "Grundangeln",
+      "Pilkangeln",
+      "Stillwasserangeln"
+    ],
+    "waters": [
+      "Nordsee",
+      "Ostsee",
+      "Seen",
+      "Flüsse",
+      "Kanäle"
+    ],
+    "bestSeason": [
+      "Januar",
+      "Februar",
+      "März",
+      "April",
+      "Oktober",
+      "November",
+      "Dezember"
+    ],
+    "howto": [
+      "Frischen oder aufgetauten Hering mit einem scharfen Messer in Streifen oder Filetabschnitte von 5–10 cm schneiden",
+      "Den Heringsfetzen mit der Hautseite nach außen auf den Haken aufziehen – die Haut gibt zusätzlichen Halt",
+      "Den Köder am Grundblei oder Pilker auf den Gewässerboden absenken und gelegentlich anheben und absenken",
+      "Kleine Heringsstücke als Anfütterung ins Wasser werfen, um Fische in den Bereich zu locken",
+      "Den Köder alle 20–30 Minuten wechseln, da er schnell Eigengeruch verliert"
+    ],
+    "tips": [
+      "Frischer Hering ist tiefgefrorenem vorzuziehen, da er mehr Öl enthält und länger am Haken hält",
+      "Die Kombination aus Heringsfetzen und einem roten oder orangen Leuchtperlen-Vorfach erhöht die Bisshäufigkeit bei Dorsch",
+      "Heringsfetzen können in Salzlake eingelegt werden, um sie länger haltbar und am Haken fester zu machen"
     ],
     "featured": false
   },
@@ -932,6 +1172,51 @@
     "featured": false
   },
   {
+    "id": "krill-boilie",
+    "name": "Krill-Boilie",
+    "type": "Teig/Boilie",
+    "tagline": "Meeresflair für den Karpfenteich – Krill-Aroma schlägt die Fische in Bann",
+    "description": "Krill-Boilies sind eine Unterart der klassischen Boilies, bei der gemahlener Krill (antarktisches Kleinkrebstier) als Hauptproteinquelle und Lockstoff dient. Das charakteristische, intensive Meeres-Aroma des Krills zieht Karpfen und Schleien auch auf weite Distanz an und wirkt besonders in der warmen Jahreszeit, wenn die Fische nach proteinreicher Nahrung suchen. Krill-Boilies sind in Durchmessern von 12–24 mm erhältlich und decken ein breites Spektrum von Karpfengrößen ab.\n\nDie Inhaltsstoffe eines hochwertigen Krill-Boilies umfassen neben Krillmehl oft Fischmehl, Casein oder Blutmehl als weitere Proteinquellen sowie wasserlösliche Attractants wie Betain oder Aminosäuren. Diese Kombination erzeugt eine mehrschichtige Lockwirkung: zunächst die Duftspur im Wasser, dann das visuelle Signal der Kugel auf dem Grund und schließlich die Geschmacksreaktion beim Kauen. Krill-Boilies können pur oder mit ergänzenden Dips und Glugs aromatisiert werden.\n\nFür die Haarmontage werden Krill-Boilies auf dem Haar aufgefädelt und vor dem Haken positioniert. Dieses Rig zählt zum Standard im modernen Karpfenangeln und ermöglicht einen sicheren Hakensitz selbst bei vorsichtigen Fischen. Die Kombination aus einem klassischen Krill-Boilie und einem Krill-Pop-Up an einem Chod- oder Multi-Rig ist eine der erfolgreichsten Karpfenmethoden der vergangenen Jahre.",
+    "targetFish": [
+      "Karpfen",
+      "Schleie",
+      "Brachse"
+    ],
+    "techniques": [
+      "Haarmontage",
+      "PVA-Angeln",
+      "Spot-Angeln"
+    ],
+    "waters": [
+      "Seen",
+      "Teiche",
+      "Kiesgruben",
+      "Kanäle"
+    ],
+    "bestSeason": [
+      "April",
+      "Mai",
+      "Juni",
+      "Juli",
+      "August",
+      "September",
+      "Oktober"
+    ],
+    "howto": [
+      "Krill-Boilie mit einer Boilienadel auf das Haar auffädeln und mit einem Boilie-Stopper sichern",
+      "Den Haken (Karpfenhaken Größe 4–8) mit der Haarmontage auf einen D-Rig oder Knotless-Knot vorbereiten",
+      "Den Angelplatz mit einer Mischung aus Krill-Boilies und Partikel-Anfütterung (Hanfsamen, Tigernüsse) vorbereiten",
+      "Die fertige Montage mit einer PVA-Tasche voller Krill-Pellets sichern und präzise auf die vorbereitete Stelle werfen",
+      "Die Rute im Rutenhalter abstellen, den Bissanzeiger aktivieren und geduldig warten"
+    ],
+    "tips": [
+      "Krill-Boilies über Nacht in Krilllake (Krill-Dip) einlegen, um die Lockwirkung zu verstärken und eine Duftspur zu intensivieren",
+      "In gut befischten Gewässern den Boilie-Durchmesser reduzieren (12–14 mm) und mehrere Boilies auf einem Hair anbieten",
+      "Frische Krill-Boilies sind tiefgefrorenen Lager-Produkten in der Regel überlegen – auf das Herstellungsdatum achten"
+    ],
+    "featured": false
+  },
+  {
     "id": "laufblei-montage",
     "name": "Laufblei-Montage",
     "type": "Montage",
@@ -1103,6 +1388,56 @@
       "Das austretende Sekret nicht abwischen – es verstärkt die Lockwirkung.",
       "Mehrere kleine Würmer wirken oft besser als ein einzelner großer."
     ]
+  },
+  {
+    "id": "nassfliege-nymphe",
+    "name": "Nassfliege und Nymphe (Kunstfliege)",
+    "type": "Kunstköder",
+    "tagline": "Unter der Oberfläche – wo die meisten Fischbisse wirklich passieren",
+    "description": "Nassfliegen und Nymphen sind Kunstfliegen, die unterhalb der Wasseroberfläche geführt werden und Larvenstadien von Insekten, Wasserasseln oder Gammarus (Bachflohkrebse) imitieren. Da Forellen und Äschen bis zu 90 % ihrer Nahrung unter Wasser aufnehmen, sind Nymphen in der Praxis oft effektiver als Trockenfliegen. Klassische Nymphenmuster wie Hare's Ear, Pheasant Tail oder Goldhead-Nymphen gehören in jede Fliegendose.\n\nDie moderne Nymphentechnik umfasst das sogenannte „Tschechische Nymphen“ oder „Euro-Nymphen“: Dabei werden schwere Nymphen kurz flussaufwärts geworfen und dann auf Augenhöhe mit der Strömung mitgeführt. Der Kontakt zur Nymphe wird über eine gespannte Schnur oder einen Bissanzeiger (Sighter) aus farbiger Schnur gehalten. Diese Methode ist besonders effizient in schnellen, seichten Gebirgsflüssen.\n\nNassfliegen hingegen werden klassisch quer oder abwärts zur Strömung geworfen und dann durch Einkurbeln animiert. Sie imitieren Larven, die an die Oberfläche aufsteigen, oder schwimmende Insekten. Mit mehreren Nassfliegen auf einem Vorfach (Team of Flies) lassen sich verschiedene Tiefenzonen gleichzeitig abfischen.",
+    "targetFish": [
+      "Bachforelle",
+      "Regenbogenforelle",
+      "Äsche",
+      "Döbel"
+    ],
+    "techniques": [
+      "Fliegenangeln",
+      "Euro-Nymphen",
+      "Nassfliegen-Methode"
+    ],
+    "waters": [
+      "Bäche",
+      "Flüsse",
+      "Gebirgsseen"
+    ],
+    "bestSeason": [
+      "Januar",
+      "Februar",
+      "März",
+      "April",
+      "Mai",
+      "Juni",
+      "Juli",
+      "August",
+      "September",
+      "Oktober",
+      "November",
+      "Dezember"
+    ],
+    "howto": [
+      "Goldhead-Nymphe auf einen Haken Größe 10–16 binden oder kauffertig verwenden; das Goldkopf-Gewicht sorgt für schnelles Absinken",
+      "Die Nymphe flussaufwärts werfen und auf gleicher Höhe mit der Strömung mitführen – Schnur gespannt halten, aber keinen Drag erzeugen",
+      "Den Sighter (farbigen Schnurbereich) beobachten: jede unnatürliche Bewegung, jedes Zucken bedeutet Biss",
+      "Bei Biss sofort anhaken – Nymphenbisse sind oft sehr kurz und dezent",
+      "Verschiedene Nymphenmuster und -gewichte austauschen, bis die richtige Tiefenzone gefunden ist"
+    ],
+    "tips": [
+      "In klarem Wasser dezente Naturfarben wie Braun und Oliv wählen; in trübem Wasser oder bei wenig Licht hellere oder beadhead-bestückte Muster einsetzen",
+      "Immer zwei bis drei verschiedene Muster im Gepäck haben: Hare's Ear für Oberfläche, Pheasant Tail für Mittelwasser, Goldhead für Grund",
+      "Ein kurzes, ca. 20 cm langes Vorfach von Nymphe zu Nymphe verbinden, um zwei Muster gleichzeitig zu präsentieren"
+    ],
+    "featured": false
   },
   {
     "id": "paternoster",
@@ -1515,6 +1850,49 @@
     "featured": false
   },
   {
+    "id": "streamer",
+    "name": "Streamer (Kunstfliege)",
+    "type": "Kunstköder",
+    "tagline": "Fleisch fressende Flussriesen mit Feder und Fell überlisten",
+    "description": "Streamer sind großformatige Kunstfliegen, die Kleinfische, Flussneunaugen-Larven oder andere aquatische Beutetiere imitieren und gezielt auf große Forellen, Hechte und Döbel ausgerichtet sind. Im Gegensatz zu Trockenfliegenmustern sollen Streamer tief und lebendig im Wasser wirken – durch Federmaterial (Marabou, Schlangenhaut, Straussenherl) entfalten sie eine pulsierende Schwimmbewegung, die selbst erfahrene Raubfische täuscht. Klassische Streamer wie Woolly Bugger, Clouser Minnow oder Bunny Leech haben weltweite Bekanntheit erlangt.\n\nStreamer werden in der Regel auf schweren Fliegenschnüren (Sinkspitzen oder vollsinkendes System) präsentiert, da sie in tiefere Bereiche geführt werden müssen. Die Führung kann durch kurze, ruckartige Züge (Strip-Strike-Technik) oder durch gleichmäßiges Einkurbeln erfolgen – das imitiert einen verletzten oder fliehenden Fisch. Besonders in Flüssen mit tiefen Kolken, unter überhängenden Ufern oder an Hindernissen sind Streamer unschlagbar.\n\nIn der Praxis ist Strreamerfischen das intensivste Fliegenangeln: Lange Würfe, aktive Führung und ein unmittelbarer Anhieb bei dem oft harten, agressiven Biss machen es zu einer technisch anspruchsvollen, aber extrem belohnenden Methode für erfahrene Fliegenfischer.",
+    "targetFish": [
+      "Bachforelle",
+      "Regenbogenforelle",
+      "Hecht",
+      "Döbel",
+      "Aal"
+    ],
+    "techniques": [
+      "Fliegenangeln",
+      "Streamer-Methode"
+    ],
+    "waters": [
+      "Flüsse",
+      "Seen",
+      "Bäche"
+    ],
+    "bestSeason": [
+      "März",
+      "April",
+      "September",
+      "Oktober",
+      "November"
+    ],
+    "howto": [
+      "Sinkspitzen-Fliegenschnur oder vollsinkende Schnur aufziehen, um den Streamer schnell in die Tiefe zu bringen",
+      "Den Streamer quer oder leicht abwärts in tiefe Kolke, unter Uferüberhänge oder an versunkene Hindernisse werfen",
+      "Den Streamer durch kurze, ruckartige Strip-Züge von je 10–30 cm animieren – dabei Pausen einlegen, in denen er frei absinkt",
+      "Den Leinenzug direkt in der Wurfhand halten und bei Biss sofort mit einem kräftigen Strip-Strike anhaken",
+      "Verschiedene Führungsgeschwindigkeiten probieren – manchmal schlägt langsames Gleiten an, manchmal aggressives Stripping"
+    ],
+    "tips": [
+      "Im Herbst, wenn Bachforellen aggressiv werden, sind große, dunkle Streamer wie Black Woolly Bugger am effektivsten",
+      "Marabou-Streamer sind naturgetreuer als Haarmuster – die pulsierenden Federn imitieren einen verletzten Fisch täuschend echt",
+      "Immer kurz vor dem Eindunkeln fischen – große Forellen verlassen ihre Verstecke bevorzugt in der Dämmerung und nehmen Streamer aktiv"
+    ],
+    "featured": false
+  },
+  {
     "id": "swimbait",
     "name": "Swimbait",
     "type": "Kunstköder",
@@ -1688,6 +2066,56 @@
     "featured": false
   },
   {
+    "id": "tintenfisch",
+    "name": "Tintenfisch (Calamari)",
+    "type": "Naturköder",
+    "tagline": "Meeresbewohner als Allzweckköder – robust, aromatisch und bissfest",
+    "description": "Tintenfischstreifen aus dem Handel (Calamari) sind ein vielseitiger und haltbarer Meeresköder, der sich besonders an der Nord- und Ostseeküste sowie in Brackwassergebieten bewährt hat. Das feste, zähe Fleisch hält Würfen und Strömung stand, ohne sich vom Haken zu lösen, und der intensive Eigengeruch zieht Raubfische und Grundfische aus größerer Entfernung an. Tintenfisch ist sowohl frisch als auch tiefgefroren erhältlich und bleibt nach dem Auftauen noch lange verwendbar.\n\nAm besten wirken schmale Streifen von 3–8 cm Länge, die seitlich oder längs aufgehakt werden. Die Streifen können allein oder als Beifang zu anderen Ködern wie Lugwürmern oder Garnelen eingesetzt werden – diese Kombinationen nennt man „Cocktailköder“ und sie sprechen oft mehr Fischarten gleichzeitig an. In tieferen Gewässern werden Tintenfischstreifen häufig an einem Grundblei oder im Paternoster präsentiert.\n\nBei starker Strömung oder großen Zielarten empfiehlt es sich, breitere Stücke zu verwenden und den Haken mehrfach durch das Fleisch zu führen, damit der Köder nicht abreißt. Für Dorsch, Steinbutt und Meerforelle zählt Tintenfisch zu den verlässlichsten natürlichen Ködern.",
+    "targetFish": [
+      "Dorsch",
+      "Steinbutt",
+      "Meerforelle",
+      "Seezunge",
+      "Wolfsbarsch",
+      "Knurrhahn"
+    ],
+    "techniques": [
+      "Grundangeln",
+      "Paternoster",
+      "Pilkangeln"
+    ],
+    "waters": [
+      "Nordsee",
+      "Ostsee",
+      "Küstengewässer",
+      "Brackwasser"
+    ],
+    "bestSeason": [
+      "März",
+      "April",
+      "Mai",
+      "Juni",
+      "Juli",
+      "August",
+      "September",
+      "Oktober",
+      "November"
+    ],
+    "howto": [
+      "Tiefgekühlten Tintenfisch vollständig auftauen und in 1–2 cm breite, 4–6 cm lange Streifen schneiden",
+      "Den Streifen einmal oder zweimal längs auf den Haken aufziehen, sodass die Spitze frei herausschaut",
+      "Den Köder am Grundblei oder im Paternoster-Rig auf den Gewässergrund absenken",
+      "Bei Strömungsangeln den Köder mit dem Strom abdriften lassen und regelmäßig einige Meter einkurbeln",
+      "Nach 15–20 Minuten ohne Biss den Köder wechseln, da er seinen Eigengeruch im Wasser verliert"
+    ],
+    "tips": [
+      "Tintenfischstreifen mit Lugwürmern kombinieren – der Cocktailköder spricht Dorsch und Seezunge besonders zuverlässig an",
+      "Das Fleisch lässt sich mit einem Schuss Knoblauchöl oder Fischöl einreiben, um die Duftspur zu verstärken",
+      "Tintenfisch in kleine Stücke vorschneiden und im Kühlbeutel mitführen – er bleibt so lange frisch und einsatzbereit"
+    ],
+    "featured": false
+  },
+  {
     "id": "tobiasfisch",
     "name": "Tobiasfisch",
     "type": "Naturköder",
@@ -1729,6 +2157,48 @@
       "Gesalzene Tobiasfische halten Würfe besser stand und fliegen weiter.",
       "An der Brandung lockt das Flankenblitzen besonders in der Dämmerung Dorsche an.",
       "Reste luftdicht und kühl lagern, da der Köder schnell ranzig wird."
+    ],
+    "featured": false
+  },
+  {
+    "id": "trockenfliege",
+    "name": "Trockenfliege (Kunstfliege)",
+    "type": "Kunstköder",
+    "tagline": "Die Königsdisziplin des Fliegenanglers – täuschend echte Insekten auf dem Spiegel",
+    "description": "Die Trockenfliege ist das Aushängeschild des Fliegenangelns und ahmt adulte Insekten nach, die auf der Wasseroberfläche treiben oder fliegen. Klassiker wie Elk Hair Caddis, Adams oder Paradun stellen heimische Eintagsfliegen, Köcherfliegen und Steinfliegen dar – also genau jene Tiere, von denen sich Forellen und Äschen vorzugsweise ernähren. Das Besondere: Der Angler sieht den Biss direkt an der Oberfläche, was die Trockenfliege zur spannendsten Methode im Süßwasserangeln macht.\n\nDas Material einer Trockenfliege ist darauf ausgerichtet, auf der Wasseroberfläche zu schwimmen: Hochwertige Hahnenfedern (Hackle), Elchhaar und hydrophobe Fäden bilden die Tragelemente. Vor dem Einsatz wird die Fliege mit Floatant-Spray oder -Gel behandelt, damit sie nicht versinkt. Der Wurfstil muss präzise sein – ein sanfter, schlaufenartiger Aufsetzer, der die Fliege ohne Schnurzug auf dem Wasser landen lässt, ist entscheidend für den Erfolg.\n\nDie Auswahl der richtigen Trockenfliege erfordert das sogenannte „Matching the Hatch“: Der Angler beobachtet, welche Insekten gerade schlüpfen oder auf der Oberfläche treiben, und wählt eine Imitation entsprechend Größe, Farbe und Form. In Mitteleuropa sind Maifliegen (Ephemera danica), Köcherfliegen (Trichoptera) und Zuckmücken die häufigsten Trockenfliegen-Modelle.",
+    "targetFish": [
+      "Bachforelle",
+      "Regenbogenforelle",
+      "Äsche"
+    ],
+    "techniques": [
+      "Fliegenangeln",
+      "Nymphenangeln"
+    ],
+    "waters": [
+      "Bäche",
+      "Flüsse",
+      "Gebirgsseen"
+    ],
+    "bestSeason": [
+      "April",
+      "Mai",
+      "Juni",
+      "Juli",
+      "August",
+      "September"
+    ],
+    "howto": [
+      "Die Trockenfliege mit Floatant-Gel oder -Spray behandeln und trocknen lassen, bevor sie eingesetzt wird",
+      "Den richtigen Schlupf beobachten (Matching the Hatch) – welche Insekten schwärmen gerade und welche Größe/Farbe dominiert?",
+      "Die Fliege stromaufwärts oder quer zum Strom werfen und sie natürlich und drifttreu abdriften lassen – ohne künstlichen Zug (Drag)",
+      "Bei einem Biss kurz warten, bis der Fisch die Fliege nehmen konnte, dann mit einem ruhigen Anhieb anschlagen",
+      "Die Fliege nach mehreren Würfen mit einem Trockenhandtuch abtrocknen und erneut mit Floatant behandeln"
+    ],
+    "tips": [
+      "Drag vermeiden: Die Schnur darf keinen Zug auf die Fliege ausüben – ein natürlicher Drift imitiert echte Insekten am überzeugendsten",
+      "Bei schlechten Bissen eine eine Nummer kleinere Fliege probieren – Forellen sind oft wählerischer als erwartet",
+      "In der Dämmerung große Trockenfliegenmuster (z. B. Sedge) verwenden, wenn die Fische an der Oberfläche stehen"
     ],
     "featured": false
   },

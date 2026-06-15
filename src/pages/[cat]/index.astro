@@ -26,6 +26,7 @@ function facetOf(d: any): string | undefined {
     case 'knoten': return d.difficulty;
     case 'ausruestung': return d.category;
     case 'glossar': return d.category;
+    case 'kueche': return d.category;
     default: return undefined;
   }
 }
@@ -38,7 +39,7 @@ function subOf(d: any): string | undefined {
   }
 }
 function badgeOf(d: any): string | undefined {
-  return ['fische', 'techniken', 'knoten'].includes(catKey) ? d.difficulty : undefined;
+  return ['fische', 'techniken', 'knoten', 'kueche'].includes(catKey) ? d.difficulty : undefined;
 }
 
 const sorted = [...entries].sort((a, b) => a.data.name.localeCompare(b.data.name, 'de'));
@@ -47,7 +48,7 @@ const facets = [...new Set(sorted.map((e) => facetOf(e.data)).filter(Boolean))].
 );
 const facetLabel: Record<string, string> = {
   fische: 'Lebensraum', techniken: 'Art', gewaesser: 'Typ', regionen: 'Kontinent',
-  koeder: 'Köderart', knoten: 'Schwierigkeit', ausruestung: 'Kategorie', glossar: 'Themengebiet',
+  koeder: 'Köderart', knoten: 'Schwierigkeit', ausruestung: 'Kategorie', glossar: 'Themengebiet', kueche: 'Art',
 };
 ---
 <BaseLayout title={cat.label} description={cat.short}>

@@ -1,0 +1,109 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import WaveDivider from '../components/WaveDivider.astro';
+
+const questions = [
+  { q: 'Welcher dieser Fische ist KEIN Raubfisch?', o: ['Karpfen', 'Hecht', 'Zander', 'Barsch'], a: 0, e: 'Der Karpfen ist ein Friedfisch und ernährt sich vor allem von Wirbellosen und Pflanzen.' },
+  { q: 'Womit schützt man die Schnur vor den Zähnen des Hechts?', o: ['Stahl- oder Hardmono-Vorfach', 'dünnere Schnur', 'größerer Haken', 'schwerere Pose'], a: 0, e: 'Hechte haben rasiermesserscharfe Zähne – ein Stahl- oder Hardmono-Vorfach ist Pflicht.' },
+  { q: 'Was bezeichnet die „Schonzeit"?', o: ['Zeitraum, in dem eine Art nicht beangelt werden darf', 'eine Pause im Drill', 'die Winterstarre der Fische', 'die beste Fütterungszeit'], a: 0, e: 'Schonzeiten schützen Fische während der Laichzeit.' },
+  { q: 'Welcher Knoten gilt als besonders stark für geflochtene Schnur?', o: ['Palomar-Knoten', 'einfacher Überhandknoten', 'Kreuzknoten', 'Schleife'], a: 0, e: 'Der Palomar-Knoten erreicht nahezu 100 % Tragkraft und ist top für Geflecht.' },
+  { q: 'Die als „Made" bekannte Larve stammt von der …', o: ['Schmeißfliege', 'Stechmücke', 'Libelle', 'Honigbiene'], a: 0, e: 'Maden sind die Larven der Schmeißfliege – ein Klassiker beim Friedfischangeln.' },
+  { q: 'Bei welcher Methode wirft man das Gewicht der Schnur statt des Köders?', o: ['Fliegenfischen', 'Spinnfischen', 'Grundangeln', 'Feedern'], a: 0, e: 'Beim Fliegenfischen trägt die schwere Fliegenschnur die fast schwerelose Fliege.' },
+  { q: 'Was ist ein „Boilie"?', o: ['ein gekochter Kugelköder', 'ein Gummiköder', 'eine Pose', 'ein Knoten'], a: 0, e: 'Boilies sind gekochte Kugeln aus Mehlen, Eiern und Aromen – der Selektivköder der Karpfenangler.' },
+  { q: 'Welcher Fisch wandert zum Laichen aus dem Meer in die Flüsse (anadrom)?', o: ['Atlantischer Lachs', 'Karpfen', 'Hecht', 'Wels'], a: 0, e: 'Der Lachs wächst im Meer auf und laicht in Flüssen – das nennt man anadrom.' },
+  { q: 'Wofür steht „C&R" beim Angeln?', o: ['Catch and Release (Zurücksetzen)', 'Cast and Retrieve', 'Carp and Roach', 'Clip and Run'], a: 0, e: 'Catch and Release bedeutet, gefangene Fische schonend zurückzusetzen.' },
+  { q: 'Welches ist ein Stillgewässer?', o: ['See', 'Bach', 'Fluss', 'Wildbach'], a: 0, e: 'Seen sind stehende Gewässer; Bach, Fluss und Wildbach sind Fließgewässer.' },
+  { q: 'Die „Sprungschicht" in einem See ist …', o: ['die Temperaturgrenze zwischen warmem und kaltem Wasser', 'eine Welle', 'die Strömung', 'ein Sprungbrett'], a: 0, e: 'Die Sprungschicht (Thermokline) trennt im Sommer warmes Oberflächen- von kaltem Tiefenwasser.' },
+  { q: 'Welcher Köder ist ein Naturköder?', o: ['Tauwurm', 'Gummifisch', 'Wobbler', 'Blinker'], a: 0, e: 'Der Tauwurm ist ein Naturköder; die anderen sind Kunstköder.' },
+  { q: 'Welcher Fisch wird am größten?', o: ['Blauer Marlin', 'Hecht', 'Karpfen', 'Zander'], a: 0, e: 'Der Blaue Marlin kann über 4 m lang und mehrere Hundert Kilo schwer werden.' },
+  { q: 'Was bedeutet „Schonmaß"?', o: ['Mindestlänge zur Entnahme', 'die Hakengröße', 'die Schnurstärke', 'die Rutenlänge'], a: 0, e: 'Untermaßige Fische müssen schonend zurückgesetzt werden.' },
+  { q: 'Womit findet man Fische und Tiefen elektronisch?', o: ['Echolot', 'Pose', 'Kescher', 'Wirbel'], a: 0, e: 'Ein Echolot zeigt Tiefe, Struktur und Fische per Schallwellen an.' },
+  { q: 'Welche Jahreszeit gilt als Top-Zeit für große Hechte?', o: ['Herbst', 'heißer Hochsommer mittags', 'Hochwinter unter Eis', 'Laichzeit im Frühjahr'], a: 0, e: 'Im Herbst fressen sich Hechte Winterspeck an und beißen besonders gut.' },
+  { q: 'Was ist ein „Vorfach"?', o: ['das Schnurstück zwischen Hauptschnur und Haken', 'der Köder', 'die Rute', 'die Rolle'], a: 0, e: 'Das Vorfach ist oft weniger sichtbar oder widerstandsfähiger als die Hauptschnur.' },
+  { q: 'Welcher dieser Fische ist ein Plattfisch?', o: ['Scholle', 'Hecht', 'Forelle', 'Barsch'], a: 0, e: 'Die Scholle ist ein Plattfisch, der am Meeresgrund lebt.' },
+];
+---
+<BaseLayout title="Angel-Quiz" description="Teste dein Angelwissen im großen Angel-Quiz – Fragen zu Fischen, Techniken, Ködern und Regeln.">
+  <section class="cat-hero">
+    <div class="container">
+      <span class="big-emoji" aria-hidden="true">❓</span>
+      <h1>Angel-Quiz</h1>
+      <p class="lead">Wie gut kennst du dich aus? {questions.length} Fragen zu Fischen, Techniken, Ködern und Regeln.</p>
+    </div>
+  </section>
+  <WaveDivider />
+
+  <section class="section container narrow">
+    <div class="quizcard" style="max-width:700px;margin-inline:auto">
+      <div id="quiz-game">
+        <div class="quiz-top"><span id="quiz-progress"></span><span id="quiz-score"></span></div>
+        <div class="quiz-bar"><span id="quiz-barfill"></span></div>
+        <h2 id="quiz-q"></h2>
+        <div id="quiz-opts" class="quiz-opts"></div>
+        <div id="quiz-explain" class="quiz-explain" hidden></div>
+        <div style="margin-top:1.2rem"><button class="btn btn-primary" id="quiz-next" type="button" hidden>Weiter ›</button></div>
+      </div>
+      <div id="quiz-result" class="quiz-final" hidden></div>
+    </div>
+    <script type="application/json" id="quiz-data" set:html={JSON.stringify(questions)}></script>
+  </section>
+
+  <script>
+    const Q = JSON.parse(document.getElementById('quiz-data')?.textContent || '[]');
+    const esc = (s: string) => (s || '').replace(/[&<>"]/g, (c) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' }[c] as string));
+    const game = document.getElementById('quiz-game') as HTMLElement;
+    const result = document.getElementById('quiz-result') as HTMLElement;
+    const qEl = document.getElementById('quiz-q') as HTMLElement;
+    const optsEl = document.getElementById('quiz-opts') as HTMLElement;
+    const explainEl = document.getElementById('quiz-explain') as HTMLElement;
+    const nextBtn = document.getElementById('quiz-next') as HTMLButtonElement;
+    const progEl = document.getElementById('quiz-progress') as HTMLElement;
+    const scoreEl = document.getElementById('quiz-score') as HTMLElement;
+    const barEl = document.getElementById('quiz-barfill') as HTMLElement;
+
+    let i = 0, score = 0, answered = false;
+
+    function renderQ() {
+      answered = false;
+      const item = Q[i];
+      progEl.textContent = `Frage ${i + 1} von ${Q.length}`;
+      scoreEl.textContent = `${score} Punkte`;
+      barEl.style.width = (i / Q.length) * 100 + '%';
+      qEl.textContent = item.q;
+      explainEl.hidden = true;
+      nextBtn.hidden = true;
+      optsEl.innerHTML = item.o.map((o: string, idx: number) => `<button class="quiz-opt" type="button" data-i="${idx}">${esc(o)}</button>`).join('');
+      optsEl.querySelectorAll('.quiz-opt').forEach((b) => b.addEventListener('click', () => choose(Number((b as HTMLElement).dataset.i))));
+    }
+    function choose(idx: number) {
+      if (answered) return;
+      answered = true;
+      const item = Q[i];
+      const btns = [...optsEl.querySelectorAll('.quiz-opt')] as HTMLButtonElement[];
+      btns.forEach((b, k) => {
+        b.disabled = true;
+        if (k === item.a) b.classList.add('correct');
+        else if (k === idx) b.classList.add('wrong');
+      });
+      if (idx === item.a) score++;
+      scoreEl.textContent = `${score} Punkte`;
+      explainEl.innerHTML = (idx === item.a ? '✅ Richtig! ' : '❌ Leider falsch. ') + esc(item.e);
+      explainEl.hidden = false;
+      nextBtn.hidden = false;
+      nextBtn.textContent = i === Q.length - 1 ? 'Ergebnis anzeigen ›' : 'Weiter ›';
+    }
+    function finish() {
+      game.hidden = true;
+      result.hidden = false;
+      const pct = score / Q.length;
+      let grade = '🪱 Frischling – üben lohnt sich!';
+      if (pct >= 0.9) grade = '🏆 Angel-Profi!';
+      else if (pct >= 0.7) grade = '🎣 Echter Petrijünger';
+      else if (pct >= 0.5) grade = '🐟 Solider Sonntagsangler';
+      result.innerHTML = `<div class="qscore">${score}/${Q.length}</div><p style="font-size:1.3rem;font-weight:600;margin:.6rem 0 1.2rem">${grade}</p><button class="btn btn-primary" type="button" id="quiz-restart">↺ Nochmal spielen</button>`;
+      (document.getElementById('quiz-restart') as HTMLElement).addEventListener('click', () => { i = 0; score = 0; game.hidden = false; result.hidden = true; renderQ(); });
+    }
+    nextBtn.addEventListener('click', () => { if (i < Q.length - 1) { i++; renderQ(); } else finish(); });
+    renderQ();
+  </script>
+</BaseLayout>

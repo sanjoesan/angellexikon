@@ -1,0 +1,42 @@
+---
+// Schematic, data-driven rig diagram: a vertical mainline with standardised
+// symbols (swivel, bead, weight, float, hook, bait, side-arm) from top to bottom.
+interface Part { sym: string; label: string }
+interface Props { parts: Part[] }
+const { parts } = Astro.props;
+const padTop = 30, gap = 60, padBottom = 28, cx = 60;
+const ys = parts.map((_, i) => padTop + i * gap);
+const h = padTop + (parts.length - 1) * gap + padBottom;
+---
+<svg class="rig-svg" viewBox={`0 0 260 ${h}`} xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Montage-Schema">
+  <line class="rig-line" x1={cx} y1={ys[0]} x2={cx} y2={ys[ys.length - 1]} />
+  {parts.map((p, i) => {
+    const y = ys[i];
+    return (
+      <g>
+        {p.sym === 'wirbel' && <g class="rig-part"><circle cx={cx} cy={y - 4} r="4"></circle><circle cx={cx} cy={y + 4} r="4"></circle></g>}
+        {p.sym === 'perle' && <circle class="rig-accent" cx={cx} cy={y} r="5"></circle>}
+        {p.sym === 'stopper' && <g><circle class="rig-part" cx={cx} cy={y} r="3.5"></circle><line class="rig-line" x1={cx - 7} y1={y - 6} x2={cx + 7} y2={y + 6}></line></g>}
+        {p.sym === 'blei' && <ellipse class="rig-part" cx={cx} cy={y} rx="9" ry="13"></ellipse>}
+        {p.sym === 'bullet' && <path class="rig-part" d={`M${cx} ${y - 13} q9 4 9 13 q0 5 -9 5 q-9 0 -9 -5 q0 -9 9 -13 Z`}></path>}
+        {p.sym === 'pose' && <g><line class="rig-line" x1={cx} y1={y - 27} x2={cx} y2={y - 16}></line><circle class="rig-accent" cx={cx} cy={y - 28} r="3"></circle><ellipse class="rig-part" cx={cx} cy={y} rx="6" ry="16"></ellipse></g>}
+        {p.sym === 'koeder' && <circle class="rig-accent" cx={cx} cy={y} r="8"></circle>}
+        {p.sym === 'haken' && <path class="rig-hook" d={`M${cx} ${y - 12} L${cx} ${y + 5} q0 8 -8 8 q-6 0 -6 -5`}></path>}
+        {p.sym === 'seitenarm' && <g><line class="rig-leader" x1={cx} y1={y} x2={cx + 28} y2={y + 5}></line><path class="rig-hook" d={`M${cx + 28} ${y + 5} q0 7 -6 7 q-5 0 -5 -4`}></path></g>}
+        <line class="rig-tick" x1={cx + 14} y1={y} x2="92" y2={y}></line>
+        <text class="rig-label" x="98" y={y + 4}>{p.label}</text>
+      </g>
+    );
+  })}
+</svg>
+
+<style>
+  .rig-svg { width: 100%; height: auto; max-width: 240px; }
+  .rig-line { stroke: var(--c-text-soft); stroke-width: 2; fill: none; }
+  .rig-leader { stroke: var(--c-muted); stroke-width: 1.6; fill: none; }
+  .rig-tick { stroke: var(--c-border-strong); stroke-width: 1; }
+  .rig-part { fill: var(--c-surface-3); stroke: var(--c-text-soft); stroke-width: 1.5; }
+  .rig-accent { fill: var(--c-accent); }
+  .rig-hook { stroke: var(--c-text); stroke-width: 2.4; fill: none; stroke-linecap: round; }
+  .rig-label { fill: var(--c-text-soft); font: 600 10.5px var(--font-body); }
+</style>

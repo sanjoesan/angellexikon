@@ -1,0 +1,164 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import WaveDivider from '../components/WaveDivider.astro';
+import RigDiagram from '../components/RigDiagram.astro';
+
+const rigs = [
+  {
+    id: 'grundmontage',
+    name: 'Grundmontage (Laufblei)',
+    tagline: 'Der Klassiker zum Grundangeln auf Friedfisch & Aal.',
+    target: ['Brassen', 'Karpfen', 'Schleie', 'Aal'],
+    parts: [
+      { sym: 'schnur', label: 'Hauptschnur' },
+      { sym: 'blei', label: 'Laufblei' },
+      { sym: 'perle', label: 'Gummiperle' },
+      { sym: 'wirbel', label: 'Wirbel' },
+      { sym: 'haken', label: 'Vorfach + Haken' },
+      { sym: 'koeder', label: 'Köder' },
+    ],
+    steps: [
+      'Laufblei auf die Hauptschnur fädeln.',
+      'Gummiperle dahinter aufziehen – sie schützt den Knoten.',
+      'Wirbel an die Hauptschnur knoten.',
+      'Vorfach (30–60 cm) mit Haken einhängen und ködern.',
+    ],
+    tips: ['Das Laufblei lässt vorsichtige Fische widerstandsfrei abziehen.'],
+  },
+  {
+    id: 'posenmontage',
+    name: 'Laufposen-Montage',
+    tagline: 'Variabel auf jede Tiefe – fängig auf fast alle Friedfische.',
+    target: ['Rotauge', 'Brassen', 'Schleie', 'Karpfen'],
+    parts: [
+      { sym: 'stopper', label: 'Stopperknoten' },
+      { sym: 'perle', label: 'Perle' },
+      { sym: 'pose', label: 'Laufpose' },
+      { sym: 'blei', label: 'Schrotbleie' },
+      { sym: 'haken', label: 'Haken' },
+      { sym: 'koeder', label: 'Köder' },
+    ],
+    steps: [
+      'Stopperknoten auf die Hauptschnur setzen – er bestimmt die Angeltiefe.',
+      'Kleine Perle und dann die Laufpose auffädeln.',
+      'Mit Schrotbleien austarieren, bis nur die Antenne herausschaut.',
+      'Haken anknoten und Köder anbieten.',
+    ],
+    tips: ['Je feiner die Pose austariert ist, desto besser erkennst du zaghafte Bisse.'],
+  },
+  {
+    id: 'dropshot',
+    name: 'Dropshot-Montage',
+    tagline: 'Köder schwebt verführerisch über Grund – top auf Barsch & Zander.',
+    target: ['Barsch', 'Zander', 'Forelle'],
+    parts: [
+      { sym: 'schnur', label: 'Hauptschnur / Vorfach' },
+      { sym: 'seitenarm', label: 'Dropshot-Haken (abstehend)' },
+      { sym: 'blei', label: 'Dropshot-Blei (am Ende)' },
+    ],
+    steps: [
+      'Haken mit Palomar-Knoten anbinden, das lange Ende zeigt nach unten.',
+      'Den Haken so ausrichten, dass er waagerecht absteht.',
+      'Gewünschten Abstand lassen und das Dropshot-Blei ans Schnurende klemmen.',
+      'Köder einhängen und mit kleinen Zupfern auf der Stelle anbieten.',
+    ],
+    tips: ['Der Abstand Haken–Blei bestimmt, wie hoch der Köder über Grund schwebt.'],
+  },
+  {
+    id: 'haarmontage',
+    name: 'Haarmontage (Karpfen)',
+    tagline: 'Selbsthak-Montage – der Standard beim modernen Karpfenangeln.',
+    target: ['Karpfen', 'Schleie', 'Brassen'],
+    parts: [
+      { sym: 'schnur', label: 'Hauptschnur' },
+      { sym: 'wirbel', label: 'Wirbel' },
+      { sym: 'blei', label: 'Festblei (Safety-Clip)' },
+      { sym: 'haken', label: 'Haken am Vorfach' },
+      { sym: 'koeder', label: 'Boilie am Haar' },
+    ],
+    steps: [
+      'Vorfach mit einem kurzen „Haar" unter dem Haken binden.',
+      'Boilie auf das Haar ziehen und mit einem Stopper sichern.',
+      'Haken über den Knotenlos-Knoten anbinden.',
+      'Vorfach an den Wirbel mit Festblei hängen und auswerfen.',
+    ],
+    tips: ['Beim Anziehen hakt sich der Fisch durch das schwere Festblei selbst.'],
+  },
+  {
+    id: 'sbirolino',
+    name: 'Sbirolino-Montage',
+    tagline: 'Weite Würfe mit leichtem Köder – Forellensee-Klassiker.',
+    target: ['Regenbogenforelle', 'Bachforelle'],
+    parts: [
+      { sym: 'schnur', label: 'Hauptschnur' },
+      { sym: 'bullet', label: 'Sbirolino' },
+      { sym: 'perle', label: 'Perle' },
+      { sym: 'wirbel', label: 'Wirbel' },
+      { sym: 'haken', label: 'langes Vorfach + Haken' },
+      { sym: 'koeder', label: 'Teig / Made' },
+    ],
+    steps: [
+      'Sbirolino (schwimmend oder sinkend je nach Zieltiefe) auffädeln.',
+      'Perle als Knotenschutz aufziehen, dann Wirbel anknoten.',
+      'Langes Vorfach (1,5–3 m) anschließen.',
+      'Leichten Köder anbieten und langsam, mit Stopps, einholen.',
+    ],
+    tips: ['Die Vorfachlänge steuert, in welcher Tiefe der Köder läuft.'],
+  },
+  {
+    id: 'paternoster',
+    name: 'Paternoster (Brandung)',
+    tagline: 'Seitenarm-Montage mit Blei am Ende – klassisch im Meer.',
+    target: ['Dorsch', 'Scholle', 'Wittling'],
+    parts: [
+      { sym: 'schnur', label: 'Hauptschnur' },
+      { sym: 'wirbel', label: 'Wirbel' },
+      { sym: 'seitenarm', label: 'Seitenarm + Haken' },
+      { sym: 'blei', label: 'Krallenblei (unten)' },
+    ],
+    steps: [
+      'Wirbel an die Hauptschnur knoten.',
+      'Oberhalb einen oder zwei Seitenarme (Mundschnüre) anbringen.',
+      'Krallen- oder Grundblei ans untere Ende hängen.',
+      'Köder auf die Seitenarm-Haken und am Grund anbieten.',
+    ],
+    tips: ['Krallenbleie halten die Montage auch in der Brandung an Ort und Stelle.'],
+  },
+];
+---
+<BaseLayout title="Montagen-Bauanleitungen" description="Die wichtigsten Angelmontagen mit Schema-Grafik, Komponenten und Schritt-für-Schritt-Anleitung.">
+  <section class="cat-hero">
+    <div class="container">
+      <span class="big-emoji" aria-hidden="true">🪝</span>
+      <h1>Montagen-Bauanleitungen</h1>
+      <p class="lead">Die wichtigsten Montagen auf einen Blick – mit Schema-Grafik, Bestandteilen und Anleitung.</p>
+    </div>
+  </section>
+  <WaveDivider />
+
+  <section class="section container">
+    <ul class="chip-list" style="margin-bottom:1.8rem">
+      {rigs.map((r) => <li><a class="chip" href={`#${r.id}`}>{r.name}</a></li>)}
+    </ul>
+
+    <div class="rig-grid">
+      {rigs.map((r) => (
+        <article class="card rig-card" id={r.id}>
+          <div class="rig-diagram"><RigDiagram parts={r.parts} /></div>
+          <div>
+            <h3>{r.name}</h3>
+            <p class="muted">{r.tagline}</p>
+            <ul class="chip-list" style="margin-top:.6rem">
+              <li><span class="chip">Gut für:</span></li>
+              {r.target.map((t) => <li><span class="chip">{t}</span></li>)}
+            </ul>
+            <ol class="steps">{r.steps.map((s) => <li>{s}</li>)}</ol>
+            {r.tips.map((t) => (
+              <p class="muted" style="margin-top:.7rem;font-size:.92rem">💡 {t}</p>
+            ))}
+          </div>
+        </article>
+      ))}
+    </div>
+  </section>
+</BaseLayout>

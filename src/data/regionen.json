@@ -1,266 +1,49 @@
 [
   {
-    "id": "mitteleuropa",
-    "name": "Mitteleuropa",
-    "nameEn": "Central Europe",
-    "continent": "Europa",
-    "tagline": "Klassische Süßwasserheimat von Hecht, Zander und Karpfen.",
-    "description": "Mitteleuropa ist geprägt von einem dichten Netz aus Flüssen, Seen, Talsperren und Kanälen. Die gemäßigte Klimazone und die ausgeprägten Jahreszeiten machen das Angeln hier vielfältig und gut planbar.\n\nVom Forellenbach im Mittelgebirge über karpfenreiche Baggerseen bis zu mächtigen Strömen wie Rhein, Elbe und Donau ist alles vertreten. Strenge Schonzeiten und Fangbestimmungen sichern die Bestände nachhaltig.\n\nDie ausgeprägte Vereinskultur sorgt für gepflegte Gewässer und gut zugängliche Angelplätze, während große Talsperren und der Bodensee auch kapitale Raubfische und Renken beherbergen.",
-    "countries": ["Deutschland", "Österreich", "Schweiz", "Tschechien", "Polen", "Niederlande"],
-    "waters": ["Rhein", "Elbe", "Donau", "Bodensee", "Bagger- und Talsperren", "Müritz"],
-    "species": ["Hecht", "Zander", "Karpfen", "Barsch", "Schleie", "Brassen", "Wels", "Bachforelle", "Renke"],
-    "techniques": ["Spinnfischen", "Karpfenangeln", "Fliegenfischen", "Grundangeln", "Feederangeln", "Posenangeln"],
-    "bestSeason": ["April", "Mai", "Juni", "September", "Oktober"],
-    "highlights": [
-      "Dichtes Netz gut zugänglicher Vereinsgewässer",
-      "Klare Schonzeiten und nachhaltige Bewirtschaftung",
-      "Ganzjährig planbares Angeln dank vier Jahreszeiten",
-      "Vielfältige Gewässertypen von Forellenbach bis Großstrom"
-    ],
-    "tips": [
-      "Für die meisten Gewässer sind ein Fischereischein plus Erlaubnisschein nötig.",
-      "Informiere dich vorab über regionale Schonzeiten und Mindestmaße.",
-      "In Deutschland setzt der Schein eine bestandene Fischerprüfung voraus."
-    ],
-    "featured": true
-  },
-  {
-    "id": "alpenraum",
-    "name": "Alpenraum",
-    "nameEn": "Alpine Region",
-    "continent": "Europa",
-    "tagline": "Glasklare Bergbäche, smaragdgrüne Seen und edle Salmoniden.",
-    "description": "Der Alpenraum erstreckt sich über Österreich, die Schweiz, Bayern, Norditalien und Slowenien. Kaltes, sauerstoffreiches Wasser aus Gletschern und Quellen schafft ideale Bedingungen für Forellen, Äschen und Saiblinge.\n\nKristallklare Gebirgsbäche, türkise Karstseen und tiefe Alpenseen prägen die Landschaft. Die slowenische Soča gilt mit ihrer endemischen Marmorata-Forelle als eines der schönsten Fliegenfischer-Reviere Europas.\n\nDas Sichtfischen auf scheue Salmoniden in glasklarem Wasser verlangt Präzision und feines Gerät und belohnt mit unvergesslichen Drills vor alpiner Kulisse.",
-    "countries": ["Österreich", "Schweiz", "Deutschland", "Italien", "Slowenien", "Frankreich"],
-    "waters": ["Soča", "Traun", "Gmundner Traun", "Walchensee", "Inn", "Gardasee"],
-    "species": ["Bachforelle", "Regenbogenforelle", "Seeforelle", "Äsche", "Bachsaibling", "Renke"],
-    "techniques": ["Fliegenfischen", "Spinnfischen", "Bombarda-Angeln", "Schleppangeln"],
-    "bestSeason": ["Mai", "Juni", "Juli", "August", "September"],
-    "highlights": [
-      "Sichtfischen auf Forellen in kristallklarem Wasser",
-      "Endemische Marmorata-Forelle an der Soča",
-      "Spektakuläre Bergkulissen und unberührte Bäche",
-      "Tiefe Alpenseen mit kapitalen Seeforellen"
-    ],
-    "tips": [
-      "Viele Strecken sind streng limitiert – Tageskarten frühzeitig reservieren.",
-      "Häufig gilt Fliegenfischen mit Widerhakenverbot und Catch and Release.",
-      "Watschuhe mit gutem Profil sind auf rutschigem Geröll Pflicht."
-    ],
-    "featured": false
-  },
-  {
-    "id": "skandinavien",
-    "name": "Skandinavien",
-    "nameEn": "Scandinavia",
-    "continent": "Europa",
-    "tagline": "Endlose Seen, wilde Küsten und kapitale Fische.",
-    "description": "Skandinavien ist ein Traumziel für Angler: Schweden und Finnland zählen zehntausende Seen, Norwegen bietet mit seinen Fjorden eines der besten Meeresangelreviere der Welt.\n\nIn vielen Gebieten gilt das Jedermannsrecht, das Angeln vielerorts frei macht. Riesige Hechte, kämpferische Meerforellen und im Meer Dorsch, Köhler und Heilbutt locken Jahr für Jahr.\n\nDie nordischen Lachsflüsse wie die norwegische Gaula oder Tana zählen zu den legendärsten der Welt, während die felsigen Ostseeküsten Dänemarks und Schwedens als Eldorado für das Meerforellenangeln gelten.",
-    "countries": ["Norwegen", "Schweden", "Finnland", "Dänemark"],
-    "waters": ["Norwegische Fjorde", "Vänern", "finnische Seenplatte", "Ostseeküste", "Gaula"],
-    "species": ["Hecht", "Meerforelle", "Atlantischer Lachs", "Dorsch", "Köhler", "Heilbutt", "Barsch"],
-    "techniques": ["Schleppangeln", "Spinnfischen", "Fliegenfischen", "Brandungsangeln", "Pilken", "Meerforellenangeln"],
-    "bestSeason": ["Mai", "Juni", "Juli", "August", "September"],
-    "highlights": [
-      "Jedermannsrecht erlaubt vielerorts freies Angeln",
-      "Norwegens Fjorde mit Heilbutt und Dorsch in Rekordgrößen",
-      "Legendäre Lachsflüsse wie Gaula und Tana",
-      "Unberührte Natur und enorme Gewässerdichte"
-    ],
-    "tips": [
-      "An der norwegischen Küste gelten Ausfuhrgrenzen für Fischfilet – vorher informieren.",
-      "Für viele Lachsflüsse ist eine teure, kontingentierte Tageskarte nötig.",
-      "Im Meer immer Wetter und Strömung beachten – Sicherheit geht vor."
-    ],
-    "featured": true
-  },
-  {
-    "id": "britische-inseln",
-    "name": "Britische Inseln",
-    "nameEn": "British Isles",
-    "continent": "Europa",
-    "tagline": "Heimat des modernen Karpfen- und Fliegenfischens.",
-    "description": "Großbritannien und Irland blicken auf eine jahrhundertealte Angeltradition zurück. Hier wurde das moderne Karpfenangeln geprägt, und die Trockenfliege wurde auf den Kreidebächen Südenglands perfektioniert.\n\nDie irischen Loughs sind berühmt für ihre Hechte und wilden Bachforellen, während Schottland mit Lachsflüssen wie dem Spey und Tweed sowie kämpferischem Meerforellenangeln lockt.\n\nVon kommerziellen Coarse-Fishing-Seen über stille Karpfenweiher bis zu rauen Atlantikküsten für Brandungs- und Wolfsbarschangeln bietet die Region eine enorme Bandbreite.",
-    "countries": ["England", "Schottland", "Wales", "Irland"],
-    "waters": ["Lough Corrib", "River Spey", "River Tweed", "Kreidebäche von Hampshire", "Norfolk Broads"],
-    "species": ["Karpfen", "Hecht", "Barsch", "Schleie", "Brassen", "Bachforelle", "Atlantischer Lachs", "Wolfsbarsch"],
-    "techniques": ["Karpfenangeln", "Fliegenfischen", "Feederangeln", "Posenangeln", "Spinnfischen", "Brandungsangeln"],
-    "bestSeason": ["April", "Mai", "Juni", "September", "Oktober"],
-    "highlights": [
-      "Wiege des modernen Karpfenangelns",
-      "Klassische Kreidebäche für die Trockenfliege",
-      "Hechtreiche irische Loughs in wilder Landschaft",
-      "Schottische Lachsflüsse von Weltrang"
-    ],
-    "tips": [
-      "In England und Wales ist die Rod Licence der Environment Agency Pflicht.",
-      "Beachte die Close Season für Coarse Fish an Fließgewässern.",
-      "Buche begehrte Lachsbeats am Tweed weit im Voraus."
-    ],
-    "featured": false
-  },
-  {
-    "id": "mittelmeerraum",
-    "name": "Mittelmeerraum",
-    "nameEn": "Mediterranean",
-    "continent": "Europa",
-    "tagline": "Sonniges Meeresangeln zwischen Wolfsbarsch und Thunfisch.",
-    "description": "Der Mittelmeerraum umfasst die Küsten Spaniens, Frankreichs, Italiens, Griechenlands und Nordafrikas. Das warme, salzreiche Meer beherbergt eine bunte Artenvielfalt von Wolfsbarsch und Barrakuda bis zum mächtigen Roten Thun.\n\nFelsküsten, Lagunen und Flussmündungen bieten erstklassiges Spinn- und Brandungsangeln. Vor Sizilien und den Balearen ist das Big-Game-Fishing auf Thunfisch und Schwertfisch zuhause.\n\nIm Hinterland sorgen große Stauseen für ausgezeichnetes Süßwasserangeln – der spanische Ebro ist weltberühmt für gigantische Welse und Karpfen.",
-    "countries": ["Spanien", "Frankreich", "Italien", "Griechenland", "Kroatien"],
-    "waters": ["Ebro", "Balearen", "Straße von Messina", "Costa Brava", "Ägäis"],
-    "species": ["Wolfsbarsch", "Barracuda", "Thunfisch", "Schwertfisch", "Wels", "Karpfen", "Hornhecht"],
-    "techniques": ["Spinnfischen", "Brandungsangeln", "Schleppangeln", "Grundangeln", "Posenangeln"],
-    "bestSeason": ["April", "Mai", "Juni", "September", "Oktober", "November"],
-    "highlights": [
-      "Big-Game auf Roten Thun und Schwertfisch",
-      "Rekordwelse und Karpfen im spanischen Ebro",
-      "Abwechslungsreiches Spinnfischen an Felsküsten",
-      "Ganzjährig mildes Klima für lange Angelsaisons"
-    ],
-    "tips": [
-      "Für das Meeresangeln ist in vielen Ländern eine Lizenz erforderlich.",
-      "Der Fang von Rotem Thun unterliegt strengen Quoten und Verboten.",
-      "Frühe Morgen- und Abendstunden bringen im Sommer die besten Bisse."
-    ],
-    "featured": false
-  },
-  {
-    "id": "osteuropa",
-    "name": "Osteuropa",
-    "nameEn": "Eastern Europe",
-    "continent": "Europa",
-    "tagline": "Weite Ströme und stille Seen abseits des Trubels.",
-    "description": "Osteuropa von den baltischen Staaten über Ungarn bis zum Donaudelta bietet ursprüngliche Angelreviere mit gesunden Beständen und oft niedrigem Angeldruck.\n\nGroße Flüsse wie Donau, Theiß und Weichsel sowie der ungarische Plattensee zählen zu den besten Raubfischrevieren Europas. Wels, Zander und Hecht erreichen hier beachtliche Größen.\n\nDas Donaudelta in Rumänien gilt als artenreiches Paradies, in dem sich Karpfen-, Wels- und Raubfischangeln in unberührter Sumpflandschaft verbinden.",
-    "countries": ["Ungarn", "Rumänien", "Polen", "Litauen", "Slowakei", "Serbien"],
-    "waters": ["Donaudelta", "Plattensee", "Theiß", "Weichsel", "Masurische Seen"],
-    "species": ["Wels", "Zander", "Hecht", "Karpfen", "Barsch", "Brassen", "Barbe"],
-    "techniques": ["Spinnfischen", "Karpfenangeln", "Grundangeln", "Feederangeln", "Vertikalangeln"],
-    "bestSeason": ["April", "Mai", "Juni", "September", "Oktober"],
-    "highlights": [
-      "Artenreiches Donaudelta als unberührtes Paradies",
-      "Kapitale Welse in den großen Strömen",
-      "Geringer Angeldruck und faire Preise",
-      "Hervorragendes Zanderangeln im Plattensee"
-    ],
-    "tips": [
-      "Eine staatliche Angellizenz ist meist günstig, aber überall Pflicht.",
-      "Im Donaudelta lohnt ein ortskundiger Guide mit Boot.",
-      "Beachte länderspezifische Schonzeiten für Zander und Hecht."
-    ],
-    "featured": false
-  },
-  {
-    "id": "russland-sibirien",
-    "name": "Russland & Sibirien",
-    "nameEn": "Russia & Siberia",
-    "continent": "Asien",
-    "tagline": "Endlose Wildnis mit Taimen und urtümlichen Fischen.",
-    "description": "Russland und Sibirien bieten einige der letzten echten Wildnis-Reviere der Erde. Riesige Flusssysteme wie Ob, Jenissei und Lena durchziehen menschenleere Taiga und Tundra.\n\nDer mongolisch-sibirische Taimen, der größte Lachsfisch der Welt, ist das legendäre Ziel vieler Fliegenfischer. Daneben locken Äschen, Saiblinge und im riesigen Baikalsee einzigartige Arten.\n\nDie Halbinsel Kamtschatka gilt als Mekka des Lachs- und Forellenfischens, wo unzählige unberührte Flüsse in den Pazifik münden und Bären die Ufer säumen.",
-    "countries": ["Russland", "Mongolei", "Kasachstan"],
-    "waters": ["Baikalsee", "Wolga", "Kamtschatka-Flüsse", "Lena", "Ob"],
-    "species": ["Äsche", "Bachsaibling", "Regenbogenforelle", "Hecht", "Barsch", "Stör", "Atlantischer Lachs"],
-    "techniques": ["Fliegenfischen", "Spinnfischen", "Eisangeln", "Grundangeln"],
-    "bestSeason": ["Juni", "Juli", "August", "September"],
-    "highlights": [
-      "Taimen, der größte Lachsfisch der Welt",
-      "Unberührte Lachsflüsse auf Kamtschatka",
-      "Einzigartige Arten im uralten Baikalsee",
-      "Wildnis-Expeditionen abseits jeder Zivilisation"
-    ],
-    "tips": [
-      "Reisen erfordern lange Vorlaufzeit, Visa und meist organisierte Camps.",
-      "Taimen steht unter Schutz – konsequentes Catch and Release ist Standard.",
-      "Auf gute Ausrüstung gegen Kälte und Mücken kommt es entscheidend an."
-    ],
-    "featured": false
-  },
-  {
-    "id": "nordamerika",
-    "name": "Nordamerika",
-    "nameEn": "North America",
-    "continent": "Nordamerika",
-    "tagline": "Vom Forellenbach der Rockies bis zum Bass im Südstaaten-See.",
-    "description": "Nordamerika bietet eine schier endlose Vielfalt: kalte Forellenflüsse der Rocky Mountains, gewaltige Großen Seen, subtropische Bass-Reviere im Süden und die lachsreichen Küsten Alaskas und Kanadas.\n\nDas Fliegenfischen auf Forellen in Montana und Wyoming sowie das Bass-Fishing als nationaler Volkssport prägen die Angelkultur. Hechte, Zander und Welse runden das Süßwasserangebot ab.\n\nAn den Küsten reicht das Spektrum vom Streifenbarsch der Ostküste über pazifischen Lachs bis zum Heilbutt Alaskas – ein Kontinent, der für jede Technik Weltklasse-Reviere bereithält.",
-    "countries": ["USA", "Kanada", "Mexiko"],
-    "waters": ["Große Seen", "Yellowstone River", "Florida Everglades", "Columbia River", "Alaska-Küste"],
-    "species": ["Forellenbarsch", "Streifenbarsch", "Regenbogenforelle", "Bachforelle", "Hecht", "Zander", "Atlantischer Lachs", "Heilbutt"],
-    "techniques": ["Fliegenfischen", "Spinnfischen", "Eisangeln", "Schleppangeln", "Vertikalangeln"],
-    "bestSeason": ["Mai", "Juni", "Juli", "August", "September", "Oktober"],
-    "highlights": [
-      "Weltklasse-Fliegenfischen in den Rocky Mountains",
-      "Bass-Fishing als amerikanischer Volkssport",
-      "Lachs- und Heilbuttreviere in Alaska und Kanada",
-      "Riesige Vielfalt vom Bergbach bis zum Ozean"
-    ],
-    "tips": [
-      "Jeder US-Bundesstaat verkauft eigene Lizenzen, oft bequem online.",
-      "Beachte die strengen Bag and Size Limits je Art und Region.",
-      "In Bärengebieten Alaskas Verhaltensregeln und Bärenspray beachten."
-    ],
-    "featured": true
-  },
-  {
-    "id": "suedamerika",
-    "name": "Südamerika",
-    "nameEn": "South America",
-    "continent": "Südamerika",
-    "tagline": "Goldener Dorado, Riesenwelse und patagonische Forellen.",
-    "description": "Südamerika begeistert mit extremen Kontrasten: das tropische Amazonas- und Pantanal-Becken mit exotischen Raubfischen und die kühlen, kristallklaren Flüsse Patagoniens mit kapitalen Forellen.\n\nDer goldene Dorado in Argentinien und Bolivien gilt als einer der aggressivsten Süßwasserräuber der Welt. Im Amazonas locken Pfauenbarsche, riesige Welse und der gepanzerte Arapaima.\n\nPatagonien in Argentinien und Chile zählt zu den besten Forellenrevieren des Planeten – weite, menschenleere Flusstäler und Seen voller großer Regenbogen- und Bachforellen.",
-    "countries": ["Argentinien", "Brasilien", "Chile", "Bolivien", "Peru"],
-    "waters": ["Amazonas", "Pantanal", "Río Paraná", "patagonische Flüsse", "Lago Strobel"],
-    "species": ["Regenbogenforelle", "Bachforelle", "Wels", "Barsch", "Tarpon"],
-    "techniques": ["Fliegenfischen", "Spinnfischen", "Grundangeln", "Schleppangeln"],
-    "bestSeason": ["November", "Dezember", "Januar", "Februar", "März"],
-    "highlights": [
-      "Goldener Dorado als kampfstarker Süßwasserräuber",
-      "Exotische Artenvielfalt im Amazonas und Pantanal",
-      "Patagoniens Forellenflüsse von Weltklasse",
-      "Weite, unberührte Reviere mit hoher Bissfrequenz"
-    ],
-    "tips": [
-      "Die beste Saison liegt in der südlichen Sommerhälfte von November bis März.",
-      "In abgelegenen Regionen sind Lodges und Guides nahezu unverzichtbar.",
-      "Für tropische Reviere passende Stahlvorfächer und starkes Gerät mitnehmen."
-    ],
-    "featured": true
-  },
-  {
-    "id": "karibik",
-    "name": "Karibik",
-    "nameEn": "Caribbean",
-    "continent": "Nordamerika",
-    "tagline": "Türkise Flats für Bonefish, Tarpon und Permit.",
-    "description": "Die Karibik ist das Mekka des Salzwasser-Fliegenfischens. Endlose Sandbänke und Flats vor den Bahamas, Kuba und Belize bieten ideale Bedingungen für die Jagd auf die schnellsten Flachwasserfische der Welt.\n\nBonefish, Tarpon und Permit bilden die berühmte Grand Slam-Kombination, die jeden Fliegenfischer reizt. Das Sichtfischen im knietiefen, glasklaren Wasser verlangt Geschick und ruhige Hände.\n\nVor den Riffkanten und im offenen Blauwasser locken zudem Barrakuda, Mahi-Mahi und Marline – die Karibik vereint feinstes Flats-Fishing mit kraftvollem Big-Game.",
-    "countries": ["Bahamas", "Kuba", "Belize", "Mexiko", "Dominikanische Republik"],
-    "waters": ["Bahamas-Flats", "Jardines de la Reina", "Ascension Bay", "Yucatán-Küste"],
-    "species": ["Bonefish", "Tarpon", "Barracuda", "Mahi-Mahi", "Blauer Marlin", "Thunfisch"],
-    "techniques": ["Fliegenfischen", "Spinnfischen", "Schleppangeln"],
-    "bestSeason": ["März", "April", "Mai", "Juni", "Oktober", "November"],
-    "highlights": [
-      "Grand Slam aus Bonefish, Tarpon und Permit",
-      "Sichtfischen auf glasklaren Flats",
-      "Big-Game auf Marlin und Mahi-Mahi vor dem Riff",
-      "Ganzjährig warmes, tropisches Klima"
-    ],
-    "tips": [
-      "Viele Flats liegen in Schutzgebieten und erfordern lizenzierte Guides.",
-      "Catch and Release ist bei Bonefish und Tarpon weithin Standard.",
-      "Die Hurrikan-Saison von August bis Oktober bei der Planung beachten."
-    ],
-    "featured": false
-  },
-  {
     "id": "afrika",
     "name": "Afrika",
     "nameEn": "Africa",
     "continent": "Afrika",
     "tagline": "Vom Tigerfisch des Sambesi bis zur Big-Game-Küste.",
     "description": "Afrika bietet Angelabenteuer der Extraklasse. Der gefürchtete Tigerfisch mit seinem messerscharfen Gebiss macht den Sambesi und den Lake Kariba zu legendären Süßwasserrevieren.\n\nDer mächtige Nilbarsch im Nassersee und im Viktoriasee erreicht über hundert Kilogramm und zählt zu den stärksten Süßwasserfischen überhaupt. Daneben locken Welse und Karpfen in vielen Gewässern.\n\nDie Küsten Südafrikas, Kenias und der Seychellen sind erstklassige Big-Game- und Flats-Reviere – von Marlin und Thunfisch im Blauwasser bis zum Bonefish auf den Sandbänken des Indischen Ozeans.",
-    "countries": ["Südafrika", "Simbabwe", "Sambia", "Kenia", "Ägypten", "Seychellen"],
-    "waters": ["Sambesi", "Lake Kariba", "Nassersee", "Viktoriasee", "Seychellen-Flats"],
-    "species": ["Wels", "Karpfen", "Barsch", "Blauer Marlin", "Thunfisch", "Bonefish", "Barracuda"],
-    "techniques": ["Spinnfischen", "Schleppangeln", "Fliegenfischen", "Grundangeln"],
-    "bestSeason": ["Mai", "Juni", "Juli", "August", "September", "Oktober"],
+    "countries": [
+      "Südafrika",
+      "Simbabwe",
+      "Sambia",
+      "Kenia",
+      "Ägypten",
+      "Seychellen"
+    ],
+    "waters": [
+      "Sambesi",
+      "Lake Kariba",
+      "Nassersee",
+      "Viktoriasee",
+      "Seychellen-Flats"
+    ],
+    "species": [
+      "Wels",
+      "Karpfen",
+      "Barsch",
+      "Blauer Marlin",
+      "Thunfisch",
+      "Bonefish",
+      "Barracuda"
+    ],
+    "techniques": [
+      "Spinnfischen",
+      "Schleppangeln",
+      "Fliegenfischen",
+      "Grundangeln"
+    ],
+    "bestSeason": [
+      "Mai",
+      "Juni",
+      "Juli",
+      "August",
+      "September",
+      "Oktober"
+    ],
     "highlights": [
       "Tigerfisch im Sambesi und Lake Kariba",
       "Riesiger Nilbarsch im Nassersee",
@@ -275,17 +58,679 @@
     "featured": false
   },
   {
+    "id": "alpenraum",
+    "name": "Alpenraum",
+    "nameEn": "Alpine Region",
+    "continent": "Europa",
+    "tagline": "Glasklare Bergbäche, smaragdgrüne Seen und edle Salmoniden.",
+    "description": "Der Alpenraum erstreckt sich über Österreich, die Schweiz, Bayern, Norditalien und Slowenien. Kaltes, sauerstoffreiches Wasser aus Gletschern und Quellen schafft ideale Bedingungen für Forellen, Äschen und Saiblinge.\n\nKristallklare Gebirgsbäche, türkise Karstseen und tiefe Alpenseen prägen die Landschaft. Die slowenische Soča gilt mit ihrer endemischen Marmorata-Forelle als eines der schönsten Fliegenfischer-Reviere Europas.\n\nDas Sichtfischen auf scheue Salmoniden in glasklarem Wasser verlangt Präzision und feines Gerät und belohnt mit unvergesslichen Drills vor alpiner Kulisse.",
+    "countries": [
+      "Österreich",
+      "Schweiz",
+      "Deutschland",
+      "Italien",
+      "Slowenien",
+      "Frankreich"
+    ],
+    "waters": [
+      "Soča",
+      "Traun",
+      "Gmundner Traun",
+      "Walchensee",
+      "Inn",
+      "Gardasee"
+    ],
+    "species": [
+      "Bachforelle",
+      "Regenbogenforelle",
+      "Seeforelle",
+      "Äsche",
+      "Bachsaibling",
+      "Renke"
+    ],
+    "techniques": [
+      "Fliegenfischen",
+      "Spinnfischen",
+      "Bombarda-Angeln",
+      "Schleppangeln"
+    ],
+    "bestSeason": [
+      "Mai",
+      "Juni",
+      "Juli",
+      "August",
+      "September"
+    ],
+    "highlights": [
+      "Sichtfischen auf Forellen in kristallklarem Wasser",
+      "Endemische Marmorata-Forelle an der Soča",
+      "Spektakuläre Bergkulissen und unberührte Bäche",
+      "Tiefe Alpenseen mit kapitalen Seeforellen"
+    ],
+    "tips": [
+      "Viele Strecken sind streng limitiert – Tageskarten frühzeitig reservieren.",
+      "Häufig gilt Fliegenfischen mit Widerhakenverbot und Catch and Release.",
+      "Watschuhe mit gutem Profil sind auf rutschigem Geröll Pflicht."
+    ],
+    "featured": false
+  },
+  {
+    "id": "arktis-subarktis",
+    "name": "Arktis & Subarktis",
+    "nameEn": "Arctic & Subarctic",
+    "continent": "Arktis",
+    "tagline": "Mitternachtssonne, Eisangeln und arktische Saiblinge.",
+    "description": "Die arktischen und subarktischen Regionen von Grönland und Island über Nordskandinavien bis Alaska und Nordkanada gehören zu den ursprünglichsten Angelrevieren der Welt.\n\nDer kämpferische Saibling, hier oft als Arctic Char, ist der charakteristische Fisch dieser kalten Gewässer. In Island locken zudem berühmte Lachs- und Meerforellenflüsse von Weltrang.\n\nIm langen Polarwinter wird das Eisangeln zur Lebensart, während die Sommer mit der Mitternachtssonne endlose Angeltage schenken – Natur in ihrer reinsten und rauesten Form.",
+    "countries": [
+      "Island",
+      "Grönland",
+      "Norwegen",
+      "Kanada",
+      "USA"
+    ],
+    "waters": [
+      "isländische Lachsflüsse",
+      "grönländische Fjorde",
+      "Nordnorwegen",
+      "kanadische Tundraseen"
+    ],
+    "species": [
+      "Bachsaibling",
+      "Atlantischer Lachs",
+      "Meerforelle",
+      "Äsche",
+      "Dorsch",
+      "Heilbutt"
+    ],
+    "techniques": [
+      "Fliegenfischen",
+      "Eisangeln",
+      "Spinnfischen",
+      "Pilken"
+    ],
+    "bestSeason": [
+      "Juni",
+      "Juli",
+      "August",
+      "September"
+    ],
+    "highlights": [
+      "Kämpferischer arktischer Saibling in klaren Seen",
+      "Weltberühmte Lachsflüsse auf Island",
+      "Angeln unter der Mitternachtssonne",
+      "Eisangeln als arktische Lebensart im Winter"
+    ],
+    "tips": [
+      "Isländische Lachsbeats sind teuer und früh ausgebucht – rechtzeitig planen.",
+      "Wetterumschwünge sind drastisch – warme, wasserdichte Kleidung ist Pflicht.",
+      "Das kurze Sommerfenster bestimmt die beste Reisezeit."
+    ],
+    "featured": false
+  },
+  {
+    "id": "australien-neuseeland",
+    "name": "Australien & Neuseeland",
+    "nameEn": "Australia & New Zealand",
+    "continent": "Ozeanien",
+    "tagline": "Kristallklare Forellenflüsse und Pazifik-Big-Game.",
+    "description": "Neuseeland gilt als eines der besten Forellenreviere der Welt. Glasklare Flüsse auf der Südinsel erlauben spektakuläres Sichtfischen auf große, scheue Regenbogen- und Bachforellen.\n\nAustralien begeistert mit enormer Bandbreite: vom legendären Barramundi im tropischen Norden über den australischen Murray Cod in den Binnenflüssen bis zum Big-Game auf Marlin und Thunfisch entlang der Küsten.\n\nBeide Länder bieten unberührte Natur, klare Gewässer und einen hohen Stellenwert nachhaltigen Angelns – ein Traumziel für Fliegenfischer und Meeresangler gleichermaßen.",
+    "countries": [
+      "Australien",
+      "Neuseeland"
+    ],
+    "waters": [
+      "Südinsel-Flüsse",
+      "Lake Taupo",
+      "Great Barrier Reef",
+      "Murray River",
+      "Tasmanische Seen"
+    ],
+    "species": [
+      "Regenbogenforelle",
+      "Bachforelle",
+      "Blauer Marlin",
+      "Thunfisch",
+      "Barracuda",
+      "Barsch"
+    ],
+    "techniques": [
+      "Fliegenfischen",
+      "Spinnfischen",
+      "Schleppangeln",
+      "Grundangeln"
+    ],
+    "bestSeason": [
+      "November",
+      "Dezember",
+      "Januar",
+      "Februar",
+      "März"
+    ],
+    "highlights": [
+      "Weltklasse-Sichtfischen auf Forellen in Neuseeland",
+      "Barramundi im tropischen Norden Australiens",
+      "Big-Game auf Marlin am Great Barrier Reef",
+      "Unberührte Natur und nachhaltige Angelkultur"
+    ],
+    "tips": [
+      "In Neuseeland ist eine Fishing Licence landesweit Pflicht.",
+      "Die beste Forellensaison liegt im Südsommer von November bis März.",
+      "Wathose und Polarisationsbrille sind fürs Sichtfischen unverzichtbar."
+    ],
+    "featured": false
+  },
+  {
+    "id": "balkan",
+    "name": "Balkan",
+    "nameEn": "Balkans",
+    "continent": "Europa",
+    "tagline": "Kristallklare Karstflüsse, wilde Donau-Nebenflüsse und unberührte Gebirgsseen",
+    "description": "Der Balkan ist eine der letzten großen Wildnis-Angelregionen Europas. Flüsse wie die Neretva in Bosnien-Herzegowina, die Soča in Slowenien und die Crna in Nordmazedonien zählen zu den klarsten und kältesten Gebirgsbächen des Kontinents. In ihrem Schutz gedeihen endemische Bachforellen-Unterarten, der Huchen und die selten gewordene Äsche in Beständen, die anderswo längst verschwunden sind.\n\nDie Donau und ihre großen Zuflüsse Sava, Drina und Tisa bieten im Tiefland imposante Raubfisch-Gewässer. Zander, Wels und mächtige Donaukarauschen stehen hier neben Schied und Rapfen, die beim Streamer-Fischen auf sich aufmerksam machen. Der Ohridsee an der Grenze zwischen Nordmazedonien und Albanien beherbergt mit der Ohrid-Forelle eine nirgendwo sonst vorkommende Art.\n\nDie touristische Infrastruktur ist in vielen Teilen noch dünn – was für Abenteurer ein klarer Vorteil ist. Angelführer und Lokalkenner sind unverzichtbar, um die besten Spots zu finden. Beste Reisezeit für Fliegenfischer ist das Frühjahr und der frühe Sommer, wenn Maifliegenhatches die Oberfläche beleben.",
+    "countries": [
+      "Slowenien",
+      "Kroatien",
+      "Bosnien-Herzegowina",
+      "Serbien",
+      "Montenegro",
+      "Nordmazedonien",
+      "Albanien",
+      "Bulgarien",
+      "Griechenland"
+    ],
+    "waters": [
+      "Soča",
+      "Neretva",
+      "Drina",
+      "Sava",
+      "Donau",
+      "Tisa",
+      "Ohridsee",
+      "Vardar",
+      "Struma"
+    ],
+    "species": [
+      "Huchen",
+      "Bachforelle",
+      "Regenbogenforelle",
+      "Äsche",
+      "Zander",
+      "Wels",
+      "Hecht",
+      "Rapfen",
+      "Ohrid-Forelle"
+    ],
+    "techniques": [
+      "Fliegenfischen",
+      "Spinnfischen",
+      "Nymphen-Angeln",
+      "Karpfenangeln",
+      "Bootsangeln"
+    ],
+    "bestSeason": [
+      "April",
+      "Mai",
+      "Juni",
+      "September",
+      "Oktober"
+    ],
+    "highlights": [
+      "Huchen-Angeln in der Drina und oberen Sava",
+      "Endemische Ohrid-Forelle im Ohridsee",
+      "Fliegenfischen auf Äsche in der smaragdgrünen Soča",
+      "Wels und Zander in der serbischen Donau"
+    ],
+    "tips": [
+      "Für die Soča in Slowenien unbedingt Catch-and-Release-Regeln beachten und Angelschein vor Ort kaufen",
+      "Bosnische Flussführer sprechen oft nur Bosnisch – Vorbereitung mit Übersetzungs-App empfohlen"
+    ],
+    "featured": false
+  },
+  {
+    "id": "baltikum",
+    "name": "Baltikum",
+    "nameEn": "Baltic States",
+    "continent": "Europa",
+    "tagline": "Bernsteinfarbene Moorflüsse, Ostseeküste und meerforellen-reiche Mündungsgewässer",
+    "description": "Estland, Lettland und Litauen bieten eine eigenständige Angellandschaft zwischen Ostseeküste und osteuropäischer Tiefebene. Die großen Flüsse Daugava, Nemunas und Emajõgi entwässern ausgedehnte Waldgebiete und Moore und verbinden Inlandseen mit der Ostsee. Im Herbst ziehen Meerforellen und Lachse aus der Ostsee in die Mündungsflüsse – ein Spektakel, das Angler aus ganz Europa anzieht.\n\nDie Seenplatten im Inneren der baltischen Staaten, besonders in Estland rund um den Peipussee und in Litauen um den Žaliasis See, beherbergen Barsch, Zander, Karpfen und Hecht in beeindruckender Dichte. Eisangeln im Winter auf zugefrorenen Seen ist eine tief verwurzelte Tradition und bietet besondere Erlebnisse für mitteleuropäische Besucher.\n\nDie Natur ist weitgehend unberührt, die Angeldruckdichte gering und die Einheimischen gastfreundlich. Angelgenehmigungen sind unkompliziert erhältlich. Kurzbesuche lassen sich gut mit der Bernsteinküste und mittelalterlichen Altstädten verbinden.",
+    "countries": [
+      "Estland",
+      "Lettland",
+      "Litauen"
+    ],
+    "waters": [
+      "Daugava",
+      "Nemunas",
+      "Emajõgi",
+      "Peipussee",
+      "Gauja",
+      "Žaliasis See",
+      "Narva",
+      "Venta"
+    ],
+    "species": [
+      "Meerforelle",
+      "Lachs",
+      "Zander",
+      "Hecht",
+      "Barsch",
+      "Karpfen",
+      "Plötze",
+      "Quappe"
+    ],
+    "techniques": [
+      "Spinnfischen",
+      "Fliegenfischen",
+      "Eisangeln",
+      "Karpfenangeln",
+      "Pose-Angeln"
+    ],
+    "bestSeason": [
+      "September",
+      "Oktober",
+      "November",
+      "Januar",
+      "Februar",
+      "Mai",
+      "Juni"
+    ],
+    "highlights": [
+      "Meerforellen-Zug im Herbst in den Ostseeflüssen",
+      "Eisangeln auf Zander im Winter auf dem Peipussee",
+      "Hechtangeln in den Schilf-Buchten der Gauja",
+      "Unberührte Waldflüsse ohne Massentourismus"
+    ],
+    "tips": [
+      "Für Lachs- und Meerforellenschein im Herbst frühzeitig beim lettischen Umweltministerium anfragen",
+      "Warme Ausrüstung für Herbst und Winter einplanen – Temperaturen fallen früh unter null"
+    ],
+    "featured": false
+  },
+  {
+    "id": "britische-inseln",
+    "name": "Britische Inseln",
+    "nameEn": "British Isles",
+    "continent": "Europa",
+    "tagline": "Heimat des modernen Karpfen- und Fliegenfischens.",
+    "description": "Großbritannien und Irland blicken auf eine jahrhundertealte Angeltradition zurück. Hier wurde das moderne Karpfenangeln geprägt, und die Trockenfliege wurde auf den Kreidebächen Südenglands perfektioniert.\n\nDie irischen Loughs sind berühmt für ihre Hechte und wilden Bachforellen, während Schottland mit Lachsflüssen wie dem Spey und Tweed sowie kämpferischem Meerforellenangeln lockt.\n\nVon kommerziellen Coarse-Fishing-Seen über stille Karpfenweiher bis zu rauen Atlantikküsten für Brandungs- und Wolfsbarschangeln bietet die Region eine enorme Bandbreite.",
+    "countries": [
+      "England",
+      "Schottland",
+      "Wales",
+      "Irland"
+    ],
+    "waters": [
+      "Lough Corrib",
+      "River Spey",
+      "River Tweed",
+      "Kreidebäche von Hampshire",
+      "Norfolk Broads"
+    ],
+    "species": [
+      "Karpfen",
+      "Hecht",
+      "Barsch",
+      "Schleie",
+      "Brassen",
+      "Bachforelle",
+      "Atlantischer Lachs",
+      "Wolfsbarsch"
+    ],
+    "techniques": [
+      "Karpfenangeln",
+      "Fliegenfischen",
+      "Feederangeln",
+      "Posenangeln",
+      "Spinnfischen",
+      "Brandungsangeln"
+    ],
+    "bestSeason": [
+      "April",
+      "Mai",
+      "Juni",
+      "September",
+      "Oktober"
+    ],
+    "highlights": [
+      "Wiege des modernen Karpfenangelns",
+      "Klassische Kreidebäche für die Trockenfliege",
+      "Hechtreiche irische Loughs in wilder Landschaft",
+      "Schottische Lachsflüsse von Weltrang"
+    ],
+    "tips": [
+      "In England und Wales ist die Rod Licence der Environment Agency Pflicht.",
+      "Beachte die Close Season für Coarse Fish an Fließgewässern.",
+      "Buche begehrte Lachsbeats am Tweed weit im Voraus."
+    ],
+    "featured": false
+  },
+  {
+    "id": "iberische-halbinsel",
+    "name": "Iberische Halbinsel",
+    "nameEn": "Iberian Peninsula",
+    "continent": "Europa",
+    "tagline": "Atlantikküste, Hochlandflüsse und mediterrane Vielfalt zwischen Minho und Ebro",
+    "description": "Die Iberische Halbinsel vereint auf engstem Raum eine erstaunliche Gewässervielfalt: raue Atlantikflüsse im Norden, stille Stauseen auf dem kastilischen Hochplateau und flache Lagunen an der andalusischen Mittelmeerküste. Der Rio Ebro zählt zu den produktivsten Welsgewässern Europas, während die Bergflüsse Galiciens und Asturiens für wilde Lachse und Meerforellen berühmt sind.\n\nPortugals Douro und Minho sowie die spanischen Flüsse Tajo und Guadalquivir bieten Ansitzmöglichkeiten für Großkarpfen und im Tidebereich für Meeräschen und Seebarsche. Besonders die Embalses – die großen Speicherseen auf der Meseta – beherbergen außerordentliche Bestände an Schwarzbarsch und eingeschleppten Großhechten, die Weltrekordgewässer hervorbrachten.\n\nKüstenangler schätzen das Baskenland und die Costa Verde für Meeres-Stationärangelei auf Thunfisch und Bonito, während im Süden rund um Cádiz und die Algarve Brassen, Rotbarben und Goldfische unter der warmen Sonne stehen. Die milden Winter erlauben ganzjähriges Angeln, am produktivsten sind Frühling und Herbst.",
+    "countries": [
+      "Spanien",
+      "Portugal"
+    ],
+    "waters": [
+      "Rio Ebro",
+      "Rio Tajo",
+      "Rio Douro",
+      "Rio Guadalquivir",
+      "Rio Minho",
+      "Embalse de Mequinenza",
+      "Embalse de Caspe",
+      "Ria de Arosa"
+    ],
+    "species": [
+      "Wels",
+      "Karpfen",
+      "Schwarzbarsch",
+      "Hecht",
+      "Lachs",
+      "Meerforelle",
+      "Seebars",
+      "Meeräsche",
+      "Roter Thunfisch",
+      "Brasse"
+    ],
+    "techniques": [
+      "Wallerangeln",
+      "Karpfenangeln",
+      "Spinnfischen",
+      "Meeresangeln",
+      "Fliegenfischen",
+      "Bootsangeln"
+    ],
+    "bestSeason": [
+      "März",
+      "April",
+      "Mai",
+      "September",
+      "Oktober",
+      "November"
+    ],
+    "highlights": [
+      "Ebro-Welse über 200 cm in der Nähe von Mequinenza",
+      "Atlantischer Lachs in den Bergflüssen Asturiens",
+      "Weltklasse-Schwarzbarschfischen in den Embalses",
+      "Küstenangeln auf Thunfisch im Atlantik"
+    ],
+    "tips": [
+      "Für den Ebro-Wels empfehlen sich Capitaine-Boote mit ortskundigem Guide",
+      "Lachsgenehmigungen in Asturien und Galicien frühzeitig beantragen – Kontingente sind begrenzt"
+    ],
+    "featured": false
+  },
+  {
+    "id": "island",
+    "name": "Island",
+    "nameEn": "Iceland",
+    "continent": "Europa",
+    "tagline": "Vulkanische Gletscherflüsse und legendäre Atlantische Lachsgewässer unter der Mitternachtssonne",
+    "description": "Island gilt unter Fliegenfischern als heiliges Land: Nirgendwo sonst läuft der Atlantische Lachs in solcher Dichte in kurze, glasklare Gletscherflüsse ein. Die berühmten Angelflüsse Haukadalsá, Nordurá, Laxá í Kjós und Öxará haben Weltklasse-Status und werden von exklusiven Angelvereinen streng kontingentiert. Die kurze Saison von Juni bis September bietet bei Mitternachtssonne rund-um-die-Uhr Angelei.\n\nNeben dem Lachs lockt die Meerforelle in die küstennahen Flüsse, und in zahlreichen Vulkanseen steht Arktischer Saibling in beeindruckender Größe. Der Þingvallavatn-See beherbergt vier endemische Saibling-Morphen, die nur hier vorkommen und für Wissenschaftler und Angler gleichermaßen faszinierend sind.\n\nIsland ist kein günstiges Angelziel: Top-Lachsflüsse kosten mehrere tausend Euro pro Rute und Tag. Doch Staatsflüsse und Gemeindegewässer bieten zugänglichere Alternativen. Das Naturerlebnis – Geysire, Vulkane, Nordlichter – macht den Aufenthalt unvergesslich.",
+    "countries": [
+      "Island"
+    ],
+    "waters": [
+      "Haukadalsá",
+      "Nordurá",
+      "Laxá í Kjós",
+      "Öxará",
+      "Þingvallavatn",
+      "Lagarfljót",
+      "Elliðaár"
+    ],
+    "species": [
+      "Atlantischer Lachs",
+      "Meerforelle",
+      "Arktischer Saibling",
+      "Bachforelle",
+      "Dreistachliger Stichling"
+    ],
+    "techniques": [
+      "Fliegenfischen",
+      "Nassfliege",
+      "Trockenfliege",
+      "Spinnfischen",
+      "Bootsangeln"
+    ],
+    "bestSeason": [
+      "Juni",
+      "Juli",
+      "August",
+      "September"
+    ],
+    "highlights": [
+      "Lachs-Fliegenfischen in den legendären Flüssen wie Nordurá und Haukadalsá",
+      "Endemische Saibling-Morphen im Þingvallavatn",
+      "Angeln unter der Mitternachtssonne",
+      "Arktischer Saibling in unberührten Hochlandseen"
+    ],
+    "tips": [
+      "Buchungen für Top-Lachsflüsse oft 1–2 Jahre im Voraus – Wartelisten frühzeitig eintragen",
+      "Günstigere Alternative: staatliche Flüsse über das isländische Angelportal angling.is buchen"
+    ],
+    "featured": false
+  },
+  {
+    "id": "karibik",
+    "name": "Karibik",
+    "nameEn": "Caribbean",
+    "continent": "Nordamerika",
+    "tagline": "Türkise Flats für Bonefish, Tarpon und Permit.",
+    "description": "Die Karibik ist das Mekka des Salzwasser-Fliegenfischens. Endlose Sandbänke und Flats vor den Bahamas, Kuba und Belize bieten ideale Bedingungen für die Jagd auf die schnellsten Flachwasserfische der Welt.\n\nBonefish, Tarpon und Permit bilden die berühmte Grand Slam-Kombination, die jeden Fliegenfischer reizt. Das Sichtfischen im knietiefen, glasklaren Wasser verlangt Geschick und ruhige Hände.\n\nVor den Riffkanten und im offenen Blauwasser locken zudem Barrakuda, Mahi-Mahi und Marline – die Karibik vereint feinstes Flats-Fishing mit kraftvollem Big-Game.",
+    "countries": [
+      "Bahamas",
+      "Kuba",
+      "Belize",
+      "Mexiko",
+      "Dominikanische Republik"
+    ],
+    "waters": [
+      "Bahamas-Flats",
+      "Jardines de la Reina",
+      "Ascension Bay",
+      "Yucatán-Küste"
+    ],
+    "species": [
+      "Bonefish",
+      "Tarpon",
+      "Barracuda",
+      "Mahi-Mahi",
+      "Blauer Marlin",
+      "Thunfisch"
+    ],
+    "techniques": [
+      "Fliegenfischen",
+      "Spinnfischen",
+      "Schleppangeln"
+    ],
+    "bestSeason": [
+      "März",
+      "April",
+      "Mai",
+      "Juni",
+      "Oktober",
+      "November"
+    ],
+    "highlights": [
+      "Grand Slam aus Bonefish, Tarpon und Permit",
+      "Sichtfischen auf glasklaren Flats",
+      "Big-Game auf Marlin und Mahi-Mahi vor dem Riff",
+      "Ganzjährig warmes, tropisches Klima"
+    ],
+    "tips": [
+      "Viele Flats liegen in Schutzgebieten und erfordern lizenzierte Guides.",
+      "Catch and Release ist bei Bonefish und Tarpon weithin Standard.",
+      "Die Hurrikan-Saison von August bis Oktober bei der Planung beachten."
+    ],
+    "featured": false
+  },
+  {
+    "id": "mitteleuropa",
+    "name": "Mitteleuropa",
+    "nameEn": "Central Europe",
+    "continent": "Europa",
+    "tagline": "Klassische Süßwasserheimat von Hecht, Zander und Karpfen.",
+    "description": "Mitteleuropa ist geprägt von einem dichten Netz aus Flüssen, Seen, Talsperren und Kanälen. Die gemäßigte Klimazone und die ausgeprägten Jahreszeiten machen das Angeln hier vielfältig und gut planbar.\n\nVom Forellenbach im Mittelgebirge über karpfenreiche Baggerseen bis zu mächtigen Strömen wie Rhein, Elbe und Donau ist alles vertreten. Strenge Schonzeiten und Fangbestimmungen sichern die Bestände nachhaltig.\n\nDie ausgeprägte Vereinskultur sorgt für gepflegte Gewässer und gut zugängliche Angelplätze, während große Talsperren und der Bodensee auch kapitale Raubfische und Renken beherbergen.",
+    "countries": [
+      "Deutschland",
+      "Österreich",
+      "Schweiz",
+      "Tschechien",
+      "Polen",
+      "Niederlande"
+    ],
+    "waters": [
+      "Rhein",
+      "Elbe",
+      "Donau",
+      "Bodensee",
+      "Bagger- und Talsperren",
+      "Müritz"
+    ],
+    "species": [
+      "Hecht",
+      "Zander",
+      "Karpfen",
+      "Barsch",
+      "Schleie",
+      "Brassen",
+      "Wels",
+      "Bachforelle",
+      "Renke"
+    ],
+    "techniques": [
+      "Spinnfischen",
+      "Karpfenangeln",
+      "Fliegenfischen",
+      "Grundangeln",
+      "Feederangeln",
+      "Posenangeln"
+    ],
+    "bestSeason": [
+      "April",
+      "Mai",
+      "Juni",
+      "September",
+      "Oktober"
+    ],
+    "highlights": [
+      "Dichtes Netz gut zugänglicher Vereinsgewässer",
+      "Klare Schonzeiten und nachhaltige Bewirtschaftung",
+      "Ganzjährig planbares Angeln dank vier Jahreszeiten",
+      "Vielfältige Gewässertypen von Forellenbach bis Großstrom"
+    ],
+    "tips": [
+      "Für die meisten Gewässer sind ein Fischereischein plus Erlaubnisschein nötig.",
+      "Informiere dich vorab über regionale Schonzeiten und Mindestmaße.",
+      "In Deutschland setzt der Schein eine bestandene Fischerprüfung voraus."
+    ],
+    "featured": true
+  },
+  {
+    "id": "mittelmeerraum",
+    "name": "Mittelmeerraum",
+    "nameEn": "Mediterranean",
+    "continent": "Europa",
+    "tagline": "Sonniges Meeresangeln zwischen Wolfsbarsch und Thunfisch.",
+    "description": "Der Mittelmeerraum umfasst die Küsten Spaniens, Frankreichs, Italiens, Griechenlands und Nordafrikas. Das warme, salzreiche Meer beherbergt eine bunte Artenvielfalt von Wolfsbarsch und Barrakuda bis zum mächtigen Roten Thun.\n\nFelsküsten, Lagunen und Flussmündungen bieten erstklassiges Spinn- und Brandungsangeln. Vor Sizilien und den Balearen ist das Big-Game-Fishing auf Thunfisch und Schwertfisch zuhause.\n\nIm Hinterland sorgen große Stauseen für ausgezeichnetes Süßwasserangeln – der spanische Ebro ist weltberühmt für gigantische Welse und Karpfen.",
+    "countries": [
+      "Spanien",
+      "Frankreich",
+      "Italien",
+      "Griechenland",
+      "Kroatien"
+    ],
+    "waters": [
+      "Ebro",
+      "Balearen",
+      "Straße von Messina",
+      "Costa Brava",
+      "Ägäis"
+    ],
+    "species": [
+      "Wolfsbarsch",
+      "Barracuda",
+      "Thunfisch",
+      "Schwertfisch",
+      "Wels",
+      "Karpfen",
+      "Hornhecht"
+    ],
+    "techniques": [
+      "Spinnfischen",
+      "Brandungsangeln",
+      "Schleppangeln",
+      "Grundangeln",
+      "Posenangeln"
+    ],
+    "bestSeason": [
+      "April",
+      "Mai",
+      "Juni",
+      "September",
+      "Oktober",
+      "November"
+    ],
+    "highlights": [
+      "Big-Game auf Roten Thun und Schwertfisch",
+      "Rekordwelse und Karpfen im spanischen Ebro",
+      "Abwechslungsreiches Spinnfischen an Felsküsten",
+      "Ganzjährig mildes Klima für lange Angelsaisons"
+    ],
+    "tips": [
+      "Für das Meeresangeln ist in vielen Ländern eine Lizenz erforderlich.",
+      "Der Fang von Rotem Thun unterliegt strengen Quoten und Verboten.",
+      "Frühe Morgen- und Abendstunden bringen im Sommer die besten Bisse."
+    ],
+    "featured": false
+  },
+  {
     "id": "naher-osten",
     "name": "Naher Osten",
     "nameEn": "Middle East",
     "continent": "Asien",
     "tagline": "Wüstenküsten und Stauseen zwischen zwei Strömen.",
     "description": "Der Nahe Osten verbindet karge Wüstenlandschaften mit überraschend ergiebigen Angelrevieren. Die warmen Gewässer des Roten Meeres und des Persischen Golfs sind farbenfrohe Salzwasserreviere.\n\nVor den Küsten Omans und der Vereinigten Arabischen Emirate locken Barrakuda, Thunfisch und kämpferische Großräuber im türkisen Wasser. Das Spinn- und Schleppangeln vor felsigen Küsten ist hier besonders beliebt.\n\nIm Landesinneren bieten die großen Stauseen an Euphrat und Tigris sowie Anatoliens Talsperren Süßwasserangeln auf Karpfen, Welse und Barben in eindrucksvoller Kulisse.",
-    "countries": ["Oman", "Vereinigte Arabische Emirate", "Türkei", "Iran", "Saudi-Arabien"],
-    "waters": ["Rotes Meer", "Persischer Golf", "Euphrat", "Tigris", "anatolische Stauseen"],
-    "species": ["Barracuda", "Thunfisch", "Makrele", "Karpfen", "Wels", "Barbe"],
-    "techniques": ["Spinnfischen", "Schleppangeln", "Grundangeln", "Brandungsangeln"],
-    "bestSeason": ["Oktober", "November", "Dezember", "März", "April"],
+    "countries": [
+      "Oman",
+      "Vereinigte Arabische Emirate",
+      "Türkei",
+      "Iran",
+      "Saudi-Arabien"
+    ],
+    "waters": [
+      "Rotes Meer",
+      "Persischer Golf",
+      "Euphrat",
+      "Tigris",
+      "anatolische Stauseen"
+    ],
+    "species": [
+      "Barracuda",
+      "Thunfisch",
+      "Makrele",
+      "Karpfen",
+      "Wels",
+      "Barbe"
+    ],
+    "techniques": [
+      "Spinnfischen",
+      "Schleppangeln",
+      "Grundangeln",
+      "Brandungsangeln"
+    ],
+    "bestSeason": [
+      "Oktober",
+      "November",
+      "Dezember",
+      "März",
+      "April"
+    ],
     "highlights": [
       "Farbenfrohe Salzwasserreviere im Roten Meer",
       "Kampfstarke Großräuber vor der Küste Omans",
@@ -300,17 +745,435 @@
     "featured": false
   },
   {
+    "id": "nordamerika",
+    "name": "Nordamerika",
+    "nameEn": "North America",
+    "continent": "Nordamerika",
+    "tagline": "Vom Forellenbach der Rockies bis zum Bass im Südstaaten-See.",
+    "description": "Nordamerika bietet eine schier endlose Vielfalt: kalte Forellenflüsse der Rocky Mountains, gewaltige Großen Seen, subtropische Bass-Reviere im Süden und die lachsreichen Küsten Alaskas und Kanadas.\n\nDas Fliegenfischen auf Forellen in Montana und Wyoming sowie das Bass-Fishing als nationaler Volkssport prägen die Angelkultur. Hechte, Zander und Welse runden das Süßwasserangebot ab.\n\nAn den Küsten reicht das Spektrum vom Streifenbarsch der Ostküste über pazifischen Lachs bis zum Heilbutt Alaskas – ein Kontinent, der für jede Technik Weltklasse-Reviere bereithält.",
+    "countries": [
+      "USA",
+      "Kanada",
+      "Mexiko"
+    ],
+    "waters": [
+      "Große Seen",
+      "Yellowstone River",
+      "Florida Everglades",
+      "Columbia River",
+      "Alaska-Küste"
+    ],
+    "species": [
+      "Forellenbarsch",
+      "Streifenbarsch",
+      "Regenbogenforelle",
+      "Bachforelle",
+      "Hecht",
+      "Zander",
+      "Atlantischer Lachs",
+      "Heilbutt"
+    ],
+    "techniques": [
+      "Fliegenfischen",
+      "Spinnfischen",
+      "Eisangeln",
+      "Schleppangeln",
+      "Vertikalangeln"
+    ],
+    "bestSeason": [
+      "Mai",
+      "Juni",
+      "Juli",
+      "August",
+      "September",
+      "Oktober"
+    ],
+    "highlights": [
+      "Weltklasse-Fliegenfischen in den Rocky Mountains",
+      "Bass-Fishing als amerikanischer Volkssport",
+      "Lachs- und Heilbuttreviere in Alaska und Kanada",
+      "Riesige Vielfalt vom Bergbach bis zum Ozean"
+    ],
+    "tips": [
+      "Jeder US-Bundesstaat verkauft eigene Lizenzen, oft bequem online.",
+      "Beachte die strengen Bag and Size Limits je Art und Region.",
+      "In Bärengebieten Alaskas Verhaltensregeln und Bärenspray beachten."
+    ],
+    "featured": true
+  },
+  {
+    "id": "ostasien",
+    "name": "Ostasien",
+    "nameEn": "East Asia",
+    "continent": "Asien",
+    "tagline": "Feines Süßwasserangeln und kraftvolles Jigging am Pazifik.",
+    "description": "Ostasien mit Japan, China und Korea verbindet uralte Angeltradition mit modernster Technik. Japan ist die Wiege vieler innovativer Angelmethoden und Gerätekonzepte, vom feinen Tenkara bis zum schweren Jigging.\n\nDie Bergbäche Japans beherbergen einheimische Forellen und Saiblinge, während Stauseen und Flüsse gute Bestände an Forellenbarsch und Karpfen bieten. Das filigrane Süßwasserangeln ist hier eine echte Kunstform.\n\nVor den pazifischen Küsten und rund um die japanischen Inseln locken Thunfisch, Makrele und kämpferische Großräuber – ein Eldorado für ambitioniertes Spinn- und Vertikalangeln.",
+    "countries": [
+      "Japan",
+      "China",
+      "Südkorea",
+      "Taiwan"
+    ],
+    "waters": [
+      "japanische Bergbäche",
+      "Biwa-See",
+      "Jangtsekiang",
+      "pazifische Küste"
+    ],
+    "species": [
+      "Forellenbarsch",
+      "Karpfen",
+      "Bachsaibling",
+      "Regenbogenforelle",
+      "Thunfisch",
+      "Makrele",
+      "Barsch"
+    ],
+    "techniques": [
+      "Fliegenfischen",
+      "Spinnfischen",
+      "Vertikalangeln",
+      "Grundangeln"
+    ],
+    "bestSeason": [
+      "April",
+      "Mai",
+      "Juni",
+      "September",
+      "Oktober",
+      "November"
+    ],
+    "highlights": [
+      "Japan als Ursprung vieler moderner Angeltechniken",
+      "Traditionelles Tenkara in klaren Bergbächen",
+      "Kraftvolles Jigging vor der Pazifikküste",
+      "Feines, technisch anspruchsvolles Süßwasserangeln"
+    ],
+    "tips": [
+      "Regionale Vorschriften und Vereinskarten variieren stark – vorab prüfen.",
+      "Lokale Angelgeschäfte sind eine hervorragende Quelle für Tipps und Köder.",
+      "Den Taifun-Saison im Spätsommer bei Küstentouren einplanen."
+    ],
+    "featured": false
+  },
+  {
+    "id": "osteuropa",
+    "name": "Osteuropa",
+    "nameEn": "Eastern Europe",
+    "continent": "Europa",
+    "tagline": "Weite Ströme und stille Seen abseits des Trubels.",
+    "description": "Osteuropa von den baltischen Staaten über Ungarn bis zum Donaudelta bietet ursprüngliche Angelreviere mit gesunden Beständen und oft niedrigem Angeldruck.\n\nGroße Flüsse wie Donau, Theiß und Weichsel sowie der ungarische Plattensee zählen zu den besten Raubfischrevieren Europas. Wels, Zander und Hecht erreichen hier beachtliche Größen.\n\nDas Donaudelta in Rumänien gilt als artenreiches Paradies, in dem sich Karpfen-, Wels- und Raubfischangeln in unberührter Sumpflandschaft verbinden.",
+    "countries": [
+      "Ungarn",
+      "Rumänien",
+      "Polen",
+      "Litauen",
+      "Slowakei",
+      "Serbien"
+    ],
+    "waters": [
+      "Donaudelta",
+      "Plattensee",
+      "Theiß",
+      "Weichsel",
+      "Masurische Seen"
+    ],
+    "species": [
+      "Wels",
+      "Zander",
+      "Hecht",
+      "Karpfen",
+      "Barsch",
+      "Brassen",
+      "Barbe"
+    ],
+    "techniques": [
+      "Spinnfischen",
+      "Karpfenangeln",
+      "Grundangeln",
+      "Feederangeln",
+      "Vertikalangeln"
+    ],
+    "bestSeason": [
+      "April",
+      "Mai",
+      "Juni",
+      "September",
+      "Oktober"
+    ],
+    "highlights": [
+      "Artenreiches Donaudelta als unberührtes Paradies",
+      "Kapitale Welse in den großen Strömen",
+      "Geringer Angeldruck und faire Preise",
+      "Hervorragendes Zanderangeln im Plattensee"
+    ],
+    "tips": [
+      "Eine staatliche Angellizenz ist meist günstig, aber überall Pflicht.",
+      "Im Donaudelta lohnt ein ortskundiger Guide mit Boot.",
+      "Beachte länderspezifische Schonzeiten für Zander und Hecht."
+    ],
+    "featured": false
+  },
+  {
+    "id": "patagonien",
+    "name": "Patagonien",
+    "nameEn": "Patagonia",
+    "continent": "Südamerika",
+    "tagline": "Endlose Steppe, türkisblaue Gletscherseen und weltberühmte Forellen-Traumflüsse",
+    "description": "Patagonien gilt unter Fliegenfischern als eines der letzten Paradiese auf Erden. Die Flüsse Rio Limay, Rio Chimehuin, Rio Traful und der mächtige Rio Baker in Chile zählen zu den bedeutendsten Forellengewässern der Welt. Eingeschleppte Regenbogen- und Bachforellen sowie Lachs haben sich in den nährstoffarmen, aber klaren Gletscherflüssen zu Rekordgrößen entwickelt – Fische über 60 cm sind keine Seltenheit, und Exemplare über 80 cm kommen regelmäßig vor.\n\nDie Seenlandschaft der argentinischen und chilenischen Seenregion – Lago Nahuel Huapi, Lago Lacar, Lago General Carrera – bietet riesige Wasserflächen mit kaum angeltem Bestand. Der Lago Strobel (auch Jurassic Lake genannt) hat einen weltweiten Ruf für Riesen-Regenbogenforellen bis 12 kg und ist eines der exklusivsten Angelziele Südamerikas.\n\nDie Saison dauert von November bis April und fällt in den südamerikanischen Sommer. Wind ist eine Konstante in Patagonien – technisches Fliegenfischen unter erschwerten Bedingungen gehört dazu. Lodges bieten hochwertige Unterkünfte in der Wildnis, können jedoch teuer sein.",
+    "countries": [
+      "Argentinien",
+      "Chile"
+    ],
+    "waters": [
+      "Rio Limay",
+      "Rio Chimehuin",
+      "Rio Traful",
+      "Rio Baker",
+      "Lago Nahuel Huapi",
+      "Lago Strobel",
+      "Rio Futaleufú",
+      "Lago General Carrera"
+    ],
+    "species": [
+      "Regenbogenforelle",
+      "Bachforelle",
+      "Atlantischer Lachs",
+      "Königslachs",
+      "Silberlachs",
+      "Marmor-Forelle"
+    ],
+    "techniques": [
+      "Fliegenfischen",
+      "Trockenfliege",
+      "Nymphen-Angeln",
+      "Streamer-Fischen",
+      "Bootsangeln",
+      "Waten"
+    ],
+    "bestSeason": [
+      "November",
+      "Dezember",
+      "Januar",
+      "Februar",
+      "März"
+    ],
+    "highlights": [
+      "Riesige Regenbogenforellen im legendären Lago Strobel (Jurassic Lake)",
+      "Trockenfliegen-Angeln auf den Flachstrecken des Rio Chimehuin",
+      "Wildheit und Weite der patagonischen Steppe",
+      "Lachsangeln im chilenischen Rio Baker und Rio Futaleufú"
+    ],
+    "tips": [
+      "Starker Wind ist in Patagonien normal – schwere Fliegenruten ab Klasse 7 und Windwurftechnik einüben",
+      "Lago Strobel nur per Flugzeug erreichbar – Reise frühzeitig über Lodges organisieren"
+    ],
+    "featured": false
+  },
+  {
+    "id": "russland-sibirien",
+    "name": "Russland & Sibirien",
+    "nameEn": "Russia & Siberia",
+    "continent": "Asien",
+    "tagline": "Endlose Wildnis mit Taimen und urtümlichen Fischen.",
+    "description": "Russland und Sibirien bieten einige der letzten echten Wildnis-Reviere der Erde. Riesige Flusssysteme wie Ob, Jenissei und Lena durchziehen menschenleere Taiga und Tundra.\n\nDer mongolisch-sibirische Taimen, der größte Lachsfisch der Welt, ist das legendäre Ziel vieler Fliegenfischer. Daneben locken Äschen, Saiblinge und im riesigen Baikalsee einzigartige Arten.\n\nDie Halbinsel Kamtschatka gilt als Mekka des Lachs- und Forellenfischens, wo unzählige unberührte Flüsse in den Pazifik münden und Bären die Ufer säumen.",
+    "countries": [
+      "Russland",
+      "Mongolei",
+      "Kasachstan"
+    ],
+    "waters": [
+      "Baikalsee",
+      "Wolga",
+      "Kamtschatka-Flüsse",
+      "Lena",
+      "Ob"
+    ],
+    "species": [
+      "Äsche",
+      "Bachsaibling",
+      "Regenbogenforelle",
+      "Hecht",
+      "Barsch",
+      "Stör",
+      "Atlantischer Lachs"
+    ],
+    "techniques": [
+      "Fliegenfischen",
+      "Spinnfischen",
+      "Eisangeln",
+      "Grundangeln"
+    ],
+    "bestSeason": [
+      "Juni",
+      "Juli",
+      "August",
+      "September"
+    ],
+    "highlights": [
+      "Taimen, der größte Lachsfisch der Welt",
+      "Unberührte Lachsflüsse auf Kamtschatka",
+      "Einzigartige Arten im uralten Baikalsee",
+      "Wildnis-Expeditionen abseits jeder Zivilisation"
+    ],
+    "tips": [
+      "Reisen erfordern lange Vorlaufzeit, Visa und meist organisierte Camps.",
+      "Taimen steht unter Schutz – konsequentes Catch and Release ist Standard.",
+      "Auf gute Ausrüstung gegen Kälte und Mücken kommt es entscheidend an."
+    ],
+    "featured": false
+  },
+  {
+    "id": "skandinavien",
+    "name": "Skandinavien",
+    "nameEn": "Scandinavia",
+    "continent": "Europa",
+    "tagline": "Endlose Seen, wilde Küsten und kapitale Fische.",
+    "description": "Skandinavien ist ein Traumziel für Angler: Schweden und Finnland zählen zehntausende Seen, Norwegen bietet mit seinen Fjorden eines der besten Meeresangelreviere der Welt.\n\nIn vielen Gebieten gilt das Jedermannsrecht, das Angeln vielerorts frei macht. Riesige Hechte, kämpferische Meerforellen und im Meer Dorsch, Köhler und Heilbutt locken Jahr für Jahr.\n\nDie nordischen Lachsflüsse wie die norwegische Gaula oder Tana zählen zu den legendärsten der Welt, während die felsigen Ostseeküsten Dänemarks und Schwedens als Eldorado für das Meerforellenangeln gelten.",
+    "countries": [
+      "Norwegen",
+      "Schweden",
+      "Finnland",
+      "Dänemark"
+    ],
+    "waters": [
+      "Norwegische Fjorde",
+      "Vänern",
+      "finnische Seenplatte",
+      "Ostseeküste",
+      "Gaula"
+    ],
+    "species": [
+      "Hecht",
+      "Meerforelle",
+      "Atlantischer Lachs",
+      "Dorsch",
+      "Köhler",
+      "Heilbutt",
+      "Barsch"
+    ],
+    "techniques": [
+      "Schleppangeln",
+      "Spinnfischen",
+      "Fliegenfischen",
+      "Brandungsangeln",
+      "Pilken",
+      "Meerforellenangeln"
+    ],
+    "bestSeason": [
+      "Mai",
+      "Juni",
+      "Juli",
+      "August",
+      "September"
+    ],
+    "highlights": [
+      "Jedermannsrecht erlaubt vielerorts freies Angeln",
+      "Norwegens Fjorde mit Heilbutt und Dorsch in Rekordgrößen",
+      "Legendäre Lachsflüsse wie Gaula und Tana",
+      "Unberührte Natur und enorme Gewässerdichte"
+    ],
+    "tips": [
+      "An der norwegischen Küste gelten Ausfuhrgrenzen für Fischfilet – vorher informieren.",
+      "Für viele Lachsflüsse ist eine teure, kontingentierte Tageskarte nötig.",
+      "Im Meer immer Wetter und Strömung beachten – Sicherheit geht vor."
+    ],
+    "featured": true
+  },
+  {
+    "id": "suedamerika",
+    "name": "Südamerika",
+    "nameEn": "South America",
+    "continent": "Südamerika",
+    "tagline": "Goldener Dorado, Riesenwelse und patagonische Forellen.",
+    "description": "Südamerika begeistert mit extremen Kontrasten: das tropische Amazonas- und Pantanal-Becken mit exotischen Raubfischen und die kühlen, kristallklaren Flüsse Patagoniens mit kapitalen Forellen.\n\nDer goldene Dorado in Argentinien und Bolivien gilt als einer der aggressivsten Süßwasserräuber der Welt. Im Amazonas locken Pfauenbarsche, riesige Welse und der gepanzerte Arapaima.\n\nPatagonien in Argentinien und Chile zählt zu den besten Forellenrevieren des Planeten – weite, menschenleere Flusstäler und Seen voller großer Regenbogen- und Bachforellen.",
+    "countries": [
+      "Argentinien",
+      "Brasilien",
+      "Chile",
+      "Bolivien",
+      "Peru"
+    ],
+    "waters": [
+      "Amazonas",
+      "Pantanal",
+      "Río Paraná",
+      "patagonische Flüsse",
+      "Lago Strobel"
+    ],
+    "species": [
+      "Regenbogenforelle",
+      "Bachforelle",
+      "Wels",
+      "Barsch",
+      "Tarpon"
+    ],
+    "techniques": [
+      "Fliegenfischen",
+      "Spinnfischen",
+      "Grundangeln",
+      "Schleppangeln"
+    ],
+    "bestSeason": [
+      "November",
+      "Dezember",
+      "Januar",
+      "Februar",
+      "März"
+    ],
+    "highlights": [
+      "Goldener Dorado als kampfstarker Süßwasserräuber",
+      "Exotische Artenvielfalt im Amazonas und Pantanal",
+      "Patagoniens Forellenflüsse von Weltklasse",
+      "Weite, unberührte Reviere mit hoher Bissfrequenz"
+    ],
+    "tips": [
+      "Die beste Saison liegt in der südlichen Sommerhälfte von November bis März.",
+      "In abgelegenen Regionen sind Lodges und Guides nahezu unverzichtbar.",
+      "Für tropische Reviere passende Stahlvorfächer und starkes Gerät mitnehmen."
+    ],
+    "featured": true
+  },
+  {
     "id": "suedasien",
     "name": "Südasien",
     "nameEn": "South Asia",
     "continent": "Asien",
     "tagline": "Mächtige Mahseer in wilden Himalaya-Flüssen.",
     "description": "Südasien rund um Indien, Nepal und Sri Lanka ist die Heimat des legendären Mahseer, eines kraftvollen Karpfenartigen, der in den reißenden Flüssen des Himalaya-Vorlandes lebt.\n\nDie Bergflüsse Indiens und Nepals fordern Angler mit starker Strömung und kapitalen Fischen heraus. Das Spinn- und Grundangeln auf den goldenen Mahseer gilt als eines der großen Süßwasserabenteuer Asiens.\n\nAn den tropischen Küsten und in den Backwaters Sri Lankas und Südindiens locken zudem Barrakuda, Wolfsbarsche und kräftige Welse in warmem, fischreichem Wasser.",
-    "countries": ["Indien", "Nepal", "Sri Lanka", "Bhutan", "Bangladesch"],
-    "waters": ["Cauvery", "Ramganga", "Himalaya-Flüsse", "Backwaters von Kerala"],
-    "species": ["Barbe", "Wels", "Barracuda", "Wolfsbarsch", "Barsch"],
-    "techniques": ["Spinnfischen", "Grundangeln", "Fliegenfischen", "Posenangeln"],
-    "bestSeason": ["Februar", "März", "April", "Oktober", "November"],
+    "countries": [
+      "Indien",
+      "Nepal",
+      "Sri Lanka",
+      "Bhutan",
+      "Bangladesch"
+    ],
+    "waters": [
+      "Cauvery",
+      "Ramganga",
+      "Himalaya-Flüsse",
+      "Backwaters von Kerala"
+    ],
+    "species": [
+      "Barbe",
+      "Wels",
+      "Barracuda",
+      "Wolfsbarsch",
+      "Barsch"
+    ],
+    "techniques": [
+      "Spinnfischen",
+      "Grundangeln",
+      "Fliegenfischen",
+      "Posenangeln"
+    ],
+    "bestSeason": [
+      "Februar",
+      "März",
+      "April",
+      "Oktober",
+      "November"
+    ],
     "highlights": [
       "Der legendäre goldene Mahseer als Traumfisch",
       "Wilde Bergflüsse im Himalaya-Vorland",
@@ -331,11 +1194,41 @@
     "continent": "Asien",
     "tagline": "Tropische Vielfalt von Riesenwelsen bis Riffräubern.",
     "description": "Südostasien ist ein Hotspot exotischer Süßwasserfische. Thailands berühmte Angelseen beherbergen gigantische Welse, Pacus und Karpfenarten aus aller Welt in oft unglaublichen Größen.\n\nDer Mekong und seine Nebenflüsse gelten als eines der artenreichsten Flusssysteme der Erde mit dem mythischen Mekong-Riesenwels. Das schwere Grundangeln auf solche Kolosse ist hier ein einzigartiges Erlebnis.\n\nAn den Küsten und Inseln Indonesiens, Malaysias und der Philippinen locken Barrakuda, Thunfisch und kraftvolle Riffräuber – ein Paradies für Jigging und tropisches Spinnfischen.",
-    "countries": ["Thailand", "Vietnam", "Malaysia", "Indonesien", "Philippinen", "Kambodscha"],
-    "waters": ["Mekong", "Bungsamran-See", "Andamanensee", "Sundainseln"],
-    "species": ["Wels", "Karpfen", "Barracuda", "Thunfisch", "Makrele", "Barsch"],
-    "techniques": ["Grundangeln", "Spinnfischen", "Posenangeln", "Schleppangeln"],
-    "bestSeason": ["November", "Dezember", "Januar", "Februar", "März"],
+    "countries": [
+      "Thailand",
+      "Vietnam",
+      "Malaysia",
+      "Indonesien",
+      "Philippinen",
+      "Kambodscha"
+    ],
+    "waters": [
+      "Mekong",
+      "Bungsamran-See",
+      "Andamanensee",
+      "Sundainseln"
+    ],
+    "species": [
+      "Wels",
+      "Karpfen",
+      "Barracuda",
+      "Thunfisch",
+      "Makrele",
+      "Barsch"
+    ],
+    "techniques": [
+      "Grundangeln",
+      "Spinnfischen",
+      "Posenangeln",
+      "Schleppangeln"
+    ],
+    "bestSeason": [
+      "November",
+      "Dezember",
+      "Januar",
+      "Februar",
+      "März"
+    ],
     "highlights": [
       "Gigantische Welse in Thailands Angelseen",
       "Mythischer Riesenwels im Mekong",
@@ -350,77 +1243,183 @@
     "featured": false
   },
   {
-    "id": "ostasien",
-    "name": "Ostasien",
-    "nameEn": "East Asia",
+    "id": "westafrika",
+    "name": "Westafrika",
+    "nameEn": "West Africa",
+    "continent": "Afrika",
+    "tagline": "Tropische Mündungsflüsse, Lagunen und Hochseeangeln auf dem Atlantik",
+    "description": "Westafrika ist eine der aufregendsten Angelregionen für Meeres- und Süßwasserangler. Der Senegal, der Gambia und der Niger münden in den Atlantik und bilden weitläufige Ästuare, in denen Kapitän-Fische, Barramundi-artige Arten und riesige Tarpune stehen. Die Casamance-Küste in Senegal und die Flussmündungen Guineas sind weltbekannt für Tarpon-Fliegenfischen.\n\nAuf dem offenen Atlantik – besonders vor den Kapverden und dem Golf von Guinea – sind Hochseeangler auf der Suche nach Blauem Marlin, Gelbflossen-Thunfisch und Mahi-Mahi. Die Tiefseeströmungen vor der senegalesischen Küste bringen nährstoffreiches Wasser und damit eine ungewöhnliche Fischdichte in Küstennähe.\n\nIm Inneren bieten Volta-Stauseen in Ghana und Côte d'Ivoire Angeln auf Nilbarsch, Tigerbarbe und afrikanische Karpfenarten. Die Infrastruktur ist in Touristenzentren wie Dakar und Accra gut, in abgelegenen Gebieten rudimentär. Gesundheitsvorsorge und aktuelle Reisewarnungen müssen vor Reiseantritt geprüft werden.",
+    "countries": [
+      "Senegal",
+      "Gambia",
+      "Guinea-Bissau",
+      "Sierra Leone",
+      "Ghana",
+      "Côte d'Ivoire",
+      "Kapverdische Inseln"
+    ],
+    "waters": [
+      "Gambia-Fluss",
+      "Senegal-Fluss",
+      "Casamance",
+      "Volta-Stausee",
+      "Golf von Guinea",
+      "Atlantik vor Dakar"
+    ],
+    "species": [
+      "Tarpon",
+      "Nilbarsch",
+      "Kapitänfisch",
+      "Blauer Marlin",
+      "Gelbflossen-Thunfisch",
+      "Mahi-Mahi",
+      "Barrakuda",
+      "Tigerbarbe"
+    ],
+    "techniques": [
+      "Fliegenfischen",
+      "Hochseeangeln",
+      "Köderangeln",
+      "Jigging",
+      "Trolling",
+      "Popping"
+    ],
+    "bestSeason": [
+      "November",
+      "Dezember",
+      "Januar",
+      "Februar",
+      "März"
+    ],
+    "highlights": [
+      "Tarpon-Fliegenfischen in den Lagunen der Casamance",
+      "Marlin-Hochseeangeln vor den Kapverdischen Inseln",
+      "Nilbarsch-Angeln im Volta-Stausee Ghanas",
+      "Riesige Tarpune in den Gambia-Mündungsgewässern"
+    ],
+    "tips": [
+      "Impfungen gegen Malaria, Hepatitis A und Gelbfieber vor der Reise obligatorisch",
+      "Für Hochseetouren auf den Kapverdischen Inseln Santiago oder São Vicente als Basis wählen"
+    ],
+    "featured": false
+  },
+  {
+    "id": "zentralamerika",
+    "name": "Zentralamerika",
+    "nameEn": "Central America",
+    "continent": "Nordamerika",
+    "tagline": "Regenwald-Flüsse, Karibik-Lagunen und Pazifik-Hochsee zwischen zwei Ozeanen",
+    "description": "Zentralamerika bietet das seltene Privileg, binnen kürzester Zeit zwischen Pazifik- und Karibikküste zu wechseln und dabei völlig unterschiedliche Angelerlebnisse zu haben. Costa Rica gilt als weltweit bestes Tarpon-Ziel: Im Rio Colorado und im Lago Arenal stehen Tarpune bis 130 kg, und die karibischen Lagunen bei Barra del Colorado sind bei Fliegenfischern legendär. Gleichzeitig lockt die Pazifikküste mit Sailfish, Marlin und Roosterfish.\n\nGuatemala, Belize und Honduras bieten eigene Highlights: Das Belize Barrier Reef ist nach dem Great Barrier Reef das zweitgrößte der Welt und ein Traumziel für Flat-Fischen auf Permit, Bonefish und Tarpon im seichten Wasser. Die Tikal-Region in Guatemala und die Bay Islands in Honduras verbinden Angeln mit Unterwasservielfalt.\n\nNicaragua und Panama sind weniger erschlossen und bieten dadurch unberührte Gewässer. Der Río San Juan an der Grenze Nicaragua-Costa Rica und die Darien-Gewässer Panamas sind Expeditionsziele für erfahrene Abenteurer mit einem besonderen Faible für tropische Süßwasserfische.",
+    "countries": [
+      "Costa Rica",
+      "Belize",
+      "Guatemala",
+      "Honduras",
+      "Nicaragua",
+      "Panama",
+      "El Salvador"
+    ],
+    "waters": [
+      "Rio Colorado",
+      "Lago Arenal",
+      "Barro del Colorado",
+      "Belize Barrier Reef",
+      "Rio San Juan",
+      "Lago Nicaragua",
+      "Gulf of Fonseca"
+    ],
+    "species": [
+      "Tarpon",
+      "Sailfish",
+      "Roosterfish",
+      "Permit",
+      "Bonefish",
+      "Blauer Marlin",
+      "Pfauenbarsch",
+      "Snook"
+    ],
+    "techniques": [
+      "Fliegenfischen",
+      "Hochseeangeln",
+      "Flat-Fischen",
+      "Trolling",
+      "Popping",
+      "Köderangeln"
+    ],
+    "bestSeason": [
+      "Januar",
+      "Februar",
+      "März",
+      "April",
+      "Oktober",
+      "November"
+    ],
+    "highlights": [
+      "Tarpon-Fliegenfischen im Rio Colorado und Barra del Colorado",
+      "Permit und Bonefish auf den Flats des Belize-Riffs",
+      "Pazifik-Sailfish-Hochseeangeln vor Costa Rica",
+      "Roosterfish in der Surf-Zone der Pazifikküste"
+    ],
+    "tips": [
+      "Karibikseite Costa Ricas (Barra del Colorado) von Oktober bis Januar am produktivsten für Tarpon",
+      "Für Belize Flat-Fischen nur mit einheimischen Poling-Guides buchen – unerfahrene Boote scheuchen den Fisch"
+    ],
+    "featured": false
+  },
+  {
+    "id": "zentralasien",
+    "name": "Zentralasien",
+    "nameEn": "Central Asia",
     "continent": "Asien",
-    "tagline": "Feines Süßwasserangeln und kraftvolles Jigging am Pazifik.",
-    "description": "Ostasien mit Japan, China und Korea verbindet uralte Angeltradition mit modernster Technik. Japan ist die Wiege vieler innovativer Angelmethoden und Gerätekonzepte, vom feinen Tenkara bis zum schweren Jigging.\n\nDie Bergbäche Japans beherbergen einheimische Forellen und Saiblinge, während Stauseen und Flüsse gute Bestände an Forellenbarsch und Karpfen bieten. Das filigrane Süßwasserangeln ist hier eine echte Kunstform.\n\nVor den pazifischen Küsten und rund um die japanischen Inseln locken Thunfisch, Makrele und kämpferische Großräuber – ein Eldorado für ambitioniertes Spinn- und Vertikalangeln.",
-    "countries": ["Japan", "China", "Südkorea", "Taiwan"],
-    "waters": ["japanische Bergbäche", "Biwa-See", "Jangtsekiang", "pazifische Küste"],
-    "species": ["Forellenbarsch", "Karpfen", "Bachsaibling", "Regenbogenforelle", "Thunfisch", "Makrele", "Barsch"],
-    "techniques": ["Fliegenfischen", "Spinnfischen", "Vertikalangeln", "Grundangeln"],
-    "bestSeason": ["April", "Mai", "Juni", "September", "Oktober", "November"],
+    "tagline": "Entlegene Hochgebirgsflüsse des Tian Shan und Pamir mit wilder Großforellen-Angelei",
+    "description": "Zentralasien ist eine der am wenigsten erforschten Angelregionen der Welt. In den Gebirgsflüssen des Tian Shan in Kirgisistan, des Pamir in Tadschikistan und des Altai in Kasachstan leben riesige Amudaria-Forellen (Oxus-Forelle) sowie der legendäre Taimen – der größte Lachsfisch der Erde. Expeditionsangeln auf Taimen in abgelegenen Flüssen des Tianshan gehört zu den ultimativen Angelabenteuern.\n\nDer Aral-See-Zufluss Amudaria und seine Nebenflüsse sowie der Ili in Kasachstan beherbergen neben Forellen auch Karpfen, Welse und den seltenen Aral-Barsch. Der Iskanderkul-See in Tadschikistan und der Issyk-Kul in Kirgisistan sind von atemberaubender Schönheit und bieten Zugang zu wenig befischten Bergforellen-Populationen.\n\nLogistisch ist Zentralasien anspruchsvoll: schlechte Straßen, Sprachbarrieren und begrenzte Angelinfrastruktur machen Vorplanung mit lokalen Reiseagenturen unerlässlich. Der Aufwand lohnt sich für Abenteurer, die echte Wildnis suchen.",
+    "countries": [
+      "Kirgisistan",
+      "Tadschikistan",
+      "Kasachstan",
+      "Usbekistan"
+    ],
+    "waters": [
+      "Naryn",
+      "Amudaria",
+      "Ili",
+      "Syr Darja",
+      "Karakul-See",
+      "Iskanderkul",
+      "Issyk-Kul",
+      "Zerafshan"
+    ],
+    "species": [
+      "Taimen",
+      "Amudaria-Forelle",
+      "Bachforelle",
+      "Asphio",
+      "Schuppenkarpfen",
+      "Wels",
+      "Hecht"
+    ],
+    "techniques": [
+      "Fliegenfischen",
+      "Spinnfischen",
+      "Köderangeln",
+      "Bootsangeln",
+      "Expeditionsangeln"
+    ],
+    "bestSeason": [
+      "Juni",
+      "Juli",
+      "August",
+      "September"
+    ],
     "highlights": [
-      "Japan als Ursprung vieler moderner Angeltechniken",
-      "Traditionelles Tenkara in klaren Bergbächen",
-      "Kraftvolles Jigging vor der Pazifikküste",
-      "Feines, technisch anspruchsvolles Süßwasserangeln"
+      "Taimen-Expedition in Flüssen des Tian Shan",
+      "Endemische Oxus-Forelle in Hochgebirgsflüssen Tadschikistans",
+      "Unberührte Berglandschaft ohne Massentourismus",
+      "Issyk-Kul – kristallklarer Hochgebirgssee auf 1600 m"
     ],
     "tips": [
-      "Regionale Vorschriften und Vereinskarten variieren stark – vorab prüfen.",
-      "Lokale Angelgeschäfte sind eine hervorragende Quelle für Tipps und Köder.",
-      "Den Taifun-Saison im Spätsommer bei Küstentouren einplanen."
-    ],
-    "featured": false
-  },
-  {
-    "id": "australien-neuseeland",
-    "name": "Australien & Neuseeland",
-    "nameEn": "Australia & New Zealand",
-    "continent": "Ozeanien",
-    "tagline": "Kristallklare Forellenflüsse und Pazifik-Big-Game.",
-    "description": "Neuseeland gilt als eines der besten Forellenreviere der Welt. Glasklare Flüsse auf der Südinsel erlauben spektakuläres Sichtfischen auf große, scheue Regenbogen- und Bachforellen.\n\nAustralien begeistert mit enormer Bandbreite: vom legendären Barramundi im tropischen Norden über den australischen Murray Cod in den Binnenflüssen bis zum Big-Game auf Marlin und Thunfisch entlang der Küsten.\n\nBeide Länder bieten unberührte Natur, klare Gewässer und einen hohen Stellenwert nachhaltigen Angelns – ein Traumziel für Fliegenfischer und Meeresangler gleichermaßen.",
-    "countries": ["Australien", "Neuseeland"],
-    "waters": ["Südinsel-Flüsse", "Lake Taupo", "Great Barrier Reef", "Murray River", "Tasmanische Seen"],
-    "species": ["Regenbogenforelle", "Bachforelle", "Blauer Marlin", "Thunfisch", "Barracuda", "Barsch"],
-    "techniques": ["Fliegenfischen", "Spinnfischen", "Schleppangeln", "Grundangeln"],
-    "bestSeason": ["November", "Dezember", "Januar", "Februar", "März"],
-    "highlights": [
-      "Weltklasse-Sichtfischen auf Forellen in Neuseeland",
-      "Barramundi im tropischen Norden Australiens",
-      "Big-Game auf Marlin am Great Barrier Reef",
-      "Unberührte Natur und nachhaltige Angelkultur"
-    ],
-    "tips": [
-      "In Neuseeland ist eine Fishing Licence landesweit Pflicht.",
-      "Die beste Forellensaison liegt im Südsommer von November bis März.",
-      "Wathose und Polarisationsbrille sind fürs Sichtfischen unverzichtbar."
-    ],
-    "featured": false
-  },
-  {
-    "id": "arktis-subarktis",
-    "name": "Arktis & Subarktis",
-    "nameEn": "Arctic & Subarctic",
-    "continent": "Arktis",
-    "tagline": "Mitternachtssonne, Eisangeln und arktische Saiblinge.",
-    "description": "Die arktischen und subarktischen Regionen von Grönland und Island über Nordskandinavien bis Alaska und Nordkanada gehören zu den ursprünglichsten Angelrevieren der Welt.\n\nDer kämpferische Saibling, hier oft als Arctic Char, ist der charakteristische Fisch dieser kalten Gewässer. In Island locken zudem berühmte Lachs- und Meerforellenflüsse von Weltrang.\n\nIm langen Polarwinter wird das Eisangeln zur Lebensart, während die Sommer mit der Mitternachtssonne endlose Angeltage schenken – Natur in ihrer reinsten und rauesten Form.",
-    "countries": ["Island", "Grönland", "Norwegen", "Kanada", "USA"],
-    "waters": ["isländische Lachsflüsse", "grönländische Fjorde", "Nordnorwegen", "kanadische Tundraseen"],
-    "species": ["Bachsaibling", "Atlantischer Lachs", "Meerforelle", "Äsche", "Dorsch", "Heilbutt"],
-    "techniques": ["Fliegenfischen", "Eisangeln", "Spinnfischen", "Pilken"],
-    "bestSeason": ["Juni", "Juli", "August", "September"],
-    "highlights": [
-      "Kämpferischer arktischer Saibling in klaren Seen",
-      "Weltberühmte Lachsflüsse auf Island",
-      "Angeln unter der Mitternachtssonne",
-      "Eisangeln als arktische Lebensart im Winter"
-    ],
-    "tips": [
-      "Isländische Lachsbeats sind teuer und früh ausgebucht – rechtzeitig planen.",
-      "Wetterumschwünge sind drastisch – warme, wasserdichte Kleidung ist Pflicht.",
-      "Das kurze Sommerfenster bestimmt die beste Reisezeit."
+      "Nur mit lokalen Expeditionsveranstaltern reisen – eigenständige Planung in Randgebieten nicht empfohlen",
+      "Taimen-Angeln unterliegt strikten Fangverboten – ausschließlich Catch-and-Release praktizieren"
     ],
     "featured": false
   }

@@ -172,6 +172,24 @@ const glossar = defineCollection({
   }),
 });
 
+// 🍽️ Küche & Rezepte ---------------------------------------------------------
+const kueche = defineCollection({
+  loader: file('src/data/kueche.json'),
+  schema: z.object({
+    name: z.string(),
+    category: z.string().optional(), // Grundtechnik | Konservierung | Rezept | Küchenpraxis
+    difficulty: z.string().optional(),
+    time: z.string().optional(),
+    tagline: z.string(),
+    description: z.string().optional(),
+    forFish: strList.optional(),
+    ingredients: strList.optional(),
+    steps: strList.optional(),
+    tips: strList.optional(),
+    featured: z.boolean().optional(),
+  }),
+});
+
 export const collections = {
   fische,
   techniken,
@@ -181,4 +199,5 @@ export const collections = {
   knoten,
   ausruestung,
   glossar,
+  kueche,
 };

@@ -1,0 +1,613 @@
+[
+  {
+    "id": "backfisch-panieren",
+    "name": "Backfisch (panieren)",
+    "category": "Rezept",
+    "difficulty": "Einsteiger",
+    "time": "20–30 Min.",
+    "tagline": "Goldene Panade, zartes Inneres – Backfisch ist ein Klassiker der deutschen Küstenküche.",
+    "description": "Backfisch ist in Deutschland seit Generationen ein beliebtes Gericht, das mit einer knusprigen Panade und saftigem Fischfilet im Inneren überzeugt. Klassisch verwendet man dafür Dorsch, Seelachs oder Scholle. Die Panade schützt das Filet beim Frittieren vor dem Austrocknen und gibt dem Gericht seinen typischen Biss.\n\nFür die klassische Panade wird das Filet durch Mehl, verquirltes Ei und Semmelbrösel oder Panko (japanische Panierbrösel für extra Crunch) gezogen. Alternativ eignet sich ein Bierteig aus Mehl, Bier, Ei und Salz, der dem Backfisch ein luftigeres und knusprigeres Äußeres verleiht. Frittiert wird in reichlich Öl oder Butterschmalz bei 170–180 °C.\n\nDer Backfisch ist fertig, wenn die Panade goldbraun und das Innere weiß-opak ist. Er wird auf Küchenpapier abgetropft und sofort serviert – am besten mit Remoulade, Zitronenspalten und Bratkartoffeln oder frischem Weißbrot.",
+    "forFish": [
+      "Dorsch",
+      "Seelachs",
+      "Scholle",
+      "Zander",
+      "Hecht"
+    ],
+    "ingredients": [
+      "400 g Fischfilet",
+      "50 g Mehl",
+      "2 Eier",
+      "100 g Semmelbrösel oder Panko",
+      "Salz, Pfeffer",
+      "Zitronensaft",
+      "Öl oder Butterschmalz zum Frittieren",
+      "Küchenpapier"
+    ],
+    "steps": [
+      "Filets trocken tupfen, salzen, pfeffern und mit etwas Zitronensaft beträufeln.",
+      "Drei tiefe Teller bereiten: Mehl, verquirltes Ei, Semmelbrösel.",
+      "Filet erst im Mehl wenden, überschüssiges Mehl abklopfen.",
+      "Filet durch das Ei ziehen, sodass es vollständig bedeckt ist.",
+      "In Semmelbröseln panieren und leicht andrücken.",
+      "In einer Pfanne oder einem Topf Öl auf 170–180 °C erhitzen und Filets goldbraun ausbacken (je Seite 3–4 Min.).",
+      "Auf Küchenpapier abtropfen lassen und sofort servieren."
+    ],
+    "tips": [
+      "Panko statt Semmelbrösel verwenden – die gröbere Struktur ergibt eine luftigere, noch knusprigere Panade.",
+      "Die Öltemperatur nicht zu niedrig wählen – unter 160 °C saugt die Panade Öl auf und wird fettig.",
+      "Backfisch sofort nach dem Frittieren servieren, da die Panade schnell weich wird."
+    ],
+    "featured": false
+  },
+  {
+    "id": "beizen-gravlax",
+    "name": "Beizen (Gravlax)",
+    "category": "Konservierung",
+    "difficulty": "Einsteiger",
+    "time": "24–48 Std. (Ruhezeit)",
+    "tagline": "Skandinavische Tradition: Lachs ohne Feuer – nur Salz, Zucker und Dill machen ihn zum Festtagsfisch.",
+    "description": "Gravlax ist ein klassisches skandinavisches Gericht, bei dem Lachsfilet ohne Hitze allein durch Salz und Zucker konserviert und aromatisiert wird. Der Begriff kommt aus dem Schwedischen und bedeutet sinngemäß „eingegrabener Lachs“ – früher wurde der Fisch tatsächlich im Boden vergraben, um zu fermentieren. Heute erfolgt die Reifung bequem im Kühlschrank.\n\nDie Beizmischung besteht klassisch aus grobem Salz, Zucker und frischem Dill. Manche Rezepte ergänzen Zitronenzeste, Wacholder, Aquavit oder Rote Bete für Farbe und Aroma. Die Filets werden großzügig damit eingerieben, aufeinandergelegt und beschwert. Osmotischer Druck und Salz entziehen Feuchtigkeit und ergeben nach 24–48 Stunden eine zarte, leicht glasige Textur mit intensivem Geschmack.\n\nWichtig: Da Gravlax nicht erhitzt wird, gelten die gleichen Sicherheitshinweise wie beim Kalträuchern. Für absolut sichere Zubereitung sollte der Lachs vor dem Beizen mindestens 24 Stunden bei –20 °C eingefroren worden sein. Schwangere und immungeschwächte Personen sollten auf Rohkostprodukte dieser Art verzichten.",
+    "forFish": [
+      "Lachs",
+      "Meerforelle",
+      "Bachforelle"
+    ],
+    "ingredients": [
+      "400 g Lachsfilet mit Haut",
+      "3 EL grobes Meersalz",
+      "2 EL Zucker",
+      "1 Bund frischer Dill",
+      "1 TL grob gemahlener Pfeffer",
+      "Zitronenzeste (optional)",
+      "Frischhaltefolie",
+      "Beschwerende Dose oder Gewicht"
+    ],
+    "steps": [
+      "Lachs auf Gräten prüfen und Gräten mit einer Fischzange ziehen.",
+      "Salz, Zucker und Pfeffer mischen; Dill grob hacken.",
+      "Filet auf Folie legen, Beizmischung großzügig auf der Fleischseite verteilen, mit Dill bedecken.",
+      "Zweites Filet (falls vorhanden) mit der Fleischseite daraufpressen, fest in Folie einwickeln.",
+      "Eingewickelten Fisch auf einen Teller legen, beschweren und 24–48 Stunden im Kühlschrank ruhen lassen. Gelegentlich wenden.",
+      "Fisch aus der Folie nehmen, Beizmischung abstreifen und in dünne Scheiben schräg gegen die Faser aufschneiden."
+    ],
+    "tips": [
+      "Für die Lebensmittelsicherheit den Fisch vor dem Beizen mindestens 24 h bei –20 °C einfrieren, um Parasiten abzutöten.",
+      "Je länger die Beizzeit, desto fester und salziger wird das Ergebnis – 36 Stunden sind ein guter Kompromiss.",
+      "Gravlax passt hervorragend zu Senfsoße (Hovmästarsås) auf dunklem Brot oder Blinis."
+    ],
+    "featured": false
+  },
+  {
+    "id": "fisch-ausnehmen",
+    "name": "Fisch ausnehmen",
+    "category": "Grundtechnik",
+    "difficulty": "Einsteiger",
+    "time": "10 Min.",
+    "tagline": "Der erste Schritt zur Küche: Innereien sauber und hygienisch entfernen.",
+    "description": "Wer seinen Fang selbst verarbeiten möchte, kommt am Ausnehmen nicht vorbei. Der Vorgang ist schnell erlernt und sorgt dafür, dass das Fleisch frisch bleibt und keinen bitteren Beigeschmack durch Galle oder Darminhalt bekommt. Wichtig ist dabei, den Bauchraum sauber freizulegen, ohne die Gallenblase zu verletzen.\n\nDer Fisch wird mit dem Bauch nach oben auf ein Schneidebrett gelegt. Mit einer scharfen Küchenschere oder einem kurzen Messer wird vom After bis zu den Kiemenbögen eingeschnitten. Anschließend werden alle Innereien mit einem gezielten Zug entnommen. Kiemen können ebenfalls entfernt werden, da sie schnell verderben und einen strengen Geschmack abgeben.\n\nNach dem Ausnehmen wird der Bauchraum unter kaltem fließendem Wasser gründlich ausgespült. Eventuell vorhandene Blutreste entlang der Wirbelsäule lassen sich mit dem Daumennagel oder einer kleinen Bürste lösen. Der Fisch ist nun bereit für die weitere Verarbeitung.",
+    "forFish": [
+      "Bachforelle",
+      "Hecht",
+      "Zander",
+      "Karpfen",
+      "Dorsch",
+      "Barsch"
+    ],
+    "ingredients": [
+      "Scharfe Küchenschere oder Filetiermesser",
+      "Schneidebrett",
+      "Kaltes Wasser",
+      "Einweghandschuhe (optional)"
+    ],
+    "steps": [
+      "Fisch unter kaltem Wasser abspülen und auf einem sauberen Schneidebrett fixieren.",
+      "Mit der Küchenschere vom After bis zu den Kiemenbögen aufschneiden – flach ansetzen, um die Innereien nicht zu verletzen.",
+      "Innereien mit einem gezielten Zug vollständig aus dem Bauchraum ziehen und sofort entsorgen.",
+      "Kiemen herausschneiden oder herausziehen, da sie den Geschmack negativ beeinflussen.",
+      "Bauchraum unter kaltem fließendem Wasser ausspülen und Blutreste entlang der Wirbelsäule entfernen.",
+      "Fisch trocken tupfen und sofort weiterverarbeiten oder kühlen."
+    ],
+    "tips": [
+      "Die Gallenblase liegt direkt hinter der Leber – wird sie verletzt, gibt sie Bitterstoffe ab, die das Fleisch ungenießbar machen können. Sorgfalt lohnt sich.",
+      "Innereien und Küchenabfälle sofort in einem verschlossenen Beutel entsorgen, nicht offen liegen lassen.",
+      "Ein ausgespülter Fisch hält sich im Kühlschrank auf Eis liegend noch 1–2 Tage, wenn er nicht sofort zubereitet wird."
+    ],
+    "featured": false
+  },
+  {
+    "id": "fisch-braten-pfanne",
+    "name": "Fisch braten (Pfanne)",
+    "category": "Grundtechnik",
+    "difficulty": "Einsteiger",
+    "time": "10–15 Min.",
+    "tagline": "Knusprig, goldbraun und saftig – der Klassiker auf dem Herd.",
+    "description": "Das Braten in der Pfanne ist die wohl verbreitetste Art, Fisch zuzubereiten. Ob Forelle im Ganzen, Zanderfilet oder Makrele – mit der richtigen Technik gelingt eine kross gebratene Haut und ein saftig-zartes Inneres. Entscheidend sind eine heiße Pfanne, ausreichend Fett und Geduld beim Wenden.\n\nDer Fisch wird vor dem Braten trockengetupft, gesalzen und – wenn gewünscht – leicht in Mehl gewendet. Mehl entzieht der Oberfläche weitere Feuchtigkeit und sorgt für eine besonders knusprige Kruste. Die Pfanne wird mit Butterschmalz, Rapsöl oder einer Mischung aus Öl und Butter auf mittlere bis hohe Hitze gebracht. Der Fisch wird mit der Hautseite nach unten eingelegt und zunächst nicht bewegt.\n\nDie erste Seite braucht in der Regel 60–70 % der Gesamtgarzeit. Erst wenn die Garstufe sichtbar am Fleisch aufsteigt, wird der Fisch vorsichtig gewendet. Nach dem Wenden reichen meist noch 2–3 Minuten. Fisch ist gar, wenn das Fleisch am dicksten Punkt milchig-weiß und nicht mehr glasig ist, und sich mit einer Gabel leicht in Flocken teilen lässt.",
+    "forFish": [
+      "Bachforelle",
+      "Regenbogenforelle",
+      "Zander",
+      "Barsch",
+      "Dorsch",
+      "Makrele"
+    ],
+    "ingredients": [
+      "Fisch oder Filets",
+      "Salz, Pfeffer",
+      "Mehl (optional)",
+      "Butterschmalz oder Rapsöl",
+      "Frische Kräuter (Thymian, Petersilie)",
+      "Zitrone"
+    ],
+    "steps": [
+      "Fisch oder Filets gründlich trockentupfen – Feuchtigkeit verhindert Krossheit.",
+      "Von allen Seiten salzen und pfeffern; wer mag, wendet den Fisch in Mehl und klopft überschüssiges Mehl ab.",
+      "Pfanne stark erhitzen, Fett zugeben bis es schimmert, aber nicht raucht.",
+      "Fisch mit der Hautseite nach unten einlegen und leicht andrücken, damit die Haut plan aufliegt.",
+      "Ohne Bewegen 3–5 Minuten braten, bis die Garstufe etwa 2⁄3 des Fleisches durchdrungen hat.",
+      "Vorsichtig wenden und auf der zweiten Seite weitere 2–3 Minuten fertig garen.",
+      "Frische Butter und Kräuter in die Pfanne geben und den Fisch damit begießen (arrosieren)."
+    ],
+    "tips": [
+      "Niemals einen kalten Fisch in die Pfanne legen – den Fisch 15–20 Minuten vor dem Braten aus dem Kühlschrank nehmen.",
+      "Fisch zu früh wenden reißt die Haut – erst wenden, wenn sich das Filet von selbst leicht löst.",
+      "Butterschmalz verträgt hohe Temperaturen ohne zu verbrennen und gibt dem Fisch ein nussiges Aroma."
+    ],
+    "featured": false
+  },
+  {
+    "id": "fisch-daempfen",
+    "name": "Fisch dämpfen",
+    "category": "Grundtechnik",
+    "difficulty": "Einsteiger",
+    "time": "10–20 Min.",
+    "tagline": "Sanft, fettarm und voller Eigengeschmack – Dämpfen ist die gesündeste Art, Fisch zu garen.",
+    "description": "Dämpfen ist eine der schonendsten Garmethoden überhaupt. Der Fisch kommt dabei nicht mit Wasser in Berührung, sondern wird nur vom heißen Wasserdampf umhüllt. Vitamine und Mineralstoffe bleiben weitgehend erhalten, und der natürliche Eigengeschmack des Fisches tritt besonders klar hervor. Besonders für Süßwasserfische wie Forelle oder Zander ist diese Methode empfehlenswert.\n\nZum Dämpfen benötigt man einen Topf mit Deckel und einen Einsatz: ein Bambusdampfer, ein Metallsieb, ein Dämpfeinsatz oder eine erhöhte Schüssel funktionieren. Das Wasser im Topf wird zum Kochen gebracht und der Fisch auf dem Einsatz über dem kochenden Wasser platziert. Den Topf abdecken und dämpfen, bis der Fisch durchgegart ist.\n\nAromen lassen sich durch Beigabe von Kräutern, Ingwer, Zitronengras oder Lorbeerblättern ins Dämpfwasser intensivieren. Auch im Backofen kann Fisch bei Dampfunterstützung oder in einer mit Wasser gefüllten Auflaufform sehr schonend gegart werden.",
+    "forFish": [
+      "Bachforelle",
+      "Regenbogenforelle",
+      "Zander",
+      "Dorsch",
+      "Rotbarsch"
+    ],
+    "ingredients": [
+      "Fisch oder Filets",
+      "Salz",
+      "Zitronensaft",
+      "Kräuter (Dill, Petersilie, Ingwer)",
+      "Topf mit Deckel und Dämpfeinsatz",
+      "Wasser"
+    ],
+    "steps": [
+      "Fisch waschen, trocken tupfen, salzen und mit Zitronensaft beträufeln.",
+      "Wasser im Topf zum Kochen bringen – es darf den Dämpfeinsatz nicht berühren.",
+      "Kräuter oder Aromaten ins Wasser geben.",
+      "Fisch auf den Einsatz legen und Topf mit Deckel schließen.",
+      "Je nach Dicke 8–15 Minuten dämpfen.",
+      "Garprobe: Das Fleisch soll weiß-opak sein und sich leicht mit einer Gabel abheben lassen."
+    ],
+    "tips": [
+      "Niemals den Deckel während des Dämpfens abnehmen – der entweichende Dampf verlängert die Garzeit deutlich.",
+      "Fisch nicht zu lange dämpfen – er trocknet schneller aus als beim Braten.",
+      "Einen Rest des aromatisierten Dampfwassers als Basis für eine leichte Soße verwenden."
+    ],
+    "featured": false
+  },
+  {
+    "id": "fisch-entschuppen",
+    "name": "Fisch entschuppen",
+    "category": "Grundtechnik",
+    "difficulty": "Einsteiger",
+    "time": "5–10 Min.",
+    "tagline": "Glatte Haut ohne Schuppen – Voraussetzung für knusprige Ergebnisse in Pfanne und Ofen.",
+    "description": "Viele Fischarten wie Barsch, Karpfen oder Zander tragen kräftige Schuppen, die vor dem Garen entfernt werden müssen, wenn die Haut mitgegessen werden soll. Das Entschuppen ist eine der grundlegendsten Küchentechniken rund um den Fisch und lässt sich mit einem einfachen Schuppenschaber oder dem Rücken eines Messers erledigen.\n\nGearbeitet wird immer vom Schwanz zur Kopfseite hin, also gegen die Schuppenrichtung. Am besten taucht man den Fisch während des Schruppens in eine mit kaltem Wasser gefüllte Schüssel oder hält ihn unter fließendes Wasser, damit die Schuppen nicht durch die Küche fliegen. Einige Köche stecken den Fisch in einen großen Plastikbeutel und schaben dort drin – ebenfalls eine praktische Methode.\n\nNach dem Entschuppen wird der Fisch abgespült und auf Vollständigkeit kontrolliert. Bereiche um die Rückenflosse und am Bauch werden leicht übersehen und sollten nochmals geprüft werden. Erst danach erfolgt das Filetieren oder das Garen im Ganzen.",
+    "forFish": [
+      "Karpfen",
+      "Zander",
+      "Barsch",
+      "Rotauge",
+      "Brachse"
+    ],
+    "ingredients": [
+      "Schuppenschaber oder Messerrücken",
+      "Schneidebrett oder Schüssel mit Wasser",
+      "Kaltes Wasser"
+    ],
+    "steps": [
+      "Fisch am Schwanz festhalten oder mit einem Tuch fixieren.",
+      "Schuppenschaber oder Messerrücken fest am Schwanzende ansetzen.",
+      "Mit kräftigen, kurzen Zügen gegen die Schuppenrichtung (vom Schwanz zum Kopf) arbeiten.",
+      "Besonders sorgfältig an Flanken, Bauch und rund um die Flossen arbeiten.",
+      "Fisch unter kaltem Wasser abspülen und auf verbliebene Schuppen prüfen.",
+      "Mit den Fingerkuppen über die Haut fahren, um restliche Schuppen zu ertasten und zu entfernen."
+    ],
+    "tips": [
+      "In einer Schüssel mit Wasser oder in einem Plastikbeutel entschuppen – so bleibt die Küche sauber.",
+      "Je frischer der Fisch, desto fester sitzen die Schuppen. Bei kurz abgehangenen Exemplaren geht es etwas leichter.",
+      "Forellen, Schleien und Welse haben keine oder kaum sichtbare Schuppen und müssen in der Regel nicht entschuppt werden."
+    ],
+    "featured": false
+  },
+  {
+    "id": "filetieren",
+    "name": "Fisch filetieren",
+    "category": "Grundtechnik",
+    "difficulty": "Fortgeschritten",
+    "time": "5–10 Min. pro Fisch",
+    "tagline": "Grätenarme Filets in wenigen, sauberen Schnitten.",
+    "description": "Filetieren trennt das Fleisch sauber von Gräten und Mittelgräte. Mit einem scharfen, flexiblen Filetiermesser gelingt es nach etwas Übung schnell und mit wenig Verlust.\n\nDer Fisch sollte gut gekühlt und die Arbeitsfläche rutschfest sein. Wichtig ist ein durchgehend scharfes Messer – stumpfe Klingen reißen das Fleisch und kosten Ausbeute.",
+    "forFish": [
+      "Hecht",
+      "Zander",
+      "Barsch",
+      "Bachforelle",
+      "Dorsch",
+      "Karpfen"
+    ],
+    "ingredients": [
+      "frischer, ausgenommener Fisch",
+      "scharfes Filetiermesser",
+      "rutschfestes Schneidbrett",
+      "ggf. Grätenzange"
+    ],
+    "steps": [
+      "Hinter dem Kiemendeckel bis zur Wirbelsäule einschneiden, ohne sie zu durchtrennen.",
+      "Das Messer flach drehen und entlang der Mittelgräte zum Schwanz führen.",
+      "Das Filet abheben und auf der anderen Seite wiederholen.",
+      "Bauchgräten flach herausschneiden.",
+      "Restliche Gräten mit der Grätenzange ziehen; bei Bedarf die Haut abziehen."
+    ],
+    "tips": [
+      "Das Messer immer leicht zur Gräte neigen, dann bleibt weniger Fleisch zurück.",
+      "Bei Hecht lohnt das zusätzliche Entfernen der Y-Gräten in mehreren Streifen."
+    ],
+    "featured": true
+  },
+  {
+    "id": "fisch-grillen",
+    "name": "Fisch grillen",
+    "category": "Grundtechnik",
+    "difficulty": "Einsteiger",
+    "time": "15–25 Min.",
+    "tagline": "Rauchige Aromen und Grillaromen – Fisch vom Rost ist Sommerküche pur.",
+    "description": "Gegrillter Fisch ist ein Genuss, der durch die direkte Hitze des Grills eine unverwechselbare Rauchnote und eine knusprige Außenhaut bekommt. Gleichzeitig bleibt das Innere saftig, wenn man ein paar Grundregeln beachtet. Geeignet sind feste Fischsorten wie Forelle im Ganzen, Zanderfilet, Makrele oder Dorschloin – zarte Filets können auf einer Grillplatte oder in Alufolie gegart werden, um ein Durchfallen zu vermeiden.\n\nDer Grillrost muss vor dem Auflegen des Fisches gründlich gesäubert und gut eingeölt werden. Auch der Fisch selbst wird dünn mit Öl eingepinselt, damit er nicht klebt. Gewürzt wird kurz vor dem Grillen – Salz zu früh entzieht Feuchtigkeit. Ganze Fische können mit Kräutern und Zitronenscheiben gefüllt werden.\n\nDirekte Hitze erzeugt das begehrte Grillmuster, mittlere Hitze sorgt für gleichmäßiges Durchgaren. Wer unsicher ist, ob der Fisch gar ist, kann an der dicksten Stelle mit einem Zahnstocher oder einer Messerspitze prüfen: Das Fleisch soll weiß-opak sein und sich leicht ablösen lassen.",
+    "forFish": [
+      "Bachforelle",
+      "Makrele",
+      "Zander",
+      "Dorsch",
+      "Wolfsbarsch",
+      "Hering"
+    ],
+    "ingredients": [
+      "Fisch oder Filets",
+      "Neutrales Öl (Raps- oder Olivenöl)",
+      "Salz, Pfeffer",
+      "Kräuter (Rosmarin, Thymian)",
+      "Zitronenscheiben",
+      "Grillzange oder Fischkorb"
+    ],
+    "steps": [
+      "Grillrost auf mittlere bis hohe Hitze bringen und mit einer Drahtbürste säubern.",
+      "Rost und Fisch dünn mit Öl einpinseln.",
+      "Fisch kurz vor dem Auflegen salzen und mit gewünschten Gewürzen einreiben.",
+      "Ganze Fische mit Kräutern und Zitronenscheiben füllen.",
+      "Fisch auf den Rost legen und 4–6 Minuten pro Seite grillen, ohne ihn zu bewegen.",
+      "Vorsichtig mit einer breiten Grillzange oder einem Pfannenwender wenden.",
+      "Garprobe mit Zahnstocher machen: Das Fleisch soll am dicksten Punkt weiß und fest sein."
+    ],
+    "tips": [
+      "Ein Fischkorb aus Edelstahl erleichtert das Wenden und verhindert, dass der Fisch auseinanderfällt.",
+      "Fisch niemals auf schwächelnde Glut legen – die Hitze muss sofort anpacken, sonst klebt der Fisch.",
+      "Für Filets eignet sich eine Grillschale aus Alu oder eine Plancha besser als der offene Rost."
+    ],
+    "featured": false
+  },
+  {
+    "id": "fisch-haeuten",
+    "name": "Fisch häuten",
+    "category": "Grundtechnik",
+    "difficulty": "Einsteiger",
+    "time": "5–10 Min.",
+    "tagline": "Wenn die Haut nicht gewünscht wird – sauber und schnell abziehen.",
+    "description": "Manche Fischarten wie Wels, Aal oder Hecht haben eine zähe Haut, die beim Garen fest bleibt und von vielen Köchen vor der Zubereitung entfernt wird. Auch bei bereits filetiertem Fisch lässt sich die Haut mit der richtigen Technik einfach ablösen. Das Werkzeug der Wahl ist ein flexibles Filetiermesser mit dünner, scharfer Klinge.\n\nDas Filet wird mit der Hautseite nach unten auf das Schneidebrett gelegt. Am Schwanzende wird ein kleiner Einschnitt zwischen Fleisch und Haut gemacht, sodass man einen Zipfel greifen kann. Mit einer Hand wird die Haut festgehalten, während das Messer in einem flachen Winkel mit einer sanften Sägebewegung zwischen Haut und Fleisch entlanggeführt wird. Das Messer arbeitet, nicht die Hand.\n\nMit etwas Übung lässt sich die Haut in einem einzigen Zug sauber ablösen, ohne dass nennenswertes Fleisch verloren geht. Bei der Forelle oder beim Wolfsbarsch kann die Haut alternativ nach dem Garen in der Pfanne knusprig gebraten und dann wie ein Deckel abgezogen werden.",
+    "forFish": [
+      "Wels",
+      "Aal",
+      "Hecht",
+      "Zander",
+      "Dorsch"
+    ],
+    "ingredients": [
+      "Flexibles Filetiermesser",
+      "Schneidebrett",
+      "Küchentuch zum Fixieren"
+    ],
+    "steps": [
+      "Filet mit der Hautseite nach unten auf das Schneidebrett legen.",
+      "Am Schwanzende einen kleinen Schnitt zwischen Fleisch und Haut setzen.",
+      "Den Hautteil am Schwanzende mit dem Küchentuch greifen, um Halt zu haben.",
+      "Messer in einem flachen Winkel (fast waagerecht) zwischen Haut und Fleisch führen.",
+      "Mit kleinen Sägebewegungen vorwärts arbeiten, dabei die Haut leicht straff halten.",
+      "Verbliebene Hautreste mit dem Messer oder einer Pinzette entfernen."
+    ],
+    "tips": [
+      "Ein sehr scharfes Messer ist entscheidend – stumpfe Klingen reißen das Fleisch statt es sauber zu schneiden.",
+      "Ein leicht angefrorenes Filet lässt sich einfacher häuten, da es fester ist.",
+      "Wer die Haut knusprig mag, lässt sie dran und brät die Hautseite scharf in der Pfanne an."
+    ],
+    "featured": false
+  },
+  {
+    "id": "fisch-im-ofen-backen",
+    "name": "Fisch im Ofen backen",
+    "category": "Grundtechnik",
+    "difficulty": "Einsteiger",
+    "time": "20–35 Min.",
+    "tagline": "Schonend und aromatisch: Der Ofen gart Fisch gleichmäßig und ohne großen Aufwand.",
+    "description": "Das Backen im Ofen ist eine der schonendsten und gleichzeitig vielseitigsten Zubereitungsarten für Fisch. Ob im Ganzen auf einem Bett aus Gemüse, als Filet in einer Auflaufform mit Soße oder in Salzteig eingemauert – der Ofen erlaubt eine Vielzahl von Techniken. Die gleichmäßige Hitze sorgt für ein zartes Ergebnis, das in der Pfanne kaum so einfach zu erzielen wäre.\n\nFür ganzen Fisch empfehlen sich Temperaturen zwischen 180 und 200 °C Ober-/Unterhitze. Als Faustregel gilt: 10–12 Minuten Garzeit pro 2,5 cm Fleischdicke an der dicksten Stelle. Filets garen schneller, meist in 12–18 Minuten bei 180 °C. Eine Überkruste aus Paniermehl, Kräutern und Parmesan verleiht dem Fisch einen knusprigen Abschluss.\n\nPraktisch ist auch die Methode im Pergamentpapier (en papillote): Der Fisch wird mit Gemüse, Kräutern und einem Schluck Weißwein eingeschlagen und in der eigenen Hitze gedämpft. So bleibt er besonders saftig und die Aromen bleiben erhalten.",
+    "forFish": [
+      "Bachforelle",
+      "Zander",
+      "Dorsch",
+      "Karpfen",
+      "Hecht",
+      "Brasse"
+    ],
+    "ingredients": [
+      "Fisch oder Filets",
+      "Olivenöl oder Butter",
+      "Salz, Pfeffer",
+      "Kräuter (Thymian, Dill, Petersilie)",
+      "Zitronenscheiben",
+      "Gemüse nach Wahl (Fenchel, Tomaten, Zwiebeln)",
+      "Weißwein (optional)"
+    ],
+    "steps": [
+      "Backofen auf 180–200 °C Ober-/Unterhitze vorheizen.",
+      "Fisch ausnehmen, abspülen, trocken tupfen und würzen.",
+      "Auflaufform oder Backblech mit etwas Öl ausstreichen und Gemüsebett bereiten.",
+      "Fisch auf das Gemüsebett legen, mit Öl beträufeln und Kräuter sowie Zitronenscheiben dazugeben.",
+      "Im vorgeheizten Ofen je nach Dicke 20–35 Minuten garen.",
+      "Garprobe: Das Fleisch am dicksten Punkt soll weiß-opak sein und sich mit einer Gabel leicht flocken lassen."
+    ],
+    "tips": [
+      "Ein Fleischthermometer ist die sicherste Garprobe – die Kerntemperatur sollte 63 °C erreichen.",
+      "Fisch im Ofen lieber zu kurz als zu lang garen – er zieht nach dem Herausnehmen noch etwas nach.",
+      "Für eine besonders aromatische Kruste: Kräuter-Butter-Paniermehl-Mischung in den letzten 5 Minuten auflegen und kurz übergrillen."
+    ],
+    "featured": false
+  },
+  {
+    "id": "fisch-raeuchern",
+    "name": "Fisch räuchern",
+    "category": "Konservierung",
+    "difficulty": "Fortgeschritten",
+    "time": "1 Tag Vorbereitung + 2–4 Std.",
+    "tagline": "Goldgelb und aromatisch – Räucherfisch aus dem eigenen Ofen.",
+    "description": "Räuchern macht Fisch haltbar und verleiht ihm sein typisches Aroma. Vor dem Räuchern wird der Fisch in einer Salzlake gepökelt, danach getrocknet und im Räucherofen gegart und geräuchert.\n\nKlassiker sind Forelle, Makrele und Aal. Buchen- oder Erlenmehl liefern mildes Raucharoma; Wacholder oder Kräuter sorgen für besondere Noten.",
+    "forFish": [
+      "Bachforelle",
+      "Regenbogenforelle",
+      "Makrele",
+      "Aal",
+      "Hering"
+    ],
+    "ingredients": [
+      "ausgenommener Fisch",
+      "Salz für die Lake (ca. 60 g/Liter)",
+      "Räuchermehl (Buche/Erle)",
+      "Räucherofen",
+      "ggf. Wacholder, Lorbeer"
+    ],
+    "steps": [
+      "Fisch 8–12 Stunden in 6%iger Salzlake pökeln.",
+      "Aus der Lake nehmen, abspülen und 1–2 Stunden an der Luft trocknen.",
+      "Im Ofen bei 90–110 °C ca. 30–45 Minuten garen.",
+      "Hitze reduzieren, Räuchermehl aufstreuen und 30–60 Minuten kalträuchern lassen.",
+      "Abkühlen lassen und zeitnah verzehren oder kühl lagern."
+    ],
+    "tips": [
+      "Die Garprobe gelingt, wenn sich die Rückenflosse leicht herausziehen lässt.",
+      "Trockene Haut vor dem Räuchern ist entscheidend für goldgelbe Farbe."
+    ],
+    "featured": true
+  },
+  {
+    "id": "fischfond",
+    "name": "Fischfond",
+    "category": "Küchenpraxis",
+    "difficulty": "Fortgeschritten",
+    "time": "45 Min.",
+    "tagline": "Die aromatische Basis für Suppen, Soßen und Risotto – aus Karkassen selbst gekocht.",
+    "description": "Fischfond ist die konzentrierte, goldklare Brühe, die aus Fischgräten, Köpfen und Flossen sowie Aromaten hergestellt wird. Er bildet die Geschmacksbasis für Fischsuppen, cremige Fischsoßen, Fischrisotto und viele andere Gerichte der klassischen und modernen Küche. Im Gegensatz zu Fleischfond kocht Fischfond sehr kurz – zu langes Köcheln macht ihn bitter.\n\nAls Rohstoff dienen Karkassen weißfleischiger Fische wie Zander, Dorsch, Seezunge oder Hecht. Fettreiche Fische wie Makrele oder Lachs sind für Fond weniger geeignet, da sie einen zu intensiven und öligen Geschmack abgeben. Die Gräten werden zunächst kurz blanchiert oder kalt abgespült, um Blutreste zu entfernen, die den Fond trüben würden.\n\nDer fertige Fond wird durch ein feines Sieb oder ein Passiertuch gegossen und kann im Kühlschrank 2–3 Tage aufbewahrt oder portionsweise eingefroren werden. Reduziert man ihn weiter, entsteht eine kräftige Glace, die sich ideal zum Würzen eignet.",
+    "forFish": [
+      "Zander",
+      "Dorsch",
+      "Hecht",
+      "Seelachs"
+    ],
+    "ingredients": [
+      "500–800 g Fischkarkassen (Gräten, Köpfe ohne Kiemen)",
+      "1 Zwiebel",
+      "1 Stange Staudensellerie",
+      "1 Stück Fenchel oder Lauch",
+      "100 ml trockener Weißwein",
+      "1 Lorbeerblatt",
+      "Pfefferkörner",
+      "Petersilienstiele",
+      "Wasser"
+    ],
+    "steps": [
+      "Karkassen kalt abspülen und Kiemen entfernen, da diese bitter machen.",
+      "Gemüse grob würfeln.",
+      "Karkassen und Gemüse in einen Topf geben, Weißwein und so viel Wasser zugießen, dass alles bedeckt ist.",
+      "Langsam zum Sieden bringen und entstehenden Schaum mit einer Schaumkelle abschöpfen.",
+      "Fond auf kleinster Stufe 20–25 Minuten leise ziehen lassen – nicht kochen lassen.",
+      "Durch ein feines Sieb oder Passiertuch gießen und nach Bedarf leicht einreduzieren.",
+      "Mit Salz abschmecken und sofort verwenden oder nach dem Abkühlen einfrieren."
+    ],
+    "tips": [
+      "Karkassen niemals kochen lassen – Sieden trübt den Fond und macht ihn bitter.",
+      "Fond in Eiswürfelformen einfrieren: So hat man immer kleine Portionen griffbereit.",
+      "Kiemen unbedingt entfernen – sie machen den Fond bitter und trüb."
+    ],
+    "featured": false
+  },
+  {
+    "id": "fischfrikadellen",
+    "name": "Fischfrikadellen",
+    "category": "Rezept",
+    "difficulty": "Einsteiger",
+    "time": "30–40 Min.",
+    "tagline": "Saftige Fischbuletten – ideal für Reste und Kinder gleichermaßen.",
+    "description": "Fischfrikadellen sind eine wunderbare Möglichkeit, Fischreste oder Fangüberschüsse zu verwerten. Grob gewolftes oder gehacktes Fischfleisch wird mit Ei, eingeweichtem Brötchen, Zwiebeln und Kräutern zu einer formbaren Masse vermengt und dann in der Pfanne goldbraun gebraten. Das Ergebnis sind saftige, aromatische Frikadellen, die warm wie kalt schmecken.\n\nDie Würzung lässt sich vielfältig gestalten: klassisch mit Petersilie und Zitronenzeste, mediterran mit Kapern und getrockneten Tomaten oder asiatisch angehaucht mit Ingwer und Koriandergrün. Wichtig ist, die Masse vor dem Formen abzuschmecken und – wenn nötig – mit etwas Semmelbrösel zu binden, damit die Frikadellen beim Braten ihre Form behalten.\n\nFischfrikadellen eignen sich hervorragend als Hauptspeise mit Kartoffelsalat, als Burger-Patty im Brötchen oder kalt als Snack. Sie lassen sich auch gut einfrieren und später aufwärmen.",
+    "forFish": [
+      "Hecht",
+      "Zander",
+      "Dorsch",
+      "Karpfen",
+      "Seelachs"
+    ],
+    "ingredients": [
+      "500 g Fischfilet ohne Gräten",
+      "1 altbackenes Brötchen (eingeweicht)",
+      "1 Ei",
+      "1 Zwiebel",
+      "Salz, Pfeffer",
+      "Frische Petersilie",
+      "Zitronenzeste",
+      "Semmelbrösel nach Bedarf",
+      "Öl zum Braten"
+    ],
+    "steps": [
+      "Fischfilet von Gräten befreien und mit einem scharfen Messer fein hacken oder kurz durch den Fleischwolf drehen.",
+      "Brötchen in Wasser einweichen, gut ausdrücken und zur Fischmasse geben.",
+      "Zwiebel fein würfeln und mit Ei, Petersilie, Zitronenzeste, Salz und Pfeffer zur Masse geben.",
+      "Alles gut vermengen und abschmecken; bei zu weicher Masse Semmelbrösel zugeben.",
+      "Mit feuchten Händen gleichmäßige Frikadellen formen.",
+      "In einer Pfanne mit Öl bei mittlerer Hitze von jeder Seite 4–5 Minuten goldbraun braten.",
+      "Auf Küchenpapier kurz abtropfen lassen und servieren."
+    ],
+    "tips": [
+      "Die rohe Masse kann nicht abgeschmeckt werden – eine kleine Probe in der Pfanne braten und nachsalzen.",
+      "Für besonders saftige Frikadellen einen Teil des Fischfleisches durch Sahne ersetzen oder ein Stück Butter einarbeiten.",
+      "Fischfrikadellen gefroren einlegen und direkt aus dem Tiefkühler in die Pfanne geben – verlängert die Garzeit um ca. 5 Minuten."
+    ],
+    "featured": false
+  },
+  {
+    "id": "forelle-muellerin",
+    "name": "Forelle Müllerin Art",
+    "category": "Rezept",
+    "difficulty": "Einsteiger",
+    "time": "20–25 Min.",
+    "tagline": "Ein Klassiker der deutschen Küche – Forelle in Mehl gewendet, in Butter gebraten und mit Zitrone serviert.",
+    "description": "Die Forelle Müllerin Art (Truite meunière) ist eines der bekanntesten Fischgerichte Mitteleuropas. Der Name leitet sich vom Mehl (Mühle, Müller) ab, in dem der Fisch gewendet wird, bevor er in reichlich Butter gebraten wird. Das Ergebnis ist eine duftende, goldbraune Forelle mit knuspriger Haut und einem unwiderstehlichen Butteraroma.\n\nGerichte dieser Art zeichnen sich durch ihre Einfachheit und die Qualität der Zutaten aus. Eine frische Bachforelle, gute Butter, etwas Mehl, Salz, Zitrone und frische Petersilie – mehr braucht es nicht. Die Forelle wird innen und außen getrocknet, leicht gesalzen und durch Mehl gewendet, bevor sie in schäumender Butter von beiden Seiten goldgelb gebraten wird.\n\nZum Servieren wird die Forelle auf einem vorgewärmten Teller angerichtet. In der Pfanne werden dann Butterschmalz oder frische Butter mit Zitronensaft und Petersilie zu einer schnellen Soße verarbeitet und über den Fisch gegossen. Dazu passen Salzkartoffeln, Gurkensalat oder einfaches Baguette.",
+    "forFish": [
+      "Bachforelle",
+      "Regenbogenforelle"
+    ],
+    "ingredients": [
+      "2 Bachforellen (je ca. 300 g, ausgenommen)",
+      "4 EL Mehl",
+      "60 g Butter",
+      "Salz, Pfeffer",
+      "Saft einer halben Zitrone",
+      "Frische Petersilie",
+      "Etwas Öl zum Anbraten"
+    ],
+    "steps": [
+      "Forellen innen und außen gründlich trockentupfen, salzen und pfeffern.",
+      "Forellen von allen Seiten leicht in Mehl wenden und überschüssiges Mehl abklopfen.",
+      "Öl in einer großen Pfanne erhitzen und Butter zugeben, bis sie aufschäumt.",
+      "Forellen einlegen und bei mittlerer Hitze ca. 5–6 Minuten pro Seite goldbraun braten.",
+      "Fertige Forellen auf vorgewärmte Teller heben.",
+      "Restliche Butter in die Pfanne geben, erhitzen bis sie hellbraun (noisette) wird.",
+      "Zitronensaft und gehackte Petersilie unterrühren und sofort über die Forellen gießen."
+    ],
+    "tips": [
+      "Frische Butter zu Beginn verbrennt leicht – eine Mischung aus Öl und Butter schützt und gibt trotzdem den typischen Buttergeschmack.",
+      "Die Forelle sollte kurz vor dem Braten gesalzen werden – zu frühes Salzen entzieht Feuchtigkeit.",
+      "Die braune Butter (Nussbutter) verleiht dem Gericht das charakteristische nussige Aroma – sie nicht zu dunkel werden lassen."
+    ],
+    "featured": false
+  },
+  {
+    "id": "heissraeuchern",
+    "name": "Heißräuchern",
+    "category": "Konservierung",
+    "difficulty": "Fortgeschritten",
+    "time": "1–3 Std.",
+    "tagline": "Rauch und Hitze verbinden sich zu einem unvergleichlich würzigen Genuss.",
+    "description": "Beim Heißräuchern wird der Fisch gleichzeitig gegart und mit Rauch aromatisiert. Die Temperaturen im Räucherofen liegen typischerweise zwischen 60 und 90 °C, wodurch der Fisch vollständig durchgegart wird und ein festes, saftiges Fleisch mit intensivem Raucharoma entsteht. Klassische Kandidaten sind Forelle, Makrele, Aal und Hering.\n\nVor dem Räuchern wird der Fisch für mehrere Stunden oder über Nacht in einer Salzlake eingelegt (Naßsalzen) oder trocken gesalzen (Trockenpökeln). Dies entzieht dem Fleisch Feuchtigkeit, verbessert die Textur und sorgt für eine gleichmäßige Würzung. Nach dem Pökeln wird der Fisch abgespült, abgetrocknet und für 1–2 Stunden an der Luft angetrocknet, damit sich eine leichte Haut (Pellicle) bildet, an der der Rauch besser haftet.\n\nAls Räucherholz eignen sich Buche, Erle, Obstholz (Apfel, Kirsche) oder Eiche. Weiche Nadelholzarten wie Fichte oder Kiefer sind ungeeignet, da sie Harze freisetzen. Der fertige Fisch ist sofort verzehrfertig und hält sich im Kühlschrank 3–5 Tage.",
+    "forFish": [
+      "Bachforelle",
+      "Regenbogenforelle",
+      "Makrele",
+      "Hering",
+      "Aal",
+      "Karpfen"
+    ],
+    "ingredients": [
+      "Räucherofen oder Räuchertonne",
+      "Räucherholz (Buche, Erle, Obsthölzer)",
+      "Salz",
+      "Wasser",
+      "Gewürze nach Wahl (Lorbeer, Pfeffer, Wacholderbeeren)",
+      "Räucherhaken oder Rost"
+    ],
+    "steps": [
+      "Fisch ausnehmen, waschen und in einer Salzlake (60–80 g Salz pro Liter Wasser) für 8–12 Stunden kalt einlegen.",
+      "Fisch aus der Lake nehmen, gründlich abspülen und mit Küchenpapier trockentupfen.",
+      "Fisch auf einem Rost oder an Haken 1–2 Stunden an kühler, luftiger Stelle antrocknen lassen, bis die Oberfläche leicht klebrig wirkt.",
+      "Räucherofen auf 60–70 °C vorheizen und Räucherholz auflegen.",
+      "Fisch einhängen oder auflegen und zunächst bei niedriger Temperatur trocknen, dann auf 80–90 °C erhöhen.",
+      "Räuchervorgang nach 1–3 Stunden beenden, wenn der Fisch goldbraun und vollständig durchgegart ist (Kerntemperatur mind. 63 °C).",
+      "Fisch kurz abkühlen lassen und sofort verzehren oder im Kühlschrank lagern."
+    ],
+    "tips": [
+      "Die Kerntemperatur des Fisches sollte mindestens 63 °C erreichen, um Lebensmittelsicherheit zu gewährleisten.",
+      "Nassholz oder eingeweichte Holzchips erzeugen mehr Rauch bei gleichzeitig langsamerer Verbrennung – ideal für gleichmäßige Ergebnisse.",
+      "Frisch geräucherter Fisch schmeckt am besten noch warm, lässt sich aber auch kalt als Brotbelag genießen."
+    ],
+    "featured": false
+  },
+  {
+    "id": "kaltraeuchern",
+    "name": "Kalträuchern",
+    "category": "Konservierung",
+    "difficulty": "Profi",
+    "time": "12–72 Std.",
+    "tagline": "Sanfter Rauch bei niedrigen Temperaturen – die Königsdisziplin der Fischkonservierung.",
+    "description": "Beim Kalträuchern wird der Fisch bei Temperaturen unter 25 °C mit Rauch behandelt, ohne dabei gegart zu werden. Das Ergebnis ist ein zartes, nahezu rohes Produkt mit delikatem Raucharoma – das bekannteste Beispiel ist Räucherlachs. Die Methode erfordert sorgfältige Hygiene, da der Fisch nicht durch Hitze konserviert wird, sondern durch die Kombination aus Salz, Rauch und Trockenheit.\n\nVor dem Kalträuchern wird der Fisch zwingend für mehrere Stunden bis Tage kräftig gepökelt, um den Wassergehalt zu senken und pathogene Keime zu reduzieren. Anschließend wird überschüssiges Salz abgewaschen und der Fisch sorgsam angetrocknet. Der Räuchervorgang selbst kann je nach gewünschter Intensität 12 bis 72 Stunden dauern. Wichtig: Zwischen den Räucherphasen wird regelmäßig belüftet.\n\nKalträucherfisch gilt lebensmittelrechtlich nicht als durchgegart. Personen mit geschwächtem Immunsystem, Schwangere und Kleinkinder sollten kalträucherten Fisch meiden oder sicherstellen, dass er zuvor mindestens 24 Stunden bei –20 °C eingefroren war, um eventuelle Parasiten abzutöten.",
+    "forFish": [
+      "Lachs",
+      "Bachforelle",
+      "Hering",
+      "Makrele",
+      "Aal"
+    ],
+    "ingredients": [
+      "Kaltrauchgenerator oder Sparbrand",
+      "Räucherholzspäne (Buche, Erle)",
+      "Grobes Meersalz oder Nitritpökelsalz",
+      "Räucherschrank oder Tonne",
+      "Küchenthermometer"
+    ],
+    "steps": [
+      "Fisch filetieren und großzügig mit Salz (min. 30 g pro kg Fischgewicht) einreiben, vakuumieren oder abgedeckt 12–24 Stunden kalt pökeln.",
+      "Fisch aus dem Salz nehmen, gründlich abspülen und mind. 2–4 Stunden an kühler Luft antrocknen lassen.",
+      "Kaltrauchgenerator mit Räucherholzspänen befüllen und im Räucherschrank positionieren.",
+      "Räucherschrank auf unter 25 °C halten – bei warmen Außentemperaturen ggf. mit Eisblöcken kühlen.",
+      "Räuchervorgang in Phasen von 8–12 Stunden durchführen, zwischen den Phasen belüften.",
+      "Nach dem letzten Räucherdurchgang Fisch 12–24 Stunden im Kühlschrank ruhen lassen, damit sich das Aroma setzt."
+    ],
+    "tips": [
+      "Nitritsalz erhöht die Lebensmittelsicherheit bei Kalträucherprodukten und verhindert die Vermehrung von Clostridium botulinum.",
+      "Temperaturkontrolle ist kritisch – über 25 °C beginnt das Eiweiß zu denaturieren und der Fisch gart ungewollt an.",
+      "Für Rohverzehr: Frischfisch vor dem Beizen mindestens 24 Stunden bei –20 °C einfrieren, um Parasiten sicher abzutöten."
+    ],
+    "featured": false
+  }
+]

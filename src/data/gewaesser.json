@@ -1,46 +1,81 @@
 [
   {
-    "id": "fluss",
-    "name": "Fluss",
-    "kind": "typ",
-    "type": "Fließgewässer",
-    "tagline": "Strömende Gewässer mit großer Artenvielfalt und ständig wechselnden Bedingungen.",
-    "description": "Flüsse zählen zu den abwechslungsreichsten Angelgewässern überhaupt. Die ständige Strömung formt unterschiedlichste Strukturen wie Kolke, Buhnenfelder, Gleiten und Prallhänge, die jeweils eigene Fischarten beherbergen. Je nach Größe reichen sie vom kleinen Flüsschen bis zum mächtigen Strom und bieten dadurch Lebensraum für nahezu alle heimischen Süßwasserfische.\n\nDie Wasserführung und Trübung wechseln im Jahresverlauf stark, was die Angelei spannend, aber auch anspruchsvoll macht. Nach Hochwasser oder bei Niedrigwasser verschieben sich die Standplätze der Fische teils deutlich. Wer die Strömungskanten und das Verhalten der Beute liest, ist klar im Vorteil.\n\nVom Friedfischangeln in ruhigen Buchten bis zum Raubfischangeln an der Hauptströmung lassen sich an Flüssen fast alle Methoden ausüben. Besonders Buhnen, Mündungen kleinerer Bäche und Brückenpfeiler sind klassische Hotspots, an denen sich Fische sammeln.",
+    "id": "alta",
+    "name": "Alta",
+    "kind": "revier",
+    "type": "Fluss",
+    "region": "Skandinavien",
+    "country": "Norwegen",
+    "lat": 69.97,
+    "lng": 23.27,
+    "tagline": "Norwegens königlicher Lachsfluss – Könige angelten hier im 19. Jahrhundert",
+    "description": "Der Alta-Fluss in Nordnorwegen ist vielleicht der berühmteste Atlantislachs-Fluss der Welt. Seit dem 19. Jahrhundert, als britische Adelige und Könige hier ihren Urlaub verbrachten, genießt der Alta den Ruf eines unübertroffenen Lachsgewässers. UNESCO-Weltkulturerbe in der unmittelbaren Umgebung – die Felsgravierungen von Alta – unterstreichen die historische Bedeutung der Region.\n\nDer Alta-Lachs ist berühmt für seine außergewöhnliche Größe: Durchschnittsfische von 8 bis 12 Kilogramm sind hier normal, und Exemplare über 30 Kilogramm werden jede Saison gefangen. Die klaren, eiskalten Gletscherwasser und die arktische Mitternachtssonne schaffen eine einmalige Angelatmosphäre.\n\nDie Flussstrecken sind in private Reviere aufgeteilt und die Angelrechte auf dem Alta gehören zu den begehrtesten und teuersten der Welt. Eine Woche Alta-Angeln kann mehrere zehntausend Euro kosten – doch für Kenner ist es jeden Cent wert.",
     "species": [
-      "Hecht",
-      "Zander",
-      "Barsch",
-      "Barbe",
-      "Döbel",
-      "Rapfen",
-      "Aal",
-      "Brassen",
-      "Rotauge"
+      "Atlantischer Lachs",
+      "Meerforelle",
+      "Arktische Äsche"
     ],
     "techniques": [
-      "Spinnfischen",
-      "Grundangeln",
-      "Feederangeln",
-      "Posenangeln",
+      "Fliegenfischen",
+      "Harling",
       "Naturköderangeln"
     ],
     "characteristics": [
-      "Buhnenfelder als Fischsammler",
-      "Strömungskanten und Kolke",
-      "Mündungen von Nebengewässern",
-      "Wechselnde Wasserstände"
+      "Weltberühmter Lachsfluss",
+      "Rekord-Lachsgrößen",
+      "Arktische Mitternachtssonne",
+      "Königliche Angeltradition"
     ],
     "bestSeason": [
-      "April",
-      "Mai",
       "Juni",
-      "September",
-      "Oktober"
+      "Juli",
+      "August"
     ],
     "tips": [
-      "An Buhnenköpfen und in den ruhigen Buhnenkesseln gezielt nach Zander suchen.",
-      "Bei Hochwasser im trüben Randbereich und an überfluteten Strukturen ansitzen."
-    ]
+      "Klassische Singlehand-Fliegenruten ab Klasse 9 sind für die großen Alta-Lachse das Minimum.",
+      "Frühe Morgenstunden bei niedrigem Wasserstand sind statistisch die produktivste Angelzeit."
+    ],
+    "featured": false
+  },
+  {
+    "id": "amazonas",
+    "name": "Amazonas",
+    "kind": "revier",
+    "type": "Fluss",
+    "region": "Südamerika",
+    "country": "Brasilien, Peru, Kolumbien",
+    "tagline": "Der größte Strom der Erde mit einer unvergleichlichen Fischvielfalt.",
+    "description": "Der Amazonas ist der wasserreichste und artenreichste Fluss der Welt und durchzieht mit seinem gewaltigen Einzugsgebiet den tropischen Regenwald Südamerikas. Sein Netz aus Hauptstrom, Nebenflüssen, Seitenarmen und überfluteten Wäldern beherbergt mehrere tausend Fischarten, von denen viele nirgendwo sonst vorkommen.\n\nFür Angler ist der Amazonas ein Sehnsuchtsziel von unvergleichlicher Vielfalt. Berühmt sind vor allem der kampfstarke Tucunaré, der riesige Arapaima sowie zahlreiche Welsarten, Piranhas und Salmler. Der Wechsel zwischen Trocken- und Regenzeit bestimmt den Wasserstand und damit das gesamte Leben im Fluss maßgeblich.\n\nIn der Trockenzeit konzentrieren sich die Fische in den verbleibenden Lagunen und Flussarmen, was die besten Angelbedingungen schafft. Das Spinn- und Fliegenfischen auf Raubfische in den Lagunen sowie das Grundangeln auf Großwelse gehören zu den verbreitetsten Methoden.",
+    "species": [
+      "Wels",
+      "Barracuda",
+      "Rapfen"
+    ],
+    "techniques": [
+      "Spinnfischen",
+      "Fliegenfischen",
+      "Grundangeln",
+      "Naturköderangeln"
+    ],
+    "characteristics": [
+      "Größtes Flusssystem der Erde",
+      "Tausende Fischarten",
+      "Überflutete Regenwälder und Lagunen",
+      "Starker Wechsel von Trocken- und Regenzeit"
+    ],
+    "bestSeason": [
+      "August",
+      "September",
+      "Oktober",
+      "November"
+    ],
+    "tips": [
+      "In der Trockenzeit angeln, wenn sich die Fische in den schrumpfenden Lagunen konzentrieren.",
+      "Mit oberflächennahen Ködern gezielt die räuberischen Buntbarsche in den Seitenarmen reizen."
+    ],
+    "featured": true,
+    "lat": -3.1,
+    "lng": -60
   },
   {
     "id": "bach",
@@ -79,166 +114,45 @@
     ]
   },
   {
-    "id": "see",
-    "name": "See",
-    "kind": "typ",
-    "type": "Stillgewässer",
-    "tagline": "Stehende Gewässer mit klaren Zonen und ganzjährigen Angelmöglichkeiten.",
-    "description": "Seen sind natürliche Stillgewässer, die sich durch deutlich gegliederte Tiefenzonen auszeichnen. Das flache, bewachsene Uferband, die abfallende Halde und das tiefe Freiwasser beherbergen jeweils unterschiedliche Fischarten und verändern sich im Jahresverlauf mit der Wassertemperatur.\n\nIm Sommer bildet sich in tieferen Seen oft eine Sprungschicht aus, oberhalb derer sich das Leben konzentriert. Im Winter ziehen sich viele Fische in tiefere, temperaturstabile Bereiche zurück. Das Verständnis dieser Schichtung ist der Schlüssel zum Erfolg.\n\nSeen bieten Raum für nahezu alle Angelmethoden, vom Friedfischansitz im Uferbereich über das Karpfenangeln bis zum Schleppen und Vertikalangeln im Freiwasser. Krautkanten, Seerosenfelder und versunkene Strukturen sind besonders fängige Stellen.",
+    "id": "baikalsee",
+    "name": "Baikalsee",
+    "kind": "revier",
+    "type": "See",
+    "region": "Russland & Sibirien",
+    "country": "Russland",
+    "tagline": "Der tiefste und älteste See der Erde mit einzigartiger Fischwelt.",
+    "description": "Der Baikalsee in Sibirien ist der tiefste und mit großem Abstand älteste See der Erde und enthält rund ein Fünftel des flüssigen Süßwassers unseres Planeten. Sein außergewöhnlich klares, kaltes Wasser und seine isolierte Lage haben eine einzigartige Tier- und Pflanzenwelt mit zahlreichen endemischen Arten hervorgebracht.\n\nFür Angler ist der Baikal ein besonderes Ziel mit einer eigentümlichen Fischfauna. Neben dem endemischen Omul, einem zur Familie der Lachsfische zählenden Fisch, beheimatet er Äschen, Renken, Hechte und Barsche. Das kalte, sauerstoffreiche Wasser begünstigt salmonidengeprägte Bestände von hoher Qualität.\n\nDie Mündungsbereiche der Zuflüsse, Buchten und Tiefenkanten sind die wichtigsten Hotspots. Im Winter hat das Eisangeln auf dem mächtig zugefrorenen See eine große Tradition, im Sommer wird mit Fliege, Spinngerät und Pose gefischt.",
     "species": [
-      "Hecht",
-      "Zander",
-      "Barsch",
-      "Karpfen",
-      "Schleie",
-      "Brassen",
-      "Rotauge",
-      "Aal"
-    ],
-    "techniques": [
-      "Posenangeln",
-      "Grundangeln",
-      "Karpfenangeln",
-      "Spinnfischen",
-      "Vertikalangeln",
-      "Schleppangeln"
-    ],
-    "characteristics": [
-      "Gegliederte Tiefenzonen",
-      "Sprungschicht im Sommer",
-      "Krautkanten und Seerosenfelder",
-      "Versunkene Strukturen"
-    ],
-    "bestSeason": [
-      "Mai",
-      "Juni",
-      "September",
-      "Oktober"
-    ],
-    "tips": [
-      "Im Sommer die Sprungschicht mit dem Echolot suchen und knapp darüber angeln.",
-      "An Kraut- und Schilfkanten gezielt nach Hecht und Schleie fischen."
-    ]
-  },
-  {
-    "id": "teich",
-    "name": "Teich",
-    "kind": "typ",
-    "type": "Stillgewässer",
-    "tagline": "Kleine, flache Stillgewässer mit warmem Wasser und starkem Friedfischbestand.",
-    "description": "Teiche sind kleine, meist flache und vom Menschen angelegte oder geprägte Stillgewässer. Durch die geringe Tiefe erwärmt sich das Wasser im Sommer rasch, was das Wachstum von Wasserpflanzen und Nährtieren fördert. Das macht Teiche zu produktiven Friedfischgewässern.\n\nKarpfen, Schleien und Rotaugen finden hier reichlich Nahrung und erreichen oft gute Größen. Da das Wasser nährstoffreich ist, kann es im Hochsommer zu Sauerstoffmangel kommen, weshalb die frühen Morgenstunden und der Abend die besten Beißzeiten sind.\n\nKlassische Teichmethoden sind das Posen- und Grundangeln auf Friedfische sowie das Method-Feeder-Angeln auf Karpfen. Schilfgürtel, Seerosen und Einläufe sind die ergiebigsten Bereiche.",
-    "species": [
-      "Karpfen",
-      "Schleie",
-      "Rotauge",
-      "Brassen",
+      "Äsche",
+      "Renke",
       "Hecht",
       "Barsch"
     ],
     "techniques": [
-      "Posenangeln",
-      "Grundangeln",
-      "Method-Feeder",
-      "Karpfenangeln"
+      "Eisangeln",
+      "Fliegenfischen",
+      "Spinnfischen",
+      "Posenangeln"
     ],
     "characteristics": [
-      "Geringe Wassertiefe",
-      "Schnelle Erwärmung im Sommer",
-      "Reicher Pflanzenbewuchs",
-      "Schilfgürtel und Seerosen"
+      "Tiefster und ältester See der Erde",
+      "Extrem klares, kaltes Wasser",
+      "Zahlreiche endemische Arten",
+      "Mündungsbereiche der Zuflüsse"
     ],
     "bestSeason": [
-      "Mai",
+      "Februar",
+      "März",
       "Juni",
       "Juli",
-      "August",
-      "September"
+      "August"
     ],
     "tips": [
-      "In der warmen Jahreszeit früh morgens und abends angeln, wenn der Sauerstoffgehalt am höchsten ist.",
-      "Mit feinem Posengerät direkt an der Schilfkante auf Schleie und Karpfen fischen."
-    ]
-  },
-  {
-    "id": "talsperre",
-    "name": "Talsperre",
-    "kind": "typ",
-    "type": "Stillgewässer",
-    "tagline": "Aufgestaute Großgewässer mit tiefem, klarem Wasser und weiten Freiwasserflächen.",
-    "description": "Talsperren entstehen durch das Aufstauen von Flusstälern und sind dadurch oft sehr tief und klar. Ihr Charakter erinnert an große Bergseen, mit steil abfallenden Ufern, überfluteten Tälern und alten Bachläufen am Grund. Diese Unterwasserstrukturen sind die entscheidenden Anhaltspunkte für die Angelei.\n\nDas klare, oft kühle Wasser begünstigt Raubfische wie Hecht, Zander und Barsch sowie in manchen Talsperren auch Forellen und Renken. Die Fische orientieren sich stark an den überfluteten Strukturen und den ehemaligen Flussbetten, die als Wanderwege dienen.\n\nWegen der großen Tiefen und Flächen sind Boot und Echolot von großem Vorteil. Vertikalangeln, Schleppen und das Befischen der scharfen Kanten gehören zu den erfolgreichsten Methoden.",
-    "species": [
-      "Hecht",
-      "Zander",
-      "Barsch",
-      "Renke",
-      "Regenbogenforelle",
-      "Rotauge",
-      "Brassen"
+      "Im Winter beim Eisangeln gezielt die Mündungsbereiche der Zuflüsse und Tiefenkanten aufsuchen.",
+      "Im Sommer mit der Fliege auf die Äschen in den klaren Flachwasserzonen fischen."
     ],
-    "techniques": [
-      "Vertikalangeln",
-      "Schleppangeln",
-      "Spinnfischen",
-      "Grundangeln"
-    ],
-    "characteristics": [
-      "Große Tiefen und klares Wasser",
-      "Überflutete Täler und Bachläufe",
-      "Steil abfallende Ufer",
-      "Ehemalige Flussbetten als Fischstraßen"
-    ],
-    "bestSeason": [
-      "April",
-      "Mai",
-      "September",
-      "Oktober",
-      "November"
-    ],
-    "tips": [
-      "Mit dem Echolot die alten Flussbetten und Kanten suchen, an denen sich Raubfische sammeln.",
-      "Im Freiwasser nach Schwärmen von Renken oder Weißfisch suchen, in deren Nähe oft Raubfische jagen."
-    ]
-  },
-  {
-    "id": "kanal",
-    "name": "Kanal",
-    "kind": "typ",
-    "type": "Fließgewässer",
-    "tagline": "Künstliche Wasserstraßen mit gleichmäßigem Profil und gutem Fischbestand.",
-    "description": "Kanäle sind künstlich angelegte Wasserstraßen mit weitgehend gleichmäßigem Profil und meist nur geringer Strömung. Trotz ihres technischen Charakters beherbergen sie überraschend gute Fischbestände, da Spundwände, Steinpackungen und Liegestellen für Schiffe vielfältige Verstecke bieten.\n\nDer Schiffsverkehr prägt das Leben im Kanal stark: Vorbeifahrende Schiffe wirbeln Nahrung auf und versetzen die Fische in Fressstimmung. Häufig sind die Stunden um den Schiffsverkehr herum besonders fängig. Die seitlichen Steinpackungen sind dabei das wichtigste Strukturelement.\n\nBesonders beliebt sind Kanäle bei Friedfischanglern, die hier mit Stipp- oder Feedermethode auf Brassen und Rotaugen fischen, sowie bei Raubfischanglern, die Zander und Barsch an den Kanten nachstellen.",
-    "species": [
-      "Zander",
-      "Barsch",
-      "Brassen",
-      "Rotauge",
-      "Aal",
-      "Hecht",
-      "Karpfen"
-    ],
-    "techniques": [
-      "Feederangeln",
-      "Stippangeln",
-      "Spinnfischen",
-      "Grundangeln",
-      "Dropshot-Angeln"
-    ],
-    "characteristics": [
-      "Gleichmäßiges Profil",
-      "Seitliche Steinpackungen",
-      "Spundwände als Versteck",
-      "Einfluss des Schiffsverkehrs"
-    ],
-    "bestSeason": [
-      "April",
-      "Mai",
-      "Juni",
-      "September",
-      "Oktober"
-    ],
-    "tips": [
-      "Die Steinpackung an der Kanalkante mit Dropshot oder leichtem Jig nach Barsch und Zander absuchen.",
-      "Nach dem Durchfahren großer Schiffe gezielt angeln, da dann viele Fische in Fresslaune sind."
-    ]
+    "lat": 53.5,
+    "lng": 108
   },
   {
     "id": "bergsee",
@@ -278,261 +192,49 @@
     ]
   },
   {
-    "id": "muendung-aestuar",
-    "name": "Mündung / Ästuar",
-    "kind": "typ",
+    "id": "bodden-ruegen",
+    "name": "Bodden (Rügen)",
+    "kind": "revier",
     "type": "Brackwasser",
-    "tagline": "Übergangszone zwischen Fluss und Meer mit Brackwasser und enormer Artenfülle.",
-    "description": "Mündungen und Ästuare sind die Übergangszonen, in denen Flüsse ins Meer münden und sich Süß- mit Salzwasser zu Brackwasser mischt. Der Tidenhub sorgt für einen ständigen Wechsel von Wasserstand und Salzgehalt, was diese Lebensräume außerordentlich dynamisch und nahrungsreich macht.\n\nDurch die Vermischung der Lebensräume trifft man hier auf eine ungewöhnliche Mischung aus Süßwasser-, Brackwasser- und Meeresfischen. Wanderfische wie Aal, Meerforelle und Lachs durchqueren die Ästuare auf ihren Wanderungen. Schlick- und Sandbänke, Priele und Strömungskanten sind die entscheidenden Strukturen.\n\nDie Tide bestimmt das Angeln maßgeblich, denn mit dem ein- und auslaufenden Wasser bewegen sich auch die Fische. Brandungs-, Grund- und Spinnangeln sind hier verbreitete Methoden.",
+    "region": "Mitteleuropa",
+    "country": "Deutschland",
+    "lat": 54.43,
+    "lng": 13.35,
+    "tagline": "Brackwasserparadies zwischen Ostseeinseln und Festland",
+    "description": "Die Bodden rund um Rügen zählen zu den artenreichsten Küstengewässern Deutschlands. Diese flachen, windgeschützten Lagunen entstehen zwischen den Halbinseln und Inseln der Ostseeküste und bilden ein einzigartiges Brackwasser-Ökosystem, das zahlreichen Fischarten als Laich- und Aufwuchsgebiet dient.\n\nBesonders bekannt sind die Bodden für ihren Zanderreichtum, doch auch Hechte, Barsche und Aale fühlen sich in den nährstoffreichen Flachwasserzonen wohl. Im Herbst ziehen Meerforellen durch die Bodden auf ihrem Weg in die Zuflüsse, was Küstenangler in Scharen anlockt.\n\nDas Angeln in den Bodden erfordert gute Kenntnisse der Gezeiten und Windverhältnisse, da die Wassertiefe oft unter zwei Metern liegt. Vom Boot aus lassen sich mit dem Gummifisch oder der Naturköderpose hervorragende Ergebnisse erzielen.",
     "species": [
+      "Zander",
+      "Hecht",
+      "Barsch",
       "Meerforelle",
       "Aal",
-      "Wolfsbarsch",
-      "Scholle",
       "Hornhecht",
-      "Barsch"
+      "Scholle"
     ],
     "techniques": [
-      "Brandungsangeln",
-      "Grundangeln",
       "Spinnfischen",
+      "Posenangeln",
       "Naturköderangeln",
-      "Meerforellenangeln"
+      "Fliegenfischen"
     ],
     "characteristics": [
-      "Mischung aus Süß- und Salzwasser",
-      "Starker Tideneinfluss",
-      "Priele und Schlickbänke",
-      "Durchzugsgebiet für Wanderfische"
+      "Flaches Brackwasser",
+      "Windgeschützte Lagunen",
+      "Artenreiche Vegetation",
+      "Saisonale Wanderfische"
     ],
     "bestSeason": [
       "März",
       "April",
-      "Mai",
       "September",
-      "Oktober"
-    ],
-    "tips": [
-      "Das Angeln nach den Gezeiten richten, da auflaufendes Wasser die Fische oft in Fresslaune versetzt.",
-      "An Strömungskanten und Prielmündungen fischen, wo sich Nahrung und Fische sammeln."
-    ]
-  },
-  {
-    "id": "kueste",
-    "name": "Küste",
-    "kind": "typ",
-    "type": "Meer",
-    "tagline": "Der Übergang von Land und Meer mit Brandung, Stränden und Felsküsten.",
-    "description": "Die Küste bildet den vielseitigen Übergang zwischen Land und offenem Meer und umfasst Sandstrände, Felsküsten, Molen und flache Buchten. Wellengang, Strömung und Tide formen ständig wechselnde Bedingungen, die ein breites Spektrum an Fischarten anlocken.\n\nIn der Brandung wühlt die Bewegung des Wassers Nahrung aus dem Sand, was Plattfische und andere Bodenfische anzieht. An Felsküsten und Molen jagen Raubfische wie Wolfsbarsch und Hornhecht. Je nach Region und Jahreszeit verändert sich der Fang erheblich.\n\nDie Küste ist ein klassisches Revier für das Brandungsangeln vom Strand sowie für das Spinnangeln auf Meerforelle und Wolfsbarsch von Land aus. Sandbänke, Rinnen und Strukturen im Wasser sind die wichtigsten Hotspots.",
-    "species": [
-      "Scholle",
-      "Wolfsbarsch",
-      "Meerforelle",
-      "Dorsch",
-      "Hornhecht",
-      "Makrele",
-      "Hering"
-    ],
-    "techniques": [
-      "Brandungsangeln",
-      "Spinnfischen",
-      "Meerforellenangeln",
-      "Naturköderangeln"
-    ],
-    "characteristics": [
-      "Brandung über Sand und Kies",
-      "Felsküsten und Molen",
-      "Rinnen und Sandbänke",
-      "Starker Tiden- und Strömungseinfluss"
-    ],
-    "bestSeason": [
-      "März",
-      "April",
-      "Mai",
       "Oktober",
       "November"
     ],
     "tips": [
-      "Vor dem Angeln bei Niedrigwasser den Strand auf Rinnen und Strukturen absuchen, die später Fisch führen.",
-      "Beim Brandungsangeln den Köder in die tieferen Rinnen hinter der ersten Sandbank platzieren."
-    ]
-  },
-  {
-    "id": "riff",
-    "name": "Riff",
-    "kind": "typ",
-    "type": "Meer",
-    "tagline": "Unterwasserstrukturen aus Fels oder Korallen als Hotspots des Meeres.",
-    "description": "Riffe sind erhabene Unterwasserstrukturen aus Fels oder Korallen, die im Meer wahre Oasen des Lebens darstellen. Sie bieten unzähligen Klein- und Beutefischen Schutz und Nahrung und ziehen dadurch große Räuber an. Damit zählen Riffe zu den fischreichsten Bereichen überhaupt.\n\nDie komplexe Struktur aus Spalten, Überhängen und Steilkanten beherbergt eine enorme Artenvielfalt. In gemäßigten Breiten sind es vor allem Dorsch und Köhler, die sich an Felsriffen aufhalten, während tropische Korallenriffe von einer schier unüberschaubaren Fülle bunter Arten und Raubfische bewohnt werden.\n\nGeangelt wird meist vom Boot über der Struktur, etwa durch Pilken, Naturköderangeln oder Schleppen entlang der Riffkanten. Wegen der scharfen Strukturen ist robustes Gerät erforderlich, um die Fische aus dem Geäst zu führen.",
-    "species": [
-      "Dorsch",
-      "Köhler",
-      "Makrele",
-      "Barracuda",
-      "Wolfsbarsch",
-      "Heilbutt"
+      "Bei Ostwind sind die westlichen Boddenabschnitte oft ergiebiger, da das Wasser aufgehellt wird.",
+      "Gummifische in natürlichen Farben (Silber, Weiß) funktionieren besonders gut bei klarem Wasser."
     ],
-    "techniques": [
-      "Pilken",
-      "Naturköderangeln",
-      "Schleppangeln",
-      "Spinnfischen"
-    ],
-    "characteristics": [
-      "Fels- oder Korallenstruktur",
-      "Hohe Artenvielfalt",
-      "Spalten und Steilkanten",
-      "Sammelpunkt für Beutefische"
-    ],
-    "bestSeason": [
-      "Mai",
-      "Juni",
-      "Juli",
-      "August",
-      "September"
-    ],
-    "tips": [
-      "Robustes Gerät verwenden, um gehakte Fische rasch von den scharfen Riffstrukturen wegzuführen.",
-      "Den Köder dicht über oder an der Kante des Riffs anbieten, wo die Räuber auf Beute lauern."
-    ]
-  },
-  {
-    "id": "rhein",
-    "name": "Rhein",
-    "kind": "revier",
-    "type": "Fluss",
-    "region": "Mitteleuropa",
-    "country": "Deutschland, Schweiz, Niederlande",
-    "tagline": "Deutschlands bedeutendster Strom und ein erstklassiges Revier für Raubfisch.",
-    "description": "Der Rhein ist einer der wichtigsten Ströme Europas und durchzieht auf seinem Weg von den Alpen bis zur Nordsee vielfältigste Landschaften. Über weite Strecken ist er ein mächtiger, strömungsreicher Fluss mit ausgeprägten Buhnenfeldern, die das Herzstück der Angelei bilden und unzähligen Fischen Schutz vor der Hauptströmung bieten.\n\nDer Rhein gilt als eines der besten Zander- und Barschgewässer Deutschlands, beheimatet daneben aber auch starke Bestände an Rapfen, Barben, Welsen und Friedfischen. Die Wasserqualität hat sich in den vergangenen Jahrzehnten deutlich verbessert, sodass die Artenvielfalt heute wieder bemerkenswert hoch ist.\n\nDie Buhnenfelder, Hafeneinfahrten und Mündungen der Nebenflüsse sind die klassischen Hotspots. Besonders das Spinnfischen auf Zander und Rapfen hat hier eine große Tradition, ebenso das Ansitzangeln auf Wels und Friedfisch in den ruhigeren Bereichen.",
-    "species": [
-      "Zander",
-      "Barsch",
-      "Rapfen",
-      "Wels",
-      "Barbe",
-      "Hecht",
-      "Brassen",
-      "Rotauge",
-      "Aal"
-    ],
-    "techniques": [
-      "Spinnfischen",
-      "Grundangeln",
-      "Feederangeln",
-      "Wallerangeln",
-      "Dropshot-Angeln"
-    ],
-    "characteristics": [
-      "Ausgedehnte Buhnenfelder",
-      "Starke Hauptströmung",
-      "Hafenbecken und Industriegewässer",
-      "Mündungen zahlreicher Nebenflüsse"
-    ],
-    "bestSeason": [
-      "April",
-      "Mai",
-      "Juni",
-      "September",
-      "Oktober"
-    ],
-    "tips": [
-      "Die Buhnenkessel und Strömungskanten gezielt mit Gummifisch auf Zander absuchen.",
-      "Im Sommer an der Oberfläche und an Strömungskanten gezielt nach jagenden Rapfen Ausschau halten."
-    ],
-    "featured": true,
-    "lat": 50,
-    "lng": 7.6
-  },
-  {
-    "id": "donau",
-    "name": "Donau",
-    "kind": "revier",
-    "type": "Fluss",
-    "region": "Mitteleuropa",
-    "country": "Deutschland, Österreich, Ungarn, Serbien, Rumänien",
-    "tagline": "Europas zweitlängster Strom und ein Eldorado für kapitale Welse.",
-    "description": "Die Donau durchquert von ihrer Quelle im Schwarzwald bis zur Mündung ins Schwarze Meer zehn Länder und ist damit ein Strom von kontinentaler Bedeutung. In ihrem Verlauf wandelt sie sich vom überschaubaren Fluss zum gewaltigen Strom mit tiefen Rinnen, Inseln und ausgedehnten Auen.\n\nBerühmt ist die Donau vor allem für ihre kapitalen Welse, die hier Längen von über zwei Metern erreichen können. Daneben beherbergt sie starke Bestände an Zander, Barbe und Rapfen sowie in den Oberläufen vereinzelt noch den seltenen Huchen. Die Stauhaltungen und freien Fließstrecken bieten sehr unterschiedliche Bedingungen.\n\nKolke, Mündungsbereiche von Nebenflüssen und tiefe Rinnen sind die typischen Standplätze der großen Räuber. Das Wallerangeln mit schweren Montagen sowie das Spinnfischen auf Zander und Rapfen gehören zu den verbreitetsten Methoden.",
-    "species": [
-      "Wels",
-      "Zander",
-      "Barbe",
-      "Rapfen",
-      "Hecht",
-      "Barsch",
-      "Brassen"
-    ],
-    "techniques": [
-      "Wallerangeln",
-      "Spinnfischen",
-      "Grundangeln",
-      "Feederangeln",
-      "Naturköderangeln"
-    ],
-    "characteristics": [
-      "Tiefe Kolke und Rinnen",
-      "Bekannte Wallergewässer",
-      "Stauhaltungen und freie Fließstrecken",
-      "Ausgedehnte Auenlandschaften"
-    ],
-    "bestSeason": [
-      "Mai",
-      "Juni",
-      "Juli",
-      "August",
-      "September"
-    ],
-    "tips": [
-      "Welse gezielt an tiefen Kolken und an Mündungen von Nebenflüssen mit Tauwurm oder Köderfisch nachstellen.",
-      "In den warmen Sommernächten auf aktive, jagende Welse setzen."
-    ],
-    "lat": 48.2,
-    "lng": 16.4
-  },
-  {
-    "id": "elbe",
-    "name": "Elbe",
-    "kind": "revier",
-    "type": "Fluss",
-    "region": "Mitteleuropa",
-    "country": "Deutschland, Tschechien",
-    "tagline": "Norddeutscher Tidenstrom mit Buhnen und einem starken Zanderbestand.",
-    "description": "Die Elbe entspringt im Riesengebirge und mündet bei Cuxhaven in die Nordsee. Auf ihrem deutschen Abschnitt ist sie über weite Strecken ein frei fließender Strom mit charakteristischen Buhnenfeldern, im Unterlauf wird sie zunehmend vom Tidenhub geprägt und führt schließlich Brackwasser.\n\nDie Elbe ist ein hervorragendes Raubfischrevier mit kräftigen Beständen an Zander, Barsch und Rapfen. In den tidebeeinflussten Bereichen mischen sich Süßwasser- und Wanderfische, sodass hier neben Zandern auch Aale gefangen werden. Die Wasserqualität hat sich seit der Wiedervereinigung deutlich erholt.\n\nWie am Rhein bilden die Buhnenfelder das Zentrum der Angelei, ergänzt durch Hafenbecken und Mündungen kleinerer Flüsse. Das Spinnfischen auf Zander und Rapfen sowie das Friedfischangeln in ruhigeren Zonen sind weit verbreitet.",
-    "species": [
-      "Zander",
-      "Barsch",
-      "Rapfen",
-      "Aal",
-      "Brassen",
-      "Hecht",
-      "Rotauge"
-    ],
-    "techniques": [
-      "Spinnfischen",
-      "Grundangeln",
-      "Feederangeln",
-      "Dropshot-Angeln",
-      "Naturköderangeln"
-    ],
-    "characteristics": [
-      "Charakteristische Buhnenfelder",
-      "Tideneinfluss im Unterlauf",
-      "Brackwasserzone vor der Mündung",
-      "Hafenbecken als Hotspots"
-    ],
-    "bestSeason": [
-      "April",
-      "Mai",
-      "Juni",
-      "September",
-      "Oktober"
-    ],
-    "tips": [
-      "In den tidebeeinflussten Abschnitten das Angeln nach den Gezeiten ausrichten.",
-      "Die Buhnenfelder mit Gummifisch systematisch auf Zander und Barsch abfischen."
-    ],
-    "lat": 53.4,
-    "lng": 10
+    "featured": false
   },
   {
     "id": "bodensee",
@@ -580,32 +282,79 @@
     "lng": 9.4
   },
   {
-    "id": "norwegische-fjorde",
-    "name": "Norwegische Fjorde",
+    "id": "columbia-river",
+    "name": "Columbia River",
     "kind": "revier",
-    "type": "Meer",
-    "region": "Skandinavien",
-    "country": "Norwegen",
-    "tagline": "Tiefe Meeresarme mit Traumfischen wie Dorsch, Köhler und Heilbutt.",
-    "description": "Die norwegischen Fjorde sind tief ins Land eingeschnittene Meeresarme, die mit ihren steil abfallenden Wänden und enormen Tiefen ein einzigartiges Angelrevier bilden. Schon wenige Meter vom Ufer entfernt erreicht das Wasser oft Tiefen von vielen Dutzend Metern, was selbst Großfische in Ufernähe bringt.\n\nDie Fjorde sind ein Mekka für Meeresangler und berühmt für kapitale Dorsche, Köhler und vor allem Heilbutte. Das nährstoffreiche, kalte Wasser des Nordatlantiks sorgt für ein reichhaltiges Nahrungsangebot und außergewöhnliches Fischwachstum. Riffe, Kanten und Strömungsbereiche sind die entscheidenden Hotspots.\n\nGeangelt wird überwiegend vom Boot mit schwerem Gerät. Das Pilken auf Dorsch und Köhler sowie das Naturköder- und Schleppangeln auf Heilbutt sind die typischen Methoden. Aufgrund der Tiefen und der Größe der Fische ist robustes Material unerlässlich.",
+    "type": "Fluss",
+    "region": "Nordamerika",
+    "country": "USA / Kanada",
+    "lat": 46.15,
+    "lng": -119.35,
+    "tagline": "Pazifiklachse und Störe im mächtigsten Strom des Nordwestens",
+    "description": "Der Columbia River ist der größte Fluss des Pazifischen Nordwestens und eines der bedeutendsten Lachsangel-Reviere Nordamerikas. Auf 1953 Kilometern vom Kanadischen Rocky Mountains bis zum Pazifik bietet er vielfältige Angelreviere für anspruchsvolle Lachsangler.\n\nDer Chinook-Lachs des Columbia ist berühmt für seine außergewöhnliche Größe – Exemplare über 20 Kilogramm sind keine Seltenheit. Neben Chinook steigen Silberlachse, Stahllachse (Meerforellen des Pazifiks) und Sockeye-Lachse in den Fluss. Die Frühjahrswanderung der Frühlings-Chinook gilt als Highlight des amerikanischen Sportfischens.\n\nBesonders faszinierend ist die Columbia-Fischerrei auf Weißstöre (White Sturgeon), die bis zu 6 Meter lang und mehrere hundert Jahre alt werden können. Das Angeln auf diese Urzeit-Fische, die dann wieder freigelassen werden, ist ein unvergessliches Erlebnis mit einem der ältesten Fische der Welt.",
     "species": [
-      "Dorsch",
-      "Köhler",
-      "Heilbutt",
-      "Makrele",
-      "Steinbutt"
+      "Chinook-Lachs",
+      "Silberlachs",
+      "Stahllachs",
+      "Sockeye-Lachs",
+      "Weißstör",
+      "Steelhead"
     ],
     "techniques": [
-      "Pilken",
-      "Naturköderangeln",
-      "Schleppangeln",
-      "Spinnfischen"
+      "Trolling",
+      "Fliegenfischen",
+      "Spinnfischen",
+      "Grundangeln"
     ],
     "characteristics": [
-      "Steil abfallende Unterwasserwände",
-      "Große Tiefen in Ufernähe",
-      "Kaltes, nährstoffreiches Wasser",
-      "Strömungskanten und Unterwasserriffe"
+      "Pazifische Lachswanderungen",
+      "Rekordsturlachse",
+      "Große Stauanlagen",
+      "Vielfältige Angelabschnitte"
+    ],
+    "bestSeason": [
+      "März",
+      "April",
+      "Mai",
+      "September",
+      "Oktober"
+    ],
+    "tips": [
+      "Für Weißstöre sind große Aal- und Stintköder auf Grund in den Tieflöchern unterhalb der Dämme am effektivsten.",
+      "Trolling mit Kwikfish-Wobblern in Lachs-Rot funktioniert für Chinook besonders gut."
+    ],
+    "featured": false
+  },
+  {
+    "id": "donau",
+    "name": "Donau",
+    "kind": "revier",
+    "type": "Fluss",
+    "region": "Mitteleuropa",
+    "country": "Deutschland, Österreich, Ungarn, Serbien, Rumänien",
+    "tagline": "Europas zweitlängster Strom und ein Eldorado für kapitale Welse.",
+    "description": "Die Donau durchquert von ihrer Quelle im Schwarzwald bis zur Mündung ins Schwarze Meer zehn Länder und ist damit ein Strom von kontinentaler Bedeutung. In ihrem Verlauf wandelt sie sich vom überschaubaren Fluss zum gewaltigen Strom mit tiefen Rinnen, Inseln und ausgedehnten Auen.\n\nBerühmt ist die Donau vor allem für ihre kapitalen Welse, die hier Längen von über zwei Metern erreichen können. Daneben beherbergt sie starke Bestände an Zander, Barbe und Rapfen sowie in den Oberläufen vereinzelt noch den seltenen Huchen. Die Stauhaltungen und freien Fließstrecken bieten sehr unterschiedliche Bedingungen.\n\nKolke, Mündungsbereiche von Nebenflüssen und tiefe Rinnen sind die typischen Standplätze der großen Räuber. Das Wallerangeln mit schweren Montagen sowie das Spinnfischen auf Zander und Rapfen gehören zu den verbreitetsten Methoden.",
+    "species": [
+      "Wels",
+      "Zander",
+      "Barbe",
+      "Rapfen",
+      "Hecht",
+      "Barsch",
+      "Brassen"
+    ],
+    "techniques": [
+      "Wallerangeln",
+      "Spinnfischen",
+      "Grundangeln",
+      "Feederangeln",
+      "Naturköderangeln"
+    ],
+    "characteristics": [
+      "Tiefe Kolke und Rinnen",
+      "Bekannte Wallergewässer",
+      "Stauhaltungen und freie Fließstrecken",
+      "Ausgedehnte Auenlandschaften"
     ],
     "bestSeason": [
       "Mai",
@@ -615,99 +364,11 @@
       "September"
     ],
     "tips": [
-      "Heilbutt gezielt über Sand- und Kiesplateaus in Strömungsnähe mit großen Naturködern oder Gummifischen nachstellen.",
-      "Über Riffkanten pilken, wo sich Dorsch und Köhler in großer Zahl aufhalten."
+      "Welse gezielt an tiefen Kolken und an Mündungen von Nebenflüssen mit Tauwurm oder Köderfisch nachstellen.",
+      "In den warmen Sommernächten auf aktive, jagende Welse setzen."
     ],
-    "featured": true,
-    "lat": 61.2,
-    "lng": 6.5
-  },
-  {
-    "id": "vaenern",
-    "name": "Vänern",
-    "kind": "revier",
-    "type": "See",
-    "region": "Skandinavien",
-    "country": "Schweden",
-    "tagline": "Schwedens größter See und ein weltberühmtes Revier für kapitale Lachse.",
-    "description": "Der Vänern ist mit rund 5.600 Quadratkilometern der größte See Schwedens und der drittgrößte Europas. Seine gewaltige Wasserfläche mit unzähligen Inseln, Schären und weiten Freiwasserzonen verleiht ihm fast meeresähnliche Dimensionen und sorgt für vielfältigste Lebensräume.\n\nWeltberühmt ist der Vänern für seine kapitalen Lachse und Seeforellen, die als Binnenformen im See abwachsen und dabei beachtliche Gewichte erreichen. Daneben beheimatet er starke Bestände an Hecht, Zander und Barsch, die vor allem in den Schärengebieten und an den Kanten zu finden sind.\n\nDas Schleppen im Freiwasser auf Lachs und Seeforelle ist die klassische Methode am Vänern. In den geschützten Schären wird zudem intensiv auf Hecht und Barsch gespinnt, während die Tiefenkanten gute Zanderfänge versprechen.",
-    "species": [
-      "Atlantischer Lachs",
-      "Seeforelle",
-      "Hecht",
-      "Zander",
-      "Barsch"
-    ],
-    "techniques": [
-      "Schleppangeln",
-      "Spinnfischen",
-      "Vertikalangeln",
-      "Jiggen"
-    ],
-    "characteristics": [
-      "Riesige Wasserfläche mit Schären",
-      "Binnenlachs und Seeforelle",
-      "Weite Freiwasserzonen",
-      "Zahlreiche Inseln und Kanten"
-    ],
-    "bestSeason": [
-      "April",
-      "Mai",
-      "Juni",
-      "September",
-      "Oktober"
-    ],
-    "tips": [
-      "Lachse durch großflächiges Schleppen mit Planerboards im offenen Wasser suchen.",
-      "In den geschützten Schären auf große Hechte spinnen, die hier ideale Bedingungen finden."
-    ],
-    "lat": 58.9,
-    "lng": 13.3
-  },
-  {
-    "id": "themse",
-    "name": "Themse",
-    "kind": "revier",
-    "type": "Fluss",
-    "region": "Britische Inseln",
-    "country": "Vereinigtes Königreich",
-    "tagline": "Englands berühmtester Fluss mit traditioneller Friedfischangelei.",
-    "description": "Die Themse ist der bekannteste Fluss Englands und fließt von ihrer Quelle in den Cotswolds durch London bis zur Nordsee. Über weite Strecken ist sie ein ruhiger, gemächlich strömender Fluss mit zahlreichen Schleusen, Wehren und bewachsenen Uferzonen, die ein reiches Fischleben beherbergen.\n\nDie Themse hat eine lange Tradition als Friedfischgewässer und beheimatet starke Bestände an Brassen, Rotaugen, Döbeln und Barben. Daneben sind Hecht, Barsch und Zander verbreitet, und im Unterlauf, der zunehmend vom Tidenhub geprägt wird, mischen sich Wanderfische hinzu. Die Erholung der Wasserqualität hat die Artenvielfalt deutlich gefördert.\n\nWehre, Schleusenkanäle und ruhige Gleiten sind die typischen Hotspots. Das Feeder- und Posenangeln auf Friedfisch hat hier eine große Tradition, ebenso das Spinnfischen auf die Räuber in den tieferen Bereichen.",
-    "species": [
-      "Brassen",
-      "Rotauge",
-      "Döbel",
-      "Barbe",
-      "Hecht",
-      "Barsch",
-      "Zander"
-    ],
-    "techniques": [
-      "Feederangeln",
-      "Posenangeln",
-      "Grundangeln",
-      "Spinnfischen",
-      "Stippangeln"
-    ],
-    "characteristics": [
-      "Gemächliche Strömung",
-      "Zahlreiche Wehre und Schleusen",
-      "Tideneinfluss im Unterlauf",
-      "Bewachsene, ruhige Uferzonen"
-    ],
-    "bestSeason": [
-      "Mai",
-      "Juni",
-      "Juli",
-      "September",
-      "Oktober"
-    ],
-    "tips": [
-      "Unterhalb von Wehren angeln, wo sauerstoffreiches Wasser und Nahrung viele Fische anziehen.",
-      "Mit dem Feeder gezielt auf die starken Brassen- und Barbenschwärme fischen."
-    ],
-    "lat": 51.5,
-    "lng": -0.6
+    "lat": 48.2,
+    "lng": 16.4
   },
   {
     "id": "ebro",
@@ -753,34 +414,457 @@
     "lng": 0.5
   },
   {
-    "id": "po",
-    "name": "Po",
+    "id": "eg-uur",
+    "name": "Eg-Uur (Mongolei)",
     "kind": "revier",
     "type": "Fluss",
-    "region": "Mittelmeerraum",
-    "country": "Italien",
-    "tagline": "Italiens längster Strom und legendäres Revier für kapitale Welse.",
-    "description": "Der Po ist der längste Fluss Italiens und durchzieht die fruchtbare Poebene von den Westalpen bis zur Adria. Auf seinem Weg wandelt er sich zu einem breiten, träge fließenden Strom mit tiefen Rinnen, Sandbänken und einem ausgedehnten Mündungsdelta, das ein reiches Tierleben beherbergt.\n\nDer Po zählt zu den legendären Wallergewässern Europas und ist berühmt für seine riesigen Welse. Daneben beheimatet er kräftige Bestände an Karpfen, Zander, Rapfen und Barben sowie zahlreiche eingewanderte Arten. Das warme, nährstoffreiche Wasser sorgt für ein außergewöhnliches Wachstum der Fische.\n\nDie tiefen Kolke, Mündungsbereiche und Strömungskanten sind die klassischen Standplätze der großen Räuber. Wallerangeln, Karpfenangeln und Spinnfischen auf Zander und Rapfen sind die typischen Methoden an diesem Strom.",
+    "region": "Ostasien",
+    "country": "Mongolei",
+    "lat": 49.65,
+    "lng": 100.35,
+    "tagline": "Die letzte Wildnis für den mythischen Taimen – Kaiserfisch der Mongolei",
+    "description": "Das Eg-Uur-System im Norden der Mongolei, wo der Eg-Fluss auf den Uur-Fluss trifft, gilt als das weltweit beste Revier für den Sibirischen Taimen (Hucho taimen) – den größten Salmoniden der Welt. Diese ur-zeitlichen Raubfische, die vor den Dinosauriern entstanden, können über 1,50 Meter lang und 80 Kilogramm schwer werden.\n\nDer Taimen ist in Mittelasien stark bedroht und im Eg-Uur-Gebiet durch ein seit Jahren betriebenes Catch-and-Release-Programm und strenges Wildtiermanagement geschützt. Nur eine Handvoll ausgesuchter Angelcamps haben Zugang zu diesen Gewässern, und die Anzahl der Angler ist streng limitiert. Das Angeln mit großen Mausmuster-Fliegen an der Oberfläche, bei dem ein Taimen das Muster mit einem gewaltigen Explosion angreift, ist eine der aufregendsten Erfahrungen im gesamten Fliegenfischen.\n\nDie Anreise in die mongolische Wildnis – meist per Pferd oder Geländewagen über Stunden – ist Teil des Abenteuers. Übernachtet wird in Gers (Jurten), und die nomadische Gastfreundschaft der einheimischen Bevölkerung ist herzlich.",
     "species": [
-      "Wels",
-      "Karpfen",
-      "Zander",
-      "Barbe",
-      "Rapfen",
-      "Barsch"
+      "Sibirischer Taimen",
+      "Lenok",
+      "Äsche",
+      "Burbot"
     ],
     "techniques": [
-      "Wallerangeln",
-      "Karpfenangeln",
+      "Fliegenfischen",
+      "Großstreamerfischen",
+      "Mausmuster-Angeln",
+      "Spinnfischen"
+    ],
+    "characteristics": [
+      "Weltbestes Taimen-Revier",
+      "Archaische Wildflusslandschaft",
+      "Extremes Catch-and-Release",
+      "Jurten-Expedition"
+    ],
+    "bestSeason": [
+      "Juni",
+      "Juli",
+      "August",
+      "September"
+    ],
+    "tips": [
+      "Große Mausmuster-Fliegen (10 bis 15 cm) aus Hirschhaar werden an der Oberfläche geswungen – der Angriff des Taimen ist einer der spektakulärsten im Fliegenfischen.",
+      "Stahlvorfach ist für Taimen Pflicht – ihre nadelspitzen Zähne durchtrennen jede Fluorocarbon-Schnur."
+    ],
+    "featured": false
+  },
+  {
+    "id": "elbe",
+    "name": "Elbe",
+    "kind": "revier",
+    "type": "Fluss",
+    "region": "Mitteleuropa",
+    "country": "Deutschland, Tschechien",
+    "tagline": "Norddeutscher Tidenstrom mit Buhnen und einem starken Zanderbestand.",
+    "description": "Die Elbe entspringt im Riesengebirge und mündet bei Cuxhaven in die Nordsee. Auf ihrem deutschen Abschnitt ist sie über weite Strecken ein frei fließender Strom mit charakteristischen Buhnenfeldern, im Unterlauf wird sie zunehmend vom Tidenhub geprägt und führt schließlich Brackwasser.\n\nDie Elbe ist ein hervorragendes Raubfischrevier mit kräftigen Beständen an Zander, Barsch und Rapfen. In den tidebeeinflussten Bereichen mischen sich Süßwasser- und Wanderfische, sodass hier neben Zandern auch Aale gefangen werden. Die Wasserqualität hat sich seit der Wiedervereinigung deutlich erholt.\n\nWie am Rhein bilden die Buhnenfelder das Zentrum der Angelei, ergänzt durch Hafenbecken und Mündungen kleinerer Flüsse. Das Spinnfischen auf Zander und Rapfen sowie das Friedfischangeln in ruhigeren Zonen sind weit verbreitet.",
+    "species": [
+      "Zander",
+      "Barsch",
+      "Rapfen",
+      "Aal",
+      "Brassen",
+      "Hecht",
+      "Rotauge"
+    ],
+    "techniques": [
       "Spinnfischen",
       "Grundangeln",
+      "Feederangeln",
+      "Dropshot-Angeln",
       "Naturköderangeln"
     ],
     "characteristics": [
-      "Breiter, träge fließender Strom",
-      "Legendäre Welsbestände",
-      "Tiefe Kolke und Rinnen",
-      "Ausgedehntes Mündungsdelta"
+      "Charakteristische Buhnenfelder",
+      "Tideneinfluss im Unterlauf",
+      "Brackwasserzone vor der Mündung",
+      "Hafenbecken als Hotspots"
+    ],
+    "bestSeason": [
+      "April",
+      "Mai",
+      "Juni",
+      "September",
+      "Oktober"
+    ],
+    "tips": [
+      "In den tidebeeinflussten Abschnitten das Angeln nach den Gezeiten ausrichten.",
+      "Die Buhnenfelder mit Gummifisch systematisch auf Zander und Barsch abfischen."
+    ],
+    "lat": 53.4,
+    "lng": 10
+  },
+  {
+    "id": "florida-keys",
+    "name": "Florida Keys",
+    "kind": "revier",
+    "type": "Meer",
+    "region": "Karibik",
+    "country": "Vereinigte Staaten",
+    "tagline": "Tropische Inselkette mit Weltklasse-Salzwasserfischen wie Tarpon und Bonefish.",
+    "description": "Die Florida Keys sind eine langgestreckte tropische Inselkette, die sich vom Süden Floridas weit in die warmen Gewässer zwischen Atlantik und Golf von Mexiko erstreckt. Mit ihren ausgedehnten Flats, Mangroven, Korallenriffen und dem nahen Golfstrom bieten sie ein außergewöhnlich vielfältiges Salzwasserrevier von Weltrang.\n\nDie Keys gelten als eine der besten Angeldestinationen der Welt, insbesondere für das Sichtangeln auf den Flats. Berühmt sind vor allem Tarpon, Bonefish und Permit, das sogenannte Grand-Slam-Trio der Salzwasserfliegenfischer. In tieferem Wasser und am Riff jagen zudem Barracudas, Wolfsbarsche und zahlreiche weitere Raubfische.\n\nDie flachen Sandbänke, Mangrovenkanten und Riffe sind die entscheidenden Hotspots. Das Fliegen- und Spinnfischen auf den Flats sowie das Naturköder- und Schleppangeln in tieferem Wasser gehören zu den verbreitetsten Methoden.",
+    "species": [
+      "Tarpon",
+      "Bonefish",
+      "Barracuda",
+      "Wolfsbarsch",
+      "Makrele"
+    ],
+    "techniques": [
+      "Fliegenfischen",
+      "Spinnfischen",
+      "Naturköderangeln",
+      "Schleppangeln"
+    ],
+    "characteristics": [
+      "Ausgedehnte Flats zum Sichtangeln",
+      "Mangroven und Korallenriffe",
+      "Nähe zum warmen Golfstrom",
+      "Heimat von Tarpon, Bonefish und Permit"
+    ],
+    "bestSeason": [
+      "März",
+      "April",
+      "Mai",
+      "Juni"
+    ],
+    "tips": [
+      "Auf den Flats gezielt nach ziehenden Fischen Ausschau halten und den Köder präzise vor sie werfen.",
+      "Tarpon im Frühjahr während ihrer Wanderung an den klassischen Durchzugsstellen abpassen."
+    ],
+    "lat": 24.7,
+    "lng": -81
+  },
+  {
+    "id": "fluss",
+    "name": "Fluss",
+    "kind": "typ",
+    "type": "Fließgewässer",
+    "tagline": "Strömende Gewässer mit großer Artenvielfalt und ständig wechselnden Bedingungen.",
+    "description": "Flüsse zählen zu den abwechslungsreichsten Angelgewässern überhaupt. Die ständige Strömung formt unterschiedlichste Strukturen wie Kolke, Buhnenfelder, Gleiten und Prallhänge, die jeweils eigene Fischarten beherbergen. Je nach Größe reichen sie vom kleinen Flüsschen bis zum mächtigen Strom und bieten dadurch Lebensraum für nahezu alle heimischen Süßwasserfische.\n\nDie Wasserführung und Trübung wechseln im Jahresverlauf stark, was die Angelei spannend, aber auch anspruchsvoll macht. Nach Hochwasser oder bei Niedrigwasser verschieben sich die Standplätze der Fische teils deutlich. Wer die Strömungskanten und das Verhalten der Beute liest, ist klar im Vorteil.\n\nVom Friedfischangeln in ruhigen Buchten bis zum Raubfischangeln an der Hauptströmung lassen sich an Flüssen fast alle Methoden ausüben. Besonders Buhnen, Mündungen kleinerer Bäche und Brückenpfeiler sind klassische Hotspots, an denen sich Fische sammeln.",
+    "species": [
+      "Hecht",
+      "Zander",
+      "Barsch",
+      "Barbe",
+      "Döbel",
+      "Rapfen",
+      "Aal",
+      "Brassen",
+      "Rotauge"
+    ],
+    "techniques": [
+      "Spinnfischen",
+      "Grundangeln",
+      "Feederangeln",
+      "Posenangeln",
+      "Naturköderangeln"
+    ],
+    "characteristics": [
+      "Buhnenfelder als Fischsammler",
+      "Strömungskanten und Kolke",
+      "Mündungen von Nebengewässern",
+      "Wechselnde Wasserstände"
+    ],
+    "bestSeason": [
+      "April",
+      "Mai",
+      "Juni",
+      "September",
+      "Oktober"
+    ],
+    "tips": [
+      "An Buhnenköpfen und in den ruhigen Buhnenkesseln gezielt nach Zander suchen.",
+      "Bei Hochwasser im trüben Randbereich und an überfluteten Strukturen ansitzen."
+    ]
+  },
+  {
+    "id": "gardasee",
+    "name": "Gardasee",
+    "kind": "revier",
+    "type": "See",
+    "region": "Alpenraum",
+    "country": "Italien",
+    "lat": 45.65,
+    "lng": 10.65,
+    "tagline": "Der größte italienische See – Treffpunkt für Raubfisch- und Karpfenangler",
+    "description": "Der Gardasee ist nicht nur ein Touristenmagnet, sondern auch ein erstklassiges Angelrevier mit langer Tradition. Mit einer Fläche von 370 Quadratkilometern und Tiefen bis 350 Metern beherbergt er beeindruckende Bestände an Großhechten, Karpfen und dem endemischen Carpione, einer nur hier vorkommenden Seeforelle.\n\nDer Carpione del Garda gilt als einer der seltensten Fische Europas und steht unter strengem Schutz. Neben dieser botanischen Rarität ziehen aber vor allem die Großkarpfen und -hechte die internationalen Angler an. Karpfen über 20 Kilogramm sind dokumentiert, und Hechte von ordentlichem Kaliber lauern in den Buchten am nördlichen Seeufer.\n\nDie Angelei am Gardasee ist stark reguliert, Lizenzen sind obligatorisch. Das Trollingangeln ist besonders effektiv für Hechte und Forellen in den tieferen Wasserschichten, während Karpfenangler an den flacheren Südufern fündig werden.",
+    "species": [
+      "Karpfen",
+      "Hecht",
+      "Wels",
+      "Carpione",
+      "Aal",
+      "Barsch",
+      "Rotauge"
+    ],
+    "techniques": [
+      "Karpfenangeln",
+      "Trolling",
+      "Spinnfischen",
+      "Boilieangeln"
+    ],
+    "characteristics": [
+      "Größter italienischer See",
+      "Endemische Fischarten",
+      "Mildes Mittelmeerklima",
+      "Intensiver Anglertourismus"
+    ],
+    "bestSeason": [
+      "April",
+      "Mai",
+      "Juni",
+      "September",
+      "Oktober"
+    ],
+    "tips": [
+      "Karpfen stehen besonders im Süden rund um Sirmione in seichteren Buchten mit Muschelgrund.",
+      "Für Trolling eignen sich die tiefen Nordabschnitte zwischen Riva del Garda und Malcesine."
+    ],
+    "featured": false
+  },
+  {
+    "id": "great-barrier-reef",
+    "name": "Great Barrier Reef",
+    "kind": "revier",
+    "type": "Riff",
+    "region": "Australien & Neuseeland",
+    "country": "Australien",
+    "tagline": "Das größte Korallenriffsystem der Erde mit spektakulären Großfischen.",
+    "description": "Das Great Barrier Reef vor der Nordostküste Australiens ist das größte Korallenriffsystem der Erde und erstreckt sich über mehr als 2.000 Kilometer entlang der Küste von Queensland. Mit seinen unzähligen Einzelriffen, Lagunen und Kanälen bildet es einen der artenreichsten Lebensräume des Planeten und ein Angelrevier von Weltrang.\n\nFür Angler ist das Riff vor allem wegen seiner spektakulären Großfische berühmt. In den tieferen Außenbereichen jagen mächtige Schwarze Marline, daneben sind Thunfische, Makrelen und zahlreiche Riffraubfische verbreitet. Das warme, nährstoffreiche Wasser sorgt für ein überwältigendes Nahrungsangebot und beeindruckendes Fischwachstum.\n\nDie Riffkanten, Außenriffe und Kanäle sind die entscheidenden Hotspots. Das Schleppangeln auf Marlin und Thunfisch im tiefen Wasser sowie das Spinn- und Naturköderangeln auf Riffraubfische über den Strukturen gehören zu den verbreitetsten Methoden.",
+    "species": [
+      "Blauer Marlin",
+      "Thunfisch",
+      "Makrele",
+      "Barracuda",
+      "Mahi-Mahi"
+    ],
+    "techniques": [
+      "Schleppangeln",
+      "Spinnfischen",
+      "Naturköderangeln",
+      "Pilken"
+    ],
+    "characteristics": [
+      "Größtes Korallenriff der Erde",
+      "Über 2.000 Kilometer Ausdehnung",
+      "Spektakuläre Großfische am Außenriff",
+      "Enorme Artenvielfalt"
+    ],
+    "bestSeason": [
+      "September",
+      "Oktober",
+      "November",
+      "Dezember"
+    ],
+    "tips": [
+      "Große Marline durch Schleppen entlang der Außenriffkanten in der Hauptsaison gegen Jahresende nachstellen.",
+      "Über den Riffstrukturen mit Naturködern und Pilkern gezielt die Riffraubfische befischen."
+    ],
+    "featured": true,
+    "lat": -18.3,
+    "lng": 147.7
+  },
+  {
+    "id": "kanal",
+    "name": "Kanal",
+    "kind": "typ",
+    "type": "Fließgewässer",
+    "tagline": "Künstliche Wasserstraßen mit gleichmäßigem Profil und gutem Fischbestand.",
+    "description": "Kanäle sind künstlich angelegte Wasserstraßen mit weitgehend gleichmäßigem Profil und meist nur geringer Strömung. Trotz ihres technischen Charakters beherbergen sie überraschend gute Fischbestände, da Spundwände, Steinpackungen und Liegestellen für Schiffe vielfältige Verstecke bieten.\n\nDer Schiffsverkehr prägt das Leben im Kanal stark: Vorbeifahrende Schiffe wirbeln Nahrung auf und versetzen die Fische in Fressstimmung. Häufig sind die Stunden um den Schiffsverkehr herum besonders fängig. Die seitlichen Steinpackungen sind dabei das wichtigste Strukturelement.\n\nBesonders beliebt sind Kanäle bei Friedfischanglern, die hier mit Stipp- oder Feedermethode auf Brassen und Rotaugen fischen, sowie bei Raubfischanglern, die Zander und Barsch an den Kanten nachstellen.",
+    "species": [
+      "Zander",
+      "Barsch",
+      "Brassen",
+      "Rotauge",
+      "Aal",
+      "Hecht",
+      "Karpfen"
+    ],
+    "techniques": [
+      "Feederangeln",
+      "Stippangeln",
+      "Spinnfischen",
+      "Grundangeln",
+      "Dropshot-Angeln"
+    ],
+    "characteristics": [
+      "Gleichmäßiges Profil",
+      "Seitliche Steinpackungen",
+      "Spundwände als Versteck",
+      "Einfluss des Schiffsverkehrs"
+    ],
+    "bestSeason": [
+      "April",
+      "Mai",
+      "Juni",
+      "September",
+      "Oktober"
+    ],
+    "tips": [
+      "Die Steinpackung an der Kanalkante mit Dropshot oder leichtem Jig nach Barsch und Zander absuchen.",
+      "Nach dem Durchfahren großer Schiffe gezielt angeln, da dann viele Fische in Fresslaune sind."
+    ]
+  },
+  {
+    "id": "kongo",
+    "name": "Kongo",
+    "kind": "revier",
+    "type": "Fluss",
+    "region": "Afrika",
+    "country": "Demokratische Republik Kongo / Republik Kongo",
+    "lat": -3.45,
+    "lng": 17.35,
+    "tagline": "Der dunkelste Strom der Erde – Heimat des gefürchteten Tigerbarschs",
+    "description": "Der Kongo ist der zweitlängste und wasserreichste Fluss Afrikas und durchfließt das dichteste Regenwaldgebiet der Welt. Seine dunklen Gewässer, gefärbt durch Gerbsäuren aus dem Regenwald, beherbergen eine der artenreichsten Süßwasserfischfaunen der Erde – viele Arten noch unentdeckt oder unbeschrieben.\n\nDer absolute Star des Kongo ist der Goliath-Tigerbarsch (Hydrocynus goliath), der größte Raubfisch im afrikanischen Süßwasser. Diese gefährlichen Räuber mit ihren messerscharfen Zähnen können über 50 Kilogramm schwer werden und gelten als einer der kampfstärksten Sportfische der Welt. Nur die gefährlichsten Stromschnellen des Stanley-Pool-Abschnitts sind Heimat der größten Exemplare.\n\nDas Angeln im Kongo ist ein Abenteuer der besonderen Art und erfordert erfahrene lokale Guides sowie robuste Ausrüstung. Die logistischen Herausforderungen und politischen Verhältnisse machen dieses Revier nur für hartgesottene Expeditionsangler zugänglich.",
+    "species": [
+      "Goliath-Tigerbarsch",
+      "Tigerbarsch",
+      "Tilapia",
+      "Nilbarsch",
+      "Afrikanischer Karpfen"
+    ],
+    "techniques": [
+      "Spinnfischen",
+      "Trolling",
+      "Naturköderangeln"
+    ],
+    "characteristics": [
+      "Rekordraubfische",
+      "Regenwald-Ökosystem",
+      "Extreme Strömungsabschnitte",
+      "Unberührte Wildnis"
+    ],
+    "bestSeason": [
+      "Juni",
+      "Juli",
+      "August",
+      "September"
+    ],
+    "tips": [
+      "Große, auffällige Löffel und Wobbler in leuchtendem Silber sind die bewährteste Wahl für Tigerbarsche.",
+      "Nur mit erfahrenem lokalem Guide und in kleinen Gruppen sollte die Expedition gewagt werden."
+    ],
+    "featured": false
+  },
+  {
+    "id": "kueste",
+    "name": "Küste",
+    "kind": "typ",
+    "type": "Meer",
+    "tagline": "Der Übergang von Land und Meer mit Brandung, Stränden und Felsküsten.",
+    "description": "Die Küste bildet den vielseitigen Übergang zwischen Land und offenem Meer und umfasst Sandstrände, Felsküsten, Molen und flache Buchten. Wellengang, Strömung und Tide formen ständig wechselnde Bedingungen, die ein breites Spektrum an Fischarten anlocken.\n\nIn der Brandung wühlt die Bewegung des Wassers Nahrung aus dem Sand, was Plattfische und andere Bodenfische anzieht. An Felsküsten und Molen jagen Raubfische wie Wolfsbarsch und Hornhecht. Je nach Region und Jahreszeit verändert sich der Fang erheblich.\n\nDie Küste ist ein klassisches Revier für das Brandungsangeln vom Strand sowie für das Spinnangeln auf Meerforelle und Wolfsbarsch von Land aus. Sandbänke, Rinnen und Strukturen im Wasser sind die wichtigsten Hotspots.",
+    "species": [
+      "Scholle",
+      "Wolfsbarsch",
+      "Meerforelle",
+      "Dorsch",
+      "Hornhecht",
+      "Makrele",
+      "Hering"
+    ],
+    "techniques": [
+      "Brandungsangeln",
+      "Spinnfischen",
+      "Meerforellenangeln",
+      "Naturköderangeln"
+    ],
+    "characteristics": [
+      "Brandung über Sand und Kies",
+      "Felsküsten und Molen",
+      "Rinnen und Sandbänke",
+      "Starker Tiden- und Strömungseinfluss"
+    ],
+    "bestSeason": [
+      "März",
+      "April",
+      "Mai",
+      "Oktober",
+      "November"
+    ],
+    "tips": [
+      "Vor dem Angeln bei Niedrigwasser den Strand auf Rinnen und Strukturen absuchen, die später Fisch führen.",
+      "Beim Brandungsangeln den Köder in die tieferen Rinnen hinter der ersten Sandbank platzieren."
+    ]
+  },
+  {
+    "id": "lago-maggiore",
+    "name": "Lago Maggiore",
+    "kind": "revier",
+    "type": "See",
+    "region": "Alpenraum",
+    "country": "Italien / Schweiz",
+    "lat": 45.95,
+    "lng": 8.65,
+    "tagline": "Italiens zweitgrößter See mit majestätischen Tiefwasserräubern",
+    "description": "Der Lago Maggiore erstreckt sich über 65 Kilometer zwischen den Alpenausläufern und dem Po-Becken und bietet eine spektakuläre Kulisse für ambitionierte Angler. Mit Tiefen von bis zu 372 Metern beherbergt der See Hechte von beeindruckender Größe sowie eine starke Population des seltenen Agone, einer lokalen Maränenart.\n\nBesonders begehrt sind die Großhechte, die in den tiefen Buchten und entlang der Steilufer auf Beute lauern. Der See gilt als einer der besten Hechtgewässer Italiens, wobei Exemplare über zehn Kilogramm keine Seltenheit sind. Daneben locken kapitale Welse und starke Karpfenbestände die Angler an.\n\nDie klaren Alpenwasser des Lago Maggiore erfordern feines Gerät und zurückhaltende Präsentation. Boot- und Trollingangeln sind besonders verbreitet, um die ausgedehnten Tiefenwasserzonen zu befischen.",
+    "species": [
+      "Hecht",
+      "Wels",
+      "Karpfen",
+      "Agone",
+      "Barsch",
+      "Aal",
+      "Forelle"
+    ],
+    "techniques": [
+      "Trolling",
+      "Spinnfischen",
+      "Karpfenangeln",
+      "Jigging"
+    ],
+    "characteristics": [
+      "Alpine Tiefwassersee",
+      "Kristallklares Wasser",
+      "Große Hechtvorkommen",
+      "Malerische Uferlandschaft"
+    ],
+    "bestSeason": [
+      "März",
+      "April",
+      "Mai",
+      "Oktober",
+      "November"
+    ],
+    "tips": [
+      "Für Hechte empfehlen sich die frühen Morgenstunden im Flachwasser entlang der Schilfkanten.",
+      "Beim Trolling in Tiefen von 15 bis 30 Metern lassen sich die größten Exemplare erreichen."
+    ],
+    "featured": false
+  },
+  {
+    "id": "lake-michigan",
+    "name": "Lake Michigan",
+    "kind": "revier",
+    "type": "See",
+    "region": "Nordamerika",
+    "country": "Vereinigte Staaten",
+    "tagline": "Einer der Großen Seen mit weltberühmtem Lachs- und Forellenschleppen.",
+    "description": "Der Lake Michigan ist einer der fünf Großen Seen Nordamerikas und der einzige, der vollständig auf US-Gebiet liegt. Mit seiner gewaltigen, fast meeresähnlichen Wasserfläche, klarem Wasser und großen Tiefen bietet er Lebensraum für ein vielfältiges Fischvorkommen und herausragende Angelmöglichkeiten.\n\nWeltberühmt ist der See für sein Schleppangeln auf eingebürgerte Pazifiklachse sowie auf See- und Regenbogenforellen, die hier zu beachtlichen Größen heranwachsen. Daneben beherbergt er starke Bestände an Forellenbarsch, Barsch und Hecht in den flacheren, strukturreichen Uferzonen und Buchten.\n\nDas Schleppen mit Downriggern im Freiwasser auf Lachs und Forelle ist die prägende Methode. In den Häfen, Buchten und an den Riffen wird zudem auf Barsch, Forellenbarsch und Hecht gespinnt und vertikal geangelt.",
+    "species": [
+      "Atlantischer Lachs",
+      "Seeforelle",
+      "Regenbogenforelle",
+      "Forellenbarsch",
+      "Barsch",
+      "Hecht"
+    ],
+    "techniques": [
+      "Schleppangeln",
+      "Vertikalangeln",
+      "Spinnfischen",
+      "Jiggen"
+    ],
+    "characteristics": [
+      "Meeresähnliche Wasserfläche",
+      "Eingebürgerte Pazifiklachse",
+      "Große Tiefen und klares Wasser",
+      "Strukturreiche Buchten und Häfen"
     ],
     "bestSeason": [
       "Mai",
@@ -790,90 +874,138 @@
       "September"
     ],
     "tips": [
-      "Welse mit der Unterwasserpose oder vom Boot an tiefen Kolken nachstellen.",
-      "In den warmen Monaten nachts auf aktiv jagende Großwelse ansitzen."
+      "Lachse und Forellen mit Downriggern in der richtigen Tiefe gezielt im Freiwasser schleppen.",
+      "In den Häfen und an den Molen auf Barsch und Forellenbarsch fischen."
     ],
-    "lat": 45,
-    "lng": 11.5
+    "lat": 43.5,
+    "lng": -87
   },
   {
-    "id": "amazonas",
-    "name": "Amazonas",
+    "id": "lake-taupo",
+    "name": "Lake Taupo",
     "kind": "revier",
-    "type": "Fluss",
-    "region": "Südamerika",
-    "country": "Brasilien, Peru, Kolumbien",
-    "tagline": "Der größte Strom der Erde mit einer unvergleichlichen Fischvielfalt.",
-    "description": "Der Amazonas ist der wasserreichste und artenreichste Fluss der Welt und durchzieht mit seinem gewaltigen Einzugsgebiet den tropischen Regenwald Südamerikas. Sein Netz aus Hauptstrom, Nebenflüssen, Seitenarmen und überfluteten Wäldern beherbergt mehrere tausend Fischarten, von denen viele nirgendwo sonst vorkommen.\n\nFür Angler ist der Amazonas ein Sehnsuchtsziel von unvergleichlicher Vielfalt. Berühmt sind vor allem der kampfstarke Tucunaré, der riesige Arapaima sowie zahlreiche Welsarten, Piranhas und Salmler. Der Wechsel zwischen Trocken- und Regenzeit bestimmt den Wasserstand und damit das gesamte Leben im Fluss maßgeblich.\n\nIn der Trockenzeit konzentrieren sich die Fische in den verbleibenden Lagunen und Flussarmen, was die besten Angelbedingungen schafft. Das Spinn- und Fliegenfischen auf Raubfische in den Lagunen sowie das Grundangeln auf Großwelse gehören zu den verbreitetsten Methoden.",
+    "type": "See",
+    "region": "Australien & Neuseeland",
+    "country": "Neuseeland",
+    "lat": -38.78,
+    "lng": 175.9,
+    "tagline": "Neuseelands vulkanischer See – Weltklasse für Regenbogenforellen",
+    "description": "Lake Taupo liegt im Zentrum der Nordinsel Neuseelands auf einem aktiven Vulkankrater und ist der größte See des Landes. Der klare, nährstoffarme See ist das Herzstück des neuseeländischen Forellenangel-Tourismus und zieht Angler aus aller Welt an.\n\nDie Regenbogenforellen des Lake Taupo sind legendär: groß, stark und in außergewöhnlicher Dichte. Da Wildfang-Forellen in Neuseeland keine kommerziellen Fischereien bedienen, sind die Bestände bestens gepflegt. Exemplare von 2 bis 5 Kilogramm sind im Taupo-System normal, und der Waikato River unterhalb des Sees produziert regelmäßig Forellen über 7 Kilogramm.\n\nDer Huka Pool, wo der Waikato-Fluss den See verlässt, ist eine der bekanntesten Angelstellen Neuseelands. Hier ballt sich die Forellenaktivität besonders in den Wintermonaten, wenn die Fische zur Winterlaichwanderung in die Flüsse aufsteigen. Fliegenfischen und Harling (eine neuseeländische Trolling-Variante) sind die bevorzugten Methoden.",
     "species": [
-      "Wels",
-      "Barracuda",
-      "Rapfen"
+      "Regenbogenforelle",
+      "Bachforelle",
+      "Smelt"
     ],
     "techniques": [
-      "Spinnfischen",
       "Fliegenfischen",
-      "Grundangeln",
+      "Harling",
+      "Trolling",
+      "Nymphenfischen"
+    ],
+    "characteristics": [
+      "Vulkanischer Ursprung",
+      "Weltklasse-Regenbogenforellen",
+      "Kristallklares Wasser",
+      "Gut regulierte Fischerei"
+    ],
+    "bestSeason": [
+      "Mai",
+      "Juni",
+      "Juli",
+      "August"
+    ],
+    "tips": [
+      "Der Huka Pool am Flussbeginn des Waikato ist besonders produktiv im Winter für aufsteigende Forellen.",
+      "Nymphen in Hare-and-Copper oder Pheasant-Tail-Varianten sind die Standardmuster des Taupo-Fliegenanklers."
+    ],
+    "featured": false
+  },
+  {
+    "id": "loire",
+    "name": "Loire",
+    "kind": "revier",
+    "type": "Fluss",
+    "region": "Mitteleuropa",
+    "country": "Frankreich",
+    "lat": 47.65,
+    "lng": 1.35,
+    "tagline": "Frankreichs längster Fluss – Heimat von Europas größten Flussbarsch-Welsen",
+    "description": "Die Loire ist mit über 1000 Kilometern der längste Fluss Frankreichs und fließt durch einige der schönsten Landschaften des Landes. Das träge, breite Gewässer mit seinen zahlreichen Sandbänken, toten Armen und Nebenarmen bietet ideale Strukturen für riesige Welspopulationen, die hier europaweit Rekordgrößen erreichen.\n\nWelse von über zwei Metern Länge und 80 Kilogramm Gewicht sind in der Loire keine Ausnahme mehr. Das Welsangeln auf der Loire gilt als absolute Königsdisziplin, wobei erfahrene Guide-Dienste die besten Spots kennen. Daneben bietet die Loire starke Hechtbestände und in den schnellen Abschnitten auch Zander.\n\nBesonders eindrucksvoll ist das Angeln in der Dämmerung, wenn Welse an der Oberfläche nach Enten und großen Fischen jagen. Das sogenannte Klonken – eine rhythmische Lockmethode mit einem speziellen Holzstäbchen – ist eine Spezialität der Loire-Welsangler.",
+    "species": [
+      "Wels",
+      "Hecht",
+      "Zander",
+      "Barsch",
+      "Karpfen",
+      "Döbel",
+      "Brachse"
+    ],
+    "techniques": [
+      "Welsangeln",
+      "Klonken",
+      "Spinnfischen",
+      "Jigging"
+    ],
+    "characteristics": [
+      "Größter französischer Fluss",
+      "Rekordwelse",
+      "Sandbänke und tote Arme",
+      "Langsame Strömung"
+    ],
+    "bestSeason": [
+      "Mai",
+      "Juni",
+      "Juli",
+      "August",
+      "September"
+    ],
+    "tips": [
+      "Klonken ist die effektivste Methode für Welse – frühmorgens und bei Einbruch der Dunkelheit.",
+      "Toter Arm-Strukturen an der Außenkurve des Flusses sind bevorzugte Einstandsorte für Großwelse."
+    ],
+    "featured": false
+  },
+  {
+    "id": "lough-mask",
+    "name": "Lough Mask",
+    "kind": "revier",
+    "type": "See",
+    "region": "Britische Inseln",
+    "country": "Irland",
+    "lat": 53.62,
+    "lng": -9.4,
+    "tagline": "Irlands legendärer Wildforellen-See im Herzen Connachts",
+    "description": "Lough Mask im County Mayo ist einer der berühmtesten Wildforellen-Seen Europas und ein Pilgerziel für Fliegenfischer aus aller Welt. Der kalkreich-klare See erstreckt sich über 8250 Hektar und bietet mit seinen zahllosen Inseln, Buchten und steinigen Steilufern ideale Lebensräume für die begehrte Irische Wildforelle.\n\nDie Wildforellen des Lough Mask sind bekannt für ihre außerordentliche Kampfkraft und ihr leuchtend rotes Fleisch. Das Dapping – eine traditionelle irische Flugangelmethod, bei der die Fliege nur die Wasseroberfläche berührt – ist hier eine Kunstform. Die Maifliegen-Schlüpfe im Frühsommer sind legendäre Ereignisse, bei denen Forellen von der Oberfläche gefüttert werden können.\n\nDer See bietet auch Hechte von beachtlicher Größe, die in den Schilfbuchten und um die Inseln auf Beute lauern. Lokale Bootsführer sind in der Regel unverzichtbar für das beste Erlebnis, da die Untiefen und geheimen Spots nur durch jahrelange Erfahrung bekannt sind.",
+    "species": [
+      "Wildforelle",
+      "Hecht",
+      "Aal",
+      "Schleie",
+      "Rotfeder"
+    ],
+    "techniques": [
+      "Fliegenfischen",
+      "Dapping",
+      "Spinnfischen",
       "Naturköderangeln"
     ],
     "characteristics": [
-      "Größtes Flusssystem der Erde",
-      "Tausende Fischarten",
-      "Überflutete Regenwälder und Lagunen",
-      "Starker Wechsel von Trocken- und Regenzeit"
+      "Legendärer Wildforellen-See",
+      "Maifliegen-Schlüpfe",
+      "Irische Inselszenerie",
+      "Kalkreiches Wasser"
     ],
     "bestSeason": [
-      "August",
-      "September",
-      "Oktober",
-      "November"
+      "April",
+      "Mai",
+      "Juni",
+      "Juli"
     ],
     "tips": [
-      "In der Trockenzeit angeln, wenn sich die Fische in den schrumpfenden Lagunen konzentrieren.",
-      "Mit oberflächennahen Ködern gezielt die räuberischen Buntbarsche in den Seitenarmen reizen."
+      "Dapping mit echten Maiflies während des Schlüpfes im Mai ist die traditionellste und effektivste Methode.",
+      "Lokale Bootsführer aus Cushlough oder Tourmakeady kennen die besten Stellen und sind unverzichtbar."
     ],
-    "featured": true,
-    "lat": -3.1,
-    "lng": -60
-  },
-  {
-    "id": "sambesi",
-    "name": "Sambesi",
-    "kind": "revier",
-    "type": "Fluss",
-    "region": "Afrika",
-    "country": "Sambia, Simbabwe, Mosambik",
-    "tagline": "Afrikas viertlängster Strom und Heimat des kampfstarken Tigerfisches.",
-    "description": "Der Sambesi ist der viertlängste Fluss Afrikas und durchquert das südliche Afrika auf seinem Weg vom Hochland bis zum Indischen Ozean. Mit den gewaltigen Victoriafällen, dem ausgedehnten Kariba-Stausee und seinen weiten Auen bildet er eines der eindrucksvollsten Flusssysteme des Kontinents.\n\nFür Angler ist der Sambesi vor allem wegen des kampfstarken Tigerfisches berühmt, eines aggressiven Raubfisches mit furchteinflößendem Gebiss, der zu den begehrtesten Sportfischen Afrikas zählt. Daneben beheimatet der Fluss zahlreiche Welsarten, Buntbarsche und weitere afrikanische Arten in artenreichen Beständen.\n\nDie Strömungskanten, tiefen Rinnen und Mündungsbereiche von Nebenflüssen sind die wichtigsten Hotspots. Das Spinnfischen und Schleppen auf Tigerfisch sowie das Grund- und Naturköderangeln auf Welse sind die typischen Methoden.",
-    "species": [
-      "Wels",
-      "Barracuda"
-    ],
-    "techniques": [
-      "Spinnfischen",
-      "Schleppangeln",
-      "Fliegenfischen",
-      "Grundangeln",
-      "Naturköderangeln"
-    ],
-    "characteristics": [
-      "Bekanntes Tigerfischrevier",
-      "Victoriafälle und Kariba-Stausee",
-      "Weite Auen und Rinnen",
-      "Artenreiche afrikanische Fischfauna"
-    ],
-    "bestSeason": [
-      "August",
-      "September",
-      "Oktober",
-      "November"
-    ],
-    "tips": [
-      "Den Tigerfisch mit schnell geführten Blinkern und sehr scharfen Haken befischen, da sein Maul äußerst hart ist.",
-      "An Strömungskanten und Mündungen kleinerer Flüsse nach jagenden Räubern suchen."
-    ],
-    "lat": -17.9,
-    "lng": 25.8
+    "featured": false
   },
   {
     "id": "mekong",
@@ -958,47 +1090,44 @@
     "lng": -90.1
   },
   {
-    "id": "lake-michigan",
-    "name": "Lake Michigan",
-    "kind": "revier",
-    "type": "See",
-    "region": "Nordamerika",
-    "country": "Vereinigte Staaten",
-    "tagline": "Einer der Großen Seen mit weltberühmtem Lachs- und Forellenschleppen.",
-    "description": "Der Lake Michigan ist einer der fünf Großen Seen Nordamerikas und der einzige, der vollständig auf US-Gebiet liegt. Mit seiner gewaltigen, fast meeresähnlichen Wasserfläche, klarem Wasser und großen Tiefen bietet er Lebensraum für ein vielfältiges Fischvorkommen und herausragende Angelmöglichkeiten.\n\nWeltberühmt ist der See für sein Schleppangeln auf eingebürgerte Pazifiklachse sowie auf See- und Regenbogenforellen, die hier zu beachtlichen Größen heranwachsen. Daneben beherbergt er starke Bestände an Forellenbarsch, Barsch und Hecht in den flacheren, strukturreichen Uferzonen und Buchten.\n\nDas Schleppen mit Downriggern im Freiwasser auf Lachs und Forelle ist die prägende Methode. In den Häfen, Buchten und an den Riffen wird zudem auf Barsch, Forellenbarsch und Hecht gespinnt und vertikal geangelt.",
+    "id": "muendung-aestuar",
+    "name": "Mündung / Ästuar",
+    "kind": "typ",
+    "type": "Brackwasser",
+    "tagline": "Übergangszone zwischen Fluss und Meer mit Brackwasser und enormer Artenfülle.",
+    "description": "Mündungen und Ästuare sind die Übergangszonen, in denen Flüsse ins Meer münden und sich Süß- mit Salzwasser zu Brackwasser mischt. Der Tidenhub sorgt für einen ständigen Wechsel von Wasserstand und Salzgehalt, was diese Lebensräume außerordentlich dynamisch und nahrungsreich macht.\n\nDurch die Vermischung der Lebensräume trifft man hier auf eine ungewöhnliche Mischung aus Süßwasser-, Brackwasser- und Meeresfischen. Wanderfische wie Aal, Meerforelle und Lachs durchqueren die Ästuare auf ihren Wanderungen. Schlick- und Sandbänke, Priele und Strömungskanten sind die entscheidenden Strukturen.\n\nDie Tide bestimmt das Angeln maßgeblich, denn mit dem ein- und auslaufenden Wasser bewegen sich auch die Fische. Brandungs-, Grund- und Spinnangeln sind hier verbreitete Methoden.",
     "species": [
-      "Atlantischer Lachs",
-      "Seeforelle",
-      "Regenbogenforelle",
-      "Forellenbarsch",
-      "Barsch",
-      "Hecht"
+      "Meerforelle",
+      "Aal",
+      "Wolfsbarsch",
+      "Scholle",
+      "Hornhecht",
+      "Barsch"
     ],
     "techniques": [
-      "Schleppangeln",
-      "Vertikalangeln",
+      "Brandungsangeln",
+      "Grundangeln",
       "Spinnfischen",
-      "Jiggen"
+      "Naturköderangeln",
+      "Meerforellenangeln"
     ],
     "characteristics": [
-      "Meeresähnliche Wasserfläche",
-      "Eingebürgerte Pazifiklachse",
-      "Große Tiefen und klares Wasser",
-      "Strukturreiche Buchten und Häfen"
+      "Mischung aus Süß- und Salzwasser",
+      "Starker Tideneinfluss",
+      "Priele und Schlickbänke",
+      "Durchzugsgebiet für Wanderfische"
     ],
     "bestSeason": [
+      "März",
+      "April",
       "Mai",
-      "Juni",
-      "Juli",
-      "August",
-      "September"
+      "September",
+      "Oktober"
     ],
     "tips": [
-      "Lachse und Forellen mit Downriggern in der richtigen Tiefe gezielt im Freiwasser schleppen.",
-      "In den Häfen und an den Molen auf Barsch und Forellenbarsch fischen."
-    ],
-    "lat": 43.5,
-    "lng": -87
+      "Das Angeln nach den Gezeiten richten, da auflaufendes Wasser die Fische oft in Fresslaune versetzt.",
+      "An Strömungskanten und Prielmündungen fischen, wo sich Nahrung und Fische sammeln."
+    ]
   },
   {
     "id": "murray-river",
@@ -1038,6 +1167,770 @@
     ],
     "lat": -34.2,
     "lng": 142.2
+  },
+  {
+    "id": "nassersee",
+    "name": "Nassersee",
+    "kind": "revier",
+    "type": "See",
+    "region": "Afrika",
+    "country": "Ägypten / Sudan",
+    "lat": 22.95,
+    "lng": 32.35,
+    "tagline": "Wüstensee hinter dem Assuan-Staudamm – Nilbarsche der Extraklasse",
+    "description": "Der Nassersee, entstanden durch den Bau des Assuan-Staudamms in den 1960er Jahren, ist eines der größten künstlichen Gewässer der Welt und erstreckt sich über 500 Kilometer in die nubische Wüste. Dieser riesige Stausee ist zum Mekka für Großnilbarsch-Angler geworden.\n\nNilbarsche von 50 bis 100 Kilogramm sind hier regelmäßige Fänge, und der Weltrekord-Nilbarsch von über 200 Kilogramm soll aus dem Nassersee stammen. Die Kombination aus nährstoffreichem Stausee, abgelegener Lage und mangelndem Befischungsdruck hat eine Population von Rekordnilbarschen heranwachsen lassen, die ihresgleichen sucht.\n\nDas Angeln am Nassersee findet meist von speziellen Hausbooten aus statt, die als Basislager dienen. Da der See im Süden Ägyptens in einer extrem heißen Wüstenregion liegt, sind die milderen Wintermonate von November bis März die beste Reisezeit. Professionelle Angelveranstalter bieten komplette Expeditionspakete an.",
+    "species": [
+      "Nilbarsch",
+      "Tigerbarsch",
+      "Tigerfisch",
+      "Tilapia",
+      "Wels"
+    ],
+    "techniques": [
+      "Trolling",
+      "Jigging",
+      "Naturköderangeln",
+      "Spinnfischen"
+    ],
+    "characteristics": [
+      "Riesiger Wüstenstausee",
+      "Nilbarsch-Rekordgewässer",
+      "Abgelegene Expeditionslage",
+      "Hausboot-Angeln"
+    ],
+    "bestSeason": [
+      "November",
+      "Dezember",
+      "Januar",
+      "Februar",
+      "März"
+    ],
+    "tips": [
+      "Engpässe und einlaufende Kanäle sind bevorzugte Einstandsorte für Großnilbarsche.",
+      "Hitze ist das Hauptproblem – Frühmorgens und Abends sind die produktivsten Angelzeiten."
+    ],
+    "featured": false
+  },
+  {
+    "id": "norwegische-fjorde",
+    "name": "Norwegische Fjorde",
+    "kind": "revier",
+    "type": "Meer",
+    "region": "Skandinavien",
+    "country": "Norwegen",
+    "tagline": "Tiefe Meeresarme mit Traumfischen wie Dorsch, Köhler und Heilbutt.",
+    "description": "Die norwegischen Fjorde sind tief ins Land eingeschnittene Meeresarme, die mit ihren steil abfallenden Wänden und enormen Tiefen ein einzigartiges Angelrevier bilden. Schon wenige Meter vom Ufer entfernt erreicht das Wasser oft Tiefen von vielen Dutzend Metern, was selbst Großfische in Ufernähe bringt.\n\nDie Fjorde sind ein Mekka für Meeresangler und berühmt für kapitale Dorsche, Köhler und vor allem Heilbutte. Das nährstoffreiche, kalte Wasser des Nordatlantiks sorgt für ein reichhaltiges Nahrungsangebot und außergewöhnliches Fischwachstum. Riffe, Kanten und Strömungsbereiche sind die entscheidenden Hotspots.\n\nGeangelt wird überwiegend vom Boot mit schwerem Gerät. Das Pilken auf Dorsch und Köhler sowie das Naturköder- und Schleppangeln auf Heilbutt sind die typischen Methoden. Aufgrund der Tiefen und der Größe der Fische ist robustes Material unerlässlich.",
+    "species": [
+      "Dorsch",
+      "Köhler",
+      "Heilbutt",
+      "Makrele",
+      "Steinbutt"
+    ],
+    "techniques": [
+      "Pilken",
+      "Naturköderangeln",
+      "Schleppangeln",
+      "Spinnfischen"
+    ],
+    "characteristics": [
+      "Steil abfallende Unterwasserwände",
+      "Große Tiefen in Ufernähe",
+      "Kaltes, nährstoffreiches Wasser",
+      "Strömungskanten und Unterwasserriffe"
+    ],
+    "bestSeason": [
+      "Mai",
+      "Juni",
+      "Juli",
+      "August",
+      "September"
+    ],
+    "tips": [
+      "Heilbutt gezielt über Sand- und Kiesplateaus in Strömungsnähe mit großen Naturködern oder Gummifischen nachstellen.",
+      "Über Riffkanten pilken, wo sich Dorsch und Köhler in großer Zahl aufhalten."
+    ],
+    "featured": true,
+    "lat": 61.2,
+    "lng": 6.5
+  },
+  {
+    "id": "okavango-delta",
+    "name": "Okavango-Delta",
+    "kind": "revier",
+    "type": "Delta",
+    "region": "Afrika",
+    "country": "Botswana",
+    "lat": -19.35,
+    "lng": 22.85,
+    "tagline": "Das Binnendelta Afrikas – Fischen inmitten von Elefanten und Löwen",
+    "description": "Das Okavango-Delta ist eines der Weltwunder der Natur: Ein riesiges Binnendelta mitten in der Kalahari-Wüste, das während der jährlichen Flut aus Angola zu einem 15 000 Quadratkilometer großen Labyrinth aus Kanälen, Lagunen und Inseln wird. Dieses einzigartige Ökosystem ist UNESCO-Weltnaturerbe und beherbergt eine erstaunliche Fischwelt.\n\nDer Tigerbarsch ist der König der Okavango-Gewässer und ein begehrter Sportfisch, der durch sein aggressives Auftreten und seinen spektakulären Drill weltberühmt ist. Doch auch Buntbarsche, die seltene Tilapia und der Afrikanische Hecht (Tigerfish) machen das Delta zu einem außergewöhnlichen Angelziel. Die Kombination aus Big-Game-Angeln und Wildtierbeobachtung ist einmalig.\n\nGeführte Angelcamps im Okavango bieten gehobenen Komfort und professionelle Guides, die die Kanäle und saisonalen Wasserstände genau kennen. Das Angeln per Mokoro (traditionelles Einbaum-Kanu) gehört zu den unvergesslichsten Erlebnissen im afrikanischen Süßwasserangeln.",
+    "species": [
+      "Tigerbarsch",
+      "Buntbarsch",
+      "Tilapia",
+      "Afrikanischer Hecht",
+      "Wels"
+    ],
+    "techniques": [
+      "Spinnfischen",
+      "Fliegenfischen",
+      "Trolling",
+      "Naturköderangeln"
+    ],
+    "characteristics": [
+      "Weltnaturerbe",
+      "Saisonale Überflutung",
+      "Wildtierreiche Umgebung",
+      "Abgelegene Lage"
+    ],
+    "bestSeason": [
+      "Juli",
+      "August",
+      "September",
+      "Oktober"
+    ],
+    "tips": [
+      "Stahlleine oder starkes Fluorocarbon ist wegen der rasiermesserscharfen Zähne der Tigerbarsche Pflicht.",
+      "Die besten Angelzeiten sind früh morgens und am späten Nachmittag, wenn die Hitze nachlässt."
+    ],
+    "featured": false
+  },
+  {
+    "id": "parana",
+    "name": "Paraná",
+    "kind": "revier",
+    "type": "Fluss",
+    "region": "Südamerika",
+    "country": "Brasilien / Paraguay / Argentinien",
+    "lat": -22.85,
+    "lng": -53.15,
+    "tagline": "Südamerikas Monsterstrom – Dorado und Surubí in Rekordgröße",
+    "description": "Der Paraná ist mit 4880 Kilometern der zweitlängste Fluss Südamerikas und durchströmt das Herz des Kontinents. Dieser mächtige Strom und sein weitverzweigtes Delta-System bilden eines der bedeutendsten Süßwasserangel-Reviere der westlichen Hemisphäre.\n\nDer Goldene Dorado (Salminus brasiliensis) ist der unbestrittene Star des Paraná. Diese golden-schimmernden Raubbauerfische mit ihrem spektakulären Drill und aggressiven Sprüngen gelten als einer der aufregendsten Süßwassersportfische der Welt. Dazu kommt der Surubí, ein gefleckter Riesenwels, der Gewichte von über 100 Kilogramm erreichen kann.\n\nIm argentinischen Abschnitt des Paraná bieten die Esteros del Iberá, ein ausgedehntes Feuchtgebiet, besonders gute Angelreviere. Das Angeln per Boot in den verschlungenen Kanälen und Lagunen, umgeben von tropischer Vegetation und Wildtieren, ist ein unvergessliches Erlebnis.",
+    "species": [
+      "Goldener Dorado",
+      "Surubí",
+      "Pacu",
+      "Piranha",
+      "Cachama",
+      "Wels"
+    ],
+    "techniques": [
+      "Fliegenfischen",
+      "Spinnfischen",
+      "Trolling",
+      "Naturköderangeln"
+    ],
+    "characteristics": [
+      "Tropische Fischwelt",
+      "Rekord-Raubfische",
+      "Ausgedehntes Delta",
+      "Tropische Vegetation"
+    ],
+    "bestSeason": [
+      "August",
+      "September",
+      "Oktober",
+      "November"
+    ],
+    "tips": [
+      "Große, leuchtende Wobbler in Orange-Rot lösen beim Dorado die heftigsten Reaktionen aus.",
+      "Stahlleine ist wegen der rasiermesserscharfen Zähne von Dorado und Piranha unbedingt erforderlich."
+    ],
+    "featured": false
+  },
+  {
+    "id": "po",
+    "name": "Po",
+    "kind": "revier",
+    "type": "Fluss",
+    "region": "Mittelmeerraum",
+    "country": "Italien",
+    "tagline": "Italiens längster Strom und legendäres Revier für kapitale Welse.",
+    "description": "Der Po ist der längste Fluss Italiens und durchzieht die fruchtbare Poebene von den Westalpen bis zur Adria. Auf seinem Weg wandelt er sich zu einem breiten, träge fließenden Strom mit tiefen Rinnen, Sandbänken und einem ausgedehnten Mündungsdelta, das ein reiches Tierleben beherbergt.\n\nDer Po zählt zu den legendären Wallergewässern Europas und ist berühmt für seine riesigen Welse. Daneben beheimatet er kräftige Bestände an Karpfen, Zander, Rapfen und Barben sowie zahlreiche eingewanderte Arten. Das warme, nährstoffreiche Wasser sorgt für ein außergewöhnliches Wachstum der Fische.\n\nDie tiefen Kolke, Mündungsbereiche und Strömungskanten sind die klassischen Standplätze der großen Räuber. Wallerangeln, Karpfenangeln und Spinnfischen auf Zander und Rapfen sind die typischen Methoden an diesem Strom.",
+    "species": [
+      "Wels",
+      "Karpfen",
+      "Zander",
+      "Barbe",
+      "Rapfen",
+      "Barsch"
+    ],
+    "techniques": [
+      "Wallerangeln",
+      "Karpfenangeln",
+      "Spinnfischen",
+      "Grundangeln",
+      "Naturköderangeln"
+    ],
+    "characteristics": [
+      "Breiter, träge fließender Strom",
+      "Legendäre Welsbestände",
+      "Tiefe Kolke und Rinnen",
+      "Ausgedehntes Mündungsdelta"
+    ],
+    "bestSeason": [
+      "Mai",
+      "Juni",
+      "Juli",
+      "August",
+      "September"
+    ],
+    "tips": [
+      "Welse mit der Unterwasserpose oder vom Boot an tiefen Kolken nachstellen.",
+      "In den warmen Monaten nachts auf aktiv jagende Großwelse ansitzen."
+    ],
+    "lat": 45,
+    "lng": 11.5
+  },
+  {
+    "id": "ponoi",
+    "name": "Ponoi (Kola-Halbinsel)",
+    "kind": "revier",
+    "type": "Fluss",
+    "region": "Russland & Sibirien",
+    "country": "Russland",
+    "lat": 67.05,
+    "lng": 41.15,
+    "tagline": "Der reichste Atlantiklachs-Fluss der Welt – unberührt in der Arktis",
+    "description": "Der Ponoi auf der Kola-Halbinsel im äußersten Nordwesten Russlands gilt unter Fliegenfischern weltweit als das gelobte Land des Atlantiklachs-Angelns. Dieser arktische Fluss beherbergt eine der produktivsten Atlantiklachs-Populationen überhaupt, mit Einstandsdichten, die in Europa sonst undenkbar wären.\n\nBis zu 10 000 Atlantiklachse pro Kilometer Flusslänge werden in Spitzenzeiten gezählt. Die Fische steigen von Juni bis September in den Ponoi auf, und in der Hochsaison kann ein erfahrener Angler täglich fünf bis zehn Lachse mit der Fliege fangen und freilassen. Das Gewässer ist ausschließlich über ein spezialisiertes Angelcamp zugänglich, das mit Helikopter angeflogen wird.\n\nDer Ponoi ist Catch-and-Release-Pflichtgewässer, was die ausgezeichnete Bestandssituation erklären dürfte. Die Abgeschiedenheit und die mystische arktische Atmosphäre – Mitternachtssonne im Sommer, gelegentliche Bären-Beobachtungen – machen jeden Aufenthalt zu einem unvergesslichen Erlebnis.",
+    "species": [
+      "Atlantischer Lachs",
+      "Meerforelle",
+      "Äsche"
+    ],
+    "techniques": [
+      "Fliegenfischen",
+      "Skating",
+      "Swingen"
+    ],
+    "characteristics": [
+      "Weltbeste Atlantiklachs-Dichte",
+      "Arktische Wildnis",
+      "Nur per Helikopter erreichbar",
+      "Pflicht-Catch-and-Release"
+    ],
+    "bestSeason": [
+      "Juni",
+      "Juli",
+      "August",
+      "September"
+    ],
+    "tips": [
+      "Tube-Flies in leuchtendem Orange und Schwarz sind die Standardmuster des Ponoi – bewährt über Jahrzehnte.",
+      "Buchungen müssen ein bis zwei Jahre im Voraus erfolgen – freie Plätze sind selten."
+    ],
+    "featured": false
+  },
+  {
+    "id": "rhein",
+    "name": "Rhein",
+    "kind": "revier",
+    "type": "Fluss",
+    "region": "Mitteleuropa",
+    "country": "Deutschland, Schweiz, Niederlande",
+    "tagline": "Deutschlands bedeutendster Strom und ein erstklassiges Revier für Raubfisch.",
+    "description": "Der Rhein ist einer der wichtigsten Ströme Europas und durchzieht auf seinem Weg von den Alpen bis zur Nordsee vielfältigste Landschaften. Über weite Strecken ist er ein mächtiger, strömungsreicher Fluss mit ausgeprägten Buhnenfeldern, die das Herzstück der Angelei bilden und unzähligen Fischen Schutz vor der Hauptströmung bieten.\n\nDer Rhein gilt als eines der besten Zander- und Barschgewässer Deutschlands, beheimatet daneben aber auch starke Bestände an Rapfen, Barben, Welsen und Friedfischen. Die Wasserqualität hat sich in den vergangenen Jahrzehnten deutlich verbessert, sodass die Artenvielfalt heute wieder bemerkenswert hoch ist.\n\nDie Buhnenfelder, Hafeneinfahrten und Mündungen der Nebenflüsse sind die klassischen Hotspots. Besonders das Spinnfischen auf Zander und Rapfen hat hier eine große Tradition, ebenso das Ansitzangeln auf Wels und Friedfisch in den ruhigeren Bereichen.",
+    "species": [
+      "Zander",
+      "Barsch",
+      "Rapfen",
+      "Wels",
+      "Barbe",
+      "Hecht",
+      "Brassen",
+      "Rotauge",
+      "Aal"
+    ],
+    "techniques": [
+      "Spinnfischen",
+      "Grundangeln",
+      "Feederangeln",
+      "Wallerangeln",
+      "Dropshot-Angeln"
+    ],
+    "characteristics": [
+      "Ausgedehnte Buhnenfelder",
+      "Starke Hauptströmung",
+      "Hafenbecken und Industriegewässer",
+      "Mündungen zahlreicher Nebenflüsse"
+    ],
+    "bestSeason": [
+      "April",
+      "Mai",
+      "Juni",
+      "September",
+      "Oktober"
+    ],
+    "tips": [
+      "Die Buhnenkessel und Strömungskanten gezielt mit Gummifisch auf Zander absuchen.",
+      "Im Sommer an der Oberfläche und an Strömungskanten gezielt nach jagenden Rapfen Ausschau halten."
+    ],
+    "featured": true,
+    "lat": 50,
+    "lng": 7.6
+  },
+  {
+    "id": "rhone",
+    "name": "Rhone",
+    "kind": "revier",
+    "type": "Fluss",
+    "region": "Mitteleuropa",
+    "country": "Frankreich / Schweiz",
+    "lat": 45.75,
+    "lng": 4.85,
+    "tagline": "Vom Gletscherbach zum Mittelmeerstrom – vielfältigste Fischwelt Frankreichs",
+    "description": "Die Rhone entspringt dem Rhonegletscher in der Schweiz und durchquert den Genfer See, bevor sie bei Lyon in die breite, strömungsreiche Rhône des mittleren und südlichen Frankreichs übergeht. Diese Reise von den Alpen bis ans Mittelmeer bringt eine außergewöhnliche Artenvielfalt mit sich.\n\nIm schweizerischen Oberlauf dominieren Äschen und Forellen die klaren Alpenwasser. Unterhalb des Genfer Sees verbreitern sich der Fluss und seine Charaktere wandeln sich: Hechte, Zander und Welse bevölkern die ruhigeren Abschnitte, während schnelle Stromrinnen von Döbeln und Nasen bevorzugt werden.\n\nIm Mündungsbereich des Rhonedeltas, der Camargue, entsteht ein einzigartiges Delta-Ökosystem mit Brackwasserzonen, in denen auch marine Arten wie Seebarsch und Seebrasse anzutreffen sind. Jeder Abschnitt der Rhone bietet andere Möglichkeiten und erfordert angepasste Techniken.",
+    "species": [
+      "Hecht",
+      "Wels",
+      "Zander",
+      "Äsche",
+      "Forelle",
+      "Döbel",
+      "Seebarsch"
+    ],
+    "techniques": [
+      "Spinnfischen",
+      "Fliegenfischen",
+      "Jigging",
+      "Naturköderangeln"
+    ],
+    "characteristics": [
+      "Wechselnder Flusscharakter",
+      "Alpine bis mediterrane Vegetation",
+      "Starke Strömungsabschnitte",
+      "Delta-Ökosystem"
+    ],
+    "bestSeason": [
+      "März",
+      "April",
+      "Mai",
+      "September",
+      "Oktober"
+    ],
+    "tips": [
+      "Im Oberlauf bei Genf sind Äschen auf die Trockenfliege besonders aktiv von April bis Juni.",
+      "Im mittleren Rhone-Abschnitt bei Lyon empfiehlt sich Dropshot-Angeln auf Zander in den Tiefrinnen."
+    ],
+    "featured": false
+  },
+  {
+    "id": "riff",
+    "name": "Riff",
+    "kind": "typ",
+    "type": "Meer",
+    "tagline": "Unterwasserstrukturen aus Fels oder Korallen als Hotspots des Meeres.",
+    "description": "Riffe sind erhabene Unterwasserstrukturen aus Fels oder Korallen, die im Meer wahre Oasen des Lebens darstellen. Sie bieten unzähligen Klein- und Beutefischen Schutz und Nahrung und ziehen dadurch große Räuber an. Damit zählen Riffe zu den fischreichsten Bereichen überhaupt.\n\nDie komplexe Struktur aus Spalten, Überhängen und Steilkanten beherbergt eine enorme Artenvielfalt. In gemäßigten Breiten sind es vor allem Dorsch und Köhler, die sich an Felsriffen aufhalten, während tropische Korallenriffe von einer schier unüberschaubaren Fülle bunter Arten und Raubfische bewohnt werden.\n\nGeangelt wird meist vom Boot über der Struktur, etwa durch Pilken, Naturköderangeln oder Schleppen entlang der Riffkanten. Wegen der scharfen Strukturen ist robustes Gerät erforderlich, um die Fische aus dem Geäst zu führen.",
+    "species": [
+      "Dorsch",
+      "Köhler",
+      "Makrele",
+      "Barracuda",
+      "Wolfsbarsch",
+      "Heilbutt"
+    ],
+    "techniques": [
+      "Pilken",
+      "Naturköderangeln",
+      "Schleppangeln",
+      "Spinnfischen"
+    ],
+    "characteristics": [
+      "Fels- oder Korallenstruktur",
+      "Hohe Artenvielfalt",
+      "Spalten und Steilkanten",
+      "Sammelpunkt für Beutefische"
+    ],
+    "bestSeason": [
+      "Mai",
+      "Juni",
+      "Juli",
+      "August",
+      "September"
+    ],
+    "tips": [
+      "Robustes Gerät verwenden, um gehakte Fische rasch von den scharfen Riffstrukturen wegzuführen.",
+      "Den Köder dicht über oder an der Kante des Riffs anbieten, wo die Räuber auf Beute lauern."
+    ]
+  },
+  {
+    "id": "sambesi",
+    "name": "Sambesi",
+    "kind": "revier",
+    "type": "Fluss",
+    "region": "Afrika",
+    "country": "Sambia, Simbabwe, Mosambik",
+    "tagline": "Afrikas viertlängster Strom und Heimat des kampfstarken Tigerfisches.",
+    "description": "Der Sambesi ist der viertlängste Fluss Afrikas und durchquert das südliche Afrika auf seinem Weg vom Hochland bis zum Indischen Ozean. Mit den gewaltigen Victoriafällen, dem ausgedehnten Kariba-Stausee und seinen weiten Auen bildet er eines der eindrucksvollsten Flusssysteme des Kontinents.\n\nFür Angler ist der Sambesi vor allem wegen des kampfstarken Tigerfisches berühmt, eines aggressiven Raubfisches mit furchteinflößendem Gebiss, der zu den begehrtesten Sportfischen Afrikas zählt. Daneben beheimatet der Fluss zahlreiche Welsarten, Buntbarsche und weitere afrikanische Arten in artenreichen Beständen.\n\nDie Strömungskanten, tiefen Rinnen und Mündungsbereiche von Nebenflüssen sind die wichtigsten Hotspots. Das Spinnfischen und Schleppen auf Tigerfisch sowie das Grund- und Naturköderangeln auf Welse sind die typischen Methoden.",
+    "species": [
+      "Wels",
+      "Barracuda"
+    ],
+    "techniques": [
+      "Spinnfischen",
+      "Schleppangeln",
+      "Fliegenfischen",
+      "Grundangeln",
+      "Naturköderangeln"
+    ],
+    "characteristics": [
+      "Bekanntes Tigerfischrevier",
+      "Victoriafälle und Kariba-Stausee",
+      "Weite Auen und Rinnen",
+      "Artenreiche afrikanische Fischfauna"
+    ],
+    "bestSeason": [
+      "August",
+      "September",
+      "Oktober",
+      "November"
+    ],
+    "tips": [
+      "Den Tigerfisch mit schnell geführten Blinkern und sehr scharfen Haken befischen, da sein Maul äußerst hart ist.",
+      "An Strömungskanten und Mündungen kleinerer Flüsse nach jagenden Räubern suchen."
+    ],
+    "lat": -17.9,
+    "lng": 25.8
+  },
+  {
+    "id": "sava",
+    "name": "Sava",
+    "kind": "revier",
+    "type": "Fluss",
+    "region": "Osteuropa",
+    "country": "Slowenien / Kroatien / Bosnien / Serbien",
+    "lat": 44.85,
+    "lng": 17.45,
+    "tagline": "Der unbekannte Balkan-Strom mit wilden Äschen und Huchenpopulationen",
+    "description": "Die Sava entspringt in den slowenischen Alpen und mündet nach 945 Kilometern in Belgrad in die Donau. Dieser mächtige Balkanfluss ist bei mitteleuropäischen Anglern noch weitgehend unentdeckt und bietet deshalb eine unberührte Fischwelt von beeindruckender Qualität.\n\nBesonders der Huchen – der König der Alpensalmoniden – findet in der Sava und ihren Nebenflüssen ideale Bedingungen. Diese mächtigen Raubfische, die ausschließlich im Donausystem heimisch sind, erreichen hier Gewichte von über 20 Kilogramm. Daneben beherbergen die sauberen Abschnitte starke Äschenpopulationen, die Fliegenfischer begeistern.\n\nDie Sava bietet auf ihrer gesamten Länge sehr unterschiedliche Angelcharaktere: von den schäumenden Salmonidenstrecken in Slowenien bis zu den ruhigen, welsreichen Tiefen im serbischen Unterlauf. Angellizenzen sind je nach Land unterschiedlich erhältlich.",
+    "species": [
+      "Huchen",
+      "Äsche",
+      "Hecht",
+      "Wels",
+      "Karpfen",
+      "Barbe",
+      "Nase"
+    ],
+    "techniques": [
+      "Spinnfischen",
+      "Fliegenfischen",
+      "Naturköderangeln",
+      "Grundangeln"
+    ],
+    "characteristics": [
+      "Alpiner Ursprung",
+      "Huchen-Vorkommen",
+      "Wechselnde Gewässercharaktere",
+      "Geringe Befischungsdichte"
+    ],
+    "bestSeason": [
+      "März",
+      "April",
+      "Oktober",
+      "November",
+      "Dezember"
+    ],
+    "tips": [
+      "Huchen werden am effektivsten mit großen Wobblern und Spinnerruten ab 30 Gramm Wurfgewicht befischt.",
+      "In Slowenien sind die Strecken bei Litija und Čatež am bekanntesten für Qualitätsäschen."
+    ],
+    "featured": false
+  },
+  {
+    "id": "see",
+    "name": "See",
+    "kind": "typ",
+    "type": "Stillgewässer",
+    "tagline": "Stehende Gewässer mit klaren Zonen und ganzjährigen Angelmöglichkeiten.",
+    "description": "Seen sind natürliche Stillgewässer, die sich durch deutlich gegliederte Tiefenzonen auszeichnen. Das flache, bewachsene Uferband, die abfallende Halde und das tiefe Freiwasser beherbergen jeweils unterschiedliche Fischarten und verändern sich im Jahresverlauf mit der Wassertemperatur.\n\nIm Sommer bildet sich in tieferen Seen oft eine Sprungschicht aus, oberhalb derer sich das Leben konzentriert. Im Winter ziehen sich viele Fische in tiefere, temperaturstabile Bereiche zurück. Das Verständnis dieser Schichtung ist der Schlüssel zum Erfolg.\n\nSeen bieten Raum für nahezu alle Angelmethoden, vom Friedfischansitz im Uferbereich über das Karpfenangeln bis zum Schleppen und Vertikalangeln im Freiwasser. Krautkanten, Seerosenfelder und versunkene Strukturen sind besonders fängige Stellen.",
+    "species": [
+      "Hecht",
+      "Zander",
+      "Barsch",
+      "Karpfen",
+      "Schleie",
+      "Brassen",
+      "Rotauge",
+      "Aal"
+    ],
+    "techniques": [
+      "Posenangeln",
+      "Grundangeln",
+      "Karpfenangeln",
+      "Spinnfischen",
+      "Vertikalangeln",
+      "Schleppangeln"
+    ],
+    "characteristics": [
+      "Gegliederte Tiefenzonen",
+      "Sprungschicht im Sommer",
+      "Krautkanten und Seerosenfelder",
+      "Versunkene Strukturen"
+    ],
+    "bestSeason": [
+      "Mai",
+      "Juni",
+      "September",
+      "Oktober"
+    ],
+    "tips": [
+      "Im Sommer die Sprungschicht mit dem Echolot suchen und knapp darüber angeln.",
+      "An Kraut- und Schilfkanten gezielt nach Hecht und Schleie fischen."
+    ]
+  },
+  {
+    "id": "talsperre",
+    "name": "Talsperre",
+    "kind": "typ",
+    "type": "Stillgewässer",
+    "tagline": "Aufgestaute Großgewässer mit tiefem, klarem Wasser und weiten Freiwasserflächen.",
+    "description": "Talsperren entstehen durch das Aufstauen von Flusstälern und sind dadurch oft sehr tief und klar. Ihr Charakter erinnert an große Bergseen, mit steil abfallenden Ufern, überfluteten Tälern und alten Bachläufen am Grund. Diese Unterwasserstrukturen sind die entscheidenden Anhaltspunkte für die Angelei.\n\nDas klare, oft kühle Wasser begünstigt Raubfische wie Hecht, Zander und Barsch sowie in manchen Talsperren auch Forellen und Renken. Die Fische orientieren sich stark an den überfluteten Strukturen und den ehemaligen Flussbetten, die als Wanderwege dienen.\n\nWegen der großen Tiefen und Flächen sind Boot und Echolot von großem Vorteil. Vertikalangeln, Schleppen und das Befischen der scharfen Kanten gehören zu den erfolgreichsten Methoden.",
+    "species": [
+      "Hecht",
+      "Zander",
+      "Barsch",
+      "Renke",
+      "Regenbogenforelle",
+      "Rotauge",
+      "Brassen"
+    ],
+    "techniques": [
+      "Vertikalangeln",
+      "Schleppangeln",
+      "Spinnfischen",
+      "Grundangeln"
+    ],
+    "characteristics": [
+      "Große Tiefen und klares Wasser",
+      "Überflutete Täler und Bachläufe",
+      "Steil abfallende Ufer",
+      "Ehemalige Flussbetten als Fischstraßen"
+    ],
+    "bestSeason": [
+      "April",
+      "Mai",
+      "September",
+      "Oktober",
+      "November"
+    ],
+    "tips": [
+      "Mit dem Echolot die alten Flussbetten und Kanten suchen, an denen sich Raubfische sammeln.",
+      "Im Freiwasser nach Schwärmen von Renken oder Weißfisch suchen, in deren Nähe oft Raubfische jagen."
+    ]
+  },
+  {
+    "id": "teich",
+    "name": "Teich",
+    "kind": "typ",
+    "type": "Stillgewässer",
+    "tagline": "Kleine, flache Stillgewässer mit warmem Wasser und starkem Friedfischbestand.",
+    "description": "Teiche sind kleine, meist flache und vom Menschen angelegte oder geprägte Stillgewässer. Durch die geringe Tiefe erwärmt sich das Wasser im Sommer rasch, was das Wachstum von Wasserpflanzen und Nährtieren fördert. Das macht Teiche zu produktiven Friedfischgewässern.\n\nKarpfen, Schleien und Rotaugen finden hier reichlich Nahrung und erreichen oft gute Größen. Da das Wasser nährstoffreich ist, kann es im Hochsommer zu Sauerstoffmangel kommen, weshalb die frühen Morgenstunden und der Abend die besten Beißzeiten sind.\n\nKlassische Teichmethoden sind das Posen- und Grundangeln auf Friedfische sowie das Method-Feeder-Angeln auf Karpfen. Schilfgürtel, Seerosen und Einläufe sind die ergiebigsten Bereiche.",
+    "species": [
+      "Karpfen",
+      "Schleie",
+      "Rotauge",
+      "Brassen",
+      "Hecht",
+      "Barsch"
+    ],
+    "techniques": [
+      "Posenangeln",
+      "Grundangeln",
+      "Method-Feeder",
+      "Karpfenangeln"
+    ],
+    "characteristics": [
+      "Geringe Wassertiefe",
+      "Schnelle Erwärmung im Sommer",
+      "Reicher Pflanzenbewuchs",
+      "Schilfgürtel und Seerosen"
+    ],
+    "bestSeason": [
+      "Mai",
+      "Juni",
+      "Juli",
+      "August",
+      "September"
+    ],
+    "tips": [
+      "In der warmen Jahreszeit früh morgens und abends angeln, wenn der Sauerstoffgehalt am höchsten ist.",
+      "Mit feinem Posengerät direkt an der Schilfkante auf Schleie und Karpfen fischen."
+    ]
+  },
+  {
+    "id": "theiss",
+    "name": "Theiß",
+    "kind": "revier",
+    "type": "Fluss",
+    "region": "Osteuropa",
+    "country": "Ukraine / Ungarn / Serbien",
+    "lat": 47.95,
+    "lng": 20.45,
+    "tagline": "Ungarns Fischfluss Nummer eins mit sagenhaften Welsdichten",
+    "description": "Die Theiß ist der größte Nebenfluss der Donau und durchzieht auf über 960 Kilometern die ungarische Tiefebene. Trotz ihrer bewegten Geschichte – schwere Überschwemmungen und Umweltkatastrophen haben den Fluss mehrfach belastet – hat sich die Theiß zu einem der fischreichsten Flüsse Europas entwickelt.\n\nDie Welsdichte in der Theiß gilt als eine der höchsten Europas, wobei regelmäßig Exemplare über 100 Kilogramm dokumentiert werden. Angelturniere für Großwelse ziehen jährlich tausende Teilnehmer an. Aber auch Karpfen, Zander und Hecht sind in stattlichen Populationen vertreten und bieten sportlichen Anglern hervorragende Möglichkeiten.\n\nBesonders bemerkenswert ist das Massenlaichen der Zarte (Maifisch) in der Theiß, das als „blühende Theiß“ bekannt ist und ein spektakuläres Naturschauspiel darstellt. Die flachen, buchtenreichen Ufer bieten ideale Angelplätze für Karpfen, während tiefe Rinnen die bevorzugten Einstandsorte der Welse sind.",
+    "species": [
+      "Wels",
+      "Karpfen",
+      "Zander",
+      "Hecht",
+      "Barsch",
+      "Rotfeder",
+      "Brachse"
+    ],
+    "techniques": [
+      "Welsangeln",
+      "Karpfenangeln",
+      "Spinnfischen",
+      "Grundangeln"
+    ],
+    "characteristics": [
+      "Höchste Welsdichten Europas",
+      "Flache Talaue",
+      "Buchtenreiche Ufer",
+      "Wärmeres Klima"
+    ],
+    "bestSeason": [
+      "Mai",
+      "Juni",
+      "Juli",
+      "August"
+    ],
+    "tips": [
+      "Welse werden am besten nachts an tiefen Einschnitten unter Baumwurzeln mit lebenden Köderfischen befischt.",
+      "Das Dorf Tiszafüred gilt als Hauptquartier der ungarischen Welsangler und bietet gute Infrastruktur."
+    ],
+    "featured": false
+  },
+  {
+    "id": "themse",
+    "name": "Themse",
+    "kind": "revier",
+    "type": "Fluss",
+    "region": "Britische Inseln",
+    "country": "Vereinigtes Königreich",
+    "tagline": "Englands berühmtester Fluss mit traditioneller Friedfischangelei.",
+    "description": "Die Themse ist der bekannteste Fluss Englands und fließt von ihrer Quelle in den Cotswolds durch London bis zur Nordsee. Über weite Strecken ist sie ein ruhiger, gemächlich strömender Fluss mit zahlreichen Schleusen, Wehren und bewachsenen Uferzonen, die ein reiches Fischleben beherbergen.\n\nDie Themse hat eine lange Tradition als Friedfischgewässer und beheimatet starke Bestände an Brassen, Rotaugen, Döbeln und Barben. Daneben sind Hecht, Barsch und Zander verbreitet, und im Unterlauf, der zunehmend vom Tidenhub geprägt wird, mischen sich Wanderfische hinzu. Die Erholung der Wasserqualität hat die Artenvielfalt deutlich gefördert.\n\nWehre, Schleusenkanäle und ruhige Gleiten sind die typischen Hotspots. Das Feeder- und Posenangeln auf Friedfisch hat hier eine große Tradition, ebenso das Spinnfischen auf die Räuber in den tieferen Bereichen.",
+    "species": [
+      "Brassen",
+      "Rotauge",
+      "Döbel",
+      "Barbe",
+      "Hecht",
+      "Barsch",
+      "Zander"
+    ],
+    "techniques": [
+      "Feederangeln",
+      "Posenangeln",
+      "Grundangeln",
+      "Spinnfischen",
+      "Stippangeln"
+    ],
+    "characteristics": [
+      "Gemächliche Strömung",
+      "Zahlreiche Wehre und Schleusen",
+      "Tideneinfluss im Unterlauf",
+      "Bewachsene, ruhige Uferzonen"
+    ],
+    "bestSeason": [
+      "Mai",
+      "Juni",
+      "Juli",
+      "September",
+      "Oktober"
+    ],
+    "tips": [
+      "Unterhalb von Wehren angeln, wo sauerstoffreiches Wasser und Nahrung viele Fische anziehen.",
+      "Mit dem Feeder gezielt auf die starken Brassen- und Barbenschwärme fischen."
+    ],
+    "lat": 51.5,
+    "lng": -0.6
+  },
+  {
+    "id": "vaenern",
+    "name": "Vänern",
+    "kind": "revier",
+    "type": "See",
+    "region": "Skandinavien",
+    "country": "Schweden",
+    "tagline": "Schwedens größter See und ein weltberühmtes Revier für kapitale Lachse.",
+    "description": "Der Vänern ist mit rund 5.600 Quadratkilometern der größte See Schwedens und der drittgrößte Europas. Seine gewaltige Wasserfläche mit unzähligen Inseln, Schären und weiten Freiwasserzonen verleiht ihm fast meeresähnliche Dimensionen und sorgt für vielfältigste Lebensräume.\n\nWeltberühmt ist der Vänern für seine kapitalen Lachse und Seeforellen, die als Binnenformen im See abwachsen und dabei beachtliche Gewichte erreichen. Daneben beheimatet er starke Bestände an Hecht, Zander und Barsch, die vor allem in den Schärengebieten und an den Kanten zu finden sind.\n\nDas Schleppen im Freiwasser auf Lachs und Seeforelle ist die klassische Methode am Vänern. In den geschützten Schären wird zudem intensiv auf Hecht und Barsch gespinnt, während die Tiefenkanten gute Zanderfänge versprechen.",
+    "species": [
+      "Atlantischer Lachs",
+      "Seeforelle",
+      "Hecht",
+      "Zander",
+      "Barsch"
+    ],
+    "techniques": [
+      "Schleppangeln",
+      "Spinnfischen",
+      "Vertikalangeln",
+      "Jiggen"
+    ],
+    "characteristics": [
+      "Riesige Wasserfläche mit Schären",
+      "Binnenlachs und Seeforelle",
+      "Weite Freiwasserzonen",
+      "Zahlreiche Inseln und Kanten"
+    ],
+    "bestSeason": [
+      "April",
+      "Mai",
+      "Juni",
+      "September",
+      "Oktober"
+    ],
+    "tips": [
+      "Lachse durch großflächiges Schleppen mit Planerboards im offenen Wasser suchen.",
+      "In den geschützten Schären auf große Hechte spinnen, die hier ideale Bedingungen finden."
+    ],
+    "lat": 58.9,
+    "lng": 13.3
+  },
+  {
+    "id": "viktoriasee",
+    "name": "Viktoriasee",
+    "kind": "revier",
+    "type": "See",
+    "region": "Afrika",
+    "country": "Uganda / Kenia / Tansania",
+    "lat": -1.05,
+    "lng": 33.05,
+    "tagline": "Afrikas größter See mit dem beeindruckenden Nilbarsch",
+    "description": "Der Viktoriasee ist der größte tropische See der Erde und die Hauptquelle des Weißen Nils. Mit einer Fläche von 68 800 Quadratkilometern und einer Küstenlinie von über 3000 Kilometern bietet er unendliche Angelmöglichkeiten – vor allem für den weltberühmten Nilbarsch.\n\nDer Nilbarsch (Lates niloticus), ursprünglich im See eingeführt, hat sich zur dominanten Raubbaumart entwickelt und erreicht Gewichte von über 100 Kilogramm. Diese mächtigen Fische sind gleichzeitig ökologisch umstritten – ihre Einführung hat zahlreiche endemische Buntbarscharten ausgelöscht – aber als Sportfisch von unvergleichlichem Reiz. Trolling und Spinnfischen sind die effektivsten Methoden.\n\nNeben dem Nilbarsch bietet der Viktoriasee hunderte von Buntbarscharten, Tilapia und den charakteristischen Afrikanischen Glaswels. Die Angelinfrastruktur ist in Uganda und Kenia am besten entwickelt, mit professionellen Sportfischlagern entlang der Ufer.",
+    "species": [
+      "Nilbarsch",
+      "Tilapia",
+      "Buntbarsch",
+      "Afrikanischer Glaswels",
+      "Tigerbarsch"
+    ],
+    "techniques": [
+      "Trolling",
+      "Spinnfischen",
+      "Jigging",
+      "Naturköderangeln"
+    ],
+    "characteristics": [
+      "Größter tropischer See",
+      "Nilbarsch-Rekordgewässer",
+      "Artenreiche Buntbarsche",
+      "Tropisches Klima"
+    ],
+    "bestSeason": [
+      "Januar",
+      "Februar",
+      "Juli",
+      "August"
+    ],
+    "tips": [
+      "Trolling mit großen Wobblern in 8 bis 15 Metern Tiefe ist die effektivste Methode für Großnilbarsche.",
+      "Kenia-Seite bei Kisumu bietet gute Angelcamps mit professionellen Guides."
+    ],
+    "featured": false
   },
   {
     "id": "wolga",
@@ -1085,127 +1978,44 @@
     "lng": 44.5
   },
   {
-    "id": "baikalsee",
-    "name": "Baikalsee",
+    "id": "yukon-river",
+    "name": "Yukon River",
     "kind": "revier",
-    "type": "See",
-    "region": "Russland & Sibirien",
-    "country": "Russland",
-    "tagline": "Der tiefste und älteste See der Erde mit einzigartiger Fischwelt.",
-    "description": "Der Baikalsee in Sibirien ist der tiefste und mit großem Abstand älteste See der Erde und enthält rund ein Fünftel des flüssigen Süßwassers unseres Planeten. Sein außergewöhnlich klares, kaltes Wasser und seine isolierte Lage haben eine einzigartige Tier- und Pflanzenwelt mit zahlreichen endemischen Arten hervorgebracht.\n\nFür Angler ist der Baikal ein besonderes Ziel mit einer eigentümlichen Fischfauna. Neben dem endemischen Omul, einem zur Familie der Lachsfische zählenden Fisch, beheimatet er Äschen, Renken, Hechte und Barsche. Das kalte, sauerstoffreiche Wasser begünstigt salmonidengeprägte Bestände von hoher Qualität.\n\nDie Mündungsbereiche der Zuflüsse, Buchten und Tiefenkanten sind die wichtigsten Hotspots. Im Winter hat das Eisangeln auf dem mächtig zugefrorenen See eine große Tradition, im Sommer wird mit Fliege, Spinngerät und Pose gefischt.",
+    "type": "Fluss",
+    "region": "Nordamerika",
+    "country": "USA / Kanada",
+    "lat": 64.55,
+    "lng": -150.45,
+    "tagline": "Alaskas wilder Lachsstrom durch unberührte Wildnis",
+    "description": "Der Yukon River ist einer der letzten wirklich wilden Flüsse Nordamerikas. Auf über 3180 Kilometern durchfließt er die boreale Wildnis Kanadas und Alaskas und mündet im Beringmeer. Die jährlichen Lachswanderungen sind hier von archaischer Größenordnung.\n\nChinook-Lachse (Königslachse) steigen den Yukon weiter hinauf als jeden anderen Fluss der Welt – bis zu 3000 Kilometer in die Wildnis. Diese Wanderung produziert eine der letzten großen intakten Wildlachs-Fischereien Nordamerikas. Daneben bieten Silberlachse, Hunde-Lachse und der massive Sheefish (Inconnu) außergewöhnliche Angelmöglichkeiten.\n\nDas Yukon-Angeln ist ein echtes Wildnisabenteuer: Keine Straßen, keine Infrastruktur, nur Flugzeug oder Boot. Geführte Camps sind der einzige realistische Weg für ausländische Angler, dieses Revier zu erschließen. Dafür lockt unberührte Natur und das Gefühl, in einer anderen Zeit zu angeln.",
     "species": [
+      "Königslachs",
+      "Silberlachs",
+      "Hundslachs",
+      "Sheefish",
       "Äsche",
-      "Renke",
-      "Hecht",
-      "Barsch"
+      "Hecht"
     ],
     "techniques": [
-      "Eisangeln",
       "Fliegenfischen",
       "Spinnfischen",
-      "Posenangeln"
+      "Naturköderangeln"
     ],
     "characteristics": [
-      "Tiefster und ältester See der Erde",
-      "Extrem klares, kaltes Wasser",
-      "Zahlreiche endemische Arten",
-      "Mündungsbereiche der Zuflüsse"
+      "Unberührte Wildnis",
+      "Rekord-Lachswanderungen",
+      "Nur per Flugzeug erreichbar",
+      "Arktisches Klima"
     ],
     "bestSeason": [
-      "Februar",
-      "März",
       "Juni",
       "Juli",
       "August"
     ],
     "tips": [
-      "Im Winter beim Eisangeln gezielt die Mündungsbereiche der Zuflüsse und Tiefenkanten aufsuchen.",
-      "Im Sommer mit der Fliege auf die Äschen in den klaren Flachwasserzonen fischen."
+      "Fliegenfischen mit großen Streamern in Pink und Chartreuse ist die effektivste Methode für Chinook-Lachse.",
+      "Wildniscamps buchen mindestens ein Jahr im Voraus – die besten Plätze sind schnell vergeben."
     ],
-    "lat": 53.5,
-    "lng": 108
-  },
-  {
-    "id": "florida-keys",
-    "name": "Florida Keys",
-    "kind": "revier",
-    "type": "Meer",
-    "region": "Karibik",
-    "country": "Vereinigte Staaten",
-    "tagline": "Tropische Inselkette mit Weltklasse-Salzwasserfischen wie Tarpon und Bonefish.",
-    "description": "Die Florida Keys sind eine langgestreckte tropische Inselkette, die sich vom Süden Floridas weit in die warmen Gewässer zwischen Atlantik und Golf von Mexiko erstreckt. Mit ihren ausgedehnten Flats, Mangroven, Korallenriffen und dem nahen Golfstrom bieten sie ein außergewöhnlich vielfältiges Salzwasserrevier von Weltrang.\n\nDie Keys gelten als eine der besten Angeldestinationen der Welt, insbesondere für das Sichtangeln auf den Flats. Berühmt sind vor allem Tarpon, Bonefish und Permit, das sogenannte Grand-Slam-Trio der Salzwasserfliegenfischer. In tieferem Wasser und am Riff jagen zudem Barracudas, Wolfsbarsche und zahlreiche weitere Raubfische.\n\nDie flachen Sandbänke, Mangrovenkanten und Riffe sind die entscheidenden Hotspots. Das Fliegen- und Spinnfischen auf den Flats sowie das Naturköder- und Schleppangeln in tieferem Wasser gehören zu den verbreitetsten Methoden.",
-    "species": [
-      "Tarpon",
-      "Bonefish",
-      "Barracuda",
-      "Wolfsbarsch",
-      "Makrele"
-    ],
-    "techniques": [
-      "Fliegenfischen",
-      "Spinnfischen",
-      "Naturköderangeln",
-      "Schleppangeln"
-    ],
-    "characteristics": [
-      "Ausgedehnte Flats zum Sichtangeln",
-      "Mangroven und Korallenriffe",
-      "Nähe zum warmen Golfstrom",
-      "Heimat von Tarpon, Bonefish und Permit"
-    ],
-    "bestSeason": [
-      "März",
-      "April",
-      "Mai",
-      "Juni"
-    ],
-    "tips": [
-      "Auf den Flats gezielt nach ziehenden Fischen Ausschau halten und den Köder präzise vor sie werfen.",
-      "Tarpon im Frühjahr während ihrer Wanderung an den klassischen Durchzugsstellen abpassen."
-    ],
-    "lat": 24.7,
-    "lng": -81
-  },
-  {
-    "id": "great-barrier-reef",
-    "name": "Great Barrier Reef",
-    "kind": "revier",
-    "type": "Riff",
-    "region": "Australien & Neuseeland",
-    "country": "Australien",
-    "tagline": "Das größte Korallenriffsystem der Erde mit spektakulären Großfischen.",
-    "description": "Das Great Barrier Reef vor der Nordostküste Australiens ist das größte Korallenriffsystem der Erde und erstreckt sich über mehr als 2.000 Kilometer entlang der Küste von Queensland. Mit seinen unzähligen Einzelriffen, Lagunen und Kanälen bildet es einen der artenreichsten Lebensräume des Planeten und ein Angelrevier von Weltrang.\n\nFür Angler ist das Riff vor allem wegen seiner spektakulären Großfische berühmt. In den tieferen Außenbereichen jagen mächtige Schwarze Marline, daneben sind Thunfische, Makrelen und zahlreiche Riffraubfische verbreitet. Das warme, nährstoffreiche Wasser sorgt für ein überwältigendes Nahrungsangebot und beeindruckendes Fischwachstum.\n\nDie Riffkanten, Außenriffe und Kanäle sind die entscheidenden Hotspots. Das Schleppangeln auf Marlin und Thunfisch im tiefen Wasser sowie das Spinn- und Naturköderangeln auf Riffraubfische über den Strukturen gehören zu den verbreitetsten Methoden.",
-    "species": [
-      "Blauer Marlin",
-      "Thunfisch",
-      "Makrele",
-      "Barracuda",
-      "Mahi-Mahi"
-    ],
-    "techniques": [
-      "Schleppangeln",
-      "Spinnfischen",
-      "Naturköderangeln",
-      "Pilken"
-    ],
-    "characteristics": [
-      "Größtes Korallenriff der Erde",
-      "Über 2.000 Kilometer Ausdehnung",
-      "Spektakuläre Großfische am Außenriff",
-      "Enorme Artenvielfalt"
-    ],
-    "bestSeason": [
-      "September",
-      "Oktober",
-      "November",
-      "Dezember"
-    ],
-    "tips": [
-      "Große Marline durch Schleppen entlang der Außenriffkanten in der Hauptsaison gegen Jahresende nachstellen.",
-      "Über den Riffstrukturen mit Naturködern und Pilkern gezielt die Riffraubfische befischen."
-    ],
-    "featured": true,
-    "lat": -18.3,
-    "lng": 147.7
+    "featured": false
   }
 ]

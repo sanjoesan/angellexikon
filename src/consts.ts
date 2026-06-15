@@ -21,7 +21,8 @@ export type CategoryKey =
   | 'koeder'
   | 'knoten'
   | 'ausruestung'
-  | 'glossar';
+  | 'glossar'
+  | 'kueche';
 
 export interface CategoryDef {
   /** internal key === Astro collection name === url slug */
@@ -121,6 +122,16 @@ export const CATEGORIES: CategoryDef[] = [
     short: 'Anglerlatein verständlich erklärt – Fachbegriffe von A bis Z.',
     accent: '#be185d',
     inNav: true,
+    inSearch: true,
+  },
+  {
+    key: 'kueche',
+    label: 'Küche',
+    singular: 'Rezept',
+    icon: '🍽️',
+    short: 'Den Fang verwerten: filetieren, räuchern, beizen und feine Rezepte rund um den Fisch.',
+    accent: '#c2410c',
+    inNav: false,
     inSearch: true,
   },
 ];

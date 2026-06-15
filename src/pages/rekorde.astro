@@ -1,0 +1,86 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import WaveDivider from '../components/WaveDivider.astro';
+import { getCollection } from 'astro:content';
+import { entryUrl } from '../utils/url';
+
+const fische = await getCollection('fische');
+const rows = fische
+  .map((e) => ({
+    name: e.data.name,
+    url: entryUrl('fische', e.id),
+    l: e.data.maxLength_cm ?? null,
+    w: e.data.maxWeight_kg ?? null,
+    habitat: e.data.habitat ?? '',
+  }))
+  .filter((r) => r.l || r.w)
+  .sort((a, b) => (b.w ?? 0) - (a.w ?? 0));
+const maxW = Math.max(1, ...rows.map((r) => r.w ?? 0));
+---
+<BaseLayout title="Rekorde & Bestenliste" description="Die größten Fischarten im Angellexikon – sortierbar nach maximalem Gewicht und maximaler Länge.">
+  <section class="cat-hero">
+    <div class="container">
+      <span class="big-emoji" aria-hidden="true">🏆</span>
+      <h1>Rekorde &amp; Bestenliste</h1>
+      <p class="lead">Wie groß werden Fische maximal? Die Riesen des Lexikons – sortierbar nach Gewicht oder Länge.</p>
+    </div>
+  </section>
+  <WaveDivider />
+
+  <section class="section container">
+    <div class="toolbar">
+      <span class="count" style="margin-right:.2rem">Sortieren:</span>
+      <button class="filterbtn active" data-sort="w" type="button">Nach Gewicht</button>
+      <button class="filterbtn" data-sort="l" type="button">Nach Länge</button>
+      <span class="count" style="margin-left:auto">{rows.length} Arten mit Angaben</span>
+    </div>
+
+    <div class="rtable-wrap">
+      <table class="rtable" id="rektable">
+        <thead>
+          <tr><th>#</th><th>Art</th><th>Max. Gewicht</th><th>Max. Länge</th><th>Lebensraum</th></tr>
+        </thead>
+        <tbody>
+          {rows.map((r) => (
+            <tr data-w={r.w ?? 0} data-l={r.l ?? 0}>
+              <td><span class="rrank">–</span></td>
+              <td><a href={r.url}>{r.name}</a></td>
+              <td class="num">
+                {r.w ? `${r.w} kg` : '—'}
+                {r.w && <span class="wbar"><span style={`width:${Math.round((r.w / maxW) * 100)}%`}></span></span>}
+              </td>
+              <td class="num">{r.l ? `${r.l} cm` : '—'}</td>
+              <td>{r.habitat}</td>
+            </tr>
+          ))}
+        </tbody>
+      </table>
+    </div>
+    <p class="muted center" style="margin-top:1rem;font-size:.9rem">Angaben sind typische Maximalwerte der Art – Ausnahmeexemplare können abweichen.</p>
+  </section>
+
+  <script>
+    const table = document.getElementById('rektable');
+    const tbody = table?.querySelector('tbody');
+    const btns = [...document.querySelectorAll('[data-sort]')] as HTMLElement[];
+    function sortBy(key: string) {
+      if (!tbody) return;
+      const rows = [...tbody.querySelectorAll('tr')] as HTMLElement[];
+      rows.sort((a, b) => Number(b.dataset[key]) - Number(a.dataset[key]));
+      rows.forEach((tr, i) => {
+        tbody.appendChild(tr);
+        const rank = tr.querySelector('.rrank') as HTMLElement;
+        rank.textContent = String(i + 1);
+        rank.classList.toggle('top', i < 3);
+      });
+    }
+    btns.forEach((b) =>
+      b.addEventListener('click', () => {
+        btns.forEach((x) => x.classList.remove('active'));
+        b.classList.add('active');
+        sortBy(b.dataset.sort || 'w');
+      })
+    );
+    sortBy('w');
+  </script>
+</BaseLayout>
