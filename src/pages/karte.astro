@@ -1,0 +1,63 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import WaveDivider from '../components/WaveDivider.astro';
+import { getCollection } from 'astro:content';
+import { withBase } from '../utils/url';
+
+const gewaesser = await getCollection('gewaesser');
+const points = gewaesser
+  .filter((e) => typeof e.data.lat === 'number' && typeof e.data.lng === 'number')
+  .map((e) => ({
+    name: e.data.name,
+    lat: e.data.lat,
+    lng: e.data.lng,
+    type: e.data.type || '',
+    region: e.data.region || '',
+    url: withBase(`/gewaesser/${e.id}/`),
+  }))
+  .sort((a, b) => a.name.localeCompare(b.name, 'de'));
+---
+<BaseLayout title="Revier-Karte" description="Berühmte Angelreviere weltweit auf einer interaktiven Karte – vom Rhein bis zum Great Barrier Reef.">
+  <section class="cat-hero">
+    <div class="container">
+      <span class="big-emoji" aria-hidden="true">🗺️</span>
+      <h1>Revier-Karte</h1>
+      <p class="lead">Berühmte Angelreviere rund um den Globus. Klicke auf einen Punkt und springe direkt zum Revier.</p>
+    </div>
+  </section>
+  <WaveDivider />
+
+  <section class="section container">
+    <div id="map" class="revier-map" role="application" aria-label="Interaktive Karte der Angelreviere"></div>
+    <p class="muted center" style="margin-top:1rem;font-size:.9rem">{points.length} Reviere · Kartendaten © OpenStreetMap-Mitwirkende</p>
+    <script type="application/json" id="map-data" set:html={JSON.stringify(points)}></script>
+  </section>
+
+  <script>
+    import L from 'leaflet';
+    import 'leaflet/dist/leaflet.css';
+
+    const el = document.getElementById('map');
+    if (el) {
+      const data = JSON.parse(document.getElementById('map-data')?.textContent || '[]');
+      const map = L.map(el, { scrollWheelZoom: false, worldCopyJump: true }).setView([30, 10], 2);
+      L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+        attribution: '© OpenStreetMap',
+        maxZoom: 18,
+      }).addTo(map);
+
+      const pts: [number, number][] = [];
+      data.forEach((d: any) => {
+        const m = L.circleMarker([d.lat, d.lng], {
+          radius: 8, color: '#0a5d69', weight: 2, fillColor: '#13b8a6', fillOpacity: 0.9,
+        }).addTo(map);
+        const meta = [d.type, d.region].filter(Boolean).join(' · ');
+        m.bindPopup(
+          `<strong>${d.name}</strong>${meta ? `<br><span class="lp-meta">${meta}</span>` : ''}<br><a href="${d.url}">Zum Revier →</a>`
+        );
+        pts.push([d.lat, d.lng]);
+      });
+      if (pts.length) map.fitBounds(pts, { padding: [40, 40], maxZoom: 5 });
+    }
+  </script>
+</BaseLayout>

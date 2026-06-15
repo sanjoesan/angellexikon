@@ -177,7 +177,7 @@ for (let k = 1; k <= 4 && k < sortedAll.length; k++) {
         {(d.steps?.length > 0 || d.howto?.length > 0) && (
           <div class="block">
             <h2>{stepsTitle}</h2>
-            <ol class="steps">{(d.steps || d.howto).map((s: string) => <li>{s}</li>)}</ol>
+            <ol class="steps" data-stepper>{(d.steps || d.howto).map((s: string) => <li>{s}</li>)}</ol>
           </div>
         )}
 

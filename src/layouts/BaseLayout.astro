@@ -185,6 +185,36 @@ const ogImage = Astro.site ? new URL(ogPath, Astro.site).href : ogPath;
         };
         render();
       }
+
+      // --- Schritt-Slider (Knoten / Techniken / How-to) ---
+      document.querySelectorAll('ol.steps[data-stepper]').forEach((ol) => {
+        const items = [...ol.children];
+        if (items.length < 2) return;
+        let idx = 0;
+        items.forEach((li, i) => li.setAttribute('data-n', String(i + 1)));
+        ol.classList.add('stepper-steps');
+        const nav = document.createElement('div');
+        nav.className = 'stepper-nav';
+        nav.innerHTML =
+          '<button class="btn stepper-prev" type="button">‹ Zurück</button>' +
+          '<div class="stepper-meta"><div class="stepper-count"></div><div class="stepper-bar"><span></span></div></div>' +
+          '<button class="btn btn-primary stepper-next" type="button">Weiter ›</button>';
+        ol.after(nav);
+        const countEl = nav.querySelector('.stepper-count');
+        const barEl = nav.querySelector('.stepper-bar span');
+        const prev = nav.querySelector('.stepper-prev');
+        const next = nav.querySelector('.stepper-next');
+        const show = () => {
+          items.forEach((li, i) => li.classList.toggle('is-active', i === idx));
+          countEl.textContent = `Schritt ${idx + 1} von ${items.length}`;
+          barEl.style.width = ((idx + 1) / items.length) * 100 + '%';
+          prev.disabled = idx === 0;
+          next.textContent = idx === items.length - 1 ? '↺ Von vorn' : 'Weiter ›';
+        };
+        prev.addEventListener('click', () => { if (idx > 0) { idx--; show(); } });
+        next.addEventListener('click', () => { idx = idx < items.length - 1 ? idx + 1 : 0; show(); });
+        show();
+      });
     </script>
   </body>
 </html>

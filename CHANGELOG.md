@@ -3,6 +3,19 @@
 Alle nennenswerten Änderungen am Angellexikon.
 Format orientiert an [Keep a Changelog](https://keepachangelog.com/de/).
 
+## [1.2.0] – 2026-06-15 · Schritt-Slider, Revier-Karte & mehr Köder/Knoten
+
+### Hinzugefügt
+- **Schritt-Slider:** Knoten-, Technik- und Köder-Anleitungen lassen sich Schritt
+  für Schritt durchklicken (Vor/Zurück, Fortschrittsbalken) – mit No-JS-Fallback.
+- **Revier-Karte (`/karte`):** interaktive Weltkarte (Leaflet + OpenStreetMap) mit
+  Markern zu 19 benannten Revieren; Koordinaten in `gewaesser.json` ergänzt.
+- **16 weitere Köder** (jetzt 45) und **11 weitere Knoten** (jetzt 28).
+
+### Geändert
+- Dark-Mode-Feinschliff: abgedunkelte Kartenkacheln & angepasste Popups.
+- Karte in Navigation, Footer und Startseite verlinkt. 314 Seiten im Build.
+
 ## [1.1.0] – 2026-06-15 · Illustrationen, Werkzeuge & mehr Arten
 
 ### Hinzugefügt

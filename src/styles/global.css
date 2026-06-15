@@ -404,6 +404,30 @@ kbd {
 .trophy-bar span { display: block; height: 100%; width: 0; background-image: var(--grad-ocean); transition: width 0.5s ease; }
 .cr-label { margin-top: 0.55rem; font-weight: 600; color: var(--c-text); }
 
+/* Schritt-Slider */
+ol.stepper-steps > li { display: none; }
+ol.stepper-steps > li.is-active { display: block; animation: stepfade 0.25s ease; }
+ol.stepper-steps > li::before { content: attr(data-n); counter-increment: none; }
+@keyframes stepfade { from { opacity: 0; transform: translateX(10px); } }
+.stepper-nav { display: flex; align-items: center; gap: 1rem; margin-top: 1rem; }
+.stepper-nav .btn { white-space: nowrap; }
+.stepper-meta { flex: 1; min-width: 0; }
+.stepper-count { font-size: 0.82rem; color: var(--c-muted); font-weight: 600; margin-bottom: 0.35rem; }
+.stepper-bar { height: 6px; border-radius: 99px; background: var(--c-surface-3); overflow: hidden; }
+.stepper-bar > span { display: block; height: 100%; width: 0; background-image: var(--grad-ocean); transition: width 0.3s ease; }
+.stepper-prev[disabled] { opacity: 0.4; cursor: not-allowed; }
+
+/* Revier-Karte (Leaflet) */
+.revier-map { height: clamp(380px, 64vh, 620px); width: 100%; border-radius: var(--radius-lg); border: 1px solid var(--c-border); box-shadow: var(--shadow); overflow: hidden; position: relative; z-index: 0; }
+.leaflet-container { font: inherit; background: var(--c-surface-2); }
+.leaflet-popup-content { font-family: var(--font-body); }
+.leaflet-popup-content .lp-meta { color: var(--c-muted); font-size: 0.85em; }
+.leaflet-popup-content a { font-weight: 600; color: var(--c-primary); }
+[data-theme='dark'] .leaflet-tile { filter: brightness(0.78) saturate(0.85) contrast(1.05); }
+[data-theme='dark'] .leaflet-container { background: #0a2735; }
+[data-theme='dark'] .leaflet-popup-content-wrapper,
+[data-theme='dark'] .leaflet-popup-tip { background: var(--c-surface); color: var(--c-text); }
+
 .breadcrumbs { display: flex; flex-wrap: wrap; gap: 0.4rem; align-items: center; font-size: 0.85rem; }
 .breadcrumbs a { color: inherit; opacity: 0.85; }
 .breadcrumbs a:hover { opacity: 1; }

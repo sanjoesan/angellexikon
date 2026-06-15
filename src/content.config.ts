@@ -74,6 +74,8 @@ const gewaesser = defineCollection({
     type: z.string().optional(), // Fluss | See | Meer | Ozean | Riff | Talsperre | ...
     region: z.string().optional(),
     country: z.string().optional(),
+    lat: z.number().optional(),
+    lng: z.number().optional(),
     tagline: z.string(),
     description: z.string().optional(),
     species: strList.optional(),
