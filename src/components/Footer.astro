@@ -1,0 +1,53 @@
+---
+import { NAV, SITE, REPO_URL } from '../consts';
+import { withBase } from '../utils/url';
+import WaveDivider from './WaveDivider.astro';
+const year = 2026;
+const left = NAV.slice(0, 4);
+const right = NAV.slice(4);
+---
+<footer class="site-footer">
+  <WaveDivider flip />
+  <div class="container">
+    <div class="footer-inner">
+      <div>
+        <a class="brand" href={withBase('/')}>
+          <span class="logo" aria-hidden="true">🎣</span>
+          <span>{SITE.title}</span>
+        </a>
+        <p class="f-about">
+          Das große, frei zugängliche Lexikon des Angelns – Fische, Techniken, Gewässer und
+          Reviere aus aller Welt. Mit Liebe zum Petrijünger gebaut.
+        </p>
+      </div>
+
+      <div>
+        <h4>Entdecken</h4>
+        <ul>
+          {left.map((c) => (
+            <li><a href={withBase('/' + c.key + '/')}>{c.icon} {c.label}</a></li>
+          ))}
+          <li><a href={withBase('/saison/')}>📅 Saison-Kalender</a></li>
+        </ul>
+      </div>
+
+      <div>
+        <h4>Wissen</h4>
+        <ul>
+          {right.map((c) => (
+            <li><a href={withBase('/' + c.key + '/')}>{c.icon} {c.label}</a></li>
+          ))}
+          <li><a href={withBase('/ueber/')}>ℹ️ Über das Projekt</a></li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+      <span>© {year} {SITE.title} · Petri Heil! 🐟</span>
+      <span>
+        Gebaut mit <a href="https://astro.build" rel="noopener" target="_blank">Astro</a>
+        · <a href={REPO_URL} rel="noopener" target="_blank">Quellcode auf GitHub</a>
+      </span>
+    </div>
+  </div>
+</footer>

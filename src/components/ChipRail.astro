@@ -1,0 +1,17 @@
+---
+interface Item { label: string; href?: string }
+interface Props { title: string; items: Item[] }
+const { title, items } = Astro.props;
+---
+{items.length > 0 && (
+  <div class="block">
+    <h2>{title}</h2>
+    <ul class="chip-list">
+      {items.map((it) => (
+        <li>
+          {it.href ? <a class="chip" href={it.href}>{it.label}</a> : <span class="chip">{it.label}</span>}
+        </li>
+      ))}
+    </ul>
+  </div>
+)}

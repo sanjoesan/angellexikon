@@ -1,0 +1,27 @@
+---
+interface Props {
+  href: string;
+  name: string;
+  tagline?: string;
+  icon?: string;
+  sub?: string; // small subtitle (latin name, category, …)
+  badge?: string; // e.g. difficulty
+  filter?: string; // value for client-side category/type filtering
+  haystack?: string; // extra text used by the local search box
+}
+const { href, name, tagline, icon, sub, badge, filter, haystack } = Astro.props;
+const hay = [name, sub, tagline, haystack].filter(Boolean).join(' ').toLowerCase();
+---
+<article class="entry-card reveal" data-entry data-filter={filter} data-haystack={hay}>
+  <div class="ec-top">
+    <h3><a href={href} class="stretched">{name}</a></h3>
+    {icon && <span class="ec-emoji" aria-hidden="true">{icon}</span>}
+  </div>
+  {sub && <div class="ec-lat">{sub}</div>}
+  {tagline && <p>{tagline}</p>}
+  {badge && (
+    <div class="card-foot">
+      <span class={`badge diff-${badge}`}>{badge}</span>
+    </div>
+  )}
+</article>

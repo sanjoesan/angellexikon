@@ -1,0 +1,114 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import Card from '../components/Card.astro';
+import EntryCard from '../components/EntryCard.astro';
+import WaveDivider from '../components/WaveDivider.astro';
+import { CATEGORIES, getCategory } from '../consts';
+import { getCollection } from 'astro:content';
+import { withBase, entryUrl } from '../utils/url';
+
+const counts: Record<string, number> = {};
+for (const c of CATEGORIES) {
+  try { counts[c.key] = (await getCollection(c.key as any)).length; }
+  catch { counts[c.key] = 0; }
+}
+const total = Object.values(counts).reduce((a, b) => a + b, 0);
+
+async function pick(key: string, n: number) {
+  let entries: any[] = [];
+  try { entries = await getCollection(key as any); } catch {}
+  const cat = getCategory(key as any);
+  const fav = entries.filter((e) => e.data.featured);
+  return (fav.length ? fav : entries).slice(0, n).map((e) => ({
+    href: entryUrl(key, e.id),
+    name: e.data.name,
+    tagline: e.data.tagline,
+    icon: cat.icon,
+    sub: cat.singular,
+  }));
+}
+const highlights = [
+  ...(await pick('fische', 3)),
+  ...(await pick('techniken', 2)),
+  ...(await pick('gewaesser', 1)),
+  ...(await pick('koeder', 1)),
+  ...(await pick('regionen', 1)),
+];
+---
+<BaseLayout>
+  <section class="hero">
+    <div class="container hero-inner">
+      <span class="eyebrow">🌊 Das große Lexikon des Angelns</span>
+      <h1>Alles über das <span class="grad">Angeln</span> – aus aller Welt.</h1>
+      <p class="lead">
+        Fischarten, Techniken, Gewässer und Reviere – von der Gebirgsbach-Forelle bis zum
+        Hochsee-Marlin. Umfassend, schön aufbereitet und für jeden frei zugänglich.
+      </p>
+
+      <div class="hero-search">
+        <button data-search-open type="button" aria-label="Suche öffnen">
+          <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><circle cx="11" cy="11" r="7"></circle><path d="m21 21-4.3-4.3"></path></svg>
+          <span>Suche nach Hecht, Fliegenfischen, Boilie…</span>
+          <kbd>/</kbd>
+        </button>
+      </div>
+
+      <div class="hero-cta">
+        <a class="btn btn-primary btn-lg" href={withBase('/fische/')}>🐟 Fische entdecken</a>
+        <a class="btn btn-lg" href={withBase('/techniken/')} style="color:#eafcff;border-color:rgba(255,255,255,.3);background:rgba(255,255,255,.08)">🎣 Techniken lernen</a>
+      </div>
+
+      <div class="hero-stats">
+        <div class="stat"><strong>{total}+</strong><span>Lexikon-Einträge</span></div>
+        <div class="stat"><strong>{counts.fische}</strong><span>Fischarten</span></div>
+        <div class="stat"><strong>{counts.techniken}</strong><span>Angeltechniken</span></div>
+        <div class="stat"><strong>{counts.regionen}</strong><span>Weltregionen</span></div>
+      </div>
+    </div>
+    <WaveDivider />
+  </section>
+
+  <section class="section container">
+    <div class="section-head center">
+      <span class="eyebrow">Themen</span>
+      <h2>Entdecke das Lexikon</h2>
+      <p>Acht große Wissensbereiche – tauche dort ein, wo dich das Angeln am meisten packt.</p>
+    </div>
+    <div class="card-grid">
+      {CATEGORIES.map((c) => <Card cat={c} count={counts[c.key]} />)}
+    </div>
+  </section>
+
+  <section class="section" style="background:var(--c-bg-soft)">
+    <div class="container">
+      <div class="section-head">
+        <span class="eyebrow">Im Rampenlicht</span>
+        <h2>Beliebte Einträge</h2>
+        <p>Ein Querschnitt durch das Lexikon – frisch aus dem Wasser.</p>
+      </div>
+      <div class="card-grid">
+        {highlights.map((h) => <EntryCard {...h} />)}
+      </div>
+    </div>
+  </section>
+
+  <section class="section container">
+    <div class="card-grid">
+      <article class="card reveal">
+        <span class="card-icon" aria-hidden="true">📚</span>
+        <h3>Umfassend & fundiert</h3>
+        <p>Von A wie Aal bis Z wie Zander: Steckbriefe, Techniken, Knoten und Reviere – alles an einem Ort, klar erklärt und verständlich.</p>
+      </article>
+      <article class="card reveal">
+        <span class="card-icon" aria-hidden="true">🌍</span>
+        <h3>Weltweit</h3>
+        <p>Süßwasser, Salzwasser und alle Kontinente. Egal ob heimischer Vereinssee oder Tropenfluss – hier wirst du fündig.</p>
+      </article>
+      <article class="card reveal">
+        <span class="card-icon" aria-hidden="true">💚</span>
+        <h3>Frei & werbefrei</h3>
+        <p>Wissen für alle Petrijünger: komplett kostenlos, ohne Werbung, blitzschnell und auf jedem Gerät perfekt lesbar.</p>
+      </article>
+    </div>
+  </section>
+</BaseLayout>

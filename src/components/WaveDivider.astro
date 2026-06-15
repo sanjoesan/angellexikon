@@ -1,0 +1,14 @@
+---
+// Decorative wave divider. The colour is taken from `currentColor`, so set it
+// via a wrapping element's `color` (the global CSS sets `.wave { color: var(--c-bg) }`).
+interface Props { flip?: boolean; class?: string }
+const { flip = false, class: cls = '' } = Astro.props;
+---
+<div class={`wave ${cls}`} style={flip ? 'transform: rotate(180deg)' : ''} aria-hidden="true">
+  <svg viewBox="0 0 1440 90" preserveAspectRatio="none">
+    <path
+      fill="currentColor"
+      d="M0,42 C200,86 360,8 600,34 C840,60 1020,92 1260,52 C1340,38 1400,40 1440,46 L1440,90 L0,90 Z"
+    ></path>
+  </svg>
+</div>

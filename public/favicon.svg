@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="Angellexikon">
+  <defs>
+    <linearGradient id="g" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0a5d69"/>
+      <stop offset="0.5" stop-color="#0e7c8b"/>
+      <stop offset="1" stop-color="#2dd4bf"/>
+    </linearGradient>
+  </defs>
+  <rect width="64" height="64" rx="15" fill="url(#g)"/>
+  <!-- fish body -->
+  <path d="M14 33c6-9 18-13 27-9 2 .9 4 2.2 5.6 3.8 1.7-2 3.8-3.6 6.4-4.5-1 2.9-1.2 5.6-.8 7.7-.4 2.1-.2 4.8.8 7.7-2.6-.9-4.7-2.5-6.4-4.5C49 45.5 47 46.8 45 47.7c-9 4-21 0-27-9 1.4-1.9 1.4-3.8 0-5.7Z" fill="#eafcff"/>
+  <circle cx="23" cy="31.5" r="2.2" fill="#0a5d69"/>
+  <!-- waves -->
+  <path d="M10 52c4-3 8-3 12 0s8 3 12 0 8-3 12 0 8 3 12 0" fill="none" stroke="#bdeef0" stroke-width="2.4" stroke-linecap="round" opacity="0.9"/>
+</svg>

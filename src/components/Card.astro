@@ -1,0 +1,15 @@
+---
+import type { CategoryDef } from '../consts';
+import { withBase } from '../utils/url';
+interface Props { cat: CategoryDef; count?: number }
+const { cat, count } = Astro.props;
+---
+<article class="card reveal" style={`--card-accent:${cat.accent}`}>
+  <span class="card-icon" aria-hidden="true">{cat.icon}</span>
+  <h3><a href={withBase('/' + cat.key + '/')} class="stretched">{cat.label}</a></h3>
+  <p>{cat.short}</p>
+  <div class="card-foot">
+    {count != null && <span class="chip">{count} {count === 1 ? 'Eintrag' : 'Einträge'}</span>}
+    <span class="chip" style="margin-left:auto">Entdecken →</span>
+  </div>
+</article>

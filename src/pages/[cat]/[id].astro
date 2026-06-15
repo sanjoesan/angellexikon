@@ -1,0 +1,257 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import Breadcrumbs from '../../components/Breadcrumbs.astro';
+import ChipRail from '../../components/ChipRail.astro';
+import EntryCard from '../../components/EntryCard.astro';
+import WaveDivider from '../../components/WaveDivider.astro';
+import { CATEGORIES, getCategory } from '../../consts';
+import { getCollection } from 'astro:content';
+import { withBase, entryUrl } from '../../utils/url';
+import { linkify } from '../../utils/links';
+
+export async function getStaticPaths() {
+  const paths: any[] = [];
+  for (const c of CATEGORIES) {
+    let entries: any[] = [];
+    try { entries = await getCollection(c.key as any); } catch {}
+    for (const e of entries) {
+      paths.push({ params: { cat: c.key, id: e.id }, props: { catKey: c.key, id: e.id } });
+    }
+  }
+  return paths;
+}
+
+const { catKey, id } = Astro.props;
+const cat = getCategory(catKey as any);
+const all = await getCollection(catKey as any);
+const entry = all.find((e) => e.id === id)!;
+const d: any = entry.data;
+
+// --- Steckbrief facts (sidebar) ---
+const f: Array<{ label: string; value: string }> = [];
+const push = (label: string, value: unknown) => {
+  if (value !== undefined && value !== null && value !== '') f.push({ label, value: String(value) });
+};
+switch (catKey) {
+  case 'fische':
+    push('Wissenschaftl. Name', d.nameLat);
+    push('Englisch', d.nameEn);
+    push('Familie', d.family);
+    push('Ordnung', d.order);
+    push('Lebensraum', d.habitat);
+    push('Nahrung', d.diet);
+    if (d.maxLength_cm) push('Max. Länge', d.maxLength_cm + ' cm');
+    if (d.maxWeight_kg) push('Max. Gewicht', d.maxWeight_kg + ' kg');
+    if (d.lifespan_years) push('Lebenserwartung', 'bis ' + d.lifespan_years + ' Jahre');
+    push('Laichzeit', d.spawningSeason);
+    if (d.minSize_cm) push('Schonmaß (Richtwert)', 'ab ' + d.minSize_cm + ' cm');
+    push('Schonzeit', d.closedSeason);
+    push('Schwierigkeit', d.difficulty);
+    push('Gefährdung', d.conservation);
+    break;
+  case 'techniken':
+    push('Art', d.category);
+    push('Schwierigkeit', d.difficulty);
+    push('Ursprung', d.origin);
+    break;
+  case 'gewaesser':
+    push('Typ', d.type);
+    push('Kategorie', d.kind === 'revier' ? 'Benanntes Revier' : d.kind === 'typ' ? 'Gewässertyp' : undefined);
+    push('Region', d.region);
+    push('Land', d.country);
+    break;
+  case 'regionen':
+    push('Kontinent', d.continent);
+    push('Englisch', d.nameEn);
+    break;
+  case 'koeder':
+    push('Köderart', d.type);
+    break;
+  case 'knoten':
+    push('Einsatzzweck', d.use);
+    push('Verbindet', d.connects);
+    push('Tragkraft', d.strength);
+    push('Schwierigkeit', d.difficulty);
+    break;
+  case 'ausruestung':
+    push('Kategorie', d.category);
+    break;
+  case 'glossar':
+    push('Themengebiet', d.category);
+    break;
+}
+
+const paras: string[] = (d.description || '').split(/\n\n+/).map((s: string) => s.trim()).filter(Boolean);
+
+// --- cross-linked chip rails ---
+const railAliases = (d.aliases || []).map((a: string) => ({ label: a }));
+const railTechniken = await linkify(d.techniques);
+const railBaits = await linkify(d.baits);
+const railFish = await linkify(d.targetFish || d.species);
+const railWaters = await linkify(d.waters);
+const railRegions = await linkify(d.regions);
+const railCountries = (d.countries || []).map((c: string) => ({ label: c }));
+const railSeason = (d.bestSeason || []).map((s: string) => ({ label: s }));
+const railRelated = await linkify(d.related);
+
+const fishRailTitle =
+  catKey === 'gewaesser' || catKey === 'regionen' ? 'Typische Fische' : 'Zielfische';
+
+const sub =
+  catKey === 'fische' ? d.nameLat
+  : catKey === 'gewaesser' ? [d.type, d.region].filter(Boolean).join(' · ')
+  : catKey === 'regionen' ? d.continent
+  : catKey === 'techniken' ? d.category
+  : catKey === 'koeder' ? d.type
+  : catKey === 'ausruestung' ? d.category
+  : catKey === 'knoten' ? d.use
+  : d.category;
+
+const stepsTitle =
+  catKey === 'knoten' ? "So wird der Knoten geknüpft"
+  : catKey === 'techniken' ? 'Schritt für Schritt'
+  : 'Anleitung';
+
+// --- related entries (deterministic neighbours) ---
+const sortedAll = [...all].sort((a, b) => a.data.name.localeCompare(b.data.name, 'de'));
+const idx = sortedAll.findIndex((e) => e.id === id);
+const related: any[] = [];
+for (let k = 1; k <= 4 && k < sortedAll.length; k++) {
+  related.push(sortedAll[(idx + k) % sortedAll.length]);
+}
+---
+<BaseLayout title={d.name} description={d.tagline}>
+  <section class="entry-hero">
+    <div class="container">
+      <Breadcrumbs items={[{ label: cat.label, href: withBase('/' + cat.key + '/') }, { label: d.name }]} />
+      <span class="big-emoji" aria-hidden="true">{cat.icon}</span>
+      {sub && <div class="lat">{sub}</div>}
+      <h1>{d.name}</h1>
+      <p class="lead">{d.tagline}</p>
+      <div class="hero-badges">
+        {d.difficulty && <span class={`badge diff-${d.difficulty}`}>{d.difficulty}</span>}
+        {d.habitat && <span class="chip">💧 {d.habitat}</span>}
+        {d.type && catKey !== 'fische' && <span class="chip">{cat.icon} {d.type}</span>}
+        {d.conservation && <span class="chip">🛡️ {d.conservation}</span>}
+      </div>
+    </div>
+  </section>
+  <WaveDivider />
+
+  <section class="section container">
+    <div class="entry-layout">
+      <div class="entry-main">
+        {paras.length > 0 && (
+          <div class="prose flow">
+            {paras.map((p) => <p set:html={p.replace(/\n/g, '<br>')} />)}
+          </div>
+        )}
+
+        {d.characteristics?.length > 0 && (
+          <div class="block">
+            <h2>Charakteristik</h2>
+            <ul class="tiplist check">{d.characteristics.map((t: string) => <li>{t}</li>)}</ul>
+          </div>
+        )}
+
+        {d.types?.length > 0 && (
+          <div class="block">
+            <h2>Varianten & Typen</h2>
+            <ul class="chip-list">{d.types.map((t: string) => <li><span class="chip">{t}</span></li>)}</ul>
+          </div>
+        )}
+
+        {(d.steps?.length > 0 || d.howto?.length > 0) && (
+          <div class="block">
+            <h2>{stepsTitle}</h2>
+            <ol class="steps">{(d.steps || d.howto).map((s: string) => <li>{s}</li>)}</ol>
+          </div>
+        )}
+
+        {d.criteria?.length > 0 && (
+          <div class="block">
+            <h2>Worauf es ankommt</h2>
+            <ul class="tiplist check">{d.criteria.map((t: string) => <li>{t}</li>)}</ul>
+          </div>
+        )}
+
+        {d.highlights?.length > 0 && (
+          <div class="block">
+            <h2>Highlights</h2>
+            <ul class="tiplist check">{d.highlights.map((t: string) => <li>{t}</li>)}</ul>
+          </div>
+        )}
+
+        {(d.pros?.length > 0 || d.cons?.length > 0) && (
+          <div class="block">
+            <h2>Stärken & Schwächen</h2>
+            <div class="proscons">
+              {d.pros?.length > 0 && (
+                <div class="pc pros"><h4>Vorteile</h4><ul>{d.pros.map((t: string) => <li>{t}</li>)}</ul></div>
+              )}
+              {d.cons?.length > 0 && (
+                <div class="pc cons"><h4>Nachteile</h4><ul>{d.cons.map((t: string) => <li>{t}</li>)}</ul></div>
+              )}
+            </div>
+          </div>
+        )}
+
+        {d.tips?.length > 0 && (
+          <div class="block">
+            <h2>Praxis-Tipps</h2>
+            <ul class="tiplist">{d.tips.map((t: string) => <li>{t}</li>)}</ul>
+          </div>
+        )}
+
+        {d.funFacts?.length > 0 && (
+          <div class="block">
+            <h2>Wusstest du schon?</h2>
+            <ul class="tiplist facts">{d.funFacts.map((t: string) => <li>{t}</li>)}</ul>
+          </div>
+        )}
+
+        <ChipRail title="Auch bekannt als" items={railAliases} />
+        <ChipRail title="Passende Techniken" items={railTechniken} />
+        <ChipRail title="Empfohlene Köder" items={railBaits} />
+        <ChipRail title={fishRailTitle} items={railFish} />
+        <ChipRail title="Gewässer" items={railWaters} />
+        <ChipRail title="Regionen" items={railRegions} />
+        <ChipRail title="Länder" items={railCountries} />
+        <ChipRail title="Beste Fangzeit" items={railSeason} />
+        <ChipRail title="Verwandte Begriffe" items={railRelated} />
+      </div>
+
+      <aside>
+        {f.length > 0 && (
+          <div class="factbox">
+            <h3>📋 Steckbrief</h3>
+            <dl>
+              {f.map((row) => (
+                <div class="fact"><dt>{row.label}</dt><dd>{row.value}</dd></div>
+              ))}
+            </dl>
+          </div>
+        )}
+      </aside>
+    </div>
+  </section>
+
+  {related.length > 0 && (
+    <section class="section" style="background:var(--c-bg-soft)">
+      <div class="container">
+        <div class="section-head"><h2>Mehr aus „{cat.label}"</h2></div>
+        <div class="card-grid">
+          {related.map((e) => (
+            <EntryCard
+              href={entryUrl(catKey, e.id)}
+              name={e.data.name}
+              tagline={e.data.tagline}
+              icon={cat.icon}
+              sub={catKey === 'fische' ? e.data.nameLat : undefined}
+            />
+          ))}
+        </div>
+      </div>
+    </section>
+  )}
+</BaseLayout>

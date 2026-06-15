@@ -1,0 +1,19 @@
+{
+  "name": "angellexikon",
+  "type": "module",
+  "version": "1.0.0",
+  "description": "Das große Angellexikon – Fische, Techniken, Gewässer & Regionen aus aller Welt.",
+  "scripts": {
+    "dev": "astro dev",
+    "start": "astro dev",
+    "build": "astro build",
+    "preview": "astro preview",
+    "astro": "astro"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "@astrojs/sitemap": "^3.7.3",
+    "astro": "^6.4.6",
+    "fuse.js": "^7.4.2"
+  }
+}

@@ -1,0 +1,618 @@
+[
+  {
+    "id": "tauwurm",
+    "name": "Tauwurm",
+    "type": "Naturköder",
+    "tagline": "Der universellste Naturköder überhaupt.",
+    "description": "Der Tauwurm ist der große Regenwurm und gilt als der Allrounder unter den Naturködern. Sein appetitliches Zappeln und der intensive Geruch locken nahezu jeden Friedfisch und viele Räuber an.\n\nOb am Grund auf Aal, Karpfen und Brassen oder an der Pose auf Forelle – kaum ein Köder ist so vielseitig und günstig. Tauwürmer sammelt man nachts auf feuchten Wiesen oder kauft sie portionsweise im Angelladen.\n\nGerade für Einsteiger ist der Tauwurm ideal, weil er an fast jedem Gewässer und mit fast jeder Technik fängt.",
+    "targetFish": ["Aal", "Karpfen", "Brassen", "Bachforelle", "Barsch", "Wels"],
+    "techniques": ["Grundangeln", "Posenangeln", "Naturköderangeln"],
+    "waters": ["See", "Fluss", "Teich", "Bach"],
+    "bestSeason": ["April", "Mai", "Juni", "Juli", "August", "September"],
+    "howto": [
+      "Den Wurm einmal oder mehrfach auf den Haken ziehen und die Hakenspitze leicht freilassen.",
+      "Für große Fische ein ganzes Wurmbündel anbieten, für scheue Fische kleiner dosieren.",
+      "Auf weichem Grund ein Auftriebskügelchen nutzen, damit der Köder sichtbar bleibt.",
+      "Den Wurm regelmäßig kontrollieren und bei ausgesaugtem Köder erneuern."
+    ],
+    "tips": [
+      "Frische, lebhafte Würmer fangen deutlich besser als schlaffe.",
+      "Mit einer Wurmbelüftung bleiben die Würmer tagelang munter.",
+      "Über Nacht im feuchten Moos lagern, dann werden die Würmer fester und zäher am Haken."
+    ],
+    "featured": true
+  },
+  {
+    "id": "mistwurm",
+    "name": "Mistwurm",
+    "type": "Naturköder",
+    "tagline": "Der kleine, wuselige Wurm für Friedfische und Barsche.",
+    "description": "Der Mistwurm ist kleiner und schlanker als der Tauwurm und durch seine geringelte, oft rötlich-gelbe Färbung leicht zu erkennen. Sein Markenzeichen ist das intensive Zappeln, das selbst vorsichtige Fische reizt.\n\nMan findet ihn in Kompost- und Misthaufen, wo er in dichten Knäueln lebt. Beim Anstechen sondert er ein gelbliches Sekret ab, das stark riecht und zusätzlich lockt.\n\nMistwürmer sind besonders fängig auf Barsch, Rotauge und kleine Forellen, lassen sich aber auch im Bündel auf größere Friedfische einsetzen.",
+    "targetFish": ["Barsch", "Rotauge", "Brassen", "Bachforelle", "Schleie"],
+    "techniques": ["Posenangeln", "Grundangeln", "Naturköderangeln"],
+    "waters": ["Bach", "Fluss", "See", "Teich"],
+    "bestSeason": ["März", "April", "Mai", "Juni", "September", "Oktober"],
+    "howto": [
+      "Einen oder zwei Mistwürmer auf einen feindrahtigen Haken ziehen.",
+      "Den Köder so anstechen, dass beide Enden zappeln können.",
+      "An der Pose knapp über Grund oder leicht angehoben anbieten.",
+      "Bei Barschbissen kurz warten und dann zügig anschlagen."
+    ],
+    "tips": [
+      "Das austretende Sekret nicht abwischen – es verstärkt die Lockwirkung.",
+      "Mehrere kleine Würmer wirken oft besser als ein einzelner großer."
+    ]
+  },
+  {
+    "id": "maden",
+    "name": "Maden",
+    "type": "Naturköder",
+    "tagline": "Der Klassiker für Friedfische am Fluss und See.",
+    "description": "Maden sind die Larven der Schmeißfliege und einer der meistgenutzten Friedfischköder überhaupt. Sie sind klein, robust und in vielen Farben erhältlich.\n\nAm Haken bewegen sie sich lebhaft und locken so Rotaugen, Brassen, Schleien und viele weitere Weißfische an. Auch als Beifang-Köder am Method-Feeder oder im Futterkorb sind sie unverzichtbar.\n\nMaden lassen sich gut kühl lagern und sind dadurch über Wochen einsatzbereit, ohne zu verpuppen.",
+    "targetFish": ["Rotauge", "Brassen", "Schleie", "Barsch", "Döbel"],
+    "techniques": ["Posenangeln", "Feederangeln", "Grundangeln"],
+    "waters": ["Fluss", "See", "Kanal", "Teich"],
+    "bestSeason": ["März", "April", "Mai", "Juni", "Juli", "September", "Oktober"],
+    "howto": [
+      "Die Made vorsichtig am dicken Ende seitlich anstechen, damit sie weiter zappelt.",
+      "Je nach Fischgröße ein bis vier Maden auf einen feinen Haken ziehen.",
+      "Zum Anfüttern lose Maden über den Futterkorb oder mit der Hand einbringen.",
+      "Den Köder häufig wechseln, sobald die Made platt und leer ist."
+    ],
+    "tips": [
+      "Gefärbte Maden bringen bei trübem Wasser oft den entscheidenden Reiz.",
+      "Eine tote, schwimmende Made (Pinkie) kann scheue Fische zusätzlich überlisten."
+    ]
+  },
+  {
+    "id": "bienenmaden",
+    "name": "Bienenmaden",
+    "type": "Naturköder",
+    "tagline": "Der fettige Wachsmotten-Köder für Forellen.",
+    "description": "Bienenmaden sind die Larven der Wachsmotte und ein Geheimtipp beim Forellenangeln. Sie sind größer und weicher als normale Maden und besitzen einen hohen Fettgehalt, der stark lockt.\n\nIhre helle, cremige Farbe hebt sich gut vom Grund ab und reizt vor allem Forellen im Forellensee und im Bach. Aber auch Döbel und Barsche greifen gerne zu.\n\nWegen ihrer weichen Haut sind sie etwas empfindlicher am Haken, dafür ist die Fängigkeit gerade an schwierigen Tagen häufig überragend.",
+    "targetFish": ["Regenbogenforelle", "Bachforelle", "Döbel", "Barsch"],
+    "techniques": ["Posenangeln", "Grundangeln", "Naturköderangeln"],
+    "waters": ["Teich", "Bach", "See"],
+    "bestSeason": ["März", "April", "Mai", "September", "Oktober", "November"],
+    "howto": [
+      "Die Bienenmade vorsichtig längs auf den Haken fädeln, ohne sie zu zerdrücken.",
+      "Zwei Maden kombinieren, um mehr Volumen und Auftrieb zu erzeugen.",
+      "An der Pose schwebend oder am leichten Grundblei anbieten.",
+      "Bei zickigen Forellen langsam und ruckartig anzupfen."
+    ],
+    "tips": [
+      "Kühl und dunkel lagern, dann bleiben die Maden länger lebendig.",
+      "In Kombination mit einer Auftriebsperle schwebt der Köder verführerisch knapp über Grund."
+    ]
+  },
+  {
+    "id": "koederfisch",
+    "name": "Köderfisch",
+    "type": "Naturköder",
+    "tagline": "Die natürlichste Beute für große Raubfische.",
+    "description": "Der Köderfisch ist die naheliegendste Wahl, wenn es um kapitale Raubfische geht. Ob tot am Grund oder lebendig an der Pose – kaum etwas wirkt auf Hecht, Zander und Wels so überzeugend wie ein echter Beutefisch.\n\nTypische Köderfische sind Rotaugen, Lauben, Stinte und kleine Brassen. Wichtig ist, einen Fisch zu wählen, der im jeweiligen Gewässer natürlich vorkommt.\n\nBeachte die regionalen Vorschriften: In vielen Bundesländern ist das Angeln mit lebendem Köderfisch verboten, der tote Köderfisch ist aber überall erlaubt.",
+    "targetFish": ["Hecht", "Zander", "Wels", "Aal", "Barsch"],
+    "techniques": ["Grundangeln", "Posenangeln", "Naturköderangeln", "Wallerangeln"],
+    "waters": ["See", "Fluss", "Talsperre", "Kanal"],
+    "bestSeason": ["Oktober", "November", "Dezember", "Januar", "Februar", "März"],
+    "howto": [
+      "Den Köderfisch über ein Drilling- oder Einzelhaken-System auf ein Stahlvorfach montieren.",
+      "Für Zander den Köder schlank und tot am Grund anbieten, für Hecht auch im Mittelwasser.",
+      "Beim Grundangeln das Vorfach so wählen, dass der Köder leicht aufsteigt.",
+      "Nach dem Biss die Schnur straffen und mit Gefühl, aber bestimmt anschlagen."
+    ],
+    "tips": [
+      "Ein angeritzter Köderfisch gibt mehr Lockstoff ins Wasser ab.",
+      "Beim Hechtangeln immer ein Stahl- oder Hardmono-Vorfach verwenden."
+    ]
+  },
+  {
+    "id": "mais",
+    "name": "Mais",
+    "type": "Naturköder",
+    "tagline": "Der süße Klassiker für Karpfen und Schleie.",
+    "description": "Dosenmais ist ein günstiger und extrem fängiger Köder für viele Friedfische. Seine leuchtend gelbe Farbe und der süßliche Geschmack ziehen vor allem Karpfen, Schleien und Brassen an.\n\nMais lässt sich direkt aus der Dose am Haken oder am Haar anbieten und eignet sich hervorragend zum Anfüttern. Größere Fische lassen sich gezielt mit mehreren Maiskörnern überlisten.\n\nNeben dem normalen Dosenmais gibt es aromatisierten und gefärbten Mais sowie schwimmenden Kunstmais, der den Köder vom Grund abhebt.",
+    "targetFish": ["Karpfen", "Schleie", "Brassen", "Rotauge", "Döbel"],
+    "techniques": ["Grundangeln", "Posenangeln", "Method-Feeder", "Feederangeln"],
+    "waters": ["See", "Teich", "Fluss", "Kanal"],
+    "bestSeason": ["Mai", "Juni", "Juli", "August", "September", "Oktober"],
+    "howto": [
+      "Ein bis drei Maiskörner direkt auf den Haken ziehen, Spitze freilassen.",
+      "Für selektives Karpfenangeln den Mais auf ein Haar fädeln.",
+      "Den Angelplatz mit losem Mais oder Mais-Futter-Mischung anfüttern.",
+      "Schwimmenden Kunstmais beimischen, wenn der Köder über Schlamm aufsteigen soll."
+    ],
+    "tips": [
+      "Ein Korn schwimmender Kunstmais hebt mehrere echte Körner vom Grund ab.",
+      "Selbst aromatisierter Mais aus eingelegten Körnern ist oft fängiger als Dosenmais."
+    ]
+  },
+  {
+    "id": "fruehstuecksfleisch",
+    "name": "Frühstücksfleisch",
+    "type": "Naturköder",
+    "tagline": "Der herzhafte Köder für große Karpfen und Welse.",
+    "description": "Frühstücksfleisch aus der Dose ist ein unterschätzter, aber sehr fängiger Köder für Karpfen, Schleien und Welse. Sein hoher Fett- und Salzgehalt sorgt für eine intensive Lockwirkung.\n\nDas feste, aber schneidbare Fleisch lässt sich in Würfel schneiden und direkt am Haken oder am Haar anbieten. Besonders an stark beangelten Gewässern ist es ein willkommener Wechselköder.\n\nAuch im Fluss auf Döbel und Barbe spielt Frühstücksfleisch seine Stärken aus, da es selbst in starker Strömung gut am Haken hält.",
+    "targetFish": ["Karpfen", "Wels", "Schleie", "Döbel", "Barbe"],
+    "techniques": ["Grundangeln", "Posenangeln", "Feederangeln"],
+    "waters": ["Fluss", "See", "Teich", "Kanal"],
+    "bestSeason": ["Mai", "Juni", "Juli", "August", "September"],
+    "howto": [
+      "Das Frühstücksfleisch in mundgerechte Würfel schneiden.",
+      "Den Würfel direkt auf den Haken ziehen oder über ein Haar präsentieren.",
+      "Bei starker Strömung größere Stücke wählen, damit der Köder hält.",
+      "Kleine Fleischbröckchen zum Anfüttern um den Köder verteilen."
+    ],
+    "tips": [
+      "Leicht angebratenes Fleisch hält fester am Haken und riecht intensiver.",
+      "Mit Aromen oder Currypulver bestreut wird der Köder noch attraktiver."
+    ]
+  },
+  {
+    "id": "garnele",
+    "name": "Garnele",
+    "type": "Naturköder",
+    "tagline": "Der eiweißreiche Köder für Meer und Brackwasser.",
+    "description": "Die Garnele ist ein vielseitiger Meeresköder, der durch ihren intensiven Eiweißgeruch viele Fische anzieht. Sowohl frisch als auch tiefgekühlt ist sie überall verfügbar.\n\nAn der Küste fängt sie Wolfsbarsch, Dorsch und Plattfische, im Brackwasser auch Aal und Barsch. Wegen ihres weichen Fleisches sollte sie gut am Haken gesichert werden.\n\nGanze Garnelen wirken auf größere Räuber, in Stücke geschnitten geben sie besonders viel Lockstoff frei und eignen sich für vorsichtige Fische.",
+    "targetFish": ["Wolfsbarsch", "Dorsch", "Aal", "Barsch"],
+    "techniques": ["Grundangeln", "Brandungsangeln", "Naturköderangeln"],
+    "waters": ["Küste", "Meer", "Fluss"],
+    "bestSeason": ["April", "Mai", "Juni", "September", "Oktober", "November"],
+    "howto": [
+      "Die Garnele vom Schwanz her auf den Haken fädeln, der Schale folgend.",
+      "Mit etwas Ködergummi oder Garn das weiche Fleisch zusätzlich sichern.",
+      "Für Plattfische ein Stück Garnele am Brandungsvorfach anbieten.",
+      "Bei zaghaften Bissen den Köder kleiner und sparsamer anködern."
+    ],
+    "tips": [
+      "Eine geschälte Garnele gibt mehr Geruch ins Wasser ab.",
+      "In Strömung empfiehlt sich ein zusätzliches Fixieren mit Bait-Elastic."
+    ]
+  },
+  {
+    "id": "wattwurm",
+    "name": "Wattwurm",
+    "type": "Naturköder",
+    "tagline": "Der Top-Köder für die Brandung an der Nordsee.",
+    "description": "Der Wattwurm ist einer der besten Köder beim Brandungs- und Meeresangeln. Er lebt im Schlick des Wattenmeeres und ist durch seinen kräftigen, fischigen Geruch extrem fängig.\n\nVor allem Plattfische wie Flunder und Scholle sowie Dorsch und Wittling lassen sich mit ihm sicher überlisten. Wattwürmer lassen sich selbst graben oder im Angelladen kaufen.\n\nWegen ihres flüssigen Inneren sind sie etwas heikel beim Anködern, geben dafür aber sofort viel Duftstoff ab und ziehen Fische über weite Strecken an.",
+    "targetFish": ["Dorsch", "Wolfsbarsch", "Aal"],
+    "techniques": ["Brandungsangeln", "Grundangeln", "Naturköderangeln"],
+    "waters": ["Küste", "Meer"],
+    "bestSeason": ["September", "Oktober", "November", "Dezember", "März", "April"],
+    "howto": [
+      "Eine Ködernadel von vorne durch den Wattwurm schieben.",
+      "Den Wurm vom Haken aus auf die Nadel und dann auf das Vorfach abstreifen.",
+      "Den Köder so weit hochschieben, dass die Hakenspitze frei bleibt.",
+      "Mehrere Würmer für große Köder und weite Würfe bündeln."
+    ],
+    "tips": [
+      "Frische Wattwürmer in Zeitungspapier wickeln, dann halten sie länger.",
+      "Ein langer Köderbart hinter dem Haken steigert die Lockwirkung in der Brandung."
+    ]
+  },
+  {
+    "id": "seeringelwurm",
+    "name": "Seeringelwurm",
+    "type": "Naturköder",
+    "tagline": "Der zähe Allroundwurm fürs Meeresangeln.",
+    "description": "Der Seeringelwurm ist ein robuster Meeresköder, der deutlich zäher am Haken hält als der Wattwurm. Seine kräftige Färbung und sein beweglicher Körper reizen viele Meeresfische.\n\nEr fängt an der Küste Wolfsbarsch, Dorsch und Plattfische und eignet sich durch seine Festigkeit besonders für weite Brandungswürfe. Auch beim Angeln vom Boot ist er ein verlässlicher Köder.\n\nSeeringelwürmer werden meist gekauft und lassen sich gekühlt einige Tage frisch halten, was sie zu einem praktischen Vorratsköder macht.",
+    "targetFish": ["Wolfsbarsch", "Dorsch", "Aal"],
+    "techniques": ["Brandungsangeln", "Grundangeln", "Naturköderangeln"],
+    "waters": ["Küste", "Meer"],
+    "bestSeason": ["April", "Mai", "Juni", "September", "Oktober", "November"],
+    "howto": [
+      "Den Seeringelwurm mit einer Ködernadel aufziehen und auf das Vorfach schieben.",
+      "Das vordere, festere Ende zuerst anstechen, damit der Wurm sicher hält.",
+      "Für Plattfische kleinere Stücke, für Wolfsbarsch ganze Würmer anbieten.",
+      "Die Hakenspitze stets freilassen, um sichere Haken zu setzen."
+    ],
+    "tips": [
+      "Beim Anködern Handschuhe tragen – die Kieferzangen können kneifen.",
+      "Mit Bait-Elastic umwickelt übersteht der Köder auch mehrere Würfe."
+    ]
+  },
+  {
+    "id": "gummifisch",
+    "name": "Gummifisch",
+    "type": "Kunstköder",
+    "tagline": "Der moderne Raubfischköder Nummer eins.",
+    "description": "Der Gummifisch ist ein Softbait, der einen verletzten Beutefisch imitiert, und heute der wichtigste Kunstköder beim Raubfischangeln. Am Jigkopf montiert sinkt er verführerisch und steigt beim Einkurbeln wieder auf – das typische Jiggen.\n\nGummifische gibt es in unzähligen Formen, Farben und Größen: von 5-cm-Barsch-Ködern bis zu 30-cm-Hecht-Brocken. Der weiche Körper sorgt für ein lebensechtes Spiel und ein deutliches Schwanzschlagen.\n\nDank des großen Angebots an Schaufelschwanz- und Stintimitaten findet sich für jeden Räuber und jedes Gewässer das passende Modell.",
+    "targetFish": ["Zander", "Hecht", "Barsch", "Dorsch", "Wels"],
+    "techniques": ["Spinnfischen", "Vertikalangeln", "Jiggen"],
+    "waters": ["Fluss", "See", "Talsperre", "Küste"],
+    "bestSeason": ["März", "April", "Mai", "September", "Oktober", "November"],
+    "howto": [
+      "Den Gummifisch passend zum Wasser auf einen Jigkopf ziehen (Gewicht gleich Tiefe plus Strömung).",
+      "Auswerfen, absinken lassen und die Schnur beim Fallen beobachten.",
+      "Mit Kurbeln und Absinken eine hüpfende Jig-Bewegung über Grund erzeugen.",
+      "Bisse kommen oft beim Absinken – dann sofort anschlagen."
+    ],
+    "tips": [
+      "Naturfarben bei klarem Wasser, grelle Farben bei Trübung wählen.",
+      "Die richtige Jigkopf-Wahl ist entscheidend: Der Köder soll auf Grund tickern.",
+      "Beim Hechtangeln ein Stahlvorfach vorschalten, um Fehlbisse abzusichern."
+    ],
+    "featured": true
+  },
+  {
+    "id": "spinner",
+    "name": "Spinner",
+    "type": "Kunstköder",
+    "tagline": "Der rotierende Blickfang für aktive Räuber.",
+    "description": "Der Spinner ist einer der ältesten und einfachsten Kunstköder. Ein rotierendes Metallblatt erzeugt Druckwellen und Lichtreflexe, die Raubfische über große Distanzen anlocken.\n\nGerade für Einsteiger ist der Spinner ideal, weil er sich einfach gleichmäßig einkurbeln lässt und sofort fängig ist. Vor allem Barsch, Forelle und Hecht reagieren stark auf den vibrierenden Lauf.\n\nSpinner gibt es in vielen Blattformen und Größen: schmale Blätter laufen tief und schnell, breite Blätter steigen schneller auf und eignen sich für flaches Wasser.",
+    "targetFish": ["Barsch", "Hecht", "Bachforelle", "Regenbogenforelle", "Rapfen"],
+    "techniques": ["Spinnfischen"],
+    "waters": ["Bach", "Fluss", "See", "Teich"],
+    "bestSeason": ["April", "Mai", "Juni", "Juli", "August", "September"],
+    "howto": [
+      "Den Spinner über einen Karabinerwirbel anbinden, um Schnurdrall zu vermeiden.",
+      "Auswerfen und kurz absinken lassen, bis sich das Blatt zu drehen beginnt.",
+      "Gleichmäßig einkurbeln, sodass das Blatt durchgehend rotiert.",
+      "Die Einholgeschwindigkeit variieren, um die fängige Tiefe zu finden."
+    ],
+    "tips": [
+      "Bei trägen Fischen langsamer kurbeln, das Blatt soll gerade noch laufen.",
+      "Ein Wirbel ist Pflicht, sonst verdrallt der Spinner die Hauptschnur."
+    ]
+  },
+  {
+    "id": "blinker",
+    "name": "Blinker",
+    "type": "Kunstköder",
+    "tagline": "Der taumelnde Metallköder für weite Würfe.",
+    "description": "Der Blinker ist ein löffelförmiger Metallköder, der durch sein taumelndes Spiel und seine Lichtreflexe Raubfische reizt. Sein hohes Eigengewicht erlaubt sehr weite Würfe.\n\nKlassisch wird er auf Hecht und Forelle eingesetzt, an der Küste auch auf Meerforelle und Dorsch. Beim langsamen Einholen flankt er seitlich aus und imitiert so einen flüchtenden Fisch.\n\nDank seines kompakten Profils lässt sich der Blinker auch bei Wind und Strömung gut führen und ist damit ein zuverlässiger Köder für viele Situationen.",
+    "targetFish": ["Hecht", "Bachforelle", "Regenbogenforelle", "Dorsch", "Rapfen"],
+    "techniques": ["Spinnfischen", "Brandungsangeln"],
+    "waters": ["See", "Fluss", "Talsperre", "Küste"],
+    "bestSeason": ["März", "April", "September", "Oktober", "November"],
+    "howto": [
+      "Den Blinker über einen Wirbel anbinden, um Drall zu verhindern.",
+      "Weit auswerfen und je nach Zieltiefe absinken lassen.",
+      "Mit gleichmäßigem Tempo einholen, sodass der Köder taumelt.",
+      "Durch Absinkphasen und Tempowechsel zusätzliche Reize setzen."
+    ],
+    "tips": [
+      "Schwere, schlanke Blinker fliegen weit und sind in der Brandung Trumpf.",
+      "Ein langsamer, stockender Einzug löst oft die Bisse trägen Forellen aus."
+    ]
+  },
+  {
+    "id": "wobbler",
+    "name": "Wobbler",
+    "type": "Kunstköder",
+    "tagline": "Der tauchende Kunstköder mit lebendigem Lauf.",
+    "description": "Der Wobbler ist ein meist länglicher Kunstköder aus Hartplastik oder Holz, der durch seine Tauchschaufel ein verführerisches Wackeln erzeugt. Je nach Bauart läuft er flach oder tief und schwimmt, schwebt oder sinkt.\n\nWobbler imitieren Beutefische besonders realistisch und sind beim Spinn- und Schleppfischen unverzichtbar. Vor allem Hecht, Zander, Barsch und Rapfen lassen sich damit gezielt befischen.\n\nViele Modelle besitzen eine Rassel oder ein internes Kugelsystem, das zusätzliche Geräusche erzeugt und auch in trübem Wasser fängt.",
+    "targetFish": ["Hecht", "Zander", "Barsch", "Rapfen", "Bachforelle"],
+    "techniques": ["Spinnfischen", "Schleppangeln", "Twitchen"],
+    "waters": ["See", "Fluss", "Talsperre", "Kanal"],
+    "bestSeason": ["April", "Mai", "Juni", "September", "Oktober", "November"],
+    "howto": [
+      "Den Wobbler über eine Schlaufe oder einen Sprengring anbinden, damit er frei läuft.",
+      "Auswerfen und mit gleichmäßigem Kurbeln auf Tauchtiefe bringen.",
+      "Durch kurze Schläge mit der Rutenspitze (Twitchen) erratische Reize setzen.",
+      "Immer wieder kurze Pausen einlegen, in denen schwebende Modelle ruhig stehen."
+    ],
+    "tips": [
+      "Die Lauftiefe steht meist auf der Verpackung – passend zum Gewässer wählen.",
+      "Ein Loop-Knoten gibt dem Wobbler mehr Spielraum und lebendigeres Spiel."
+    ],
+    "featured": true
+  },
+  {
+    "id": "jigkopf",
+    "name": "Jig/Jigkopf",
+    "type": "Kunstköder",
+    "tagline": "Das Bleikopf-System für Gummiköder.",
+    "description": "Der Jigkopf ist ein Bleikopf mit fest eingebundenem Haken, auf den Gummifische und Twister gezogen werden. Er bringt das nötige Gewicht zum Werfen und sorgt für das typische Auf- und Abspiel beim Jiggen.\n\nDie Wahl des richtigen Jigkopfgewichts ist entscheidend: Der Köder soll in der gewünschten Zeit absinken und beim Einkurbeln über Grund hüpfen. Zu leicht treibt er ab, zu schwer wirkt er unnatürlich.\n\nJigköpfe gibt es in vielen Gewichts- und Hakengrößen sowie mit unterschiedlichen Kopfformen, die das Sink- und Laufverhalten beeinflussen.",
+    "targetFish": ["Zander", "Barsch", "Hecht", "Dorsch"],
+    "techniques": ["Jiggen", "Vertikalangeln", "Spinnfischen"],
+    "waters": ["Fluss", "See", "Talsperre", "Küste"],
+    "bestSeason": ["März", "April", "Mai", "September", "Oktober", "November"],
+    "howto": [
+      "Die Hakengröße passend zur Ködergröße wählen.",
+      "Den Gummiköder gerade auf den Haken ziehen, sodass er nicht verdreht läuft.",
+      "Das Kopfgewicht so wählen, dass der Köder sauber Kontakt zum Grund hält.",
+      "Mit Kurbel-Stopp-Rhythmus die hüpfende Jig-Bewegung erzeugen."
+    ],
+    "tips": [
+      "Faustregel: ein Gramm Kopfgewicht je Meter Wassertiefe als Startwert.",
+      "Runde Köpfe eignen sich universell, schräge Köpfe stellen sich am Grund auf."
+    ]
+  },
+  {
+    "id": "twister",
+    "name": "Twister",
+    "type": "Kunstköder",
+    "tagline": "Der Gummiköder mit dem rotierenden Sichelschwanz.",
+    "description": "Der Twister ist ein Gummiköder mit einem gebogenen Sichelschwanz, der schon bei geringster Bewegung kräftig rotiert. Dadurch erzeugt er auch bei langsamer Führung viel Aktion und Druck im Wasser.\n\nEr ist besonders fängig auf Barsch und Zander, lässt sich aber auch auf Hecht und im Meer auf Dorsch einsetzen. Am Jigkopf montiert ist er günstig, einfach und sehr effektiv.\n\nGerade an schwierigen Tagen oder in trübem Wasser punktet der Twister, weil sein vibrierender Schwanz Fische auch ohne Sichtkontakt anlockt.",
+    "targetFish": ["Barsch", "Zander", "Hecht", "Dorsch"],
+    "techniques": ["Jiggen", "Spinnfischen", "Dropshot-Angeln"],
+    "waters": ["Fluss", "See", "Talsperre", "Küste"],
+    "bestSeason": ["April", "Mai", "Juni", "September", "Oktober", "November"],
+    "howto": [
+      "Den Twister gerade auf einen passenden Jigkopf ziehen.",
+      "Darauf achten, dass der Sichelschwanz frei nach oben oder unten zeigt.",
+      "Mit langsamem Einkurbeln den Schwanz dauerhaft in Rotation halten.",
+      "Beim Jiggen kurze Absinkphasen einlegen und Bisse abwarten."
+    ],
+    "tips": [
+      "Schon sehr langsames Kurbeln reicht, damit der Schwanz arbeitet.",
+      "Grelle Farben bringen bei trübem Wasser oft den entscheidenden Vorteil."
+    ]
+  },
+  {
+    "id": "popper",
+    "name": "Popper",
+    "type": "Kunstköder",
+    "tagline": "Der Oberflächenköder mit lautem Plopp.",
+    "description": "Der Popper ist ein Oberflächenköder mit einer ausgehöhlten Stirnfläche, die beim Anzupfen Wasser verdrängt und ein lautes Plopp-Geräusch erzeugt. Die Spritzer und Geräusche imitieren flüchtende Beute an der Oberfläche.\n\nVor allem an warmen Tagen jagen Barsch, Rapfen und Hecht im Oberflächenwasser und attackieren den Popper mit spektakulären Bissen. Auch im Meer auf Wolfsbarsch ist er sehr fängig.\n\nWeil sich der Anbiss direkt an der Oberfläche abspielt, ist das Angeln mit dem Popper besonders aufregend und sehr sichtorientiert.",
+    "targetFish": ["Barsch", "Rapfen", "Hecht", "Wolfsbarsch"],
+    "techniques": ["Spinnfischen"],
+    "waters": ["See", "Fluss", "Talsperre", "Küste"],
+    "bestSeason": ["Juni", "Juli", "August", "September"],
+    "howto": [
+      "Den Popper auswerfen und kurz ruhig liegen lassen.",
+      "Mit kurzen Schlägen der Rutenspitze ein deutliches Ploppen erzeugen.",
+      "Zwischen den Schlägen immer wieder Pausen einlegen.",
+      "Erst nach spürbarem Widerstand kräftig anschlagen, nicht beim Sichtbiss."
+    ],
+    "tips": [
+      "Bei spiegelglattem Wasser und Sonnenschein ist der Popper am fängigsten.",
+      "Lieber etwas länger pausieren – viele Bisse kommen in der Ruhephase."
+    ]
+  },
+  {
+    "id": "pilker",
+    "name": "Pilker",
+    "type": "Kunstköder",
+    "tagline": "Der schwere Metallköder fürs Meeresangeln.",
+    "description": "Der Pilker ist ein schwerer, länglicher Metallköder, der vor allem beim Meeresangeln vom Boot eingesetzt wird. Sein hohes Gewicht bringt ihn schnell auf Tiefe, selbst bei Strömung und Wind.\n\nDurch Auf- und Abbewegungen der Rute – das Pilken – taumelt er verführerisch und imitiert einen verletzten Fisch. Klassische Zielfische sind Dorsch, Köhler und Makrele.\n\nPilker gibt es in vielen Gewichten und Farben; leuchtende Modelle fangen in tiefem oder trübem Wasser besonders gut, weil sie noch in der Dämmerung sichtbar bleiben.",
+    "targetFish": ["Dorsch", "Köhler", "Makrele", "Heilbutt"],
+    "techniques": ["Pilken", "Brandungsangeln"],
+    "waters": ["Meer", "Ozean", "Küste"],
+    "bestSeason": ["April", "Mai", "Juni", "September", "Oktober", "November"],
+    "howto": [
+      "Den Pilker passend zur Wassertiefe und Strömung im Gewicht wählen.",
+      "Bis zum Grund absinken lassen und die Schnur dabei kontrollieren.",
+      "Mit gleichmäßigen Rutenschlägen den Pilker auf- und abtaumeln lassen.",
+      "Nach jedem Schlag eine kurze Absinkphase einlegen, in der die Bisse kommen."
+    ],
+    "tips": [
+      "Ein Beifänger über dem Pilker erhöht die Fangchance deutlich.",
+      "Selbstleuchtende Pilker vor dem Absenken kurz aufladen."
+    ]
+  },
+  {
+    "id": "chatterbait",
+    "name": "Chatterbait",
+    "type": "Kunstköder",
+    "tagline": "Der vibrierende Köder mit Blade vorne.",
+    "description": "Der Chatterbait kombiniert einen Bleikopf mit einem sechseckigen Metallblättchen direkt vor dem Köder. Dieses Blade flattert beim Einholen heftig und erzeugt starke Vibrationen sowie ein klapperndes Geräusch.\n\nDie kräftigen Druckwellen reizen vor allem Barsch, Zander und Hecht und locken sie auch in trübem Wasser zuverlässig an. Meist wird ein Gummiköder als Trailer angeboten, der das Spiel ergänzt.\n\nDer Chatterbait lässt sich einfach gleichmäßig einkurbeln und ist dadurch ein vielseitiger Suchköder, mit dem sich große Wasserflächen schnell absuchen lassen.",
+    "targetFish": ["Barsch", "Zander", "Hecht", "Forellenbarsch"],
+    "techniques": ["Spinnfischen"],
+    "waters": ["See", "Fluss", "Talsperre", "Kanal"],
+    "bestSeason": ["April", "Mai", "Juni", "September", "Oktober"],
+    "howto": [
+      "Einen Gummiköder als Trailer auf den Haken des Chatterbaits ziehen.",
+      "Den Köder auswerfen und kurz absinken lassen.",
+      "Gleichmäßig einkurbeln, bis das Blade spürbar vibriert.",
+      "Mit kurzen Tempowechseln zusätzliche Reize setzen."
+    ],
+    "tips": [
+      "Sobald die Vibration in der Rute ankommt, läuft der Köder richtig.",
+      "Ein farblich passender Trailer rundet das Erscheinungsbild ab."
+    ]
+  },
+  {
+    "id": "spinnerbait",
+    "name": "Spinnerbait",
+    "type": "Kunstköder",
+    "tagline": "Der drahtförmige Köder mit rotierenden Blättern.",
+    "description": "Der Spinnerbait ist ein winkelförmiger Drahtköder, an dessen oberem Arm ein oder zwei rotierende Blätter sitzen, während der untere Arm den Bleikopf mit Gummirock trägt. Diese Bauform macht ihn nahezu hängerfrei.\n\nDie Blätter erzeugen Blitze und Vibrationen, die vor allem Hecht und Barsch reizen. Weil der Köder über Kraut und Holz geführt werden kann, eignet er sich ideal für verkrautete Gewässer.\n\nGerade beim Suchen aktiver Räuber im Flachwasser spielt der Spinnerbait seine Stärken aus, da er sich zügig und ohne ständige Hänger einkurbeln lässt.",
+    "targetFish": ["Hecht", "Barsch", "Forellenbarsch"],
+    "techniques": ["Spinnfischen"],
+    "waters": ["See", "Teich", "Talsperre", "Fluss"],
+    "bestSeason": ["Mai", "Juni", "Juli", "August", "September"],
+    "howto": [
+      "Den Spinnerbait direkt an der Öse des Drahtarms anbinden.",
+      "Auswerfen und sofort mit dem Einholen beginnen, damit die Blätter laufen.",
+      "Den Köder dicht über Kraut und Hindernissen führen.",
+      "Durch kurze Stopps das Absinken neben Strukturen provozieren."
+    ],
+    "tips": [
+      "Bei Hecht ein kurzes Stahlvorfach vorschalten.",
+      "Größere Blätter sorgen für mehr Auftrieb und flachere Führung."
+    ]
+  },
+  {
+    "id": "boilie",
+    "name": "Boilie",
+    "type": "Teig/Boilie",
+    "tagline": "Der Selektivköder der Karpfenangler.",
+    "description": "Boilies sind gekochte, kugelrunde Köder aus Mehlen, Eiern und Aromen. Durch ihre feste Hülle und Größe sind sie weitgehend resistent gegen Kleinfische – ein echter Selektivköder für große Karpfen.\n\nSie werden über eine Haarmontage frei neben dem Haken präsentiert. Von fruchtig-süß bis fischig-würzig gibt es Boilies in allen erdenklichen Geschmacksrichtungen und Größen.\n\nNeben sinkenden Boilies gibt es auftreibende Pop-ups und ausbalancierte Wafter, mit denen sich der Köder gezielt über Schlamm oder Kraut präsentieren lässt.",
+    "targetFish": ["Karpfen", "Schleie", "Brassen", "Wels"],
+    "techniques": ["Karpfenangeln", "Method-Feeder"],
+    "waters": ["See", "Teich", "Fluss", "Talsperre"],
+    "bestSeason": ["Mai", "Juni", "Juli", "August", "September", "Oktober"],
+    "howto": [
+      "Den Boilie mit einem Bohrer durchbohren und auf das Haar fädeln.",
+      "Den Köder mit einem Boiliestopper am Haar sichern.",
+      "Einen passenden Futterplatz mit gleichen Boilies anlegen.",
+      "Das Vorfach so abstimmen, dass der Köder sauber neben dem Haken liegt."
+    ],
+    "tips": [
+      "Pop-up-Boilies schweben auf und sind über Schlamm oder Kraut besonders gut sichtbar.",
+      "Im Winter kleinere Köder und fischige Aromen testen.",
+      "Den Platz tagelang vorfüttern, dann gewöhnen sich die Karpfen an den Köder."
+    ],
+    "featured": true
+  },
+  {
+    "id": "forellenteig",
+    "name": "Forellenteig",
+    "type": "Teig/Boilie",
+    "tagline": "Der schwimmende Knetköder für den Forellensee.",
+    "description": "Forellenteig ist ein bunter, oft glitzernder Knetköder, der speziell für Besatzforellen im Forellensee entwickelt wurde. Aroma und Auftrieb locken die Fische gezielt an und heben den Köder vom Grund ab.\n\nDer Teig wird zu einer Kugel geformt und um den Haken gedrückt. Durch seinen Auftrieb schwebt der Köder am Vorfach über dem Grund, genau im Sichtfeld der Forellen.\n\nFarbe und Aroma lassen sich je nach Vorliebe der Fische variieren; an manchen Tagen ist eine leuchtende Farbe entscheidend, an anderen ein dezenter Ton.",
+    "targetFish": ["Regenbogenforelle", "Bachforelle"],
+    "techniques": ["Grundangeln", "Naturköderangeln"],
+    "waters": ["Teich", "See"],
+    "bestSeason": ["März", "April", "Oktober", "November", "Dezember"],
+    "howto": [
+      "Eine kleine Portion Teig zu einer Kugel formen.",
+      "Den Teig rund um den Haken drücken, sodass die Spitze bedeckt ist.",
+      "Über eine Grundmontage mit langem Vorfach anbieten, damit der Köder aufschwimmt.",
+      "Die Vorfachlänge an die Fresstiefe der Forellen anpassen."
+    ],
+    "tips": [
+      "Die Vorfachlänge bestimmt die Schwebehöhe – ruhig variieren, bis es beißt.",
+      "Knallige Farben an trüben Tagen, natürliche Töne bei klarem Wasser testen."
+    ]
+  },
+  {
+    "id": "haarmontage",
+    "name": "Haarmontage",
+    "type": "Montage",
+    "tagline": "Die Standardmontage fürs moderne Karpfenangeln.",
+    "description": "Die Haarmontage (Hair Rig) ist der Klassiker beim Karpfenangeln. Der Köder hängt nicht direkt am Haken, sondern an einem kurzen Faden, dem Haar, kurz dahinter.\n\nDadurch bleibt der Hakenpunkt frei: Saugt der Karpfen den Köder ein und stößt ihn wieder aus, dreht sich der Haken und greift sicher im Maul. Dieses Selbsthakprinzip macht die Montage so effektiv.\n\nIn Kombination mit einem Festblei oder einem Method-Feeder hakt sich der Fisch oft selbst, was die Haarmontage zur ersten Wahl für Boilies und Mais macht.",
+    "targetFish": ["Karpfen", "Schleie", "Brassen"],
+    "techniques": ["Karpfenangeln", "Method-Feeder", "Grundangeln"],
+    "waters": ["See", "Teich", "Fluss", "Talsperre"],
+    "bestSeason": ["Mai", "Juni", "Juli", "August", "September", "Oktober"],
+    "howto": [
+      "Ein Stück Vorfachmaterial nehmen und mit einer Schlaufe für das Haar versehen.",
+      "Den Haken mit einem Knotenloser-Knoten anbinden, sodass das Haar hinten austritt.",
+      "Den Köder mit einer Ködernadel auf das Haar ziehen und mit Stopper sichern.",
+      "Das Vorfach mit dem Wirbel an Festblei oder Safety-Clip verbinden."
+    ],
+    "tips": [
+      "Der Abstand zwischen Haken und Köder sollte nur wenige Millimeter betragen.",
+      "Ein scharfer Haken ist beim Selbsthakeffekt entscheidend."
+    ]
+  },
+  {
+    "id": "dropshot-montage",
+    "name": "Dropshot-Montage",
+    "type": "Montage",
+    "tagline": "Die feine Finesse-Montage für Barsch und Zander.",
+    "description": "Bei der Dropshot-Montage sitzt das Blei am Ende der Schnur, der Haken mit dem Köder ein Stück darüber. So lässt sich ein Gummiköder punktgenau und nahezu ortsfest über dem Grund anbieten.\n\nDiese Finesse-Technik ist besonders fängig auf vorsichtige Barsche und Zander, da der Köder durch leichte Rutenbewegungen verführerisch zappelt, ohne die Stelle zu verlassen.\n\nDie Dropshot-Montage eignet sich hervorragend, um Fische direkt an Strukturen wie Spundwänden, Kanten und Hindernissen gezielt zu reizen.",
+    "targetFish": ["Barsch", "Zander", "Forellenbarsch"],
+    "techniques": ["Dropshot-Angeln", "Vertikalangeln"],
+    "waters": ["See", "Fluss", "Kanal", "Talsperre"],
+    "bestSeason": ["April", "Mai", "Juni", "September", "Oktober", "November"],
+    "howto": [
+      "Den Haken mit einem Palomarknoten anbinden und das lange Schnurende durch das Hakenöhr zurückführen.",
+      "Am unteren Schnurende das Dropshot-Blei mit einer Klemme befestigen.",
+      "Den Gummiköder waagerecht auf den Haken ziehen, sodass die Spitze frei bleibt.",
+      "Das Blei am Grund ablegen und den Köder mit feinen Schlägen zappeln lassen."
+    ],
+    "tips": [
+      "Der Abstand zwischen Blei und Haken bestimmt die Köderhöhe über Grund.",
+      "Das Blei darf hängen bleiben und sich abreißen, ohne den Köder zu verlieren."
+    ]
+  },
+  {
+    "id": "texas-rig",
+    "name": "Texas-Rig",
+    "type": "Montage",
+    "tagline": "Die hängerarme Montage für Kraut und Hindernisse.",
+    "description": "Beim Texas-Rig wird ein konisches Bleigewicht direkt auf die Schnur vor den Haken gefädelt und der Gummiköder mit eingestochener Hakenspitze montiert. Dadurch ist die Montage weitgehend hängerfrei.\n\nSie eignet sich perfekt, um Gummiköder durch Kraut, Holz und über steinigen Grund zu führen, ohne ständig festzuhängen. Vor allem Barsch und Forellenbarsch lassen sich so an schwierigen Stellen befischen.\n\nDas frei laufende Bleigewicht überträgt zudem Grundkontakt und Bisse sehr direkt und macht das Texas-Rig zu einer vielseitigen Montage in deckungsreichen Gewässern.",
+    "targetFish": ["Barsch", "Forellenbarsch", "Zander"],
+    "techniques": ["Spinnfischen", "Jiggen"],
+    "waters": ["See", "Fluss", "Talsperre", "Teich"],
+    "bestSeason": ["Mai", "Juni", "Juli", "August", "September"],
+    "howto": [
+      "Ein konisches Bullet-Blei mit der Spitze voran auf die Schnur fädeln.",
+      "Den Haken anbinden und die Hakenspitze in den Kopf des Gummiköders stechen.",
+      "Die Spitze so im Köderkörper versenken, dass sie verdeckt, aber kontaktbereit ist.",
+      "Den Köder am Grund hüpfen lassen und durch Hindernisse führen."
+    ],
+    "tips": [
+      "Eine kleine Gummiperle zwischen Blei und Knoten schützt den Knoten.",
+      "Beim Biss kurz Schnur geben und dann kräftig anschlagen, um durch den Köder zu haken."
+    ]
+  },
+  {
+    "id": "carolina-rig",
+    "name": "Carolina-Rig",
+    "type": "Montage",
+    "tagline": "Die Grundmontage mit langem, frei spielendem Vorfach.",
+    "description": "Das Carolina-Rig ähnelt dem Texas-Rig, doch hier ist das Blei durch einen Wirbel vom Vorfach getrennt. Zwischen Blei und Haken liegt ein längeres Vorfach, an dem der Gummiköder frei und natürlich spielt.\n\nDas am Grund schleifende Blei sorgt für Wirbel und Geräusche, während der Köder verzögert hinterherfolgt. So lässt sich vor allem auf Barsch und Forellenbarsch über sandigem und steinigem Grund effektiv angeln.\n\nDurch das lange Vorfach kann der Köder leicht aufsteigen und schwebt verführerisch knapp über dem Grund, was zögerliche Fische zum Anbiss reizt.",
+    "targetFish": ["Barsch", "Forellenbarsch", "Zander"],
+    "techniques": ["Grundangeln", "Spinnfischen"],
+    "waters": ["See", "Talsperre", "Fluss"],
+    "bestSeason": ["Mai", "Juni", "Juli", "August", "September"],
+    "howto": [
+      "Ein Laufblei und eine Perle auf die Hauptschnur fädeln.",
+      "Einen Wirbel anbinden, der das Blei stoppt und Drall verhindert.",
+      "Am Wirbel ein langes Vorfach mit Haken befestigen.",
+      "Den Gummiköder montieren und die Montage langsam über Grund ziehen."
+    ],
+    "tips": [
+      "Die Vorfachlänge bestimmt, wie hoch der Köder über Grund schwebt.",
+      "Langsames, schleifendes Führen über Sandgrund ist besonders fängig."
+    ]
+  },
+  {
+    "id": "sbirolino-montage",
+    "name": "Sbirolino/Bombarda-Montage",
+    "type": "Montage",
+    "tagline": "Die Wurfhilfe für leichte Köder auf weite Distanz.",
+    "description": "Der Sbirolino, auch Bombarda genannt, ist ein zigarrenförmiger Schwimmkörper, der als Wurfgewicht dient. Damit lassen sich sehr leichte Köder wie kleine Spinner, Fliegen oder Naturköder weit auswerfen.\n\nSbirolinos gibt es als schwimmende, langsam sinkende und sinkende Varianten, sodass sich jede Wassertiefe gezielt befischen lässt. Hinter dem Sbirolino folgt ein langes Vorfach mit dem eigentlichen Köder.\n\nBesonders im Forellensee und an der Küste auf Hornhecht ist die Sbirolino-Montage beliebt, weil sie filigrane Köder auf große Distanz präsentiert.",
+    "targetFish": ["Regenbogenforelle", "Bachforelle", "Hornhecht", "Rapfen"],
+    "techniques": ["Bombarda-Angeln", "Spinnfischen"],
+    "waters": ["See", "Teich", "Küste"],
+    "bestSeason": ["März", "April", "Mai", "September", "Oktober", "November"],
+    "howto": [
+      "Den Sbirolino passend zur gewünschten Tiefe (schwimmend oder sinkend) wählen.",
+      "Den Sbirolino auf die Hauptschnur fädeln und mit einer Perle und Wirbel sichern.",
+      "Am Wirbel ein langes, dünnes Vorfach mit dem leichten Köder anknüpfen.",
+      "Den Köder langsam und mit Pausen einholen, damit er natürlich spielt."
+    ],
+    "tips": [
+      "Ein langes Vorfach von ein bis drei Metern sorgt für unauffällige Köderführung.",
+      "Mit sinkenden Modellen lassen sich auch tiefere Wasserschichten absuchen."
+    ]
+  },
+  {
+    "id": "laufblei-montage",
+    "name": "Laufblei-Montage",
+    "type": "Montage",
+    "tagline": "Die widerstandsarme Grundmontage für scheue Fische.",
+    "description": "Die Laufblei-Montage ist eine der wichtigsten Grundmontagen. Das Blei sitzt frei beweglich auf der Hauptschnur, sodass ein beißender Fisch zunächst nahezu widerstandslos Schnur abziehen kann.\n\nDadurch eignet sie sich hervorragend für vorsichtige Fische wie Aal, Karpfen und Brassen, die einen spürbaren Widerstand sofort wieder ablassen würden. Ein Stopper oder Wirbel begrenzt den Lauf des Bleis vor dem Vorfach.\n\nDie Montage ist einfach aufzubauen und vielseitig einsetzbar, vom stehenden Gewässer bis zum Fluss mit moderater Strömung.",
+    "targetFish": ["Aal", "Karpfen", "Brassen", "Schleie", "Barbe"],
+    "techniques": ["Grundangeln", "Naturköderangeln"],
+    "waters": ["See", "Fluss", "Teich", "Kanal"],
+    "bestSeason": ["April", "Mai", "Juni", "Juli", "August", "September"],
+    "howto": [
+      "Ein Laufblei und eine Gummiperle auf die Hauptschnur fädeln.",
+      "Einen Wirbel als Stopper anbinden, der das Blei vom Vorfach trennt.",
+      "Am Wirbel das Vorfach mit dem Haken befestigen.",
+      "Nach dem Auswerfen die Schnur leicht straffen und auf Bisse achten."
+    ],
+    "tips": [
+      "Die Perle schützt den Knoten vor dem schlagenden Blei.",
+      "Das Bleigewicht nur so schwer wählen, wie es Strömung und Wurfweite verlangen."
+    ]
+  },
+  {
+    "id": "paternoster",
+    "name": "Paternoster",
+    "type": "Montage",
+    "tagline": "Die Seitenarm-Montage für Bisserkennung am Grund.",
+    "description": "Beim Paternoster sitzt das Blei am Ende der Montage, während der Köder über einen abstehenden Seitenarm angeboten wird. So liegt das Gewicht fest am Grund und der Köder schwebt knapp darüber.\n\nDiese Anordnung sorgt für eine sehr direkte Bisserkennung, weil der Fisch beim Anbiss kaum durch das Blei gestört wird. Der Paternoster wird häufig beim Feedern, in der Brandung und auf Plattfische eingesetzt.\n\nDurch die feste Position des Bleis hält die Montage auch in Strömung gut und präsentiert den Köder verlässlich in der gewünschten Zone.",
+    "targetFish": ["Brassen", "Rotauge", "Dorsch", "Aal"],
+    "techniques": ["Feederangeln", "Grundangeln", "Brandungsangeln"],
+    "waters": ["Fluss", "See", "Kanal", "Küste"],
+    "bestSeason": ["April", "Mai", "Juni", "September", "Oktober", "November"],
+    "howto": [
+      "Aus der Hauptschnur oder einem Vorfach eine Schlaufe für den Seitenarm legen.",
+      "Den Seitenarm mit dem Haken so anbringen, dass er vom Hauptstrang absteht.",
+      "Am unteren Ende das Blei über einen kurzen Abschnitt befestigen.",
+      "Nach dem Auswerfen die Schnur straffen, damit Bisse sofort sichtbar werden."
+    ],
+    "tips": [
+      "Der Seitenarm sollte sich nicht um die Hauptschnur wickeln – kurz und steif halten.",
+      "In der Brandung das Blei mit Krallen wählen, damit es im Sand hält."
+    ]
+  }
+]

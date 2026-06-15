@@ -1,0 +1,402 @@
+[
+  {
+    "id": "clinch-knoten",
+    "name": "Clinch-Knoten",
+    "nameEn": "Clinch Knot",
+    "use": "Schnur an Haken, Wirbel oder Kunstköder",
+    "connects": "Schnur an Öhr",
+    "strength": "ca. 85–90 %",
+    "difficulty": "Einsteiger",
+    "tagline": "Der klassische Anfängerknoten für Haken und Wirbel.",
+    "description": "Der Clinch-Knoten ist einer der bekanntesten Verbindungsknoten zwischen Schnur und Öhr. Er ist schnell gebunden, zuverlässig und für monofile Schnüre bestens geeignet.\n\nWeil er sich in wenigen Sekunden binden lässt, ist er der ideale Einstiegsknoten. Für höhere Tragkraft empfiehlt sich die verbesserte Variante, bei der das Ende ein zweites Mal durch die große Schlaufe geführt wird.",
+    "steps": [
+      "Schnur durch das Öhr führen und ein Stück zurücklegen.",
+      "Das lose Ende fünf bis sieben Mal um die Hauptschnur wickeln.",
+      "Das Ende durch die kleine Schlaufe direkt über dem Öhr stecken.",
+      "Knoten mit Wasser anfeuchten und langsam an das Öhr heranziehen.",
+      "Fest zuziehen und das überstehende Ende kappen."
+    ],
+    "tips": [
+      "Knoten immer anfeuchten, sonst schmilzt die Schnur durch Reibungshitze.",
+      "Bei geflochtener Schnur lieber den Palomar-Knoten verwenden."
+    ],
+    "featured": true
+  },
+  {
+    "id": "palomar-knoten",
+    "name": "Palomar-Knoten",
+    "nameEn": "Palomar Knot",
+    "use": "Schnur an Haken oder Wirbel, ideal für Geflecht",
+    "connects": "Schnur an Öhr",
+    "strength": "nahezu 100 %",
+    "difficulty": "Einsteiger",
+    "tagline": "Extrem stark und perfekt für geflochtene Schnur.",
+    "description": "Der Palomar-Knoten gilt als einer der stärksten und einfachsten Knoten überhaupt. Besonders mit geflochtener Schnur überzeugt er durch nahezu volle Tragkraft und ist daher beim modernen Spinnfischen Standard.\n\nDa die Schnur doppelt durch das Öhr läuft, verteilt sich die Belastung gleichmäßig. Wichtig ist nur, dass sich die beiden Schnurstränge beim Zuziehen nicht überkreuzen.",
+    "steps": [
+      "Schnur doppeln und die Schlaufe durch das Öhr führen.",
+      "Mit der Schlaufe einen einfachen Überhandknoten legen, der Haken hängt frei.",
+      "Den Haken oder Wirbel komplett durch die Schlaufe führen.",
+      "Knoten anfeuchten und gleichmäßig festziehen.",
+      "Das überstehende Ende kappen."
+    ],
+    "tips": [
+      "Ideal für Geflecht und Fluorocarbon.",
+      "Darauf achten, dass sich die Schnüre beim Zuziehen nicht überkreuzen."
+    ],
+    "featured": true
+  },
+  {
+    "id": "grinner-knoten",
+    "name": "Grinner-Knoten",
+    "nameEn": "Uni Knot / Grinner",
+    "use": "universell für Schnur an Öhr, auch Schnur an Schnur",
+    "connects": "Schnur an Öhr",
+    "strength": "ca. 90 %",
+    "difficulty": "Fortgeschritten",
+    "tagline": "Der vielseitige Allrounder unter den Knoten.",
+    "description": "Der Grinner- bzw. Uni-Knoten ist extrem vielseitig: Er verbindet Schnur mit Haken und Wirbel, lässt sich verdoppeln zur Schnurverbindung und hält in monofiler wie geflochtener Schnur gut.\n\nDank der einstellbaren Wicklungszahl passt man ihn leicht an unterschiedliche Schnurstärken an. Zwei gegeneinander gezogene Grinner ergeben außerdem eine sehr starke Schnur-an-Schnur-Verbindung.",
+    "steps": [
+      "Schnur durch das Öhr führen und ein Stück zurücklegen.",
+      "Mit dem Ende eine Schlaufe parallel zur Hauptschnur formen.",
+      "Das Ende fünf bis sechs Mal durch die Schlaufe und um die Doppelschnur wickeln.",
+      "Knoten anfeuchten und das Ende langsam zuziehen.",
+      "Knoten an das Öhr heranrutschen lassen und festsetzen."
+    ],
+    "tips": [
+      "Zwei gegeneinander gezogene Grinner ergeben eine starke Schnur-an-Schnur-Verbindung.",
+      "Anzahl der Wicklungen an die Schnurdicke anpassen."
+    ],
+    "featured": true
+  },
+  {
+    "id": "verbesserter-clinch-knoten",
+    "name": "Verbesserter Clinch-Knoten",
+    "nameEn": "Improved Clinch Knot",
+    "use": "Schnur an Haken, Wirbel oder Kunstköder",
+    "connects": "Schnur an Öhr",
+    "strength": "ca. 90–95 %",
+    "difficulty": "Einsteiger",
+    "tagline": "Die stärkere Variante des klassischen Clinch-Knotens.",
+    "description": "Der verbesserte Clinch-Knoten ergänzt den klassischen Clinch um eine zusätzliche Schlaufe. Dadurch rutscht das Ende nicht mehr so leicht und die Tragkraft steigt spürbar.\n\nEr ist für monofile Schnüre und Fluorocarbon hervorragend geeignet und gehört zu den meistgenutzten Verbindungsknoten beim Friedfisch- und Spinnangeln.",
+    "steps": [
+      "Schnur durch das Öhr führen und ein Stück zurücklegen.",
+      "Das lose Ende fünf bis sieben Mal um die Hauptschnur wickeln.",
+      "Das Ende durch die kleine Schlaufe direkt über dem Öhr stecken.",
+      "Anschließend zusätzlich durch die große, entstandene Schlaufe führen.",
+      "Knoten anfeuchten und gleichmäßig festziehen, dann das Ende kappen."
+    ],
+    "tips": [
+      "Knoten immer anfeuchten, um die Schnur zu schonen.",
+      "Bei sehr dicker Schnur die Wicklungszahl auf vier bis fünf reduzieren."
+    ],
+    "featured": false
+  },
+  {
+    "id": "albright-knoten",
+    "name": "Albright-Knoten",
+    "nameEn": "Albright Knot",
+    "use": "Verbindung unterschiedlich dicker Schnüre, etwa Geflecht an Mono",
+    "connects": "Schnur an Schnur",
+    "strength": "ca. 90 %",
+    "difficulty": "Fortgeschritten",
+    "tagline": "Verbindet geflochtene Hauptschnur sauber mit der Schlagschnur.",
+    "description": "Der Albright-Knoten verbindet zwei Schnüre mit unterschiedlichem Durchmesser, zum Beispiel dünnes Geflecht mit einer dickeren monofilen Schlagschnur. Er läuft schlank und rutscht gut durch die Ringe.\n\nGerade beim Brandungs- und Weitwurfangeln ist er beliebt, weil er die Belastung beim Auswurf zuverlässig aufnimmt. Sauber gebunden ist er sehr flach und ringgängig.",
+    "steps": [
+      "Aus der dickeren Schnur eine Schlaufe formen.",
+      "Die dünnere Schnur durch die Schlaufe führen und ein Stück zurücklegen.",
+      "Die dünnere Schnur acht bis zehn Mal um beide Stränge der Schlaufe wickeln.",
+      "Das Ende zurück durch die Schlaufe führen, auf der Seite, auf der es eingeführt wurde.",
+      "Knoten anfeuchten, Wicklungen zusammenschieben und festziehen.",
+      "Beide überstehenden Enden kurz kappen."
+    ],
+    "tips": [
+      "Knoten vor dem Festziehen anfeuchten und die Wicklungen sauber nebeneinander legen.",
+      "Die Wicklungen vor dem Zuziehen Richtung Schlaufenende schieben, damit nichts überlappt."
+    ],
+    "featured": false
+  },
+  {
+    "id": "fg-knoten",
+    "name": "FG-Knoten",
+    "nameEn": "FG Knot",
+    "use": "Geflochtene Hauptschnur an Fluorocarbon-Vorfach",
+    "connects": "Schnur an Schnur",
+    "strength": "nahezu 100 %",
+    "difficulty": "Profi",
+    "tagline": "Der ringgängigste und stärkste Geflecht-an-Mono-Knoten.",
+    "description": "Der FG-Knoten ist der Goldstandard, um geflochtene Schnur mit einem Fluorocarbon-Vorfach zu verbinden. Das Geflecht umwickelt das Vorfach in vielen Windungen, wodurch der Knoten extrem schlank, stark und ringgängig wird.\n\nEr verlangt etwas Übung, belohnt aber mit einer Verbindung, die sich kaum dicker als die Schnur selbst anfühlt. Beim Spinnfischen mit weiten Würfen ist er das Maß der Dinge.",
+    "steps": [
+      "Geflochtene Schnur straff spannen, etwa zwischen Mund und Hand.",
+      "Das Fluorocarbon abwechselnd über und unter das Geflecht legen und so kreuzweise umwickeln.",
+      "Etwa 18 bis 20 dieser Kreuzwicklungen dicht aneinander setzen.",
+      "Die Wicklungen mit zwei bis drei halben Schlägen aus dem Geflecht sichern.",
+      "Knoten anfeuchten und vorsichtig festziehen, bis sich die Wicklungen ins Fluorocarbon graben.",
+      "Mit dem Vorfach-Ende einen abschließenden Sicherungsknoten legen und beide Enden kappen."
+    ],
+    "tips": [
+      "Schnur unbedingt anfeuchten, sonst kann das Geflecht das Fluorocarbon beschädigen.",
+      "Anfangs lieber langsam binden, die Wicklungen müssen dicht und gleichmäßig liegen."
+    ],
+    "featured": true
+  },
+  {
+    "id": "blutknoten",
+    "name": "Blutknoten",
+    "nameEn": "Blood Knot",
+    "use": "Verbindung zweier ähnlich dicker monofiler Schnüre",
+    "connects": "Schnur an Schnur",
+    "strength": "ca. 90 %",
+    "difficulty": "Fortgeschritten",
+    "tagline": "Klassiker zum Verbinden gleich dicker Monoschnüre.",
+    "description": "Der Blutknoten verbindet zwei monofile Schnüre mit ähnlichem Durchmesser zu einer schlanken, geraden Linie. Er ist beim Fliegenfischen verbreitet, um Vorfachspitzen zu verlängern.\n\nWeil er sehr flach baut, läuft er gut durch die Ringe. Bei stark unterschiedlichen Durchmessern eignet er sich allerdings schlechter als etwa der Albright-Knoten.",
+    "steps": [
+      "Die beiden Schnurenden ein Stück überlappen lassen.",
+      "Das eine Ende fünf bis sechs Mal um die andere Schnur wickeln.",
+      "Das Ende zurück in die Mitte zwischen beide Schnüre führen.",
+      "Mit dem zweiten Ende spiegelbildlich ebenfalls fünf bis sechs Wicklungen legen.",
+      "Auch dieses Ende zurück in dieselbe Mitte führen, in Gegenrichtung.",
+      "Knoten anfeuchten, an beiden Hauptschnüren gleichmäßig zuziehen und Enden kappen."
+    ],
+    "tips": [
+      "Vor dem Zuziehen anfeuchten, damit sich die Wicklungen sauber zusammenlegen.",
+      "Beide Seiten mit gleicher Wicklungszahl binden, dann zieht sich der Knoten symmetrisch zu."
+    ],
+    "featured": false
+  },
+  {
+    "id": "chirurgenknoten",
+    "name": "Chirurgenknoten",
+    "nameEn": "Surgeon's Knot",
+    "use": "schnelle Schnur-an-Schnur-Verbindung oder Seitenarm-Schlaufe",
+    "connects": "Schnur an Schnur",
+    "strength": "ca. 90 %",
+    "difficulty": "Einsteiger",
+    "tagline": "Schnell gebunden und stark, auch bei ungleichen Schnüren.",
+    "description": "Der Chirurgenknoten ist eine der einfachsten und schnellsten Schnur-an-Schnur-Verbindungen. Er funktioniert auch, wenn die beiden Schnüre unterschiedlich dick sind.\n\nLegt man statt der zwei Schnüre eine doppelt gelegte Schnur, entsteht eine stabile Seitenarm-Schlaufe für Vorfächer oder Beifänger. Dadurch ist er äußerst flexibel einsetzbar.",
+    "steps": [
+      "Beide Schnüre auf einer Länge nebeneinander legen.",
+      "Aus beiden Schnüren gemeinsam eine einfache Schlaufe formen.",
+      "Beide Enden zwei Mal durch diese Schlaufe führen.",
+      "Knoten anfeuchten und an allen vier Strängen gleichmäßig zuziehen.",
+      "Den Knoten fest setzen und die überstehenden Enden kappen."
+    ],
+    "tips": [
+      "Vor dem Festziehen anfeuchten und gleichmäßig an allen Enden ziehen.",
+      "Für eine Schlaufe einfach die doppelt gelegte Schnur statt zweier Schnüre verwenden."
+    ],
+    "featured": false
+  },
+  {
+    "id": "rapala-knoten",
+    "name": "Rapala-Knoten",
+    "nameEn": "Rapala Knot",
+    "use": "Kunstköder mit beweglicher Schlaufe anbinden",
+    "connects": "Schnur an Öhr mit Schlaufe",
+    "strength": "ca. 90 %",
+    "difficulty": "Fortgeschritten",
+    "tagline": "Lässt Wobbler durch eine feste Schlaufe frei spielen.",
+    "description": "Der Rapala-Knoten bindet den Köder mit einer nicht zuziehenden Schlaufe an. Dadurch hängt der Kunstköder frei beweglich am Öhr und kann sein volles Laufverhalten entfalten.\n\nBesonders bei Wobblern und Hartködern sorgt diese lose Schlaufe für ein lebendigeres Spiel als ein fest am Öhr sitzender Knoten. Er ist nach dem Köderhersteller Rapala benannt.",
+    "steps": [
+      "Einen losen Überhandknoten in die Schnur legen, ohne ihn zuzuziehen.",
+      "Das Ende durch das Öhr und zurück durch den Überhandknoten führen.",
+      "Das Ende drei bis vier Mal um die Hauptschnur wickeln.",
+      "Das Ende zurück durch den Überhandknoten stecken.",
+      "Anschließend durch die so entstandene große Schlaufe führen.",
+      "Knoten anfeuchten, vorsichtig zuziehen und die feste Schlaufe ausformen."
+    ],
+    "tips": [
+      "Die offene Schlaufe nicht zu groß lassen, damit der Köderlauf stabil bleibt.",
+      "Vor dem Zuziehen anfeuchten und darauf achten, dass die Schlaufe erhalten bleibt."
+    ],
+    "featured": false
+  },
+  {
+    "id": "trilene-knoten",
+    "name": "Trilene-Knoten",
+    "nameEn": "Trilene Knot",
+    "use": "Schnur an Haken oder Wirbel, besonders für Mono",
+    "connects": "Schnur an Öhr",
+    "strength": "ca. 90–95 %",
+    "difficulty": "Einsteiger",
+    "tagline": "Robuster Öhrknoten mit doppelter Schlaufe am Öhr.",
+    "description": "Der Trilene-Knoten ähnelt dem Clinch-Knoten, läuft aber mit einer doppelten Schlaufe durch das Öhr. Diese zweite Schlaufe verteilt die Belastung und macht den Knoten besonders abriebfest.\n\nEr ist einfach zu binden und eignet sich hervorragend für monofile Schnüre und Fluorocarbon. Damit ist er eine gute Alternative zum verbesserten Clinch-Knoten.",
+    "steps": [
+      "Die Schnur zwei Mal durch das Öhr führen, sodass eine doppelte Schlaufe entsteht.",
+      "Das lose Ende fünf bis sechs Mal um die Hauptschnur wickeln.",
+      "Das Ende durch die doppelte Schlaufe direkt am Öhr stecken.",
+      "Knoten anfeuchten und langsam zuziehen.",
+      "Fest setzen und das überstehende Ende kappen."
+    ],
+    "tips": [
+      "Knoten immer anfeuchten, bevor er zugezogen wird.",
+      "Die doppelte Schlaufe am Öhr vor dem Zuziehen schön nebeneinander legen."
+    ],
+    "featured": false
+  },
+  {
+    "id": "spulenknoten",
+    "name": "Spulenknoten",
+    "nameEn": "Arbor Knot",
+    "use": "Hauptschnur auf der Rollenspule befestigen",
+    "connects": "Schnur an Spule",
+    "strength": "ausreichend, da nur als Spulenstart",
+    "difficulty": "Einsteiger",
+    "tagline": "Bringt die Schnur sicher auf die Rollenspule.",
+    "description": "Der Spulenknoten, auch Arbor Knot genannt, befestigt die Hauptschnur am Spulenkern der Angelrolle. Beim Zug zieht er sich um die Spule zusammen und hält die Schnur an Ort und Stelle.\n\nEr muss keine hohe Tragkraft haben, da der eigentliche Drill über die Schnur und nicht über den Spulenknoten läuft. Wichtig ist nur, dass die Schnur beim Befüllen nicht durchrutscht.",
+    "steps": [
+      "Die Schnur um den Spulenkern legen.",
+      "Mit dem Ende einen Überhandknoten um die Hauptschnur binden.",
+      "Mit dem Ende einen zweiten Überhandknoten als Stopper kurz dahinter setzen.",
+      "An der Hauptschnur ziehen, bis der erste Knoten zur Spule rutscht und sich festsetzt.",
+      "Das überstehende Ende kurz kappen."
+    ],
+    "tips": [
+      "Den zweiten Knoten als Stopper nicht vergessen, sonst kann das Ende durchrutschen.",
+      "Bei Geflecht zuvor ein wenig Mono oder Klebeband auf die Spule geben, damit nichts durchdreht."
+    ],
+    "featured": false
+  },
+  {
+    "id": "stopperknoten",
+    "name": "Stopperknoten",
+    "nameEn": "Stop Knot",
+    "use": "Tiefenanschlag für die Laufpose einstellen",
+    "connects": "Schlaufe auf der Hauptschnur",
+    "strength": "hält die Position, ohne die Schnur zu schwächen",
+    "difficulty": "Einsteiger",
+    "tagline": "Begrenzt den Lauf der Pose und stellt die Angeltiefe ein.",
+    "description": "Der Stopperknoten wird aus einem kurzen Stück Schnur oder Wolle auf die Hauptschnur gebunden und legt fest, wie weit eine Laufpose nach oben wandern kann. So stellt man die gewünschte Angeltiefe ein.\n\nDer Knoten lässt sich auf der Schnur verschieben, hält aber beim Auswurf sicher seine Position. Er läuft klein genug durch die Ringe und schont die Hauptschnur.",
+    "steps": [
+      "Ein etwa zehn Zentimeter langes Stück Stopperschnur an die gewünschte Stelle der Hauptschnur legen.",
+      "Mit dem Stopperschnur-Stück eine Schlaufe entlang der Hauptschnur bilden.",
+      "Das Ende vier bis fünf Mal um Hauptschnur und Schlaufe wickeln.",
+      "Beide Enden der Stopperschnur anfeuchten und gleichmäßig festziehen.",
+      "Die überstehenden Enden auf wenige Millimeter kürzen."
+    ],
+    "tips": [
+      "Knoten anfeuchten, dann lässt er sich später leichter verschieben.",
+      "Die Enden nicht zu kurz schneiden, damit der Knoten gut durch die Ringe gleitet."
+    ],
+    "featured": false
+  },
+  {
+    "id": "schlagschnurknoten",
+    "name": "Schlagschnurknoten",
+    "nameEn": "Leader Knot",
+    "use": "dünne Hauptschnur mit dicker Schlagschnur verbinden",
+    "connects": "Schnur an Schnur",
+    "strength": "ca. 90 %",
+    "difficulty": "Fortgeschritten",
+    "tagline": "Verbindet dünne Hauptschnur mit der tragenden Schlagschnur.",
+    "description": "Der Schlagschnurknoten verbindet eine dünne Hauptschnur mit einer dickeren Schlagschnur, die den harten Belastungen beim Auswurf standhält. Beim Weitwurf- und Brandungsangeln ist die Schlagschnur unverzichtbar.\n\nHäufig wird hierfür eine Variante des Grinner- oder Albright-Knotens gebunden, da diese schlank durch die Ringe laufen und stark genug für den Wurfschlag sind.",
+    "steps": [
+      "Hauptschnur und Schlagschnur ein Stück parallel überlappen.",
+      "Mit der dünnen Hauptschnur eine Schlaufe um die Schlagschnur formen.",
+      "Das Ende sechs bis acht Mal durch die Schlaufe und um beide Schnüre wickeln.",
+      "Mit der Schlagschnur einen einfachen Grinner gegengesetzt anlegen.",
+      "Beide Knoten anfeuchten und zuziehen, dann gegeneinander auf Block ziehen.",
+      "Die überstehenden Enden kurz kappen."
+    ],
+    "tips": [
+      "Beide Knoten unbedingt anfeuchten, bevor sie auf Block gezogen werden.",
+      "Die Schlagschnur sollte etwa das Zehnfache der Wurfgewicht-Zahl in Pfund tragen."
+    ],
+    "featured": false
+  },
+  {
+    "id": "achterschlaufe",
+    "name": "Achterschlaufe",
+    "nameEn": "Figure-Eight Loop",
+    "use": "feste Endschlaufe für Schlaufe-in-Schlaufe-Verbindungen",
+    "connects": "Schlaufe",
+    "strength": "ca. 80 %",
+    "difficulty": "Einsteiger",
+    "tagline": "Schnelle, feste Schlaufe zum Einhängen von Vorfächern.",
+    "description": "Die Achterschlaufe ist eine der einfachsten Methoden, eine feste Schlaufe ans Schnurende zu binden. Über diese Schlaufe lassen sich Vorfächer im Schlaufe-in-Schlaufe-Prinzip blitzschnell wechseln.\n\nSie ist sehr leicht zu binden und gut zu kontrollieren. Allerdings schwächt sie die Schnur etwas stärker als manch anderer Schlaufenknoten und eignet sich daher vor allem für unkritische Verbindungen.",
+    "steps": [
+      "Die Schnur am Ende doppelt legen.",
+      "Mit der doppelten Schnur eine Schlaufe formen.",
+      "Das doppelte Ende einmal um die Schnur führen und so eine Acht legen.",
+      "Das doppelte Ende durch die obere Schlaufe der Acht stecken.",
+      "Knoten anfeuchten und gleichmäßig zuziehen.",
+      "Die Schlaufengröße prüfen und das Ende bei Bedarf kappen."
+    ],
+    "tips": [
+      "Vor dem Festziehen anfeuchten, damit sich die Acht sauber zusammenlegt.",
+      "Schlaufe nicht zu groß wählen, dann lässt sie sich leichter einhängen."
+    ],
+    "featured": false
+  },
+  {
+    "id": "no-knot",
+    "name": "No-Knot",
+    "nameEn": "Nail Knot",
+    "use": "Geflecht direkt an Vorfach oder Fliegenschnur binden",
+    "connects": "Schnur an Schnur",
+    "strength": "ca. 90 %",
+    "difficulty": "Profi",
+    "tagline": "Schlanker Nagelknoten für Geflecht an Vorfach.",
+    "description": "Der No-Knot oder Nagelknoten wird mithilfe eines dünnen Röhrchens oder einer Nadel gebunden und verbindet eine Schnur sehr schlank mit einer dickeren. Beim Fliegenfischen verbindet er Flugschnur und Vorfach, beim Spinnfischen Geflecht und Fluorocarbon.\n\nDie eng anliegenden Wicklungen laufen ohne Absatz durch die Ringe und sind kaum spürbar. Das Binden über das Röhrchen erfordert etwas Übung, ergibt aber eine sehr saubere Verbindung.",
+    "steps": [
+      "Ein dünnes Röhrchen längs an das Ende der dickeren Schnur legen.",
+      "Die dünnere Schnur sechs bis acht Mal um Röhrchen und dicke Schnur wickeln.",
+      "Das Ende der dünnen Schnur durch das Röhrchen zurückführen.",
+      "Das Röhrchen vorsichtig herausziehen, während die Wicklungen liegen bleiben.",
+      "Knoten anfeuchten und an beiden Enden gleichmäßig festziehen.",
+      "Die überstehenden Enden dicht am Knoten kappen."
+    ],
+    "tips": [
+      "Die Wicklungen müssen eng und ohne Überlappung nebeneinander liegen.",
+      "Vor dem Zuziehen großzügig anfeuchten, dann setzt sich der Knoten sauber."
+    ],
+    "featured": false
+  },
+  {
+    "id": "snell-knoten",
+    "name": "Snell-Knoten",
+    "nameEn": "Snell Knot",
+    "use": "Schnur an Haken mit gerade abstehendem Vorfach",
+    "connects": "Schnur an Hakenschenkel",
+    "strength": "nahezu 100 %",
+    "difficulty": "Fortgeschritten",
+    "tagline": "Bindet die Schnur direkt am Hakenschenkel für besseren Anhieb.",
+    "description": "Beim Snell-Knoten wird die Schnur nicht nur am Öhr, sondern entlang des Hakenschenkels festgelegt. Der Zug läuft dadurch in gerader Linie auf den Haken und verbessert die Hakwirkung deutlich.\n\nEr eignet sich besonders für Haken mit Plättchen statt Öhr und ist beim Karpfen- und Naturköderangeln beliebt. Sauber gebunden gehört er zu den stärksten Hakenverbindungen.",
+    "steps": [
+      "Die Schnur durch das Öhr von vorne nach hinten führen.",
+      "Eine Schlaufe entlang des Hakenschenkels legen.",
+      "Das Ende sechs bis acht Mal um Schenkel und Schlaufe wickeln, Richtung Hakenbogen.",
+      "Das Ende straff ziehen, sodass die Wicklungen am Schenkel anliegen.",
+      "Knoten anfeuchten und durch Zug an der Hauptschnur festsetzen.",
+      "Das überstehende Ende dicht kappen."
+    ],
+    "tips": [
+      "Die Wicklungen sauber nebeneinander legen und vor dem Zuziehen anfeuchten.",
+      "Darauf achten, dass die Schnur am Ende auf der Innenseite des Hakenbogens austritt."
+    ],
+    "featured": false
+  },
+  {
+    "id": "doppelter-grinner",
+    "name": "Doppelter Grinner",
+    "nameEn": "Double Uni Knot",
+    "use": "zwei Schnüre, auch Geflecht an Mono, sicher verbinden",
+    "connects": "Schnur an Schnur",
+    "strength": "ca. 90 %",
+    "difficulty": "Fortgeschritten",
+    "tagline": "Zwei gegeneinander gezogene Grinner als starke Schnurverbindung.",
+    "description": "Der doppelte Grinner besteht aus zwei einzelnen Grinner-Knoten, die auf den jeweils anderen Schnurstrang gebunden und dann gegeneinander zusammengezogen werden. So entsteht eine sehr zuverlässige Schnur-an-Schnur-Verbindung.\n\nEr verbindet auch unterschiedliche Schnurtypen wie Geflecht und Fluorocarbon und ist leichter zu lernen als der FG-Knoten. Damit ist er ein guter Kompromiss aus Festigkeit und einfacher Handhabung.",
+    "steps": [
+      "Die beiden Schnüre ein Stück parallel überlappen.",
+      "Mit der ersten Schnur einen Grinner um die zweite Schnur binden, fünf bis sechs Wicklungen.",
+      "Mit der zweiten Schnur spiegelbildlich einen Grinner um die erste Schnur binden.",
+      "Beide Knoten anfeuchten und einzeln zuziehen.",
+      "An beiden Hauptschnüren ziehen, bis die Knoten aufeinander zulaufen und blocken.",
+      "Die überstehenden Enden kurz kappen."
+    ],
+    "tips": [
+      "Bei Geflecht ruhig sechs bis sieben Wicklungen nehmen, bei Mono reichen fünf.",
+      "Beide Knoten anfeuchten, bevor sie gegeneinander auf Block gezogen werden."
+    ],
+    "featured": false
+  }
+]

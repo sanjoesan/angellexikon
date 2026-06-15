@@ -1,0 +1,24 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import { withBase } from '../utils/url';
+import { NAV } from '../consts';
+---
+<BaseLayout title="Seite nicht gefunden">
+  <section class="hero" style="padding-bottom:3rem">
+    <div class="container hero-inner center" style="margin-inline:auto">
+      <span class="eyebrow" style="justify-content:center">Fehler 404</span>
+      <h1 style="font-size:clamp(3rem,12vw,6rem)">🎣 …nur Schuhe gefangen.</h1>
+      <p class="lead" style="margin-inline:auto">
+        Diese Seite ist uns durch die Maschen gegangen. Vielleicht hilft die Suche oder einer
+        der Wissensbereiche weiter.
+      </p>
+      <div class="hero-cta" style="justify-content:center">
+        <a class="btn btn-primary btn-lg" href={withBase('/')}>Zur Startseite</a>
+        <button class="btn btn-lg" data-search-open type="button" style="color:#eafcff;border-color:rgba(255,255,255,.3);background:rgba(255,255,255,.08)">🔍 Suche öffnen</button>
+      </div>
+      <ul class="chip-list" style="justify-content:center;margin-top:2rem">
+        {NAV.map((c) => <li><a class="chip" href={withBase('/' + c.key + '/')}>{c.icon} {c.label}</a></li>)}
+      </ul>
+    </div>
+  </section>
+</BaseLayout>

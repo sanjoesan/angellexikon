@@ -1,0 +1,69 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import WaveDivider from '../components/WaveDivider.astro';
+import { CATEGORIES, REPO_URL } from '../consts';
+import { getCollection } from 'astro:content';
+import { withBase } from '../utils/url';
+
+let total = 0;
+for (const c of CATEGORIES) {
+  try { total += (await getCollection(c.key as any)).length; } catch {}
+}
+---
+<BaseLayout title="Über das Projekt" description="Was das Angellexikon ist, wie es entsteht und worauf wir Wert legen.">
+  <section class="cat-hero">
+    <div class="container">
+      <span class="big-emoji" aria-hidden="true">ℹ️</span>
+      <h1>Über das Angellexikon</h1>
+      <p class="lead">Ein frei zugängliches Nachschlagewerk rund ums Angeln – von Anglern für Angler.</p>
+    </div>
+  </section>
+  <WaveDivider />
+
+  <section class="section container narrow">
+    <div class="prose flow" style="max-width:72ch;margin-inline:auto">
+      <p>
+        Das <strong>Angellexikon</strong> bündelt Wissen über Fischarten, Angeltechniken, Gewässer
+        und Reviere aus aller Welt an einem Ort. Ob du gerade deinen Fischereischein machst oder
+        schon Jahrzehnte am Wasser stehst – hier findest du verständlich aufbereitete Steckbriefe,
+        Anleitungen und Tipps. Aktuell umfasst das Lexikon <strong>{total} Einträge</strong> in acht
+        Themenbereichen, und es wächst stetig weiter.
+      </p>
+
+      <h2 style="font-family:var(--font-display)">Worauf wir Wert legen</h2>
+      <ul class="tiplist check" style="margin-block:1rem">
+        <li><strong>Umfassend:</strong> Süß- und Salzwasser, alle Kontinente, vom Köderfisch bis zum Knoten.</li>
+        <li><strong>Verständlich:</strong> klare Sprache, schöne Gestaltung, schnelle Suche.</li>
+        <li><strong>Frei &amp; werbefrei:</strong> kostenlos für alle, ohne Tracking, blitzschnell.</li>
+        <li><strong>Nachhaltig:</strong> wir werben stets für waidgerechtes, respektvolles Angeln.</li>
+      </ul>
+
+      <h2 style="font-family:var(--font-display)">Angeln mit Verantwortung</h2>
+      <p>
+        Petri Heil bedeutet auch Verantwortung. Informiere dich vor jedem Angeltag über die
+        geltenden Regeln deines Gewässers: <strong>gültige Papiere</strong> (Fischereischein und
+        Erlaubnisschein), <strong>Schonzeiten</strong>, <strong>Mindest- und Höchstmaße</strong>
+        sowie <strong>Entnahmefenster</strong>. Behandle jeden Fisch schonend und nimm nur mit, was
+        du auch verwertest. Die Angaben in diesem Lexikon sind allgemeine Richtwerte und ersetzen
+        keine örtlichen Vorschriften.
+      </p>
+
+      <h2 style="font-family:var(--font-display)">Wie es gebaut ist</h2>
+      <p>
+        Diese Seite ist eine statische Website auf Basis von <a href="https://astro.build" target="_blank" rel="noopener">Astro</a>,
+        wird automatisch über GitHub Actions gebaut und auf GitHub Pages veröffentlicht. Der
+        komplette Quellcode samt aller Inhalte ist offen einsehbar.
+      </p>
+
+      <div class="hero-cta" style="margin-top:1.6rem">
+        <a class="btn btn-primary" href={REPO_URL} target="_blank" rel="noopener">⭐ Projekt auf GitHub</a>
+        <a class="btn" href={withBase('/')}>Zur Startseite</a>
+      </div>
+
+      <p class="muted" style="margin-top:2rem;font-size:.9rem">
+        Haftungsausschluss: Alle Inhalte dienen Informationszwecken. Trotz sorgfältiger Recherche
+        kann keine Gewähr für Vollständigkeit und Richtigkeit übernommen werden.
+      </p>
+    </div>
+  </section>
+</BaseLayout>

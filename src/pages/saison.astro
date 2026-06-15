@@ -1,0 +1,80 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import WaveDivider from '../components/WaveDivider.astro';
+import { getCollection } from 'astro:content';
+import { entryUrl } from '../utils/url';
+
+const MONTHS = ['Januar', 'Februar', 'März', 'April', 'Mai', 'Juni', 'Juli', 'August', 'September', 'Oktober', 'November', 'Dezember'];
+
+let fische: any[] = [];
+let techniken: any[] = [];
+try { fische = await getCollection('fische'); } catch {}
+try { techniken = await getCollection('techniken'); } catch {}
+
+const calendar = MONTHS.map((m, i) => ({
+  month: m,
+  index: i,
+  fish: fische
+    .filter((e) => (e.data.bestSeason || []).includes(m))
+    .map((e) => ({ label: e.data.name, href: entryUrl('fische', e.id) }))
+    .sort((a, b) => a.label.localeCompare(b.label, 'de')),
+  techniques: techniken
+    .filter((e) => (e.data.bestSeason || []).includes(m))
+    .map((e) => ({ label: e.data.name, href: entryUrl('techniken', e.id) })),
+}));
+---
+<BaseLayout title="Saison-Kalender" description="Wann beißt was? Der Angel-Saisonkalender zeigt dir Monat für Monat die besten Zielfische und Methoden.">
+  <section class="cat-hero">
+    <div class="container">
+      <span class="big-emoji" aria-hidden="true">📅</span>
+      <h1>Saison-Kalender</h1>
+      <p class="lead">Wann beißt was? Finde Monat für Monat die aussichtsreichsten Zielfische und passende Techniken.</p>
+    </div>
+  </section>
+  <WaveDivider />
+
+  <section class="section container">
+    <div class="card-grid">
+      {calendar.map((c) => (
+        <article class="card reveal" data-month={c.index}>
+          <div class="ec-top" style="justify-content:space-between;width:100%">
+            <h3 style="margin:0">{c.month}</h3>
+            <span class="ec-emoji" aria-hidden="true">🗓️</span>
+          </div>
+          {c.fish.length > 0 ? (
+            <>
+              <p class="muted" style="margin:.4rem 0 .2rem;font-size:.8rem;text-transform:uppercase;letter-spacing:.06em">Zielfische</p>
+              <ul class="chip-list">{c.fish.map((x) => <li><a class="chip" href={x.href}>{x.label}</a></li>)}</ul>
+            </>
+          ) : (
+            <p class="muted" style="font-size:.9rem">Ruhiger Monat – Zeit für Gerätepflege. 🧰</p>
+          )}
+          {c.techniques.length > 0 && (
+            <>
+              <p class="muted" style="margin:.8rem 0 .2rem;font-size:.8rem;text-transform:uppercase;letter-spacing:.06em">Methoden</p>
+              <ul class="chip-list">{c.techniques.map((x) => <li><a class="chip" href={x.href}>{x.label}</a></li>)}</ul>
+            </>
+          )}
+        </article>
+      ))}
+    </div>
+    <p class="muted center mt-3" style="max-width:60ch;margin-inline:auto">
+      Hinweis: Beißzeiten sind Richtwerte und je nach Region, Wetter und Gewässer verschieden.
+      Beachte stets die örtlichen <strong>Schonzeiten</strong> und <strong>Mindestmaße</strong>.
+    </p>
+  </section>
+
+  <script>
+    // highlight the current month
+    const now = new Date().getMonth();
+    const card = document.querySelector(`[data-month="${now}"]`) as HTMLElement | null;
+    if (card) {
+      card.style.borderColor = 'var(--c-primary)';
+      card.style.boxShadow = 'var(--shadow-lg)';
+      const tag = document.createElement('span');
+      tag.className = 'badge';
+      tag.textContent = 'Jetzt';
+      card.querySelector('.ec-top')?.prepend(tag);
+    }
+  </script>
+</BaseLayout>

@@ -1,0 +1,122 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import EntryCard from '../../components/EntryCard.astro';
+import WaveDivider from '../../components/WaveDivider.astro';
+import { CATEGORIES, getCategory } from '../../consts';
+import { getCollection } from 'astro:content';
+import { entryUrl } from '../../utils/url';
+
+export async function getStaticPaths() {
+  return CATEGORIES.map((c) => ({ params: { cat: c.key }, props: { catKey: c.key } }));
+}
+
+const { catKey } = Astro.props;
+const cat = getCategory(catKey as any);
+let entries: any[] = [];
+try { entries = await getCollection(catKey as any); } catch {}
+
+function facetOf(d: any): string | undefined {
+  switch (catKey) {
+    case 'fische': return d.habitat;
+    case 'techniken': return d.category;
+    case 'gewaesser': return d.type || d.kind;
+    case 'regionen': return d.continent;
+    case 'koeder': return d.type;
+    case 'knoten': return d.difficulty;
+    case 'ausruestung': return d.category;
+    case 'glossar': return d.category;
+    default: return undefined;
+  }
+}
+function subOf(d: any): string | undefined {
+  switch (catKey) {
+    case 'fische': return d.nameLat;
+    case 'gewaesser': return [d.type, d.region].filter(Boolean).join(' · ');
+    case 'knoten': return d.use || d.connects;
+    default: return facetOf(d);
+  }
+}
+function badgeOf(d: any): string | undefined {
+  return ['fische', 'techniken', 'knoten'].includes(catKey) ? d.difficulty : undefined;
+}
+
+const sorted = [...entries].sort((a, b) => a.data.name.localeCompare(b.data.name, 'de'));
+const facets = [...new Set(sorted.map((e) => facetOf(e.data)).filter(Boolean))].sort((a, b) =>
+  String(a).localeCompare(String(b), 'de')
+);
+const facetLabel: Record<string, string> = {
+  fische: 'Lebensraum', techniken: 'Art', gewaesser: 'Typ', regionen: 'Kontinent',
+  koeder: 'Köderart', knoten: 'Schwierigkeit', ausruestung: 'Kategorie', glossar: 'Themengebiet',
+};
+---
+<BaseLayout title={cat.label} description={cat.short}>
+  <section class="cat-hero">
+    <div class="container">
+      <span class="big-emoji" aria-hidden="true">{cat.icon}</span>
+      <h1>{cat.label}</h1>
+      <p class="lead">{cat.short}</p>
+    </div>
+  </section>
+  <WaveDivider />
+
+  <section class="section container">
+    <div class="toolbar">
+      <input id="localsearch" class="localsearch" type="search" placeholder={`In ${cat.label} suchen…`} aria-label={`In ${cat.label} suchen`} />
+      {facets.length > 1 && (
+        <>
+          <span class="count" style="margin-right:-.2rem">{facetLabel[catKey] ?? 'Filter'}:</span>
+          <button class="filterbtn active" data-filter="all" type="button">Alle</button>
+          {facets.map((f) => <button class="filterbtn" data-filter={f} type="button">{f}</button>)}
+        </>
+      )}
+      <span class="count" id="result-count" style="margin-left:auto">{sorted.length} Einträge</span>
+    </div>
+
+    <div class="card-grid">
+      {sorted.map((e) => (
+        <EntryCard
+          href={entryUrl(catKey, e.id)}
+          name={e.data.name}
+          tagline={e.data.tagline}
+          icon={cat.icon}
+          sub={subOf(e.data)}
+          badge={badgeOf(e.data)}
+          filter={facetOf(e.data)}
+          haystack={[e.data.nameLat, e.data.nameEn, (e.data.aliases || []).join(' '), (e.data.species || []).join(' '), (e.data.targetFish || []).join(' ')].filter(Boolean).join(' ')}
+        />
+      ))}
+    </div>
+    <div id="noresults" class="noresults is-hidden">Keine Einträge gefunden – versuche einen anderen Begriff. 🎣</div>
+  </section>
+
+  <script>
+    const q = document.getElementById('localsearch') as HTMLInputElement | null;
+    const items = [...document.querySelectorAll('[data-entry]')] as HTMLElement[];
+    const btns = [...document.querySelectorAll('.filterbtn')] as HTMLElement[];
+    const countEl = document.getElementById('result-count');
+    const nr = document.getElementById('noresults');
+    let activeFilter = 'all';
+    function apply() {
+      const term = (q?.value || '').toLowerCase().trim();
+      let n = 0;
+      items.forEach((el) => {
+        const hay = el.getAttribute('data-haystack') || '';
+        const f = el.getAttribute('data-filter') || '';
+        const ok = (activeFilter === 'all' || f === activeFilter) && (!term || hay.includes(term));
+        el.classList.toggle('is-hidden', !ok);
+        if (ok) n++;
+      });
+      if (countEl) countEl.textContent = n + (n === 1 ? ' Eintrag' : ' Einträge');
+      nr?.classList.toggle('is-hidden', n > 0);
+    }
+    q?.addEventListener('input', apply);
+    btns.forEach((b) =>
+      b.addEventListener('click', () => {
+        btns.forEach((x) => x.classList.remove('active'));
+        b.classList.add('active');
+        activeFilter = b.getAttribute('data-filter') || 'all';
+        apply();
+      })
+    );
+  </script>
+</BaseLayout>
